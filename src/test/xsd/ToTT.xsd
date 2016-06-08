@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsd="urn:oasis:names:tc:entity:xmlns:xml:catalog"
+           attributeFormDefault="qualified" elementFormDefault="qualified">
+    <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+    <xs:simpleType name="String32">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="1"/>
+            <xs:maxLength value="32"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="BookIdType">
+        <xs:annotation>
+            <xs:documentation>Lorem ipsum dolor sit amet</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base ="xs:string">
+            <xs:maxLength value="8"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="BookNameType">
+        <xs:annotation>
+            <xs:documentation>Lorem ipsum dolor sit amet</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="16"/>
+            <xs:minLength value="1"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="ModelType">
+        <xs:annotation>
+            <xs:documentation>Lorem ipsum dolor sit amet</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+
+    <xs:simpleType name="CurrencyType">
+        <xs:annotation>
+            <xs:documentation>Lorem ipsum dolor sit amet</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="String32"/>
+    </xs:simpleType>
+
+    <xs:simpleType name="DollarValue">
+        <xs:annotation>
+            <xs:documentation>Lorem ipsum dolor sit amet</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:double"/>
+    </xs:simpleType>
+
+    <xs:simpleType name="LastUpdate">
+        <xs:annotation>
+            <xs:documentation>Lorem ipsum dolor sit amet</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:dateTime"/>
+    </xs:simpleType>
+
+    <xs:simpleType name="PricingDate">
+        <xs:annotation>
+            <xs:documentation>Lorem ipsum dolor sit amet</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:date"/>
+    </xs:simpleType>
+
+    <xs:simpleType name="BusinessDate">
+        <xs:annotation>
+            <xs:documentation>Lorem ipsum dolor sit amet</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:date"/>
+    </xs:simpleType>
+
+    <xs:simpleType name="PricingMethod">
+        <xs:annotation>
+            <xs:documentation>Lorem ipsum dolor sit amet</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+
+    <xs:simpleType name="Group">
+        <xs:annotation>
+            <xs:documentation>Lorem ipsum dolor sit amet</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="String32"/>
+    </xs:simpleType>
+
+    <!--Lorem ipsum dolor sit amet-->
+
+    <xs:element name="PricingDate">
+        <xs:simpleType>
+            <xs:annotation>
+                <xs:documentation>Lorem ipsum dolor sit amet</xs:documentation>
+            </xs:annotation>
+            <xs:restriction base="xs:date"/>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="PricingMethodsEnabledForAPEX">
+        <xs:complexType>
+            <xs:annotation>
+                <xs:documentation>Lorem ipsum dolor sit amet
+                </xs:documentation>
+            </xs:annotation>
+            <xs:sequence>
+                <xs:element name="PricingMethodEnabledForAPEX" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:attribute name="PricingMethod" type="PricingMethod" use="required"/>
+                        <xs:attribute name="PricingDate" type="PricingDate" use="optional"/>
+                        <xs:attribute name="LastUpdate" type="LastUpdate" use="optional"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="PricingDataByMethod">
+        <xs:complexType>
+            <xs:annotation>
+                <xs:documentation>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xs:documentation>
+            </xs:annotation>
+            <xs:all>
+                <xs:element name="PricingDate"      type="PricingDate"      minOccurs="1" maxOccurs="1"/>
+                <xs:element name="LastUpdate"       type="LastUpdate"       minOccurs="1" maxOccurs="1"/>
+                <xs:element name="PricingMethod"    type="PricingMethod"    minOccurs="1" maxOccurs="1"/>
+                <xs:element name="DollarValue"      type="DollarValue"      minOccurs="1" maxOccurs="1"/>
+                <xs:element name="Model"            type="ModelType"        minOccurs="1" maxOccurs="1"/>
+                <xs:element ref="PricePerCurrency"                          minOccurs="1" maxOccurs="1"/>
+                <xs:element ref="Components"                                minOccurs="1" maxOccurs="1"/>
+                <xs:element ref="Annotations"                               minOccurs="1" maxOccurs="1"/>
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:element name="Book">
+        <xs:complexType>
+            <xs:annotation>
+                <xs:documentation>Lorem ipsum dolor sit amet</xs:documentation>
+            </xs:annotation>
+            <xs:sequence>
+                <xs:element name="Id" type="BookIdType" minOccurs="1" maxOccurs="1"/>
+                <xs:element name="Name" type="BookNameType" minOccurs="1" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="PricePerCurrency">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Currency" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:attribute name="Name" type="xs:string" use="required"/>
+                        <xs:attribute name="Value" type="xs:double" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Components">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Component" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:attribute name="Name" type="xs:string" use="required"/>
+                        <xs:attribute name="Value" type="xs:double" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Annotations">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Annotation" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:attribute name="Name" type="xs:string" use="required"/>
+                        <xs:attribute name="Value" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="DealLevelFallBackReason">
+        <xs:simpleType>
+            <xs:annotation>
+                <xs:documentation>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xs:documentation>
+            </xs:annotation>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="Contract Information Stale"/>
+                <xs:enumeration value="Contract Information Missing"/>
+                <xs:enumeration value="OMNI Bound Deal"/>
+                <xs:enumeration value="Unknown"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="Security">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Name" type="String32" minOccurs="1">
+                    <xs:annotation>
+                        <xs:documentation>Lorem ipsum dolor sit amet</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="Type" type="String32" minOccurs="1">
+                    <xs:annotation>
+                        <xs:documentation>Lorem ipsum dolor sit amet</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="Category" type="xs:string" minOccurs="0" maxOccurs="1" >
+                    <xs:annotation>
+                        <xs:documentation>Lorem ipsum dolor sit amet</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="Quantity" type="xs:double" minOccurs="1">
+                    <xs:annotation>
+                        <xs:documentation>Lorem ipsum dolor sit amet</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="Currency" type="CurrencyType" minOccurs="1">
+                    <xs:annotation>
+                        <xs:documentation>Lorem ipsum dolor sit amet</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <!-- Lorem ipsum dolor sit amet -->
+                <xs:element name="DollarValue" type="xs:double"  minOccurs="1">
+                    <xs:annotation>
+                        <xs:documentation>Lorem ipsum dolor sit amet</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <!-- Lorem ipsum dolor sit amet -->
+                <xs:element name="Model" type="ModelType" minOccurs="1">
+                    <xs:annotation>
+                        <xs:documentation>Lorem ipsum dolor sit amet</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <!-- Lorem ipsum dolor sit amet -->
+                <xs:element ref="PricePerCurrency" minOccurs="1"/>
+                <!-- Lorem ipsum dolor sit amet -->
+                <xs:element ref="Components" minOccurs="1"/>
+                <xs:element ref="Annotations" minOccurs="1"/>
+                <xs:element ref="PricingDataByMethod" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element name="Children" minOccurs="0" >
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="Security" minOccurs="0" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Contract">
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="Id" type="xs:string" minOccurs="1">
+                    <xs:annotation>
+                        <xs:documentation>Lorem ipsum dolor sit amet</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="Factory" type="xs:string" minOccurs="1">
+                    <xs:annotation>
+                        <xs:documentation>Lorem ipsum dolor sit amet</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="ICEWashAccountId" type="xs:string" minOccurs="0" maxOccurs="1">
+                    <xs:annotation>
+                        <xs:documentation>Lorem ipsum dolor sit amet</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+            </xs:all>
+            <xs:attribute name="Type" use="required">
+                <xs:simpleType>
+                    <xs:annotation>
+                        <xs:documentation>
+                            Lorem ipsum dolor sit amet
+                        </xs:documentation>
+                    </xs:annotation>
+                    <xs:restriction base="xs:token">
+                        <xs:pattern value="ICE|FirmRisk"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="PricingNode">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Contract" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="DealId" type="String32" minOccurs="0" maxOccurs="1">
+                    <xs:annotation>
+                        <xs:documentation>Lorem ipsum dolor sit amet</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element ref="DealLevelFallBackReason" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="Factory" type="xs:string" minOccurs="0" maxOccurs="1">
+                    <xs:annotation>
+                        <xs:documentation>Lorem ipsum dolor sit amet</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element ref="Security" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute name="Type" use="required">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:pattern value="Fungible|Contract|Deal"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="TradingBook">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Id" type="BookIdType" minOccurs="1" maxOccurs="1"/>
+                <xs:element name="Name" type="BookNameType" minOccurs="1" maxOccurs="1"/>
+                <xs:element ref="PricingDate" minOccurs="1" maxOccurs="1"/>
+                <xs:element name="ArchiveTime" type="xs:dateTime" minOccurs="1" maxOccurs="1"/>
+                <xs:element name="ReportablePriceTag" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                <xs:element name="Group" type="Group" minOccurs="0" maxOccurs="1"/>
+                <xs:element ref="PricingMethodsEnabledForAPEX" minOccurs="1" maxOccurs="1"/>
+                <xs:element ref="PricingNode" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="UnboundedTradingBook">
+        <xs:complexType>
+            <xs:sequence minOccurs="2" maxOccurs="unbounded">
+                <xs:element name="Id" type="BookIdType" minOccurs="2" maxOccurs="unbounded"/>
+                <xs:element name="Name" type="BookNameType" minOccurs="0" maxOccurs="3"/>
+                <xs:element ref="PricingDate" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="ArchiveTime" type="xs:dateTime" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="ReportablePriceTag" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="Group" type="Group" minOccurs="0" maxOccurs="1"/>
+                <xs:element ref="PricingMethodsEnabledForAPEX" minOccurs="0" maxOccurs="1"/>
+                <xs:element ref="PricingNode" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="PricingData">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="BusinessUnit" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                <xs:element name="ShortValue" type="xs:short" minOccurs="1" maxOccurs="1"/>
+                <xs:element name="Location" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                <xs:element name="BusinessDate" type="BusinessDate" minOccurs="1" maxOccurs="1"/>
+                <xs:element ref="TradingBook" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="PricingDataAll">
+        <xs:complexType>
+            <xs:all minOccurs="0">
+                <xs:element name="BusinessUnit" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="ShortValue" type="xs:short" minOccurs="1" maxOccurs="1"/>
+                <xs:element name="Location" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                <xs:element name="BusinessDate" type="BusinessDate" minOccurs="1" maxOccurs="1"/>
+                <xs:element ref="TradingBook" minOccurs="0" maxOccurs="1"/>
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="PricingDataChoice">
+        <xs:complexType>
+            <xs:choice>
+                <xs:element name="BusinessUnit" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="ShortValue" type="xs:short" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="Location" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="BusinessNumber" type="xs:int" minOccurs="0" maxOccurs="1"/>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="PricingDataChoiceUnbounded">
+        <xs:complexType>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element name="BusinessUnit" type="xs:string" minOccurs="2" maxOccurs="3"/>
+                <xs:element name="ShortValue" type="xs:short" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="Location" type="xs:boolean" minOccurs="0" maxOccurs="3"/>
+                <xs:element name="BusinessNumber" type="xs:int" minOccurs="0" maxOccurs="3"/>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="PricingDataChoiceDate">
+        <xs:complexType>
+            <xs:choice>
+                <xs:element name="BusinessUnit" type="xs:date" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="ShortValue" type="xs:short" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="Location" type="xs:date" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="BusinessDate" type="xs:date" minOccurs="0" maxOccurs="1"/>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PricingDataChoiceDateTime">
+        <xs:complexType>
+            <xs:choice>
+                <xs:element name="BusinessUnit" type="xs:dateTime" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="ShortValue" type="xs:dateTime" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="Location" type="xs:dateTime" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="BusinessDate" type="xs:dateTime" minOccurs="0" maxOccurs="1"/>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

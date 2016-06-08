@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd"
+        pageTitle="Cujaqekufuki Jimodi Cezuxom"
+         pageBuilder="com.gs.fw.kaza.desa.vopigipipuhotevitefav.vo.QeDokanafegUcabuvUzidIharohi"
+        style="layout.white.style">
+
+    <section feature="HapeqUvapebuq" style="section.white.style">
+        <row feature="bejinoTaburet">
+            <button label="Vayus Xinocepe" name="wulohEdujov" downloadContent="true"
+                    contentDownloader="com.gs.fw.kaza.desa.vo.hizuneyel.domain.FogaZukocamumeleTibezOmoliyecok"
+                    pageBuilder="com.gs.fw.kaza.desa.vopigipipuhotevitefav.vo.QeDokanafegUcabuvUzidIharohi"
+                    openSavedFile="true"/>
+            <button label="Qiwo Xinocepe" name="saqaBadaqi" downloadContent="true"
+                    contentDownloader="com.gs.fw.kaza.desa.vo.hizuneyel.domain.YuxoZinexehosi"
+                    pageBuilder="com.gs.fw.kaza.desa.vopigipipuhotevitefav.vo.QeDokanafegUcabuvUzidIharohi"/>
+        </row>
+        <row feature="hekAdaQiqarulaTehikoz">
+            <button label="Vayus Xinocepe" name="wulohEdujov" downloadContent="true"
+                    contentDownloader="com.gs.fw.kaza.desa.vopigipipuhotevitefav.excel.LaWobuvuyorUgiwefegacejAliveXuqifufepu"
+                    pageBuilder="com.gs.fw.kaza.desa.vopigipipuhotevitefav.vo.QeDokanafegUcabuvUzidIharohi"
+                    openSavedFile="true"/>
+            <button label="Qiwo Xinocepe" name="saqaBadaqi" downloadContent="true"
+                    contentDownloader="com.gs.fw.kaza.desa.vopigipipuhotevitefav.excel.HaLijawokupItuHavAnofunuxIdivUwinoluxex"
+                    pageBuilder="com.gs.fw.kaza.desa.vopigipipuhotevitefav.vo.QeDokanafegUcabuvUzidIharohi"/>
+        </row>
+    </section>
+    <section caption="Vojiy Yokucaz" style="section.white.style" expandable="true" expanded="false">
+        <row feature="tokalAmexuquRoqa">
+            <section style="section.white.style">
+                <row>
+                    <section caption="Qed 1" style="section.white.style">
+                        <row>
+                            <uiElement label="" name="cacuzOqujoxu1" renderAs="label" />
+                        </row>
+                    </section>
+                    <section caption="Qed 2" style="section.white.style">
+                        <row>
+                            <uiElement label="" name="cacuzOqujoxu2" renderAs="label" />
+                        </row>
+                    </section>
+                </row>
+            </section>
+        </row>
+        <row>
+            <uiElement label="" name="wavacAtometiJufuwe" renderAs="label" />
+        </row>
+    </section>
+
+    <section caption="Dulic Bega Puqivej" style="section.white.style">
+        <row>
+            <uiElement label="Dulic Bega by" name="vebidIdib" renderAs="combobox"
+                       validation="NuxIzayEruhEfuneFudeJetulevif"/>
+            <button label="Dulic Bega" name="filigIwabOdedak"
+                    nextLayoutName="desa/vopigipipuhotevitefav/caDifopugitUmuruxEriwuSibaseruf.xml"
+                    pageBuilder="com.gs.fw.kaza.desa.vopigipipuhotevitefav.vo.WuVayejidehAtamixAxekoruQeragow.gurasiyOqeYomojOgul"
+                    validate="vebidIdib"/>
+        </row>
+    </section>
+
+    <section style="section.white.style">
+        <row>
+            <multitable name="vodagigebace">
+                <table name="vodagigebace_yedara" rowSelection="single" wrapContent="false" wrapHeader="true"/>
+                <table name="vodagigebace_hasofeyizah" rowSelection="single" wrapContent="false" wrapHeader="true"/>
+            </multitable>
+        </row>
+    </section>
+
+</layout>

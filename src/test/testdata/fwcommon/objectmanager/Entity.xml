@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Templates>key,nuzikuzu,noki,wunopi,wululu,javeneruma</Templates>
+    <PackageName>com.gs.fw.lilu.wute.domain.jewivuy</PackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.cuzuwevik.cache.DepusotaqiWeyegiwabAxucIfav</ImportPackageName>
+    <ClassName>Paxice</ClassName>
+    <SuperClassName>DepusotaqiWeyegiwabAxucIfav</SuperClassName>
+    <SchemaName>mut</SchemaName>
+    <DatabaseName/>
+    <ReadOnly>true</ReadOnly>
+    <PrimaryKeyAttribute keyClass="WuqaloHel">
+        <Attribute columnName="WOTEP_PAXICE_P" javaType="int" name="hequdeDo" sqlType="Ciyisag"/>
+    </PrimaryKeyAttribute>
+    <Attribute columnName="WOTEP_PAXICE_N" javaType="String" name="name" sqlType="XefeTewesa"/>
+    <Attribute columnName="QEXO_N" javaType="String" name="description" sqlType="XefeTewesa"/>
+    <Attribute columnName="HOJI_PIYA_N" javaType="String" name="dileweri" sqlType="XefeTewesa"/>
+    <Attribute columnName="XUWIGA_W" javaType="String" name="ritIbecufox" sqlType="XefeTewesa"/>
+    <Attribute columnName="KOL_MOJASAY_N" javaType="String" name="wojinawucArob" sqlType="XefeTewesa"/>
+    <Attribute columnName="IS_FIROVIZEB" javaType="boolean" name="supported" sqlType="Boolean"/>
+    <Attribute columnName="JABESIN_QEDE_N" javaType="String" name="wacubitAxim" sqlType="XefeTewesa"/>
+    <Attribute columnName="RU_ZUC_VUXA_N" javaType="String" name="bevOmefAtet" sqlType="XefeTewesa"/>
+    <Attribute columnName="IS_XOKOXOZONI" javaType="boolean" name="xokoxozoni" sqlType="Boolean"/>
+
+    <Index name="wojinawucArob">wojinawucArob</Index>
+    <Index name="name">name</Index>
+    <Index name="bevOmefAtet">bevOmefAtet</Index>
+</ManagedObject>
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>javeneruma,noki,wululu,wunopi,tetahij,interface,riyoxadipojoxuj,nuzikuzu</Templates>
+    <PackageName>com.gs.fw.lilu.cowow.domain.product</PackageName>
+    <ImportPackageName>com.gs.fw.lilu.cowow.domain.product.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.product.LivaFulubak</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.PajaVopakey</ImportPackageName>
+    <ClassName>JateciwaNubeti</ClassName>
+    <SchemaName>mut</SchemaName>
+    <ConnectionManagerName>cowow</ConnectionManagerName>
+    <ReadOnly>true</ReadOnly>
+    <ExplicitColumnNamesForSelect>true</ExplicitColumnNamesForSelect>
+    <ReadStoredProcedure>Zimeyi_Hiq_SurajomaKosovow</ReadStoredProcedure>
+
+    <PrimaryKeyAttribute keyClass="HehudifuJip">
+        <Attribute columnName="DOMU_W" javaType="String" name="cejasawUwesij" sqlType="XefeTewesa"/>
+        <Attribute columnName="PROD_RUM_YAK_P" javaType="int" name="qujoQotEyi" sqlType="Ciyisag"/>
+        <Attribute name="businessDate" sqlType="XIZofuxafasElegexaLimanigaw" javaType="Timestamp"
+                   columnName="businessDate"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="GUJIB_M" javaType="double" name="gujib" sqlType="Luhisa"/>
+    <Attribute columnName="TOZAW_M" javaType="double" name="tozaw" sqlType="Luhisa"/>
+    <Attribute columnName="ZOPOV_M" javaType="double" name="zopov" sqlType="Luhisa"/>
+    <Attribute columnName="NIDA_JADOJ_M" javaType="double" name="jediPobaxufora" sqlType="Luhisa"/>
+    <Attribute columnName="MAX_M" javaType="double" name="zusudutico" sqlType="Luhisa"/>
+    <Attribute columnName="XU_GISA" javaType="double" name="coJole" sqlType="Luhisa"/>
+    <Attribute columnName="SESU_GISA" javaType="double" name="kareCina" sqlType="Luhisa"/>
+
+    <Relationship cardinality="many-to-one" dependentClass="LivaFulubak" foreignKey="tuhutigEdo" name="product"/>
+    <Relationship cardinality="many-to-one" dependentClass="PajaVopakey" foreignKey="mefunakOle" name="jewivuy"/>
+
+    <AbstractMethod returnType="YowufarutaGib" methodName="cufEtolupiQur" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="hirAxihidiGew" parameters="YowufarutaGib key"/>
+    <AbstractMethod returnType="YowufarutaGib" methodName="fenOselujaDob" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="xujAqawuduDaz" parameters="YowufarutaGib key"/>
+
+    <Index name="businessDate">businessDate</Index>
+    <Index name="qujoQotEyi">qujoQotEyi</Index>
+</ManagedObject>
+

@@ -1,0 +1,105 @@
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<WireObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="../../xsd/wireobject.xsd"
+            name="FipEsoWosahiguhesEpehUtadoq"      package="com.gs.fw.para.domain.transaction.implementation"
+                                                    superclass="com.gs.fw.para.domain.transaction.implementation.PuxowowoYetoPexijaviyicAhotEfamin">
+<Version>
+
+    <!--duw tuyem-->
+    <Attribute name="yasopadUluz"               type="String"   maxLength="10"/>
+    <Attribute name="homejotaletElapar"         type="String"   maxLength="30"/>
+    <Attribute name="potevOkagiz"               type="String"   maxLength="6"/>
+    <Attribute name="nehuSayi"                  type="Date"     timestampType="timezoneInsensitive"/>
+    <Attribute name="revoBuzo"                  type="String"   maxLength="12"/>
+
+    <!--yif tuyem-->
+    <Attribute name="buneXoweviLaVuhopa"        type="String"   maxLength="6"/>
+    <Attribute name="vijiQutu"                  type="String"   maxLength="10"/>
+    <Attribute name="qabaya"                    type="String"   maxLength="3"/>
+    <Attribute name="disEze"                    type="String"   maxLength="30"/>
+    <Attribute name="version"                   type="int"/>
+    <Attribute name="luvaPug"                   type="String"   maxLength="30"/>
+    <Attribute name="qafasUjegOqo"              type="String"   maxLength="30"/>
+    <Attribute name="pebaniqOqahOme"            type="String"   maxLength="30"/>
+    <Attribute name="xewurasuZewu"              type="String"   maxLength="10"/>
+    <Attribute name="sizehAwaq"                 type="Date"     timestampType="timezoneInsensitive"/>
+    <Attribute name="fefehoMace"                type="Date"     timestampType="timezoneInsensitive"/>
+    <Attribute name="lesuxusagexOxaquzEmuv"     type="Date"     timestampType="timezoneInsensitive"/>
+    <Attribute name="ruqinuwotUmaz"             type="Date"     timestampType="timezoneInsensitive"/>
+    <Attribute name="viyumadIyuzAcexerunem"     type="boolean"/>
+    <Attribute name="zebUzos"                   type="String"   maxLength="10"/>
+    <Attribute name="qayaFizijiwasus"           type="String"   maxLength="10"/>
+
+    <!--kuqa tuyem-->
+    <Attribute name="qifiYaf"                   type="String"   maxLength="30"/>
+    <Attribute name="vanakoxuHubamudIdef"       type="String"   maxLength="3"/>
+    <Attribute name="pajofomuDohovoxUfat"       type="String"   maxLength="15"/>
+    <Attribute name="xijuhujEwirolaDabaNenuxeh" className="java.huha.List"  generic="com.gs.fw.para.domain.transaction.implementation.DicetufIpenaxiJiciTazaqe"/>
+    <Attribute name="canezuziLuc"               type="String"/>
+    <Attribute name="mosiheyoBiqa"              type="String"/>
+    <Attribute name="tigarewoQisuh"             type="double"/>
+
+    <!--pirad tuyem-->
+    <Attribute name="rasojAja"                  type="String"   maxLength="30"/>
+    <Attribute name="qagufOfab"                 type="String"   maxLength="10"/>
+    <Attribute name="mabucemiHi"                type="String"   maxLength="15"/>
+    <Attribute name="janayoxuViDeme"            type="double"/>
+    <Attribute name="kiluFeyu"                  type="double"/>
+    <Attribute name="josonica"                  type="double"/>
+    <Attribute name="huxuwimaSebahudo"          type="double"/>
+    <Attribute name="luzisEdubebox"             type="double"/>
+    <Attribute name="wutoWisilaqo"              type="double"/>
+    <Attribute name="huxufafOcoFuBivola"        type="String"   maxLength="10"/>
+    <Attribute name="fuzihEpegojuLi"            type="String"   maxLength="10"/>
+    <Attribute name="hihusodeDuhe"              type="String"   maxLength="15"/>
+    <Attribute name="noxiqaLiri"                type="String"   maxLength="15"/>
+    <Attribute name="kohefa"                    type="String"   maxLength="15"/>
+    <Attribute name="wazabeRi"                  type="String"   maxLength="15"/>
+    <Attribute name="zefupOq"                   type="String"   maxLength="15"/>
+    <Attribute name="nobimUhupOpig"             type="String"   maxLength="40"/>
+    <Attribute name="difUfukIyopEtUrakih"       type="String"   maxLength="1"/>
+    <Attribute name="bafocObeFi"                type="int"/>
+
+    <!--peku tuyem-->
+    <Attribute name="jekoGolAniwoz"             type="String"   maxLength="30"/>
+    <Attribute name="hikeDan"                   type="String"   maxLength="30"/>
+    <Attribute name="rapuGoru"                  type="String"   maxLength="10"/>
+    <Attribute name="raxokaCeyubupa"            type="String"   maxLength="3"/>
+    <Attribute name="guxuCodanokuMinazeve"      type="String"   maxLength="3"/>
+    <Attribute name="guzahoQiheju"              type="double"/>
+    <Attribute name="gojiCasuzaSonawa"          type="double"/>
+    <Attribute name="ziteHamajona"              type="double"/>
+    <Attribute name="fovaQenaTenubami"          type="double"/>
+    <Attribute name="sutusunaCaniheco"          type="double"/>
+
+    <!--yoru-->
+    <Attribute name="nari"                      type="String"   maxLength="30"/>
+    <Attribute name="sunog"                     type="String"   maxLength="30"/>
+    <Attribute name="bibog1"                    type="String"   maxLength="30"/>
+    <Attribute name="bibog2"                    type="String"   maxLength="30"/>
+    <Attribute name="bibog4"                    type="String"   maxLength="30"/>
+    <Attribute name="bibog5"                    type="String"   maxLength="30"/>
+    <Attribute name="bibog6"                    type="String"   maxLength="30"/>
+    <Attribute name="bibog7"                    type="String"   maxLength="30"/>
+    <Attribute name="bibog8"                    type="String"   maxLength="30"/>
+
+    <Attribute name="juhAjihujoNi"              type='long'/>
+    <Attribute name="xuxokEk"                   type='int'/>
+
+</Version>
+</WireObject>

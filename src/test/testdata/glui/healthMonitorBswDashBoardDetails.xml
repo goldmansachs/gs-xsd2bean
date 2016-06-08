@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-bajuxulida type="text/muj" hafu="../../../../xml/vo/peSezehu.muj"?>
+
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../qakigihede/layout.xsd"
+        pageBuilder="com.gs.fw.kaza.yepe.dehorubat.NafuqeRuqodupAramewoWufeCopohar"
+        pageTitle="YOD Sikek Lofuwo Xiwadug">
+    <section name="roqOgezOpoxoy">
+        <row>
+            <uiElement name="romiNulan" renderAs="label" defaultSelection="Saku"/>
+        </row>
+    </section>
+    <section caption="Nihatev Cewilap Information1" style="suquWeKoraVuzibiJobor.style">
+        <row>
+            <section name="jam" caption="CohakokohegAdukuh Cewilap Information" style="vufipevaham.label.style">
+                <row>
+                    <uiElement label="Sikek Gubiseg with QTP Zisa:" name="nixIwuGodo" renderAs="label"
+                               style="vufipevaham.label.style"/>
+                    <uiElement label="Yodihawis:" name="yovEleLepa" renderAs="label" style="vufipevaham.label.style"/>
+                </row>
+                <row>
+                    <uiElement label="Max. Ten.:" name="cosOciBex" renderAs="label" style="vufipevaham.label.style"/>
+                    <uiElement label="Fexov Kerac Ten.:" name="titOsiXafuyOqa" renderAs="label"
+                               style="vufipevaham.label.style"/>
+                    <uiElement label="Wife Ten.:" name="mezUsiyAva" renderAs="label" style="vufipevaham.label.style"/>
+                    <uiElement label="Lavu Ten.:" name="yexOximUyu" renderAs="label" style="vufipevaham.label.style"/>
+
+                </row>
+                <row>
+                    <uiElement label="Xosi of taco RO:" name="xowEgirEgeyUY" renderAs="label"
+                               style="vufipevaham.label.style"/>
+                    <uiElement label="Dohizu Lavu Pimudi taco RO:" name="wucEyaPeraSO" renderAs="label"
+                               style="vufipevaham.label.style"/>
+                    <uiElement label="Hani. Lavu Ten.:" name="tunUmumEte" renderAs="label"
+                               style="vufipevaham.label.style"/>
+                </row>
+                <row>
+                    <uiElement label="Xosi of taco Vojiy:" name="tagIkofEpadUzibu" renderAs="label"
+                               style="vufipevaham.label.style"/>
+                    <uiElement label="Fexov Fod. Takexoq:" name="nilEdiWekAbekipa" renderAs="label"
+                               style="vufipevaham.label.style"/>
+                    <uiElement label="Fod. Hani. Takexoq:" name="lamAfoDoveMujawoj" renderAs="label"
+                               style="vufipevaham.label.style"/>
+                </row>
+                <row>
+                    <button renderAs="jsbutton" name="ravEfe" label="" style="vufipevaham.link.style"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section caption="Dated Pesite Information" style="vufipevaham.label.style">
+                <row>
+                    <uiElement label="Paricejovo of date" name="fuxExibewanUjim" renderAs="label"
+                               style="vufipevaham.label.style"/>
+                </row>
+                <row>
+                    <section name="nit" caption="Fumotosi Sikek Cewilap Information" style="vufipevaham.label.style">
+
+                        <row>
+                            <uiElement label="Sikek Gubiseg with QTP Zisa:" name="nijEsuCiro" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                            <uiElement label="Yodihawis:" name="xelUtiVuge" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                        </row>
+                        <row>
+                            <uiElement label="Max. Ten.:" name="datUmuMuz" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                            <uiElement label="Fexov Kerac Ten.:" name="wetAqiDaxisAvu" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                            <uiElement label="Wife Ten.:" name="qicEjiqEyo" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                            <uiElement label="Lavu Ten.:" name="xujEsoyAwu" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+
+                        </row>
+                        <row>
+                            <uiElement label="Xosi of taco RO:" name="gejOjanAzixOJ" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                            <uiElement label="Dohizu Lavu Pimudi taco RO:" name="jebEkoZiwuMI" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                            <uiElement label="Hani. Lavu Ten.:" name="sajEzeqAta" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                        </row>
+                        <row>
+                            <uiElement label="Xosi of taco Vojiy:" name="rorIcarUcuhIlica" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                            <uiElement label="Fexov Fod. Takexoq:" name="fibIceRidEtaraqu" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                            <uiElement label="Fod. Hani. Takexoq:" name="rubUzeHehoHuzunav" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                        </row>
+                        <row>
+                            <button renderAs="jsbutton" name="cizUra" label="" style="vufipevaham.link.style"/>
+                        </row>
+
+                    </section>
+                </row>
+                <row>
+                    <section name="xun" caption="Melexiqican Sikek Cewilap Information" style="vufipevaham.label.style">
+                        <row>
+                            <uiElement label="Sikek Gubiseg with QTP Zisa:" name="mevIcaNuwo" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                            <uiElement label="Yodihawis:" name="lihUluNume" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                        </row>
+                        <row>
+                            <uiElement label="Max. Ten.:" name="bicAnaCuk" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                            <uiElement label="Fexov Kerac Ten.:" name="hecOwaJaguzUgu" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                            <uiElement label="Wife Ten.:" name="lowIyocEhe" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                            <uiElement label="Lavu Ten.:" name="sinIkanUzu" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+
+                        </row>
+                        <row>
+                            <uiElement label="Xosi of taco RO:" name="mucIrosAwubED" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                            <uiElement label="Dohizu Lavu Pimudi taco RO:" name="puyIziButeNA" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                            <uiElement label="Hani. Lavu Ten.:" name="zopIcodUwa" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                        </row>
+                        <row>
+                            <uiElement label="Xosi of taco Vojiy:" name="jaxUkohEcagIpafa" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                            <uiElement label="Fexov Fod. Takexoq:" name="luwEmeNupEsipaxu" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                            <uiElement label="Fod. Hani. Takexoq:" name="hupIjuJolaRaqovuj" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                        </row>
+                        <row>
+                            <button renderAs="jsbutton" name="zemUfo" label="" style="vufipevaham.link.style"/>
+                        </row>
+
+                    </section>
+                </row>
+                <row>
+                    <section name="dim" caption="Qoyesi Sikek Cewilap Information" style="vufipevaham.label.style">
+                        <row>
+                            <uiElement label="Sikek Gubiseg with QTP Zisa:" name="huhEniLibi" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                            <uiElement label="Yodihawis:" name="qowIfaBihi" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                        </row>
+                        <row>
+                            <uiElement label="Max. Ten.:" name="pagApoRel" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                            <uiElement label="Fexov Kerac Ten.:" name="devEmeXudogIke" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                            <uiElement label="Wife Ten.:" name="dafEjokUhu" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                            <uiElement label="Lavu Ten.:" name="lavIpojAhe" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+
+                        </row>
+                        <row>
+                            <uiElement label="Xosi of taco RO:" name="litAsecEgekOD" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                            <uiElement label="Dohizu Lavu Pimudi taco RO:" name="yemItuJiqiLI" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                            <uiElement label="Hani. Lavu Ten.:" name="loxAbakUjo" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                        </row>
+                        <row>
+                            <uiElement label="Xosi of taco Vojiy:" name="wizIjihIdefItuli" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                            <uiElement label="Fexov Fod. Takexoq:" name="xuxEgaFayIgokalo" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                            <uiElement label="Fod. Hani. Takexoq:" name="jipEzoFuqiKoyapeg" renderAs="label"
+                                       style="vufipevaham.label.style"/>
+                        </row>
+                        <row>
+                            <button renderAs="jsbutton" name="sivIbe" label="" style="vufipevaham.link.style"/>
+                        </row>
+
+                    </section>
+                </row>
+            </section>
+        </row>
+
+    </section>
+
+</layout>

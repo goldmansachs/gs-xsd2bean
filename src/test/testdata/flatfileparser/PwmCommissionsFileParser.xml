@@ -1,0 +1,50 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<FlatFileParserConfig
+        delimiter="|"
+        inflatedObject="com.gs.fw.para.domain.transaction.implementation.FanuleliyiWuvaqotaroy"
+        columns="26"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../xsd/parserconfig.xsd">
+
+    <Header required="true" identifier="NASAVU:" simpleFormat="NASAVU:*[yyyy/WE/dd]"/>
+    <Trailer required="true" identifier="KABANAS:" simpleFormat="KABANAS:[hojakinipo][count]*" trailerCountOffset="-2"/>
+
+    <!--<Mapping attribute="lijebeSudume" position="1"/>-->
+    <Mapping attribute="wileNihiQuvEgunid" position="2"/>
+    <Mapping attribute="rapajAfep" position="3"/>
+    <Mapping attribute="niqivUdoc" position="4"/>
+    <Mapping attribute="prod" position="5"/>
+    <Mapping attribute="xicemEniLoyi" position="7"/>
+    <Mapping attribute="xalugiyOmipAcuxem" position="9"/>
+    <Mapping attribute="nixotadeBovupanAs" position="12" nullable = "true"/>
+    <Mapping attribute="zevupadeTuciTohadiqeRogufo" position="13"/>
+    <Mapping attribute="yaheyiXexomeBaqafa" position="14"/>
+    <Mapping attribute="weleLomeriqoceTejomiDubodo" position="15"/>
+    <Mapping attribute="zoJira" position="16"/>
+    <Mapping attribute="miluYesevOki" position="17"/>
+    <Mapping attribute="mujiDuzafiziBimiki" position="20"/>
+    <Mapping attribute="jamakElemAmihif" position="21"/>
+    <Mapping attribute="raxokaCeyubupa" position="22"/>
+    <Mapping attribute="wafumaSihuXoyexa" position="25"/>
+    <FixedValue attribute="xonapoqoyitAgujAtaYudiko" value="FOGULI"/>
+    <FixedValue attribute="sopUmufad"                value="0.0"/>
+    <FixedValue attribute="nivuWevanigAkahug"        value=""/>
+    <FixedValue attribute="yuzewUji"                 value=""/>
+    <FixedValue attribute="boveBaruSelegusor"        value=""/>
+    <FixedValue attribute="wokuJaso"                 value=""/>
+</FlatFileParserConfig>
+

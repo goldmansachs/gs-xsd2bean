@@ -1,0 +1,1689 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:annotation>
+        <xsd:documentation xml:lang="en">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        </xsd:documentation>
+    </xsd:annotation>
+
+    <xsd:element name="Component" type="ComponentType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </div>
+            </xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+
+
+
+    <xsd:element name="Delta" type="DeltaType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <br />
+                </div>
+            </xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+
+    <xsd:complexType name="DeltaType">
+        <xsd:sequence>
+            <xsd:element ref="SimplePanel" minOccurs="1" maxOccurs="1" />
+        </xsd:sequence>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="LayerType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    A layer container.
+                </div>
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="LayoutPanelType" />
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="LayoutPanelType">
+        <xsd:complexContent>
+            <xsd:extension base="ContainerType">
+                <xsd:sequence>
+                    <xsd:element ref="Layout" minOccurs="1" maxOccurs="1" />
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="SimplePanelType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </div>
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="LayoutPanelType">
+                <xsd:attributeGroup ref="titled" />
+                <xsd:attributeGroup ref="dataModelContainer" />
+                <xsd:attribute name="collapsible" type="xsd:boolean">
+                    <xsd:annotation>
+                        <xsd:documentation xml:lang="en">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        </xsd:documentation>
+                    </xsd:annotation>
+                </xsd:attribute>
+                <xsd:attribute name="collapsed" type="xsd:boolean">
+                    <xsd:annotation>
+                        <xsd:documentation xml:lang="en">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        </xsd:documentation>
+                    </xsd:annotation>
+                </xsd:attribute>
+                <xsd:attribute name="closable" type="xsd:boolean" />
+                <xsd:attribute name="subscribeToDataModelLoadCompleteEvent" type="xsd:boolean">
+                    <xsd:annotation>
+                        <xsd:documentation xml:lang="en">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        </xsd:documentation>
+                    </xsd:annotation>
+                </xsd:attribute>
+                <xsd:attribute name="eagerlyLoadSyncFields" type="xsd:boolean">
+                    <xsd:annotation>
+                        <xsd:documentation xml:lang="en">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis no
+                        </xsd:documentation>
+                    </xsd:annotation>
+                </xsd:attribute>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:attributeGroup name="textual">
+        <xsd:attribute name="text" type="xsd:string" />
+    </xsd:attributeGroup>
+
+    <xsd:attributeGroup name="titled">
+        <xsd:attribute name="title" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+    </xsd:attributeGroup>
+
+    <xsd:attributeGroup name="imaged">
+        <xsd:attribute name="image" type="xsd:string" />
+    </xsd:attributeGroup>
+
+    <xsd:attributeGroup name="tooltipped">
+        <xsd:attribute name="tooltip" type="xsd:string" />
+    </xsd:attributeGroup>
+
+    <xsd:attributeGroup name="dataModelContainer">
+        <xsd:attribute name="dataModel" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="dataModelLoadSequence" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+    </xsd:attributeGroup>
+
+    <xsd:attributeGroup name="paged">
+        <xsd:attribute name="pageSize" type="xsd:int" />
+    </xsd:attributeGroup>
+
+    <xsd:attributeGroup name="syncable">
+        <xsd:attribute name="syncField" type="xsd:string" />
+    </xsd:attributeGroup>
+
+    <xsd:attributeGroup name="formattable">
+        <xsd:attribute name="format" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    <div xmlns="http://www.w3.org/1999/xhtml">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        <br />
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod &quot;tempor&quot;
+                    </div>
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+    </xsd:attributeGroup>
+
+    <xsd:attributeGroup name="filterableByList">
+        <xsd:attribute name="filterType">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="by_column_type" />
+                    <xsd:enumeration value="by_list" />
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+    </xsd:attributeGroup>
+
+    <xsd:attributeGroup name="draggable">
+        <xsd:attribute name="dragInGroup" type="xsd:string" />
+    </xsd:attributeGroup>
+
+    <xsd:attributeGroup name="droppable">
+        <xsd:attribute name="dropInGroup" type="xsd:string" />
+    </xsd:attributeGroup>
+
+    <xsd:attributeGroup name="defaultTextable">
+        <xsd:attribute name="defaultText" type="xsd:string" />
+    </xsd:attributeGroup>
+
+
+    <xsd:attributeGroup name="numberValidatable">
+        <xsd:attribute name="minValue" type="xsd:long" />
+        <xsd:attribute name="maxValue" type="xsd:long" />
+        <xsd:attribute name="decimalPrecision" type="xsd:int" />
+        <xsd:attribute name="allowBlank" type="xsd:boolean" />
+    </xsd:attributeGroup>
+
+
+    <xsd:attributeGroup name="lengthValidatable">
+        <xsd:attribute name="minChars" type="xsd:int">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis no
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="maxChars" type="xsd:int">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+    </xsd:attributeGroup>
+
+
+    <xsd:attributeGroup name="stringValidatable">
+        <xsd:attribute name="regexValidation" type="xsd:string" />
+        <xsd:attribute name="inputCharacterMask" type="xsd:string" />
+    </xsd:attributeGroup>
+
+    <xsd:attributeGroup name="validatable">
+        <xsd:attribute name="errorMessage" type="xsd:string" />
+    </xsd:attributeGroup>
+
+    <xsd:attributeGroup name="customValidatable">
+        <xsd:attribute name="customValidation" type="xsd:boolean" />
+    </xsd:attributeGroup>
+
+    <!-- todo enhance freya -->
+    <!--<xsd:group name="columnar">-->
+    <!--<xsd:sequence>-->
+    <!--<xsd:element ref="Column" minOccurs="1" maxOccurs="unbounded"/>-->
+    <!--</xsd:sequence>-->
+    <!--</xsd:group>-->
+
+    <xsd:complexType name="ContainerType">
+        <xsd:complexContent>
+            <xsd:extension base="ElementType">
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="LayoutType">
+        <xsd:sequence>
+            <xsd:element ref="Element" minOccurs="0" maxOccurs="unbounded" />
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="TableLayoutType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="LayoutType">
+                <xsd:attribute name="columns" type="xsd:int">
+                    <xsd:annotation>
+                        <xsd:documentation xml:lang="en">
+                            Number of columns in the layout.
+                        </xsd:documentation>
+                    </xsd:annotation>
+                </xsd:attribute>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="FlowLayoutType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="LayoutType">
+                <xsd:attribute name="orientation">
+                    <xsd:annotation>
+                        <xsd:documentation xml:lang="en">
+                            The relative positioning of controls, one of:
+                            <code>horizontal</code>,<code>vertical</code>, or<code>diagonal</code>.
+                        </xsd:documentation>
+                    </xsd:annotation>
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                            <xsd:enumeration value="horizontal" />
+                            <xsd:enumeration value="vertical" />
+                            <xsd:enumeration value="diagonal" />
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                </xsd:attribute>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="WindowType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </div>
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ElementType">
+                <xsd:sequence>
+                    <xsd:element ref="Container" minOccurs="0" maxOccurs="1" />
+                </xsd:sequence>
+                <xsd:attributeGroup ref="titled" />
+                <xsd:attribute name="modal" type="xsd:boolean" />
+                <xsd:attribute name="resizeable" type="xsd:boolean" />
+                <xsd:attribute name="closeable" type="xsd:boolean" />
+                <xsd:attribute name="collapsible" type="xsd:boolean" />
+                <xsd:attribute name="minimizable" type="xsd:boolean" />
+                <xsd:attribute name="maximizible" type="xsd:boolean" />
+                <xsd:attribute name="cascadeOnFirstShow" type="xsd:boolean" />
+                <xsd:attribute name="height" type="xsd:int" />
+                <xsd:attribute name="width" type="xsd:int" />
+                <xsd:attribute name="subscribeToPreClose" type="xsd:boolean" />
+            </xsd:extension>
+        </xsd:complexContent>
+
+    </xsd:complexType>
+
+    <xsd:complexType name="TabPanelType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ElementType">
+                <xsd:sequence>
+                    <xsd:element ref="Container" minOccurs="0" maxOccurs="unbounded" />
+                </xsd:sequence>
+                <xsd:attribute name="headerBar" type="xsd:boolean">
+                    <xsd:annotation>
+                        <xsd:documentation xml:lang="en">
+                            <div xmlns="http://www.w3.org/1999/xhtml">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                <br />
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            </div>
+                        </xsd:documentation>
+                    </xsd:annotation>
+                </xsd:attribute>
+                <xsd:attribute name="subscribeToTabChange" type="xsd:boolean" />
+                <xsd:attribute name="subscribeToPreClose" type="xsd:boolean" />
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="BorderPanelType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ElementType">
+                <xsd:sequence>
+                    <xsd:element ref="Center" minOccurs="1" maxOccurs="1" />
+                    <xsd:element ref="North" minOccurs="0" maxOccurs="1" />
+                    <xsd:element ref="East" minOccurs="0" maxOccurs="1" />
+                    <xsd:element ref="South" minOccurs="0" maxOccurs="1" />
+                    <xsd:element ref="West" minOccurs="0" maxOccurs="1" />
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="AccordionPanelType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </div>
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ElementType">
+                <xsd:sequence>
+                    <xsd:element ref="Container" minOccurs="0" maxOccurs="unbounded" />
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="CardPanelType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </div>
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ElementType">
+                <xsd:sequence>
+                    <xsd:element ref="Element" minOccurs="0" maxOccurs="unbounded" />
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="LayoutConstraintsType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:attribute name="colspan" type="xsd:int">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="rowspan" type="xsd:int">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="vertical-flex" type="xsd:int">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="horizontal-flex" type="xsd:int">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="padding-left" type="xsd:int">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="padding-right" type="xsd:int">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="padding-top" type="xsd:int">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="padding-bottom" type="xsd:int">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+
+        <xsd:attribute name="vertical-align">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="center" />
+                    <xsd:enumeration value="top" />
+                    <xsd:enumeration value="bottom" />
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+
+        <xsd:attribute name="horizontal-align">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="center" />
+                    <xsd:enumeration value="left" />
+                    <xsd:enumeration value="right" />
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+
+        <xsd:attribute name="width" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    <div xmlns="http://www.w3.org/1999/xhtml">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        <br />
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    </div>
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="height" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    <div xmlns="http://www.w3.org/1999/xhtml">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        <br />
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    </div>
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+    </xsd:complexType>
+
+    <xsd:complexType name="ImportStyleType">
+        <xsd:attribute name="styleName" type="xsd:string" />
+    </xsd:complexType>
+
+    <xsd:complexType name="StyleType">
+        <!--Lorem ipsum dolor sit amet-->
+        <xsd:attribute name="font-family" type="xsd:string" />
+        <xsd:attribute name="font-weight">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="normal" />
+                    <xsd:enumeration value="bold" />
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+        <xsd:attribute name="font-style">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="normal" />
+                    <xsd:enumeration value="italic" />
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+        <xsd:attribute name="font-decoration">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="none" />
+                    <xsd:enumeration value="underline" />
+                    <xsd:enumeration value="line_through" />
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+        <xsd:attribute name="font-color" type="xsd:string" />
+        <xsd:attribute name="font-size" type="xsd:int" />
+        <xsd:attribute name="border-width" type="xsd:int" />
+        <xsd:attribute name="border-color" type="xsd:string" />
+        <xsd:attribute name="background-color" type="xsd:string" />
+        <xsd:attribute name="background-image" type="xsd:string" />
+        <xsd:attribute name="background-image-repeat">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="repeat" />
+                    <xsd:enumeration value="repeat_horizontal" />
+                    <xsd:enumeration value="repeat_vertical" />
+                    <xsd:enumeration value="no_repeat" />
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+    </xsd:complexType>
+
+    <xsd:complexType name="DateColumnType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ColumnType">
+                <xsd:attributeGroup ref="formattable" />
+                <xsd:attribute name="allowBlank" type="xsd:boolean" />
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="StringColumnType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ColumnType">
+                <xsd:attributeGroup ref="stringValidatable" />
+                <xsd:attributeGroup ref="lengthValidatable" />
+                <xsd:attributeGroup ref="filterableByList" />
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="NumericColumnType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ColumnType">
+                <xsd:attributeGroup ref="formattable" />
+                <xsd:attributeGroup ref="numberValidatable" />
+                <xsd:attribute name="useNull" type="xsd:boolean" />
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="BooleanColumnType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ColumnType">
+                <xsd:attribute name="trueText" type="xsd:string" />
+                <xsd:attribute name="falseText" type="xsd:string" />
+                <xsd:attribute name="integratedCheckBox" type="xsd:boolean" />
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="EnumColumnType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ColumnType">
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="ImageColumnType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ColumnType">
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="ColumnType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </div>
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:attribute name="id" type="xsd:string" />
+        <xsd:attribute name="width" type="xsd:int" />
+        <xsd:attribute name="flex" type="xsd:int" />
+        <xsd:attribute name="align">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="left" />
+                    <xsd:enumeration value="right" />
+                    <xsd:enumeration value="center" />
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+        <xsd:attribute name="locked" type="xsd:boolean" />
+        <xsd:attribute name="editable" type="xsd:boolean" />
+        <xsd:attribute name="filterable" type="xsd:boolean" />
+        <xsd:attribute name="sortable" type="xsd:boolean" />
+        <!--Lorem ipsum dolor sit amet-->
+        <xsd:attribute name="columnGroup" type="xsd:string" />
+        <xsd:attributeGroup ref="titled" />
+        <xsd:attributeGroup ref="tooltipped" />
+        <xsd:attributeGroup ref="validatable" />
+    </xsd:complexType>
+
+    <xsd:complexType name="SummaryRowType">
+        <xsd:attribute name="javaClass" type="xsd:string" />
+    </xsd:complexType>
+
+
+    <xsd:complexType name="ComponentType">
+        <xsd:complexContent>
+            <xsd:extension base="SimplePanelType">
+                <xsd:sequence>
+                    <xsd:element name="Layer" type="LayerType" minOccurs="0" maxOccurs="1" />
+                    <xsd:element name="Authorization" type="AuthorizationType" minOccurs="0" maxOccurs="1" />
+                    <xsd:element name="MessageHandler" type="MessageHandlerType"
+                        minOccurs="0" maxOccurs="unbounded" />
+                </xsd:sequence>
+                <xsd:attribute name="applicationStateEventHandler" type="xsd:string">
+                    <xsd:annotation>
+                        <xsd:documentation xml:lang="en">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        </xsd:documentation>
+                    </xsd:annotation>
+                </xsd:attribute>
+                <xsd:attribute name="applicationTitle" type="xsd:string">
+                    <xsd:annotation>
+                        <xsd:documentation xml:lang="en">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        </xsd:documentation>
+                    </xsd:annotation>
+                </xsd:attribute>
+                <xsd:attribute name="applicationTimeout" type="xsd:long">
+                    <xsd:annotation>
+                        <xsd:documentation xml:lang="en">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        </xsd:documentation>
+                    </xsd:annotation>
+                </xsd:attribute>
+                <xsd:attribute name="inactiveEventDelay" type="xsd:long">
+                    <xsd:annotation>
+                        <xsd:documentation xml:lang="en">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        </xsd:documentation>
+                    </xsd:annotation>
+                </xsd:attribute>
+                <xsd:attribute name="rightClickContextMenuOverride" type="xsd:boolean" />
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="ImportComponentType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </div>
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ContainerType">
+                <xsd:sequence>
+                    <xsd:element name="Configuration" type="ConfigurationType" minOccurs="0" maxOccurs="unbounded" />
+                    <xsd:element name="MessageHandler" type="MessageHandlerType"
+                        minOccurs="0" maxOccurs="unbounded" />
+                </xsd:sequence>
+                <xsd:attribute name="componentId" type="xsd:string">
+                    <xsd:annotation>
+                        <xsd:documentation xml:lang="en">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        </xsd:documentation>
+                    </xsd:annotation>
+                </xsd:attribute>
+                <xsd:attributeGroup ref="titled" />
+                <xsd:attribute name="collapsible" type="xsd:boolean" />
+                <xsd:attribute name="collapsed" type="xsd:boolean" />
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="ElementType" abstract="true">
+        <xsd:sequence>
+            <xsd:element name="LayoutConstraints" type="LayoutConstraintsType" minOccurs="0" maxOccurs="1" />
+            <xsd:element name="ImportStyle" type="ImportStyleType" minOccurs="0" maxOccurs="1" />
+            <xsd:element name="Style" type="StyleType" minOccurs="0" maxOccurs="1" />
+            <xsd:element name="AuthorizationTag" type="AuthorizationTagType" minOccurs="0" maxOccurs="unbounded" />
+        </xsd:sequence>
+        <xsd:attribute name="id" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="enabled" type="xsd:boolean">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="visible" type="xsd:boolean">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="eventHandler" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+    </xsd:complexType>
+
+    <xsd:complexType name="PrimitiveType" abstract="true">
+        <xsd:complexContent>
+            <xsd:extension base="ElementType">
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="DataSetVisualizationType">
+        <xsd:complexContent>
+            <xsd:extension base="ElementType">
+                <xsd:attributeGroup ref="dataModelContainer" />
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="TextualDataSetVisualizationType" abstract="true">
+        <xsd:complexContent>
+            <xsd:extension base="DataSetVisualizationType">
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="TreeGridType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </div>
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="TextualDataSetVisualizationType">
+                <xsd:sequence>
+                    <xsd:element ref="StringColumn" minOccurs="0" maxOccurs="unbounded" />
+                    <xsd:element ref="SummaryRow" minOccurs="0" maxOccurs="unbounded" />
+                </xsd:sequence>
+                <xsd:attribute name="fitColumns" type="xsd:boolean" />
+                <xsd:attribute name="displayRoot" type="xsd:boolean" />
+                <xsd:attribute name="subscribeToDataModelLoadCompleteEvent" type="xsd:boolean">
+                    <xsd:annotation>
+                        <xsd:documentation xml:lang="en">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        </xsd:documentation>
+                    </xsd:annotation>
+                </xsd:attribute>
+            </xsd:extension>
+        </xsd:complexContent>
+
+    </xsd:complexType>
+
+    <xsd:complexType name="ListType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </div>
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="TextualDataSetVisualizationType">
+                <xsd:attribute name="listSelectionType">
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                            <xsd:enumeration value="single_row" />
+                            <xsd:enumeration value="multiple_row" />
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                </xsd:attribute>
+                <xsd:attributeGroup ref="titled" />
+                <xsd:attributeGroup ref="draggable" />
+                <xsd:attributeGroup ref="droppable" />
+                <xsd:attribute name="subscribeToDataModelLoadCompleteEvent" type="xsd:boolean" />
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="GridType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </div>
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="TextualDataSetVisualizationType">
+                <xsd:sequence>
+                    <xsd:element ref="Column" minOccurs="0" maxOccurs="unbounded" />
+                    <xsd:element ref="SummaryRow" minOccurs="0" maxOccurs="unbounded" />
+                </xsd:sequence>
+                <xsd:attribute name="fitColumns" type="xsd:boolean" />
+                <xsd:attribute name="cellLevelEdit" type="xsd:boolean">
+                    <xsd:annotation>
+                        <xsd:documentation xml:lang="en">
+                            <div xmlns="http://www.w3.org/1999/xhtml">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                <br />
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            </div>
+                        </xsd:documentation>
+                    </xsd:annotation>
+                </xsd:attribute>
+                <xsd:attribute name="stripedRows" type="xsd:boolean">
+                    <xsd:annotation>
+                        <xsd:documentation xml:lang="en">
+                            <div xmlns="http://www.w3.org/1999/xhtml">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                <br />
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            </div>
+                        </xsd:documentation>
+                    </xsd:annotation>
+                </xsd:attribute>
+                <xsd:attribute name="serverSort" type="xsd:boolean" />
+                <xsd:attribute name="emptyText" type="xsd:string">
+                    <xsd:annotation>
+                        <xsd:documentation xml:lang="en">
+                            <div xmlns="http://www.w3.org/1999/xhtml">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                <br />
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            </div>
+                        </xsd:documentation>
+                    </xsd:annotation>
+                </xsd:attribute>
+                <xsd:attribute name="subscribeToSingleCellClick" type="xsd:boolean" />
+                <xsd:attribute name="subscribeToDataModelLoadCompleteEvent" type="xsd:boolean" />
+                <xsd:attribute name="selectionType">
+                    <xsd:annotation>
+                        <xsd:documentation xml:lang="en">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        </xsd:documentation>
+                    </xsd:annotation>
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                            <xsd:enumeration value="single_row_checkbox">
+                                <xsd:annotation>
+                                    <xsd:documentation xml:lang="en">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    </xsd:documentation>
+                                </xsd:annotation>
+                            </xsd:enumeration>
+                            <xsd:enumeration value="multiple_row_checkbox">
+                                <xsd:annotation>
+                                    <xsd:documentation xml:lang="en">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    </xsd:documentation>
+                                </xsd:annotation>
+                            </xsd:enumeration>
+                            <xsd:enumeration value="single_row">
+                                <xsd:annotation>
+                                    <xsd:documentation xml:lang="en">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    </xsd:documentation>
+                                </xsd:annotation>
+                            </xsd:enumeration>
+                            <xsd:enumeration value="multiple_row">
+                                <xsd:annotation>
+                                    <xsd:documentation xml:lang="en">
+                                        <div xmlns="http://www.w3.org/1999/xhtml">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                            <br />
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        </div>
+                                    </xsd:documentation>
+                                </xsd:annotation>
+                            </xsd:enumeration>
+                            <xsd:enumeration value="none">
+                                <xsd:annotation>
+                                    <xsd:documentation xml:lang="en">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    </xsd:documentation>
+                                </xsd:annotation>
+                            </xsd:enumeration>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                </xsd:attribute>
+                <xsd:attribute name="filterMode">
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                            <xsd:enumeration value="local" />
+                            <xsd:enumeration value="server" />
+                            <xsd:enumeration value="server_inmemory" />
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                </xsd:attribute>
+                <xsd:attributeGroup ref="paged" />
+                <xsd:attributeGroup ref="draggable" />
+                <xsd:attributeGroup ref="droppable" />
+                <xsd:attribute name="enableHeaderMenu" type="xsd:boolean" />
+                <xsd:attribute name="columnHeaderWrap" type="xsd:boolean">
+                    <xsd:annotation>
+                        <xsd:documentation xml:lang="en">
+                            <div xmlns="http://www.w3.org/1999/xhtml">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                <br />
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            </div>
+                        </xsd:documentation>
+                    </xsd:annotation>
+                </xsd:attribute>
+                <xsd:attribute name="discardCellEditOnMouseWheelScroll" type="xsd:boolean">
+                    <xsd:annotation>
+                        <xsd:documentation xml:lang="en">
+                            <div xmlns="http://www.w3.org/1999/xhtml">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            </div>
+                        </xsd:documentation>
+                    </xsd:annotation>
+                </xsd:attribute>
+                <xsd:attribute name="clicksToEdit">
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                            <xsd:enumeration value="single" />
+                            <xsd:enumeration value="double" />
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                </xsd:attribute>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="TreeType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </div>
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="TextualDataSetVisualizationType">
+                <xsd:attribute name="displayRoot" type="xsd:boolean" />
+                <xsd:attributeGroup ref="draggable" />
+                <xsd:attributeGroup ref="droppable" />
+                <xsd:attribute name="checkbox" type="xsd:boolean" />
+                <xsd:attribute name="subscribeToDataModelLoadCompleteEvent" type="xsd:boolean">
+                    <xsd:annotation>
+                        <xsd:documentation xml:lang="en">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        </xsd:documentation>
+                    </xsd:annotation>
+                </xsd:attribute>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="GraphicalDataSetVisualizationType" abstract="true">
+        <xsd:complexContent>
+            <xsd:extension base="DataSetVisualizationType">
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="VectorCanvasType">
+        <xsd:complexContent>
+            <xsd:extension base="GraphicalDataSetVisualizationType">
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="LineChartType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </div>
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="GraphicalDataSetVisualizationType">
+                <xsd:attribute name="totalXTicks" type="xsd:int" />
+                <xsd:attributeGroup ref="titled" />
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="BarChartType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </div>
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="GraphicalDataSetVisualizationType">
+                <xsd:attribute name="totalXTicks" type="xsd:int" />
+                <xsd:attributeGroup ref="titled" />
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="PieChartType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </div>
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="GraphicalDataSetVisualizationType">
+                <xsd:attributeGroup ref="titled" />
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="TreeMapType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="GraphicalDataSetVisualizationType">
+                <xsd:attributeGroup ref="titled" />
+                <xsd:attribute name="showRoot" type="xsd:boolean" />
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="Elevation3DChartType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="GraphicalDataSetVisualizationType">
+                <xsd:attributeGroup ref="titled" />
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="SimpleEntryType">
+        <xsd:complexContent>
+            <xsd:extension base="ElementType">
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="TextEntry" abstract="true">
+        <xsd:complexContent>
+            <xsd:extension base="SimpleEntryType">
+                <xsd:attributeGroup ref="textual" />
+            </xsd:extension>
+        </xsd:complexContent>
+
+    </xsd:complexType>
+
+    <xsd:complexType name="CheckBoxType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </div>
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="SimpleEntryType">
+                <xsd:attribute name="checked" type="xsd:boolean" />
+            </xsd:extension>
+        </xsd:complexContent>
+
+    </xsd:complexType>
+
+
+    <xsd:complexType name="ComboBoxType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </div>
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="SimpleEntryType">
+                <xsd:attributeGroup ref="dataModelContainer" />
+                <xsd:attributeGroup ref="paged" />
+                <xsd:attributeGroup ref="syncable" />
+                <xsd:attributeGroup ref="defaultTextable" />
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="AutoSuggestType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </div>
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="SimpleEntryType">
+                <xsd:attributeGroup ref="defaultTextable" />
+                <xsd:attribute name="minCharsForSuggestion" type="xsd:int" />
+                <xsd:attributeGroup ref="dataModelContainer" />
+                <xsd:attributeGroup ref="paged" />
+                <xsd:attributeGroup ref="syncable" />
+                <xsd:attribute name="selectionType">
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                            <xsd:enumeration value="single_item" />
+                            <xsd:enumeration value="multiple_item" />
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                </xsd:attribute>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="DateEntryType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Lorem ipsum dolor sit amet</li>
+                    </ul>
+                </div>
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="SimpleEntryType">
+                <xsd:attributeGroup ref="formattable" />
+                <xsd:attributeGroup ref="syncable" />
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="SimpleActionableType">
+        <xsd:complexContent>
+            <xsd:extension base="ElementType">
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="ButtonType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="SimpleActionableType">
+                <xsd:attributeGroup ref="textual" />
+                <xsd:attributeGroup ref="imaged" />
+                <xsd:attribute name="blocking" type="xsd:boolean" />
+            </xsd:extension>
+        </xsd:complexContent>
+
+    </xsd:complexType>
+
+    <xsd:complexType name="LinkType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="SimpleActionableType">
+                <xsd:attributeGroup ref="textual" />
+                <xsd:attributeGroup ref="imaged" />
+                <xsd:attribute name="url" type="xsd:string" />
+                <xsd:attribute name="linkTargetType" type="linkTargetType" />
+                <xsd:attribute name="customTarget" type="xsd:string" />
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:simpleType name="linkTargetType">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="internal" />
+            <xsd:enumeration value="redirect" />
+            <xsd:enumeration value="new_window" />
+            <xsd:enumeration value="reuse_anon_window" />
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="formattedTextDialect">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="markdown" />
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:complexType name="FileUploadType">
+        <xsd:complexContent>
+            <xsd:extension base="SimpleActionableType">
+                <xsd:attributeGroup ref="textual" />
+                <xsd:attribute name="preloadFileIntrospection" type="xsd:boolean" />
+                <xsd:attribute name="progress" type="xsd:boolean" />
+                <xsd:attribute name="singleFile" type="xsd:boolean" />
+            </xsd:extension>
+        </xsd:complexContent>
+
+    </xsd:complexType>
+
+    <xsd:complexType name="TextEntryType" abstract="true">
+        <xsd:complexContent>
+            <xsd:extension base="SimpleEntryType">
+                <xsd:attributeGroup ref="textual" />
+                <xsd:attribute name="subscribeToKeyPress" type="xsd:boolean" />
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="TextAreaType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="TextEntryType">
+                <xsd:attributeGroup ref="syncable" />
+                <xsd:attributeGroup ref="defaultTextable" />
+                <xsd:attributeGroup ref="lengthValidatable"/>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="TextFieldType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="TextEntryType">
+                <xsd:attributeGroup ref="syncable" />
+                <xsd:attributeGroup ref="draggable" />
+                <xsd:attributeGroup ref="droppable" />
+                <xsd:attributeGroup ref="customValidatable" />
+                <xsd:attributeGroup ref="validatable" />
+                <xsd:attributeGroup ref="stringValidatable" />
+                <xsd:attributeGroup ref="lengthValidatable" />
+                <xsd:attributeGroup ref="defaultTextable" />
+                <xsd:attribute name="horizontalTextAlign">
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                            <xsd:enumeration value="left" />
+                            <xsd:enumeration value="right" />
+                            <xsd:enumeration value="center" />
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                </xsd:attribute>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="PasswordFieldType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="SimpleEntryType">
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="ImageType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="PrimitiveType">
+                <xsd:attribute name="source" type="xsd:string" />
+                <xsd:attribute name="tooltip" type="xsd:string" />
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="LabelType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="PrimitiveType">
+                <xsd:attributeGroup ref="textual" />
+                <xsd:attributeGroup ref="syncable" />
+                <xsd:attribute name="tooltip" type="xsd:string" />
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="FormattedTextType">
+        <xsd:complexContent>
+            <xsd:extension base="PrimitiveType">
+                <xsd:attributeGroup ref="textual" />
+                <xsd:attribute name="dialect" type="formattedTextDialect" />
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="VoidType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="PrimitiveType">
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="AuthorizationTransformerType">
+        <xsd:attribute name="className" type="xsd:string" use="required" />
+    </xsd:complexType>
+    <xsd:complexType name="AuthorizationTagType">
+        <xsd:attribute name="key" type="xsd:string" />
+        <xsd:attribute name="value" type="xsd:string" />
+    </xsd:complexType>
+
+    <xsd:complexType name="ConfigurationType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </div>
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:attribute name="key" type="xsd:string" />
+        <xsd:attribute name="value" type="xsd:string" />
+    </xsd:complexType>
+
+    <xsd:complexType name="MessageHandlerType">
+        <xsd:attribute name="subscribeToChannel" type="xsd:string" use="required" />
+        <xsd:attribute name="className" type="xsd:string" use="required" />
+    </xsd:complexType>
+    <xsd:complexType name="AuthorizationType">
+        <xsd:sequence>
+            <xsd:element name="Configuration" type="ConfigurationType" minOccurs="0" maxOccurs="unbounded" />
+            <!--deprecated-->
+            <xsd:element name="AuthorizationTag" type="AuthorizationTagType" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="AuthorizationTransformer" type="AuthorizationTransformerType" minOccurs="0" maxOccurs="unbounded" />
+        </xsd:sequence>
+        <xsd:attribute name="authorizerClass" type="xsd:string" />
+    </xsd:complexType>
+
+
+    <xsd:complexType name="NorthRegionType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element ref="Container" minOccurs="1" maxOccurs="1" />
+        </xsd:sequence>
+        <xsd:attribute name="height" type="xsd:int" />
+        <xsd:attribute name="resizeable" type="xsd:boolean" />
+    </xsd:complexType>
+
+    <xsd:complexType name="EastRegionType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element ref="Container" minOccurs="0" maxOccurs="1" />
+        </xsd:sequence>
+        <xsd:attribute name="width" type="xsd:int" />
+        <xsd:attribute name="resizeable" type="xsd:boolean" />
+    </xsd:complexType>
+
+    <xsd:complexType name="WestRegionType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element ref="Container" minOccurs="0" maxOccurs="1" />
+        </xsd:sequence>
+        <xsd:attribute name="width" type="xsd:int" />
+        <xsd:attribute name="resizeable" type="xsd:boolean" />
+    </xsd:complexType>
+
+    <xsd:complexType name="SouthRegionType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element ref="Container" minOccurs="0" maxOccurs="1" />
+        </xsd:sequence>
+        <xsd:attribute name="height" type="xsd:int" />
+        <xsd:attribute name="resizeable" type="xsd:boolean" />
+    </xsd:complexType>
+
+    <xsd:complexType name="CenterRegionType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element ref="Container" minOccurs="1" maxOccurs="1" />
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:element name="North" type="NorthRegionType" />
+    <xsd:element name="East" type="EastRegionType" />
+    <xsd:element name="West" type="WestRegionType" />
+    <xsd:element name="South" type="SouthRegionType" />
+    <xsd:element name="Center" type="CenterRegionType" />
+
+    
+
+    <xsd:element name="Container" type="ContainerType" abstract="true" substitutionGroup="Element" />
+    <xsd:element name="ImportComponent" type="ImportComponentType" substitutionGroup="Container" />
+    <xsd:element name="SimplePanel" type="SimplePanelType" substitutionGroup="Container" />
+    <xsd:element name="Window" type="WindowType" substitutionGroup="Element" />
+    <xsd:element name="TabPanel" type="TabPanelType" substitutionGroup="Element" />
+    <xsd:element name="BorderPanel" type="BorderPanelType" substitutionGroup="Element" />
+    <xsd:element name="AccordionPanel" type="AccordionPanelType" substitutionGroup="Element" />
+    <xsd:element name="CardPanel" type="CardPanelType" substitutionGroup="Element" />
+    <xsd:element name="Element" abstract="true" type="ElementType" />
+    <xsd:element name="Primitive" abstract="true" type="PrimitiveType" substitutionGroup="Element" />
+    <xsd:element name="DataSetVisualization" abstract="true" type="DataSetVisualizationType" substitutionGroup="Element" />
+    <xsd:element name="GraphicalDataSetVisualization" abstract="true" type="GraphicalDataSetVisualizationType" substitutionGroup="DataSetVisualization" />
+    <xsd:element name="TextualDataSetVisualization" abstract="true" type="TextualDataSetVisualizationType" substitutionGroup="DataSetVisualization" />
+    <xsd:element name="SimpleActionable" abstract="true" type="SimpleActionableType" substitutionGroup="Element" />
+    <xsd:element name="SimpleEntry" abstract="true" type="SimpleEntryType" substitutionGroup="Element" />
+    <xsd:element name="TextEntry" abstract="true" type="TextEntryType" substitutionGroup="SimpleEntry" />
+    <xsd:element name="Layout" type="LayoutType" abstract="true" />
+    <xsd:element name="TableLayout" type="TableLayoutType" substitutionGroup="Layout" />
+    <xsd:element name="FlowLayout" type="FlowLayoutType" substitutionGroup="Layout" />
+
+    <xsd:element name="Link" type="LinkType" substitutionGroup="SimpleActionable" />
+    <xsd:element name="Button" type="ButtonType" substitutionGroup="SimpleActionable" />
+    <xsd:element name="FileUpload" type="FileUploadType" substitutionGroup="SimpleActionable" />
+    <xsd:element name="ComboBox" type="ComboBoxType" substitutionGroup="SimpleEntry" />
+    <xsd:element name="AutoSuggest" type="AutoSuggestType" substitutionGroup="SimpleEntry" />
+    <xsd:element name="DateEntry" type="DateEntryType" substitutionGroup="SimpleEntry" />
+    <xsd:element name="CheckBox" type="CheckBoxType" substitutionGroup="SimpleEntry" />
+    <xsd:element name="TextArea" type="TextAreaType" substitutionGroup="TextEntry" />
+    <xsd:element name="TextField" type="TextFieldType" substitutionGroup="TextEntry" />
+    <xsd:element name="PasswordField" type="PasswordFieldType" substitutionGroup="SimpleEntry" />
+    <xsd:element name="Image" type="ImageType" substitutionGroup="Primitive" />
+    <xsd:element name="Label" type="LabelType" substitutionGroup="Primitive" />
+    <xsd:element name="FormattedText" type="FormattedTextType" substitutionGroup="Element" />
+    <xsd:element name="Void" type="VoidType" substitutionGroup="Primitive" />
+    <xsd:element name="VectorCanvas" type="VectorCanvasType" substitutionGroup="GraphicalDataSetVisualization" />
+    <xsd:element name="LineChart" type="LineChartType" substitutionGroup="GraphicalDataSetVisualization" />
+    <xsd:element name="BarChart" type="BarChartType" substitutionGroup="GraphicalDataSetVisualization" />
+    <xsd:element name="PieChart" type="PieChartType" substitutionGroup="GraphicalDataSetVisualization" />
+    <xsd:element name="TreeMap" type="TreeMapType" substitutionGroup="GraphicalDataSetVisualization" />
+    <xsd:element name="Elevation3DChart" type="Elevation3DChartType" substitutionGroup="GraphicalDataSetVisualization" />
+    <xsd:element name="Tree" type="TreeType" substitutionGroup="TextualDataSetVisualization" />
+    <xsd:element name="List" type="ListType" substitutionGroup="TextualDataSetVisualization" />
+    <xsd:element name="Grid" type="GridType" substitutionGroup="TextualDataSetVisualization" />
+    <xsd:element name="TreeGrid" type="TreeGridType" substitutionGroup="TextualDataSetVisualization" />
+    <xsd:element name="Column" abstract="true" type="ColumnType" />
+    <xsd:element name="BooleanColumn" type="BooleanColumnType" substitutionGroup="Column" />
+    <xsd:element name="EnumColumn" type="EnumColumnType" substitutionGroup="Column" />
+    <xsd:element name="ImageColumn" type="ImageColumnType" substitutionGroup="Column" />
+    <xsd:element name="NumericColumn" type="NumericColumnType" substitutionGroup="Column" />
+    <xsd:element name="DateColumn" type="DateColumnType" substitutionGroup="Column" />
+    <xsd:element name="StringColumn" type="StringColumnType" substitutionGroup="Column" />
+    <xsd:element name="SummaryRow" type="SummaryRowType" />
+    <xsd:element name="LayoutConstraints" type="LayoutConstraintsType" />
+    <xsd:element name="StyleImport" type="ImportStyleType" />
+    <xsd:element name="Style" type="StyleType" />
+</xsd:schema>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd"
+        layoutId="Vojiy Pizer" pageTitle="Kav Faloxolaw (4N) Vojiy"
+        pageBuilder="com.gs.fw.kaza.desa.faloxolaw.vo.XulEcagakuqeQuzucIlukowe" showSelection="false">
+
+    <section>
+        <row>
+            <section caption="Cuyokujo Date Dob Mosuku Puqivej">
+                <row>
+                    <uiElement name="businessDate1" label="Cuyokujo Date" renderAs="combobox" sortBy="none"/>
+                    <uiElement name="qahodoqo1" label="Qahodoqo" renderAs="combobox" sortBy="none"/>
+                </row>
+            </section>
+        </row>
+
+        <row>
+            <section caption="Qed on Qed Tomelad" expandable="true" expanded="false">
+                <row>
+                    <uiElement name="businessDate2" label="Cuyokujo Date" renderAs="combobox" sortBy="none" noSelectOption=""/>
+                    <uiElement name="qahodoqo2" label="Qahodoqo" renderAs="combobox" sortBy="none" />
+                </row>
+            </section>
+        </row>
+
+        <row>
+            <section caption="Yipetilu">
+                <row>
+                    <uiElement name="pafazamoz" label="Pafazamoz" renderAs="combobox"/>
+                    <button label="Lesihocu"
+                            name="meginamaKeqogarizOkoxiy"
+                            nextLayoutName="desa/faloxolaw/gicElicizepeQeyihaYosecoNohil.xml"
+                            pageBuilder="com.gs.fw.kaza.desa.faloxolaw.vo.SapUcinobogeFahihubusIjeyiseDahomog"
+                            crumbTrail="true"/>
+                </row>
+            </section>
+        </row>
+
+        <row>
+            <section caption="Keliyedej">
+                <row>
+                    <section>
+                        <row>
+                            <uiElement name="hepafIq" label="Group By" renderAs="duallistbox" sortBy="none" style="duallistbox.style.200" validation="mandatory"/>
+                        </row>
+                    </section>
+                </row>
+                <row>
+                    <section>
+                        <row>
+                            <uiElement name="mivoxiyiJohiCunikahIf" label="Yacalew By Wacutiha Xuti?"
+                                       renderAs="checkbox"
+                                       defaultSelection="true" toolTipText="Kav Faloxolaw Wacutiha Xuti"/>
+                        </row>
+                    </section>
+                </row>
+                <row>
+                    <section>
+                        <row>
+                            <button label="Lesihocu"
+                                    name="dupovupaZayiyawaqEyaqibukoYovone"
+                                    nextLayoutName="desa/faloxolaw/setIvodabodeTunibasinOmajafIwuqa.xml"
+                                    pageBuilder="com.gs.fw.kaza.desa.faloxolaw.vo.RujOjiqibowaDuzoyukimOgayopAjunoni"
+                                    crumbTrail="true"
+                                    validate="hepafIq"/>
+                        </row>
+                    </section>
+                </row>
+            </section>
+        </row>
+
+        <row>
+            <section caption="Coqun Xosoxuva" feature="neginuSenoruwa" expandable="true" expanded="false">
+                <row>
+                    <section>
+                        <row>
+                            <uiElement name="sojivohuCofopin" label="" renderAs="label"/>
+                        </row>
+                    </section>
+                </row>
+
+                <row>
+                    <section>
+                        <row>
+                            <button label="Wopine PIR Qahodoqo"
+                                    name="cejalaQILEbequmeb"
+                                    nextLayoutName="desa/faloxolaw/riwItareqefiFifokUsawe.xml"
+                                    pageBuilder="com.gs.fw.kaza.desa.faloxolaw.vo.DocAkofekazeFuzunozuGipavut.cejalaQILEbequmeb"
+                                    refreshPage="true"
+                                    confirmMsg="Wopine 4N_KAV_ROV_PIR qahodoqo?"/>
+                        </row>
+                        <row>
+                            <button label="Wopine NESOP Qahodoqo"
+                                    name="lerigaMaxusIyuwuxot"
+                                    nextLayoutName="desa/faloxolaw/riwItareqefiFifokUsawe.xml"
+                                    pageBuilder="com.gs.fw.kaza.desa.faloxolaw.vo.DocAkofekazeFuzunozuGipavut.lerigaMaxusIyuwuxot"
+                                    refreshPage="true"
+                                    confirmMsg="Wopine 4N_KAV_ROV_NESOP qahodoqo?"/>
+                        </row>
+                        <row>
+
+                            <button label="Hamiti PIR Qahodoqo"
+                                    name="tipaweNEWUnacejiv"
+                                    nextLayoutName="desa/faloxolaw/riwItareqefiFifokUsawe.xml"
+                                    pageBuilder="com.gs.fw.kaza.desa.faloxolaw.vo.DocAkofekazeFuzunozuGipavut.tipaweNEWUnacejiv"
+                                    refreshPage="true"
+                                    confirmMsg="Hamiti 4N_KAV_ROV_PIR qahodoqo?"/>
+                        </row>
+                        <row>
+                            <button label="Hamiti NESOP Qahodoqo"
+                                    name="dalubeZihupOninerir"
+                                    nextLayoutName="desa/faloxolaw/riwItareqefiFifokUsawe.xml"
+                                    pageBuilder="com.gs.fw.kaza.desa.faloxolaw.vo.DocAkofekazeFuzunozuGipavut.dalubeZihupOninerir"
+                                    refreshPage="true"
+                                    confirmMsg="Hamiti 4N_KAV_ROV_NESOP Qahodoqo?"/>
+                        </row>
+                    </section>
+                </row>
+            </section>
+        </row>
+
+    </section>
+</layout>

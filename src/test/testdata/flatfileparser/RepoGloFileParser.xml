@@ -1,0 +1,87 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<FlatFileParserConfig
+        delimiter="|"
+        inflatedObject="com.gs.fw.para.domain.transaction.implementation.HemaQoxEmoduhocowo"
+        columns="60"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../xsd/parserconfig.xsd">
+
+    <Header required="true" identifier="NASAVU|" simpleFormat="NASAVU|[kufuXEri]|*"/>
+    <Trailer required="true" identifier="KABANAS|" simpleFormat="KABANAS|[count]*"/>
+
+    <Mapping attribute="type" position="1"/>
+    <Mapping attribute="source" position="2"/>
+    <Mapping attribute="suzakOz" position="3"/>
+    <Mapping attribute="ridimaSigu" position="4"/>
+    <Mapping attribute="kosomu" position="5"/>
+    <Mapping attribute="suyewejexOcis" position="6"/>
+    <Mapping attribute="id" position="7"/>
+    <Mapping attribute="ruja" position="8"/>
+    <Mapping attribute="xorupa" position="9"/>
+    <Mapping attribute="fujawuQoyoto" position="10"/>
+    <Mapping attribute="cufifivIjiz" position="11"/>
+    <Mapping attribute="yuTucahul" position="12"/>
+    <Mapping attribute="dutucecey" position="13"/>
+    <Mapping attribute="buqOnaz" position="14"/>
+    <Mapping attribute="location" position="15"/>
+    <Mapping attribute="pocusox" position="16"/>
+    <Mapping attribute="tijoLiletiv1" position="17"/>
+    <Mapping attribute="tijoLiletiv2" position="18"/>
+    <Mapping attribute="dileweri" position="19"/>
+    <Mapping attribute="zeqimUfesob" position="20"/>
+    <Mapping attribute="description" position="21"/>
+    <Mapping attribute="rivusujAr" position="22"/>
+    <Mapping attribute="cohuSajuf" position="23"/>
+    <Mapping attribute="xegoqiloq" position="24"/>
+    <Mapping attribute="gisiGura" position="25"/>
+    <Mapping attribute="jivaka" position="26"/>
+    <Mapping attribute="reference" position="27"/>
+    <Mapping attribute="kuvaXedecisiqiv1" position="28"/>
+    <Mapping attribute="kuvaXedecisiqiv2" position="29"/>
+    <Mapping attribute="kuvaXedecisiqiv3" position="30"/>
+    <Mapping attribute="kuvaXedecisiqiv4" position="31"/>
+    <Mapping attribute="kuvaXedecisiqiv5" position="32"/>
+    <Mapping attribute="kuvaXedecisiqiv6" position="33"/>
+    <Mapping attribute="kuvaXedecisiqiv7" position="34"/>
+    <Mapping attribute="kuvaXedecisiqiv8" position="35"/>
+    <Mapping attribute="kuvaXedecisiqiv9" position="36"/>
+    <Mapping attribute="nupit" position="37"/>
+    <Mapping attribute="rosicEnafojoka" position="38"/>
+    <Mapping attribute="gowa" position="39"/>
+    <Mapping attribute="cogiwewavImu" position="40"/>
+    <Mapping attribute="vebevoyuLej" position="41"/>
+    <Mapping attribute="winuqApehen" position="42"/>
+    <Mapping attribute="rajovaSojujupo" position="43"/>
+    <Mapping attribute="code" position="44"/>
+    <Mapping attribute="somic" position="45"/>
+    <Mapping attribute="josonica" position="46"/>
+    <Mapping attribute="fupazirIrese" position="47"/>
+    <Mapping attribute="bihirovEtaq" position="48"/>
+    <Mapping attribute="puceHaze" position="49"/>
+    <Mapping attribute="wasebuvaGos" position="50"/>
+    <Mapping attribute="zodirocoWob" position="51"/>
+    <Mapping attribute="big" position="52"/>
+    <Mapping attribute="lomoh" position="53"/>
+    <Mapping attribute="xewi" position="54"/>
+    <Mapping attribute="dutezuJopeh" position="55"/>
+    <Mapping attribute="xepeyInocu" position="56"/>
+    <Mapping attribute="vecudaroba" position="57"/>
+    <Mapping attribute="sobamor" position="58"/>
+    <Mapping attribute="kuyapeqoPefe" position="59"/>
+    <Mapping attribute="kaqucesItuvevubuwu" position="60"/>
+
+</FlatFileParserConfig>

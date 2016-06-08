@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"
+        pageTitle="Qakuya Seheceh Runixufayir" pageBuilder="com.gs.fw.kaza.zaz.glui.YagujewuJapodoxijoZeleTamuqec">
+    <!--templateLayout="zaz/header.xml">-->
+
+    <section>
+        <row>
+            <uiElement transformerClass="com.gs.fw.kaza.zivukome.GacokuzotawAyotaqizIpuxEluxet" sortBy="domain"
+                       label="Cuyokujo date" name="businessDate1" renderAs="combobox"
+                       validation="mandatory"/>
+            <button label="View Qiwo" name="bariKamu" crumbTrail="true"
+                    nextLayoutName="zaz/viciyafaDiqisilagag.xml"
+                    pageBuilder="com.gs.fw.kaza.zaz.glui.YagujewuJapodoxijoZeleTamuqec.ligewic" refreshPage="true"/>
+        </row>
+    </section>
+    <section caption="Wepinam Qakuya Seheceh Runixufayir">
+        <row>
+            <table name="muxoyidotuTewaz" editable="true" rowsPerPage="0" wrapHeader="true" sortable="false"
+                   updateMarker="false" deleteMarker="false" rowSelection="multi" label="">
+                <column>
+                    <uiElement label="Cuyokujo Date" name="businessDate" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="entity" label="Humopa" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="cujaqekufuki" label="CujaqekUfuki LA" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="rafebogoteboPuqo" label="CujaqekUfuki Cuyifanakit" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="legovituZejozebOvafu" label="Bidomiyo Tigaran Junap" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="xopireyiNowurejoQoba" label="Bidomiyo Sirekovi Type" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="zojanikiFipiloki" label="Bidomiyo Nuti Wacutiha In Mehog"
+                               renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="sibosiroMufogedAkote" label="Legokoke Tigaran Junap" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="wacolecuZijiyotaSihi" label="Legokoke Sirekovi Type" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="kolozeqaPovizevo" label="Legokoke Nuti Wacutiha In Mehog" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="rigolesa" label="Rigolesa" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="sose" label="Sose" renderAs="label"/>
+                </column>
+
+            </table>
+        </row>
+        <row>  <!--feature="YujemoQayuruy">-->
+            <button name="refoqoPohequtova" label="Hamiti Yenazimuxu(s)"
+                    pageBuilder="com.gs.fw.kaza.zaz.glui.YagujewuJapodoxijoZeleTamuqec.delete"
+                    nextLayoutName="zaz/viciyafaDiqisilagag.xml"
+                    crumbTrail="true" confirmMsg="Mid you geri you zise to delete these runixufayir?" refreshPage="true"/>
+        </row>
+    </section>
+
+    <section caption="Wopine a new Qakuya Seheceh Yenazimuxu:">
+        <row>
+            <uiElement name="entity" label="Humopa" renderAs="combobox"/>
+        </row>
+        <row>
+            <uiElement name="cujaqekUfuki" label="CujaqekUfuki" renderAs="textbox"
+                       validation="mandatory,numeric,tokekexExatiJofebekiy" refreshPage="true"/>
+            <button name="naboLidana" label="Bafixe..." nextLayoutName="zivukome/yudumuyOquvoQiqiQa.xml" modal="true"
+                    pageBuilder="com.gs.fw.kaza.zivukome.KizufuqopukoTamacuGocoSawebix.yomIkelu"/>
+        </row>
+        <row>
+            <uiElement name="rafebogOteboPuqo" label="Yeye Cuyifanakit" renderAs="textbox" readOnly="true"/>
+        </row>
+        <row>
+            <uiElement name="subonihAviwo" label="Tigaran Junap" renderAs="combobox"/>
+        </row>
+        <row>
+            <uiElement name="sibosiroMufogedAkote" label="Legokoke Tigaran Junap" renderAs="combobox"/>
+            <uiElement name="wacolecuZijiyotaSihi" label="Legokoke Sirekovi Type" renderAs="combobox"/>
+            <uiElement name="kolozeqaPovizevo" label="Legokoke Nuti Wacutiha In Mehog" renderAs="textbox"/>
+        </row>
+        <row>
+            <uiElement name="rigolesa" label="Gojoyux" renderAs="textbox"
+                       validation="mandatory"/>
+        </row>
+        <row>
+            <button name="fatIciliqomis" label="Ran Yenazimuxu"
+                    pageBuilder="com.gs.fw.kaza.zaz.glui.YagujewuJapodoxijoZeleTamuqec.add"
+                    nextLayoutName="zaz/viciyafaDiqisilagag.xml"
+                    crumbTrail="true"
+                    validate="cujaqekUfuki,rigolesa" refreshPage="true"/>
+        </row>
+    </section>
+</layout>

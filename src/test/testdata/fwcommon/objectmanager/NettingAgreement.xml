@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Templates>javeneruma,interface,noki,wululu,wunopi,tetahij,riyoxadipojoxuj,nuzikuzu</Templates>
+    <PackageName>com.gs.fw.lilu.yad.domain.wuyemiy</PackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.*</ImportPackageName>
+    <ClassName>PogedanUhebidasu</ClassName>
+    <DefaultTable>YAD_WUYEMIY_TEQUMUJIJ</DefaultTable>
+    <SchemaName>mut</SchemaName>
+    <DatabaseName>tiqo</DatabaseName>
+    <ReadOnly>true</ReadOnly>
+    <PrimaryKeyAttribute keyClass="NowujixOgazilafoNeb">
+        <Attribute columnName="TEQUMUJIJ_PO" javaType="int" sqlType="Ciyisag" name="jelumupayIg"/>
+        <Attribute columnName="businessDate" javaType="Timestamp" sqlType="XIZofuxafasElegexaLimanigaw"
+                   name="businessDate"/>
+    </PrimaryKeyAttribute>
+    <Attribute columnName="NEFAKA_Z" javaType="boolean" sqlType="Boolean" name="nefaka"/>
+    <ForeignKeyAttribute keyClass="WuqaloHel" name="wuqaloHel">
+        <Attribute columnName="TA_WOTEP_PAXICE_P" javaType="int" sqlType="Ciyisag" name="hequdeDo"/>
+    </ForeignKeyAttribute>
+    <ForeignKeyAttribute keyClass="CekeloqEfikoTeq" name="cekeloqEfikoTeq">
+        <Attribute columnName="WUZO_WOTEP_PAXICE_P" javaType="int" sqlType="Ciyisag" name="id"/>
+        <Attribute columnName="businessDate" javaType="Timestamp" sqlType="XIZofuxafasElegexaLimanigaw"
+                   name="nuTeRogi"/>
+    </ForeignKeyAttribute>
+    <Relationship cardinality="many-to-one" dependentClass="Paxice" foreignKey="wuqaloHel" name="entity"
+                  useCacheIndexing="true"/>
+    <Relationship cardinality="many-to-one" dependentClass="RozusebAhezi" foreignKey="cekeloqEfikoTeq"
+                  name="rozusebAhezi" useCacheIndexing="true"/>
+    <Relationship cardinality="many-to-many" dependentClass="HuvehebUreloyejiRara"
+                  relationshipClass="FaqegujAxuwofopaSuVamiqadojIzew"
+                  name="molexavAnocaramuVixed" useCacheIndexing="true"/>
+    <Index name="businessDate">businessDate</Index>
+    <IndexBuilder className="com.gs.fw.lilu.yad.domain.wuyemiy.persistence.WosuqopAxojesapuHepezAluxeqa"/>
+</ManagedObject>
+

@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"
+        pageTitle="SAV Qe-Cat Vojiy" pageBuilder="com.gs.fw.kaza.desa.xivezede.vo.YoWetUgodoSutunOqocali" showSelection="true"
+        templateLayout="desa/template.xml">
+
+    <section caption="Cuyokujo Date and Qahodoqo 1">
+        <row>
+            <section>
+                <row>
+                    <uiElement name="businessDate1" label="Cuyokujo Date" renderAs="combobox" attribute="display"
+                               sortBy="none"/>
+                    <uiElement attribute="display" name="qahodoqo1" label="Qahodoqo" renderAs="combobox"
+                               sortBy="none"/>
+                    <uiElement name="fizaYubapOnohisiga1" label="Qili Value" renderAs="combobox"
+                               attribute="display"
+                               defaultSelection="Tihi Betid Date"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section caption="Qiwo Vowikahi/Giyel For Cuyokujo Date 1">
+                <row>
+                    <section>
+                        <row>
+                            <uiElement name="qeqapafIgowozu1" label="Fedukoxa/Qoqunuwa" renderAs="combobox"
+                                       attribute="display"
+                                       defaultSelection="FEDUKOXA"/>
+                        </row>
+                        <row>
+                            <uiElement name="yilokazuXejoTuw1" label="Fumotosi Yoya Kin" defaultSelection="REX"
+                                       attribute="display"
+                                       renderAs="combobox"/>
+                        </row>
+                        <row>
+                            <uiElement name="kabigOdedIle1" label="Betid Yoya Kin" defaultSelection="XECEW"
+                                       attribute="display"
+                                       renderAs="combobox"/>
+                        </row>
+                    </section>
+                    <section>
+                        <row>
+                            <uiElement name="vupirikAjoceb1" label="Zugajul Zivukome" renderAs="combobox"
+                                       attribute="display"
+                                       defaultSelection="Kepu"/>
+                        </row>
+                        <row>
+                            <uiElement name="cemubuzonOrovicajEziwovol1" label="Guquzuzuh Currency" renderAs="combobox"
+                                       attribute="display"
+                                       noSelectOption="Kepu"/>
+                        </row>
+                    </section>
+                    <section>
+                        <row>
+                            <section>
+                                <row>
+                                    <uiElement renderAs="checkbox" name="MiqawasAJUkoxebiw1"
+                                               label="Medoweb Vuqusa Wutesomo Cunerara?"/>
+                                </row>
+                                <row>
+                                    <uiElement name="Ribavobiwehujowi1" label="Use Ribavobiwehujowi Seko?"
+                                               renderAs="checkbox"
+                                               defaultSelection="true" toolTipText="Gulibudaxi"/>
+                                </row>
+                                <row feature="VoyazakogoWocowobogebaxa">
+                                    <uiElement name="VoyazakogoWocowobogebaxa1" label="Use Gulibudaxi Fofuxaxonaquxo?"
+                                               renderAs="checkbox"
+                                               defaultSelection="false" toolTipText="Gulibudaxi"/>
+                                </row>
+                            </section>
+                        </row>
+                        <row>
+                            <section feature="JozoreHozucoyijogeNohosijico">
+                                <row>
+                                    <uiElement name="JifedodOxonirakexejOrihetodeq1"
+                                               label="Zugajul Yorodivogiwe Gulibudaxi?"
+                                               renderAs="checkbox"
+                                               defaultSelection="false" toolTipText="Gulibudaxi"/>
+                                </row>
+                            </section>
+                        </row>
+                    </section>
+                </row>
+            </section>
+        </row>
+    </section>
+
+    <section caption="Cuyokujo Date and Qahodoqo 2" expandable="true" expanded="false">
+        <row>
+            <section>
+                <row>
+                    <uiElement name="businessDate2" label="Cuyokujo Date" renderAs="combobox" attribute="display"
+                               noSelectOption="" sortBy="none"/>
+                    <uiElement name="qahodoqo2" label="Qahodoqo" attribute="display"
+                               renderAs="combobox" sortBy="none"/>
+                    <uiElement name="fizaYubapOnohisiga2" label="Qili Value" renderAs="combobox"
+                               attribute="display"
+                               defaultSelection="Tihi Betid Date"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section caption="Qiwo Vowikahi/Giyel For Cuyokujo Date 2">
+                <row>
+                    <section>
+                        <row>
+                            <uiElement name="qeqapafIgowozu2" label="Fedukoxa/Qoqunuwa" renderAs="combobox"
+                                       attribute="display"
+                                       defaultSelection="FEDUKOXA"/>
+                        </row>
+                        <row>
+                            <uiElement name="yilokazuXejoTuw2" label="Fumotosi Yoya Kin" defaultSelection="REX"
+                                       attribute="display"
+                                       renderAs="combobox"/>
+                        </row>
+                        <row>
+                            <uiElement name="kabigOdedIle2" label="Betid Yoya Kin" defaultSelection="XECEW"
+                                       attribute="display"
+                                       renderAs="combobox"/>
+                        </row>
+                    </section>
+                    <section>
+                        <row>
+                            <uiElement name="vupirikAjoceb2" label="Zugajul Zivukome" renderAs="combobox"
+                                       attribute="display"
+                                       defaultSelection="Kepu"/>
+                        </row>
+                        <row>
+                            <uiElement name="cemubuzonOrovicajEziwovol2" label="Guquzuzuh Currency" renderAs="combobox"
+                                       attribute="display"
+                                       noSelectOption="Kepu"/>
+                        </row>
+                    </section>
+                    <section>
+                        <row>
+                            <section>
+                                <row>
+                                    <uiElement renderAs="checkbox" name="MiqawasAJUkoxebiw2"
+                                               label="Medoweb Vuqusa Wutesomo Cunerara?"/>
+                                </row>
+                                <row>
+                                    <uiElement name="Ribavobiwehujowi2" label="Use Ribavobiwehujowi Seko?"
+                                               renderAs="checkbox"
+                                               defaultSelection="true" toolTipText="Gulibudaxi"/>
+                                </row>
+                                <row feature="VoyazakogoWocowobogebaxa">
+                                    <uiElement name="VoyazakogoWocowobogebaxa2" label="Use Gulibudaxi Fofuxaxonaquxo?"
+                                               renderAs="checkbox"
+                                               defaultSelection="false" toolTipText="Gulibudaxi"/>
+                                </row>
+                            </section>
+                        </row>
+                        <row>
+                            <section feature="JozoreHozucoyijogeNohosijico">
+                                <row>
+                                    <uiElement name="JifedodOxonirakexejOrihetodeq2"
+                                               label="Zugajul Yorodivogiwe Gulibudaxi?" renderAs="checkbox"
+                                               defaultSelection="false" toolTipText="Gulibudaxi"/>
+                                </row>
+                            </section>
+                        </row>
+                    </section>
+                </row>
+
+            </section>
+        </row>
+    </section>
+
+    <section caption="Humopa and Vuqusa Wutesomo Tree Lozohig" expandable="true" expanded="false">
+        <row>
+            <section caption="Humopa Xikufaqed">
+                <row>
+                    <uiElement name="xopuwaRuyi" label="Humopa Tree" renderAs="combobox" attribute="display"
+                               noSelectOption="&lt;No Mosuku&gt;">
+                    </uiElement>
+                </row>
+                <!--<row>-->
+                    <!--<uiElement name="boqaHagupexaNikuwo" label="Koxo/Ceyoros Yogopiho"-->
+                               <!--renderAs="checkbox"/>-->
+                <!--</row>-->
+                <!--<row>-->
+                    <!--<uiElement name="nanureJimaKaximeyi" label="Humopa Vekub" renderAs="listbox" readOnly="true"-->
+                               <!--attribute="display"-->
+                               <!--style="listbox.style.4"/>-->
+                <!--</row>-->
+                <row>
+                    <!--<uiElement name="bucehoHakimukok" label="Humopa Xikufaqed" renderAs="tree"-->
+                    <!--transformerClass="com.gs.fw.kaza.desa.vo.transformer.DokeseHerogoyuqAfilupipize"-->
+
+                    <!--domainType="com.gs.fw.kaza.yepe.domain.loxixixe.MehElirarOnivOlabOwomitof"-->
+                    <!--style="tree.style"/>-->
+                    <uiElement name="bucehoHakimukok" label="Humopa Xikufaqed" renderAs="tree" attribute="value"
+                               style="tree.style"/>
+                </row>
+            </section>
+            <section caption="Vuqusa Wutesomo Xikufaqed">
+                <row>
+                    <uiElement name="fikiyiPogexanaVuwu" label="Vuqusa Wutesomo Tree" renderAs="combobox"
+                               attribute="display"
+                               noSelectOption="&lt;No Mosuku&gt;">
+                    </uiElement>
+                </row>
+                <!--<row>-->
+                    <!--<uiElement name="buceCuxajokoSequfoDodotuha" label="Koxo/Ceyoros Yogopiho"-->
+                               <!--renderAs="checkbox"/>-->
+                <!--</row>-->
+                <!--<row>-->
+                    <!--<uiElement name="vewuyaDadanocuQitoQopeyoni" label="Vuqusa Wutesomo Vekub" renderAs="listbox"-->
+                               <!--attribute="display"-->
+                               <!--readOnly="true" style="listbox.style.4"/>-->
+                <!--</row>-->
+                <row>
+                    <uiElement name="qiqewuXeyoheteSiboyuzuw" label="Vuqusa Wutesomo Xikufaqed" renderAs="tree"
+                               style="tree.style" attribute="value"/>
+                    <!--<uiElement name="qiqewuXeyoheteSiboyuzuw" label="Vuqusa Wutesomo Xikufaqed" renderAs="tree"-->
+                    <!--transformerClass="com.gs.fw.kaza.desa.vo.transformer.XezekaYemiyudaSofelenokAhoqubutizi"-->
+                    <!--domainType="com.gs.fw.kaza.yepe.domain.loxixixe.YafUmamasArizejoqIkurIzatOwenujev"-->
+                    <!--style="tree.style"/>-->
+                </row>
+            </section>
+        </row>
+    </section>
+
+
+    <section caption="Mosuku puqivej" expandable="true" expanded="true">
+        <row>
+            <section>
+                <row>
+                    <section>
+                        <row>
+                            <uiElement name="entity" label="Humopa" renderAs="listbox" attribute="display"
+                                       noSelectOption="&lt;No Mosuku&gt;"/>
+                        </row>
+                        <row>
+                            <uiElement name="litupejiWifuRomav" label="Casah Group" renderAs="listbox"
+                                       attribute="display" noSelectOption="&lt;No Mosuku&gt;"/>
+                        </row>
+                        <row>
+                            <uiElement name="lacuFituz" label="Qiwo Type" renderAs="listbox" attribute="display"
+                                       noSelectOption="&lt;No Mosuku&gt;"/>
+                        </row>
+                    </section>
+                    <section>
+                        <row>
+                            <uiElement name="setiXizo" label="SetiXizo" renderAs="listbox" attribute="display"
+                                       noSelectOption="&lt;No Mosuku&gt;"/>
+                            <uiElement name="guyuliRoxebobi" label="Vuqusa Wutesomo" renderAs="listbox"
+                                       attribute="display"
+                                       noSelectOption="&lt;No Mosuku&gt;"/>
+                        </row>
+                        <row>
+                            <uiElement name="casah" label="Casah" renderAs="multiItemTextbox"/>
+                            <section>
+                                <row>
+                                    <button name="soniYafif" image="desa/roxi.toz"
+                                            nextLayoutName="desa/lisEseqimoqaxoleqadaje.xml"
+                                            pageBuilder="com.gs.fw.kaza.desa.rutapa.vo.FigahofesAtumUnominUvuyexuTayahob.qopeTaketUfoWosazi"/>
+                                </row>
+                            </section>
+                        </row>
+                        <row>
+                            <uiElement name="jewivuy" label="Jewivuy" renderAs="multiItemTextbox"/>
+                            <section>
+                                <row>
+                                    <button name="ziyuNodecam" image="desa/roxi.toz"
+                                            nextLayoutName="desa/lisEseqimoqaxoleqadaje.xml"
+                                            pageBuilder="com.gs.fw.kaza.desa.rutapa.vo.FigahofesAtumUnominUvuyexuTayahob.jejaFoxahahOmiQigona"/>
+                                </row>
+                            </section>
+                        </row>
+                        <row>
+                            <uiElement name="product" label="Tigaran" renderAs="multiItemTextbox"/>
+                        </row>
+
+                        <row>
+                            <section/>
+                            <section>
+                                <row>
+                                    <uiElement name="pexEkusOdup" label="Use Dazi Maba Jewivuy for VU Cunerara?"
+                                               renderAs="checkbox"/>
+                                </row>
+                                <row>
+                                    <uiElement name="BupovuciVukiwigEfoxoxurok" label="Setixizo Baqubuj Yuropenoso?"
+                                               renderAs="checkbox"/>
+                                </row>
+                            </section>
+                        </row>
+                        <row>
+                            <uiElement name="yokoFexev" label="Bere Group"
+                                       renderAs="listbox" attribute="display"
+                                       noSelectOption="&lt;No Mosuku&gt;">
+                                <childUiElement name="radiKasi" label="Bere Lagu" attribute="display"
+                                                renderAs="listbox"
+                                                noSelectOption="&lt;No Mosuku&gt;"/>
+                            </uiElement>
+                        </row>
+                    </section>
+                </row>
+            </section>
+        </row>
+
+        <row>
+            <section caption="Repad Mosuku puqivej" expandable="true" expanded="false">
+                <row>
+                    <uiElement name="camorEdoca" label="Sesej Junap" renderAs="listbox" attribute="display"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section caption="Fumotosi Mosuku puqivej" expandable="true" expanded="false">
+                <row>
+                    <section>
+                        <row>
+                            <uiElement name="puxisogIQOPelozuwinaYutilamiw" label="Qeqerif RUM Zeyozayocu Fizumurel?" renderAs="checkbox"/>
+                            <uiElement name="valivisAmusimOqepowiDijebos" label="Medoweb Yujiji Puqivej Hasukay?" renderAs="checkbox"/>
+                        </row>
+                    </section>
+                </row>
+                <row>
+                    <section feature="BirebesOTUraraniyi">
+                        <row>
+                            <uiElement name="birebesOTUraraniyi" label="Ronawax CU Fizumurel?" renderAs="checkbox"/>
+                        </row>
+                    </section>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section caption="Betid Mosuku puqivej" expandable="true" expanded="true">
+
+                <row>
+                    <section>
+                        <row>
+                            <uiElement name="jositEdiqeyeLuqid" label="Betid Hasukay Type" renderAs="listbox"
+                                       attribute="display"
+                                       defaultSelection="MEK39 YELEL (SESU)" style="listbox.style.2"/>
+                        </row>
+                        <row>
+                            <uiElement name="lavEloc" label="Quq/Nuqi Wosopilim" renderAs="combobox"
+                                       attribute="display"
+                                       noSelectOption="&lt;No Mosuku&gt;"/>
+                        </row>
+                        <row>
+                            <uiElement name="yarExas" label="Lij/Faha" renderAs="combobox" attribute="display"
+                                       noSelectOption="&lt;No Mosuku&gt;"/>
+                        </row>
+                        <row>
+                            <uiElement name="copoFuwaha" label="Koga Cupena" renderAs="combobox"
+                                       attribute="display"
+                                       noSelectOption="&lt;No Mosuku&gt;"/>
+                        </row>
+                        <row>
+                            <uiElement name="mayareru" label="Mayareru Type" renderAs="combobox"
+                                       attribute="display"
+                                       noSelectOption="&lt;No Mosuku&gt;"/>
+                        </row>
+                    </section>
+                    <section>
+                        <row>
+                            <uiElement name="tozoSawogOluju" label="Maba Nufuf Type" renderAs="listbox"
+                                       attribute="display"
+                                       noSelectOption="&lt;No Mosuku&gt;"
+                                       style="listbox.style.7"/>
+                            <uiElement name="telihAlune" label="Cujaqekufuki Type" renderAs="listbox"
+                                       attribute="display"
+                                       noSelectOption="&lt;No Mosuku&gt;"
+                                       style="listbox.style.7"/>
+                            <section>
+                                <row>
+                                    <uiElement name="wufeMemehafOmeju" label="Maba Cujaqekufuki Number"
+                                               renderAs="multiItemTextbox"/>
+                                    <button image="desa/roxi.toz" name="guluPijaLimihemUzihu"
+                                            nextLayoutName="desa/lisEseqimoqaxoleqadaje.xml"
+                                            pageBuilder="com.gs.fw.kaza.desa.rutapa.vo.FigahofesAtumUnominUvuyexuTayahob.seliLusuYeposahOqoxaVikAhacus"/>
+                                </row>
+                                <row>
+                                    <uiElement name="cujaqekUfuki" label="Cujaqekufuki Number"
+                                               renderAs="multiItemTextbox"/>
+                                    <button image="desa/roxi.toz" name="seceGariwecUqamo"
+                                            nextLayoutName="desa/lisEseqimoqaxoleqadaje.xml"
+                                            pageBuilder="com.gs.fw.kaza.desa.rutapa.vo.FigahofesAtumUnominUvuyexuTayahob.gajiPeqimuyUhiriXeyUjomev"/>
+                                </row>
+
+                                <row>
+                                    <uiElement name="siduheliguxAda" label="Transaction Xuv"
+                                               renderAs="multiItemTextbox"/>
+                                </row>
+                                <row>
+                                    <uiElement name="kivimihuZapiyAg" label="Miganala Betid Id"
+                                               renderAs="multiItemTextbox"/>
+                                </row>
+                            </section>
+                        </row>
+                    </section>
+                </row>
+            </section>
+        </row>
+    </section>
+    <section caption="Lokehavek and Qeqerif puqivej">
+        <row>
+            <section>
+                <row>
+                    <uiElement name="denisesOl" label="Yacalew By" renderAs="combobox" noSelectOption=""
+                               attribute="display"/>
+                    <uiElement name="DetubuzuNehuxin" label="Qeqerif Kocoguwen/Baqubuj?" renderAs="checkbox"/>
+                    <uiElement name="sutacerOdarAzUnuz" label="Qeqerif Yedara &amp; Hasofeyizah Mora-by-side?"
+                               renderAs="checkbox"/>
+                    <uiElement name="wocibokEtu" label="Qeqerif Woz?"
+                               renderAs="checkbox"/>
+                    <uiElement name="fupiyopEqutigop" label="Qeqerif Xedocequ?" renderAs="checkbox"/>
+                    <uiElement name="rubekoHubiNukebune" label="Yejeyo Xixo Kahutuji?" renderAs="checkbox"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section>
+                <row>
+                    <uiElement name="hepafiq" label="Group By" renderAs="duallistbox" attribute="display"
+                               sortBy="none" style="duallistbox.mobemazapa.style"/>
+
+                </row>
+                <row>
+                    <uiElement name="futoyubaSiRusidor" label="Kahutuji to display" renderAs="duallistbox"
+                               attribute="display"
+                               sortBy="none" style="duallistbox.mobemazapa.style"/>
+                    <uiElement name="dadUbezadovupEdahohiq"
+                               label="Tihoyutut A/X fusijitaqapi per pocusox (default decepif Qili Value)?"
+                               renderAs="checkbox"/>
+                </row>
+            </section>
+        </row>
+
+    </section>
+    <section caption="Repad Pocusox puqivej" expandable="true" expanded="false">
+        <row>
+            <section caption="Pocusox Jexupacub">
+                <row>
+                    <uiElement name="lokiveFipinu" label="Pocusox" renderAs="combobox" noSelectOption=""
+                               attribute="display"/>
+                    <uiElement name="joyupoXawoq" label="Value" renderAs="textbox"/>
+                </row>
+            </section>
+        </row>
+    </section>
+    <section caption="Sate and Lage Takexoq">
+        <row>
+            <uiElement name="gotilIbegi" label="Qokec Vojiy" renderAs="combobox" attribute="display"
+                       validation="mandatory" noSelectOption=""/>
+            <button label="Sate Vojiy" name="demeTehix" crumbTrail="false" validate="gotilIbegi"/>
+            <button label="Yejeyo Vojiy" name="fidosaWulaf"
+                    pageBuilder="com.gs.fw.kaza.yepe.vo.nalic.KakadEbumiCubomoSugucoc"
+                    nextLayoutName="desa/kuJerEsahaRevup.xml" crumbTrail="true" refreshPage="true" validate="gotilIbegi"
+                    confirmMsg="Mid you geri you zise to delete this qokec query?"/>
+        </row>
+
+        <row>
+            <uiElement name="xazuvUsat" label="Vojiy Name" renderAs="textbox"/>
+            <uiElement renderAs="checkbox" name="luriBohudUwitof" label="Sihu Wedaye?"/>
+            <button label="Lage Vojiy" name="nayuGakem" crumbTrail="false"/>
+        </row>
+        <row>
+            <uiElement name="mefobIqabiraqifo" label="Vojiy Cuyifanakit" renderAs="textArea"/>
+        </row>
+    </section>
+
+    <section>
+        <row>
+            <button label="Lesihocu" name="varuKE" nextLayoutName="desa/coCegOpewuboFifuq.xml" crumbTrail="true" validate="businessDate2"
+                    pageBuilder="com.gs.fw.kaza.desa.xivezede.vo.YeXodAmoyiHirijogOkavavi"/>
+        </row>
+    </section>
+
+</layout>

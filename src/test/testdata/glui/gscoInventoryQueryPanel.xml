@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout
+        layoutId="qigi.yic.query"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd"
+        pageTitle="QIGI Fiporowac Pabexu"
+        pageBuilder="com.gs.fw.kaza.desa.nap.vo.SazuKihaheqedApekolUroqaJazadEgatoye"
+        showSelection="false">
+    <section>
+        <row>
+            <section caption="Cuyokujo Date and Qahodoqo">
+                <row>
+                    <uiElement name="businessDate1" label="Cuyokujo Date" renderAs="combobox" attribute="display"
+                               sortBy="none"/>
+                    <uiElement attribute="display" name="qahodoqo1" label="Qahodoqo" renderAs="combobox"
+                               sortBy="none"/>
+                    <uiElement name="fizaYubapOnohisiga1" label="Qili Value" renderAs="combobox"
+                               attribute="display"
+                               defaultSelection="Tihi Betid Date"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section caption="Cuyokujo Date and Qahodoqo 2" expandable="true" expanded="false">
+                <row>
+                    <uiElement name="businessDate2" label="Cuyokujo Date" renderAs="combobox" attribute="display"
+                               noSelectOption="" sortBy="none"/>
+                    <uiElement name="qahodoqo2" label="Qahodoqo" attribute="display"
+                               renderAs="combobox" sortBy="none"/>
+                    <uiElement name="fizaYubapOnohisiga2" label="Qili Value" renderAs="combobox"
+                               attribute="display"
+                               defaultSelection="Tihi Betid Date"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section caption="Mosuku Puqivej">
+                <row>
+                    <uiElement name="litupejiWifuRomav" label="Casah Group" renderAs="listbox"
+                               attribute="display" noSelectOption="&lt;No Mosuku&gt;"/>
+                    <uiElement name="lacuFituz" label="Qiwo Type" renderAs="listbox" attribute="display"
+                               noSelectOption="&lt;No Mosuku&gt;"/>
+                </row>
+                <row>
+                    <uiElement name="yokoFexev" label="Bere Group"
+                               renderAs="listbox" attribute="display"
+                               noSelectOption="&lt;No Mosuku&gt;">
+                        <childUiElement name="radiKasi" label="Bere Lagu" attribute="display"
+                                        renderAs="listbox"
+                                        noSelectOption="&lt;No Mosuku&gt;"/>
+                    </uiElement>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section caption="Group By and Qeqerif Puqivej">
+                <row>
+                    <section>
+                        <row>
+                            <uiElement name="sutacerOdarAzUnuz" label="Qeqerif Yedara &amp; Hasofeyizah Mora-by-side?"
+                                       renderAs="checkbox"/>
+                            <uiElement name="rubekoHubiNukebune" label="Yejeyo Xixo Kahutuji?" renderAs="checkbox"/>
+                        </row>
+                    </section>
+                </row>
+                <row>
+                    <section>
+                        <row>
+                            <uiElement name="hepafiq"
+                                       label="Group By"
+                                       renderAs="duallistbox"
+                                       style="duallistbox.style.200"/>
+                        </row>
+                        <row>
+                            <uiElement name="futoyubaSiRusidor" label="Kahutuji to display" renderAs="duallistbox"
+                                       attribute="display"
+                                       sortBy="none" style="duallistbox.mobemazapa.style"/>
+                        </row>
+                    </section>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section caption="Sate and Lage Takexoq">
+                <row>
+                    <uiElement name="gotilIbegi" label="Qokec Vojiy" renderAs="combobox" attribute="display"
+                               validation="mandatory" noSelectOption=""/>
+                    <button label="Sate Vojiy" name="demeTehix" crumbTrail="false" validate="gotilIbegi"/>
+                    <button label="Yejeyo Vojiy" name="fidosaWulaf"
+                            pageBuilder="com.gs.fw.kaza.yepe.vo.nalic.KakadEbumiCubomoSugucoc"
+                            nextLayoutName="desa/nap/cisoXasubisalEkibaCuvay.xml" crumbTrail="true" refreshPage="true"
+                            validate="gotilIbegi"
+                            confirmMsg="Mid you geri you zise to delete this qokec query?"/>
+                </row>
+                <row>
+                    <uiElement name="xazuvUsat" label="Vojiy Name" renderAs="textbox"/>
+                    <uiElement renderAs="checkbox" name="luriBohudUwitof" label="Sihu Wedaye?"/>
+                    <button label="Lage Vojiy" name="nayuGakem" crumbTrail="false"/>
+                </row>
+                <row>
+                    <uiElement name="mefobIqabiraqifo" label="Vojiy Cuyifanakit" renderAs="textbox"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section>
+                <row>
+                    <button label="Lesihocu" name="yiwisoxICedecumi"
+                            nextLayoutName="desa/nap/macoVurovulafAduwojoCumiw.xml"
+                            pageBuilder="com.gs.fw.kaza.desa.nap.vo.XizeVohosaqizEyegerUsocupiXozicax"
+                            crumbTrail="true"/>
+                </row>
+            </section>
+        </row>
+    </section>
+</layout>

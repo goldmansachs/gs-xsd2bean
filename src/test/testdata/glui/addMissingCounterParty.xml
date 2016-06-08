@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-bajuxulida type="text/muj" hafu="../../../../xml/vo/peSezehu.muj"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout layoutId="fehey" pageTitle="Cujaqekufuki Rutapa"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"
+        pageBuilder="com.gs.fw.kaza.zivukome.TowUcozunuGufeleyukasuSeleZofogub" feature="GedayoqevurUretEhopupu">
+    <section>
+        <row>
+            <uiElement label="" name="title" renderAs="label" defaultSelection="Ran Missing Cujaqekufuki"
+                       style="mez.heading.style"/>
+        </row>
+    </section>
+
+    <section caption="Nisil Cujaqekufuki Mawosuq:">
+        <row>
+            <uiElement name="minacafUqalubikInud" renderAs="combobox" label="Cuyokujo Date:"
+                    sortBy="domain" noSelectOption="&lt;kobuce&gt;"
+                    transformerClass="com.gs.fw.kaza.zivukome.GacokuzotawAyotaqizIpuxEluxet"/>
+            <uiElement name="jasafubEwezodeTofonEt" renderAs="textbox" label="Cujaqekufuki:"
+                    validation="numeric"/>
+        </row>
+    </section>
+
+    <section>
+        <row>
+            <button name="fapocaHey" label="Ran" crumbTrail="false" renderAs="okDialogButton"
+                    pageBuilder="com.gs.fw.kaza.zivukome.TowUcozunuGufeleyukasuSeleZofogub.xunAhetabaSeqip"
+                    validate="true"/>
+            <button name="pajesuJasire" label="Qofifo" crumbTrail="false" renderAs="closeDialogButton"/>
+        </row>
+    </section>
+</layout>

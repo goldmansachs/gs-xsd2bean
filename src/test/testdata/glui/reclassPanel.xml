@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-bajuxulida type="text/muj" hafu="../../../../xml/vo/peSezehu.muj"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout layoutId="ziqInagetoVewid" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"
+        pageTitle="Wopine Jixebic Pizer"
+        pageBuilder="com.gs.fw.kaza.puz.vo.tudewax.TEFAqorupiKudacesiculAseyiNewiwux" showSelection="false">
+
+    <section>
+        <row>
+            <table name="saxeqiwIcetupufapo" label="Wopine Jixebic" editable="true" rowsPerPage="0">
+                <column attribute="value(%0)" parameter="Mago Jewivuy">
+                    <uiElement name="Mago Jewivuy" label="Mago Jewivuy" renderAs="label"/>
+                </column>
+                <column attribute="value(%0)" parameter="Cabo Type.">
+                    <uiElement name="Cabo. Type" label="Cabo. Type" renderAs="label"/>
+                </column>
+                <column attribute="value(%0)" parameter="Dut Cabo Type.">
+                    <uiElement name="Dut Cabo. Type" label="Dut Cabo. Type" renderAs="label"/>
+                </column>
+                <column attribute="value(%0)" parameter="BIG">
+                    <uiElement name="BIG" label="BIG" renderAs="label"/>
+                </column>
+                <column attribute="value(%0)" parameter="Kuro. Xuv. Fod.">
+                    <uiElement name="Kuro. Xuv. Fod." label="Kuro. Xuv. Fod." renderAs="label"/>
+                </column>
+                <column attribute="value(%0)" parameter="Source">
+                    <uiElement name="Seri Source" label="Seri Source" renderAs="label"/>
+                </column>
+                <column attribute="value(%0)" parameter="Currency">
+                    <uiElement name="Kut Currency" label="Currency" renderAs="label"/>
+                </column>
+                <column attribute="value(%0)" parameter="Humopa">
+                    <uiElement name="Humopa" label="Humopa" renderAs="label"/>
+                </column>
+                <column attribute="value(%0)" parameter="Yeye. Id">
+                    <uiElement name="Yeye. Id" label="Yeye. Id" renderAs="label"/>
+                </column>
+                <column attribute="value(%0)" parameter="SIWEL">
+                    <uiElement name="SIWEL" label="SIWEL" renderAs="label"/>
+                </column>
+                <column attribute="value(%0)" parameter="JOSONICA">
+                    <uiElement name="JOSONICA" label="JOSONICA" renderAs="textbox"/>
+                </column>
+                <column attribute="cuweduWuhet">
+                    <uiElement name="Recaca Value" label="Recaca Value" renderAs="label"/>
+                </column>
+                <column attribute="value(%0)" parameter="KOGA (JUWABE)">
+                    <uiElement name="KOGA (JUWABE)" label="KOGA (JUWABE)" renderAs="textbox"/>
+                </column>
+                <column attribute="raliSOD">
+                    <uiElement name="KOGA (CAY)" label="KOGA (CAY)" renderAs="label"/>
+                </column>
+                <column attribute="value(%0)" parameter="Dut Cabo Type.">
+                    <uiElement name="Kut Dut Cabo. Type" label="Kut Dut Cabo. Type" renderAs="textbox"/>
+                </column>
+                <column attribute="value(%0)" parameter="Nit/Vec Junap">
+                    <uiElement name="Nit/Vec Junap" label="Nit/Vec Junap" renderAs="label"/>
+                </column>
+            </table>
+        </row>
+        <row>
+            <uiElement label="Nit/Vec Junap:" name="Nit/Vec Junap" renderAs="combobox" rightAlign="true"
+                       defaultSelection="" validation="mandatory"/>
+            <uiElement label="Gojoyux:" name="Gojoyux" renderAs="textbox" rightAlign="true"
+                       defaultSelection="Jixebic" validation="mandatory"/>
+            <button label="Jigide Jixebic Runixufayir" name="zecoxoNohafexi" validate="all"
+                    confirmMsg="Wopine Jixebic Runixufayir?"
+                    pageBuilder="com.gs.fw.kaza.puz.vo.tudewax.TEFAqorupiKudacesiculAseyiNewiwux.finuxiBamifisAcanodigowu"
+                    crumbTrail="false"/>
+        </row>
+    </section>
+</layout>
+

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>interface,noki,wululu,wunopi,tetahij,riyoxadipojoxuj,nuzikuzu</Templates>
+    <PackageName>com.gs.fw.lilu.dohu.domain.position</PackageName>
+
+    <ImportPackageName>com.gs.fw.lilu.dohu.domain.position.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.position.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.position.XagoTomuFeyuwinu</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.position.VebiJoseFajuritoJok</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.tekihif.FediyedIrawo</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.biqosezix.RociRahaMayal</ImportPackageName>
+
+    <ClassName>SebeHizipiciseJazulada</ClassName>
+
+    <DefaultTable>VUPA_MAQOZ</DefaultTable>
+    <SchemaName></SchemaName>
+    <DatabaseName>dohu</DatabaseName>
+    <ConnectionManagerName>zoqew</ConnectionManagerName>
+    <ReadOnly>true</ReadOnly>
+    <ReadStoredProcedure>dohu..Padaw_Hiq_HuwiPapequmajaz</ReadStoredProcedure>
+
+    <PrimaryKeyAttribute keyClass="XutuFuludeyimaTokaroxoSuh">
+        <Attribute columnName="KOCU_YAK_W" javaType="String" name="bayuSed" sqlType="XefeTewesa"/>
+        <Attribute columnName="HANUVA_ZEL" javaType="String" name="nodoveHubutePufe" sqlType="XefeTewesa"/>
+        <Attribute columnName="JEWIVUY_W" javaType="String" name="cejasawUwesij" sqlType="XefeTewesa"/>
+        <Attribute columnName="HUXIMEH_DOTUF_PO" javaType="int" name="cekebudAxiviNe" sqlType="Ciyisag"/>
+        <Attribute columnName="ZIBIY_TADE" javaType="String" name="damimehuguJawa" sqlType="XefeTewesa"/>
+        <Attribute columnName="businessDate" javaType="Timestamp" name="businessDate" sqlType="XIZofuxafasElegexaLimanigaw"/>
+        <Attribute columnName="LOMOH" javaType="String" name="lomoh" sqlType="VuxuKizemIxovAwuhed"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="YUVAGIY_DOTUF" javaType="String" name="puvuwatUsaxa" sqlType="XefeTewesa"/>
+    <Attribute columnName="ZIBIY_JOSONICA" javaType="double" name="lakesoteqIsoyiwit" sqlType="Luhisa"/>
+
+    <Attribute columnName="ZIBIY_WUJUFOGET" javaType="double" name="gegotObomeyadox" sqlType="Luhisa"/>
+    <Relationship cardinality="many-to-one" dependentClass="XagoTomuFeyuwinu" foreignKey="vebiJoseFajuritoJok"
+                  name="sodeQacajisa"/>
+    <Relationship cardinality="many-to-one" dependentClass="FediyedIrawo" foreignKey="nosozelotoQufugumEvuxiJor"
+                  name="fejohaxidaGinizidUvami"/>
+
+
+    <AbstractMethod returnType="YowufarutaGib" methodName="kamEvorAvecEfizupedEsa" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="rivOkotAsibUsepisedImo"
+                    parameters="YowufarutaGib vebiJoseFajuritoJok"/>
+
+    <AbstractMethod returnType="YowufarutaGib" methodName="bokEmenifimaxAbizaniKekabIfo" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="ceyOpiduzajerEboluheSubahEgo"
+                    parameters="YowufarutaGib nosozelotoQufugumEvuxiJor"/>
+    <AbstractMethod returnType="RociRahaMayal" methodName="caxUkepOyawEcicu" parameters=""/>
+
+
+    <Index name="businessDate">businessDate</Index>
+    <IndexBuilder className="com.gs.fw.lilu.wute.domain.kigemawo.ZiyeducopUxitabutEqexaZonudiw"/>
+    <IndexBuilder className="com.gs.fw.lilu.wute.domain.kigemawo.CuhikaxaQubixUkokura"/>
+
+</ManagedObject>

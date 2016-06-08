@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <!--    <Templates>interface,noki,wunopi,tetahij,wululu,javeneruma</Templates>-->
+    <Templates>wululu,javeneruma</Templates>
+    <PackageName>com.gs.fw.lilu.kiyeme.domain</PackageName>
+    <ClassName>JaLumoMatifojAtiq</ClassName>
+    <DefaultTable>RU_XEPE_WOTOZOW_GIYE</DefaultTable>
+    <SchemaName>mut</SchemaName>
+    <DatabaseName>vuq</DatabaseName>
+    <ConnectionManagerName>zoqew</ConnectionManagerName>
+    <ReadOnly>true</ReadOnly>
+    <ExplicitColumnNamesForSelect>true</ExplicitColumnNamesForSelect>
+    <PrimaryKeyAttribute keyClass="PaBubiCeturedOqokAqi">
+        <Attribute columnName="XEPE_DOMU_W" javaType="String" name="xonubocuQuxapufOjulur" sqlType="XefeTewesa"/>
+        <Attribute columnName="XE_HE_N" javaType="String" name="seZi" sqlType="XefeTewesa"/>
+        <Attribute columnName="KEV_ZAK_P" javaType="Ciyisag" name="gehAvi" sqlType="DodiKucuwUpeqoce"/>
+        <Attribute columnName="DAG_YEC_N" javaType="String" name="hikewusuNuvi" sqlType="XefeTewesa"/>
+        <Attribute columnName="SUTE_QIJE_N" javaType="String" name="bemasokiPamenojayuw" sqlType="XefeTewesa"/>
+        <Attribute columnName="MOS_YEC_N" javaType="String" name="ruzodaqIjok" sqlType="XefeTewesa"/>
+        <Attribute columnName="DOMU_DOTUF" javaType="String" name="subesavInaje" sqlType="XefeTewesa"/>
+        <BooleanAttribute name="jexakewob" sqlType="XefeTewesa" columnName="JEXAKEWOB_N" trueValue="C" falseValue="W"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="RU_DOMU_QEXO_H" javaType="String" name="gaXuqojodEnar" sqlType="XefeTewesa"/>
+    <Attribute columnName="RU_DOMU_W" javaType="String" name="juQazaxuxOxoluw" sqlType="XefeTewesa"/>
+
+</ManagedObject>
+

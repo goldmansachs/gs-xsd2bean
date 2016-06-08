@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject objectType="transactional">
+
+    <PackageName>com.gs.fw.common.mithra.test.yob</PackageName>
+    <ClassName>Dozobi</ClassName>
+    <DefaultTable>DOZOBI</DefaultTable>
+
+    <AsOfAttribute name="fuzodayocoSana" fromColumnName="YE_Z" toColumnName="LEC_Z"
+                   infinityDate="[com.gs.fw.common.mithra.jaba.SazotarItijedopIfedimaku.dipOjusuvuKoripaca()]"
+                   defaultIfNotSpecified="[com.gs.fw.common.mithra.jaba.SazotarItijedopIfedimaku.dipOjusuvuKoripaca()]"
+                   isProcessingDate="true"/>
+
+    <AsOfAttribute name="businessDate" fromColumnName="FROM_Z" toColumnName="THRU_Z"
+                   infinityDate="[com.gs.fw.common.mithra.jaba.SazotarItijedopIfedimaku.dipOjusuvuKoripaca()]"
+                   isProcessingDate="false" toIsInclusive="false"/>
+
+    <Attribute name="qubazeWu" javaType="long" columnName="DOZOBI_LA"
+               primaryKey="true" />
+
+    <!-- attributes of related object -->
+    <Attribute name="xehUzewecIk" javaType="long" columnName="YOB_GUCESU_LA" nullable="false"/>
+    <Attribute name="yizeyuKo" javaType="long" columnName="HUMOPA_LA" nullable="false"/>
+    <Attribute name="duqaVu" javaType="long" columnName="YOCA_LA" nullable="false"/>
+    <Attribute name="yacobitaZoHihakoYi" javaType="long" columnName="GETOKI_DOZOBI_LA"/>
+    <Attribute name="vigexojadonoGehaneKo" javaType="long" columnName="HESEZITO_DOZOBI_LA"/>
+    <Attribute name="livaBu" javaType="long" columnName="XANO_LA" nullable="false"/>
+    <Attribute name="fuzotocEm" javaType="long" columnName="PAJOPAJ_LA"/>
+    <Attribute name="kofowaRo" javaType="long" columnName="DEWODI_LA"/>
+    <Attribute name="havaqoGusoPe" javaType="long" columnName="GAGUBID_WUSE_LA"/>
+    <Attribute name="tejayoroLiruvEq" javaType="long" columnName="COR_MICON_LA" nullable="false"/>
+    <Attribute name="xixanifuJemUkid" javaType="Date" columnName="TAN_GOZO_RAV"/>
+    <Attribute name="wozixenusUbuJebu" javaType="Date" columnName="TAN_GOZO_GIT"/>
+    <Attribute name="gudoliSumodaHuqi" javaType="Date" columnName="GOZO_DUBUSI_HITIF"/>
+    <Attribute name="soquPehu" javaType="String" columnName="YOCA_NIHU"/>
+    <Attribute name="lusifeCupiviPire" javaType="Date" columnName="SOVIBA_DOZOBI_GOZO"/>
+    <Attribute name="wedigihAquxig" javaType="double" columnName="NOGARA"/>
+    <Attribute name="gasakoyUjijIy" javaType="long" columnName="TUY_XANO_LA"/>
+    <Attribute name="zapukadOyadozaqo" javaType="String" columnName="KUTOS_NO_RUNORO"/>
+    <Attribute name="yusosulusojaZikike" javaType="String" columnName="RAWICEY_NO"/>
+    <Attribute name="maxAmuyocabaWasObigit" javaType="double" columnName="YOB_KEYIPU_YOB_RIN"/>
+    <Attribute name="napIhuxoyecoHipemepeRihowu" javaType="double" columnName="YOB_KEYIPU_JAKAQOK_RIN"/>
+    <Attribute name="jotEfakagikiBovozuyAjokiq" javaType="double" columnName="YOB_KEYIPU_NOZIDAK_RIN"/>
+    <Attribute name="gomUvupotoxiQayakUdoriYineyo" javaType="double" columnName="YOB_KEYIPU_REPAD_BEZOS_RIN"/>
+    <Attribute name="gufOregoqojaMiwijOtequJuge" javaType="String" columnName="YOB_KEYIPU_REPAD_BEZOS_TINE"/>
+    <Attribute name="guyIberekiyaPacuxEkajog" javaType="double" columnName="YOB_VELITOFAS_RIN"/>
+    <Attribute name="zolujUsanOsipeyobeqiLonuxi" javaType="double" columnName="TUYAZ_GE_LOBIMO_RIN"/>
+    <Attribute name="pigotIzidUpahupuhusiDEPAcepet" javaType="double" columnName="TUYAZ_GE_LOBIMO_DUH"/>
+    <Attribute name="mijonuxibAyukaseCanisa" javaType="double" columnName="XOV_TUY_RIN"/>
+    <Attribute name="lozugodoxEpuzup" javaType="double" columnName="GIT_TUY_RIN"/>
+    <Attribute name="tixihAwaxeziGagihila" javaType="double" columnName="REPAD_PUNUXAP_LUHA"/>
+    <Attribute name="cidafUyatijeTehizuwoXiye" javaType="String" columnName="REPAD_PUNUXAP_LUHA_TINE"/>
+    <Attribute name="fonohUcasiguYufosu" javaType="double" columnName="FEXOV_TUY_RIN"/>
+    <Attribute name="tidububivimOfiloy" javaType="double" columnName="LOBIMO_RIN"/>
+    <Attribute name="yiwajugiSotalufilahOtutatiZemubu" javaType="double" columnName="YEPU_LOBIMO_SETUZEN"/>
+    <Attribute name="sonoxapuPanabeTukowu" javaType="double" columnName="XEXAJO_RIN_YEPU"/>
+    <Attribute name="fenaxakaDuCiqeworurosIficedaKexeja" javaType="double" columnName="GIY_LOBIMO_SETUZEN"/>
+    <Attribute name="midunijuYeNuwugoGejodi" javaType="double" columnName="XEXAJO_RIN_GIY"/>
+    <Attribute name="xozilunerodUgosenaLopode" javaType="double" columnName="LOBIMO_SETUZEN_RIN"/>
+    <Attribute name="rekojaMoxiyo" javaType="double" columnName="XEXAJO_RIN"/>
+    <Attribute name="fagukaTiraboceNagepu" javaType="double" columnName="XEXAJO_SUKO_RIN"/>
+    <Attribute name="dulixuSisaxuwuMozu" javaType="Date" columnName="XEXAJO_SUKO_GOZO"/>
+    <Attribute name="n1Caruse" javaType="int" columnName="N1_CARUSE"/>
+    <Attribute name="yijexuhUk" javaType="String" columnName="PUDEHAN_XE" nullable="false"/>
+    <Attribute name="disukuRe" javaType="int" columnName="NOYUGE_LA"/>
+    <Attribute name="jarufuJuqokiTe" javaType="long" columnName="CEPIBO_HUMOPA_LA"/>
+    <Attribute name="falejulocuWubefaru" javaType="String" columnName="NUTOHABAVE_TOWUSAGE"/>
+    <Attribute name="xetoxUhozumoceHuQetenovuw" javaType="double" columnName="VELITOFAS_TU_GIT_RIN"/>
+    <Attribute name="siyugeturIditemaKijitiYicodu" javaType="double" columnName="XOV_HOJEF_DUZ_RIN"/>
+    <Attribute name="nexuwomilUwebagaWoleraFotIducov" javaType="double" columnName="XOV_HOJEF_RUT_DUZ_RIN"/>
+    <Attribute name="zanuquxixOzucozoVitiniPezago" javaType="double" columnName="GIT_HOJEF_DUZ_RIN"/>
+    <Attribute name="tojolaqilIqugufuVuranaVocEbuwoc" javaType="double" columnName="GIT_HOJEF_RUT_DUZ_RIN"/>
+    <Attribute name="hohiQuqOyayilEfig" javaType="String" columnName="FEKELUQ_LOK_NIHU"/>
+    <Attribute name="buzeteQucefiBo" javaType="long" columnName="DOZOBI_NOYUGE_LA"/>
+    <Attribute name="cefufIcoyugutobed" javaType="String" columnName="YAHIH_WUJAT_SEKO"/>
+    <Attribute name="depopesenObenemOcimatom" javaType="String" columnName="REBEDUGEF_DUBUSI_KIYE"/>
+    <Attribute name="xozadOgacuminihu" javaType="String" columnName="REPAD_NUNE"/>
+    <Attribute name="riteyelogAfoyiyeniBebesodAzomin" javaType="int" columnName="GIT_XOV_TUY_FOD"/>
+    <Attribute name="peporaPibomuw" javaType="String" columnName="DUBUSI_PIVIWEK_SEKO"/>
+    <Attribute name="taxoBatiqivUjOvifihoceSuruxu" javaType="String" columnName="YOCA_DOPUFAK_FU_XADA_HUMOPA"/>
+    <Attribute name="sabaBuVeHumu" javaType="Timestamp" columnName="YOCA_GIFOHAQ_GOZO" nullable="false"/>
+    <Attribute name="labebeGozIhezOwid" javaType="String" columnName="GIT_TAN_GOZO_SEKO"/>
+    <Attribute name="lOmalAdir" javaType="String" columnName="FAPEH_SEKO"/>
+    <Attribute name="xaSacipogiZajocadEjagel" javaType="String" columnName="SU_MEMADOXU_MEDAW_NO"/>
+    <Attribute name="qekUsiwawaMoveganul" javaType="String" columnName="HIWECOF_GIT"/>
+    <Attribute name="jocavahomugiWe" javaType="long" columnName="ZOGEPUZIQOSO_LA"/>
+    <Attribute name="rIcaxAnakuficedEpix" javaType="Date" columnName="FAPEH_ZEMIHE_GOZO"/>
+
+    <Relationship name="yoca" relatedObject="Yoca" cardinality="many-to-one">Yoca.duqaVu = this.duqaVu and
+        Yoca.businessDate = this.sabaBuVeHumu
+    </Relationship>
+    <Relationship name="boyePiboxip" relatedObject="BoyePiboxip" cardinality="many-to-one">BoyePiboxip.fuzotocEm =
+        this.fuzotocEm and BoyePiboxip.duqaVu = this.duqaVu and BoyePiboxip.businessDate = this.sabaBuVeHumu
+    </Relationship>
+    <Relationship name="bogujafaVe" relatedObject="Dozobi" cardinality="many-to-one">Dozobi.qubazeWu =
+        this.yacobitaZoHihakoYi
+    </Relationship>
+
+    <Relationship name="xivarugarojoPefitic" relatedObject="Zogepuziqoso" cardinality="many-to-one">
+        Zogepuziqoso.jocavahomugiWe=this.jocavahomugiWe
+    </Relationship>
+</MithraObject>

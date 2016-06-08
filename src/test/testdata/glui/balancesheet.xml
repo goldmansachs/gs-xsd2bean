@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"
+        pageTitle="Cezuxom" pageBuilder="com.gs.fw.kaza.zaz.glui.TugiqiwIjojuBamuGatuneb"
+        templateLayout="zaz/header.xml" feature="GedayoqevurUretEhopupu">
+
+    <section>
+        <row>
+            <button name="jexatExuyuxe" label="Vayus" downloadContent="true"
+                    pageBuilder="com.gs.fw.kaza.zaz.glui.VoruqAlipAnarifi"
+                    contentDownloader="com.gs.fw.kaza.zaz.vo.boxocin.HacAqepenuxajoyOxiwiKogizorovi"
+                    openSavedFile="true"/>
+        </row>
+        <row feature="zubApilafElisumi">
+            <button label="" name="nokUtizey.desc" nextLayoutName="zaz/gipafiqoqapawup.xml" crumbTrail="true"/>
+        </row>
+        <row>
+            <section caption="Vojiy Yokucaz" expandable="true" expanded="false">
+                <row>
+                    <uiElement name="rodavEdihisayon" renderAs="label"/><!-- for nomekevay kifawayapedop only -->
+                    <uiElement name="wavacAtometiJufuwe" renderAs="label"/>
+                </row>
+        </section>
+        </row>
+    </section>
+
+    <section>
+        <row feature="yuxikOdetAjarega">
+            <uiElement label="Dulic Bega By" name="vebidIdib" renderAs="combobox"/>
+            <button label="Dulic Bega" name="filigIwabOdedak" nextLayoutName="zaz/vodagigebace.xml"
+                    pageBuilder="com.gs.fw.kaza.zaz.glui.JafadisAyequXebacOgahIhigeyivu" crumbTrail="true"/>
+        </row>
+    </section>
+    <section>
+        <row>
+            <uiElement name="qaxinijuDerOdojAdaxol" renderAs="label"/>
+        </row>
+        <row>
+            <multitable name="vodagigebace" label="Pocusox pezug">
+                <table name="vodagigebace_yedara" rowSelection="single" wrapContent="false" wrapHeader="true"
+                       label="Pocusox Pezug"/>
+            </multitable>
+        </row>
+    </section>
+</layout>

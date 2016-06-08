@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject>
+
+    <PackageName>com.gs.fw.common.mithra.test.domain</PackageName>
+    <ClassName>CoceliVarapefEgodoxelo</ClassName>
+    <DefaultTable>GETOKI_FOD_HUMI</DefaultTable>
+
+    <Attribute name="id" javaType="int" columnName="LA" primaryKey="true"/>
+    <Attribute name="gejoNi" javaType="int" columnName="SOSE_LA"/>
+    <Attribute name="jiviguDoga" javaType="double" columnName="PINADO_HUMI" />
+    <Attribute name="docupIvub" javaType="float" columnName="YOYOP_HUMI" />
+    <Attribute name="cacaTohe" javaType="long" columnName="LUME_HUMI" />
+    <Attribute name="suqErak" javaType="int" columnName="DOD_HUMI" />
+    <Attribute name="litezOjor" javaType="short" columnName="VAGOZ_HUMI" />
+    <Attribute name="behaTexo" javaType="byte" columnName="BAGI_HUMI" />
+    <Attribute name="bopeSeni" javaType="char" columnName="LEBU_HUMI" />
+    <Attribute name="tagOnipoheButu" javaType="BigDecimal" scale="2" precision="5" columnName="MEZ_DECIMAL_HUMI" />
+    <Attribute name="voxiSewOledaheGoyo" javaType="BigDecimal" scale="0" precision="28" columnName="QUGE_MEZ_DECIMAL_HUMI" />
+
+    <Relationship name="cowoceyi" relatedObject="JonucAbijigeNelusidul" cardinality="one-to-many" reverseRelationshipName="parent">this.id = JonucAbijigeNelusidul.subobiVo</Relationship>
+
+</MithraObject>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout pageTitle="Gekekaq Mawosuq" showSelection="false"
+        pageBuilder="com.gs.fw.kaza.desa.zivukome.vo.KiluhivIketuhEzucohUmatabuQosaput"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd">
+    <section caption="Gekekaq Mawosuq">
+        <row>
+            <table name="vigarolIsixay" editable="false" sortable="true" rowsPerPage="0">
+            </table>
+        </row>
+    </section>
+    <section caption="Hamiti/Qopico Yogopiho Zivukome">
+        <row>
+            <button label="Mado yogopiho" name="wegaYunilane"
+                    pageBuilder="com.gs.fw.kaza.desa.zivukome.vo.TixEfacOfulazuYageruyug.sejobesIyaCujoge"
+                    nextLayoutName="desa/zivukome/cugOzaqagiXomacaJuyos.xml" crumbTrail="true"/>
+            <button label="Hamiti gekekaq mawosuq" name="mojoniSudugix"
+                    pageBuilder="com.gs.fw.kaza.desa.zivukome.vo.MivIfiruhoWarosaGeyileki"
+                    nextLayoutName="desa/zivukome/yasIcezuzoPudokeFecehejOhebu.xml" crumbTrail="true" refreshPage="true"
+                    confirmMsg="Mid you geri you zise to delete yogopiho mawosuq?"/>
+        </row>
+    </section>
+</layout>

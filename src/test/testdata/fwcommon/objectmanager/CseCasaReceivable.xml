@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>interface,noki,wululu,wunopi,tetahij,riyoxadipojoxuj,nuzikuzu</Templates>
+    <PackageName>com.gs.fw.lilu.ruh.domain.sexogasu</PackageName>
+    <ImportPackageName>com.gs.fw.lilu.ruh.domain.biqosezix.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.buh.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.product.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.yoru.Currency</ImportPackageName>
+    <ClassName>PuzOqivIkolumivif</ClassName>
+    <CacheType>ZikoXiqoh</CacheType>
+    <DefaultTable>RUH_BIMU_YIKAZONEFAJ</DefaultTable>
+    <DatabaseName>zoqew</DatabaseName>
+    <ConnectionManagerName>zoqew</ConnectionManagerName>
+    <ReadOnly>true</ReadOnly>
+    <ExplicitColumnNamesForSelect>true</ExplicitColumnNamesForSelect>
+
+    <PrimaryKeyAttribute keyClass="QinElutEdepadiyozOna">
+        <Attribute columnName="FOQ_DOMU_N" javaType="String" name="qomIpapumaRohero" sqlType="String"/>
+        <Attribute columnName="HOJI_CIQ_N" javaType="String" name="xewixudiYeze" sqlType="String"/>
+        <Attribute name="businessDate" columnName="businessDate" javaType="Timestamp" sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="WOTEP_PAXICE_P" javaType="int" name="hequdeDo" sqlType="Ciyisag"/>
+    <Attribute columnName="VUPE_N" javaType="String" name="jidiriYepu" sqlType="String"/>
+    <Attribute columnName="HANUVA_N" javaType="String" name="source" sqlType="String"/>
+
+    <ClassBasedAttribute name="biqoSezix" attributeClass="XesEbunowuqokUzewOhoti">
+        <Attribute name="qawIzucule" sqlType="Luhisa" javaType="double" columnName="RUDUSAHENO_SIBA_DAMAGUL_M"/>
+        <Attribute name="rovUzaqija" sqlType="Luhisa" javaType="double" columnName="JOVOY_SIBA_DAMAGUL_M"/>
+    </ClassBasedAttribute>
+
+    <Relationship cardinality="many-to-one" dependentClass="Currency" foreignKey="gifufekeZeb" name="dileweri"/>
+    <Relationship cardinality="many-to-one" dependentClass="SazAqadicarakIqEVOFozonow" foreignKey="yiduguyaruJuJEWOmibojeHis" name="qebinirifoZiVOZEdipoqa"/>
+    <Relationship cardinality="many-to-one" dependentClass="SahIwimafohutEyivebusiz" foreignKey="metOpapafenikIzetinutesOqa" name="sahIwimafohutEyivebusiz"/>
+
+    <AbstractMethod returnType="YowufarutaGib" methodName="kixAsatehukUda" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="qetEmebocikOku" parameters="YowufarutaGib tAquXac"/>
+    <AbstractMethod returnType="YowufarutaGib" methodName="socOkizebucerOrIFUHucunajEti" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="qusIxudulufulUsOYIQimozidOya" parameters="YowufarutaGib tAquXac"/>
+    <AbstractMethod returnType="YowufarutaGib" methodName="hifIleKonigavuxaXizosurafaHoh" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="ducUdoRizikuluvoNidoroliwuXic" parameters="YowufarutaGib tAquXac"/>
+
+    <Index name="businessDate">businessDate</Index>
+</ManagedObject>

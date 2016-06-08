@@ -1,0 +1,54 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<FlatFileParserConfig
+        delimiter=""
+        inflatedObject="com.gs.fw.para.application.ribihinerakodicibaxipa.nisixajo.RafafiyaSuqIkemijeciwaWolaDefuWepa"
+        columns="15"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../xsd/parserconfig.xsd">
+
+    <Header required="false" identifier="NASAVU:" />
+    <Trailer required="false" identifier="KABANAS:" />
+    <FixedColumnMapping attribute="RiquXadonaz" startPosition="0" length="10" />
+    <FixedColumnMapping attribute="XuficAlitusu" startPosition="19" length="8" />
+    <FixedColumnMapping attribute="Big" startPosition="39" length="6" />
+    <FixedColumnMapping attribute="JamakElemAmihif" startPosition="79" length="8" />
+    <FixedColumnMapping attribute="WafumaSihuXoyexa" startPosition="89" length="8" />
+    <FixedColumnMapping attribute="Timestamp" startPosition="99" length="16" />
+    <FixedColumnMapping attribute="Quantity" startPosition="119" length="20" />
+    <FixedColumnMapping attribute="YarExas" startPosition="139" length="1" />
+    <FixedColumnMapping attribute="ZeqimUfesob" startPosition="140" length="1" />
+    <FixedColumnMapping attribute="Siwel" startPosition="141" length="1" />
+    <FixedColumnMapping attribute="RaxokaCeyubupa" startPosition="161" length="3" />
+    <FixedColumnMapping attribute="ZefewaWitatu" startPosition="164" length="20" />
+    <FixedColumnMapping attribute="SiduheliguxAda" startPosition="184" length="20" />
+    <FixedColumnMapping attribute="QavogihakeqEluk" startPosition="204" length="6" />
+    <FixedColumnMapping attribute="SecUyipufa" startPosition="304" length="8" />
+    <FixedColumnMapping attribute="Noyuge" startPosition="324" length="6" />
+    <FixedColumnMapping attribute="Rikirefeva" startPosition="334" length="30" />
+    <FixedColumnMapping attribute="Casah" startPosition="364" length="5" />
+    <FixedColumnMapping attribute="Location" startPosition="368" length="9" />
+    <FixedColumnMapping attribute="Jivakupo" startPosition="376" length="12" />
+    <FixedColumnMapping attribute="Bohetoda" startPosition="388" length="30" />
+    <FixedColumnMapping attribute="RonuwOpoqox" startPosition="448" length="10" />
+    <FixedColumnMapping attribute="WahaluweJosey" startPosition="458" length="10" />
+    <FixedColumnMapping attribute="Qehu" startPosition="468" length="10" />
+    <FixedColumnMapping attribute="Trailer1" startPosition="508" length="30" />
+    <FixedColumnMapping attribute="Trailer2" startPosition="538" length="30" />
+    <FixedColumnMapping attribute="Trailer3" startPosition="568" length="30" />
+    <FixedColumnMapping attribute="Trailer4" startPosition="598" length="30" />
+    <FixedColumnMapping attribute="Trailer5" startPosition="668" length="30" />
+</FlatFileParserConfig>

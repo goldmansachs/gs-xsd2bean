@@ -1,0 +1,36 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<FlatFileParserConfig
+        delimiter="|"
+        inflatedObject="com.gs.fw.para.domain.qaje.position.implementation.XuhivuBeyoMaxeVunavomiHipe"
+        columns="20"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../xsd/parserconfig.xsd">
+    <Header required="true" identifier="NASAVU" simpleFormat="NASAVU|[kufuXEri]"/>
+    <Trailer required="true" identifier="KABANAS" simpleFormat="KABANAS|[count]*"/>
+    <Mapping attribute="rivusujAr" position="4" trim="true"/>
+    <Mapping attribute="zasomurOrefi" position="5" trim="true"/>
+    <Mapping attribute="jobaZenajivel" position="6" trim="true"/>
+    <Mapping attribute="rebajihIciwigin" position="10" trim="true"/>
+    <Mapping attribute="fotiyaquqUxarebeb" position="11" trim="true"/>
+    <Mapping attribute="vuyoliwAvebatuyIri" position="12" trim="true"/>
+    <Mapping attribute="vodovegahEwisopewAxa" position="13" trim="true"/>
+    <Mapping attribute="foyotocOd" position="14" trim="true"/>
+    <Mapping attribute="bixaqolukEp" position="15" trim="true"/>
+    <Mapping attribute="kunupepUru" position="16" trim="true"/>
+    <Mapping attribute="zoxewofaqOvu" position="17" trim="true"/>
+    <FixedValue attribute="sizoresAzoj" value="PET"/>
+</FlatFileParserConfig>

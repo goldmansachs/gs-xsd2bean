@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout layoutId="lir.mowere" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd" pageTitle="Zeyozayocu Wum Cezuxom"
+        pageBuilder="com.gs.fw.kaza.desa.josowot.xulutevo.vo.DubipucinoFadOtinulaXoyaxif" showSelection="false">
+    <section feature="HapeqUvapebuq">
+        <row>
+            <section>
+                <row>
+                    <button name="xeselOqoqIruq" label="Vayus Xinocepe" downloadContent="true"
+                            pageBuilder="com.gs.fw.kaza.desa.josowot.xulutevo.vo.DubipucinoFadOtinulaXoyaxif.femitihOhadeBeki"
+                            openSavedFile="true"
+                            contentDownloader="com.gs.fw.kaza.desa.josowot.common.vo.NunabUkovibEviterejey"
+                            crumbTrail="false"/>
+                </row>
+            </section>
+            <section>
+                <row>
+                    <uiElement label="            " renderAs="label"/>
+                </row>
+            </section>
+            <section>
+                <row>
+                    <uiElement label="            " renderAs="label"/>
+                </row>
+            </section>
+            <section>
+                <row>
+                    <uiElement label="            " renderAs="label"/>
+                </row>
+            </section>
+            <section>
+                <row>
+                    <uiElement label="            " renderAs="label"/>
+                </row>
+            </section>
+            <section>
+                <row>
+                    <uiElement label="            " renderAs="label"/>
+                </row>
+            </section>
+            <section>
+                <row>
+                    <uiElement label="            " renderAs="label"/>
+                </row>
+            </section>
+            <section>
+                <row>
+                    <button name="tuxaweFigejif" label="Wopine Gekekaq"
+                            nextLayoutName="desa/zivukome/moxUdegudiHegusiFagig.xml" crumbTrail="false"
+                            toFeature="HevodupIcubaded"/>
+                    <button name="gaboVuvofel" label="View/Qopico Gekekaq"
+                            pageBuilder="com.gs.fw.kaza.desa.josowot.xulutevo.vo.DubipucinoFadOtinulaXoyaxif.weHaSoxejurEwit"
+                            nextLayoutName="desa/zivukome/tijEveveleCuquhuLocol.xml" crumbTrail="false"/>
+                </row>
+            </section>
+        </row>
+    </section>
+    <section>
+        <row>
+            <uiElement name="cemEzofizUqebugIbe" label="" renderAs="label" style="table.vocudup.neq.text.style"/>
+        </row>
+    </section>
+
+    <section caption="Vojiy Yokucaz" expandable="true" expanded="false">
+        <row>
+            <uiElement name="wavacAtometiJufuwe" renderAs="label" label=""/>
+        </row>
+    </section>
+
+    <section>
+        <row>
+            <uiElement name="hepozEnabAbumagele" label="Dulic Bega by" renderAs="combobox"/>
+            <button name="vebidIdib" label="Dulic Bega"
+                    pageBuilder="com.gs.fw.kaza.desa.josowot.xulutevo.vo.DubipucinoFadOtinulaXoyaxif.gurasiyOqeYomojOgul"/>
+        </row>
+    </section>
+    <section>
+        <row>
+            <uiElement label="      " renderAs="label"/>
+        </row>
+    </section>
+    <section>
+        <row>
+            <uiElement name="hopiyUzucoyEdafodiFifuk" label=" Hobac Noyuge" renderAs="combobox"/>
+        </row>
+    </section>
+    <section>
+        <row>
+            <table name="suhoyEceFusan" wrapContent="false" wrapHeader="true" rowsPerPage="0"/>
+        </row>
+    </section>
+</layout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout layoutId="vivaqunih"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"
+        pageTitle="Zivukome Zuxebepa" feature="piqomuPaqifiwo"
+        pageBuilder="com.gs.fw.kaza.vufipevaham.SixakagaMijesakuXapiBirekik">
+
+    <section>
+        <row>
+            <uiElement name="businessDate" label="Cuyokujo Date" renderAs="combobox" sortBy="domain"
+                       transformerClass="com.gs.fw.common.petuhadi.vo.transformer.PorimubeDesaRemohiqujor"/>
+        </row>
+        <row>
+            <uiElement label="Gekekaq Type" name="vimeqefOmup" renderAs="combobox"/>
+        </row>
+    </section>
+
+    <section>
+        <row>
+            <uiElement name="qeziwEnemIdap" label="" renderAs="label" style="jitih.biwufow.style"
+                defaultSelection="Fepamufuq, va only support kudajew Vayus Pezug telowuh. Lebeli gagubid NO for Vayus Pezug qizabowoh."/>
+        </row>
+    </section>
+
+    <section>
+        <row>
+            <button name="Zewiko" renderAs="fileUpload" label="Zewiko" nextLayoutName="vufipevaham/BizedoqeXehajace.xml" crumbTrail="false"
+                uploadContent="true" pageBuilder="com.gs.fw.kaza.vufipevaham.ZoziwexeXifukIwetetIkajoxaqu"/>
+        </row>
+    </section>
+
+    <section feature="GemapapaVehidec">
+        <row>
+            <table label="Zivukome Yemuqi" name="puwoxObejorecAvuca" editable="false"/>
+        </row>
+        <row>
+            <button label="Jigide" name="bahavuBusitisa" crumbTrail="false" nextLayoutName="vufipevaham/BizedoqeXehajace.xml"
+                    pageBuilder="com.gs.fw.kaza.vufipevaham.NodekiYarekenuFutiGegoweg"/>
+        </row>
+    </section>
+
+</layout>

@@ -1,0 +1,598 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:annotation>
+        <xsd:documentation xml:lang="en">
+        </xsd:documentation>
+    </xsd:annotation>
+
+    <xsd:element name="Component" type="ComponentType"/>
+
+    <xsd:complexType name="SimplePanelType">
+        <xsd:complexContent>
+            <xsd:extension base="ContainerType">
+                <xsd:sequence>
+                    <xsd:element ref="Layout" minOccurs="1" maxOccurs="1"/>
+                </xsd:sequence>
+                <xsd:attributeGroup ref="titled"/>
+                <xsd:attributeGroup ref="dataModelContainer"/>
+                <xsd:attribute name="collapsible" type="xsd:boolean" default="false"/>
+                <xsd:attribute name="collapsed" type="xsd:boolean" default="true"/>
+            </xsd:extension>
+        </xsd:complexContent>
+
+    </xsd:complexType>
+
+    <xsd:attributeGroup name="textual">
+        <xsd:attribute name="text" type="xsd:string" default=""/>
+    </xsd:attributeGroup>
+
+    <xsd:attributeGroup name="titled">
+        <xsd:attribute name="title" type="xsd:string"/>
+    </xsd:attributeGroup>
+
+    <xsd:attributeGroup name="imaged">
+        <xsd:attribute name="image" type="xsd:string"/>
+    </xsd:attributeGroup>
+
+    <xsd:attributeGroup name="tooltipped">
+        <xsd:attribute name="tooltip" type="xsd:string"/>
+    </xsd:attributeGroup>
+
+    <xsd:attributeGroup name="dataModelContainer">
+        <xsd:attribute name="dataModel" type="xsd:string"/>
+    </xsd:attributeGroup>
+
+    <xsd:attributeGroup name="paged">
+        <xsd:attribute name="pageSize" type="xsd:int" default="-1"/>
+    </xsd:attributeGroup>
+
+    <xsd:attributeGroup name="syncable">
+        <xsd:attribute name="syncField" type="xsd:string"/>
+    </xsd:attributeGroup>
+
+    <xsd:attributeGroup name="formattable">
+        <xsd:attribute name="format" type="xsd:string"/>
+    </xsd:attributeGroup>
+
+    <!-- todo enhance xsd2bean -->
+    <!--<xsd:group name="columnar">-->
+    <!--<xsd:sequence>-->
+    <!--<xsd:element ref="Column" minOccurs="1" maxOccurs="unbounded"/>-->
+    <!--</xsd:sequence>-->
+    <!--</xsd:group>-->
+
+    <xsd:complexType name="ContainerType">
+        <xsd:complexContent>
+            <xsd:extension base="ElementType">
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="LayoutType">
+        <xsd:sequence>
+            <xsd:element ref="Element" minOccurs="0" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="CardLayoutType" abstract="true">
+        <xsd:complexContent>
+            <xsd:extension base="LayoutType"/>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="TableLayoutType">
+        <xsd:complexContent>
+            <xsd:extension base="LayoutType">
+                <xsd:attribute name="columns" type="xsd:int" default="1"/>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <xsd:complexType name="FlowLayoutType">
+        <xsd:complexContent>
+            <xsd:extension base="LayoutType">
+                <xsd:attribute name="orientation" default="horizontal">
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                            <xsd:enumeration value="horizontal"/>
+                            <xsd:enumeration value="vertical"/>
+                            <xsd:enumeration value="diagonal"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                </xsd:attribute>
+            </xsd:extension>
+        </xsd:complexContent>
+
+    </xsd:complexType>
+
+    <xsd:complexType name="WindowType">
+        <xsd:complexContent>
+            <xsd:extension base="ElementType">
+                <xsd:sequence>
+                    <xsd:element ref="Container" minOccurs="0" maxOccurs="1"/>
+                </xsd:sequence>
+                <xsd:attributeGroup ref="titled"/>
+                <xsd:attribute name="modal" type="xsd:boolean" default="false"/>
+                <xsd:attribute name="resizeable" type="xsd:boolean" default="true"/>
+                <xsd:attribute name="closeable" type="xsd:boolean" default="true"/>
+                <xsd:attribute name="collapsible" type="xsd:boolean" default="false"/>
+                <xsd:attribute name="minmizable" type="xsd:boolean" default="false"/>
+                <xsd:attribute name="maximizible" type="xsd:boolean" default="false"/>
+                <xsd:attribute name="cascadeOnFirstShow" type="xsd:boolean" default="false"/>
+            </xsd:extension>
+        </xsd:complexContent>
+
+    </xsd:complexType>
+
+    <xsd:complexType name="TabPanelType">
+        <xsd:complexContent>
+            <xsd:extension base="ElementType">
+                <xsd:sequence>
+                    <xsd:element ref="Container" minOccurs="0" maxOccurs="unbounded"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+
+    </xsd:complexType>
+
+    <xsd:complexType name="LayoutContraintsType">
+        <xsd:attribute name="colspan" type="xsd:int" default="1"/>
+        <xsd:attribute name="rowspan" type="xsd:int" default="1"/>
+        <xsd:attribute name="vertical-flex" type="xsd:int" default="0"/>
+        <xsd:attribute name="horizontal-flex" type="xsd:int" default="0"/>
+        <xsd:attribute name="padding-left" type="xsd:int" default="0"/>
+        <xsd:attribute name="padding-right" type="xsd:int" default="0"/>
+        <xsd:attribute name="padding-top" type="xsd:int" default="0"/>
+        <xsd:attribute name="padding-bottom" type="xsd:int" default="0"/>
+
+        <xsd:attribute name="vertical-align" type="xsd:string" default="center">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="center"/>
+                    <xsd:enumeration value="top"/>
+                    <xsd:enumeration value="bottom"/>
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+
+        <xsd:attribute name="horizontal-align" type="xsd:string" default="center">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="center"/>
+                    <xsd:enumeration value="left"/>
+                    <xsd:enumeration value="right"/>
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+
+        <xsd:attribute name="width" type="xsd:string" default="-1"/>
+        <xsd:attribute name="height" type="xsd:string" default="-1"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="ImportStyleType">
+        <xsd:attribute name="styleName" type="xsd:string"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="StyleType">
+        <!--DELIBERATELY THERE IS NO DEFAULTS SET BECAUSE THERE IS AN INTERNAL MANAGED DEFAULTS PER COMPONENT TYPES-->
+        <xsd:attribute name="font-family" type="xsd:string"/>
+        <xsd:attribute name="font-weight" type="xsd:string">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="normal"/>
+                    <xsd:enumeration value="bold"/>
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+        <xsd:attribute name="font-style" type="xsd:string">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="normal"/>
+                    <xsd:enumeration value="italic"/>
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+        <xsd:attribute name="font-decoration" type="xsd:string">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="normal"/>
+                    <xsd:enumeration value="underline"/>
+                    <xsd:enumeration value="strikethrough"/>
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+        <xsd:attribute name="font-color" type="xsd:string"/>
+        <!--no default as links and text act differently-->
+        <xsd:attribute name="font-size" type="xsd:int"/>
+        <xsd:attribute name="border-width" type="xsd:int"/>
+        <xsd:attribute name="border-color" type="xsd:string"/>
+        <xsd:attribute name="background-color" type="xsd:string"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="ColumnType">
+        <xsd:attribute name="id" type="xsd:string"/>
+        <xsd:attribute name="width" type="xsd:int" default="-1"/>
+        <xsd:attribute name="dataType" type="xsd:string" default="string">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="string"/>
+                    <xsd:enumeration value="date"/>
+                    <xsd:enumeration value="numeric"/>
+                    <xsd:enumeration value="boolean"/>
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+        <xsd:attribute name="flex" type="xsd:int" default="-1"/>
+        <xsd:attribute name="align" type="xsd:string" default="center">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="left"/>
+                    <xsd:enumeration value="right"/>
+                    <xsd:enumeration value="center"/>
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+        <xsd:attribute name="locked" type="xsd:boolean" default="false"/>
+        <xsd:attribute name="editable" type="xsd:boolean" default="false"/>
+        <xsd:attribute name="filterable" type="xsd:boolean" default="false"/>
+        <xsd:attribute name="sortable" type="xsd:boolean" default="true"/>
+        <xsd:attribute name="columnGroup" type="xsd:string"/>
+        <xsd:attributeGroup ref="formattable"/>
+        <xsd:attributeGroup ref="titled"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="SummaryRowType">
+        <xsd:attribute name="javaClass" type="xsd:string"/>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="ComponentType">
+        <xsd:complexContent>
+            <xsd:extension base="SimplePanelType">
+                <xsd:attribute name="applicationStateEventHandler" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="ImportComponentType">
+        <xsd:complexContent>
+            <xsd:extension base="ContainerType">
+                <xsd:attribute name="componentId" type="xsd:string"/>
+                <xsd:attributeGroup ref="titled"/>
+            </xsd:extension>
+        </xsd:complexContent>
+
+
+    </xsd:complexType>
+
+    <xsd:complexType name="ElementType" abstract="true">
+        <xsd:sequence>
+            <xsd:element name="LayoutConstraints" type="LayoutContraintsType" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="ImportStyle" type="ImportStyleType" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="Style" type="StyleType" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+        <xsd:attribute name="id" type="xsd:string"/>
+        <xsd:attribute name="enabled" type="xsd:boolean" default="true"/>
+        <xsd:attribute name="visible" type="xsd:boolean" default="true"/>
+        <xsd:attribute name="eventHandler" type="xsd:string"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="PrimitiveType" abstract="true">
+        <xsd:complexContent>
+            <xsd:extension base="ElementType">
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="DataSetVisualizationType">
+        <xsd:complexContent>
+            <xsd:extension base="ElementType">
+                <xsd:attributeGroup ref="dataModelContainer"/>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="TextualDataSetVisualizationType" abstract="true">
+        <xsd:complexContent>
+            <xsd:extension base="DataSetVisualizationType">
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="TreeGridType">
+        <xsd:complexContent>
+            <xsd:extension base="TextualDataSetVisualizationType">
+                <xsd:sequence>
+                    <xsd:element ref="Column" minOccurs="0" maxOccurs="unbounded"/>
+                </xsd:sequence>
+                <xsd:attribute name="fitColumns" type="xsd:boolean" default="true"/>
+                <xsd:attribute name="displayRoot" type="xsd:boolean" default="true"/>
+            </xsd:extension>
+        </xsd:complexContent>
+
+    </xsd:complexType>
+
+    <xsd:complexType name="ListType">
+        <xsd:complexContent>
+            <xsd:extension base="TextualDataSetVisualizationType">
+                <xsd:attributeGroup ref="titled"/>
+            </xsd:extension>
+        </xsd:complexContent>
+
+    </xsd:complexType>
+
+    <xsd:complexType name="GridType">
+        <xsd:complexContent>
+            <xsd:extension base="TextualDataSetVisualizationType">
+                <xsd:sequence>
+                    <xsd:element ref="Column" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="SummaryRow" minOccurs="0" maxOccurs="unbounded"/>
+                </xsd:sequence>
+                <xsd:attribute name="fitColumns" type="xsd:boolean" default="true"/>
+                <xsd:attribute name="cellLevelEdit" type="xsd:boolean" default="false"/>
+                <xsd:attribute name="stripedRows" type="xsd:boolean" default="true"/>
+                <xsd:attribute name="serverSort" type="xsd:boolean" default="false"/>
+                <xsd:attribute name="emptyText" type="xsd:string" default="No data available"/>
+                <xsd:attribute name="subscribeToSingleCellClick" type="xsd:boolean" default="false"/>
+                <xsd:attribute name="selectionType" default="none">
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                            <xsd:enumeration value="checkbox_single_row"/>
+                            <xsd:enumeration value="checkbox_multiple_row"/>
+                            <xsd:enumeration value="single_row"/>
+                            <xsd:enumeration value="multiple_row"/>
+                            <xsd:enumeration value="none"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                </xsd:attribute>
+                <xsd:attribute name="filterMode" default="local">
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                            <xsd:enumeration value="local"/>
+                            <xsd:enumeration value="server"/>
+                            <xsd:enumeration value="server_in_memory"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                </xsd:attribute>
+                <xsd:attributeGroup ref="paged"/>
+            </xsd:extension>
+        </xsd:complexContent>
+
+    </xsd:complexType>
+
+    <xsd:complexType name="TreeType">
+        <xsd:complexContent>
+            <xsd:extension base="TextualDataSetVisualizationType">
+                <xsd:attribute name="displayRoot" type="xsd:boolean" default="true"/>
+            </xsd:extension>
+        </xsd:complexContent>
+
+    </xsd:complexType>
+
+    <xsd:complexType name="GraphicalDataSetVisualizationType" abstract="true">
+        <xsd:complexContent>
+            <xsd:extension base="DataSetVisualizationType">
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="LineChartType">
+        <xsd:complexContent>
+            <xsd:extension base="GraphicalDataSetVisualizationType">
+                <xsd:attribute name="totalXTicks" type="xsd:int"/>
+                <xsd:attributeGroup ref="titled"/>
+            </xsd:extension>
+        </xsd:complexContent>
+
+    </xsd:complexType>
+
+
+    <xsd:complexType name="SimpleEntryType">
+        <xsd:complexContent>
+            <xsd:extension base="ElementType">
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="TextEntry" abstract="true">
+        <xsd:complexContent>
+            <xsd:extension base="SimpleEntryType">
+                <xsd:attributeGroup ref="textual"/>
+            </xsd:extension>
+        </xsd:complexContent>
+
+    </xsd:complexType>
+
+    <xsd:complexType name="CheckBoxType">
+        <xsd:complexContent>
+            <xsd:extension base="SimpleEntryType">
+                <xsd:attribute name="checked" type="xsd:boolean" default="false"/>
+            </xsd:extension>
+        </xsd:complexContent>
+
+    </xsd:complexType>
+
+
+    <xsd:complexType name="ComboBoxType">
+        <xsd:complexContent>
+            <xsd:extension base="SimpleEntryType">
+                <xsd:attribute name="preSelectionText" type="xsd:string" default="--Choose--"/>
+                <xsd:attributeGroup ref="dataModelContainer"/>
+                <xsd:attributeGroup ref="paged"/>
+                <xsd:attributeGroup ref="syncable"/>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="DateEntryType" abstract="true">
+        <xsd:complexContent>
+            <xsd:extension base="SimpleEntryType">
+                <xsd:attributeGroup ref="formattable"/>
+                <xsd:attributeGroup ref="syncable"/>
+            </xsd:extension>
+        </xsd:complexContent>
+
+    </xsd:complexType>
+
+    <xsd:complexType name="SimpleActionableType">
+        <xsd:complexContent>
+            <xsd:extension base="ElementType">
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="ButtonType">
+        <xsd:complexContent>
+            <xsd:extension base="SimpleActionableType">
+                <xsd:attributeGroup ref="textual"/>
+                <xsd:attributeGroup ref="imaged"/>
+            </xsd:extension>
+        </xsd:complexContent>
+
+    </xsd:complexType>
+
+    <xsd:complexType name="LinkType">
+        <xsd:complexContent>
+            <xsd:extension base="SimpleActionableType">
+                <xsd:attributeGroup ref="textual"/>
+                <xsd:attributeGroup ref="imaged"/>
+                <xsd:attribute name="url" type="xsd:string"/>
+                <xsd:attribute name="linkTargetType" type="linkTargetType" default="internal"/>
+                <xsd:attribute name="customTarget" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:simpleType name="linkTargetType">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="internal"/>
+            <xsd:enumeration value="redirect"/>
+            <xsd:enumeration value="new_window"/>
+            <xsd:enumeration value="reuse_anon_window"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+
+    <xsd:complexType name="FileUploadType">
+        <xsd:complexContent>
+            <xsd:extension base="SimpleActionableType">
+                <xsd:attributeGroup ref="textual"/>
+                <xsd:attribute name="preloadFileIntrospection" type="xsd:boolean" default="false"/>
+                <xsd:attribute name="progress" type="xsd:boolean" default="false"/>
+                <xsd:attribute name="singleFile" type="xsd:boolean" default="true"/>
+            </xsd:extension>
+        </xsd:complexContent>
+
+    </xsd:complexType>
+
+    <xsd:complexType name="TextEntryType" abstract="true">
+        <xsd:complexContent>
+            <xsd:extension base="SimpleEntryType">
+                <xsd:attributeGroup ref="textual"/>
+                <xsd:attribute name="subscribeToKeyPress" type="xsd:boolean" default="false"/>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="TextAreaType">
+        <xsd:complexContent>
+            <xsd:extension base="TextEntryType">
+                <xsd:attributeGroup ref="syncable"/>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="TextFieldType">
+        <xsd:complexContent>
+            <xsd:extension base="TextEntryType">
+                <xsd:attributeGroup ref="syncable"/>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="ImageType">
+        <xsd:complexContent>
+            <xsd:extension base="PrimitiveType">
+                <xsd:attribute name="source" type="xsd:string"/>
+                <xsd:attribute name="tooltip" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="LabelType">
+        <xsd:complexContent>
+            <xsd:extension base="PrimitiveType">
+                <xsd:attributeGroup ref="textual"/>
+                <xsd:attributeGroup ref="syncable"/>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="VoidType">
+        <xsd:complexContent>
+            <xsd:extension base="PrimitiveType">
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+
+    <xsd:element name="Container" type="ContainerType" abstract="true" substitutionGroup="Element"/>
+    <xsd:element name="ImportComponent" type="ImportComponentType" substitutionGroup="Container"/>
+    <xsd:element name="SimplePanel" type="SimplePanelType" substitutionGroup="Container"/>
+    <xsd:element name="Window" type="WindowType" substitutionGroup="Element"/>
+    <xsd:element name="TabPanel" type="TabPanelType" substitutionGroup="Element"/>
+
+    <xsd:element name="Element" abstract="true" type="ElementType"/>
+    <xsd:element name="Primitive" abstract="true" type="PrimitiveType" substitutionGroup="Element"/>
+    <xsd:element name="DataSetVisualization" abstract="true" type="DataSetVisualizationType"
+                 substitutionGroup="Element"/>
+    <xsd:element name="GraphicalDataSetVisualization" abstract="true" type="GraphicalDataSetVisualizationType"
+                 substitutionGroup="DataSetVisualization"/>
+    <xsd:element name="TextualDataSetVisualization" abstract="true" type="TextualDataSetVisualizationType"
+                 substitutionGroup="DataSetVisualization"/>
+    <xsd:element name="SimpleActionable" abstract="true" type="SimpleActionableType" substitutionGroup="Element"/>
+    <xsd:element name="SimpleEntry" abstract="true" type="SimpleEntryType" substitutionGroup="Element"/>
+    <xsd:element name="TextEntry" abstract="true" type="TextEntryType" substitutionGroup="SimpleEntry"/>
+    <xsd:element name="Layout" type="LayoutType" abstract="true"/>
+    <xsd:element name="TableLayout" type="TableLayoutType" substitutionGroup="Layout"/>
+    <xsd:element name="CardLayout" type="CardLayoutType" substitutionGroup="Layout"/>
+    <xsd:element name="FlowLayout" type="FlowLayoutType" substitutionGroup="Layout"/>
+    <xsd:element name="Link" type="LinkType" substitutionGroup="SimpleActionable"/>
+    <xsd:element name="Button" type="ButtonType" substitutionGroup="SimpleActionable"/>
+    <xsd:element name="FileUpload" type="FileUploadType" substitutionGroup="SimpleActionable"/>
+    <xsd:element name="ComboBox" type="ComboBoxType" substitutionGroup="SimpleEntry"/>
+    <xsd:element name="DateEntry" type="DateEntryType" substitutionGroup="SimpleEntry"/>
+    <xsd:element name="CheckBox" type="CheckBoxType" substitutionGroup="SimpleEntry"/>
+    <xsd:element name="TextArea" type="TextAreaType" substitutionGroup="TextEntry"/>
+    <xsd:element name="TextField" type="TextFieldType" substitutionGroup="TextEntry"/>
+    <xsd:element name="Image" type="ImageType" substitutionGroup="Primitive"/>
+    <xsd:element name="Label" type="LabelType" substitutionGroup="Primitive"/>
+    <xsd:element name="Void" type="VoidType" substitutionGroup="Primitive"/>
+    <xsd:element name="LineChart" type="LineChartType" substitutionGroup="GraphicalDataSetVisualization"/>
+    <xsd:element name="Tree" type="TreeType" substitutionGroup="TextualDataSetVisualization"/>
+    <xsd:element name="List" type="ListType" substitutionGroup="TextualDataSetVisualization"/>
+    <xsd:element name="Grid" type="GridType" substitutionGroup="TextualDataSetVisualization"/>
+    <xsd:element name="TreeGrid" type="TreeGridType" substitutionGroup="TextualDataSetVisualization"/>
+    <xsd:element name="Column" type="ColumnType"/>
+    <xsd:element name="SummaryRow" type="SummaryRowType"/>
+    <xsd:element name="LayoutConstraints" type="LayoutContraintsType"/>
+    <xsd:element name="StyleImport" type="ImportStyleType"/>
+    <xsd:element name="Style" type="StyleType"/>
+
+</xsd:schema>

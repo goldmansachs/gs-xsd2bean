@@ -1,0 +1,97 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraRuntime>
+    <ConnectionManager className="com.gs.fw.common.mithra.test.QamokacufiLuxaqejUxoNerim">
+        <Property name="zokemukuDege" value="TEST"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.CefuxOsedAziyezeg" cacheType="partial" />
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.MacobEzewAqonudanebEcodawov" cacheType="partial" />
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.KotunUqirAya" cacheType="partial" />
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.VivaWujIpiselaZaburEgePuxe" cacheType="partial"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.HenufurEjanorayanaNusemiyac" cacheType="partial"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.MeqamahIzawegaTubogokapupOqimuzaxu" cacheType="partial"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.JojalotAmezoyokuju" cacheType="partial"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.CatedecApejidupivaVeb" cacheType="partial"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.VuwebizOridaducibeKaFadOfug" cacheType="partial"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.DocewejUqijucusaliFedOciHavi" cacheType="partial"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.MenucagEmorodiBayohiqeraj" cacheType="partial"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.NalunogAqetote" cacheType="partial"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.WojosezUzofexaLif" cacheType="partial"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.XolasexAmojetubupIsa" cacheType="partial"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.GokikaSejeCagarego" cacheType="partial"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.PoweQaxovIgefOwubaya" cacheType="partial"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.BoleFepoNemuSuvurux" cacheType="partial"/>
+		<MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.Casah" cacheType="full"/>
+		<MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.KekeCisu" cacheType="full"/>
+		<MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.Sose" cacheType="partial"/>
+		<MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.UserGroup" cacheType="partial"/>
+		<MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.Group" cacheType="partial"/>
+		<MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.Decomig" cacheType="partial"/>
+		<MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.Jewivuy" cacheType="full"/>
+		<MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.XasoTehocag" cacheType="partial"/>
+		<MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.Contract" cacheType="full"/>
+		<MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.Weyerojam" cacheType="full"/>
+		<MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.YalaRehi" cacheType="full"/>
+		<MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.Location" cacheType="partial"/>
+		<MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.Yenazimuxu" cacheType="partial"/>
+		<MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.HimabEmotepi" cacheType="partial"/>
+		<MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.DegihItaZajug" cacheType="partial"/>
+		<MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.FanibUsape" cacheType="partial"/>
+		<MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.Vihuqori" cacheType="partial"/>
+
+		<MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.Book" cacheType="full"/>
+		<MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.Sevet" cacheType="full"/>
+		<MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.Tarejefu" cacheType="full"/>
+		<MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.MuqugoseKuminehutUhex" cacheType="full"/>
+		<MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.Yecarikesafa" cacheType="full"/>
+		<MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.ZisetoxoMopa" cacheType="partial"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.TajeLejiforov" cacheType="full"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.Bumez" cacheType="full"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.JacocUpujo" cacheType="full"/>
+		<MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.vagujajaqeduqupup.VuyahapaYevorayikaZidoyak" cacheType="partial"/>
+		<MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.qaje.pocusox.position.KohuyudiLodizica" cacheType="partial"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.CegoNuhajez" cacheType="partial"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.HeseQarolid" cacheType="partial"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.VekiJoyosixUyusUnequLipe" cacheType="partial"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.JuwiBemutakUra" cacheType="partial"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.MofoqIbonAmijedu" cacheType="partial"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.YegIhoribiWalusoy" cacheType="partial"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.ZoquSatovih" cacheType="partial"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.LiduGufuLehoyaxe" cacheType="full"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.Neyisih" cacheType="full"/>
+
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.dated.NurOfowiHakub" cacheType="partial"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.dated.MucuzAqowe" cacheType="partial"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.parent.LumizaXegu" cacheType="full"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.child.KumejOsid" cacheType="full"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.child.WozeZeyeyu" cacheType="full"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.jibowod.RojEkat" cacheType="full"/>
+
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.BohabOluveb" cacheType="partial"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.YofuvEbiluvUcor" cacheType="partial"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.WulenUmufulOkigEdof" cacheType="partial"/>
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.HekaQulOcogEwIco" cacheType="partial"/>
+
+        <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.QiwiColelupuYanib" cacheType="partial"/>
+        <Schema name="JAM">
+            <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.JicepumoSaqo" cacheType="full"/>
+            <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.YoQecocuyeXudo" cacheType="full"/>
+            <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.YogoxibuJiviTemoRakota" cacheType="partial"/>
+            <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.Order" cacheType="full"/>
+            <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.OrderItem" cacheType="full"/>
+            <MithraObjectConfiguration className="com.gs.fw.common.mithra.test.domain.Tigaran" cacheType="partial"/>
+        </Schema>
+	</ConnectionManager>
+</MithraRuntime>

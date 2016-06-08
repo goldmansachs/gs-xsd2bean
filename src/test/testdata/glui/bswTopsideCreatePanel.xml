@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout pageTitle="Wopine Gekekaq" showSelection="false" feature="HevodupIcubaded"
+        pageBuilder="com.gs.fw.kaza.desa.zivukome.vo.BeyAlecihoLegutaGakeneq"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd">
+
+    <section caption="Wopine Gekekaq">
+        <row>
+            <button label="Lage" name="lage" crumbTrail="true"
+                    pageBuilder="com.gs.fw.kaza.desa.zivukome.vo.VayUwipuwoTiguHabalorec"
+                    nextLayoutName="desa/zivukome/cugOzaqagiXomacaJuyos.xml"
+                    validate="rimoqadefeYesubuNilusukoqoc,suvufObub,vawIdah,nelijoGopemOg,fajawidaSaliyAs,rozunagaSuku,tawiyomAxepEbaqam"/>
+            <button label="Zewiko" renderAs="fileUpload" name="yopeciHusiTehed" crumbTrail="true" uploadContent="true"
+                    pageBuilder="com.gs.fw.kaza.desa.zivukome.vo.ZoqEnecazeJifeqOqapibObutudoye"
+                    nextLayoutName="desa/zivukome/moxUdegudiHegusiFagig.xml"/>
+        </row>
+    </section>
+
+    <section>
+        <row>
+            <uiElement name="pekefuhaHatigiKax" label="" renderAs="label" style="table.vocudup.musub.text.style"/>
+        </row>
+    </section>
+
+    <section caption="Gekekaq Header">
+        <row>
+            <section>
+                <row>
+                    <uiElement name="rimoqadefeYesubuNilusukoqoc" label="Header Cuyifanakit: (*)" renderAs="textbox"
+                               validation="mandatory"/>
+                </row>
+                <row>
+                    <uiElement name="suvufObub" label="Haqes Date: (*)" renderAs="datepicker"
+                               validation="mandatory,YarIsetosiDifiBiqukajaf,QonUnegereTaxicEziPinEpajAsunadewi"/>
+                    <uiElement name="vawIdah" label="Pet Date: (*)" renderAs="datepicker"
+                               validation="mandatory,YarIsetosiDifiBiqukajaf"/>
+                    <section>
+                        <row>
+                            <section caption="Kakim Fu: (*)">
+                                <row>
+                                    <uiElement label="Vaxamu" name="nelijoGopemOg" renderAs="checkbox"
+                                               validation="mandatory,PajehipImabejEsusatUmocuvohi"/>
+                                    <uiElement label="Ralacabu" name="fajawidaSaliyAs" renderAs="checkbox"
+                                               validation="mandatory,WaxehejUcoxowEnuwanisEdezanini"/>
+                                </row>
+                                <row>
+                                    <uiElement label="Sekopive" name="rozunagaSuku" renderAs="checkbox"
+                                               validation="mandatory,XumudupIfufohAcasiVeTaqeyacan"/>
+                                </row>
+                            </section>
+                        </row>
+                    </section>
+                </row>
+                <row>
+                    <uiElement name="qudocatiGeha" label="Qahodoqo" renderAs="combobox" attribute="display"
+                               noSelectOption="&lt;No Mosuku&gt;"/>
+                </row>
+                <row>
+                    <uiElement name="hihapuNoco" label="Header Wopine Date" renderAs="textbox" readOnly="true"/>
+                    <uiElement name="nifozoNe" label="Header Rifihux By" renderAs="textbox" readOnly="true"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section>
+                <row>
+                    <uiElement name="tawiyomAxepEbaqam" label="Qili Loxolo: (*)" renderAs="checkboxlist"
+                               validation="mandatory" attribute="display"/>
+                </row>
+            </section>
+        </row>
+    </section>
+    <section caption="Gekekaq Yemuqi">
+        <row>
+            <table name="xevolekEbenis" editable="true" sortable="false" rowsPerPage="0">
+            </table>
+        </row>
+    </section>
+    <section>
+        <row>
+            <button name="purOto" label="Ran Quy" />
+            <button name="tanaMey" label="Peza Quy" />
+            <button name="maximoYif" label="Yejeyo Quy" />
+        </row>
+    </section>
+</layout>

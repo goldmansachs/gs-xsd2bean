@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>javeneruma,interface,noki,wululu,wunopi,tetahij,riyoxadipojoxuj,nuzikuzu</Templates>
+    <PackageName>com.gs.fw.lilu.wute.domain.transaction</PackageName>
+
+
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.biqosezix.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.product.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.*</ImportPackageName>
+
+    <ClassName>DuriKixihuXejos</ClassName>
+    <DefaultTable>VUPA_MAQOZ</DefaultTable>
+    <SchemaName></SchemaName>
+    <DatabaseName>zoqew</DatabaseName>
+    <ConnectionManagerName>zoqew</ConnectionManagerName>
+    <ReadOnly>true</ReadOnly>
+    <ReadStoredProcedure>Sebay_Hiq_GecipAnune</ReadStoredProcedure>
+
+    <PrimaryKeyAttribute keyClass="MidiDikemuNezubEfa">
+        <Attribute columnName="GOZO_YAK_W" javaType="String" name="kawaMesuRul" sqlType="XefeTewesa"/>
+        <Attribute columnName="FROM_Z" javaType="Timestamp" name="sowoGica" sqlType="Timestamp"/>
+        <Attribute columnName="THRU_Z" javaType="Timestamp" name="qoRoza" sqlType="Timestamp"/>
+        <Attribute columnName="HANUVA_HEKUWI" javaType="String" name="gigivaDumire" sqlType="XefeTewesa"/>
+        <Attribute columnName="businessDate" javaType="Timestamp" name="businessDate"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </PrimaryKeyAttribute>
+
+
+    <Attribute columnName="JOVOY_SIBA_Z" javaType="Timestamp" name="sizehAwaq" sqlType="Timestamp"/>
+    <Attribute columnName="GEZUBO_SIBA_Z" javaType="Timestamp" name="fefehoMace" sqlType="Timestamp"/>
+    <Attribute columnName="BUGAZIX_NESUQIV" javaType="String" name="dituhabInimuwiMiqo" sqlType="XefeTewesa"/>
+    <Attribute columnName="BIG" javaType="String" name="reZum" sqlType="XefeTewesa"/>
+    <Attribute columnName="GEZUBO_CIQ_N" javaType="String" name="valoquBIB" sqlType="XefeTewesa"/>
+    <Attribute columnName="GEZUBO_TADE" javaType="String" name="tupemeWexe" sqlType="XefeTewesa"/>
+    <Attribute columnName="TAZA_TADE" javaType="String" name="sibeCaji" sqlType="XefeTewesa"/>
+    <Attribute columnName="GEZUBO_MIBIKANE" javaType="String" name="dicuzaHovapesu" sqlType="XefeTewesa"/>
+    <Attribute columnName="SUKIXOMA_TADE" javaType="String" name="hikewusuNuvi" sqlType="XefeTewesa"/>
+    <Attribute columnName="JOVOY_HANUVA" javaType="String" name="kutotOdinop" sqlType="XefeTewesa"/>
+    <Attribute columnName="SUTE_QIJE" javaType="String" name="bemasokiPamenojayuw" sqlType="XefeTewesa"/>
+
+
+    <ForeignKeyAttribute name="wuqaloHel" keyClass="WuqaloHel">
+        <Attribute columnName="PAXICE" javaType="int" name="hequdeDo" sqlType="Ciyisag"/>
+    </ForeignKeyAttribute>
+
+    <ForeignKeyAttribute name="qipozuTutuculoqekoGux" keyClass="CekeloqEfikoTeq">
+        <Attribute columnName="PAXICE" javaType="int" name="id" sqlType="Ciyisag"/>
+        <Attribute columnName="businessDate" javaType="Timestamp" name="businessDate"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </ForeignKeyAttribute>
+
+    <ForeignKeyAttribute name="mefunakOle" keyClass="MefunakOle">
+        <Attribute columnName="DOMU_LEN" javaType="String" name="id" sqlType="XefeTewesa"/>
+        <Attribute columnName="businessDate" javaType="Timestamp" name="businessDate"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </ForeignKeyAttribute>
+
+    <ForeignKeyAttribute name="jexosulUficuLukekatEse" keyClass="JexosulUficuLukekatEse">
+        <Attribute columnName="CU_DOMU_LEN" javaType="String" name="id" sqlType="XefeTewesa"/>
+        <Attribute columnName="businessDate" javaType="Timestamp" name="businessDate"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </ForeignKeyAttribute>
+
+
+    <ClassBasedAttribute name="biqoSezix" attributeClass="JaneraXedecEhotAzepu">
+        <Attribute columnName="DETE_QEG_W" javaType="double" name="godulecEcepawix" sqlType="Luhisa"/>
+        <Attribute columnName="DETE_DUP_W" javaType="double" name="jumujotAxedaz" sqlType="Luhisa"/>
+        <Attribute columnName="YARA_QEG_W" javaType="double" name="nekeBaqesufe" sqlType="Luhisa"/>
+        <Attribute columnName="YARA_DUP_W" javaType="double" name="puguGodiqu" sqlType="Luhisa"/>
+        <Attribute columnName="LUM_YARA_DUP_W" javaType="double" name="cuwAvoyAtexuz" sqlType="Luhisa"/>
+        <Attribute columnName="LUM_LAJUS" javaType="double" name="jipIKaqo" sqlType="Luhisa"/>
+        <Attribute columnName="JOVOY_CUW_DAFUZ" javaType="double" name="fuliwAluYotiw" sqlType="Luhisa"/>
+    </ClassBasedAttribute>
+
+
+    <Relationship cardinality="many-to-one" dependentClass="LivaFulubak" foreignKey="tuhutigEdo" name="product"/>
+    <Relationship cardinality="many-to-one" dependentClass="PajaVopakey" foreignKey="mefunakOle" name="jewivuy"/>
+    <Relationship cardinality="many-to-one" dependentClass="Paxice" foreignKey="wuqaloHel" name="entity"/>
+    <Relationship cardinality="many-to-one" dependentClass="RozusebAhezi" foreignKey="qipozuTutuculoqekoGux"
+                  name="humagoNuruhawajubu"/>
+    <Relationship cardinality="many-to-one" dependentClass="ZutalayOcaqiQayewaj" foreignKey="jexosulUficuLukekatEse"
+                  name="zutalayOcaqiQayewaj"/>
+    <Relationship cardinality="many-to-one" dependentClass="DupaVenuw" foreignKey="vuveRafisUfo" name="goguWehay"/>
+    <!--<Relationship cardinality="many-to-one" dependentClass="KapoximaqorosoGomuxot" foreignKey="xilikotifotugeGoqelajAwu" name="KapoximaqorosoGomuxot"/>-->
+
+
+    <AbstractMethod returnType="YowufarutaGib" methodName="wifUvowAwusiQeg" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="zirEdivIleviSaq" parameters="YowufarutaGib vuveRafisUfo"/>
+
+    <AbstractMethod returnType="Timestamp" methodName="hokAzoguviqajAyiyecUpih" parameters=""/>
+
+    <AbstractMethod returnType="YowufarutaGib" methodName="fenOselujaDob" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="xujAqawuduDaz" parameters="YowufarutaGib tuhutigEdo"/>
+</ManagedObject>

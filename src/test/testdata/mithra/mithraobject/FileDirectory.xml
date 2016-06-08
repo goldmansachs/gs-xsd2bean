@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject objectType="transactional">
+
+    <PackageName>com.gs.fw.common.mithra.test.domain</PackageName>
+    <ClassName>TajeLejiforov</ClassName>
+
+	<DefaultTable>SEKO_YODIHAWIS</DefaultTable>
+    <Attribute name="zonoNusufevelIl" javaType="int" columnName="SEKO_YODIHAWIS_LA" primaryKey = "true"/>
+    <Attribute name="qegexuciNiyu" javaType="Timestamp" columnName="REPIKANO_GOZO"/>
+    <Attribute name="name" javaType="String" columnName="NIHU" maxLength="256"/>
+    <Attribute name="relad" javaType="String" columnName="RELAD" primaryKey = "true" maxLength="10"/>
+    <Attribute name="heqowafogoqiHefi" javaType="Date" columnName="KIBAHUNUQEDE_GOZO"/>
+    <Attribute name="wedibeJedehaletUg" javaType="int" columnName="GETOKI_YODIHAWIS_LA" />
+    <Attribute name="tine" javaType="String" columnName="TINE" maxLength="20"/>
+    <Attribute name="neyiGoralOtipejoba" javaType="Timestamp" columnName = "KOCO_REPAD_REDOHINAT"/>
+    <Attribute name="jeZupazocij" javaType="int" columnName = "IS_WIB"/>
+    <Attribute name="cedeXodufIvoc" javaType="Date" columnName = "KOCO_REPAD_GOZO"/>
+    <Relationship name="kaputAxejenemayi" relatedObject="TajeLejiforov" cardinality="one-to-many" relatedIsDependent="true" reverseRelationshipName="garumoDewewotag">this.relad = TajeLejiforov.relad and this.zonoNusufevelIl = TajeLejiforov.wedibeJedehaletUg</Relationship>
+    <Relationship name="pujejuHibaculimUfigOverAhaf" relatedObject="TajeLejiforov" cardinality="many-to-one">this.relad = TajeLejiforov.relad and this.wedibeJedehaletUg = TajeLejiforov.zonoNusufevelIl and this.tine = TajeLejiforov.tine</Relationship>
+    <Relationship name="legacoJitezesucAyotOwutOmuceCuduhigin" relatedObject="TajeLejiforov" cardinality="many-to-one">this.relad = TajeLejiforov.relad and this.wedibeJedehaletUg = TajeLejiforov.zonoNusufevelIl and this.neyiGoralOtipejoba = TajeLejiforov.neyiGoralOtipejoba</Relationship>
+    <Relationship name="boqiquTugejozexUjumUdiyEfeviJuse" relatedObject="TajeLejiforov" cardinality="one-to-one">this.relad = TajeLejiforov.relad and this.wedibeJedehaletUg = TajeLejiforov.zonoNusufevelIl and this.cedeXodufIvoc = TajeLejiforov.cedeXodufIvoc</Relationship>
+
+    <Relationship name="hagiCepetAnositefuka" relatedObject="TajeLejiforov" cardinality="one-to-many">
+        this.relad = TajeLejiforov.relad and this.zonoNusufevelIl = TajeLejiforov.wedibeJedehaletUg and this.jeZupazocij = 1
+        and TajeLejiforov.jeZupazocij = 1
+    </Relationship>
+</MithraObject>

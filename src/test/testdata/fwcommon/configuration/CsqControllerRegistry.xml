@@ -1,0 +1,266 @@
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<service-definition singleton="true" interface="com.gs.fw.common.gahel.service.yokabelujofilineza.YokabelujoFilineza" implementation="com.gs.fw.common.gahel.service.yokabelujofilineza.implementation.YugaxuwoyiTukexohoDika">
+    <services>
+        <service-instance id="piduc" instantiateUsingFactory="true" implementation="NatafIginewabOjocahinos" type="Rikirefeva">
+            <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.para.vo.piduc.NatafIginewabOjocahinos"/>
+        </service-instance>
+        <service-instance id="rusitakawaxeri" instantiateUsingFactory="true" implementation="ZenaciWayufitaCexuhujibe" type="Rikirefeva">
+            <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.common.gahel.vo.desktop.ZenaciWayufitaCexuhujibe"/>
+        </service-instance>
+        <service-instance id="qeyuBaxi.Voq" instantiateUsingFactory="true" implementation="WosiWaneQamenenuRecayixanu" type="Rikirefeva">
+            <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.para.vo.qeyubaxi.WosiWaneQamenenuRecayixanu"/>
+        </service-instance>
+        <service-instance id="qeyuBaxi.Kut" instantiateUsingFactory="true" implementation="CivoSujeDagigiti" type="Rikirefeva">
+            <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.para.vo.qeyubaxi.CivoSujeDagigiti"/>
+        </service-instance>
+        <service-instance id="YofokeWocidi" instantiateUsingFactory="true" implementation="YemiBefejUgeqOfanutedel" type="Rikirefeva">
+            <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.para.vo.gawemuqay.YemiBefejUgeqOfanutedel">
+                <properties>
+                    <map name="column-names">
+                        <pair name="sariqIpuy">Casah Group</pair>
+                        <pair name="xocizIpakibu">Mupozov</pair>
+                    </map>
+                    <map name="display-attributes">
+                        <pair name="title">Casah Group Mupozov</pair>
+                    </map>
+                </properties>
+            </service-definition>
+        </service-instance>
+        <service-instance id="xosoxuva" instantiateUsingFactory="true" implementation="KaciyipeVohoqawiyu" type="Rikirefeva">
+            <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.common.gahel.vo.desktop.KaciyipeVohoqawiyu"/>
+        </service-instance>
+        <service-instance id="YofokeWocidi" instantiateUsingFactory="true" implementation="YemiBefejUgeqOfanutedel" type="Rikirefeva">
+            <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.para.vo.gawemuqay.YemiBefejUgeqOfanutedel">
+                <properties>
+                    <map name="column-names">
+                        <pair name="sariqIpuy">Casah Group</pair>
+                        <pair name="xocizIpakibu">Mupozov</pair>
+                    </map>
+                    <map name="display-attributes">
+                        <pair name="title">Casah Group Mupozov</pair>
+                    </map>
+                </properties>
+            </service-definition>
+        </service-instance>
+        <service-instance id="cuvecOvipo" instantiateUsingFactory="true" implementation="QefaxIdiGonuvIwobibabeb" type="Rikirefeva">
+            <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.para.vo.desktop.GizofOneteNupolomuga"/>
+        </service-instance>
+        <service-instance id="sufObajaWutehupi" instantiateUsingFactory="true" implementation="BuhepEwivotegImegiyiyiz" type="Rikirefeva">
+            <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.para.vo.piduc.BuhepEwivotegImegiyiyiz"/>
+        </service-instance>
+        <service-instance id="yayokIsafofazUsobijoq" instantiateUsingFactory="true" implementation="GuqamErecudugEdugifufUhuyugepiy" type="Rikirefeva">
+            <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.para.vo.piduc.GuqamErecudugEdugifufUhuyugepiy"/>
+        </service-instance>
+        <service-instance id="yuqiqufiTomenevaMedasigi" instantiateUsingFactory="true" implementation="MubeJaneQamamumiTepimoxuJawutexuco" type="Rikirefeva">
+            <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.para.vo.qeyubaxi.MubeJaneQamamumiTepimoxuJawutexuco"/>
+        </service-instance>
+        <service-instance id="rodeSodeHoka" instantiateUsingFactory="true" implementation="RopuBiniJofaSibipotoma" type="Rikirefeva">
+            <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.para.vo.qeyubaxi.RopuBiniJofaSibipotoma"/>
+        </service-instance>
+        <service-instance id="noyaFosiXadaJux" instantiateUsingFactory="true" implementation="MoqaKigoWoroho" type="Rikirefeva">
+            <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.para.vo.qeyubaxi.MoqaKigoWoroho"/>
+        </service-instance>
+        <service-instance id="sicizoQasulu" instantiateUsingFactory="true" implementation="HufideQuzuluLabatamuwe" type="Rikirefeva">
+            <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.common.gahel.vo.desktop.HufideQuzuluLabatamuwe"/>
+        </service-instance>
+        <service-instance id="notazoxoni" instantiateUsingFactory="true" implementation="CuraHitolaQoguliwuqe" type="Rikirefeva">
+            <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.para.vo.gawemuqay.CuraHitolaQoguliwuqe"/>
+        </service-instance>
+        <service-instance id="GumovoTewexojUfocuxedola" instantiateUsingFactory="true" implementation="CujonobIfubaxoxarItegOpipayufuh" type="Rikirefeva">
+            <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.para.vo.pocusox.CujonobIfubaxoxarItegOpipayufuh"/>
+        </service-instance>
+        <service-instance id="weloWobeheyUqubalimul" instantiateUsingFactory="true" implementation="DacineRigutuzAqenelatolOfafaneboz" type="Rikirefeva">
+            <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.para.vo.pocusox.DacineRigutuzAqenelatolOfafaneboz"/>
+        </service-instance>
+        <service-instance id="ziweTonabarIsuyaguwo" instantiateUsingFactory="true" implementation="PitaGavasehObakedijaSupifazugi" type="Rikirefeva">
+            <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.para.vo.common.CehIcenelotEmocoyEginoyocub">
+                <services>
+                    <service-instance id="vowikahi" implementation="ReruQemizivOtumumesuTumokucoTajohuvetu" type="Rikirefeva">
+                        <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.qim.vo.exception.tazamel.ReruQemizivOtumumesuTumokucoTajohuvetu"/>
+                    </service-instance>
+                    <service-instance id="mowere" implementation="ToneDusefisOzakidekaJexasuBiputineko" type="Rikirefeva">
+                        <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.qim.vo.exception.tazamel.ToneDusefisOzakidekaJexasuBiputineko"/>
+                    </service-instance>
+                </services>
+                <properties>
+                    <scalar name="jafeheZahi">Transaction Tazamel Henehilut</scalar>
+                    <scalar name="cuwupEpowOfed">Wumohofoco.toz</scalar>
+                </properties>
+            </service-definition>
+             </service-instance>
+            <service-instance id="lapEvenitofaxUraqunati" instantiateUsingFactory="true" implementation="LapEvenitofaxUraqunati" type="Rikirefeva">
+            <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.para.vo.common.CibaLepametaCasuweYotadoweno">
+                <services>
+                    <service-instance id="vowikahi" implementation="FudefehuciHekehecidIxulebukOdevatucev" type="Rikirefeva">
+                        <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.qim.vo.exception.vixabucopi.FudefehuciHekehecidIxulebukOdevatucev"/>
+                    </service-instance>
+                    <service-instance id="mowere" implementation="RebinosihuHipaxoretUbasanAbikikizez" type="Rikirefeva">
+                        <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.qim.vo.exception.vixabucopi.RebinosihuHipaxoretUbasanAbikikizez"/>
+                    </service-instance>
+                </services>
+                <properties>
+                    <scalar name="jafeheZahi">Vixabucopi Wumohofoco</scalar>
+                    <scalar name="cuwupEpowOfed">GiJ.toz</scalar>
+                </properties>
+            </service-definition>
+        </service-instance>
+        <service-instance id="vofisoxifezUdeqedajuve" instantiateUsingFactory="true" implementation="PifIhiwapelaloRumakagelinUdiyuzivus" type="Rikirefeva">
+            <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.para.vo.common.CehIcenelotEmocoyEginoyocub">
+                <services>
+                    <service-instance id="vowikahi" implementation="TabIbegagudoboCozowatafijOjekokewIsagudecuc" type="Rikirefeva">
+                        <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.qim.vo.exception.sodogokanaq.TabIbegagudoboCozowatafijOjekokewIsagudecuc"/>
+                    </service-instance>
+                    <service-instance id="mowere" implementation="RadOdogugixazoTutuvozogezUviridAdoxosoquf" type="Rikirefeva">
+                        <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.qim.vo.exception.sodogokanaq.RadOdogugixazoTutuvozogezUviridAdoxosoquf"/>
+                    </service-instance>
+                </services>
+                <properties>
+                    <scalar name="jafeheZahi">Sodogokanaq Transaction</scalar>
+                    <scalar name="cuwupEpowOfed">Wumohofoco.toz</scalar>
+                </properties>
+            </service-definition>
+        </service-instance>
+        <service-instance id="wofAzidifoRewivexinIdal" instantiateUsingFactory="true" implementation="TagOciceleHazefahiqUfiruhaxag" type="Rikirefeva">
+            <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.para.vo.common.CehIcenelotEmocoyEginoyocub">
+                <services>
+                    <service-instance id="vowikahi" implementation="VizAgidujoCikepiduvUyarukeBusapikuVihenesepi" type="Rikirefeva">
+                        <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.qim.vo.exception.tazamel.VizAgidujoCikepiduvUyarukeBusapikuVihenesepi"/>
+                    </service-instance>
+                    <service-instance id="mowere" implementation="YucIvimixeJevefujewAlirivoYaxejiYiqoxecuto" type="Rikirefeva">
+                        <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.qim.vo.exception.tazamel.YucIvimixeJevefujewAlirivoYaxejiYiqoxecuto"/>
+                    </service-instance>
+                </services>
+                <properties>
+                    <scalar name="jafeheZahi">Pocusox Tazamel Henehilut Yokucaz</scalar>
+                    <scalar name="cuwupEpowOfed">Wumohofoco.toz</scalar>
+                </properties>
+            </service-definition>
+        </service-instance>
+        <service-instance id="fixAkuteweJizohiketIfu" instantiateUsingFactory="true" implementation="WizAwizibiTugiyadatEmeVuviyugogi" type="Rikirefeva">
+            <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.qim.vo.exception.tazamel.VikEpumobaJenabedomOdizivItipodagIrahidEfesufuvic">
+                <services>
+                    <service-instance id="vowikahi" implementation="VerOnaluwaTuzujotowIfucafIwaqoqicOnoyadiwoz" type="Rikirefeva">
+                        <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.qim.vo.exception.tazamel.BokAkegufiCevecurotIbebizEbeRaxehufaNogepebuya"/>
+                    </service-instance>
+                    <service-instance id="mowere" implementation="DokIfuvibeBajaquzasIkahavOqiyulOdisoxaxir" type="Rikirefeva">
+                        <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.qim.vo.exception.tazamel.LogUqeqemiYadufetesAqibotUhaFokunaXoboxinari"/>
+                    </service-instance>
+                </services>
+                <properties>
+                    <scalar name="jafeheZahi">Pocusox Tazamel Henehilut Yemuqi</scalar>
+                    <scalar name="cuwupEpowOfed">Wumohofoco.toz</scalar>
+                </properties>
+            </service-definition>
+        </service-instance>
+        <service-instance id="xucUharapopiFan.voq" instantiateUsingFactory="true" implementation="FukEgumacuruNejimokacu" type="Rikirefeva">
+            <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.para.vo.common.CehIcenelotEmocoyEginoyocub">
+                <services>
+                    <service-instance id="vowikahi" implementation="LisAqucodowuRakeqamaCurawesaxi" type="Rikirefeva">
+                        <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.qim.vo.lokehavek.LisAqucodowuRakeqamaCurawesaxi"/>
+                    </service-instance>
+                    <service-instance id="mowere" implementation="CewUxorodaxaBalupoYolukeviwo" type="Rikirefeva">
+                        <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.qim.vo.lokehavek.CewUxorodaxaBalupoYolukeviwo"/>
+                    </service-instance>
+                </services>
+                <properties>
+                    <scalar name="jafeheZahi">Lokehavek Gij</scalar>
+                    <scalar name="cuwupEpowOfed">GiJ.toz</scalar>
+                </properties>
+            </service-definition>
+        </service-instance>
+        <service-instance id="cibEqiruveqIla.voq" instantiateUsingFactory="true" implementation="XomEnaCalEpujuyayot" type="Rikirefeva">
+            <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.para.vo.common.CehIcenelotEmocoyEginoyocub">
+                <services>
+                    <service-instance id="vowikahi" implementation="ZefOtaWuzUcemesosEzifupapen" type="Rikirefeva">
+                        <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.qim.vo.joyita.ZefOtaWuzUcemesosEzifupapen"/>
+                    </service-instance>
+                    <service-instance id="mowere" implementation="JahAyaYeyEvitigIyelexebaw" type="Rikirefeva">
+                        <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.qim.vo.joyita.JahAyaYeyEvitigIyelexebaw"/>
+                    </service-instance>
+                </services>
+                <properties>
+                    <scalar name="jafeheZahi">Fumotosi Gij Voq</scalar>
+                    <scalar name="cuwupEpowOfed">GiJ.toz</scalar>
+                </properties>
+            </service-definition>
+        </service-instance>
+        <service-instance id="Pahuqike Pabexu - Transaction View" instantiateUsingFactory="true" implementation="JuxUsupebirudaHonoSidipocita" type="Rikirefeva">
+            <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.para.vo.common.CehIcenelotEmocoyEginoyocub">
+                <services>
+                    <service-instance id="vowikahi" implementation="XehIbahenuzaneGakoZabuqijeDilekefuxe" type="Rikirefeva">
+                        <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.qim.vo.mimusisemamocu.gideqigapocuhix.ZageqoqelavAcadUjofuzikEhexayimaf"/>
+                    </service-instance>
+                    <service-instance id="mowere" implementation="BaqUgonuqunuluGuyuBocopeHijewaputu" type="Rikirefeva">
+                        <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.qim.vo.mimusisemamocu.gideqigapocuhix.QopamojibulAxuyUjecirEgafahamir"/>
+                    </service-instance>
+                </services>
+                <properties>
+                    <scalar name="jafeheZahi">Transaction View</scalar>
+                    <scalar name="cuwupEpowOfed">MimusiseMamocu.toz</scalar>
+                </properties>
+            </service-definition>
+        </service-instance>
+        <service-instance id="kigEfiduxehareNolal" instantiateUsingFactory="true" implementation="GisOjejiboboruFojajUmofukugux" type="Rikirefeva">
+            <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.qim.vo.sivupolanixevara.GisOjejiboboruFojajUmofukugux"/>
+        </service-instance>
+        <service-instance id="zajOketagebopUkabelucaKidayoc" instantiateUsingFactory="true" implementation="NifAwuhomutumEnugihavuJamotuwUxixipanaz" type="Rikirefeva">
+            <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.qim.vo.exception.vixabucopi.NifAwuhomutumEnugihavuJamotuwUxixipanaz"/>
+        </service-instance>
+        <service-instance id="qocaRuveyinazawum" instantiateUsingFactory="true" implementation="TagUnufOpogosoFayixeWiqoxudaqi" type="Rikirefeva">
+        <service-definition interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.qim.vo.qocaruveyinazawum.SiroKufojicEfuviwAqiyarajet"/>
+        </service-instance>
+
+        <embedded-instance id="fewuRofeyar" interface="com.gs.fw.common.vo.Rikirefeva" implementation="com.gs.fw.para.vo.common.VefiqiyOjewafiyuj" instantiateUsingFactory="true"/>
+
+        <embedded-instance id="xucUharapopiFan" implementation="com.gs.fw.qim.vo.common.GenAziledehAbavapAcimiduxuc" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true">
+           <services>
+               <embedded-instance id="vowikahi" implementation="com.gs.fw.qim.vo.pufasotugoqi.HivUdibohogeBewElumofigOrazasocof" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="false"/>
+               <embedded-instance id="mowere" implementation="com.gs.fw.qim.vo.pufasotugoqi.DizAzohisusoMocUrodedAnafugapej" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="false"/>
+           </services>
+           <properties>
+               <scalar name="jafeheZahi">Lokehavek Gij Kut</scalar>
+               <scalar name="cuwupEpowOfed">GiJ.toz</scalar>
+           </properties>
+       </embedded-instance>
+
+        <embedded-instance id="cibEqiruveqIla" implementation="com.gs.fw.qim.vo.common.GenAziledehAbavapAcimiduxuc" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true">
+            <services>
+                <embedded-instance id="vowikahi" implementation="com.gs.fw.qim.vo.kapavakucab.WamUzivinuqUtoNalumutuFovanejofu" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="false"/>
+                <embedded-instance id="mowere" implementation="com.gs.fw.qim.vo.kapavakucab.PiqEcecodegEkuSahaweJugunudane" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="false"/>
+            </services>
+            <properties>
+                <scalar name="jafeheZahi">Fumotosi Gij Kut</scalar>
+                <scalar name="cuwupEpowOfed">GiJ.toz</scalar>
+            </properties>
+        </embedded-instance>
+
+        <embedded-instance id="zayurikEdihiw" implementation="com.gs.fw.para.vo.common.CibaLepametaCasuweYotadoweno" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true">
+            <services>
+                <embedded-instance id="vowikahi" implementation="com.gs.fw.para.vo.zayurikedihiw.RujokulUtakipAburidaxEpurupapil" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="false"/>
+                <embedded-instance id="mowere" implementation="com.gs.fw.para.vo.zayurikedihiw.TutekadUxunodEsayiyUbohovuhey" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="false"/>
+            </services>
+            <properties>
+                <scalar name="jafeheZahi">Tigaran Yemuqi</scalar>
+                <scalar name="cuwupEpowOfed">HaloQig.toz</scalar>
+            </properties>
+        </embedded-instance>
+
+    </services>
+</service-definition>
+
+

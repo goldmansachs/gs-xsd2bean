@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>javeneruma,noki,wululu,wunopi,tetahij,riyoxadipojoxuj,nuzikuzu</Templates>
+    <PackageName>com.gs.fw.lilu.wute.domain.position</PackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.yoru.*</ImportPackageName>
+
+    <ClassName>PizOnalozuvegEgonawi</ClassName>
+
+    <DefaultTable>QEP_DINEZAXILO_DAMAGUL</DefaultTable>
+    <SchemaName></SchemaName>
+    <DatabaseName>juda</DatabaseName>
+    <ConnectionManagerName>zoqew</ConnectionManagerName>
+    <ReadOnly>true</ReadOnly>
+    <ExplicitColumnNamesForSelect>true</ExplicitColumnNamesForSelect>
+
+    <PrimaryKeyAttribute keyClass="BejEvemiripupOzulofaTiz">
+        <Attribute columnName="DOMU_CIBIVO" javaType="String" name="cejasawUwesij" sqlType="XefeTewesa"/>
+        <Attribute columnName="PAGUC_PO" javaType="int" name="productId" sqlType="Ciyisag"/>
+        <Attribute columnName="MOS_TADE_N" javaType="String" name="ruzodaqIjok" sqlType="XefeTewesa"/>
+        <Attribute columnName="DILEWERI" javaType="String" name="xewixudiYeze" sqlType="XefeTewesa"/>
+        <Attribute columnName="NEMADO_N" javaType="int" name="cepipeWesu" sqlType="Ciyisag"/>
+        <Attribute columnName="HANUVA_HEKUWI" javaType="String" name="gigivaDumire" sqlType="XefeTewesa"/>
+        <Attribute columnName="JOVOY_YAK_W" javaType="String" name="jewikUjuquzatiLosugo" sqlType="XefeTewesa"/>
+        <Attribute columnName="MAYUCAWINOC_DOTUF" javaType="String" name="hekuquqiwayAquki" sqlType="XefeTewesa"/>
+        <Attribute name="businessDate" sqlType="XIZofuxafasElegexaLimanigaw" javaType="Timestamp" columnName="businessDate"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="DOFUD_DOMU_W" javaType="String" name="vedinUhufesaNaveli" sqlType="XefeTewesa"/>
+    <Attribute columnName="DAMAGUL" javaType="double" name="yofanexOH" sqlType="Luhisa"/>
+    <Attribute columnName="DAMAGUL_XI" javaType="double" name="duwugazEP" sqlType="Luhisa"/>
+    <Attribute columnName="YAXEKUMI" javaType="String" name="yaxekumi" sqlType="XefeTewesa"/>
+    <Attribute columnName="PATA_YAK_W" javaType="String" name="rizoDozitovejIpidiw" sqlType="XefeTewesa"/>
+    <Attribute columnName="WEBEROG_SIBA" javaType="String" name="tifuzavAwaf" sqlType="XefeTewesa"/>
+    <Attribute columnName="JOVOY_SIBA" sqlType="Timestamp" javaType="Timestamp" name="sizehAwaq"/>
+    <Attribute columnName="GEZUBO_SIBA" sqlType="Timestamp" javaType="Timestamp" name="dutuvapicaZesu"/>
+    <Attribute columnName="SUNOG" javaType="String" name="sunog" sqlType="XefeTewesa"/>
+    <Attribute columnName="GUREDOLU_YEC" javaType="String" name="coreduzeQeka" sqlType="XefeTewesa"/>
+    <Attribute columnName="JOSONICA" javaType="double" name="josonica" sqlType="Luhisa"/>
+    <Attribute columnName="DAFUZ" javaType="double" name="price" sqlType="Luhisa"/>
+    <Attribute columnName="PROD_QEXO" javaType="String" name="jereruqOmowumohuna" sqlType="XefeTewesa"/>
+    <Attribute columnName="FEVEGOGA_ZULAY" javaType="String" name="kuperifuBefej" sqlType="XefeTewesa"/>
+    <Attribute columnName="SAROTOJU" javaType="String" name="sarotoju" sqlType="XefeTewesa"/>
+    <Attribute columnName="NO_Z" javaType="Timestamp" name="juxepEyal" sqlType="Timestamp"/>
+    <Attribute columnName="RUC_Z" javaType="Timestamp" name="fosawIv" sqlType="Timestamp"/>
+
+    <Relationship cardinality="many-to-one" dependentClass="ZutalayOcaqiQayewaj" foreignKey="mefunakOle" name="zutalayOcaqiQayewaj"/>
+    <Relationship cardinality="many-to-one" dependentClass="Currency" foreignKey="gifufekeZeb" name="dileweri"/>
+    <AbstractMethod returnType="YowufarutaGib" methodName="cufEtolupiQur" parameters=""/>
+    <AbstractMethod returnType="YowufarutaGib" methodName="kixAsatehukUda" parameters=""/>
+
+    <Index name="businessDate">businessDate</Index>
+
+    <IndexBuilder className="com.gs.fw.lilu.wute.domain.kigemawo.ZiyeducopUxitabutEqexaZonudiw"/>
+    <IndexBuilder className="com.gs.fw.lilu.wute.domain.kigemawo.CuhikaxaQubixUkokura"/>
+
+    <!--<SelectorIndex>com.gs.fw.lilu.wute.domain.kigemawo.ZujaliFigucisu</SelectorIndex>-->
+
+</ManagedObject>

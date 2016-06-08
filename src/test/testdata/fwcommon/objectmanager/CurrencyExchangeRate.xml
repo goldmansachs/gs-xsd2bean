@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>javeneruma,interface,noki,wululu,wunopi,tetahij,riyoxadipojoxuj,nuzikuzu</Templates>
+    <PackageName>com.gs.fw.lilu.wute.gecigixasuso</PackageName>
+
+    <ClassName>XesinuxuTajebuqeFepa</ClassName>
+    <ImplementationClassName>LicukidoKomutuqaLocaSalo</ImplementationClassName>
+    <DefaultTable>SAROTOJU_NILI</DefaultTable>
+    <SchemaName></SchemaName>
+    <DatabaseName>zoqew</DatabaseName>
+    <ReadOnly>true</ReadOnly>
+    <ExplicitColumnNamesForSelect>true</ExplicitColumnNamesForSelect>
+
+    <PrimaryKeyAttribute keyClass="WofiniwiSocoyeraSanoVey">
+        <Attribute columnName="FROM_DILEWERI" sqlType="XefeTewesa" javaType="String" name="zeseLumolufu"/>
+        <Attribute columnName="KO_DILEWERI" sqlType="XefeTewesa" javaType="String" name="laTijeyara"/>
+        <Attribute columnName="NILI_TADE" sqlType="XefeTewesa" javaType="String" name="bodaVicu"/>
+        <Attribute columnName="businessDate" sqlType="XIZofuxafasElegexaLimanigaw" javaType="Timestamp" name="businessDate"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="NILI" sqlType="Luhisa" javaType="double" name="gecigixaSuso"/>
+    
+    <Index name="businessDate">businessDate</Index>
+</ManagedObject>

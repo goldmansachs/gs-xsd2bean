@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"
+        pageTitle="Popasucakitobu Qakuya Vubalic" pageBuilder="com.gs.fw.kaza.zaz.glui.NaluzeleYahiriCaluxaNubiSexiric">
+    <!--templateLayout="zaz/header.xml">-->
+
+    <section>
+        <row>
+            <uiElement transformerClass="com.gs.fw.kaza.zivukome.GacokuzotawAyotaqizIpuxEluxet" sortBy="domain"
+                       label="Cuyokujo date" name="businessDate1" renderAs="combobox"
+                       validation="mandatory"/>
+            <button label="View Qiwo" name="bariKamu" crumbTrail="true"
+                    nextLayoutName="zaz/luxuhegaLafipeLodovow.xml"
+                    pageBuilder="com.gs.fw.kaza.zaz.glui.NaluzeleYahiriCaluxaNubiSexiric.ligewic" refreshPage="true"/>
+        </row>
+    </section>
+    <section caption="Wepinam Popasucakitobu Qakuya Vubalic">
+        <row>
+            <table name="muxoyidotuTewaz" editable="true" rowsPerPage="0" wrapHeader="true" sortable="false"
+                   updateMarker="false" deleteMarker="false" rowSelection="multi" label="">
+                <column>
+                    <uiElement label="Cuyokujo Date" name="businessDate" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="cujaqekufuki" label="CujaqekUfuki LA" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="rafebogoteboPuqo" label="CujaqekUfuki Cuyifanakit" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="wecuyUliraz" label="Rogeq Yuliqa" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="vePamavo" label="P&amp;K yuliqa" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="besutaveRuho" label="Popasucakitobu Sirekovi Type" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="denetoqud" label="Denetoqud" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="dofudukilif" label="Dofudukilif" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="comment" label="Gojoyux" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="sose" label="Sose" renderAs="label"/>
+                </column>
+            </table>
+        </row>
+        <row>  <!--feature="YujemoQayuruy">-->
+            <button name="minogiDevijeYukota" label="Hamiti Qakuya Yuliqa(s)"
+                    pageBuilder="com.gs.fw.kaza.zaz.glui.NaluzeleYahiriCaluxaNubiSexiric.delete"
+                    nextLayoutName="zaz/luxuhegaLafipeLodovow.xml"
+                    crumbTrail="true" confirmMsg="Mid you geri you zise to delete these qakuya vubalic?" refreshPage="true"/>
+        </row>
+    </section>
+</layout>

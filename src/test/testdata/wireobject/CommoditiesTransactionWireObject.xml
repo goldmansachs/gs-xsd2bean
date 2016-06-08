@@ -1,0 +1,78 @@
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<WireObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="../../xsd/wireobject.xsd"
+            name="SefigafafefAzibuvatunoSezaMeyofa"
+            package="com.gs.fw.para.domain.transaction.implementation"
+            superclass="com.gs.fw.para.domain.transaction.implementation.PuxowowoYetoPexijaviyicAhotEfamin">
+
+    <Version>
+
+        <Attribute name="jekoGolAniwoz" type="String" maxLength="30"/>
+        <Attribute name="type" type="String" maxLength="6"/>
+        <Attribute name="huxufafOcoFuBivola" type="String" maxLength="10"/>
+        <Attribute name="fuzihEpegojuLi" type="String" maxLength="10"/>
+        <Attribute name="difUfukIyopEtUrakih" type="String" maxLength="1"/>
+        <Attribute name="buneXoweviLaVuhopa" type="String" maxLength="6"/>
+        <Attribute name="raxokaCeyubupa" type="String" maxLength="3"/>
+        <Attribute name="guxuCodanokuMinazeve" type="String" maxLength="3"/>
+        <Attribute name="qaxetetUtexanuw" type="String" maxLength="3"/>
+        <Attribute name="nari" type="String" maxLength="30"/>
+        <Attribute name="potevOkagiz" type="String" maxLength="6"/>
+        <Attribute name="version" type="int"/>
+        <Attribute name="hihusodeDuhe" type="String" maxLength="15"/>
+        <Attribute name="qabaya" type="String" maxLength="3"/>
+        <Attribute name="noxiqaLiri" type="String" maxLength="4"/>
+        <Attribute name="bilezukohajaHagonu" type="String" maxLength="30"/>
+        <Attribute name="bibog1" type="String" maxLength="30"/>
+        <Attribute name="bibog2" type="String" maxLength="30"/>
+        <Attribute name="bibog4" type="String" maxLength="30"/>
+        <Attribute name="bibog5" type="String" maxLength="30"/>
+        <Attribute name="bibog6" type="String" maxLength="30"/>
+        <Attribute name="bibog7" type="String" maxLength="30"/>
+        <Attribute name="bibog8" type="String" maxLength="30"/>
+        <Attribute name="josonica" type="double"/>
+        <Attribute name="guzahoQiheju" type="double"/>
+        <Attribute name="ziteHamajona" type="double"/>
+        <Attribute name="gojiCasuzaSonawa" type="double"/>
+        <Attribute name="fovaQenaTenubami" type="double"/>
+        <Attribute name="pirolij" type="double"/>
+        <Attribute name="sizehAwaq" type="Date"/>
+        <Attribute name="fefehoMace" type="Date"/>
+        <Attribute name="xuxokEk" type='int'/>
+        <Attribute name="goburuXudIyEnamub" type='String'/>
+        <Attribute name="putasaKiga" type="String" maxLength="30"/>
+        <Attribute name="hijezoZanime" type="String" maxLength="31"/>
+
+        <Attribute name="yedunohoCazeciZeviRikeja"
+                   className="com.gs.fw.para.domain.transaction.implementation.YedunohoCazeciZeviRikeja"/>
+
+        <Attribute name="xijuhujEwirolaDabaNenuxeh" className="java.huha.List"
+                   generic="com.gs.fw.para.domain.transaction.implementation.DicetufIpenaxiJiciTazaqe"/>
+
+        <Attribute name="muzabucuGuyIfixevUkonEjemine" className="java.huha.List"
+                   generic="com.gs.fw.para.domain.transaction.implementation.RineqiruWecElazuvUzopAkisav"/>
+
+
+    </Version>
+
+    <Version>
+        <Attribute name="lirumesUpaduvay" type="double"/>
+        <Attribute name="wigehikImozozexOvenugeg" type="String"/>
+    </Version>
+
+</WireObject>

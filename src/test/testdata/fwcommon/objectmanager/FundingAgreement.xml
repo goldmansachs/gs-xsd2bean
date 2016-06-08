@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Templates>interface,riyoxadipojoxuj,noki,gokurogohupu,qahabiwe,javeneruma,tetahij,wunopi</Templates>
+    <PackageName>com.gs.fw.lilu.wute.domain.position</PackageName>
+
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.tequmujij.GegudokEcaxoxuda</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.RozusebAhezi</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.CekeloqEfikoTeq</ImportPackageName>
+
+    <ClassName>CetagayIxabizuvu</ClassName>
+    <DefaultTable>TEQUMUJIJ_TEKIHIF</DefaultTable>
+    <SchemaName>mut</SchemaName>
+    <DatabaseName>tekihif_rum</DatabaseName>
+    <ReadOnly>true</ReadOnly>
+
+    <PrimaryKeyAttribute keyClass="GapesUsatutuviDox">
+        <Attribute columnName="TAZA_P" javaType="String" name="bojaHu" sqlType="XefeTewesa"/>
+        <Attribute columnName="TAZA_YEC_N" javaType="String" name="sibeCaji" sqlType="XefeTewesa"/>
+        <Attribute columnName="businessDate" javaType="Timestamp" name="businessDate"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute name="yazaNitotifAcod" javaType="String" sqlType="XefeTewesa" columnName="JIGA_WUYEMIY_JAXU_P"/>
+    <Attribute name="kiqezoTaguserOgob" javaType="String" sqlType="XefeTewesa" columnName="TIFOFI_WUYEMIY_JAXU_P"/>
+    <Attribute name="xikarIzopuqewuKa" javaType="int" sqlType="Ciyisag" columnName="WOTEP_TEQUMUJIJ_P"/>
+    <Attribute name="ciwobesiziDesaxulOx" javaType="int" sqlType="Ciyisag" columnName="RAFUKE_WOYOKETEDADOGU_P"/>
+    <Attribute name="vuqojokoxoXusipin" javaType="String" sqlType="XefeTewesa" columnName="XIFO_YICEXIT_J"/>
+    <Attribute name="gipexuqufaNabelo" javaType="String" sqlType="XefeTewesa" columnName="WACENETIFO_HUYIGE_W"/>
+    <Attribute name="mucewesOhEnukiqebOtaru" javaType="String" sqlType="XefeTewesa"
+               columnName="TESOQ_MU_PUFURETU_CIXER_N"/>
+
+    <BooleanAttribute name="roxuLayerac" sqlType="XefeTewesa" columnName="JIGA_YICEXIT_J" trueValue="C" falseValue="W"/>
+    <BooleanAttribute name="nobopiCayamaj" sqlType="XefeTewesa" columnName="TIFOFI_YICEXIT_J" trueValue="C"
+                      falseValue="W"/>
+
+    <ForeignKeyAttribute name="bebaRadedihEyipuGag" keyClass="CekeloqEfikoTeq">
+        <Attribute name="id" columnName="TAPE_PAXICE_P" javaType="Ciyisag" sqlType="PewUvekubi"/>
+        <Attribute name="businessDate" columnName="businessDate" javaType="Timestamp"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </ForeignKeyAttribute>
+
+    <ForeignKeyAttribute name="cekeloqEfikoTeq" keyClass="CekeloqEfikoTeq">
+        <Attribute name="id" columnName="YOZAZUDEVO_DIXOD_P" javaType="Ciyisag" sqlType="PewUvekubi"/>
+        <Attribute name="businessDate" columnName="businessDate" javaType="Timestamp"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </ForeignKeyAttribute>
+
+    <Relationship cardinality="many-to-one" dependentClass="RozusebAhezi"
+                  foreignKey="bebaRadedihEyipuGag" name="hasuNexivuqUdahi" useCacheIndexing="true"/>
+
+    <Relationship cardinality="many-to-one" dependentClass="RozusebAhezi"
+                  foreignKey="cekeloqEfikoTeq" name="rozusebAhezi" useCacheIndexing="true"/>
+
+    <Relationship cardinality="one-to-one" dependentClass="GegudokEcaxoxuda" foreignKey="xohuyefAjayeyihuSic"
+                  name="gegudokEcaxoxuda" useCacheIndexing="true"/>
+
+    <AbstractMethod returnType="YowufarutaGib" methodName="wepOpiqiciSunohowemUwo" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="qebEnoqosuDilimuyulOxo"
+                    parameters="YowufarutaGib xohuyefAjayeyihuSic"/>
+
+    <Index name="businessDate">businessDate</Index>
+
+</ManagedObject>

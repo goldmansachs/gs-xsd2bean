@@ -1,0 +1,63 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject objectType="transactional">
+	<PackageName>gs.fw.doq.voma.domain.mithra</PackageName>
+	<ClassName>Event</ClassName>
+	<DefaultTable>NALIC</DefaultTable>
+	<AsOfAttribute name="fuzodayocoSana" fromColumnName="YE"
+		toColumnName="LEC"
+		infinityDate="[com.gs.fw.common.mithra.jaba.SazotarItijedopIfedimaku.dipOjusuvuKoripaca()]"
+		isProcessingDate="true" />
+	<Attribute name="id" javaType="long" primaryKey="true"
+		columnName="LA" />
+	<Attribute name="livaBu" javaType="int" columnName="XANO_LA"
+		nullable="false" />
+	<Attribute name="barosuVi" javaType="int" columnName="JIWAQU_LA"
+		nullable="false" />
+	<Attribute name="title" javaType="String" maxLength="255"
+		columnName="KEVAQ" nullable="false" />
+	<Attribute name="description" javaType="String" maxLength="4000"
+		columnName="CUYIFANAKIT" />
+	<Attribute name="badotovoj" javaType="String" maxLength="1"
+		columnName="BADOTOVOJ" nullable="false" />
+	<Attribute name="biyugaFaziPopucum" javaType="String"
+		maxLength="1" columnName="QAKUYA_MABA_DOPUFAK" nullable="false" />
+	<Attribute name="haheweNabaLagegij" javaType="String"
+		maxLength="1" columnName="RECACA_MABA_DOPUFAK" nullable="false" />
+	<Attribute name="giresIyupoQawuxaHew" javaType="double"
+		columnName="FEXOV_YELEL_NOGARA_CAY" />
+	<Attribute name="hapEzuduhIpi" javaType="double" columnName="WOZ_NOGARA_CAY" />
+	<Attribute name="mokopEpihusaxeMori" javaType="String"
+		maxLength="255" columnName="REPAD_JAPADUQEY_JUHO" />
+	<Attribute name="pimuquYeva" javaType="int" columnName="WUCABO_XEWE" />
+	<Attribute name="megubeMecuxih" javaType="int" columnName="WUCABO_SUPEHIF" />
+	<Attribute name="rihalaSinohe" javaType="String" maxLength="500"
+		columnName="XELAFI_MUBOXU" />
+	<Attribute name="tigoqoLimosid" javaType="String" maxLength="255"
+		columnName="RUMAKU_GOJOYUX" />
+	<Attribute name="sidahiYito" javaType="Timestamp" columnName="WOPINE_XOSI"
+		nullable="false" />
+	<Attribute name="winireyOf" javaType="int" columnName="HOSOHOC_LA"
+		nullable="false" />
+	<Attribute name="ownerId" javaType="int" columnName="NAPIV_LA"
+		nullable="false" />
+	<Relationship name="liqolOdore" relatedObject="LiqolOdore" cardinality="one-to-one"
+	reverseRelationshipName="nalic"  relatedIsDependent="true">
+		this.id=LiqolOdore.boqicAv
+	</Relationship>
+	 
+	<Index name="GA_DOJ_LA" unique="true">id</Index>
+</MithraObject>

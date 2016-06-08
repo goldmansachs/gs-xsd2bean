@@ -1,0 +1,33 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<FlatFileParserConfig delimiter="" inflatedObject="com.gs.fw.para.domain.qaje.xegoqiloq.QowEmadUxohiyIjef" columns="9"
+                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:noNamespaceSchemaLocation="../../xsd/parserconfig.xsd">
+
+    <Header required="false" identifier="L"/>
+    <Trailer required="false" identifier="Z"/>
+    <FixedColumnMapping attribute="madezec" startPosition="0" length="5" trim="true"/>
+    <FixedColumnMapping attribute="xorupa" startPosition="5" length="3" trim="true"/>
+    <FixedColumnMapping attribute="tewijojolu" startPosition="8" length="4" trim="true"/>
+    <FixedColumnMapping attribute="juteLi" startPosition="12" length="2" trim="true"/>
+    <FixedColumnMapping attribute="warevajeKiqune" startPosition="25" length="1" trim="true"/>
+    <FixedColumnMapping attribute="wiloKolaXov" startPosition="32" length="15" trim="true"/>
+    <FixedColumnMapping attribute="xazokUrapOwo" startPosition="47" length="15" trim="true"/>
+    <FixedColumnMapping attribute="pipekoroVe" startPosition="62" length="10" trim="true"/>
+    <FixedColumnMapping attribute="wosipofiNomu" startPosition="72" length="30" trim="true"/>
+
+</FlatFileParserConfig>
+

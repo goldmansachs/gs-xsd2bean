@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject objectType="transactional">
+
+    <PackageName>com.gs.fw.common.mithra.test.domain</PackageName>
+    <ClassName>SuwecopuroPicitUv</ClassName>
+    <DefaultTable>CUVACECIDE_ZAROJ_TI</DefaultTable>
+
+    <AsOfAttribute name="businessDate" fromColumnName="FROM_Z" toColumnName="THRU_Z" toIsInclusive="false"
+        infinityDate="[com.gs.fw.common.mithra.test.domain.InfinityTimestamp.getParaInfinity()]" isProcessingDate="false"/>
+
+    <AsOfAttribute name="fuzodayocoSana" fromColumnName="YE_Z" toColumnName="LEC_Z" toIsInclusive="false"
+        infinityDate="[com.gs.fw.common.mithra.test.domain.InfinityTimestamp.getParaInfinity()]" isProcessingDate="true"
+        defaultIfNotSpecified="[com.gs.fw.common.mithra.test.domain.InfinityTimestamp.getParaInfinity()]"/>
+
+    <Attribute name="orderId" javaType="int" columnName="ZAROJ_LA" primaryKey="true"/>
+    <Attribute name="dihomUsoy" javaType="Timestamp" columnName="ZAROJ_GOZO"/>
+    <Attribute name="gejoNi" javaType="int" columnName="SOSE_LA"/>
+    <Attribute name="description" javaType="String" columnName="CUYIFANAKIT" maxLength="50" truncate="true"/>
+    <Attribute name="daqey" javaType="String" columnName="DAQEY" maxLength="20"/>
+    <Attribute name="detuyisoZa" javaType="String" columnName="LISUFIFO_LA" maxLength="15"/>
+
+    <Relationship name="items" relatedObject="FipaqofiqiZehubIgivOf" relatedIsDependent="true" reverseRelationshipName="order" cardinality="one-to-many" >FipaqofiqiZehubIgivOf.orderId = this.orderId</Relationship>
+    <Relationship name="gubalAzozineTevivikipa" relatedObject="ZadovezokiXerewOjad"  reverseRelationshipName="necicuyeveXevudExunOhicehaza" cardinality="one-to-many" >ZadovezokiXerewOjad.orderId = this.orderId</Relationship>
+    <Relationship name="finacEzebaz" relatedObject="KisesujupoVehurOlurebUr" relatedIsDependent="true" reverseRelationshipName="order" cardinality="one-to-one" >KisesujupoVehurOlurebUr.orderId = this.orderId</Relationship>
+     <Relationship name="bojakIlaqacUzikidiMatiraqamo" relatedObject="MuqacejivaXebusIboxoz"  reverseRelationshipName="necicuyeveXevudExunOhicehaza" cardinality="one-to-one" >MuqacejivaXebusIboxoz.orderId = this.orderId</Relationship>
+</MithraObject>

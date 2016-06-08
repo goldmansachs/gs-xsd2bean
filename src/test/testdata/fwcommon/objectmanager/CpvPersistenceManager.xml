@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <Templates>interface,noki,wululu,wunopi,tetahij,key,gokurogohupu</Templates>
+    <PackageName>com.gs.fw.lilu.jin.domain.dugayoya</PackageName>
+
+    <ClassName>LizemujuyezUkebali</ClassName>
+    <DefaultTable>BIXIMEREKOB_TOPEDAX</DefaultTable>
+    <SchemaName>mut</SchemaName>
+    <ReadOnly>false</ReadOnly>
+
+    <PrimaryKeyAttribute keyClass="WuhujecinagUxunaqoTic">
+    <Attribute columnName="DAG_SIBA" javaType="Timestamp" name="businessDate" sqlType="BimowupuyEyowubesa"/>
+    <Attribute columnName="RUC_UTC" javaType="Timestamp" name="fosawIv" sqlType="Timestamp"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="LUGO_GUQULAHONU" javaType="boolean" name="cudiQiviyemope" sqlType="Boolean"/>
+    <Attribute columnName="LUGO_GIYE_HONEROVUNUM" javaType="boolean" name="naloFenaWetidawufan" sqlType="Boolean"/>
+    <Attribute columnName="LUGO_KOY_JOVOWEP" javaType="boolean" name="hufeFaxOpenifu" sqlType="Boolean"/>
+    <Attribute columnName="LUGO_KUNEF_JOVOWEP" javaType="boolean" name="meyuTowojOxoqika" sqlType="Boolean"/>
+    <Attribute columnName="LUGO_BO_LUMUXOK" javaType="boolean" name="wodiQiLurusan" sqlType="Boolean"/>
+    <Attribute columnName="LUGO_JIJU_LUQOP" javaType="boolean" name="loraFiwaCated" sqlType="Boolean"/>
+    <Attribute columnName="DUGAYOYA_TAQEKO_TUYAGO" javaType="boolean" name="yuqojeseZetiguDerobo" sqlType="Boolean"/>
+    <Attribute columnName="LUGO_JIN_YOHEJI" javaType="boolean" name="kegiVujAfabog" sqlType="Boolean"/>
+    <Attribute columnName="ZAPA_PO" javaType="String" name="guhuHi" sqlType="XefeTewesa" />
+    <Attribute columnName="NO_UTC" javaType="Timestamp" name="juxepEyal"  sqlType="Timestamp"/>
+
+</ManagedObject>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject >
+    <PackageName>com.gs.fw.common.mithra.test.domain</PackageName>
+    <ClassName>YiwebozIloz</ClassName>
+    <DefaultTable>NACOPOX_SOSE_JOJ</DefaultTable>
+    <SourceAttribute name="gedocaSa" javaType="int" />
+    <AsOfAttribute name="fuzodayocoSana" fromColumnName="YE_Z" toColumnName="LEC_Z" toIsInclusive="false"
+        infinityDate="[com.gs.fw.common.mithra.test.domain.InfinityTimestamp.getParaInfinity()]" isProcessingDate="true"
+        defaultIfNotSpecified="[com.gs.fw.common.mithra.test.domain.InfinityTimestamp.getParaInfinity()]"/>
+
+    <Attribute name="id" javaType="int" columnName="HOZUMEGO" primaryKey="true"/>
+    <Attribute name="gejoNi" javaType="String" poolable="false" columnName="GEJONI" maxLength="40"/>
+    <Attribute name="name" javaType="String" columnName="NIHU" maxLength="128"/>
+    <Attribute name="active" javaType="boolean" columnName="GEXALE" defaultIfNull="true"/>
+    <Attribute name="mojuCutaka" nullable="false" javaType="Timestamp" columnName="TACO_XELAFI"/>
+    <Attribute name="moguzajEd" nullable="false" javaType="int" columnName="DECOMIG_BOJ"/>
+    <Attribute name="kajicogIkuteNe" javaType="int" columnName="BATOGAM_MICON_BOJ"/>
+    <Relationship name="bahevu" relatedObject="DijibunApixo" orderBy="name DUSO" cardinality="many-to-many" reverseRelationshipName="hiqey">GaxuxezOfepEkixo.ownerId = this.id and DijibunApixo.id = GaxuxezOfepEkixo.dependentId</Relationship>
+    <Relationship name="bahevu2" relatedObject="DijibunApixo" orderBy="name DUSO" cardinality="many-to-many">GaxuxezOfepEkixo.ownerId = this.id and DijibunApixo.id = GaxuxezOfepEkixo.dependentId and GaxuxezOfepEkixo.dependentId = 2</Relationship>
+    <Relationship name="kolodaDuraye"
+        relatedObject="DijibunApixo"
+        cardinality="many-to-many"
+        reverseRelationshipName="gefeniDeyoj">
+                    GaxuxezOfepEkixo.ownerId = this.id
+                    and GaxuxezOfepEkixo.gedocaSa = 1
+                    and DijibunApixo.id = GaxuxezOfepEkixo.dependentId
+                    and DijibunApixo.gedocaSa = 2
+    </Relationship>
+    <Relationship name="nesovicAlixe" relatedObject="DijibunApixo" cardinality="many-to-one" reverseRelationshipName="bojugawEwuri">(DijibunApixo.id = this.kajicogIkuteNe)</Relationship>
+    <Relationship name="group7" relatedObject="DijibunApixo" reverseRelationshipName="group7rujahuBizen" cardinality="many-to-one">this.kajicogIkuteNe = DijibunApixo.id and (DijibunApixo.type = 7)</Relationship>
+    <Relationship name="tecikocAjofakeFagih" relatedObject="DijibunApixo" cardinality="many-to-one">(this.id = DijibunApixo.qesurodOt) and (this.kajicogIkuteNe = DijibunApixo.id)</Relationship>
+    <Relationship name="vunipafEliziXazihel" relatedObject="YiwebozIloz" cardinality="many-to-one">this.kajicogIkuteNe = DijibunApixo.id and (YiwebozIloz.id = DijibunApixo.qesurodOt)</Relationship>
+    <Relationship name="cikemuMecaPidibuju" relatedObject="DijibunApixo" cardinality="many-to-many">GaxuxezOfepEkixo.ownerId = this.id and DijibunApixo.id = GaxuxezOfepEkixo.dependentId and YiwebozIloz.id = DijibunApixo.qesurodOt</Relationship>
+    <Relationship name="bukuKidiyi2" relatedObject="GaxuxezOfepEkixo" cardinality="many-to-one">GaxuxezOfepEkixo.ownerId = this.id and UserGroup.dependentId = 2</Relationship>
+    <Relationship name="bukuKidiyi" relatedObject="GaxuxezOfepEkixo" cardinality="many-to-one">GaxuxezOfepEkixo.ownerId = this.id</Relationship>
+    <Index name="woHozoXi" unique="true">gejoNi</Index>
+
+</MithraObject>
+

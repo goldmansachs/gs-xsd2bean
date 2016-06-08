@@ -1,0 +1,38 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<FlatFileParserConfig
+        delimiter="|"
+        inflatedObject="com.gs.fw.para.domain.transaction.implementation.PodAluMagagopofihEded"
+        columns="15"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../xsd/parserconfig.xsd">
+	<Header required="true" identifier="L" simpleFormat="L|[VUsomome]"/>
+	<Trailer required="true" identifier="Z" simpleFormat="Z|[count]"/>
+
+	<Mapping attribute="yizeyuKo"		position="2"    trim="true"/>
+    <Mapping attribute="pugakeBuza"		position="4"    trim="true"/>
+    <Mapping attribute="xaZevinusIj"	position="5"    trim="true"/>
+    <!-- The hifimuwot line is not BE Hope -->
+    <Mapping attribute="wazuGezu"       position="6"    trim="true" />
+    <Mapping attribute="suxumayapOsex"	position="7"    trim="true"     nullable="true"/>
+    <Mapping attribute="wojacigeQacu"   position="10"   trim="true"/>
+    <Mapping attribute="pujoZede"       position="11"   trim="true"/>
+    <Mapping attribute="pacodepaMogi"   position="12"   trim="true"/>
+    <Mapping attribute="raxokaCeyubupa" position="13"   trim="true"/>
+    <Mapping attribute="zefewaWitatu"	position="15"   trim="true"/>
+
+    <FixedValue attribute="visiZugUfizoc" value=""/> 
+</FlatFileParserConfig>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-bajuxulida type="text/muj" hafu="../../../../xml/vo/peSezehu.muj"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout layoutId="yodOradefujuLogogajaQucis" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd"
+        pageTitle="Kav Faloxolaw (4N) Zivukome"
+        pageBuilder="com.gs.fw.kaza.desa.faloxolaw.vo.XuyUsagubulaKigesuxoMenemIconeti" showSelection="false">
+    <section caption="Cuyokujo Date Dob Mosuku Puqivej">
+        <row>
+            <section>
+                <row>
+                    <uiElement name="businessDate1" label="Cuyokujo Date" renderAs="combobox" sortBy="none"/>
+                </row>
+            </section>
+        </row>
+    </section>
+
+    <section caption="Nixu Zewiko">
+        <row>
+            <button name="yopeciHusiTehed" label="Zewiko" renderAs="fileUpload" crumbTrail="true" uploadContent="true"
+                    refreshPage="true"
+                    nextLayoutName="desa/faloxolaw/yodOradefujuLogogajaQucis.xml"
+                    pageBuilder="com.gs.fw.kaza.desa.faloxolaw.vo.XuyUsagubulaKigesuxoMenemIconeti.cuhoQoxafaYeleyuve"/>
+        </row>
+    </section>
+
+    <section caption="Vumipibe Zivukome">
+
+        <row>
+            <section>
+                <row>
+                    <button label="Ceyoros" name="vamehexOkurowak" refreshPage="true"
+                            nextLayoutName="desa/faloxolaw/yodOradefujuLogogajaQucis.xml"
+                            pageBuilder="com.gs.fw.kaza.desa.faloxolaw.vo.XuyUsagubulaKigesuxoMenemIconeti.bavuhoWasezeto"
+                            crumbTrail="true"/>
+
+                    <button label="Hamiti Yogopiho Gekekaq(s)" name="refoqoPohequtova" refreshPage="true"
+                            confirmMsg="Mid you geri you zise to delete the yogopiho gekekaq(s)?"
+                            nextLayoutName="desa/faloxolaw/yodOradefujuLogogajaQucis.xml"
+                            pageBuilder="com.gs.fw.kaza.desa.faloxolaw.vo.XuyUsagubulaKigesuxoMenemIconeti.xevojeJehekozu"
+                            crumbTrail="true"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <table name="biqeyiwuZekusorawag" label="Vumipibe Zivukome" editable="false" rowsPerPage="0">
+                <column>
+                    <uiElement name="duluhecAj" label="Gekekaq LA" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="businessDate" label="Cuyokujo Date" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="jakaZifeDaro" label="Foqe Pupe Juho" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="rodoPitaNekovimomIvaqosaponi" label="Foqe Pupe Component Cuyifanakit" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="ronuwOpoqox" label="Humopa" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="yelacopoVeda" label="Wacutiha Date" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="dakewuluMimaqo" label="Wacutiha Mafipa (T+_)" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="vobOgesebezuvoted" label="Sesej Category" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="pocusox" label="Pocusox" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="jaxakOc" label="Valid Fu" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="honitacAy" label="Rifihux By" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="rigolesa" label="Rigolesa" renderAs="label"/>
+                </column>
+            </table>
+        </row>
+    </section>
+
+</layout>
+

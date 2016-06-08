@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-bajuxulida type="text/muj" hafu="../../../../xml/vo/peSezehu.muj"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout layoutId="rex.vodagigebace"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"
+        pageTitle="Pocusox Pezug Cezuxom" pageBuilder="com.gs.fw.kaza.desa.TugiqiwIjojuBamuGatuneb">
+
+    <section feature="HapeqUvapebuq">
+        <row>
+            <button label="Vayus Xinocepe" name="excel" downloadContent="true"
+                    contentDownloader="com.gs.fw.kaza.desa.vo.hizuneyel.domain.FogaZukocamumeleTibezOmoliyecok"
+                    pageBuilder="com.gs.fw.kaza.desa.TugiqiwIjojuBamuGatuneb"
+                    openSavedFile="true"/>
+            <button label="Qiwo Xinocepe" name="data" downloadContent="true"
+                    contentDownloader="com.gs.fw.kaza.desa.vo.hizuneyel.domain.YuxoZinexehosi"
+                    pageBuilder="com.gs.fw.kaza.desa.TugiqiwIjojuBamuGatuneb"/>
+        </row>
+    </section>
+    <section caption="Vojiy Yokucaz" expandable="true" expanded="false">
+        <row feature="tokalAmexuquRoqa">
+            <section>
+                <row>
+                    <section caption="Qed 1">
+                        <row>
+                            <uiElement label="" name="cacuzOqujoxu1" renderAs="label" />
+                        </row>
+                    </section>
+                    <section caption="Qed 2">
+                        <row>
+                            <uiElement label="" name="cacuzOqujoxu2" renderAs="label" />
+                        </row>
+                    </section>
+                </row>
+            </section>
+        </row>
+        <row>
+            <uiElement label="" name="wavacAtometiJufuwe" renderAs="label" />
+        </row>
+    </section>
+    <section feature="XayevupefapuCoyefi" caption="Dulic Bega Puqivej" expandable="true" expanded="true">
+        <row>
+            <uiElement name="vebidIdib" label="Dulic Bega by" renderAs="duallistbox" sortBy="none" validation="mandatory"
+                       style="duallistbox.kefedanakufuki.style"/>
+
+            <button label="Dulic Bega" name="filigIwabOdedak" nextLayoutName="desa/coCegOpewuboFifuq.xml"
+                    pageBuilder="com.gs.fw.kaza.desa.xivezede.vo.YeXodAmoyiHirijogOkavavi.gurasiyOqeYomojOgul"
+                    validate="vebidIdib"/>
+        </row>
+    </section>
+
+    <section>
+        <row>
+            <multitable name="vodagigebace">
+                <table name="vodagigebace_yedara" wrapContent="false" wrapHeader="true"/>
+                <table name="vodagigebace_hasofeyizah" wrapContent="false" wrapHeader="true"/>
+            </multitable>
+        </row>
+    </section>
+
+</layout>

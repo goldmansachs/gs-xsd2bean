@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd"
+        pageTitle="Cujaqekufuki Kucihax"
+        pageBuilder="com.gs.fw.kaza.desa.vopigipipuhotevitefav.vo.WiFafolixuvIpuhitIvopaJaludIkuxino"
+        showSelection="true"
+        windowState="maximized">
+    <section>
+        <row>
+
+            <section caption="">
+                <row>
+                    <section>
+                        <row>
+                            <section>
+                                <row>
+                                    <section>
+                                        <row>
+                                            <uiElement name="entity" label="Humopa" renderAs="listbox"
+                                                       attribute="display"
+                                                       style="entity.listbox.style"
+                                                       noSelectOption="&lt;No Mosuku&gt;"/>
+                                        </row>
+                                    </section>
+                                    <section>
+                                        <row>
+                                            <uiElement name="kabigOdedIle" label="Betid Yoya Kin"
+                                                       attribute="display"
+                                                       defaultSelection="JI"
+                                                       renderAs="combobox"/>
+                                        </row>
+                                        <row>
+                                            <uiElement name="wiroyuhaXovoq" label="KodaWekun Type"
+                                                       attribute="display"
+                                                       renderAs="combobox"
+                                                       style="normal.30kebem.text"
+                                                       defaultSelection="Miganala"
+                                                       noSelectOption="&lt;No Mosuku&gt;"/>
+                                        </row>
+                                    </section>
+                                    <section >
+                                        <row>
+                                            <uiElement name="setiXizo" label="SetiXizo" attribute="display"
+
+                                                       renderAs="combobox"
+                                                       noSelectOption="&lt;No Mosuku&gt;"/>
+                                        </row>
+                                        <row>
+                                            <uiElement name="guyuliRoxebobi" label="Vuqusa Wutesomo"
+                                                       attribute="display"
+                                                       renderAs="combobox"
+                                                       noSelectOption="&lt;No Mosuku&gt;"/>
+                                        </row>
+                                        <row>
+                                            <uiElement name="casah" label="Casah"
+                                                       renderAs="multiItemTextbox"/>
+                                            <button name="soniYafif" image="desa/roxi.toz"
+                                                    nextLayoutName="desa/lisEseqimoqaxoleqadaje.xml"
+                                                    pageBuilder="com.gs.fw.kaza.desa.rutapa.vo.FigahofesAtumUnominUvuyexuTayahob.qopeTaketUfoWosazi"/>
+                                        </row>
+
+                                    </section>
+                                </row>
+
+                            </section>
+                        </row>
+                    </section>
+
+                </row>
+            </section>
+        </row>
+        <row>
+            <section caption="">
+                <row>
+                    <uiElement name="folopifafImunovaj"
+                               label="Koxo Kahutuji In Cuca / Molodaliwu Currency"
+                               renderAs="checkbox"/>
+                    <uiElement name="gajin1" labelStyle="kolulesatel.label.style" label="----"
+                               renderAs="label"/>
+                    <uiElement name="vupirikAjoceb" label="Zugajul Gekekaq"
+                               renderAs="checkbox"/>
+                    <uiElement name="gajin2" labelStyle="kolulesatel.label.style" label="----"
+                               renderAs="label"/>
+                    <uiElement name="pexEkusOdup" label="Use Dazi Maba Jewivuy"
+                               renderAs="checkbox"/>
+                    <uiElement name="gajin3" labelStyle="kolulesatel.label.style" label="----"
+                               renderAs="label"/>
+                    <uiElement name="DetubuzuNehuxin" label="Qeqerif Kocoguwen/Baqubuj?" renderAs="checkbox"/>
+                    <uiElement name="sutacerOdarAzUnuz" label="Qeqerif Yedara &amp; Hasofeyizah Mora-by-side"
+                               renderAs="checkbox"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section caption="">
+                <row>
+                    <section>
+                        <row>
+                            <uiElement name="businessDate1" label="Cuyokujo Date 1" renderAs="combobox" sortBy="domain"
+                                       attribute="display"/>
+                            <uiElement attribute="display" name="qahodoqo1" label="Qahodoqo 1"
+                                       renderAs="combobox"
+                                       sortBy="none"/>
+                        </row>
+                        <row>
+                            <uiElement name="businessDate2" label="Cuyokujo Date 2" renderAs="combobox" noSelectOption=""
+                                       attribute="display"/>
+                            <uiElement attribute="display" name="qahodoqo2" label="Qahodoqo 2" renderAs="combobox"
+                                       sortBy="none"/>
+
+                        </row>
+                        <row>
+                            <uiElement name="zozolaqUcefizib" label="Qeqerif Tugikuye"
+                                       renderAs="checkbox"/>
+                        </row>
+                    </section>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section caption="">
+                <row>
+                    <section>
+                        <row>
+                            <section>
+                                <row>
+                                    <uiElement name="gajin4" labelStyle="kolulesatel.label.style"
+                                               label="-----------------------------------------------------------------------------"
+                                               renderAs="label"/>
+                                    <uiElement name="zuyEjine98"
+                                               label="&lt;zana&gt;&lt;v&gt;_________________Yiz Puqivej_________________&lt;/v&gt;&lt;/zana&gt;"
+                                               renderAs="label"/>
+                                </row>
+
+                            </section>
+
+                        </row>
+                        <row>
+                            <section>
+                                <row>
+                                    <uiElement name="gajin5" labelStyle="kolulesatel.label.style"
+                                               label="--------------------------------------------"
+                                               renderAs="label"/>
+                                    <uiElement name="gajin6" labelStyle="kolulesatel.label.style" label="----"
+                                               renderAs="label"/>
+                                    <uiElement name="gajin7" labelStyle="kolulesatel.label.style" label="----"
+                                               renderAs="label"/>
+                                    <uiElement name="piciqiwUbuwoDiweb"
+                                               label="&lt;zana&gt;&lt;v&gt;Koxo &lt;K&gt; Humopa&lt;/v&gt;&lt;/zana&gt;"
+                                               renderAs="label"/>
+                                    <uiElement name="hugobEcawulagoYujaj"
+                                               label="&lt;zana&gt;&lt;v&gt;Ve Sesej /&lt;K&gt;Ve Velitofas&lt;/v&gt;&lt;/zana&gt;"
+                                               renderAs="label"/>
+                                    <uiElement name="jodoviloPefuy1"
+                                               label="&lt;zana&gt;&lt;center&gt;&#160;&#160;&#160;&#160;&#160;&#160;&lt;v&gt;Ve Date 1/&lt;/v&gt;&#160;&#160;&#160;&#160;&#160;&lt;K&gt;&#160;&#160;&#160;&#160;&#160;&lt;v&gt;Ve Tugikuye&lt;/v&gt;&#160;&#160;&#160;&#160;&lt;/center&gt;&lt;/zana&gt;"
+                                               renderAs="label"/>
+                                    <uiElement name="jodoviloPefuy2"
+                                               label="&lt;zana&gt;&lt;v&gt;Ve Posu Tugikuye /&lt;K&gt;Ve Mizuheyu Tugikuye &lt;/v&gt;&lt;/zana&gt;"
+                                               renderAs="label"/>
+                                    <uiElement name="jodoviloPefuy3"
+                                               label="&lt;zana&gt;&lt;v&gt;&lt;center&gt;Siwa Ve &lt;K&gt;Ziropikej / Diwedeciso &lt;/center&gt;&lt;/v&gt;&lt;/zana&gt;"
+                                               renderAs="label"/>
+                                </row>
+                                <row></row>
+                                <row></row>
+
+                                <row>
+                                    <uiElement name="mek39Jimodi1"
+                                               label="&lt;zana&gt;&lt;v&gt;MEK 39 SIREKOVI BIYIRUWE:&lt;/v&gt;&lt;/zana&gt;"
+                                               defaultSelection="Buva #"
+                                               renderAs="label"/>
+                                    <uiElement name="gajin8"
+                                               label=""
+                                               defaultSelection="Fu #"
+                                               renderAs="label"/>
+
+                                </row>
+                                <row></row>
+                                <row></row>
+                                <row></row>
+                                <row>
+                                    <uiElement name="jihOvafiyaYalEmUkofuwe" label="Yiz Wepinam Sirekovi by Kodawekun "
+                                               labelStyle="label.nuxa.style"
+                                               renderAs="textbox" style="jitih.textbox.style"/>
+                                    <uiElement name="vipOraqaguHicEvOpupaduPoVugey" label="" renderAs="textbox"
+                                               style="jitih.textbox.style"/>
+                                    <uiElement name="gajin9" renderAs="label" label=""/>
+                                    <uiElement name="gajin10" renderAs="label" label=""/>
+                                    <uiElement name="gajin11" renderAs="label" label=""/>
+                                    <uiElement name="rukeCinaseVUCI"
+                                               label=""
+                                               renderAs="checkbox"/>
+                                    <uiElement name="qutUrafehOlusocUkotodoteceXIMO" label="" renderAs="combobox"
+                                               attribute="display"
+                                               defaultSelection="Sesej"/>
+                                    <uiElement name="soyezesoCIBI" label="" renderAs="combobox" attribute="display"
+                                               defaultSelection="Cuyokujo Date 1"/>
+                                    <uiElement name="losAyucuxEtayanodICEV" label="" renderAs="combobox"
+                                               attribute="display"/>
+                                    <uiElement name="mopEkebugAsakeqopoMamaqufiloGAHU" label=""
+                                               renderAs="combobox" defaultSelection="Diwedeciso" attribute="display"/>
+                                    <uiElement name="gajin12" renderAs="label" label=""/>
+
+                                    <button name="bomocayATET" label="Qeqerif" 
+                                            nextLayoutName="desa/vopigipipuhotevitefav/qiDuvojagedAvozikIxejurofoji.xml"
+                                            crumbTrail="true"
+                                            pageBuilder="com.gs.fw.kaza.desa.vopigipipuhotevitefav.vo.WuVayejidehAtamixAxekoruQeragow.nadubutIPUlOsutAwete"/>
+                                </row>
+                                <row>
+                                    <uiElement name="tazOwopayitIpEluhomi"
+                                               label="Yiz Mayareru by Kodawekun                  "
+                                               labelStyle="label.nuxa.style" renderAs="textbox"
+                                               style="jitih.textbox.style"/>
+                                    <uiElement name="maxAkerenimUnUviyakuRaTogar" label="" renderAs="textbox"
+                                               style="jitih.textbox.style"/>
+                                    <uiElement name="gajin13" renderAs="label" label=""/>
+                                    <uiElement name="gajin14" renderAs="label" label=""/>
+                                    <uiElement name="gajin15" renderAs="label" label=""/>
+                                    <uiElement name="zuxuVapuvaVUZ"
+                                               label=""
+                                               renderAs="checkbox"/>
+                                    <uiElement name="pazAginumUhuyigIsitoyucokiYEJ" label="" renderAs="combobox"
+                                               attribute="display"
+                                               defaultSelection="Sesej"/>
+                                    <uiElement name="vikufuxaCOV" label="" renderAs="combobox" attribute="display"
+                                               defaultSelection="Cuyokujo Date 1"/>
+                                    <uiElement name="tewOhuyehUdugekujOZI" label="" renderAs="combobox"
+                                               attribute="display"/>
+                                    <uiElement name="hugUxavogImiqodusaQemuditabeMIT" label="" attribute="display"
+                                               renderAs="combobox" defaultSelection="Diwedeciso"/>
+
+                                    <uiElement name="gajin16" renderAs="label" label=""/>
+                                    <button name="fimireqEDO" label="Qeqerif"
+                                            nextLayoutName="desa/vopigipipuhotevitefav/qiDuvojagedAvozikIxejurofoji.xml"
+                                            crumbTrail="true"
+                                            pageBuilder="com.gs.fw.kaza.desa.vopigipipuhotevitefav.vo.WuVayejidehAtamixAxekoruQeragow.zubapucUgewiqagOwEboqIhuro"/>
+                                </row>
+                                <row>
+                                    <uiElement name="vanEmaWapowogoFeTakaluw"
+                                               label="Yiz Non-Mayareru by Kodawekun         "
+                                               labelStyle="label.nuxa.style"
+                                               renderAs="textbox" style="jitih.textbox.style"/>
+                                    <uiElement name="puzOnaWuvekameDoYozisofErAduwu" label="" renderAs="textbox"
+                                               style="jitih.textbox.style"/>
+                                    <uiElement name="gajin17" renderAs="label" label=""/>
+                                    <uiElement name="gajin18" renderAs="label" label=""/>
+                                    <uiElement name="gajin19" renderAs="label" label=""/>
+                                    <uiElement name="piwuQevisuKESA"
+                                               label=""
+                                               renderAs="checkbox"/>
+                                    <uiElement name="kanOcacufEqovamIsufaliluliJEMI" label="" renderAs="combobox"
+                                               attribute="display"
+                                               defaultSelection="Sesej"/>
+                                    <uiElement name="kadahogePILU" label="" renderAs="combobox" attribute="display"
+                                               defaultSelection="Cuyokujo Date 1"/>
+                                    <uiElement name="tusEyadeyAqebequjUHEK" label="" renderAs="combobox"
+                                               attribute="display"/>
+                                    <uiElement name="janIkohuhEdoxuguqiGutuhivoteWULU" label="" attribute="display"
+                                               renderAs="combobox" defaultSelection="Diwedeciso"/>
+                                    <uiElement name="gajin20" renderAs="label" label=""/>
+
+                                    <button name="femamakEGOP" label="Qeqerif"
+                                            nextLayoutName="desa/vopigipipuhotevitefav/qiDuvojagedAvozikIxejurofoji.xml"
+                                            crumbTrail="true"
+                                            pageBuilder="com.gs.fw.kaza.desa.vopigipipuhotevitefav.vo.WuVayejidehAtamixAxekoruQeragow.putaratUdaZokujudaGeVujiRoteg"/>
+                                </row>
+                                <row></row>
+                                <row></row>
+                                <row></row>
+                                <row></row>
+                                <row></row>
+                                <row></row>
+                                <row>
+                                    <uiElement name="mek39Jimodi2"
+                                               label="&lt;zana&gt;&lt;v&gt;GULIBUDAXI BIYIRUWE :&lt;/v&gt;&lt;/zana&gt;"
+                                               defaultSelection="Buva #"
+                                               renderAs="label"/>
+                                    <uiElement name="gajin211"
+                                               label=""
+                                               defaultSelection="Fu #"
+                                               renderAs="label"/>
+                                </row>
+                                <row></row>
+                                <row></row>
+                                <row></row>
+                                <row>
+                                    <uiElement name="qibAleMuxuhoheTameNife"
+                                               label="Yiz Setuzen Mayareru Koga Gulibudaxi  "
+                                               labelStyle="label.nuxa.style"
+                                               renderAs="textbox" style="jitih.textbox.style"/>
+                                    <uiElement name="jomIqiWufojiwiMoyuMocaZaXeyax" label="" renderAs="textbox"
+                                               style="jitih.textbox.style"/>
+                                    <uiElement name="gajin21" renderAs="label" label=""/>
+                                    <uiElement name="gajin22" renderAs="label" label=""/>
+                                    <uiElement name="gajin23" renderAs="label" label=""/>
+                                    <uiElement name="yoceGozuziXIMA"
+                                               label=""
+                                               renderAs="checkbox"/>
+                                    <uiElement name="nagOmabehAhubujEsuqiyowifaSIZA" label="" renderAs="combobox"
+                                               attribute="display"
+                                               defaultSelection="Sesej"/>
+                                    <uiElement name="yahanalaVEYU" label="" renderAs="combobox" attribute="display"
+                                               defaultSelection="Cuyokujo Date 1"/>
+                                    <uiElement name="sicIfuhupOrumarepIJOM" label="" renderAs="combobox"
+                                               attribute="display"/>
+                                    <uiElement name="hicUbusabIpimuhusaGafidiledaWEVO" label="" attribute="display"
+                                               renderAs="combobox" defaultSelection="Diwedeciso"/>
+
+                                    <uiElement name="gajin24" renderAs="label" label=""/>
+                                    <button name="zabesewULOY" label="Qeqerif"
+                                            nextLayoutName="desa/vopigipipuhotevitefav/qiDuvojagedAvozikIxejurofoji.xml"
+                                            crumbTrail="true"
+                                            pageBuilder="com.gs.fw.kaza.desa.vopigipipuhotevitefav.vo.WuVayejidehAtamixAxekoruQeragow.xeqezixIdopayoQovOwivEpexurepic"/>
+                                </row>
+                                <row>
+                                    <uiElement name="vabArinoWetiNovu"
+                                               label="Yiz Fexov Koga Gulibudaxi                       "
+                                               labelStyle="label.nuxa.style"
+                                               renderAs="textbox" style="jitih.textbox.style"/>
+                                    <uiElement name="genUtehaWizeRohuLaSamij" label="" renderAs="textbox"
+                                               style="jitih.textbox.style"/>
+                                    <uiElement name="gajin25" renderAs="label" label=""/>
+                                    <uiElement name="gajin26" renderAs="label" label=""/>
+                                    <uiElement name="gajin27" renderAs="label" label=""/>
+                                    <uiElement name="revuPucucaLIR"
+                                               label=""
+                                               renderAs="checkbox"/>
+                                    <uiElement name="sigAqemisIkewawUwukuvomafuPIH" label="" renderAs="combobox"
+                                               attribute="display"
+                                               defaultSelection="Sesej"/>
+                                    <uiElement name="heloruweHIZ" label="" renderAs="combobox" attribute="display"
+                                               defaultSelection="Cuyokujo Date 1"/>
+                                    <uiElement name="rayIcemutIhejanipAJI" label="" renderAs="combobox"
+                                               attribute="display"/>
+                                    <uiElement name="yebEwajuwIvopawuwuDadarejenoTEK" label="" attribute="display"
+                                               renderAs="combobox" defaultSelection="Diwedeciso"/>
+
+                                    <uiElement name="gajin28" renderAs="label" label=""/>
+                                    <button name="dulujajERU" label="Qeqerif"
+                                            nextLayoutName="desa/vopigipipuhotevitefav/qiDuvojagedAvozikIxejurofoji.xml"
+                                            crumbTrail="true"
+                                            pageBuilder="com.gs.fw.kaza.desa.vopigipipuhotevitefav.vo.WuVayejidehAtamixAxekoruQeragow.gadewegIpakiQaceVovuposibu"/>
+                                </row>
+                                <row>
+                                    <uiElement name="pamOqacipOsutAneg"
+                                               label="Yiz Komulu Koga Gulibudaxi                    "
+                                               labelStyle="label.nuxa.style"
+                                               renderAs="textbox" style="jitih.textbox.style"/>
+                                    <uiElement name="moyOtuhegUbuhOpudEnAyuzu" label="" renderAs="textbox"
+                                               style="jitih.textbox.style"/>
+                                    <uiElement name="gajin29" renderAs="label" label=""/>
+                                    <uiElement name="gajin30" renderAs="label" label=""/>
+                                    <uiElement name="gajin31" renderAs="label" label=""/>
+                                    <uiElement name="zutePopaceTIQ" label="" renderAs="checkbox"/>
+                                    <uiElement name="pibAxobizOkarolUvehabehiniQAX" label="" renderAs="combobox"
+                                               attribute="display"
+                                               defaultSelection="Sesej"/>
+                                    <uiElement name="gunufiniXUB" label="" renderAs="combobox" attribute="display"
+                                               defaultSelection="Cuyokujo Date 1"/>
+                                    <uiElement name="metEneqotAnetirulIYO" label="" renderAs="combobox"
+                                               attribute="display"/>
+                                    <uiElement name="kolIlatuyEsisobehuWiyexasehaNUT" label="" attribute="display"
+                                               renderAs="combobox" defaultSelection="Diwedeciso"/>
+
+                                    <uiElement name="gajin32" renderAs="label" label=""/>
+                                    <button name="darihicIXU" label="Qeqerif"
+                                            nextLayoutName="desa/vopigipipuhotevitefav/qiDuvojagedAvozikIxejurofoji.xml"
+                                            crumbTrail="true"
+                                            pageBuilder="com.gs.fw.kaza.desa.vopigipipuhotevitefav.vo.WuVayejidehAtamixAxekoruQeragow.qecirofEnobawArujUzifihuray"/>
+                                </row>
+                                <row></row>
+                                <row></row>
+                                <row></row>
+                                <row></row>
+                                <row></row>
+                                <row></row>
+                                <row>
+                                    <uiElement name="zetawIyiKuhivoMuwoso"
+                                               label="&lt;zana&gt;&lt;v&gt;JOCUN DOB QAKUYA KUCIHAX :&lt;/v&gt;&lt;/zana&gt;"
+                                               defaultSelection="Buva #"
+                                               renderAs="label"/>
+                                    <uiElement name="gajin33"
+                                               label=""
+                                               defaultSelection="Fu #"
+                                               renderAs="label"/>
+                                </row>
+                                <row></row>
+                                <row></row>
+                                <row></row>
+                                <row>
+                                    <uiElement name="taxajUxuJedeguro"
+                                               label="Jocun Yiz Mayareru                            "
+                                               labelStyle="label.nuxa.style" renderAs="textbox"
+                                               style="jitih.textbox.style"/>
+                                    <uiElement name="xaritIfaLafeyipeRaRapaj" label="" renderAs="textbox"
+                                               style="jitih.textbox.style"/>
+                                    <uiElement name="gajin34" renderAs="label" label=""/>
+                                    <uiElement name="gajin35" renderAs="label" label=""/>
+                                    <uiElement name="gajin36" renderAs="label" label=""/>
+                                    <uiElement name="zagaMahemaZAB"
+                                               label=""
+                                               renderAs="checkbox"/>
+                                    <uiElement name="daqEtacupAnakujAyogozuxeqoQEK" label="" renderAs="combobox"
+                                               attribute="display"
+                                               defaultSelection="Sesej"/>
+                                    <uiElement name="miraquziQAK" label="" renderAs="combobox" attribute="display"
+                                               defaultSelection="Cuyokujo Date 1"/>
+                                    <uiElement name="siwAcurerEjexetudIYI" label="" renderAs="combobox"
+                                               attribute="display"/>
+                                    <uiElement name="nuyIrebovUlozijucoVaxucomacoZEK" label="" attribute="display"
+                                               renderAs="combobox" defaultSelection="Diwedeciso"/>
+
+                                    <uiElement name="gajin37" renderAs="label" label=""/>
+                                    <button name="sebopeyUPU" label="Qeqerif"
+                                            nextLayoutName="desa/vopigipipuhotevitefav/qiDuvojagedAvozikIxejurofoji.xml"
+                                            crumbTrail="true"
+                                            pageBuilder="com.gs.fw.kaza.desa.vopigipipuhotevitefav.vo.WuVayejidehAtamixAxekoruQeragow.malowuwInocuQizexigaPuHuxuMaher"/>
+                                </row>
+                                <row>
+                                    <uiElement name="yobasUxaJixEbisomen"
+                                               label="Jocun Yiz Non-Mayareru                "
+                                               labelStyle="label.nuxa.style"
+                                               renderAs="textbox" style="jitih.textbox.style"/>
+                                    <uiElement name="loyupOgoGazEdutohetUtOlige" label="" renderAs="textbox"
+                                               style="jitih.textbox.style"/>
+                                    <uiElement name="gajin38" renderAs="label" label=""/>
+                                    <uiElement name="gajin39" renderAs="label" label=""/>
+                                    <uiElement name="gajin40" renderAs="label" label=""/>
+                                    <uiElement name="wexiHuluzaYIMO"
+                                               label=""
+                                               renderAs="checkbox"/>
+                                    <uiElement name="gusEqogugAxereqUjopucurumeTEHU" label="" renderAs="combobox"
+                                               attribute="display"
+                                               defaultSelection="Sesej"/>
+                                    <uiElement name="giguworoWIPU" label="" renderAs="combobox" attribute="display"
+                                               defaultSelection="Cuyokujo Date 1"/>
+                                    <uiElement name="befEselehUnoxofopOLOF" label="" renderAs="combobox"
+                                               attribute="display"/>
+                                    <uiElement name="zoxEnevirAsifehideKuvepugaboTUSE" label="" attribute="display"
+                                               renderAs="combobox" defaultSelection="Diwedeciso"/>
+                                    <uiElement name="gajin41" renderAs="label" label=""/>
+
+                                    <button name="yizokatIMAX" label="Qeqerif"
+                                            nextLayoutName="desa/vopigipipuhotevitefav/qiDuvojagedAvozikIxejurofoji.xml"
+                                            crumbTrail="true"
+                                            pageBuilder="com.gs.fw.kaza.desa.vopigipipuhotevitefav.vo.WuVayejidehAtamixAxekoruQeragow.voperisUmoleXenIqegaxakIyAbuhOtodu"/>
+                                </row>
+
+                            </section>
+
+                        </row>
+                    </section>
+                </row>
+            </section>
+        </row>
+
+
+    </section>
+</layout>

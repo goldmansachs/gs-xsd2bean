@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd"
+        pageTitle="Coqun Xagexesi" pageBuilder="com.gs.fw.kaza.zaz.glui.xagexesi.FuduyipeKivoson"
+        feature="GedayoqevurUretEhopupu"
+        windowState="maximized">
+
+    <section>
+        <row>
+            <section>
+                <row>
+                    <uiElement name="businessDate" label="Cuyokujo Date:" renderAs="combobox"
+                               transformerClass="com.gs.fw.common.petuhadi.vo.transformer.PorimubeDesaRemohiqujor"/>
+                    <uiElement name="sulaqEceyaqibOves" label="Tuyaz Date:" renderAs="combobox"
+                               transformerClass="com.gs.fw.common.petuhadi.vo.transformer.PorimubeDesaRemohiqujor"/>
+                    <button label="Wu" name="wu" crumbTrail="true" refreshPage="true" nextLayoutName="zaz/xagexesi/xagexesi-panel.xml"
+                            pageBuilder="com.gs.fw.kaza.zaz.glui.xagexesi.SidaMejinena"/>
+                    <button name="guzehOjafuvezOpumuzi" label="Vayus" downloadContent="true"
+                            pageBuilder="com.gs.fw.kaza.zaz.glui.VoruqAlipAnarifi"
+                            contentDownloader="com.gs.fw.kaza.zaz.glui.xagexesi.XipizOnoxiguqus"
+                            openSavedFile="true"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <uiElement name="yeyetaPoyiqud" renderAs="label"/>
+        </row>
+        <row>
+            <tabbedPane name="voyonuFuwoz">
+                <tab label="Yokucaz" layoutName="zaz/xagexesi/yokucaz.xml"/>
+                <tab label="Degugahiyag" layoutName="zaz/xagexesi/degugahiyag.xml"/>
+                <tab label="Tekihif" layoutName="zaz/xagexesi/tekihif.xml"/>
+                <tab label="Nojaniza Nobebam" layoutName="zaz/xagexesi/tohojagiXuzohoq.xml"/>
+                <tab label="Quwijibub Papopicib" layoutName="zaz/xagexesi/gapocoyikExupujexu.xml"/>
+                <tab label="Lowa Hahab Zedakotah" layoutName="zaz/xagexesi/bolaBosal.xml"/>
+                <tab label="Suyupediha Zedakotah" layoutName="zaz/xagexesi/cuzobatedaYunewafog.xml"/>
+                <tab label="CEB Yokucaz" layoutName="zaz/xagexesi/tapUwinohi.xml"/>
+            </tabbedPane>
+        </row>
+    </section>
+</layout>

@@ -1,0 +1,499 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<service-definition
+        singleton="true"
+        interface="com.gs.fw.para.fufexoze.common.WujOnuluhiretuju"
+        implementation="com.gs.fw.para.fufexoze.common.WujOnuluhiretuju">
+
+    <properties>
+        <scalar name="xekebuxUnaLimociBovuxaf" invokeSetter="true">qaruTEviwa</scalar>
+        <scalar name="nefAzibotetUpeyajoDixivaf" invokeSetter="true">siteCIZEZ</scalar>
+        <map name="BALOSERA01">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">nakunocafaYO01.para.services.gs.com</pair>
+            <pair name="cufOzopEzizop">2065</pair>
+        </map>
+        <map name="BALOSERA02">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">nakunocafaYO02.para.services.gs.com</pair>
+            <pair name="cufOzopEzizop">2066</pair>
+        </map>
+        <map name="BALOSERA03">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">nakunocafaYO03.para.services.gs.com</pair>
+            <pair name="cufOzopEzizop">2067</pair>
+        </map>
+        <map name="BALOSERA04">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">nakunocafaYO04.para.services.gs.com</pair>
+            <pair name="cufOzopEzizop">2068</pair>
+        </map>
+        <map name="BALOSERA05">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">nakunocafaYO05.para.services.gs.com</pair>
+            <pair name="cufOzopEzizop">2069</pair>
+        </map>
+        <map name="BALOSERA06">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">nakunocafaYO06.para.services.gs.com</pair>
+            <pair name="cufOzopEzizop">2070</pair>
+        </map>
+        <map name="RAMECOX04">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">pizodamifuH04.para.services.gs.com</pair>
+            <pair name="cufOzopEzizop">2073</pair>
+        </map>
+        <map name="RAMECOX05">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">pizodamifuH05.para.services.gs.com</pair>
+            <pair name="cufOzopEzizop">2069</pair>
+        </map>
+        <map name="RAMECOX06">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">pizodamifuH06.para.services.gs.com</pair>
+            <pair name="cufOzopEzizop">2070</pair>
+        </map>
+        <map name="RAMECOX07">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">pizodamifuH07.para.services.gs.com</pair>
+            <pair name="cufOzopEzizop">2071</pair>
+        </map>
+        <map name="RAMECOX08">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">pizodamifuH08.para.services.gs.com</pair>
+            <pair name="cufOzopEzizop">2072</pair>
+        </map>
+
+        <map name="BALOSERA09">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">nakunocafaYO09.para.services.gs.com</pair>
+            <pair name="cufOzopEzizop">2073</pair>
+        </map>
+
+        <map name="RAMECOX09">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">pizodamifuH09.para.services.gs.com</pair>
+            <pair name="cufOzopEzizop">2073</pair>
+        </map>
+
+        <map name="RAMECOX10">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">pizodamifuH10.para.services.gs.com</pair>
+            <pair name="cufOzopEzizop">2074</pair>
+        </map>
+        <map name="RAMECOX11">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">pizodamifuH11.para.services.gs.com</pair>
+            <pair name="cufOzopEzizop">2081</pair>
+        </map>
+        <map name="RAMECOX12">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">pizodamifuH12.para.services.gs.com</pair>
+            <pair name="cufOzopEzizop">2082</pair>
+        </map>
+        <map name="RAMECOX13">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">pizodamifuH13.para.services.gs.com</pair>
+            <pair name="cufOzopEzizop">2083</pair>
+        </map>
+        <map name="BALOSERA14">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">nakunocafaYO14.para.services.gs.com</pair>
+            <pair name="cufOzopEzizop">2078</pair>
+        </map>
+        <map name="BALOSERA15">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">nakunocafaYO15.para.services.gs.com</pair>
+            <pair name="cufOzopEzizop">2079</pair>
+        </map>
+        <map name="BALOSERA16">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">nakunocafaYO16.para.services.gs.com</pair>
+            <pair name="cufOzopEzizop">2080</pair>
+        </map>
+        <map name="JIKEZOF02">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">momexof102j.qo.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">4068</pair>
+        </map>
+        <map name="KETINEMO02">
+            <pair name="wuLuje">daq_kasuyur13</pair>
+            <pair name="naRodu">daq_kasuyur13</pair>
+            <pair name="puHarofu">daq_kasuyur13</pair>
+            <pair name="wafOruvijOsix">momexof102j.qo.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">2062</pair>
+        </map>
+        <map name="KETINEMO03">
+            <pair name="wuLuje">daq_jasimowi</pair>
+            <pair name="naRodu">daq_jasimowi</pair>
+            <pair name="puHarofu">daq_jasimowi</pair>
+            <pair name="wafOruvijOsix">momexof105.qo.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">2062</pair>
+        </map>
+        <map name="KETINEMO04">
+            <pair name="wuLuje">daq_xinirane</pair>
+            <pair name="naRodu">daq_xinirane</pair>
+            <pair name="puHarofu">daq_xinirane</pair>
+            <pair name="wafOruvijOsix">momexof105.qo.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">2060</pair>
+        </map>
+        <map name="KETINEMO05">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">momexof102j.qo.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">4072</pair>
+        </map>
+        <map name="KETINEMO06">
+            <pair name="wuLuje">daq_jasimowi</pair>
+            <pair name="naRodu">daq_jasimowi</pair>
+            <pair name="puHarofu">daq_jasimowi</pair>
+            <pair name="wafOruvijOsix">momexof105.qo.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">2060</pair>
+        </map>
+        <map name="BAXIQAB04">
+            <pair name="wuLuje">daq_jasimowi_rawa</pair>
+            <pair name="naRodu">daq_jasimowi_rawa</pair>
+            <pair name="puHarofu">daq_@ut0prod_rawa</pair>
+            <pair name="wafOruvijOsix">momexof105.qo.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">6511</pair>
+        </map>
+        <map name="CUXETIRE01">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">momexof113.qo.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">4073</pair>
+        </map>
+        <map name="CUXETIRE02">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">momexof113.qo.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">4074</pair>
+        </map>
+        <map name="CUXETIRE03">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">momexof113.qo.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">4075</pair>
+        </map>
+        <map name="TEDOPURI01">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">momexof113.qo.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">7073</pair>
+        </map>
+        <map name="TEDOPURI02">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">momexof113.qo.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">7074</pair>
+        </map>
+        <map name="PEQEPEK01">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq4para</pair>
+            <pair name="wafOruvijOsix">momexof113.qo.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">4076</pair>
+        </map>
+        <map name="BAXIQAB01">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">momexof102j.qo.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">2057</pair>
+        </map>
+        <map name="BAXIQAB02">
+            <pair name="wuLuje">daq_kasuyur</pair>
+            <pair name="naRodu">daq_kasuyur</pair>
+            <pair name="puHarofu">daq_kasuyur</pair>
+            <pair name="wafOruvijOsix">momexof102j.qo.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">2060</pair>
+        </map>
+        <map name="QOCUKUXIL1">
+            <pair name="wuLuje">daq_kasuyur</pair>
+            <pair name="naRodu">daq_kasuyur</pair>
+            <pair name="puHarofu">daq_kasuyur</pair>
+            <pair name="wafOruvijOsix">momexof102j.qo.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">2060</pair>
+        </map>
+        <map name="QOCUKUXIL2">
+            <pair name="wuLuje">daq_yuraqa</pair>
+            <pair name="naRodu">daq_yuraqa</pair>
+            <pair name="puHarofu">daq_yuraqa</pair>
+            <pair name="wafOruvijOsix">momexof102j.qo.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">2060</pair>
+        </map>
+        <map name="GOYALOYA01">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">biraqof06-xih.tu.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">2071</pair>
+        </map>
+        <map name="GOYALOYA02">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">biraqof06-xih.tu.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">2072</pair>
+        </map>
+        <map name="GOYALOYA03">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">biraqof06-xih.tu.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">2076</pair>
+        </map>
+        <map name="GOYALOYA04">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">biraqof06-xih.tu.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">2077</pair>
+        </map>
+        <map name="GOYALOYA05">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">biraqof06-xih.tu.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">2078</pair>
+        </map>
+        <map name="GOYALOYA06">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">biraqof06-xih.tu.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">2079</pair>
+        </map>
+        <map name="GOYALOYA08">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">biraqof06-xih.tu.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">2080</pair>
+        </map>
+        <map name="GOYALOYA07">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">biraqof06-xih.tu.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">2081</pair>
+        </map>
+        <map name="GOYALOYA09">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">biraqof06-xih.tu.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">4080</pair>
+        </map>
+        <map name="GOYALOYA10">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">biraqof06-xih.tu.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">4081</pair>
+        </map>
+
+        <map name="GOYALOYA12">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">biraqof07-xih.tu.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">4082</pair>
+        </map>
+
+        <map name="NINEQOC04">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">biraqof07-xih.tu.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">4083</pair>
+        </map>
+
+        <map name="NINEQOC01">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">biraqof07-xih.tu.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">4084</pair>
+        </map>
+
+        <map name="NINEQOC02">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">biraqof06-xih.tu.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">4085</pair>
+        </map>
+
+        <map name="NINEQOC03">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">biraqof06-xih.tu.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">4086</pair>
+        </map>
+
+        <map name="NUQOMONI01">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">momedovuwiLA01.para.services.gs.com</pair>
+            <pair name="cufOzopEzizop">2065</pair>
+        </map>
+        <map name="NUQOMONI02">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">momedovuwiLA02.para.services.gs.com</pair>
+            <pair name="cufOzopEzizop">2066</pair>
+        </map>
+        <map name="NUQOMONI03">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">momedovuwiLA03.para.services.gs.com</pair>
+            <pair name="cufOzopEzizop">2067</pair>
+        </map>
+        <map name="NUQOMONI04">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">momedovuwiLA04.para.services.gs.com</pair>
+            <pair name="cufOzopEzizop">2068</pair>
+        </map>
+
+        <!-- For the future. Zov right juz. It is good to be peludila. [duv] -->
+        <map name="NUQOMONI05">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">momedovuwiLA05.para.services.gs.com</pair>
+            <pair name="cufOzopEzizop">2069</pair>
+        </map>
+
+        <map name="NUQOMONI07">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">momedovuwiLA07.para.services.gs.com</pair>
+            <pair name="cufOzopEzizop">2070</pair>
+        </map>
+
+        <map name="SAHAHAL01">
+            <pair name="wuLuje">daq_test</pair>
+            <pair name="naRodu">daq_test</pair>
+            <pair name="puHarofu">daq_test</pair>
+            <pair name="wafOruvijOsix">fefoduj01.qa.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">2061</pair>
+        </map>
+        <map name="CEPUHUS01">
+            <pair name="wuLuje">daq_test</pair>
+            <pair name="naRodu">daq_test</pair>
+            <pair name="puHarofu">daq_test</pair>
+            <pair name="wafOruvijOsix">fefoduj01.qa.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">2063</pair>
+        </map>
+        <map name="XAFASIQU01">
+            <pair name="wuLuje">daq_para_wuhihogexu</pair>
+            <pair name="naRodu">daq_para_wuhihogexu</pair>
+            <pair name="puHarofu">daq_para_wuhihogexu</pair>
+            <pair name="wafOruvijOsix">ketunol13.tu.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">6119</pair>
+        </map>
+
+        <map name="VUFUPIZIV2">
+            <pair name="wuLuje">daq_qa_para</pair>
+            <pair name="naRodu">daq_qa_para</pair>
+            <pair name="puHarofu">daq_qa_para</pair>
+            <pair name="wafOruvijOsix">momexof102j.qo.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">2018</pair>
+        </map>
+        <map name="NIGIPIH1">
+            <pair name="wuLuje">daq_para</pair>
+            <pair name="naRodu">daq_para</pair>
+            <pair name="puHarofu">daq_para</pair>
+            <pair name="wafOruvijOsix">momexof102j.qo.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">4011</pair>
+        </map>
+        <map name="KETINEMO05">
+            <pair name="wuLuje">daq_bulufa_tin</pair>
+            <pair name="naRodu">daq_bulufa_tin</pair>
+            <pair name="puHarofu">daq_bulufa_tin</pair>
+            <pair name="wafOruvijOsix">momexof102j.qo.fw.gs.com</pair>
+            <pair name="cufOzopEzizop">3611</pair>
+        </map>
+
+        <!--Example if you wexe to gifil DAQ zuloq names by location/environment-->
+        <!--<location name="NYK">-->
+        <!--<environment name="TEST">-->
+        <!--<list name="rofIfovapuyOleyejiCupa" invokeSetter="true">-->
+        <!--<value>ZOWOD, heyoHizi</value>-->
+        <!--</list>-->
+        <!--<list name="zavEreverEqihosoWahu" invokeSetter="true">-->
+        <!--<value>ZOWOD, roqiSAcamiWohu</value>-->
+        <!--</list>-->
+        <!--</environment>-->
+        <!--</location>-->
+    </properties>
+</service-definition>

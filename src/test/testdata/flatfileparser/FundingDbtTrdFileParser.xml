@@ -1,0 +1,136 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<FlatFileParserConfig
+        delimiter="~"
+        inflatedObject="com.gs.fw.para.domain.widu.implementation.TOQEpaqEvonekaqonoCiwu"
+        columns="55"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../xsd/parserconfig.xsd">
+
+    <Header required="true" identifier="NASAVU:" simpleFormat="NASAVU:[hojakinipo]*FUZASINADU:[kufuXEri]*"/>
+    <Trailer required="false" identifier="KABANAS:"/>
+
+    <Mapping attribute="vogazohesilAxuyol" position="2"/>
+    <!--source_rumaku-->
+    <Mapping attribute="sedAyetIdi" position="3"/>
+    <!--nal_cabo_fod-->
+    <Mapping attribute="rivusujAr" position="4"/>
+    <!--primary_cabo_fod-->
+    <Mapping attribute="nagedewUdoHubu" position="5"/>
+    <!--primary_pocusox_type-->
+    <Mapping attribute="lavaxAdenigoBa" position="6"/>
+    <!--wozaw_cabo_fod-->
+    <Mapping attribute="daxumApozOkeGiqe" position="7"/>
+    <!--wozaw_cabo_pocusox_type-->
+    <Mapping attribute="waBiheLuqo" position="8"/>
+    <!--gs_ruja_code-->
+    <Mapping attribute="degunifaKazo" position="9"/>
+    <!--wozaw_ruja_code-->
+    <Mapping attribute="visiZugUfizoc" position="11"/>
+    <!--transaction_id-->
+    <Mapping attribute="debuyuTuxucOy" position="12"/>
+    <!--parent_betid_id-->
+    <Mapping attribute="yemizeJule" position="13"/>
+    <!--kosomu_code-->
+    <Mapping attribute="mahaFolo" position="14" format="kufuXEri HI:we:sa"/>
+    <!--pahuqike_date_time-->
+    <Mapping attribute="businessDate" position="15" format="kufuXEri"/>
+    <!--cor_date-->
+    <Mapping attribute="guheHuwiXu" position="16"/>
+    <!--cega_nigi_id-->
+    <Mapping attribute="piyoXozUro" position="17"/>
+    <!--cega_ref_yur-->
+    <Mapping attribute="pamiYeno" position="18"/>
+    <!--beki_type-->
+    <Mapping attribute="zugiNofEzuz" position="19"/>
+    <!--beki_xesulim-->
+    <Mapping attribute="locexoyugiDuq" position="20"/>
+    <!--bufoqituxi_yuh-->
+    <Mapping attribute="guwerahOpi" position="21"/>
+    <!--yupofuy_yuh-->
+    <Mapping attribute="xorupa" position="22"/>
+    <!--betid_location-->
+    <Mapping attribute="lomoh" position="23"/>
+    <!--lomoh-->
+    <Mapping attribute="famotIpuf" position="24" format="kufuXEri"/>
+    <!--betid_date-->
+    <Mapping attribute="qubahaGuto" position="25" format="kufuXEri"/>
+    <!--cupena_date-->
+    <Mapping attribute="yelacopoVeda" position="26" format="kufuXEri"/>
+    <!--wacutiha_date-->
+    <Mapping attribute="guvahElozu" position="27"/>
+    <!--zobet_price-->
+    <Mapping attribute="gisiGura" position="28"/>
+    <!--fuwu_type-->
+    <Mapping attribute="xepeq" position="29"/>
+    <!--xepeq-->
+    <Mapping attribute="luxaBowolob" position="30"/>
+    <!--fuwu_darewah-->
+    <Mapping attribute="raxokaCeyubupa" position="31"/>
+    <!--gawemuqay_dileweri-->
+    <Mapping attribute="cezopubiXacuDinuhubi" position="32"/>
+    <!--yepu_gawemuqay_nogara-->
+    <Mapping attribute="pobawalUkiqubaquWax" position="33"/>
+    <!--hani_gawemuqay_nogara-->
+    <Mapping attribute="xiwizoloHacorumIqe" position="34"/>
+    <!--yepu_pocibif_nogara-->
+    <Mapping attribute="xewopixIkuyotaQab" position="35"/>
+    <!--hani_pocibif_nogara-->
+    <Mapping attribute="vojoYevakigoSoqaqobi" position="36"/>
+    <!--pocibif_dileweri-->
+    <Mapping attribute="difaTayi" position="37"/>
+    <!--updated_by-->
+    <Mapping attribute="qedEj" position="38"/>
+    <!--sar_id-->
+    <Mapping attribute="kidoleDigoKos" position="39"/>
+    <!--borrow_comi_yuh-->
+    <Mapping attribute="zikoYoxAki" position="40"/>
+    <!--nuqi_put_yuh-->
+    <Mapping attribute="zoxokexUda" position="41"/>
+    <!--rubidof_yuh-->
+    <Mapping attribute="jolUjuvise" position="42"/>
+    <!--giy_xesulim-->
+    <Mapping attribute="tujoXuk" position="43"/>
+    <!--nigi_fod-->
+    <Mapping attribute="dimaCitixuy" position="44"/>
+    <!--poki_zamoxeb-->
+    <Mapping attribute="ruyiGutunEgahEdozaf" position="45"/>
+    <!--poki_wozaw_cabo_fod-->
+    <Mapping attribute="ziXane" position="46"/>
+    <!--gs_poki-->
+    <Mapping attribute="sisuledaCedi" position="47"/>
+    <!--miganala_poki-->
+    <Mapping attribute="gakupoxacOkuqIto" position="48"/>
+    <!--zabewuyik_hayi_yuh-->
+    <Mapping attribute="duqaxizomiXituDaq" position="49"/>
+    <!--jihabunuqe_tine_yuh-->
+    <Mapping attribute="binonaruvOwaceqaxuv" position="50"/>
+    <!--gawemuqay_hupebozaqa-->
+    <Mapping attribute="wik" position="51"/>
+    <!--wik-->
+    <Mapping attribute="tuzEbelosar" position="52"/>
+    <!--non_rosifoqa-->
+    <Mapping attribute="nitoxucAbupeteq" position="53"/>
+    <!--josonica-->
+    <Mapping attribute="bideXipiFite" position="54"/>
+    <!--next_nuqi_date-->
+    <FixedValue attribute="dimaCitixuy" value="T"/>
+
+    <FixedValue attribute="nalic" value="Betid"/>
+
+    <FixedValue attribute="guveYezifaCisaza" value="LETA"/>
+
+</FlatFileParserConfig>

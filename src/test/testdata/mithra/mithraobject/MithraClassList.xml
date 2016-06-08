@@ -1,0 +1,343 @@
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<Mithra>
+    <MithraObjectResource name="XubiqirOpuqoli"/>
+    <MithraObjectResource name="TagaQuyavohihag"/>
+    <MithraObjectResource name="VivaWujIpiselaZaburEgePuxe"/>
+    <MithraObjectResource name="CeleGefOqowuhuGuwocUxoWicoWewa"/>
+    <MithraObjectResource name="JiqUxayErigot"/>
+    <MithraObjectResource name="GokikaSejeCagarego"/>
+    <MithraObjectResource name="CaneqaSipeLejomiteLecAsaLoguta"/>
+    <MithraObjectResource name="BotugiBituQitigufeTuhOhafomiVoliga"/>
+    <MithraObjectResource name="JojalotAmezoyokuju"/>
+    <MithraObjectResource name="CatedecApejidupivaVeb"/>
+    <MithraObjectResource name="VuwebizOridaducibeKaFadOfug"/>
+    <MithraObjectResource name="DocewejUqijucusaliFedOciHavi"/>
+    <MithraObjectResource name="HenufurEjanorayanaNusemiyac"/>
+    <MithraObjectResource name="MeqamahIzawegaTubogokapupOqimuzaxu"/>
+    <MithraObjectResource name="MenucagEmorodiBayohiqeraj"/>
+    <MithraObjectResource name="NalunogAqetote"/>
+    <MithraObjectResource name="WojosezUzofexaLif"/>
+    <MithraObjectResource name="XolasexAmojetubupIsa"/>
+    <MithraObjectResource name="PoweQaxovIgefOwubaya"/>
+    <MithraObjectResource name="BoleFepoNemuSuvurux"/>
+    <MithraObjectResource name="JutagimiFiwehOyotumeBoyevoyeyuk" />
+    <MithraObjectResource name="XepabEcisiyeYokawefArumecayejo" />
+    <MithraObjectResource name="Sose"/>
+	<MithraObjectResource name="Group"/>
+	<MithraObjectResource name="Location"/>
+	<MithraObjectResource name="UserGroup"/>
+    <MithraObjectResource name="YiwebozIloz"/>
+	<MithraObjectResource name="DijibunApixo"/>
+	<MithraObjectResource name="GaxuxezOfepEkixo"/>
+	<MithraObjectResource name="Decomig"/>
+    <MithraObjectResource name="KekeCisu"/>
+    <MithraObjectResource name="Casah"/>
+    <MithraObjectResource name="LitupejiWifuRomav"/>
+    <MithraObjectResource name="Jewivuy"/>
+    <MithraObjectResource name="XasoTehocag"/>
+    <MithraObjectResource name="Contract"/>
+    <MithraObjectResource name="Weyerojam"/>
+    <MithraObjectResource name="YalaRehi"/>
+    <MithraObjectResource name="GulukedozuToqar"/>
+    <MithraObjectResource name="SilelucumiVekemIsezUleledufi"/>
+    <MithraObjectResource name="TelumavOsuce"/>
+    <MithraObjectResource name="JetoguhAlidEkulEloqu"/>
+    <MithraObjectResource name="VeqoceYiqEpimo"/>
+    <MithraObjectResource name="WeceniDahUmehuTizi"/>
+    <MithraObjectResource name="VigeliMayInugiYadoze"/>
+    <MithraObjectResource name="Order"/>
+    <MithraObjectResource name="OrderItem"/>
+    <MithraObjectResource name="FinacEzebaz"/>
+    <MithraObjectResource name="WatefEfuvujIpEvimeyup"/>
+    <MithraObjectResource name="Tigaran" />
+    <MithraObjectResource name="FogawavAxusila" />
+    <MithraObjectResource name="Yenazimuxu"/>
+    <MithraObjectResource name="HimabEmotepi"/>
+    <MithraObjectResource name="FanibUsape"/>
+    <MithraObjectResource name="DegihItaZajug"/>
+    <MithraObjectResource name="Vihuqori"/>
+    <MithraObjectResource name="InventoryItem"/>
+    <MithraObjectResource name="Book"/>
+    <MithraObjectResource name="Sevet"/>
+    <MithraObjectResource name="Tarejefu"/>
+    <MithraObjectResource name="Yecarikesafa"/>
+    <MithraObjectResource name="MuqugoseKuminehutUhex"/>
+    <MithraObjectResource name="ZisetoxoMopa"/>
+    <MithraObjectResource name="NuwoqufuJeriZuxeq"/>
+    <MithraObjectResource name="VuyahapaYevorayikaZidoyak"/>
+    <MithraObjectResource name="KohuyudiLodizica"/>
+    <MithraObjectResource name="Bumez"/>
+    <MithraObjectResource name="JacocUpujo"/>
+    <MithraObjectResource name="Getoki"/>
+    <MithraObjectResource name="Mixun"/>
+    <MithraObjectResource name="TajeLejiforov"/>
+    <MithraObjectResource name="CegoNuhajez"/>
+    <MithraObjectResource name="SociLimuxokAxUvabu"/>
+    <MithraObjectResource name="MucuzAqowe"/>
+    <MithraObjectResource name="LivoJezuKoteviVazig" replicated="true"/>
+    <MithraObjectResource name="TadaNudoMifiwuwUzigapEbixuwej" replicated="true"/>
+    <MithraObjectResource name="HetaMarufiferaQayada" replicated="true"/>
+    <MithraObjectResource name="NurOfowiHakub"/>
+    <MithraObjectResource name="QodAwegiSoduDoqululodIbete"/>
+    <MithraObjectResource name="DedIyopoKivoNexukosoXulo"/>
+    <MithraObjectResource name="LumizaXegu"/>
+    <MithraObjectResource name="KumejOsid"/>
+    <MithraObjectResource name="WozeZeyeyu" />
+    <MithraObjectResource name="RojEkat" />
+    <MithraObjectResource name="HeseQarolid" />
+    <MithraObjectResource name="BijoSipuxuyEvul" />
+    <MithraObjectResource name="JuwiBemutakUra" />
+    <MithraObjectResource name="VekiJoyosixUyusUnequLipe" />
+    <MithraObjectResource name="GupaVeguvixAgubEhevuLoguVoxa" />
+    <MithraObjectResource name="MofoqIbonAmijedu" />
+    <MithraObjectResource name="YegIhoribiWalusoy" />
+    <MithraObjectResource name="SabUfiwokuDapagevOdir" />
+    <MithraObjectResource name="ZoquSatovih" />
+    <MithraObjectResource name="LiduGufuLehoyaxe" />
+    <MithraObjectResource name="Neyisih" />
+    <MithraObjectResource name="BohabOluveb" />
+    <MithraObjectResource name="YofuvEbiluvUcor" />
+    <MithraObjectResource name="WulenUmufulOkigEdof" />
+    <MithraObjectResource name="KidaDeduBinoyiGobokib" />
+    <MithraObjectResource name="HekaQulOcogEwIco" />
+    <MithraObjectResource name="YogoxibuJiviTemoRakota" />
+    <MithraObjectResource name="JicepumoSaqo" />
+    <MithraObjectResource name="YoQecocuyeXudo" />
+    <MithraObjectResource name="CefuxOsedAziyezeg" />
+    <MithraObjectResource name="MacobEzewAqonudanebEcodawov" />
+    <MithraObjectResource name="KotunUqirAya"/>
+    <MithraObjectResource name="QiwiColelupuYanib"/>
+    <MithraObjectResource name="HatiDesajopeTaximeKopihac"/>
+    <MithraObjectResource name="RokiTocikimiBadewaYubotecIfox"/>
+    <MithraObjectResource name="Qehu"/>
+    <MithraObjectResource name="Baviti"/>
+    <MithraObjectResource name="Jivakupo"/>
+    <MithraObjectResource name="DexaCurodaYanoy"/>
+    <MithraObjectResource name="CifuxerocAfimOpafo"/>
+    <MithraObjectResource name="DutIcekinafuVejaQovew"/>
+    <MithraObjectResource name="HeroyeTesuzococEsijAzozo"/>
+    <MithraObjectResource name="SugudubIdize"/>
+    <MithraObjectResource name="TepoGiqonuwiNomoxil"/>
+    <MithraObjectResource name="ZojuCiqOdeci"/>
+    <MithraObjectResource name="DejoXopekozaQucizaxujam"/>
+    <MithraObjectResource name="SokoPuyonuqeCubukawukog"/>
+    <MithraObjectResource name="CehaQawosoquBadavem"/>
+    <MithraObjectResource name="PimeGajiteloCiVa"/>
+    <MithraObjectResource name="BigaTeneCokif"/>
+    <MithraObjectResource name="GocubohOsatu"/>
+    <MithraObjectResource name="CejijuzExuzaJipo"/>
+    <MithraObjectResource name="VajafonEmebaPayoyo"/>
+    <MithraObjectResource name="PapIlebuVepiZovoheteNI"/>
+    <MithraObjectResource name="NaxojOnuxOdipajucAQ"/>
+    <MithraObjectResource name="HiqEwitEmopePoBe"/>
+    <MithraObjectResource name="XeyixorixoDulaj"/>
+    <MithraObjectResource name="ZadovezokiXerewOjad"/>
+    <MithraObjectResource name="MuqacejivaXebusIboxoz"/>
+    <MithraObjectResource name="ZunapoqucaBirivIyef"/>
+    <MithraObjectResource name="VesuyuyupuSopunEmorOhib"/>
+    <MithraObjectResource name="SitijeduliPoyilUfusixOyuh"/>
+    <MithraObjectResource name="VeleWipuQuleki"/>
+    <MithraObjectResource name="ReqaPiseJiwamo"/>
+    <MithraObjectResource name="KipaLayiRakaqe"/>
+    <MithraObjectResource name="HuroRuyuDos"/>
+    <MithraObjectResource name="DeboyeBehik"/>
+    <MithraObjectResource name="XoCociyi"/>
+    <MithraObjectResource name="YuWoxeba"/>
+    <MithraObjectResource name="ZaVizaka"/>
+    <MithraObjectResource name="NaNoq"/>
+    <MithraObjectResource name="Noxa"/>
+    <MithraObjectResource name="JalaxIjecUjit"/>
+    <MithraObjectResource name="LeduFafuCiro"/>
+    <MithraObjectResource name="HidiyesEkokololaxine"/>
+    <MithraObjectResource name="Nixihi"/>
+    <MithraObjectResource name="CoceliVarapefEgodoxelo"/>
+    <MithraObjectResource name="JonucAbijigeNelusidul"/>
+    <MithraObjectResource name="RuTijaceQubaWeqesu"/>
+    <MithraObjectResource name="TonUlori"/>
+    <MithraObjectResource name="YihEmufiNu"/>
+    <MithraObjectResource name="QobuzEjoLoxuv"/>
+    <MithraObjectResource name="FogenUkaQexaxUcuh"/>
+    <MithraObjectResource name="HeqeTavuvObow"/>
+    <MithraObjectResource name="NuzuNudikIdacewepUciv"/>
+    <MithraObjectResource name="JeguxoyIrinozopud"/>
+    <MithraObjectResource name="LohaCayodimoco"/>
+    <MithraObjectResource name="HegojihOsudAzanoqedaqIsabuqu"/>
+    <MithraObjectResource name="SiyizomuDuqed"/>
+    <!-- BIJ Zalap - start -->
+    <MithraObjectResource name="HemUcaKanog"/>
+    <MithraObjectResource name="JawAgiQoca"/>
+    <MithraObjectResource name="YaxAyeCinanuyu"/>
+    <MithraObjectResource name="GobIpoqewewUnegegesu"/>
+    <MithraObjectResource name="ZaxApabUrari"/>
+    <MithraObjectResource name="XeqUmayes"/>
+    <MithraObjectResource name="KocaXaboq"/>
+    <MithraObjectResource name="VanUrivedOnupEpuqugav"/>
+    <!-- BIJ Zalap - end -->
+    <MithraObjectResource name="PisegaXuguyanubiDaqe"/>
+    <MithraObjectResource name="PigudazeguVokimo"/>
+    <MithraObjectResource name="ZibupupimeTumoJikiwag"/>
+    <MithraObjectResource name="DupecowOyoy"/>
+    <MithraObjectResource name="XosahOjevEwiruf"/>
+    <MithraObjectResource name="QequlisIbaveDijaXaqolo"/>
+    <MithraObjectResource name="PegoDogokoluxaCosoj"/>
+    <MithraObjectResource name="GebeQonumedexaCociyi"/>
+    <MithraObjectResource name="WukaMibaxejutuRoli"/>
+    <MithraObjectResource name="CexuNiyicuvodoGubeMihinep"/>
+
+    <MithraObjectResource name="Betid"/>
+    <MithraObjectResource name="BefasetErawosuNo"/>
+    <MithraObjectResource name="TutuhexemIlixeWiqawutaYocerogo"/>
+    <MithraObjectResource name="FihoFup32Miqehewul"/>
+    <MithraObjectResource name="FihoFup8Miqehewul"/>
+    <MithraObjectResource name="FihoFup16Miqehewul"/>
+
+    <MithraObjectResource name="XibuZebufavaRevizAdeg"/>
+    <MithraObjectResource name="WibaCihuwuxAgufEyaruxIzah"/>
+    <MithraObjectResource name="YuceRatuxasiroKiruGoxunaBifi"/>
+    <MithraObjectResource name="GoduWitEzukeqegehaZayoSigevi"/>
+    <MithraObjectResource name="QojaKakeLomiCuguGajazi"/>
+    <MithraObjectResource name="JudeNutaxejayoFelucayehUlahEtoqag"/>
+    <MithraObjectResource name="ZuTali"/>
+    <MithraObjectResource name="VedeVosocEmAfed"/>
+
+    <MithraObjectResource name="NipiXavIxehiRerarOfuNiqosUhemuSuqixUhovAravuyogu" generateInterfaces="true"/>
+    <MithraObjectResource name="XegaPurAniheDurirUruRirUmaqujutepUwecIropivarEgisihaju" generateInterfaces="true"/>
+    <MithraObjectResource name="CukoNafodIjituZajOvoGedehahupuYiweHihijihuFudikicuh" generateInterfaces="true"/>
+
+    <MithraObjectResource name="GosUnen1VodeYofoZidal"/>
+    <MithraObjectResource name="GosUnen1LavOpemu"/>
+    <MithraObjectResource name="GosUnen1VugaxInuqEtamInafu"/>
+    <MithraObjectResource name="GosUnen1BemilOpuKowew"/>
+    <MithraObjectResource name="GosUnen2VodeYofoZidal"/>
+    <MithraObjectResource name="GosUnen2KobaVoliHabagA"/>
+    <MithraObjectResource name="GosUnen2QobiJihoXemenI"/>
+    <MithraObjectResource name="GosUnen2LavOpemu"/>
+    <MithraObjectResource name="GosUnen2JuhOhoxuB"/>
+    <MithraObjectResource name="GosUnen2VedIpidiT"/>
+    <MithraObjectResource name="GosUnen2VugaxInuqEtamInafu"/>
+    <MithraObjectResource name="GosUnen2KicehOdepAgikUqaweX"/>
+    <MithraObjectResource name="GosUnen2MasuzUkezUpilElesaQ"/>
+    <MithraObjectResource name="GosUnen2BemilOpuKowew"/>
+    <MithraObjectResource name="GosUnen2QebokOcaWisayE"/>
+    <MithraObjectResource name="GosUnen2PejoyAviBubufU"/>
+    <MithraObjectResource name="GosUnen3VodeYofoZidal"/>
+    <MithraObjectResource name="GosUnen3KobaVoliHabagA"/>
+    <MithraObjectResource name="GosUnen3QobiJihoXemenI"/>
+    <MithraObjectResource name="GosUnen3LavOpemu"/>
+    <MithraObjectResource name="GosUnen3JuhOhoxuB"/>
+    <MithraObjectResource name="GosUnen3VedIpidiT"/>
+
+    <MithraObjectResource name="NazAdirine"/>
+    <MithraObjectResource name="JacIzilaje"/>
+    <MithraObjectResource name="XapAqiceroXape"/>
+
+    <!-- Yawajituwu -->
+
+    <MithraObjectResource name="CerivIf" generateInterfaces="true"/>
+    <MithraObjectResource name="FusecUpacOw" generateInterfaces="true"/>
+    <MithraObjectResource name="RuxomUxovutAy" generateInterfaces="true"/>
+    <MithraObjectResource name="YigePumuYanitEj" generateInterfaces="true"/>
+    <MithraObjectResource name="XiwuRapaWamiqOnoyEj" generateInterfaces="true"/>
+    <MithraObjectResource name="ManuLenoRozayUxolehEh" generateInterfaces="true"/>
+    <MithraObjectResource name="SuwecopuroPicitUv" generateInterfaces="true"/>
+    <MithraObjectResource name="FipaqofiqiZehubIgivOf" generateInterfaces="true"/>
+    <MithraObjectResource name="KisesujupoVehurOlurebUr" generateInterfaces="true"/>
+    <MithraObjectResource name="QunaYeguSutebixebeDesaqIm" generateInterfaces="true"/>
+    <MithraObjectResource name="BexoPunaRiyamanikoHuzayUruxUr" generateInterfaces="true"/>
+    <MithraObjectResource name="GunuDeqaHozewaqumiRabuhInisedIx" generateInterfaces="true"/>
+    <MithraObjectResource name="BequpopOmeMe" generateInterfaces="true"/>
+    <MithraObjectResource name="GuqigiPefuSoqubuvuCo" generateInterfaces="true"/>
+    <MithraObjectResource name="VajiqeCa" generateInterfaces="true"/>
+    <MithraObjectResource name="WiyelEp" generateInterfaces="true"/>
+    <MithraObjectResource name="YehikoDoKi" generateInterfaces="true" readOnlyInterfaces="true"/>
+    <MithraObjectResource name="WatoQifiLiwosoSaHu" generateInterfaces="true" readOnlyInterfaces="true"/>
+    <MithraObjectResource name="HozoJibehaFamowom"/>
+    <MithraObjectResource name="Yahibanosey" generateInterfaces="true"/>
+    <MithraObjectResource name="TegoluWevuhohowul" generateInterfaces="true"/>
+    <MithraObjectResource name="Negaqabedow"/>
+    <MithraObjectResource name="RacajigososIzijecihizAdoma"/>
+    <MithraObjectResource name="XaqorusOlowOginulAhuh"/>
+    <MithraObjectResource name="YigikOqidajijuHuju"/>
+    <MithraObjectResource name="YezekoCilofOfoyu"/>
+    <MithraObjectResource name="WuhaLotitid"/>
+
+    <MithraObjectResource name="VolIzeha"/>
+    <MithraObjectResource name="LakEqanuRuha"/>
+    <MithraObjectResource name="BumiveyoreBuxIfugo"/>
+    <MithraObjectResource name="BilugezojaXuhEbamiFevi"/>
+    <MithraObjectResource name="WeduyIjIhoBibuhev"/>
+
+    <MithraObjectResource name="CaqEsowed"/>
+    <MithraObjectResource name="SedOqecoxup"/>
+    <MithraObjectResource name="FeyaLaguwetupiq"/>
+    <MithraObjectResource name="DonIfoxifo"/>
+    <MithraObjectResource name="PutUhamuxucokih"/>
+    <MithraObjectResource name="DuvAhugixojeqa"/>
+    <MithraObjectResource name="SafaJeri"/>
+    <MithraObjectResource name="PakEbejAcutubabuyAmepucen"/>
+
+    <MithraObjectResource name="Dozobi"/>
+    <MithraObjectResource name="Yoca"/>
+    <MithraObjectResource name="BoyePiboxip"/>
+    <MithraObjectResource name="Pajopaj"/>
+    <MithraObjectResource name="KadeTozo"/>
+    <MithraObjectResource name="Zogepuziqoso"/>
+    <MithraObjectResource name="LimoxuBofeTewiKovazu"/>
+
+    <!--
+    <MithraObjectResource name="GosUnen3VugaxInuqEtamInafu"/>
+    <MithraObjectResource name="GosUnen3KicehOdepAgikUqaweX"/>
+    <MithraObjectResource name="GosUnen3MasuzUkezUpilElesaQ"/>
+    <MithraObjectResource name="GosUnen3BemilOpuKowew"/>
+    <MithraObjectResource name="GosUnen3QebokOcaWisayE"/>
+    <MithraObjectResource name="GosUnen3PejoyAviBubufU"/>
+    -->
+
+    <MithraObjectResource name="ZiwiQuVuFoYaxifofagAjamAmojalO"/>
+    <MithraObjectResource name="TuqaZaHuZoKidojuxupIrobIfoseyE"/>
+
+    <!-- veju types -->
+    <MithraPureObjectResource name="CocaZulep"/>
+    <MithraPureObjectResource name="MiluYujujEhez"/>
+    <MithraPureObjectResource name="FeqoDebiyapiyaBakit"/>
+    <MithraPureObjectResource name="ZipiBuyijatajeKefepOlaw"/>
+
+    <MithraPureObjectResource name="PoboPuci2VodeYofoZidal"/>
+    <MithraPureObjectResource name="PoboPuci2KobaVoliHabagA"/>
+    <MithraPureObjectResource name="PoboPuci2QobiJihoXemenI"/>
+    <MithraPureObjectResource name="PoboPuci2LavOpemu"/>
+    <MithraPureObjectResource name="PoboPuci2JuhOhoxuB"/>
+    <MithraPureObjectResource name="PoboPuci2VedIpidiT"/>
+
+    <MithraPureObjectResource name="PoboPuci2VugaxInuqEtamInafu"/>
+    <MithraPureObjectResource name="PoboPuci2KicehOdepAgikUqaweX"/>
+    <MithraPureObjectResource name="PoboPuci2MasuzUkezUpilElesaQ"/>
+    <MithraPureObjectResource name="PoboPuci2BemilOpuKowew"/>
+    <MithraPureObjectResource name="PoboPuci2QebokOcaWisayE"/>
+    <MithraPureObjectResource name="PoboPuci2PejoyAviBubufU"/>
+
+    <!-- -->
+    <MithraTempObjectResource name="CejonuceNigiwe"/>
+    <MithraTempObjectResource name="QoyovIlaguf"/>
+    <MithraTempObjectResource name="CasoMitijekIfokok"/>
+
+    <!-- Wuniloyu Value Wamuhip -->
+    <MithraEmbeddedValueObjectResource name="DonEteqaDixu"/>
+    <MithraEmbeddedValueObjectResource name="FiqAzusaVuhuve"/>
+    <MithraEmbeddedValueObjectResource name="TisAhureRuxa"/>
+</Mithra>

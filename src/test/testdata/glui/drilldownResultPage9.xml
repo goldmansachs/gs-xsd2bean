@@ -1,0 +1,56 @@
+
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout layoutId="rex.vodagigebace"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/layout.xsd"
+        pageTitle="Jimodi Cezuxom" pageBuilder="com.gs.fw.kaza.desa.vo.cunut.VaxovuVegofudajEquviwEliyaxu.ketEbulayo9">
+
+    <section feature="HapeqUvapebuq">
+        <row>
+            <button label="Vayus Xinocepe" name="excel8" downloadContent="true"
+                    contentDownloader="com.gs.fw.kaza.desa.vo.hizuneyel.domain.FogaZukocamumeleTibezOmoliyecok"
+                    pageBuilder="com.gs.fw.kaza.desa.TugiqiwIjojuBamuGatuneb.niyokicOxa9"
+                    openSavedFile="true"/>
+            <button label="Qiwo Xinocepe" name="data8" downloadContent="true"
+                    contentDownloader="com.gs.fw.kaza.desa.vo.hizuneyel.domain.YuxoZinexehosi"
+                    pageBuilder="com.gs.fw.kaza.desa.TugiqiwIjojuBamuGatuneb.niyokicOxa9" />
+        </row>
+    </section>
+    <section caption="Vojiy Yokucaz" expandable="true" expanded="false">
+        <row>
+            <uiElement label="" name="wavacAtometiJufuwe8" renderAs="label" 
+                       transformerClass="com.gs.fw.kaza.desa.vo.transformer.VuwEvUyovurIqilewumuji" />
+        </row>
+    </section>
+    <section feature="XayevupefapuCoyefi9" caption="Dulic Bega Puqivej">
+        <row>
+            <uiElement label="Dulic Bega by" name="vebidIdib8" renderAs="combobox" validation="NuxIzayEruhEfuneFudeJetulevif"/>
+            <button label="Dulic Bega" name="filigIwabOdedak" nextLayoutName="desa/vodagigebace.xml"
+                    pageBuilder="com.gs.fw.kaza.desa.vo.cunut.JitUligaqiPuvuzOciguBeviTaqagakux.niyokicOxa9"
+                    validate="vebidIdib"/>
+        </row>
+    </section>
+
+    <section>
+        <row>
+            <multitable name="vodagigebace8">
+                <table name="vodagigebace8_yedara" rowSelection="single" wrapContent="false" wrapHeader="true"/>
+                <table name="vodagigebace8_hasofeyizah" rowSelection="single" wrapContent="false" wrapHeader="true"/>
+            </multitable>
+        </row>
+    </section>
+</layout>

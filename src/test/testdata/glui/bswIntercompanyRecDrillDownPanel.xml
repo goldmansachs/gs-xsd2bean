@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout layoutId="Duzoqojimemelu Xuya" pageTitle="Yupofuy Qicih Wum Cezuxom"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd"
+        showSelection="false" windowState="maximized">
+    <section>
+        <row>
+            <button name="dotudebuyOrafiPuxuRewoNocaqunir" label="Vayus Xinocepe" downloadContent="true"
+                    pageBuilder="com.gs.fw.kaza.takupujeri.vo.BewuxuvalamoRebOfogiLutotEyatavuyiZesametOjuyacu.femitihOhadeBeki"
+                    openSavedFile="true"
+                    contentDownloader="com.gs.fw.kaza.takupujeri.vo.xinocepe.CutakehImeziVagojoxaja"
+                    crumbTrail="false"/>
+        </row>
+    </section>
+    <section caption="Vojiy Yokucaz" expandable="true" expanded="true">
+        <row>
+            <uiElement name="muwazUqoqiGuyuwunirUpiqivi" label="" renderAs="label"/>
+        </row>
+    </section>
+    <section feature="movanucoBozamaciy">
+        <row>
+            <uiElement name="xibohoxozOcuhanuboku" label="Vebididib By"
+                       renderAs="combobox"
+                       sortBy="none" attribute="display"/>
+            <button name="momosoheWexomEhor" label="Dulic Bega"
+                    pageBuilder="com.gs.fw.kaza.takupujeri.vo.QogasusuliraHegImaxameqoxuNejuwUtupasuviDocecobIrefeqe"
+                    nextLayoutName="desa/takupujeri/pukIjulasoponugUwoGocupAbezOmobanuniraLopus.xml"
+                    crumbTrail="true"/>
+        </row>
+    </section>
+    <section caption="" feature="yedara">
+        <row>
+            <table name="jaqopAqinaXepegotozElinahAyixo" label="Mawosuq" rowSelection="multiple">
+            </table>
+        </row>
+    </section>
+
+    <section caption="" feature="zenogevUfipuyOvixe">
+        <row>
+            <button name="cujurIbikIgeyoriva" label="Menaf Bexu Dutucecey" renderAs="button" modal="true"
+                    pageBuilder="com.gs.fw.kaza.takupujeri.vo.VizuyiFacocAkepuvemiRidarif.niyoloxImuPivoweNadiq"
+                    nextLayoutName="desa/takupujeri/fatozaPonefApasizeroQaxivipesEnugi.xml"
+                    crumbTrail="true"/>
+        </row>
+    </section>
+</layout>

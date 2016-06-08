@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>interface,noki,wululu,wunopi,tetahij,fiyatis,nuzikuzu,javeneruma</Templates>
+    <PackageName>com.gs.fw.lilu.ruh.domain.faviroj</PackageName>
+    <ClassName>FaviRoj</ClassName>
+    <DefaultTable>KUJA_QIZ</DefaultTable>
+    <SchemaName></SchemaName>
+    <DatabaseName>xeban</DatabaseName>
+    <ConnectionManagerName></ConnectionManagerName>
+    <ExplicitColumnNamesForSelect>true</ExplicitColumnNamesForSelect>
+    <PrimaryKeyAttribute keyClass="CopoMelEwu">
+        <Attribute columnName="BOGOXEWO" javaType="long" name="bogoxeWo" sqlType="Nula"/>
+    </PrimaryKeyAttribute>
+    <Attribute columnName="DAG_SIBA_Z" javaType="Timestamp" name="businessDate" sqlType="HivuPuzuJasiziqIvowehepe"/>
+    <Attribute columnName="PAXICE_QEDE" javaType="String" name="jidiriYepu" sqlType="XefeTewesa"/>
+    <Attribute columnName="IS_ZIKESU_QIZ" javaType="boolean" name="qivevoPuf" sqlType="Boolean"/>
+    <Attribute columnName="ZAPA_PO" javaType="String" name="qaporiRoye" sqlType="XefeTewesa"/>
+    <Attribute columnName="NO_Z" javaType="Timestamp" name="juxepEyal" sqlType="Timestamp"/>
+    <Attribute columnName="RUC_Z" javaType="Timestamp" name="fosawIv" sqlType="Timestamp"/>
+</ManagedObject>
+

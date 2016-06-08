@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd"
+        layoutId="biyiruwe" pageTitle="Vowikahi"
+        pageBuilder="com.gs.fw.kaza.rukele.vuwasufamoci.vo.RuwamiciWanuHeroxIquroTeqozeb"
+        showSelection="false">
+
+    <section>
+        <row>
+            <section caption="Sate/Lage Vojiy">
+                <row>
+                    <uiElement attribute="name" name="gotilIbegi" label="Qokec Vojiy:" renderAs="combobox"/>
+                    <button label="Sate Vojiy" name="demeTehix"
+                            pageBuilder="com.gs.fw.kaza.yepe.vo.hizuneyel.domain.XitayoPukawIpewow"
+                            nextLayoutName="rukele/rixoqilijih/xeFosumibEmicoWoqir.xml"
+                            crumbTrail="true" refreshPage="true"/>
+                    <button label="Yejeyo Vojiy" name="fidosaWulaf"
+                            pageBuilder="com.gs.fw.kaza.yepe.vo.hizuneyel.domain.BizowuRemumOmefesu"
+                            nextLayoutName="rukele/rixoqilijih/xeFosumibEmicoWoqir.xml"
+                            crumbTrail="true" refreshPage="true"/>
+                </row>
+                <row>
+                    <uiElement name="xazuvUsat" label="Vojiy Name" renderAs="textbox"/>
+                    <uiElement renderAs="checkbox" name="luriBohudUwitof" label="Sihu Wedaye?"/>
+                    <button label="Lage Vojiy" name="nayuGakem"
+                            pageBuilder="com.gs.fw.kaza.yepe.vo.hizuneyel.domain.HozicaRejetAlomumi"
+                            nextLayoutName="rukele/rixoqilijih/xeFosumibEmicoWoqir.xml" crumbTrail="true"
+                            refreshPage="true"/>
+                </row>
+            </section>
+        </row>
+    </section>
+    <section>
+        <row>
+            <uiElement name="businessDate" label="Cuyokujo Date:" renderAs="combobox" sortBy="domain"
+                       transformerClass="com.gs.fw.common.petuhadi.vo.transformer.PorimubeDesaRemohiqujor"/>
+            <uiElement name="qahodoqo" label="Qahodoqo:" renderAs="combobox" sortBy="domain" attribute="description"/>
+        </row>
+    </section>
+    <section caption="VodagigEbace View">
+        <row>
+            <uiElement name="hexuZedOxape" label="Koxo Woz" renderAs="checkbox"/>
+            <uiElement name="simeYuvemePixib" label="Koxo Yedara" renderAs="checkbox"/>
+            <uiElement name="ninoQobiwocuziwUleke" label="Koxo Hasofeyizah" renderAs="checkbox"/>
+        </row>
+    </section>
+    <section>
+        <row>
+            <uiElement name="wanuTixobij" label="Qiwo Lekojoy:" renderAs="duallistbox"/>
+            <uiElement name="qeyuBaxi" label="Qiwo Qexuc :" renderAs="duallistbox" attribute="description"/>
+        </row>
+    </section>
+    <section>
+        <row>
+            <uiElement name="hepafiq" label="Group By:" renderAs="duallistbox" attribute="taxobifuNeyo"
+                       transformerClass="com.gs.fw.kaza.rukele.vuwasufamoci.vo.LajuyeTowigolIbewetajito"/>
+        </row>
+    </section>
+    <section>
+        <row>
+            <section>
+                <row>
+                    <uiElement name="harimaToki" label="Lozohig List:" renderAs="listbox"
+                               transformerClass="com.gs.fw.kaza.yepe.vo.hizuneyel.LugoquLopow.TesiyuCadoSobonujefoc"/>
+                    <section>
+                        <row>
+                            <button label="YulOjesoz" name="yulojesoz"
+                                    pageBuilder="com.gs.fw.kaza.yepe.vo.hizuneyel.LugoquLopow.GocodofuVicaWorahoPolunOnehaye"
+                                    crumbTrail="true" refreshPage="true"
+                                    nextLayoutName="rukele/rixoqilijih/xeFosumibEmicoWoqir.xml"/>
+                        </row>
+                        <row>
+                            <button label="VexifeHogimi" name="vexifehogimi"
+                                    pageBuilder="com.gs.fw.kaza.yepe.vo.hizuneyel.LugoquLopow.HesitofuRasuMowezePoqupOtaguxi"
+                                    crumbTrail="true" refreshPage="true"
+                                    nextLayoutName="rukele/rixoqilijih/xeFosumibEmicoWoqir.xml"/>
+                        </row>
+                    </section>
+                </row>
+            </section>
+        </row>
+        <row>
+            <table name="lugoquLopow" editable="true" label="Lozohig">
+                <uiElement name="wavefaZahe" label="Mosuku Name"/>
+                <uiElement name="yumivaWehuq" label="Mosuku Value"
+                           transformerClass="com.gs.fw.common.glui.transformer.JakaQepuzayozix"
+                           renderAs="textbox"/>
+                <uiElement name="vehuloLekareko" label="Gexale"
+                           transformerClass="com.gs.fw.common.glui.transformer.BoveqorOtogoxuzebe"
+                           renderAs="checkbox"/>
+                <uiElement name="lozineFofanab" label="Kanoqi"
+                           transformerClass="com.gs.fw.common.glui.transformer.BoveqorOtogoxuzebe"
+                           renderAs="checkbox"/>
+            </table>
+        </row>
+    </section>
+    <section>
+        <row>
+            <uiElement name="lanapuLirev" label="Modida" renderAs="checkbox" defaultSelection="false"/>
+            <uiElement name="yuladoMalecid" label="Hegoji" renderAs="combobox" attribute="description"/>
+            <uiElement name="puqivej" label="Operation" renderAs="combobox" attribute="description"/>
+            <uiElement name="joyupoXawoq" label="Value" renderAs="textbox"/>
+        </row>
+    </section>
+    <section>
+        <row>
+            <button label="Lesihocu" name="lesihocu" nextLayoutName="rukele/vuwasufamoci/quBazitinImakovOneja.xml"
+                    pageBuilder="com.gs.fw.kaza.rukele.vuwasufamoci.vo.XuNayitamaFefubuLorusUjunujo"
+                    crumbTrail="true"/>
+        </row>
+    </section>
+    <section>
+        <row>
+            <uiElement name="semEtisufuVagupAbakAhidozo" renderAs="checkbox" hidden="true" defaultSelection="true"/>
+        </row>
+    </section>
+
+</layout>

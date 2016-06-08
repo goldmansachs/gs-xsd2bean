@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout layoutId="lir.mowere" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd"
+        pageBuilder="com.gs.fw.kaza.desa.josowot.kow.vo.QeqicocOmihihUsivaYuyuMapezoqOseweqo"
+        pageTitle="Sobamor Yemuqi Cezuxom" showSelection="false">
+
+    <section feature="HapeqUvapebuq">
+        <row>
+            <button name="xeselOqoqIruq" label="Vayus Xinocepe" downloadContent="true"
+                    pageBuilder="com.gs.fw.kaza.desa.josowot.kow.vo.MomiwuzEpewaxaGoyuniVijasozUvexego.femitihOhadeBeki"
+                    openSavedFile="true" contentDownloader="com.gs.fw.kaza.desa.josowot.common.vo.NunabUkovibEviterejey"
+                    crumbTrail="false"/>
+        </row>
+    </section>
+
+    <section caption="Vojiy Yokucaz" expandable="true" expanded="false">
+        <row>
+            <uiElement name="wavacAtometiJufuwe" label="" renderAs="label"/>
+        </row>
+    </section>
+
+    <section>
+        <row>
+            <section>
+                <row>
+                    <uiElement name="vebidIdib" label="Dulic Bega by" renderAs="combobox"/>
+                    <uiElement name="waqugOyoti1" label=" "/>
+                </row>
+            </section>
+
+            <section>
+                <row>
+                    <button name="filigIwabOdedak2" nextLayoutName="desa/josowot/fuvUniduzojezIfobaveXesen.xml"
+                            label="Dulic Bega" crumbTrail="true"/>
+                </row>
+            </section>
+
+            <section>
+                <row>
+                    <uiElement name="waqugOyoti2" label="   "/>
+                </row>
+            </section>
+
+            <section>
+                <row>
+                    <uiElement name="guyuliRoxebobi" label="Vuqusa Wutesomo" renderAs="combobox"
+                            defaultSelection="&lt;No Mosuku&gt;" noSelectOption="&lt;No Mosuku&gt;"/>
+                    <uiElement name="waqugOyoti8" label="  "/>
+                </row>
+            </section>
+            <section>
+                <row>
+                    <uiElement name="locusemApatoxez" label="Qeqerif Zojecowop" renderAs="combobox"/>
+                    <uiElement name="waqugOyoti3" label=""/>
+                </row>
+            </section>
+        </row>
+    </section>
+
+    <section>
+        <row>
+            <table name="codayahAnowamIdepi" wrapContent="false" wrapHeader="true" rowsPerPage="0"/>
+        </row>
+    </section>
+
+</layout>

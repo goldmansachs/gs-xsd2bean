@@ -1,0 +1,88 @@
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<application implementation="com.gs.fw.para.application.TozizecotErogemucipOgiliWuwapi" ignoreLoadFailures="true" name="RataganuzuMalopEwiqayUpagijubelo">
+    <services>
+        <service-instance id="dayoyuniJemuwus" implementation="DulugeVopigaguQalihor" type="DayoyuniJemuwus"/>
+
+        <service-instance id="cemekabimePetereVecaho" implementation="ButedotExogiyUlavoyUwobupEdanecu" type="CemekabimePetereVecaho"/>
+
+        <service-instance id="mithra" implementation="RifavidOwuwatOkosinAzadaxe" type="FigotoLufikum"/>
+
+        <service-instance id="dolakihEsutit" implementation="GataroXigoxeqEsoxar" type="DolakihEsutit"/>
+
+        <embedded-instance
+            id="Sobunuwo" instantiateUsingFactory="true"
+            interface="com.gs.fw.para.rehepiyebag.fulex.YefiKametizuca"
+            implementation="com.gs.fw.para.rehepiyebag.coyuliqaga.LuwokaseQiruRibanidujo" />
+
+        <embedded-instance
+            id="Lofiko" instantiateUsingFactory="true"
+            interface="com.gs.fw.para.rehepiyebag.fulex.YefiKametizuca"
+            implementation="com.gs.fw.para.rehepiyebag.coyuliqaga.JimezaVuhiReqolopeda" />
+
+        <embedded-instance
+             id="Mubonara" instantiateUsingFactory="true"
+             interface="com.gs.fw.para.rehepiyebag.fulex.YefiKametizuca"
+             implementation="com.gs.fw.para.rehepiyebag.coyuliqaga.YixamajaReciCiveguzaso" />
+
+        <embedded-instance
+             id="ZeqoqakoQipas" instantiateUsingFactory="true"
+             interface="com.gs.fw.para.rehepiyebag.fulex.YefiKametizuca"
+             implementation="com.gs.fw.para.rehepiyebag.coyuliqaga.WanurumuZoduyUjadEdazeyojub" />
+        
+        <embedded-instance
+             id="Zifa" instantiateUsingFactory="true"
+             interface="com.gs.fw.para.rehepiyebag.fulex.YefiKametizuca"
+             implementation="com.gs.fw.para.rehepiyebag.coyuliqaga.KiroHucuPugukucuna" />
+
+        <embedded-instance
+             id="Yavowobep" instantiateUsingFactory="true"
+             interface="com.gs.fw.para.rehepiyebag.fulex.YefiKametizuca"
+             implementation="com.gs.fw.para.rehepiyebag.coyuliqaga.DulecanehOqoqUvosugexep" />
+
+        <embedded-instance
+             id="Kuko" instantiateUsingFactory="true"
+             interface="com.gs.fw.para.rehepiyebag.fulex.YefiKametizuca"
+             implementation="com.gs.fw.para.rehepiyebag.coyuliqaga.FeboGeteLuvuzuxoqe" />
+
+        <embedded-instance
+             id="Hef" instantiateUsingFactory="true"
+             interface="com.gs.fw.para.rehepiyebag.fulex.YefiKametizuca"
+             implementation="com.gs.fw.para.rehepiyebag.coyuliqaga.VebIbapIpejapover" />
+
+        <embedded-instance
+             id="Nowuh" instantiateUsingFactory="true"
+             interface="com.gs.fw.para.rehepiyebag.fulex.YefiKametizuca"
+             implementation="com.gs.fw.para.rehepiyebag.coyuliqaga.VekuwOrasOceqizudet" />
+
+        <embedded-instance
+             id="QubunaJahatanos" instantiateUsingFactory="true"
+             interface="com.gs.fw.para.rehepiyebag.fulex.YefiKametizuca"
+             implementation="com.gs.fw.para.rehepiyebag.coyuliqaga.YixamajaReciCiveguzaso" />
+
+        <embedded-instance
+             id="QisidePuru" instantiateUsingFactory="true"
+             interface="com.gs.fw.para.rehepiyebag.fulex.YefiKametizuca"
+             implementation="com.gs.fw.para.rehepiyebag.coyuliqaga.ZocimaRaweQiweNadagudoha" />
+
+        <embedded-instance
+             id="HarUlaJivah" instantiateUsingFactory="true"
+             interface="com.gs.fw.para.rehepiyebag.fulex.YefiKametizuca"
+             implementation="com.gs.fw.para.rehepiyebag.coyuliqaga.YixamajaReciCiveguzaso" />        
+
+    </services>
+</application>

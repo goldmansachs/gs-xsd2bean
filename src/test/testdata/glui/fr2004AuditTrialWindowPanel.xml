@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+    <layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd"
+        pageTitle="Cumut Casah" pageBuilder="com.gs.fw.kaza.rukele.so2004.vo.tudewax.SO2004BifofOlipuVinuxus"
+        showSelection="false" resultLayout="rukele/so2004/so2004KecuvitOnufayAyome.xml">
+
+    <section>
+        <row>
+            <uiElement name="businessDate1" label="BusinessDate" renderAs="combobox" sortBy="domain"
+                       transformerClass="com.gs.fw.common.petuhadi.vo.transformer.PorimubeDesaRemohiqujor"/>
+        </row>
+        <row>
+            <uiElement attribute="sonOhaq" name="gazohIwAkexaja" label="Puhijaharaf" renderAs="combobox"/>
+        </row>
+        <row>
+            <button label="Lesihocu" name="lesihocu" nextLayoutName="rukele/so2004/so2004PubizIbageJimugaFuruc.xml"
+                    pageBuilder="com.gs.fw.kaza.rukele.so2004.vo.tudewax.SO2004JoqoyUdakeRikigaFagunUsexeza"
+                    crumbTrail="true" refreshPage="true"/>
+        </row>
+    </section>
+
+    <section>
+        <row>
+            <table name="WihipUzide" label="Cumut Casah for Jimodi" rowsPerPage="0" editable="false" sortable="true"
+                   wrapHeader="true">
+
+                <column attribute="weyuNaya">
+                    <uiElement name="weyuNaya" label="SOSE NIHU" renderAs="label"/>
+                </column>
+                <column attribute="applicationName">
+                    <uiElement name="applicationName" label="Puhijaharaf Name" renderAs="label"/>
+                </column>
+                <column attribute="businessDate">
+                    <uiElement name="businessDate" label="Cuyokujo Date" renderAs="label"/>
+                </column>
+                <column attribute="type">
+                    <uiElement name="type" label="Yenazimuxu Type" renderAs="label"/>
+                </column>
+                <column attribute="rigolesa">
+                    <uiElement name="rigolesa" label="Sose Rigolesa" renderAs="label"/>
+                </column>
+                <column attribute="vefidubiwaKitag">
+                    <uiElement name="vefidubiwaKitag" label="Legokoke Value" renderAs="label"/>
+                </column>
+            </table>
+        </row>
+    </section>
+
+</layout>

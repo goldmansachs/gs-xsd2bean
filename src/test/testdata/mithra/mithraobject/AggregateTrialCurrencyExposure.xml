@@ -1,0 +1,103 @@
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject objectType="transactional">
+    <PackageName>com.gs.fw.common.mithra.test.qaje.lokehavek</PackageName>
+    <ClassName>TutuhexemIlixeWiqawutaYocerogo</ClassName>
+    <DatedTransactionalTemporalDirector>com.gs.fw.common.mithra.test.HuzaTubeTiFuvetuyeBodupebu</DatedTransactionalTemporalDirector>
+
+    <DefaultTable>NULUVIJO_HANI</DefaultTable>
+
+    <Attribute name="jewivuy9Xamujo" javaType="int" columnName="MICON_Q " primaryKey="true"/>
+    <Attribute name="vewivuvaSeji" javaType="int" columnName="NIT_PUQ_N" primaryKey="true"/>
+    <Attribute name="dileweri" javaType="String" columnName="HADEJ_HANI_N" primaryKey="true"/>
+    <Attribute name="yozutumUlicijeb" javaType="String" columnName="PROD_HANI_N" primaryKey="true"/>
+    <Attribute name="zoxeBimaf" javaType="int" columnName="BESE_Q"/>
+    <Attribute name="hoqawowiWuqimiduxa" javaType="double" columnName="DOD_WUM_M" defaultIfNull="0.0"/>
+    <Attribute name="liliqahoKefugup" javaType="double" columnName="DOD_ZEX_M" defaultIfNull="0.0"/>
+    <Attribute name="dirihomeXofiru" javaType="double" columnName="DOD_DUZ_M" defaultIfNull="0.0"/>
+    <Attribute name="rijawugiDeyekil" javaType="double" columnName="DOD_WUT_M" defaultIfNull="0.0"/>
+    <Attribute name="fuvileraXunuzo" javaType="double" columnName="DOD_NUYOZA_M" defaultIfNull="0.0"/>
+    <Attribute name="beyakudoQeli" javaType="double" columnName="DOD_DAFE_M" defaultIfNull="0.0"/>
+    <Attribute name="kuseriqeFezoduhimuPoxejobu" javaType="double" columnName="DOD_WUM_QAQA_M" defaultIfNull="0.0"/>
+    <Attribute name="qimoqunaXicajihAlawazen" javaType="double" columnName="DOD_ZEX_QAQA_M" defaultIfNull="0.0"/>
+    <Attribute name="todilovaKamaqiYijagami" javaType="double" columnName="DOD_DUZ_QAQA_M" defaultIfNull="0.0"/>
+    <Attribute name="naledeviTixebidOxaleyun" javaType="double" columnName="DOD_WUT_QAQA_M" defaultIfNull="0.0"/>
+    <Attribute name="bijibUbecunememIkamowip" javaType="double" columnName="SOZ_DOD_QARES_M" defaultIfNull="0.0"/>
+    <Attribute name="nagipEpawizofupAdiyimug" javaType="double" columnName="SOZ_DOD_REPAD_M" defaultIfNull="0.0"/>
+    <Attribute name="cigoWoyi" javaType="double" columnName="NECO_FE_M" defaultIfNull="0.0"/>
+    <Attribute name="boreTayow" javaType="double" columnName="NECO_FE_M" defaultIfNull="0.0"/>
+    <Attribute name="peqeguPogudExuh" javaType="double" columnName="XIH_BOL_FE_M" defaultIfNull="0.0"/>
+    <Attribute name="kexeqeFisasUtexu" javaType="double" columnName="XIH_BOL_FE_M" defaultIfNull="0.0"/>
+    <Attribute name="dubewaNusiboKozakEgos" javaType="double" columnName="VET_XIH_BOL_FE_M" defaultIfNull="0.0"/>
+    <Attribute name="dipiwiGazaneFipijUnire" javaType="double" columnName="VET_XIH_BOL_FE_M" defaultIfNull="0.0"/>
+    <Attribute name="jicucow" javaType="double" columnName="VEGATULU_M" defaultIfNull="0.0"/>
+    <Attribute name="degakake" javaType="double" columnName="DEGAKAKE_M" defaultIfNull="0.0"/>
+    <Attribute name="bigumowuno" javaType="double" columnName="BIGUMOWUNO_M" defaultIfNull="0.0"/>
+    <Attribute name="duqupiMixozono" javaType="double" columnName="VET_HODA_M" defaultIfNull="0.0"/>
+    <Attribute name="tugudaPolosotiqo" javaType="double" columnName="VET_NUGOJE_M" defaultIfNull="0.0"/>
+    <Attribute name="kitecexeBazapivo" javaType="double" columnName="HANI_HODA_M" defaultIfNull="0.0"/>
+    <Attribute name="yaliteseYuqanizece" javaType="double" columnName="HANI_NUGOJE_M" defaultIfNull="0.0"/>
+    <Attribute name="dofakobaquGiyamiwipo" javaType="double" columnName="BIGUMOWUNO_SOZ_M" defaultIfNull="0.0"/>
+    <Attribute name="rewudoxovoyefUsevapisigOtobodazad" javaType="double" columnName="KOCALE_MERU_SOZ_M" defaultIfNull="0.0"/>
+    <Attribute name="zutuyiBotoburonEhurugewah" javaType="double" columnName="YAPO_BOL_SOZ_M" defaultIfNull="0.0"/>
+    <Attribute name="tafigowumOkegopugaw" javaType="double" columnName="FALOXOLAW_SOZ_M" defaultIfNull="0.0"/>
+    <Attribute name="dazAjupoliqi" javaType="double" columnName="QUK_SOZ_M" defaultIfNull="0.0"/>
+    <Attribute name="qiyixOwazelayal" javaType="double" columnName="MUFUK_SOZ_M" defaultIfNull="0.0"/>
+    <Attribute name="mufUfifoRuyigugoda" javaType="double" columnName="YATUFATA_SOZ_M" defaultIfNull="0.0"/>
+    <Attribute name="yawurusiyasUxoQabagutake" javaType="double" columnName="WIWAFUJIXEPIX_SOZ_M" defaultIfNull="0.0"/>
+    <Attribute name="dofapekuLetasisequMogilisopo" javaType="double" columnName="RATOSUJO_SOZ_M" defaultIfNull="0.0"/>
+    <Attribute name="fuginobuTupebagInomulejej" javaType="double" columnName="GURIMER_SOZ_M" defaultIfNull="0.0"/>
+    <Attribute name="fimemoQeJirahUgamadipod" javaType="double" columnName="JENUSETUXAZ_SOZ_M" defaultIfNull="0.0"/>
+    <Attribute name="gujaqIwiTuriqakule" javaType="double" columnName="MIKUFEDU_SOZ_M" defaultIfNull="0.0"/>
+    <Attribute name="tuxeketaNokanodeqa" javaType="double" columnName="DEGAKAKE_SOZ_M" defaultIfNull="0.0"/>
+    <Attribute name="lodawUsehecay" javaType="double" columnName="REPAD_HODA_M" defaultIfNull="0.0"/>
+    <Attribute name="nofEja" javaType="double" columnName="KUT_HIT_M" defaultIfNull="0.0"/>
+    <Attribute name="lucogupaBeh" javaType="double" columnName="CUNERARA_YOB_M" defaultIfNull="0.0"/>
+    <Attribute name="furogefaKeg" javaType="double" columnName="VELAXAGI_YOB_M" defaultIfNull="0.0"/>
+    <Attribute name="wucowAqu" javaType="double" columnName="BETID_GOW_M" defaultIfNull="0.0"/>
+    <Attribute name="rudoLovomebisi" javaType="double" columnName="KOGA_XADA_M" defaultIfNull="0.0"/>
+    <Attribute name="layoRelaneg" javaType="double" columnName="CUCA_TAZAMEL_M" defaultIfNull="0.0"/>
+    <Attribute name="jonujejaLis" javaType="double" columnName="HANI_NIT_M" defaultIfNull="0.0"/>
+    <Attribute name="kijucicUqu" javaType="double" columnName="YEPITAJ_NIT_M" defaultIfNull="0.0"/>
+    <Attribute name="pigebaCiposisaRe" javaType="double" columnName="VET_POSU_GE_M" defaultIfNull="0.0"/>
+    <Attribute name="zuneguDuhExerON" javaType="double" columnName="VET_MUQUWUT_GE_M" defaultIfNull="0.0"/>
+    <Attribute name="bahewizocOdiwiyajOfojulot" javaType="double" columnName="XUPESO_KIKOQ_DOD_M" defaultIfNull="0.0"/>
+    <Attribute name="zewofUxupamufis" javaType="double" columnName="REPAD_SOZ_M" defaultIfNull="0.0"/>
+    <Attribute name="fokizegAtetejuNetijoxa" javaType="double" columnName="BIC_QIC_POSU_M" defaultIfNull="0.0"/>
+    <Attribute name="xegofavOzukogu" javaType="double" columnName="WUT_QIC_M" defaultIfNull="0.0"/>
+    <Attribute name="vofokulExehequ" javaType="double" columnName="WUT_ZEX_M" defaultIfNull="0.0"/>
+    <Attribute name="qutoxUlipogohakEkiqexavet" javaType="double" columnName="REPAD_NUGOJE_SOZ_M" defaultIfNull="0.0"/>
+    <Attribute name="bolilazaSor" javaType="double" columnName="LORINIMU_QUK_M" defaultIfNull="0.0"/>
+    <Attribute name="kuxofaziyItimowaral" javaType="double" columnName="BOL_SOZ_M" defaultIfNull="0.0"/>
+    <Attribute name="xaDirusewuqogUniwebanub" javaType="double" columnName="PO_PAXEB_SOZ_M" defaultIfNull="0.0"/>
+    <Attribute name="netifajoBonutofUfed" javaType="double" columnName="SUY_QIC_FE_M" defaultIfNull="0.0"/>
+    <Attribute name="pasetiniQuhikihEhoga" javaType="double" columnName="SUY_QIC_FE_M" defaultIfNull="0.0"/>
+    <Attribute name="parOmev" javaType="double" columnName="WOZ_NECO_M" defaultIfNull="0.0"/>
+    <Attribute name="mimumiraVeteFopabojo" javaType="double" columnName="SUY_FIQI_FOMU_M" defaultIfNull="0.0"/>
+    <Attribute name="rocIpuJab" javaType="double" columnName="ZUX_KUT_HIT_M" defaultIfNull="0.0"/>
+    <Attribute name="jolIxofIjiFiy" javaType="double" columnName="ZUX_ZADE_KUT_HIT_M" defaultIfNull="0.0"/>
+    <Attribute name="cat" javaType="double" columnName="CAT_M" defaultIfNull="0.0"/>
+    <Attribute name="puqEsepeyaqug" javaType="double" columnName="JUK_NUGOJE_M" defaultIfNull="0.0"/>
+    <Attribute name="kopiceqAmaladEyiwu" javaType="double" columnName="PIG_XIH_BOL_M" defaultIfNull="0.0"/>
+    <Attribute name="gagekagicuzebInaxequhatAqUnuwayodoc" javaType="double" columnName="KOCALE_MERU_VI_SOZ_M" defaultIfNull="0.0"/>
+    <Attribute name="huyUnAluwojikex" javaType="double" columnName="QUK_VI_SOZ_M" defaultIfNull="0.0"/>
+    <Attribute name="kojivahiniQum" javaType="double" columnName="KERAC_GIJ_M" defaultIfNull="0.0"/>
+    <Attribute name="liyujepEme" javaType="double" columnName="JUMETO_M" defaultIfNull="0.0"/>
+    <Attribute name="sevuhasOgeRel" javaType="double" columnName="JUMETO_NAX_M" defaultIfNull="0.0"/>
+    <Attribute name="nobefEto" javaType="double" columnName="QEFA_GIJ_M" defaultIfNull="0.0"/>
+
+</MithraObject>

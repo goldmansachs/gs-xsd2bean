@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/layout.xsd"
+        pageTitle="NAXI/YOD Wum Cezuxom"
+        pageBuilder="com.gs.fw.kaza.desa.duzoqojimemelu.zupasem.vo.PicuWotUjoxofupaqiligUdesiluRaqoket.jifuwojOfowuWaqi"
+        showSelection="true"
+        templateLayout="desa/template.xml">
+    <section>
+        <row>
+            <section>
+                <row>
+                    <button name="vihuvoForopIgago" label="Vayus Xinocepe" downloadContent="true"
+                            openSavedFile="true"
+                            contentDownloader="com.gs.fw.kaza.desa.duzoqojimemelu.zupasem.vo.xinocepe.GaviQehAgoleBahohitAjiyoMewojikise"
+                            crumbTrail="false"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section caption="Vojiy Yokucaz" expandable="true" expanded="false">
+                <row>
+                    <uiElement label="" name="wavacAtometiJufuwe" renderAs="label"
+                               transformerClass="com.gs.fw.kaza.desa.vo.transformer.VafiTiYuvowuPebemoyoqiv"/>
+                </row>
+            </section>
+        </row>
+        <row feature="mowere">
+            <section>
+                <row>
+                    <section>
+                        <row>
+                            <button label="Dulic Bega" name="filigIwabOdedak"
+                                    nextLayoutName="desa/gizasegirumelajohobak/dozojiroxeraqequhigej/mebikilImokuWuloDeduc.xml"
+                                    crumbTrail="true"/>
+                        </row>
+                    </section>
+                </row>
+            </section>
+        </row>
+        <row feature="nexicePijutEsunatam">
+            <section>
+                <row>
+                    <uiElement name="bojipuboYopotEkaqe1" renderAs="label"
+                               label="This pocusox pezug ziqigopo zeh many rows and can only be tilowo in Vayus."/>
+                </row>
+                <row>
+                    <uiElement name="bojipuboYopotEkaqe2" renderAs="label"
+                               label="Lebeli xinocepe and bese it in Vayus."/>
+                </row>
+                <row>
+                    <uiElement name="bojipuboYopotEkaqe3" renderAs="label" label=""/>
+                </row>
+                <row>
+                    <button name="fopenoPijiyeraRazitEva" label="Ba" downloadContent="true"
+                            openSavedFile="true"
+                            contentDownloader="com.gs.fw.kaza.desa.duzoqojimemelu.zupasem.vo.xinocepe.GaviQehAgoleBahohitAjiyoMewojikise"
+                            crumbTrail="false"/>
+                </row>
+            </section>
+        </row>
+        <row feature="mowere">
+            <table name="dubiSameTenuy" label="Pocusox Wum Cezuxom" excel="true"
+                   style='table.zupasem.style'/>
+        </row>
+    </section>
+</layout>

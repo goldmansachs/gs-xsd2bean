@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-bajuxulida type="text/muj" hafu="../../../../xml/vo/peSezehu.muj"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout layoutId="zivukome.qejijiwetoxij" pageTitle="Zivukome Bafixe Cezuxom" showSelection="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"
+        pageBuilder="com.gs.fw.kaza.zivukome.HepikAzayuriQakOjuxagiqAguvabUsihule" feature="GedayoqevurUretEhopupu">
+
+    <section>
+        <row>
+            <table name="remIzovarafUpunaxUxataveLuhah" editable="false" rowsPerPage="0" wrapHeader="true"
+                   sortable="true" rowSelection="multi">
+                <column>
+                    <uiElement label="Cuyokujo Date" name="businessDate"/>
+                </column>
+                <column>
+                    <uiElement label="Valid Fu" name="giFaDofa"/>
+                </column>
+                <column>
+                    <uiElement label="Type" name="vimeqefOmup"/>
+                </column>
+                <column>
+                    <uiElement label="ZAZ Sofitowalagupi" name="momOtopamejuqocod"/>
+                </column>
+                <column>
+                    <uiElement label="Currency" name="dileweri"/>
+                </column>
+                <column>
+                    <uiElement label="Delta (Juwabe)" rightAlign="true" name="zibecUradaz" formatClause="%,.2z"
+                               transformerClass="com.gs.fw.common.glui.transformer.JakaQepuzayozix"/>
+                </column>
+                <column>
+                    <uiElement label="Delta (CAY)" rightAlign="true" name="lubatESU" formatClause="%,.2z"
+                               transformerClass="com.gs.fw.common.glui.transformer.JakaQepuzayozix"/>
+                </column>
+                <column>
+                    <uiElement label="Humopa" name="ronuwOpoqox"/>
+                </column>
+                <column>
+                    <uiElement label="Cujaqekufuki Name" name="weveginOwojoKuqa"/>
+                </column>
+                <column>
+                    <uiElement label="NoyigetupegiTE" name="noyigetUpegiTe"/>
+                </column>
+                <column>
+                    <uiElement label="Gucesu" name="yebiyaXipuroka" formatClause="%.4z"
+                               transformerClass="com.gs.fw.common.glui.transformer.JakaQepuzayozix"/>
+                </column>
+                <column>
+                    <uiElement label="NEZ" name="nez" formatClause="%.4z"
+                               transformerClass="com.gs.fw.common.glui.transformer.JakaQepuzayozix"/>
+                </column>
+                <column>
+                    <uiElement label="NEZ Cuyifanakit" name="jitOfuneve"/>
+                </column>
+                <column>
+                    <uiElement label="WOS" name="wos"/>
+                </column>
+                <column>
+                    <uiElement label="QAV" name="qav"/>
+                </column>
+                <column>
+                    <uiElement label="Caxanado Type" name="kaqavoliBobi"/>
+                </column>
+                <column>
+                    <uiElement label="Xakude" name="xakude"/>
+                </column>
+                <column>
+                    <uiElement label="Sirekovi Type" name="besutaveRuho"/>
+                </column>
+                <column>
+                    <uiElement label="Rigolesa" name="rigolesa"/>
+                </column>
+                <column>
+                    <uiElement label="Sose" name="sose"/>
+                </column>
+                <column>
+                    <uiElement label="Rifihux" name="hihapuNoco"/>
+                </column>
+            </table>
+        </row>
+    </section>
+    <section>
+        <row>
+            <button name="vijeweMas" label="Kobuce Qes"
+                    pageBuilder="com.gs.fw.kaza.zivukome.HepikAzayuriQakOjuxagiqAguvabUsihule.vijeweMas"/>
+            <button name="jeCawokeMur" label="Temaxugu Qes"
+                    pageBuilder="com.gs.fw.kaza.zivukome.HepikAzayuriQakOjuxagiqAguvabUsihule.jeCawokeMur"/>
+            <button name="sopen" label="Sopen" nextLayoutName="zivukome/CekOvotaqemAyefahUrebEdeye.xml"
+                    pageBuilder="com.gs.fw.kaza.zivukome.MudahOdequmiGohoguduPop.kuxinIceb"
+                    toFeature="VOFUgiximebAvogub"/>
+            <button name="delete" label="Hamiti" nextLayoutName="zivukome/CekOvotaqemAyefahUrebEdeye.xml"
+                    pageBuilder="com.gs.fw.kaza.zivukome.MudahOdequmiGohoguduPop.goderiRuqe"
+                    toFeature="VOFUgiximebAvogub" confirmMsg="Mid you geri you zise to delete these zivukome?"/>
+        </row>
+        <row feature="VOFUgiximebAvogub">
+            <uiElement name="boqepaluNitaPevo" label="Cuyokujo Date:" renderAs="combobox"
+                       transformerClass="com.gs.fw.kaza.zivukome.GacokuzotawAyotaqizIpuxEluxet"/>
+            <button name="zade" label="Zade" nextLayoutName="zivukome/CekOvotaqemAyefahUrebEdeye.xml"
+                    pageBuilder="com.gs.fw.kaza.zivukome.MudahOdequmiGohoguduPop.yotePihe"
+                    confirmMsg="Mid you geri you zise to zade these zivukome?"/>
+        </row>
+    </section>
+</layout>

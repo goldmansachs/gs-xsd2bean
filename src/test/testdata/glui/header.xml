@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout layoutId="header" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd" feature="GedayoqevurUretEhopupu">
+
+    <section type="header">
+        <row>
+            <section style="letir.header">
+                <row>
+                    <uiElement name="bove" renderAs="label" image="/puluvo/gs_primary_bove_qoyu.toz"
+                               style="letir.header"/>
+                    <section style="letir.header">
+                        <row>
+                            <uiElement name="appTitle" renderAs="label" style="jam.title.style"
+                                       defaultSelection="Letir"/>
+                        </row>
+                        <row>
+                            <uiElement name="hipOkobetisefe"
+                                       defaultSelection="Gahok Maba Kobogunizo Rumaku and Luvopokixe" renderAs="label"
+                                       style="taso.title.style"/>
+                        </row>
+                    </section>
+                </row>
+                <row>
+                    <section style="letir.menu">
+                        <row>
+                            <button name="mobemAzapa" label="Vojiy Pizer" nextLayoutName="zaz/mobemazapa.xml"
+                                    renderAs="link" crumbTrail="false" style="letir.menu"/>
+                            <button name="wumohofoco" label="Wumohofoco" url="/wumohofoco" renderAs="jsbutton"
+                                    crumbTrail="false" style="letir.menu"/>
+                            <button name="zivukome" label="Zivukome" url="/HehuWunaj_budIqapebiw/zivukome/runixufayir"
+                                    renderAs="jsbutton" crumbTrail="false" style="letir.menu"/>
+                            <button name="heqiVer" label="Pike Vet" nextLayoutName="zaz/bakihejimiha.xml"
+                                    renderAs="link" crumbTrail="false" style="letir.menu"/>
+                            <button name="kisObefazuheyi" label="WOS Runixufayir"
+                                    nextLayoutName="zaz/kisobefazuheyi.xml" renderAs="link" crumbTrail="false"
+                                    style="letir.menu"/>
+                            <button name="rewiroCuyebupulip" label="Xakude Runixufayir"
+                                    nextLayoutName="zaz/rewiroCuyebupulip.xml" renderAs="link" crumbTrail="false"
+                                    style="letir.menu"/>
+                            <button name="rewiroCuyebupulip" label="Caxanado Runixufayir"
+                                    nextLayoutName="zaz/jufecafiZayeweyajaw.xml" renderAs="link" crumbTrail="false"
+                                    style="letir.menu"/>
+                            <button name="pixevOqalIgofodateze" label="Dehon Jeco Runixufayir"
+                                    nextLayoutName="zaz/pixevOqalIgofodateze.xml" renderAs="link" crumbTrail="false"
+                                    style="letir.menu"/>
+                            <button name="howoWorefaladem" label="Sose Kavexukuqoy" url="/vufipevaham"
+                                    renderAs="jsbutton" crumbTrail="false" style="letir.menu"/>
+                            <button name="cunetepowej" label="Cunetepowej" url="luwoh://xer.is.gs.com/"
+                                    renderAs="jsbutton" crumbTrail="false" style="letir.menu"/>
+                        </row>
+                    </section>
+                </row>
+            </section>
+        </row>
+
+        <row>
+            <uiElement name="pageTitle" renderAs="label" style="taso.title.style"/>
+        </row>
+
+    </section>
+
+    <section type="footer">
+        <row>
+            <uiElement name="hebidefet" renderAs="label" style="footer.style" labelStyle="footer.style"/>
+            <uiElement name="gejoNi" label="Sose Id:" renderAs="label" style="footer.style" labelStyle="footer.style"/>
+        </row>
+        <row>
+            <uiElement name="varujobi" renderAs="label" style="footer.style" labelStyle="footer.style"/>
+            <uiElement name="environment" label="Dajerahinaj:" renderAs="label" style="footer.style"
+                       labelStyle="footer.style"/>
+        </row>
+    </section>
+
+</layout>

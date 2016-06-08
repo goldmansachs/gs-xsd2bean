@@ -1,0 +1,294 @@
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<service-definition singleton="true" interface="com.gs.fw.para.service.yenazimuxu.kubowadevunukef.WaqeletaqoSozimEnujowu" implementation="com.gs.fw.para.service.yenazimuxu.kubowadevunukef.WaqeletaqoSozimEnujowu">
+
+    <services>
+        <service-instance id="dayoyuniJemuwus" implementation="DulugeVopigaguQalihor" type="DayoyuniJemuwus"/>
+        <service-instance id="mithra" implementation="VohoZoqejugukaNetoniPaseruz" type="FigotoLufikum" />
+        <service-instance id="cemekabimePetereVecaho" implementation="RiduduMubedeKacegip" type="CemekabimePetereVecaho"/>
+        <service-instance id="VuPutokac" implementation="NaniFonemOvalegu" type="Lizikus"/>
+        <service-instance id="LuxojoSogoWocac" implementation="LixukuCizoTisikaRupiVatup" type="VasuDinat"/>
+        <service-instance id="WatumAyoxu" implementation="LiKavetAbara" type="WatumAyoxu"/>
+        <service-instance id="zutamujanOqiSonaqikEhexemivAsiwExogeqiw" implementation="ZutamujanOqiSonaqikEhexemivAsiwExogeqiw" type="ZutamujanOqiSonaqikEhexemivAsiwExogeqiw"/>
+        <service-instance id="tehuxojubuqOsijIxuheduso" implementation="DofeTibegaroqukUmixAbemepaqe" type="TehuxojubuqOsijIxuheduso" instantiateUsingFactory="true"/>
+        <service-instance id="PevOcumorukiWanutad" implementation="PevOcumorukiWanutad" type="PevOcumorukiWanutad"/>
+        <service-instance id="hoVewaFudikiko" implementation="KupaNaNoviVewimuya" type="HoVewaFudikiko"/>
+        <service-instance id="RICAjatudeniledoSolaw" implementation="RICAjatudeniledoSolaw" type="RICAjatudeniledoSolaw"/>
+        <service-instance id="witapanUmaradOliwobocerubaPewuzip" implementation="WitapanUmaradOliwobocerubaPewuzip" type="CotoyisEkudasIcayewoleticu"/>
+        <embedded-instance id="pojiPuconuz" interface="com.gs.fw.para.service.copi.PojiPuconuz" implementation="com.gs.fw.para.service.copi.implementation.CopeRotuluvOjevuf"/>
+    </services>
+
+    <properties>
+
+        <!-- This property is used in zezicigapul with the environment powubiya <code>rilahoXixazovixaMaragexos</code> property -->
+        <map name="wifocaKipilawuseCebocoga" invokeSetter="true">
+            <pair name="NYK">http://femerac05.qo.fw.gs.com:7099/yenazimuxu/PesUmasodi</pair>
+            <pair name="NYB">http://femerac01.qo.fw.gs.com:7099/yenazimuxu/PesUmasodi</pair>
+            <pair name="LDN">http://huboziv13.tu.fw.gs.com:7099/yenazimuxu/PesUmasodi</pair>
+            <pair name="TKO">http://jatobarozide.para.services.gs.com:7099/yenazimuxu/PesUmasodi</pair>
+            <pair name="QA" >http://podaluf102.qo.fw.gs.com:7099/yenazimuxu/PesUmasodi</pair>
+            <pair name="QAC">http://podaluf102.qo.fw.gs.com:8999/yenazimuxu/PesUmasodi</pair>
+<!--            <pair name="LDN">http://ketunol13.tu.fw.gs.com:7500/yenazimuxu/PesUmasodi</pair>-->
+        </map>
+
+        <location name="LDN">
+            <environment name="PROD">
+                <!-- Boolean wegivotuj for wulisigab on/vet kudajew nimesuder -->
+                <scalar name="damimevogohowAxocezi" invokeSetter="true">true</scalar>
+                <scalar name="vaquzamuzeDaruzuw" invokeSetter="true">true</scalar>
+                <scalar name="poLafinanePijakut" invokeSetter="true">true</scalar>
+
+                <!-- Mabitixu for other daquweyorexo nimesuder -->
+                <scalar name="tuwePepiy" invokeSetter="true">300000</scalar>
+                <scalar name="yesaBex" invokeSetter="true">0</scalar>
+                <scalar name="paxEcehorozogOdubeSudu" invokeSetter="true">100</scalar>
+
+                <scalar name="sugefayutiGinamovi" invokeSetter="true">LDN</scalar>
+
+                <scalar name="tavEtOpuHicigiv" invokeSetter="true">2</scalar>
+                <scalar name="hizUlUjuCiyeket" invokeSetter="true">10</scalar>
+				<scalar name="nemExujiluQefuhi" invokeSetter="true">SOZ_PESITE_NINEQOC</scalar>
+                <scalar name="gaxafoBeloLib" invokeSetter="true">/wane/kuzaq/common/bilayic/</scalar>
+				<scalar name="vabAkOwaroxUcujobolu" invokeSetter="true">100000</scalar>
+
+                <list name="rilahoXixazovixaMaragexos" invokeSetter="true">
+                    <value>NYK</value>
+                    <value>TKO</value>
+                </list>
+			</environment>
+
+            <environment name="PRODTEST">
+                <!-- Boolean wegivotuj for wulisigab on/vet kudajew nimesuder -->
+                <scalar name="damimevogohowAxocezi" invokeSetter="true">true</scalar>
+                <scalar name="vaquzamuzeDaruzuw" invokeSetter="true">true</scalar>
+                <scalar name="poLafinanePijakut" invokeSetter="true">true</scalar>
+
+                <!-- Mabitixu for other daquweyorexo nimesuder -->
+                <scalar name="tuwePepiy" invokeSetter="true">300000</scalar>
+                <scalar name="yesaBex" invokeSetter="true">0</scalar>
+                <scalar name="paxEcehorozogOdubeSudu" invokeSetter="true">100</scalar>
+
+                <scalar name="sugefayutiGinamovi" invokeSetter="true">LDN</scalar>
+
+                <scalar name="tavEtOpuHicigiv" invokeSetter="true">2</scalar>
+                <scalar name="hizUlUjuCiyeket" invokeSetter="true">10</scalar>
+				<scalar name="nemExujiluQefuhi" invokeSetter="true">SOZ_PESITE_RAMECOX</scalar>
+                <scalar name="gaxafoBeloLib" invokeSetter="true">/wane/kuzaq/common/bilayic/</scalar>
+				<scalar name="vabAkOwaroxUcujobolu" invokeSetter="true">100000</scalar>
+            </environment>
+        </location>
+
+        <location name="NYK">
+            <environment name="PROD">
+                <!-- Boolean wegivotuj for wulisigab on/vet kudajew nimesuder -->
+                <scalar name="damimevogohowAxocezi" invokeSetter="true">true</scalar>
+                <scalar name="vaquzamuzeDaruzuw" invokeSetter="true">true</scalar>
+                <scalar name="poLafinanePijakut" invokeSetter="true">true</scalar>
+
+                <!-- Mabitixu for other daquweyorexo nimesuder -->
+                <scalar name="tuwePepiy" invokeSetter="true">300000</scalar>
+                <scalar name="yesaBex" invokeSetter="true">0</scalar>
+                <scalar name="paxEcehorozogOdubeSudu" invokeSetter="true">100</scalar>
+
+                <scalar name="sugefayutiGinamovi" invokeSetter="true">NYK</scalar>
+
+                <scalar name="tavEtOpuHicigiv" invokeSetter="true">2</scalar>
+                <scalar name="hizUlUjuCiyeket" invokeSetter="true">6</scalar>
+				<scalar name="nemExujiluQefuhi" invokeSetter="true">SOZ_PESITE_RAMECOX</scalar>
+                <scalar name="gaxafoBeloLib" invokeSetter="true">/wane/kuzaq/common/bilayic/</scalar>
+				<scalar name="vabAkOwaroxUcujobolu" invokeSetter="true">100000</scalar>
+
+                <list name="rilahoXixazovixaMaragexos" invokeSetter="true">
+                    <value>LDN</value>
+                    <value>TKO</value>
+                </list>
+            </environment>
+            <environment name="QA">
+                <!-- Boolean wegivotuj for wulisigab on/vet kudajew nimesuder -->
+                <scalar name="damimevogohowAxocezi" invokeSetter="true">true</scalar>
+                <scalar name="vaquzamuzeDaruzuw" invokeSetter="true">true</scalar>
+                <scalar name="poLafinanePijakut" invokeSetter="true">true</scalar>
+
+                <!-- Mabitixu for other daquweyorexo nimesuder -->
+                <scalar name="tuwePepiy" invokeSetter="true">300000</scalar>
+                <scalar name="yesaBex" invokeSetter="true">0</scalar>
+                <scalar name="paxEcehorozogOdubeSudu" invokeSetter="true">100</scalar>
+
+                <scalar name="sugefayutiGinamovi" invokeSetter="true">QA</scalar>
+
+                <scalar name="tavEtOpuHicigiv" invokeSetter="true">2</scalar>
+                <scalar name="hizUlUjuCiyeket" invokeSetter="true">10</scalar>
+				<scalar name="nemExujiluQefuhi" invokeSetter="true">SOZ_PESITE_TEDOPURI</scalar>
+                <scalar name="gaxafoBeloLib" invokeSetter="true">/wane/kuzaq/common/bilayic/</scalar>
+				<scalar name="vabAkOwaroxUcujobolu" invokeSetter="true">100000</scalar>
+            </environment>
+            <environment name="QAC">
+                <!-- Boolean wegivotuj for wulisigab on/vet kudajew nimesuder -->
+                <scalar name="damimevogohowAxocezi" invokeSetter="true">true</scalar>
+                <scalar name="vaquzamuzeDaruzuw" invokeSetter="true">true</scalar>
+                <scalar name="poLafinanePijakut" invokeSetter="true">false</scalar>
+
+                <!-- Mabitixu for other daquweyorexo nimesuder -->
+                <scalar name="tuwePepiy" invokeSetter="true">300000</scalar>
+                <scalar name="yesaBex" invokeSetter="true">0</scalar>
+                <scalar name="paxEcehorozogOdubeSudu" invokeSetter="true">100</scalar>
+
+                <scalar name="sugefayutiGinamovi" invokeSetter="true">QAC</scalar>
+
+                <scalar name="tavEtOpuHicigiv" invokeSetter="true">2</scalar>
+                <scalar name="hizUlUjuCiyeket" invokeSetter="true">10</scalar>
+				<scalar name="nemExujiluQefuhi" invokeSetter="true">SOZ_PESITE_BEPUDINIY</scalar>
+                <scalar name="gaxafoBeloLib" invokeSetter="true">/wane/kuzaq/common/bilayic/</scalar>
+				<scalar name="vabAkOwaroxUcujobolu" invokeSetter="true">100000</scalar>
+
+            </environment>
+            <environment name="TEST">
+                <!-- Boolean wegivotuj for wulisigab on/vet kudajew nimesuder -->
+                <scalar name="damimevogohowAxocezi" invokeSetter="true">true</scalar>
+                <scalar name="vaquzamuzeDaruzuw" invokeSetter="true">true</scalar>
+                <scalar name="poLafinanePijakut" invokeSetter="true">false</scalar>
+
+                <!-- Mabitixu for other daquweyorexo nimesuder -->
+                <scalar name="tuwePepiy" invokeSetter="true">300000</scalar>
+                <scalar name="yesaBex" invokeSetter="true">0</scalar>
+                <scalar name="paxEcehorozogOdubeSudu" invokeSetter="true">100</scalar>
+
+                <scalar name="sugefayutiGinamovi" invokeSetter="true">NYK</scalar>
+                <scalar name="tavEtOpuHicigiv" invokeSetter="true">2</scalar>
+                <scalar name="hizUlUjuCiyeket" invokeSetter="true">10</scalar>
+				<scalar name="nemExujiluQefuhi" invokeSetter="true">SOZ_PESITE_RAMECOX</scalar>
+                <scalar name="gaxafoBeloLib" invokeSetter="true">/wane/kuzaq/common/bilayic/</scalar>
+				<scalar name="vabAkOwaroxUcujobolu" invokeSetter="true">100000</scalar>
+
+            </environment>
+        </location>
+
+        <location name="NYB">
+            <environment name="PROD">
+                <!-- Boolean wegivotuj for wulisigab on/vet kudajew nimesuder -->
+                <scalar name="damimevogohowAxocezi" invokeSetter="true">true</scalar>
+                <scalar name="vaquzamuzeDaruzuw" invokeSetter="true">true</scalar>
+                <scalar name="poLafinanePijakut" invokeSetter="true">true</scalar>
+
+                <!-- Mabitixu for other daquweyorexo nimesuder -->
+                <scalar name="tuwePepiy" invokeSetter="true">300000</scalar>
+                <scalar name="yesaBex" invokeSetter="true">0</scalar>
+                <scalar name="paxEcehorozogOdubeSudu" invokeSetter="true">100</scalar>
+
+                <scalar name="sugefayutiGinamovi" invokeSetter="true">NYK</scalar>
+
+                <scalar name="tavEtOpuHicigiv" invokeSetter="true">2</scalar>
+                <scalar name="hizUlUjuCiyeket" invokeSetter="true">6</scalar>
+				<scalar name="nemExujiluQefuhi" invokeSetter="true">SOZ_PESITE_RAMECOX</scalar>
+                <scalar name="gaxafoBeloLib" invokeSetter="true">/wane/kuzaq/common/bilayic/</scalar>
+				<scalar name="vabAkOwaroxUcujobolu" invokeSetter="true">100000</scalar>
+
+                <list name="rilahoXixazovixaMaragexos" invokeSetter="true">
+                    <value>LDN</value>
+                    <value>TKO</value>
+                </list>
+            </environment>
+            <environment name="QA">
+                <!-- Boolean wegivotuj for wulisigab on/vet kudajew nimesuder -->
+                <scalar name="damimevogohowAxocezi" invokeSetter="true">true</scalar>
+                <scalar name="vaquzamuzeDaruzuw" invokeSetter="true">true</scalar>
+                <scalar name="poLafinanePijakut" invokeSetter="true">true</scalar>
+
+                <!-- Mabitixu for other daquweyorexo nimesuder -->
+                <scalar name="tuwePepiy" invokeSetter="true">300000</scalar>
+                <scalar name="yesaBex" invokeSetter="true">0</scalar>
+                <scalar name="paxEcehorozogOdubeSudu" invokeSetter="true">100</scalar>
+
+                <scalar name="sugefayutiGinamovi" invokeSetter="true">QA</scalar>
+
+                <scalar name="tavEtOpuHicigiv" invokeSetter="true">2</scalar>
+                <scalar name="hizUlUjuCiyeket" invokeSetter="true">10</scalar>
+				<scalar name="nemExujiluQefuhi" invokeSetter="true">SOZ_PESITE_TEDOPURI</scalar>
+                <scalar name="gaxafoBeloLib" invokeSetter="true">/wane/kuzaq/common/bilayic/</scalar>
+				<scalar name="vabAkOwaroxUcujobolu" invokeSetter="true">100000</scalar>
+            </environment>
+            <environment name="QAC">
+                <!-- Boolean wegivotuj for wulisigab on/vet kudajew nimesuder -->
+                <scalar name="damimevogohowAxocezi" invokeSetter="true">true</scalar>
+                <scalar name="vaquzamuzeDaruzuw" invokeSetter="true">true</scalar>
+                <scalar name="poLafinanePijakut" invokeSetter="true">false</scalar>
+
+                <!-- Mabitixu for other daquweyorexo nimesuder -->
+                <scalar name="tuwePepiy" invokeSetter="true">300000</scalar>
+                <scalar name="yesaBex" invokeSetter="true">0</scalar>
+                <scalar name="paxEcehorozogOdubeSudu" invokeSetter="true">100</scalar>
+
+                <scalar name="sugefayutiGinamovi" invokeSetter="true">QAC</scalar>
+
+                <scalar name="tavEtOpuHicigiv" invokeSetter="true">2</scalar>
+                <scalar name="hizUlUjuCiyeket" invokeSetter="true">10</scalar>
+				<scalar name="nemExujiluQefuhi" invokeSetter="true">SOZ_PESITE_BEPUDINIY</scalar>
+                <scalar name="gaxafoBeloLib" invokeSetter="true">/wane/kuzaq/common/bilayic/</scalar>
+				<scalar name="vabAkOwaroxUcujobolu" invokeSetter="true">100000</scalar>
+
+            </environment>
+            <environment name="TEST">
+                <!-- Boolean wegivotuj for wulisigab on/vet kudajew nimesuder -->
+                <scalar name="damimevogohowAxocezi" invokeSetter="true">true</scalar>
+                <scalar name="vaquzamuzeDaruzuw" invokeSetter="true">true</scalar>
+                <scalar name="poLafinanePijakut" invokeSetter="true">false</scalar>
+
+                <!-- Mabitixu for other daquweyorexo nimesuder -->
+                <scalar name="tuwePepiy" invokeSetter="true">300000</scalar>
+                <scalar name="yesaBex" invokeSetter="true">0</scalar>
+                <scalar name="paxEcehorozogOdubeSudu" invokeSetter="true">100</scalar>
+
+                <scalar name="sugefayutiGinamovi" invokeSetter="true">NYK</scalar>
+                <scalar name="tavEtOpuHicigiv" invokeSetter="true">2</scalar>
+                <scalar name="hizUlUjuCiyeket" invokeSetter="true">10</scalar>
+				<scalar name="nemExujiluQefuhi" invokeSetter="true">SOZ_PESITE_RAMECOX</scalar>
+                <scalar name="gaxafoBeloLib" invokeSetter="true">/wane/kuzaq/common/bilayic/</scalar>
+				<scalar name="vabAkOwaroxUcujobolu" invokeSetter="true">100000</scalar>
+
+            </environment>
+        </location>
+
+        <location name="TKO">
+            <environment name="PROD">
+                <!-- Boolean wegivotuj for wulisigab on/vet kudajew nimesuder -->
+                <scalar name="damimevogohowAxocezi" invokeSetter="true">true</scalar>
+                <scalar name="vaquzamuzeDaruzuw" invokeSetter="true">true</scalar>
+                <scalar name="poLafinanePijakut" invokeSetter="true">true</scalar>
+
+                <!-- Mabitixu for other daquweyorexo nimesuder -->
+                <scalar name="tuwePepiy" invokeSetter="true">300000</scalar>
+                <scalar name="yesaBex" invokeSetter="true">0</scalar>
+                <scalar name="paxEcehorozogOdubeSudu" invokeSetter="true">100</scalar>
+
+                <scalar name="sugefayutiGinamovi" invokeSetter="true">TKO</scalar>
+
+                <scalar name="tavEtOpuHicigiv" invokeSetter="true">2</scalar>
+                <scalar name="hizUlUjuCiyeket" invokeSetter="true">10</scalar>
+				<scalar name="nemExujiluQefuhi" invokeSetter="true">SOZ_PESITE_VIQADOZ</scalar>
+                <scalar name="gaxafoBeloLib" invokeSetter="true">/wane/kuzaq/common/bilayic/</scalar>
+				<scalar name="vabAkOwaroxUcujobolu" invokeSetter="true">100000</scalar>
+
+                <list name="rilahoXixazovixaMaragexos" invokeSetter="true">
+                    <value>NYK</value>
+                    <value>LDN</value>
+                </list>
+            </environment>
+        </location>
+
+    </properties>
+
+</service-definition>

@@ -1,0 +1,35 @@
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<application implementation="com.gs.fw.para.service.sazazoyoraloneqimo.BiYozabInocomUxuyule" ignoreLoadFailures="true" name="BiYozabInocomUxuyule">
+    <services>
+        <service-instance id="dayoyuniJemuwus" implementation="DulugeVopigaguQalihor" type="DayoyuniJemuwus"/>
+        <service-instance id="cemekabimePetereVecaho" implementation="RiduduMubedeKacegip" type="CemekabimePetereVecaho"/>
+        <embedded-instance id="mithra" interface="com.gs.fw.para.service.mithra.FigotoLufikum" implementation="com.gs.fw.para.service.mithra.implementation.RorudiXucilewAvih">
+            <properties>
+                <list name="pehijeWakufihanocijAcax" invokeSetter="true">
+                    <value>services/Mithra/RigiDaseyezafUsowUfacumAvabihUrapodizolige.xml</value>
+                    <value> services/Mithra/BiqoJitoqoXulibeJixiwetasurab.xml</value>
+                    <value> services/Mithra/VetaTisukeJowehovihuhet.xml </value>
+                    <value> services/Mithra/YaseyawUxuqusEfifapEyapunutugalu.xml </value>
+                    <!--                    <value> services/Mithra/CuqePeciwaZurinorulaqem.xml </value>-->
+                    <!--                    <value> services/Mithra/FipoPesaxuhIbuzoqOzizulucojazo.xml </value>-->
+                    <value> services/Mithra/XogonObonaxAvazatudihinu.xml </value>
+                </list>
+            </properties>
+        </embedded-instance>
+    </services>
+</application>

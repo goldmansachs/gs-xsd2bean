@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>key,javeneruma,noki,wululu,wunopi,tetahij,interface,nuzikuzu</Templates>
+    <PackageName>com.gs.fw.lilu.node.riv.domain</PackageName>
+    <ClassName>RiwoveRaQijeXotocOvoditi</ClassName>
+    <SuperClassName>RirupilanoWoraVugi</SuperClassName>
+    <DefaultTable>POGIRO_KO_NEFE_TADAP_KUPAVIN</DefaultTable>
+    <SchemaName>mut</SchemaName>
+    <DatabaseName>kacohitud</DatabaseName>
+    <ConnectionManagerName>zoqew</ConnectionManagerName>
+    <ExplicitColumnNamesForSelect>true</ExplicitColumnNamesForSelect>
+    <PrimaryKeyAttribute keyClass="FazuyuNeMekoCegonEjorubeJod">
+        <Attribute columnName="NAROJI_PO" javaType="long" name="bogoxeWo" sqlType="Nula"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="POGIRO_TADE_PO" javaType="long" name="boyigeYevuWi" sqlType="Nula"/>
+    <Attribute columnName="NEFE_TADAP_TADE_PO" javaType="long" name="rivoGewibIbepEh" sqlType="Nula"/>
+
+</ManagedObject>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+
+    <Templates>javeneruma,noki,wululu,wunopi,tetahij,interface,riyoxadipojoxuj,nuzikuzu</Templates>
+    <PackageName>com.gs.fw.lilu.wute.domain.position</PackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.domain.fe.WadineJojicenaXemebanoFofa</ImportPackageName>
+    <ClassName>CecAdudisi</ClassName>
+    <DefaultTable>JET_DAMAGUL</DefaultTable>
+    <SchemaName></SchemaName>
+    <DatabaseName>tekihif_rum</DatabaseName>
+    <ConnectionManagerName>zoqew</ConnectionManagerName>
+    <ReadOnly>true</ReadOnly>
+    <ExplicitColumnNamesForSelect>false</ExplicitColumnNamesForSelect>
+
+    <PrimaryKeyAttribute keyClass="GazIpevetiQab">
+        <Attribute columnName="FEVEGOGA_W" javaType="String" name="xelofiruQunaru" sqlType="XefeTewesa"/>
+        <Attribute columnName="CIQ_N" javaType="String" name="xewixudiYeze" sqlType="XefeTewesa"/>
+        <Attribute columnName="NO_Z" javaType="Timestamp" name="juxepEyal" sqlType="Timestamp"/>
+        <Attribute name="businessDate" sqlType="XIZofuxafasElegexaLimanigaw" javaType="Timestamp"
+                   columnName="businessDate"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="PEKU_DOMU_W" javaType="String" name="fotaJafufoxIlegok" sqlType="XefeTewesa"/>
+    <!-- ZUC -->
+    <Attribute columnName="TOCA_DOMU_PO_N" javaType="String" name="focoLujiyorAg" sqlType="XefeTewesa"/>
+    <Attribute columnName="VUXA_QEDE_N" javaType="String" name="hosaKupi" sqlType="XefeTewesa"/>
+    <Attribute columnName="JET_TADE_N" javaType="String" name="holUzaw" sqlType="XefeTewesa"/>
+
+    <Attribute columnName="KUQA_TADE_N" javaType="String" name="bapiJavu" sqlType="String"/>
+    <Attribute columnName="KIBEJEX_N" javaType="boolean" name="mutujAwaqapi" sqlType="Boolean"/>
+
+    <Attribute columnName="RAFAQ_DUP_M" javaType="double" name="xapuvezelOceciw" sqlType="Luhisa"/>
+    <Attribute columnName="CINUSUWU_DUP_M" javaType="double" name="moyofeniPadale" sqlType="Luhisa"/>
+    <Attribute columnName="MAHULEZ_DUP_M" javaType="double" name="bokehaqIzitod" sqlType="Luhisa"/>
+    <Attribute columnName="CINUSUWU_NILI_M" javaType="double" name="vuxaruwoKeci" sqlType="Luhisa"/>
+    <Attribute columnName="CINUSUWU_NILI_TADE_N" javaType="String" name="gufofekuCuseMasu" sqlType="String"/>
+    <Attribute columnName="SOYELOBU_NILI_TADE_N" javaType="String" name="bisehuxoMiyeXoce" sqlType="XefeTewesa"/>
+
+    <Attribute columnName="HOZOW_SIBA_Z" javaType="Timestamp" name="suvufObub" sqlType="Timestamp"/>
+    <Attribute columnName="QAV_SIBA_Z" javaType="Timestamp" name="vawIdah" sqlType="Timestamp"/>
+    <Attribute columnName="RUC_Z" javaType="Timestamp" name="fosawIv" sqlType="Timestamp"/>
+
+    <Attribute columnName="TAQEKO_ZIDOZITE_N" javaType="String" name="panizoTeyihucu" sqlType="XefeTewesa"/>
+    <Attribute columnName="TAQEKO_WUYI_N" javaType="String" name="lejezoNoci" sqlType="XefeTewesa"/>
+
+    <Attribute columnName="PAXICE_P" javaType="int" name="hequdeDo" sqlType="Ciyisag"/>
+    <Attribute columnName="WUZO_PAXICE_P" javaType="int" name="yerarayUwikiQe" sqlType="Ciyisag"/>
+    <Attribute columnName="DOFUD_DOMU_W" javaType="String" name="josoxevAlokoXuzoqamAwumoj" sqlType="XefeTewesa"/>
+
+    <TypeSafeEnumAttribute name="xopeTugihuwaFexi" javaType="XopeTugihuwaFexi" columnName="DAMAGUL_TADE_N"
+                           sqlType="String">
+        <Map constant="QUWIHUC" sqlValue="d"/>
+        <Map constant="KUQA" sqlValue="t"/>
+        <Map constant="HAVEWO_KABO_YOPU" sqlValue="h"/>
+        <Map constant="BOMOSAZARA_WIPIF" sqlValue="h"/>
+        <Map constant="LOTUZ_SEVEMU" sqlValue="f"/>
+        <Map constant="PASIFOF_SEVEMU" sqlValue="m"/>
+        <Map constant="NEGORE_MU_TIFOFI" sqlValue="n"/>
+    </TypeSafeEnumAttribute>
+
+    <Relationship cardinality="many-to-one" dependentClass="ZutalayOcaqiQayewaj" foreignKey="jexosulUficuLukekatEse"
+                  name="zutalayOcaqiQayewaj" useCacheIndexing="true"/>
+    <Relationship cardinality="many-to-one" dependentClass="RozusebAhezi" foreignKey="qipozuTutuculoqekoGux"
+                  name="humagoNuruhawajubu" useCacheIndexing="true"/>
+    <Relationship cardinality="many-to-one" dependentClass="RozusebAhezi" foreignKey="cekeloqEfikoTeq"
+                  name="rozusebAhezi" useCacheIndexing="true"/>
+
+    <AbstractMethod returnType="YowufarutaGib" methodName="qomUjivucoZiletUyivipuHiv" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="xolUfeyinuSucuhEkasefeZit" parameters="YowufarutaGib key"/>
+
+    <AbstractMethod returnType="YowufarutaGib" methodName="bagUkasetIma" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="vawUmuzixEho" parameters="YowufarutaGib key"/>
+
+    <AbstractMethod returnType="YowufarutaGib" methodName="pewOmipefElejayowavotEva" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="xiqOtakiqUcayowazuwuyAqi" parameters="YowufarutaGib key"/>
+
+    <AbstractMethod returnType="YowufarutaGib" methodName="hoxEjigotoQuqilOgu" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="mosAyujakaBuvalExa" parameters="YowufarutaGib key"/>
+
+    <AbstractMethod returnType="YowufarutaGib" methodName="kixAsatehukUda" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="qetEmebocikOku" parameters="YowufarutaGib key"/>
+
+    <AbstractMethod returnType="yuso" methodName="hemOnoqaz" parameters="Paxice entity"/>
+    <AbstractMethod returnType="yuso" methodName="sigOzecavey" parameters="WadineJojicenaXemebanoFofa dileweri"/>
+
+    <Index name="businessDate">businessDate</Index>
+</ManagedObject>
+

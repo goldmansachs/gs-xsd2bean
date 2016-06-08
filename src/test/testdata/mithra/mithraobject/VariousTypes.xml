@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject objectType="transactional">
+    <PackageName>com.gs.fw.common.mithra.test.domain</PackageName>
+    <ClassName>SugudubIdize</ClassName>
+    <DefaultTable>NINAWOY_TYPES</DefaultTable>
+
+    <Attribute name="id" javaType="int" columnName="LA" primaryKey="true"/>
+    <Attribute name="vozavikArawiz" javaType="boolean" columnName="COPIBAZ_NOREGI"/>
+    <Attribute name="fawoSuvamu" javaType="byte" columnName="BAGI_NOREGI"/>
+    <Attribute name="guvutOwinev" javaType="float" columnName="YOYOP_NOREGI"/>
+    <Attribute name="kepoyAceper" javaType="short" columnName="VAGOZ_NOREGI"/>
+    <Attribute name="zagaToqoga" javaType="long" columnName="LUME_NOREGI"/>
+    <Attribute name="jazimiJiquve" javaType="double" columnName="PINADO_NOREGI"/>
+    <Attribute name="jucaGiliwe" javaType="char" columnName="LEBU_NOREGI"/>
+    <Attribute name="geyEnozuc" javaType="int" columnName="DOD_NOREGI"/>
+
+    <Relationship name="cabemojuyUzOdiKubuyu" relatedObject="CifuxerocAfimOpafo" cardinality="one-to-many" reverseRelationshipName="jimuwuhOxAboQufixa">
+        this.geyEnozuc = CifuxerocAfimOpafo.geyEnozuc
+    </Relationship>
+
+    <Relationship name="helifeletEmUc" relatedObject="CifuxerocAfimOpafo" cardinality="one-to-one" reverseRelationshipName="govopidOjAr">
+        this.id = CifuxerocAfimOpafo.id
+    </Relationship>
+
+    <Relationship name="kedizapigUhAfahajeCuhugo" relatedObject="CifuxerocAfimOpafo" cardinality="one-to-many" reverseRelationshipName="boyebocOjIvaquhaVituva">
+        this.vozavikArawiz = CifuxerocAfimOpafo.vozavikArawiz
+    </Relationship>
+
+    <Relationship name="nofidisinOxAlujUnaxic" relatedObject="CifuxerocAfimOpafo" cardinality="one-to-many" reverseRelationshipName="zoguqusOmEnamAsokiy">
+        this.fawoSuvamu = CifuxerocAfimOpafo.fawoSuvamu
+    </Relationship>
+
+    <Relationship name="woquhaxasUmAcukuYavifa" relatedObject="CifuxerocAfimOpafo" cardinality="one-to-many" reverseRelationshipName="zicihesImEdohiHewube">
+        this.guvutOwinev = CifuxerocAfimOpafo.guvutOwinev
+    </Relationship>
+
+    <Relationship name="nodoxesulOnAdisoCovuri" relatedObject="CifuxerocAfimOpafo" cardinality="one-to-many" reverseRelationshipName="wanunezOkEcejiDiyidu">
+        this.kepoyAceper = CifuxerocAfimOpafo.kepoyAceper
+    </Relationship>
+
+    <Relationship name="bonifocohOfUmuvUgiwal" relatedObject="CifuxerocAfimOpafo" cardinality="one-to-many" reverseRelationshipName="momutihOjEyuzEletob">
+        this.zagaToqoga = CifuxerocAfimOpafo.zagaToqoga
+    </Relationship>
+
+    <Relationship name="huvegetixUtAtobamAdoquh" relatedObject="CifuxerocAfimOpafo" cardinality="one-to-many" reverseRelationshipName="pelodesAkOsatozOcunuq">
+        this.jazimiJiquve = CifuxerocAfimOpafo.jazimiJiquve
+    </Relationship>
+
+    <Relationship name="qugufogurAyOxabOkufin" relatedObject="CifuxerocAfimOpafo" cardinality="one-to-many" reverseRelationshipName="yumaxojEvOcunOyutej">
+        this.jucaGiliwe = CifuxerocAfimOpafo.jucaGiliwe
+    </Relationship>
+
+    <Index name="vaPi" unique="true">id</Index>
+    <Index name="suSesunosAlesik">vozavikArawiz</Index>
+    <Index name="cuJecoGoqagi" unique="true">fawoSuvamu</Index>
+    <Index name="ziNonutAnaven" unique="true">guvutOwinev</Index>
+    <Index name="xuRapejEkomin" unique="true">kepoyAceper</Index>
+    <Index name="zaBupiXezimu" unique="true">zagaToqoga</Index>
+    <Index name="keNolateNulemu" unique="true">jazimiJiquve</Index>
+    <Index name="raQucuZeredi" unique="true">jucaGiliwe</Index>
+
+</MithraObject>
+

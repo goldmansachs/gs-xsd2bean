@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>interface,noki,riyoxadipojoxuj,gokurogohupu,qahabiwe</Templates>
+    <PackageName>com.gs.fw.lilu.wute.dinezaxilo.bavijena</PackageName>
+
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.product.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.biqosezix.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.cowisox.*</ImportPackageName>
+
+
+    <ClassName>WexeCuseZafedifajilOxicigil</ClassName>
+    <DefaultTable></DefaultTable>
+    <SchemaName></SchemaName>
+    <DatabaseName></DatabaseName>
+    <ConnectionManagerName>zoqew</ConnectionManagerName>
+    <ReadOnly>true</ReadOnly>
+
+    <PrimaryKeyAttribute keyClass="BadiWenaVagixevemedEwoqiravAdi">
+        <Attribute name="businessDate" columnName="" javaType="Timestamp" sqlType="Timestamp"/>
+    </PrimaryKeyAttribute>
+
+    <ForeignKeyAttribute name="wuqaloHel" keyClass="WuqaloHel">
+        <Attribute columnName="" javaType="int" name="hequdeDo" sqlType="Ciyisag"/>
+    </ForeignKeyAttribute>
+    <ForeignKeyAttribute name="cekeloqEfikoTeq" keyClass="CekeloqEfikoTeq">
+        <Attribute columnName="" javaType="int" name="id" sqlType="Ciyisag"/>
+        <Attribute name="businessDate" columnName="" javaType="Timestamp" sqlType="Timestamp"/>
+    </ForeignKeyAttribute>
+
+    <ForeignKeyAttribute name="bebaRadedihEyipuGag" keyClass="CekeloqEfikoTeq">
+        <Attribute columnName="" javaType="int" name="id" sqlType="Ciyisag"/>
+        <Attribute name="businessDate" columnName="" javaType="Timestamp" sqlType="Timestamp"/>
+    </ForeignKeyAttribute>
+
+    <Relationship cardinality="many-to-one" dependentClass="Paxice" foreignKey="wuqaloHel" name="entity"/>
+
+    <Relationship cardinality="many-to-one" dependentClass="RozusebAhezi" foreignKey="cekeloqEfikoTeq"
+                  name="rozusebAhezi"/>
+
+    <Relationship cardinality="many-to-one" dependentClass="RozusebAhezi" foreignKey="bebaRadedihEyipuGag"
+                  name="hasuNexivuqUdahi"/>
+
+
+</ManagedObject>

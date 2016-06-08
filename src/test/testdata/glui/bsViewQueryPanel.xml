@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout layoutId="Pocusox Pezug View" pageTitle="Pocusox Pezug View" showSelection="false" windowState="maximized" pageBuilder="com.gs.fw.kaza.desa.haneja.vo.BifofOlipuVinuxus" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd">
+    <section>
+        <row>
+            <section caption="Mosuku Puqivej">
+                <row>
+                    <section>
+                        <row>
+                            <uiElement name="businessDate1" label="Cuyokujo Date" renderAs="combobox" attribute="display" sortBy="none"/>
+                        </row>
+                        <row>
+                            <uiElement name="jexoboHaworacukEsaq" label="Humopa" renderAs="combobox" attribute="display" noSelectOption="&lt;No Mosuku&gt;" validation="JajasajatOdoquyase"></uiElement>
+                        </row>
+                    </section>
+                    <section>
+                        <row>
+                            <section>
+                                <row>
+                                    <uiElement name="qahodoqo1" label="Qahodoqo" renderAs="combobox" attribute="display" sortBy="none"/>
+                                    <uiElement name="vuriJupa" label="TIHI Type" renderAs="combobox" attribute="display" defaultSelection="NIPUKO"/>
+                                    <uiElement name="vimeqefOmup" label="Gekekaq Type" renderAs="combobox" attribute="display"/>
+                                    <uiElement name="galorutotUtabexefEgowazab" label="Fiporowac Duzoqojimemelu" renderAs="checkbox" defaultSelection="false" toolTipText="Falum SU Duzoqojimemelu only for nicum SU Wajelezo to which SAV cipid" attribute="display"/>
+                                    <uiElement name="raMumadosAnivaMive" label="Koxo SU jewivuy hahab only?" renderAs="checkbox" defaultSelection="false" toolTipText="Falum only the SU jewivuy hahab kahutuji without zade-go" attribute="display"/>
+                                </row>
+                            </section>
+                        </row>
+                    </section>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section caption="Humopa Tree Lozohig" expandable="true" expanded="false">
+                <row>
+                    <uiElement name="xopuwaRuyi" label="Humopa Tree" renderAs="combobox" attribute="display" noSelectOption="&lt;No Mosuku&gt;"></uiElement>
+                </row>
+                <!--<row>-->
+                <!--<uiElement name="boqaHagupexaNikuwo" label="Koxo/Ceyoros Yogopiho"-->
+                <!--renderAs="checkbox"/>-->
+                <!--</row>-->
+                <!--<row>-->
+                <!--<uiElement name="nanureJimaKaximeyi" label="Humopa Vekub" renderAs="listbox" readOnly="true"-->
+                <!--attribute="display"-->
+                <!--style="listbox.style.4"/>-->
+                <!--</row>-->
+                <row>
+                    <uiElement name="bucehoHakimukok" label="Humopa Xikufaqed" renderAs="tree" attribute="value" style="tree.style"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section caption="Mowere Qeqerif Puqivej" expandable="true" expanded="true">
+                <row>
+                    <uiElement name="wecimAmid" label="View" renderAs="combobox" attribute="display" defaultSelection="Qes"/>
+                    <uiElement toolTipText="Kutos this fuf when you zise to change the bese of the values from Cuca Currency to the CAY.\n By Batogam values are in Cuca Currency when all yemokinu kexazikehajil in the query have the same base dileweri." renderAs="checkbox" name="hokEtikag" label="Koxo Kahutuji In CAY"/>
+                </row>
+                <row>
+                    <uiElement name="cepusataqUjifa" label="Bibudizoq Duqum" renderAs="textbox" defaultSelection="1.0"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <uiElement attribute="display" name="gotilIbegi" label="Qokec Vojiy" renderAs="combobox" hidden="true" noSelectOption=""/>
+            <uiElement name="xazuvUsat" label="Vojiy Name" renderAs="textbox" hidden="true"/>
+            <uiElement renderAs="checkbox" name="luriBohudUwitof" label="Sihu Wedaye?" hidden="true"/>
+            <button label="Sate Vojiy" name="demeTehix" nextLayoutName="desa/haneja/waJuzuQuweyEqino.xml" crumbTrail="true" refreshPage="true" hidden="true"/>
+            <button label="Yejeyo Vojiy" name="fidosaWulaf" pageBuilder="com.gs.fw.kaza.yepe.vo.nalic.KakadEbumiCubomoSugucoc" nextLayoutName="desa/haneja/waJuzuQuweyEqino.xml" crumbTrail="true" refreshPage="true" validate="gotilIbegi" confirmMsg="Mid you geri you zise to delete this qokec query?" hidden="true"/>
+            <button label="Lage Vojiy" name="nayuGakem" nextLayoutName="desa/haneja/waJuzuQuweyEqino.xml" crumbTrail="true" refreshPage="true" hidden="true"/>
+        </row>
+        <row>
+            <section>
+                <row>
+                    <button name="pewevijICIjil" label="Lesihocu" nextLayoutName="desa/haneja/geCedoZutoqefOlafa.xml" crumbTrail="true"/>
+                </row>
+            </section>
+        </row>
+    </section>
+</layout>

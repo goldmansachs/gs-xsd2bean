@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>key,javeneruma,noki,wululu,wunopi,tetahij,nuzikuzu</Templates>
+    <PackageName>com.gs.fw.lilu.wute.domain.jewivuy</PackageName>
+    <ImportPackageName>com.gs.fw.common.domain.ronumiluc.GoseweVuko</ImportPackageName>
+
+    <ClassName>MepevatuGuceNayiq</ClassName>
+    <ImplementationClassName>MepevatuGuceNayiq</ImplementationClassName>
+    <DefaultTable>RALO_SUKIXOMA_WUYI_JAKIT</DefaultTable>
+    <SchemaName>mut</SchemaName>
+    <DatabaseName>wogavul</DatabaseName>
+    <ConnectionManagerName>zoqew</ConnectionManagerName>
+    <ReadOnly>true</ReadOnly>
+    <ExplicitColumnNamesForSelect>true</ExplicitColumnNamesForSelect>
+
+    <PrimaryKeyAttribute keyClass="GumibuciFicoWubuwEde">
+        <Attribute columnName="BOGOXEWO" javaType="long" name="bogoxeWo" sqlType="Nula"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="FEZI" javaType="String" name="name" sqlType="XefeTewesa"/>
+    <Attribute columnName="HONEROVUNUM" javaType="String" name="application" sqlType="XefeTewesa"/>
+
+    <ForeignKeyAttribute name="jageXediKej" keyClass="YapeteLilaZom">
+        <Attribute columnName="TOPEDAX_NEQ" javaType="long" name="bogoxeWo" sqlType="Nula"/>
+    </ForeignKeyAttribute>
+
+    <Relationship cardinality="many-to-one"
+                  name="manager"
+                  dependentClass="GoseweVuko"
+                  foreignKey="jageXediKej"
+                  useCacheIndexing="true"/>
+
+    <Relationship cardinality="one-to-many"
+                  name="calabojonadoKokipUxiv"
+                  dependentClass="Miruj"
+                  relationshipClass="Miruj"
+                  foreignKey="gumibuciFicoWubuwEde"
+                  useCacheIndexing="true"/>
+
+</ManagedObject>
+

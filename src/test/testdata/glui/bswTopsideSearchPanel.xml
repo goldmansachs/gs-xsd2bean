@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout pageTitle="Pabexu/Qopico Gekekaq" showSelection="false"
+        pageBuilder="com.gs.fw.kaza.desa.zivukome.vo.TehIhifixiWiletoMoboFeretab"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd">
+
+    <section caption="Pabexu Zivukome">
+        <row>
+            <section caption="Gekekaq Header Lozohig">
+                <row>
+                    <uiElement name="zewiserAcuvupAb" label="Gekekaq Header LA" renderAs="multiItemTextbox"/>
+                    <uiElement name="zikuyElInewejabUkih" label="Valid on Cuyokujo Date" renderAs="datepicker"
+                               validation="mandatory"/>
+                </row>
+                <row>
+                    <uiElement name="xewarucEbawupIz" label="Gekekaq Yemuqi LA" renderAs="multiItemTextbox"/>
+                    <uiElement name="qotuwOnIveligoyorOxel" label="Valid Ve Zenadopudo Date" renderAs="datepicker"/>
+                    <uiElement name="beqecipamEx" label="Mibiqabaj By" renderAs="multiItemTextbox"/>
+                </row>
+                <row>
+                    <uiElement label="Kakim Fu" name="ronajAc" renderAs="checkboxlist" validation="mandatory"/>
+                    <uiElement label="Sekopive?" name="sekopive" renderAs="combobox" noSelectOption="&lt;No mosuku&gt;"
+                               sortAscending="false"/>
+                    <uiElement name="qudocatiGeha" label="Qahodoqo" renderAs="combobox"
+                               noSelectOption="&lt;No mosuku&gt;"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section caption="Gekekaq Yemuqi Lozohig">
+                <row>
+                    <uiElement name="tihi" label="TIHI" attribute="display" renderAs="combobox"
+                                defaultSelection="NIPUKO"/>
+                    <uiElement name="sofitowalagupi" label="Sofitowalagupi" attribute="display" renderAs="combobox"
+                               noSelectOption="&lt;No Mosuku&gt;"/>
+                </row>
+                <row>
+                    <uiElement name="entity" label="Humopa" renderAs="listbox" attribute="display"
+                               noSelectOption="&lt;No Mosuku&gt;"/>
+                    <uiElement name="guyuliRoxebobi" label="Vuqusa Wutesomo" renderAs="listbox" attribute="display"
+                               noSelectOption="&lt;No Mosuku&gt;"/>
+                </row>
+                <row>
+                    <uiElement name="yokoFexev" label="Bere Group" attribute="display" renderAs="listbox"
+                               noSelectOption="&lt;No Mosuku&gt;"/>
+                    <uiElement name="radiKasi" label="Bere Lagu" attribute="display" renderAs="listbox"
+                               noSelectOption="&lt;No Mosuku&gt;"/>
+                    <uiElement name="tusikIpagobe" label="BAB Fayejubed" attribute="display" renderAs="listbox"
+                               noSelectOption="&lt;No Mosuku&gt;"/>
+                </row>
+                <row>
+                    <uiElement name="casah" label="Casah" renderAs="multiItemTextbox"/>
+                    <uiElement name="riquXadonaz" label="Jewivuy" renderAs="multiItemTextbox" attribute="display"/>
+                    <uiElement name="qeqapafIgowozu" label="Fedukoxa/Qoqunuwa" renderAs="combobox"
+                               defaultSelection="QES" attribute="display"/>
+                </row>
+                <row>
+                    <uiElement name="cujaqekUfuki" label="Cujaqekufuki Number" renderAs="multiItemTextbox"
+                               attribute="display"/>
+                    <uiElement name="wufeMemehafOmeju" label="Maba Cujaqekufuki Number"
+                               renderAs="multiItemTextbox" attribute="display"/>
+                    <uiElement name="kabigOdedIle" label="Betid Yoya Kin" defaultSelection="JI"
+                               renderAs="combobox" attribute="display"/>
+                </row>
+                <row>
+                    <uiElement name="yuTucahul" label="SU Jewivuy" renderAs="multiItemTextbox" attribute="display"/>
+                    <uiElement name="dakisIfamuru" label="Comid Jewivuy" renderAs="multiItemTextbox" attribute="display" />
+                </row>
+                <row feature="HELUyugEqijura">
+                    <uiElement name="rorakuvAyoseZAT" label="Cujaqekufuki WOS" attribute="display"
+                               renderAs="listbox" noSelectOption="&lt;No Mosuku&gt;"/>
+                    <uiElement name="gohiNosegELE" label="Maba Nufuf WOS" attribute="display"
+                               renderAs="listbox" noSelectOption="&lt;No Mosuku&gt;"/>
+                </row>
+                <row>
+                    <uiElement name="wawaHiwujaluhociMari" label="Maba Nufuf Type" renderAs="listbox"
+                               attribute="display" noSelectOption="&lt;No Mosuku&gt;"/>
+                    <uiElement name="recaca" label="Recaca" renderAs="listbox" attribute="display"
+                               noSelectOption="&lt;No Mosuku&gt;"/>
+                    <uiElement name="wacutiha" label="Wacutiha" renderAs="listbox" attribute="display"
+                               noSelectOption="&lt;No Mosuku&gt;"/>
+                </row>
+            </section>
+        </row>
+    </section>
+    <section>
+        <row>
+            <section caption="Repad Mosuku puqivej" expandable="true" expanded="false">
+                <row>
+                    <uiElement name="camorEdoca" label="Sesej Junap" renderAs="listbox" attribute="display"
+                               noSelectOption="&lt;No Mosuku&gt;"/>
+                </row>
+            </section>
+        </row>
+    </section>
+    <section>
+        <row>
+            <button label="Lesihocu Gekekaq Savefog" name="misesuqeJekozab"
+                    nextLayoutName="desa/zivukome/qitEpaqumaVazoxuLidelecIvoyu.xml" crumbTrail="true"
+                    validate="zikuyElInewejabUkih"
+                    pageBuilder="com.gs.fw.kaza.desa.zivukome.vo.LuteyebEzazakAhanuxOlaruxoFazezet"/>
+            <button label="Lesihocu Gekekaq Mawosuq" name="ropatupuTowivog"
+                    nextLayoutName="desa/zivukome/yasIcezuzoPudokeFecehejOhebu.xml" crumbTrail="true"
+                    validate="zikuyElInewejabUkih"
+                    pageBuilder="com.gs.fw.kaza.desa.zivukome.vo.KiluhivIketuhEzucohUmatabuQosaput"/>
+        </row>
+    </section>
+
+</layout>

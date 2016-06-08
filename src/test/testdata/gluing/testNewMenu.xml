@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../xsd/layout_ng.xsd"
+    title="Saku - Menu Page">
+
+    <View style="labelLink.style">
+        <GridLayoutManager columns="20" rows="1" spacing="1" unitType="percent">
+
+            <Label text="Menu Howinedi" style="title.neyuxas.musub" />
+            <MenuBar id="mokuVufEhak11">
+
+            </MenuBar>
+        </GridLayoutManager>
+    </View>
+
+    <View style="labelLink.style">
+        <GridLayoutManager columns="20" rows="1" spacing="1" unitType="percent">
+            <MenuBar id="mokuVufEhak12">
+                <Menu id="qer1" text="test 1">
+
+                </Menu>
+                <Menu id="qer12" text="test 2">
+
+                </Menu>
+            </MenuBar>
+        </GridLayoutManager>
+    </View>
+
+    <View style="labelLink.style">
+        <GridLayoutManager columns="20" rows="1" spacing="1" unitType="percent">
+            <MenuBar id="mokuVufEhak">
+                <Menu id="qer2" text="test 3">
+                    <Menu id="qer21" text="test 4 " />
+                </Menu>
+
+                <Menu id="qer22" text="test 5 ">
+                    <Menu id="qer23" text="test 6" />
+                </Menu>
+            </MenuBar>
+        </GridLayoutManager>
+    </View>
+
+    <View style="labelLink.style">
+        <GridLayoutManager columns="20" rows="20" spacing="1" unitType="percent">
+            <MenuBar id="qesoneyOyigunik" style="hoCatoGuj.style">
+                <Menu text="Gateneno Menu" id="yupIluxEtatafoj" style="mebivewuSugaBinumu.style">
+                    <Menu style="nivakokiZebiTekum.style" text="Gateneno A" id="kasaxepuK" />
+                    <Menu style="nivakokiZebiTekum.style" text="Gateneno R" id="numusawuB" />
+                    <Menu style="nivakokiZebiTekum.style" text="Gateneno N" id="qitafejaM" />
+                </Menu>
+
+                <Menu style="jilukodaBiceTuqiquFovese.style" text="Gateneno V" id="magaleqiQ" defaultMenu="true">
+                    <LayoutAction layoutName="screens/mideredu/wurAxijica.xml" />
+                </Menu>
+
+                <Menu style="haqiwocoRuhaPiyaciWokEqarEnij.style" text="Gateneno - NamAnuq" id="keyoweciGofEbuy">
+                    <Menu style="keyoweciGofEbuy1Getoki.style" text="Gateneno NamAnuq1" id="namAnuq1Gateneno">
+                        <Menu style="vinevufuKifUpifApozoMikew.style" text="Gateneno Y" id="zetusigoW" />
+                        <Menu style="guhemiseMutUrotAtewu.style" text="Gateneno Z" id="sibipisuY" />
+                        <Menu style="guhemiseMutUrotAtewu.style" text="Gateneno N" id="hofeyibeK" />
+                    </Menu>
+
+                    <Menu style="nivakokiZebiTekum.Pimudi.NamAnuq.style" text="Gateneno L" id="xeqosoceF" />
+
+                    <Menu style="keyoweciGofEbuy1Getoki.style" text="Gateneno NamAnuq2" id="namAnuq2Gateneno">
+                        <Menu style="vinevufuKifUpifApozoMikew.style" text="Gateneno Q" id="diqaqedeN" />
+
+                        <Menu style="guhemiseMutUrotAtewu.style" text="Gateneno B" id="qubunozaS" />
+
+                        <Menu style="guhemiseMutUrotAtewu.style" text="Gateneno N" id="pohaluheV" />
+
+                    </Menu>
+
+                    <Menu style="nivakokiZebiTekum.style" text="Gateneno X" id="dakimisiN" />
+                    <Menu style="nivakokiZebiTekum.style" text="Gateneno M" id="pisawokiJ" />
+                    <Menu style="nivakokiZebiTekum.style" text="Gateneno T" id="tewuruceJ" />
+                </Menu>
+            </MenuBar>
+        </GridLayoutManager>
+    </View>
+
+    <View style="labelLink.style">
+        <GridLayoutManager columns="20" rows="20" spacing="1" unitType="percent">
+            <MenuBar id="menubar" style="hoCatoGuj.style">
+                <Menu text="Yoxef Components" id="bonabiz">
+                    <LayoutAction layoutName="screens/mideredu/bonabiz.xml" />
+                </Menu>
+
+                <Menu text="Menu" id="wagUkij">
+                    <Menu text="Yoxef Components" id="tudevow">
+                        <LayoutAction layoutName="screens/mideredu/wurAxijica.xml" />
+                    </Menu>
+                    <Menu text="MUTE Vetoje" id="yasOSoy">
+                        <LayoutAction layoutName="screens/mideredu/totagebUqoforen.xml" />
+                    </Menu>
+                    <Menu text="Fumuxi Nebetu" id="subuzuQeduze">
+                        <LayoutAction layoutName="screens/mideredu/subuzuQeduze.xml" />
+                    </Menu>
+                    <Menu text="Zocakoq Nebetu" id="hisanamIfoceb">
+                        <LayoutAction layoutName="screens/mideredu/table/hisanamIfoceb.xml" />
+                    </Menu>
+                    <Menu text="Cuyudi / Jihimi" id="dawefiMuwi">
+                        <LayoutAction layoutName="screens/mideredu/dawefimuwi.xml" />
+                    </Menu>
+                    <Menu text="Styles" id="varokeGazan">
+                        <LayoutAction layoutName="screens/mideredu/table/wozaHuroWonucuWafiViwihofUfehiw.xml" />
+                    </Menu>
+                    <Menu text="Dobibi Sitar" id="zugeLotiminabilu">
+                        <LayoutAction layoutName="screens/mideredu/lesuvofAxUlif.xml" />
+                    </Menu>
+                    <Menu text="Gogil Bibog Sacorofa" id="redoqUxigiDaniharoTiyix">
+                        <LayoutAction layoutName="screens/mideredu/qagetIsareWuzehodiqo.xml" />
+                    </Menu>
+                    <Menu text="Rutapa Jozoyeh" id="fayeNuQeqirocIjize">
+                        <LayoutAction layoutName="screens/mideredu/yavozeDajuwa.xml" />
+                    </Menu>
+                    <Menu text="WahegItutag" id="fomexApafuxEsone">
+                        <LayoutAction layoutName="screens/mideredu/table/finijIgowe.xml" />
+                    </Menu>
+                    <Menu text="Nebetu Bexu Wawixopi" id="corafeNunoKewetasuYisej">
+                        <LayoutAction layoutName="screens/mideredu/table/yajahaVibuWeroriro.xml" />
+                    </Menu>
+                    <Menu text="NO Wane Page" id="wujuPIMeru">
+
+                        <ExternalUrlAction externalUrl="http://wane.gs.com/jekej/vov" />
+                    </Menu>
+                </Menu>
+
+                <Menu text="Vecok" id="vecok">
+                    <Menu text="Tigulociyat Zisa" id="madojeparemUhoz">
+                        <JavaAction
+                            classMethodToInvoke="com.gs.fw.common.glui.cama.BivoriBetuHefeNupibew.deyUlAkogutawenoWiku"
+                            />
+                    </Menu>
+                    <Menu text="Non-Tigulociyat Zisa" id="rurEjazuzohowoCayu">
+                        <JavaAction
+                            classMethodToInvoke="com.gs.fw.common.glui.cama.BivoriBetuHefeNupibew.temAcUhuQifenuganowEyis"
+                            />
+                    </Menu>
+                </Menu>
+
+                <Menu text="Menu - NamAnuq" id="namAnuq">
+
+                    <Menu style="kiVuwIziv1Getoki.style" text="NamAnuq1" id="namAnuq1">
+                        <Menu style="caHalOhivUsikeFupap.style" text="Yoxef Components" id="tudevow1">
+                            <LayoutAction layoutName="screens/mideredu/wurAxijica.xml" />
+                        </Menu>
+                        <Menu style="niSafIfihUkiha.style" text="MUTE Vetoje" id="yasOSoy1">
+                            <LayoutAction layoutName="screens/mideredu/totagebUqoforen.xml" />
+                        </Menu>
+                        <Menu style="niSafIfihUkiha.style" text="Fumuxi Nebetu" id="subuzuQeduze1">
+                            <LayoutAction layoutName="screens/mideredu/subuzuQeduze.xml" />
+                        </Menu>
+                        <Menu style="niSafIfihUkiha.style" text="Cuyudi / Jihimi" id="dawefiMuwi1">
+                            <LayoutAction layoutName="screens/mideredu/dawefimuwi.xml" />
+                        </Menu>
+                    </Menu>
+
+                    <Menu style="vaJimeWohag.Pimudi.NamAnuq.style" text="Styles" id="varokeGazan1">
+                        <LayoutAction layoutName="screens/mideredu/table/wozaHuroWonucuWafiViwihofUfehiw.xml" />
+                    </Menu>
+
+                    <Menu style="kiVuwIziv1Getoki.style" text="NamAnuq2" id="namAnuq2">
+                        <Menu style="caHalOhivUsikeFupap.style" text="Dobibi Sitar" id="zugeLotiminabilu">
+                            <LayoutAction layoutName="screens/mideredu/lesuvofAxUlif.xml" />
+                        </Menu>
+                        <Menu style="niSafIfihUkiha.style" text="Gogil Bibog Sacorofa" id="redoqUxigiDaniharoTiyix">
+                            <LayoutAction layoutName="screens/mideredu/qagetIsareWuzehodiqo.xml" />
+                        </Menu>
+                        <Menu style="niSafIfihUkiha.style" text="Rutapa Jozoyeh" id="fayeNuQeqirocIjize">
+                            <LayoutAction layoutName="screens/mideredu/yavozeDajuwa.xml" />
+                        </Menu>
+                    </Menu>
+
+                    <Menu style="vaJimeWohag.style" text="WahegItutag" id="fomexApafuxEsone">
+                        <LayoutAction layoutName="screens/mideredu/table/finijIgowe.xml" />
+                    </Menu>
+                    <Menu style="vaJimeWohag.jeMutemokav.style" text="Menu Bexu Lec Ceyonibi" id="FuyuTasiXorOhufEwar">
+                        <LayoutAction layoutName="screens/mideredu/bonabiz.xml" />
+                    </Menu>
+                    <Menu text="Nebetu Bexu Wawixopi" id="corafeNunoKewetasuYisej">
+                        <LayoutAction layoutName="screens/mideredu/table/yajahaVibuWeroriro.xml" />
+                    </Menu>
+                    <Menu text="NO Wane Page" id="wujuPIMeru1">
+                        <ExternalUrlAction externalUrl="http://wane.gs.com/jekej/vov" />
+                    </Menu>
+                </Menu>
+
+                <Menu text="Saku Kut Schema" id="sajuGomOlocoy">
+                    <LayoutAction layoutName="screens/mideredu/sajuGomOlocoy.xml" />
+                </Menu>
+            </MenuBar>
+
+        </GridLayoutManager>
+    </View>
+</Page>
+
+

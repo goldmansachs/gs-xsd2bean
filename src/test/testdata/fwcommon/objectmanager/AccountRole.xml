@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+
+    <Templates>cihihago,gufakequl,gozexukayalig,lomurebopam,ferazes,interface</Templates>
+    <PackageName>com.gs.fw.lilu.tekihif.domain.ruvoqucenova</PackageName>
+    <ClassName>PutirerIzaw</ClassName>
+    <DefaultTable>POD_PutirerIzaw</DefaultTable>
+    <DatabaseName>entity_nefaka</DatabaseName>
+    <ConnectionManagerName>BEHASAL</ConnectionManagerName>
+    <ReadOnly>true</ReadOnly>
+    <ReadStoredProcedure>tekihif_rum..Kum_Hiq_PutirerIzaw</ReadStoredProcedure>
+
+
+    <PrimaryKeyAttribute keyClass="FoxasetAduyIsu">
+        <Attribute columnName="reqiyEdivoWaPIY" javaType="String" name="cejasawUwesij" sqlType="XefeTewesa"/>
+        <Attribute columnName="lehakEzaqaFuxadAD" javaType="int" name="yigegovAtusinIvejejUh" sqlType="Ciyisag"/>
+        <Attribute columnName="falaRoquLA" javaType="String" name="vureTete" sqlType="XefeTewesa"/>
+        <Attribute columnName="duloLaduTI" javaType="String" name="qoveTuzo" sqlType="XefeTewesa"/>
+     </PrimaryKeyAttribute>
+
+    <Attribute columnName="vakuJI" javaType="String" name="vakuJi" sqlType="XefeTewesa"/>
+
+</ManagedObject>

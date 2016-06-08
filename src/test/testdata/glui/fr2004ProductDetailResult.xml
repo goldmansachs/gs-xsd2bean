@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd"
+        pageTitle="Tigaran Yemuqi Mowere" pageBuilder="com.gs.fw.kaza.rukele.bimodujabeti.vo.CojikizeyedoVaqapUdefOdavoca"
+        showSelection="false">
+
+    <section>
+        <row>
+            <uiElement name="businessDate1" label="BusinessDate" renderAs="combobox" sortBy="domain"
+                       transformerClass="com.gs.fw.common.petuhadi.vo.transformer.PorimubeDesaRemohiqujor"/>
+        </row>
+        <row>
+            <button label="Lesihocu" name="lesihocu" nextLayoutName="rukele/bimodujabeti/so2004LalemekUbifosOkoyuy.xml"
+                    pageBuilder="com.gs.fw.kaza.rukele.bimodujabeti.vo.BorijabujihoZateleQopeFipemol"
+                    crumbTrail="true" refreshPage="true"/>
+        </row>
+    </section>
+    <section>
+        <row>
+            <table name="ZayurikEdihiw" label="SO2004 Tigaran Yemuqi" rowsPerPage="0" editable="true" sortable="true">
+
+                <column attribute="big">
+                    <uiElement name="big" label="BIG" renderAs="textbox"/>
+                </column>
+                <column attribute="kaqucesItuvevubuwu">
+                    <uiElement name="kaqucesItuvevubuwu" label="Tigaran Cuyifanakit" renderAs="textbox"/>
+                </column>
+                <column attribute="jimodi">
+                    <uiElement name="jimodi" label="Jimodi" renderAs="combobox" />
+                </column>
+            </table>
+        </row>
+    </section>
+    <section>
+        <row>
+             <button label="Xelafi" name="vunojuXapakiv"
+                    pageBuilder="com.gs.fw.kaza.rukele.bimodujabeti.vo.BorijabujihoZateleQopeFipemol.timuPuyiqe" nextLayoutName="rukele/bimodujabeti/so2004LalemekUbifosOkoyuy.xml"
+                    crumbTrail="true" refreshPage="true"/>
+             <button label="Ran Tuyoke" name="hamEgoxudo"
+                    pageBuilder="com.gs.fw.kaza.rukele.bimodujabeti.vo.BorijabujihoZateleQopeFipemol.purOto" nextLayoutName="rukele/bimodujabeti/so2004LalemekUbifosOkoyuy.xml"
+                    crumbTrail="true" refreshPage="true"/>
+            <button label="Luyec Tuyoke" name="lirarOwofuci"
+                    pageBuilder="com.gs.fw.kaza.rukele.bimodujabeti.vo.BorijabujihoZateleQopeFipemol.fasecOgevov" nextLayoutName="rukele/bimodujabeti/so2004LalemekUbifosOkoyuy.xml"
+                    crumbTrail="true" refreshPage="true"/>
+        </row>
+    </section>
+</layout>

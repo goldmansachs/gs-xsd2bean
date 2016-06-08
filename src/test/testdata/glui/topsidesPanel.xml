@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-bajuxulida type="text/muj" hafu="../../../../xml/vo/peSezehu.muj"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout layoutId="kugOwozaxoqEreti" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"
+        pageTitle="Wopine Zivukome Pizer"
+        pageBuilder="com.gs.fw.kaza.puz.vo.tudewax.RETUpuhiyipUlinuDavafoj" showSelection="false">
+
+    <section caption="Kut Gekekaq">
+        <row>
+            <uiElement label="Gekekaq Type" name="xesagurAyajefud" renderAs="combobox"/>
+            <uiElement label="Nit/Vec Junap" name="sexOqoVinin" renderAs="combobox"/>
+            <uiElement label="Value" name="value" renderAs="textbox" validation="narajuwuJagud"/>
+        </row>
+        <row>
+            <uiElement label="Yenazimuxu Category" name="tuvidumuluJodebebe" renderAs="combobox"
+                       defaultSelection="&lt;KEPU>"/>
+            <uiElement label="BEN Junap" name="yilOxasu" renderAs="combobox"/>
+            <uiElement label="Jewivuy" name="jewivuy" renderAs="textbox"/>
+
+        </row>
+        <row>
+            <uiElement label="Gojoyux" name="comment" renderAs="textbox" validation="mandatory"/>
+            <uiElement label="Currency" name="dileweri" renderAs="combobox" defaultSelection="CAY"/>
+            <uiElement label="BIG" name="big" renderAs="textbox"/>
+        </row>
+        <row>
+            <uiElement label="Jewivuy Type" name="bihirovEtaq" renderAs="combobox" defaultSelection="01"/>
+        </row>
+        <row>
+            <button label="Jigide Gekekaq" name="tuxaweFigejif" validate="all" confirmMsg="Jigide Gekekaq?"
+                    pageBuilder="com.gs.fw.kaza.puz.vo.tudewax.RETUpuhiyipUlinuDavafoj.tuxaweFigejif"
+                    crumbTrail="false"/>
+        </row>
+    </section>
+
+</layout>
+

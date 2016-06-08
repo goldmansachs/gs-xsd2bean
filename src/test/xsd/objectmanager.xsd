@@ -1,0 +1,330 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+            jxb:version="1.0">
+    <xsd:annotation>
+        <xsd:documentation xml:lang="en">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        </xsd:documentation>
+        <xsd:appinfo>
+            <jxb:globalBindings generateIsSetMethod="true"/>
+        </xsd:appinfo>
+    </xsd:annotation>
+
+    <xsd:element name="TemplateList" type="TemplateType"/>
+
+    <xsd:complexType name="TemplateType">
+        <xsd:sequence>
+            <xsd:element name="TemplateResource" type="TemplateResourceType" minOccurs="1" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="TemplateResourceType">
+        <xsd:attribute name="name" type="xsd:token" use="required"/>
+        <xsd:attribute name="classPrefix" type="xsd:token"/>
+        <xsd:attribute name="classSuffix" type="xsd:token"/>
+        <xsd:attribute name="subPackage" type="xsd:token"/>
+        <xsd:attribute name="dependentPackages" type="xsd:token"/>
+        <xsd:attribute name="extension" type="xsd:token" use="required"/>
+        <xsd:attribute name="default" type="xsd:boolean" default="false"/>
+        <xsd:attribute name="group" type="xsd:token"/>
+    </xsd:complexType>
+
+    <xsd:element name="ManagedObject" type="ManagedObjectType"/>
+
+    <xsd:complexType name="ManagedObjectType">
+        <xsd:sequence>
+            <xsd:element name="Templates" type="xsd:token" minOccurs="0"/>
+            <xsd:element name="PackageName" type="xsd:token" minOccurs="1"/>
+            <xsd:element name="ImportPackageName" type="xsd:token" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="ClassName" type="xsd:token" minOccurs="1"/>
+            <xsd:element name="ImplementationClassName" type="xsd:token" minOccurs="0"/>
+            <xsd:element name="SuperClassName" type="xsd:token" minOccurs="0"/>
+            <xsd:element name="SuperInterfaceNames" type="xsd:token" minOccurs="0"/>
+            <xsd:element name="ClassSerialVersionUID" type="xsd:token" minOccurs="0" maxOccurs="1">
+                <xsd:annotation>
+                    <xsd:documentation>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    </xsd:documentation>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="InterfaceSerialVersionUID" type="xsd:token" minOccurs="0" maxOccurs="1">
+                <xsd:annotation>
+                    <xsd:documentation>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    </xsd:documentation>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="AddCargo" type="xsd:boolean" minOccurs="0"/>
+            <xsd:element name="Cacheable" type="xsd:boolean" minOccurs="0"/>
+            <xsd:element name="CacheType" type="xsd:token" minOccurs="0"/>
+            <xsd:element name="DefaultTable" type="xsd:token" minOccurs="0"/>
+            <xsd:element name="SchemaName" type="xsd:token" minOccurs="0"/>
+            <xsd:element name="DatabaseName" type="xsd:token" minOccurs="0"/>
+            <xsd:element name="ConnectionManagerName" type="xsd:token" minOccurs="0"/>
+            <xsd:element name="ReadOnly" type="xsd:boolean" minOccurs="0"/>
+            <xsd:element name="ExplicitColumnNamesForSelect" type="xsd:boolean" minOccurs="0"/>
+            <xsd:element name="Distinct" type="xsd:boolean" minOccurs="0"/>
+            <xsd:element name="ReadStoredProcedure" type="xsd:token" minOccurs="0"/>
+            <xsd:element name="InsertStoredProcedure" type="xsd:token" minOccurs="0"/>
+            <xsd:element name="UpdateStoredProcedure" type="xsd:token" minOccurs="0"/>
+            <xsd:element name="DeleteStoredProcedure" type="xsd:token" minOccurs="0"/>
+            <xsd:element name="Faker" type="xsd:token" minOccurs="0"/>
+            <xsd:element name="PrimaryKeyAttribute" type="PrimaryKeyType" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="Attribute" type="AttributeType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="BalanceAttribute" type="BalanceAttributeType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="BooleanAttribute" type="BooleanAttributeType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="ForeignKeyAttribute" type="ForeignKeyType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="ClassBasedAttribute" type="ClassBasedAttributeType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="TypeSafeEnumAttribute" type="TypeSafeEnumAttributeType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="Relationship" type="RelationshipType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="RelationshipBuilder" type="BuilderType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="AbstractMethod" type="AbstractMethodType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="Index" type="IndexType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="IndexBuilder" type="BuilderType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="SelectorIndex" type="xsd:token" minOccurs="0" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="AbstractAttributeType" abstract="true">
+        <xsd:attribute name="name" type="xsd:token" use="required"/>
+    </xsd:complexType>
+
+    <!--<xsd:complexType name="AbstractSqlAttributeType" abstract="true">-->
+    <!--<xsd:complexContent>-->
+    <!--<xsd:extension base="AbstractAttributeType">-->
+    <!--<xsd:attribute name="sqlType" type="xsd:token"/>-->
+    <!--<xsd:attribute name="javaType" type="xsd:token"/>-->
+    <!--<xsd:attribute name="columnName" type="xsd:token"/>-->
+    <!--<xsd:anyAttribute namespace="##targetNamespace"/>-->
+    <!--</xsd:extension>-->
+    <!--</xsd:complexContent>-->
+    <!--</xsd:complexType>-->
+
+    <xsd:complexType name="AbstractClassType" abstract="true">
+        <xsd:complexContent>
+            <xsd:extension base="AbstractAttributeType">
+                <xsd:sequence>
+                    <xsd:element name="Attribute" type="AttributeType" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element name="BooleanAttribute" type="BooleanAttributeType" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element name="ClassBasedAttribute" type="ClassBasedAttributeType" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element name="TypeSafeEnumAttribute" type="TypeSafeEnumAttributeType" minOccurs="0"
+                                 maxOccurs="unbounded"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="AttributeType">
+        <xsd:complexContent>
+            <xsd:extension base="AbstractAttributeType">
+                <xsd:attribute name="sqlType" type="xsd:token"/>
+                <xsd:attribute name="javaType" type="xsd:token"/>
+                <xsd:attribute name="columnName" type="xsd:token"/>
+                <xsd:attribute name="maxLength" type="xsd:int"/>
+                <xsd:attribute name="truncate" type="xsd:boolean" default="false"/>
+                <xsd:attribute name="classBasedFieldName" type="xsd:token"/>
+                <xsd:attribute name="nullable" type="xsd:boolean" default="true"/>
+                <xsd:attribute name="poolable" type="xsd:boolean" default="true"/>
+                <xsd:attribute name="defaultIfNull" type="xsd:token"/>
+                <xsd:attribute name="trim" type="xsd:boolean" default="true"/>
+                <xsd:attribute name="readonly" type="xsd:boolean" default="false"/>
+                <xsd:attribute name="attributeFieldName" type="xsd:token" default=""/>
+                <xsd:attribute name="interfaceOnly" type="xsd:boolean" default="false"/>
+                <xsd:attribute name="value" type="xsd:token"/>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="BooleanAttributeType">
+        <xsd:complexContent>
+            <xsd:extension base="AbstractAttributeType">
+                <xsd:attribute name="javaType" type="xsd:token" default="boolean"/>
+                <xsd:attribute name="columnName" type="xsd:token" use="required"/>
+                <xsd:attribute name="sqlType" type="xsd:token" use="required"/>
+                <xsd:attribute name="trueValue" type="xsd:token"/>
+                <xsd:attribute name="falseValue" type="xsd:token"/>
+                <xsd:attribute name="defaultIfNull" type="xsd:token"/>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="BalanceAttributeType">
+        <xsd:complexContent>
+            <xsd:extension base="AbstractAttributeType">
+                <xsd:attribute name="sqlType" type="xsd:token" use="required"/>
+                <xsd:attribute name="columnName" type="xsd:token" use="required"/>
+                <xsd:attribute name="inZMethodName" type="xsd:token" use="required"/>
+                <xsd:attribute name="outZMethodName" type="xsd:token" use="required"/>
+                <xsd:attribute name="javaType" type="xsd:token" default="double"/>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="AbstractMethodType">
+        <xsd:attribute name="returnType" type="xsd:token" use="required"/>
+        <xsd:attribute name="methodName" type="xsd:token" use="required"/>
+        <xsd:attribute name="parameters" type="xsd:token"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="PrimaryKeyType">
+        <xsd:sequence>
+            <xsd:element name="Attribute" type="AttributeType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="BooleanAttribute" type="BooleanAttributeType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="ClassBasedAttribute" type="ClassBasedAttributeType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="TypeSafeEnumAttribute" type="TypeSafeEnumAttributeType" minOccurs="0"
+                         maxOccurs="unbounded"/>
+        </xsd:sequence>
+        <xsd:attribute name="keyClass" type="xsd:token" use="optional"/>
+        <xsd:attribute name="exposeAttributes" type="xsd:boolean" default="true"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="ForeignKeyType">
+        <xsd:complexContent>
+            <xsd:extension base="AbstractClassType">
+                <xsd:attribute name="keyClass" type="xsd:token" use="required"/>
+                <xsd:attribute name="exposeAttributes" type="xsd:boolean" default="false"/>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="ClassBasedAttributeType">
+        <xsd:complexContent>
+            <xsd:extension base="AbstractClassType">
+                <xsd:attribute name="attributeClass" type="xsd:token" use="required">
+                    <xsd:annotation>
+                        <xsd:appinfo>
+                            <!--
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            -->
+                            <jxb:property name="javaType"/>
+                        </xsd:appinfo>
+                    </xsd:annotation>
+                </xsd:attribute>
+                <xsd:attribute name="allowNulls" type="xsd:boolean" use="optional" default="true"/>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="TypeSafeEnumAttributeType">
+        <xsd:complexContent>
+            <xsd:extension base="AbstractAttributeType">
+                <xsd:sequence>
+                    <xsd:element name="Map" type="TypeSafeEnumMapType" minOccurs="0" maxOccurs="unbounded"/>
+                </xsd:sequence>
+                <xsd:attribute name="javaType" type="xsd:token" use="required"/>
+                <xsd:attribute name="columnName" type="xsd:token" use="optional"/>
+                <xsd:attribute name="sqlType" type="xsd:token" use="optional"/>
+                <xsd:attribute name="lookupMethod" type="xsd:token" use="optional"/>
+                <xsd:attribute name="value" type="xsd:token" use="optional"/>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="TypeSafeEnumMapType">
+        <xsd:attribute name="constant" type="xsd:token" use="required"/>
+        <xsd:attribute name="sqlValue" type="xsd:token" use="required"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="RelationshipType">
+        <xsd:complexContent>
+            <xsd:extension base="AbstractAttributeType">
+                <xsd:attribute name="foreignKey" type="xsd:token"/>
+                <xsd:attribute name="dependentClass" type="xsd:token" use="required"/>
+                <xsd:attribute name="relationshipClass" type="xsd:token"/>
+                <xsd:attribute name="cardinality" type="CardinalityType" use="required"/>
+                <xsd:attribute name="dependentRelationshipAttribute" type="xsd:token"/>
+                <xsd:attribute name="aggregation" type="xsd:boolean" default="false"/>
+                <xsd:attribute name="useCacheIndexing" type="xsd:boolean" default="false"/>
+                <xsd:attribute name="dynamic" type="xsd:boolean" default="false"/>
+                <xsd:attribute name="interfaceOnly" type="xsd:boolean" default="false"/>
+                <xsd:attribute name="deepSerialization" type="xsd:boolean" default="false"/>
+                <xsd:attribute name="mandatory" type="xsd:boolean" default="false"/>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="IndexType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute name="name" type="xsd:token" use="required"/>
+                <xsd:attribute name="unique" type="xsd:boolean" default="false"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="BuilderType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute name="className" type="xsd:token" use="required"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="SuperClassAttributeType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute name="name" type="xsd:token" use="required"/>
+                <xsd:attribute name="generated" type="xsd:boolean"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+
+    <xsd:simpleType name="CardinalityType">
+        <xsd:annotation>
+            <xsd:appinfo>
+                <jxb:typesafeEnumClass/>
+            </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:token">
+            <xsd:enumeration value="one-to-many"/>
+            <xsd:enumeration value="many-to-many"/>
+            <xsd:enumeration value="many-to-many-key"/>
+            <xsd:enumeration value="ordered-many-to-many"/>
+            <xsd:enumeration value="one-to-one"/>
+            <xsd:enumeration value="many-to-one"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="ObjectType">
+        <xsd:annotation>
+            <xsd:appinfo>
+                <jxb:typesafeEnumClass/>
+            </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:token">
+            <xsd:enumeration value="read-only"/>
+            <xsd:enumeration value="transactional"/>
+            <xsd:enumeration value="embedded-value"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="SuperClassType">
+        <xsd:annotation>
+            <xsd:appinfo>
+                <jxb:typesafeEnumClass/>
+            </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:token">
+            <xsd:enumeration value="table-per-subclass"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+</xsd:schema>

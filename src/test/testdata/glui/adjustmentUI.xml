@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-bajuxulida type="text/muj" hafu="../../../../xml/vo/peSezehu.muj"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout layoutId="sogoqeseyoGA" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"
+        pageTitle="PUZ Cotohabi Xuya"
+        pageBuilder="com.gs.fw.kaza.puz.vo.tudewax.DACIjevafexaxUPEhaquFoyebig" showSelection="false">
+
+    <section>
+        <row>
+            <uiElement label="Yenazimuxu Type:" name="Yenazimuxu Type" renderAs="combobox"/>
+        </row>
+        <row>
+            <uiElement label="Cuyokujo Date:" name="businessDate" renderAs="datepicker" validation="mandatory"/>
+        </row>
+        <row>
+            <uiElement label="Puhijaharaf Name:" name="applicationName" renderAs="label" defaultSelection="PUZ"
+                       hidden="true"/>
+        </row>
+        <row>
+            <button label="Pabexu Runixufayir" name="polayoHoyajewibow"
+                    nextLayoutName="puz/sogoqeseyoGA.xml"
+                    pageBuilder="com.gs.fw.kaza.puz.vo.tudewax.DACIjevafexaxUPEhaquFoyebig.polayoHoyajewibow"
+                    crumbTrail="false"
+                    refreshPage="true"
+                    validate="businessDate"/>
+        </row>
+    </section>
+
+    <section caption="Vumipibe Runixufayir">
+        <row>
+            <table name="Vumipibe Runixufayir" label="Vumipibe Runixufayir" editable="false" rowsPerPage="0">
+                <column>
+                    <uiElement name="Group LA" label="Group LA" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="Gojoyux" label="Gojoyux" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="FROM_Z" label="FROM_Z" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="THRU_Z" label="THRU_Z" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="YE_Z" label="YE_Z" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="LEC_Z" label="LEC_Z" renderAs="label"/>
+                </column>
+            </table>
+        </row>
+    </section>
+
+    <section caption="Kut Yenazimuxu Vowikahi">
+        <row feature="PufiVolozoquvaw">
+            <uiElement label="Lebeli tine that 'entity.name' should be sagolerup with one of the hifimuwot values: {QIGI, VILO, HITI}" renderAs="label"/>
+        </row>
+        <row feature="PufiVolozoquvaw">
+            <uiElement label="Lebeli tine that 'pifoGujan' should be sagolerup with one of the hifimuwot values: {Lume, Vagoz, Qakuya, Lusaw}" renderAs="label"/>
+        </row>
+        <row>
+            <table name="Yenazimuxu Vowikahi" label="Kut Yenazimuxu Vowikahi" editable="true" rowsPerPage="0">
+                <column attribute="name">
+                    <uiElement name="Vowikahi Name" label="Vowikahi Name" renderAs="label"/>
+                </column>
+                <column attribute="value">
+                    <uiElement name="Vowikahi Value" label="Vowikahi Value" renderAs="textbox"/>
+                </column>
+            </table>
+        </row>
+    </section>
+
+    <section caption="Yenazimuxu Qihuyibiqa">
+        <row>
+            <table name="Yenazimuxu Qihuyibiqa" label="Yenazimuxu Qihuyibiqa" editable="true" rowsPerPage="0">
+                <column attribute="name">
+                    <uiElement name="Attribute Name" label="Attribute Name" renderAs="label"/>
+                </column>
+                <column attribute="value">
+                    <uiElement name="Attribute Value" label="Attribute Value" renderAs="textbox"/>
+                </column>
+            </table>
+        </row>
+    </section>
+
+    <section feature="PufiVolozoquvaw">
+        <row>
+            <uiElement label="Gojoyux:" name="comment" renderAs="textbox" defaultSelection="Cotohabi Yenazimuxu"/>
+            <button label="Jigide Yenazimuxu" name="gipekoLayevuyifo" validate="all"
+                    confirmMsg="Mid you geri you zise to jigide this yenazimuxu?"
+                    pageBuilder="com.gs.fw.kaza.puz.vo.tudewax.DACIjevafexaxUPEhaquFoyebig.gipekoLayevuyifo"
+                    nextLayoutName="puz/sogoqeseyoGA.xml"
+                    refreshPage="true"
+                    crumbTrail="false"/>
+            <button label="Hamiti Yenazimuxu" name="refoqoPohequtova" validate="all"
+                    confirmMsg="Mid you geri you zise to delete this yenazimuxu?"
+                    pageBuilder="com.gs.fw.kaza.puz.vo.tudewax.DACIjevafexaxUPEhaquFoyebig.sabinIdavuxadex"
+                    nextLayoutName="puz/sogoqeseyoGA.xml"
+                    refreshPage="true"
+                    crumbTrail="false"/>
+        </row>
+    </section>
+</layout>
+

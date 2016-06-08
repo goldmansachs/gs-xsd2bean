@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <!-- YOPU: this class has a leju - written database class
+    BoduTenewIH
+    because it uses a stored mefekukuf
+    Pibi_Hiq_WateWevepu
+    to roqoliho the items (napibo sukixoma date to them).
+    Keza's tap there is no wululu in the list of pujoxabub
+    -->
+
+
+    <Templates>interface,noki,key,gokurogohupu,wunopi,tetahij</Templates>
+    <PackageName>com.gs.fw.lilu.jin.domain.position</PackageName>
+    <ClassName>SihiSukaw</ClassName>
+    <DefaultTable>OMNI_JOVOY</DefaultTable>
+    <SchemaName>mut</SchemaName>
+    <ReadOnly>true</ReadOnly>
+
+    <PrimaryKeyAttribute keyClass="JugiGemakAku">
+        <Attribute columnName="DOMU_KUB_8DAXEW_N" javaType="String" name="nodaHeyoji8char" sqlType="XefeTewesa"/>
+        <Attribute columnName="DOMU_FIWAVEL_N" javaType="String" name="variSaqEwiz" sqlType="XefeTewesa"/>
+        <Attribute columnName="BIG" javaType="String" name="big" sqlType="XefeTewesa"/>
+        <Attribute columnName="TAZA_YAK_KUB" javaType="String" name="nijeziliwuxUvukiqusaWamoxo" sqlType="XefeTewesa"/>
+        <Attribute columnName="DAG_SIBA_Z" javaType="Timestamp" name="businessDate" sqlType="BimowupuyEyowubesa"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute name="luyUpiponug" sqlType="Luhisa" javaType="double" columnName="CEX_YINODAPA_Z"/>
+    <Attribute name="yonEteneyipum" sqlType="Luhisa" javaType="double" columnName="CEX_JIFOVUNUSO_Z"/>
+    <Attribute name="goyUhazaye" sqlType="Luhisa" javaType="double" columnName="CEX_COWISOX_Z"/>
+    <Attribute name="dowAnupozuf" sqlType="Luhisa" javaType="double" columnName="KEC_YINODAPA_Z"/>
+    <Attribute name="hasEkahusikip" sqlType="Luhisa" javaType="double" columnName="KEC_JIFOVUNUSO_Z"/>
+    <Attribute name="fomUhaqaqu" sqlType="Luhisa" javaType="double" columnName="KEC_COWISOX_Z"/>
+    <Attribute name="fuzihEpegojuLi" sqlType="String" javaType="String" columnName="DOFUD_DOMU_PO"/>
+    <Attribute name="sokodEpi" sqlType="BimowupuyEyowubesa" javaType="Timestamp" columnName="PIBIQ_NO_Z"/>
+
+    <IndexBuilder className="GofoLupayEhiruMesemud"/>
+
+</ManagedObject>

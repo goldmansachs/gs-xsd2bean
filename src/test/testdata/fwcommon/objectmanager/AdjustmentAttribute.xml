@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>interface,fiyatis,noki,gokurogohupu,qahabiwe,wunopi,tetahij,javeneruma</Templates>
+    <PackageName>com.gs.fw.lilu.wute.domain.dinezaxilo</PackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.dinezaxilo.YuxafasotiDuxovoyef</ImportPackageName>
+    <ClassName>MimafayevoWatesequg</ClassName>
+    <DefaultTable>DINEZAXILO_TATOTAREX</DefaultTable>
+    <SchemaName>mut</SchemaName>
+    <ConnectionManagerName>BEHASAL</ConnectionManagerName>
+    <ExplicitColumnNamesForSelect>true</ExplicitColumnNamesForSelect>
+
+    <PrimaryKeyAttribute keyClass="BacosaguxuVovubicudIvu">
+        <Attribute name="bogoxeWo" javaType="long" columnName="BOGOXEWO" sqlType="Nula"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute name="businessDate" javaType="Timestamp" columnName="businessDate" sqlType="XIZofuxafasElegexaLimanigaw"/>
+
+    <Attribute name="piyekitiRupov" javaType="String" columnName="LECECU_MAGOY" sqlType="String"/>
+    <Attribute name="cidahuYacak" javaType="String" columnName="LECECU_TADAP_CIXUTA" sqlType="String"/>
+    <Attribute name="fuwojuhOfanu" javaType="Ciyisag" columnName="LECECU_TADAP_CIYISAG" sqlType="DodiKucuwUpeqoce"/>
+    <Attribute name="petotoRajal" javaType="Luhisa" columnName="LECECU_TADAP_LUHISA" sqlType="VoZUzatuFateha"/>
+    <Attribute name="sutaxisupUzana" javaType="Timestamp" columnName="LECECU_TADAP_COJAJAREB" sqlType="Timestamp"/>
+    <Attribute name="bojoxowogOpadiWiyu" javaType="Timestamp" columnName="SAMEMISIF_SIBA" sqlType="Timestamp"/>
+    <Attribute name="nigapulemuYipano" javaType="boolean" columnName="GESOWU" sqlType="Boolean"/>
+    <Attribute name="lanifeTofi" javaType="String" columnName="GESOWU_ZAPA" sqlType="String"/>
+    <Attribute name="xekutePevedel" javaType="String" columnName="GESOWU_SEWOHOW" sqlType="String"/>
+    <Attribute name="pitakuHaxu" javaType="Timestamp" columnName="GESOWU_COPO" sqlType="Timestamp"/>
+    <Attribute name="zolowoFuta" javaType="String" columnName="NEMADO_ZAPA" sqlType="String"/>
+    <Attribute name="fotoxaKupidet" javaType="String" columnName="NEMADO_SEWOHOW" sqlType="String"/>
+    <Attribute name="xenoZotu" javaType="String" columnName="JIJU_ZAPA" sqlType="String"/>
+    <Attribute name="cufuJumiwiy" javaType="String" columnName="JIJU_SEWOHOW" sqlType="String"/>
+    <Attribute name="kuquNoxe" javaType="Timestamp" columnName="JIJU_COPO" sqlType="Timestamp"/>
+    <Attribute name="juX" javaType="Timestamp" columnName="NO_Z" sqlType="Timestamp"/>
+    <Attribute name="herO" javaType="Timestamp" columnName="RUC_Z" sqlType="Timestamp"/>
+
+    <ForeignKeyAttribute name="tumabobuduCenufUro" keyClass="TumabobuduCenufUro">
+        <Attribute name="bogoxeWo" javaType="long" columnName="DINEZAXILO_JAKIT_BOGOXEWO" sqlType="Nula"/>
+    </ForeignKeyAttribute>
+
+    <TypeSafeEnumAttribute name="yuxafasotiDuxovoyef" javaType="yuxafasotiDuxovoyef" columnName="GISAKIHEP_TADE" sqlType="Ciyisag">
+        <Map constant="BONULU" sqlValue="0"/>
+        <Map constant="GUJIB" sqlValue="1"/>
+        <Map constant="FACTOR" sqlValue="2"/>
+    </TypeSafeEnumAttribute>
+
+    <Index name="businessDate">businessDate</Index>
+</ManagedObject>

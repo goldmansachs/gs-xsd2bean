@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject objectType="transactional">
+
+    <PackageName>com.gs.fw.common.mithra.test.yob</PackageName>
+    <ClassName>Zogepuziqoso</ClassName>
+    <DefaultTable>ZOGEPUZIQOSO</DefaultTable>   
+
+    <Attribute name="jocavahomugiWe" javaType="long" columnName="ZOGEPUZIQOSO_LA" 
+    	primaryKey="true" />
+
+	<!-- attributes of related object -->
+	<Attribute name="deradetolutaHaroDu" javaType="long" columnName="ZOGEPUZIQOSO_XANO_LA" nullable="false"/>
+	<Attribute name="nazaSa" javaType="long" columnName="JOVA_LA"/>
+	<Attribute name="kosepOf" javaType="long" columnName="DAQEY_LA"/>
+	<Attribute name="cijuboxEk" javaType="long" columnName="BUMITOM_LA"/>
+	<Attribute name="yutayogidId" javaType="Date" columnName="PIYIDOJOH_FU" nullable="false"/>
+	<Attribute name="yijexuhUk" javaType="String" columnName="PUDEHAN_XE" nullable="false"/>
+
+</MithraObject>

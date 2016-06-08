@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-bajuxulida type="text/muj" hafu="../../../../xml/vo/peSezehu.muj"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout layoutId="tokavAripucurEmefikureNalofEmowa" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"
+        pageTitle="WUM: Kahutuji to Fizumurel"
+        pageBuilder="com.gs.fw.kaza.puz.vo.tudewax.BibezArodoqebUkoqilezaXedimAtiseFosukeg" showSelection="false">
+
+    <section>
+        <row>
+            <section caption="Sate/Lage Vojiy">
+                <row>
+                    <uiElement attribute="name" name="gotilIbegi" label="Qokec Vojiy:" renderAs="combobox"/>
+                    <button label="Sate Vojiy"
+                            name="demeTehix"
+                            crumbTrail="false"/>
+                    <button label="Yejeyo Vojiy"
+                            name="fidosaWulaf"
+                            crumbTrail="false"/>
+                </row>
+                <row>
+                    <uiElement name="xazuvUsat" label="Vojiy Name" renderAs="textbox"/>
+                    <uiElement renderAs="checkbox" name="luriBohudUwitof" label="Sihu Wedaye?"/>
+                    <button label="Lage Vojiy"
+                            name="nayuGakem"
+                            crumbTrail="false"/>
+                </row>
+            </section>
+        </row>
+    </section>
+
+    <section caption="Guyayineg Giyel">
+        <row>
+            <uiElement label="PUZ Fedukoxa/Qoqunuwa" name="heviyicoRejilele" renderAs="combobox"
+                       defaultSelection="Fedukoxa in Pocusox Pezug"/>
+        </row>
+    </section>
+
+    <section>
+        <row>
+            <section caption="Cuyokujo Rovid and Yoruhapak">
+                <row>
+                    <uiElement label="Cuyokujo Date" name="businessDate" renderAs="combobox"
+                               transformerClass="com.gs.fw.common.petuhadi.vo.transformer.PorimubeDesaRemohiqujor"
+                               sortAscending="false"/>
+                    <uiElement label="Qahodoqo" name="qahodoqo" renderAs="combobox" attribute="description"/>
+                </row>
+            </section>
+        </row>
+    </section>
+
+    <section>
+        <row>
+            <section caption="Humopa and CujaqekUfuki">
+                <row>
+                    <uiElement label=" Humopa :" name="entity" renderAs="combobox" defaultSelection="QIGI"
+                               transformerClass="com.gs.fw.kaza.yepe.glui.transformer.RawehiDosokopuciy"/>
+                    <uiElement label=" CujaqekUfuki :" name="cujaqekUfuki" renderAs="textbox"
+                               rightAlign="true"/>
+                    <uiElement name="xosuzizUbeyiFicoda" label="Kanoqi" renderAs="checkbox" defaultSelection="false"/>
+                </row>
+                <row>
+                    <uiElement name="jobireqOfejo" label="Jewivuy Hahab" renderAs="checkbox" defaultSelection="false"/>
+                </row>
+            </section>
+        </row>
+    </section>
+
+    <section>
+        <row>
+            <section caption="Pocusox Lozohig">
+                <row>
+                    <uiElement label=" Vec Sofitowalagupi Juho :" name="quvaradAvetopowawikox"
+                               renderAs="textbox"
+                               rightAlign="true"/>
+                    <uiElement name="rigumogUjepixenupiyomEcufig" label="Kanoqi" renderAs="checkbox"
+                               defaultSelection="false"/>
+                </row>
+            </section>
+            <section caption="Fumotosi Lozohig">
+                <row>
+                    <uiElement label=" Nit Sofitowalagupi Juho :" name="mecaneduDogamodowemifa"
+                               renderAs="textbox"
+                               rightAlign="true"/>
+                    <uiElement name="cisisipiYebadeceyevesoZeteja" label="Kanoqi" renderAs="checkbox"
+                               defaultSelection="false"/>
+                </row>
+                <row>
+                    <uiElement label=" PUZ Dut Jewivuy Type :" name="wafOguzaxuTeku"
+                               renderAs="textbox"
+                               rightAlign="true"/>
+                    <uiElement name="kupOpuyusaPipuXugove" label="Kanoqi" renderAs="checkbox"
+                               defaultSelection="false"/>
+                </row>
+            </section>
+        </row>
+    </section>
+    <section>
+        <row>
+            <section caption="Molodaliwu Cuyokujo Category Mosuku">
+                <row>
+                    <uiElement name="jagujifakoPaxozatUwozigox" label=" Molodaliwu Cuyokujo Category :"
+                               renderAs="textbox"/>
+                    <uiElement name="rohuricazoQabuyeriHakayugoNuzaro" label="Kanoqi" renderAs="checkbox"
+                               defaultSelection="false"/>
+                </row>
+            </section>
+        </row>
+    </section>
+
+    <section caption="Modida Hegoji">
+        <row>
+            <uiElement name="lanapuLirev" label="Modida" renderAs="checkbox" defaultSelection="false"/>
+            <uiElement name="yuladoMalecid" label="Hegoji" renderAs="combobox"/>
+            <uiElement name="puqivej" label="Operation" renderAs="combobox" attribute="description"/>
+            <uiElement name="joyupoXawoq" label="Value" renderAs="textbox"/>
+        </row>
+    </section>
+
+    <section>
+        <row>
+            <button label="Lesihocu"
+                    name="lesihocu" 
+                    nextLayoutName="puz/tokavAripucurEmefikureNalofEmowa.xml"
+                    pageBuilder="com.gs.fw.kaza.puz.vo.tudewax.SuxihOreluvezOzixamebiKefibiFewixUhogate"
+                    refreshPage="true"/>
+        </row>
+    </section>
+
+    <section>
+        <row>
+            <table name="vodagigebace" label="Duzoqojimemelu of Kahutuji to Fizumurel" rowsPerPage="20000">
+            </table>
+        </row>
+    </section>
+    <section>
+        <row>
+            <button label="Baken" name="simegInibet"
+                    pageBuilder="com.gs.fw.kaza.puz.vo.tudewax.MewihElicopUvumUkogapi"/>
+        </row>
+    </section>
+</layout>
+

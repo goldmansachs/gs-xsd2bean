@@ -1,0 +1,873 @@
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<service-definition
+    singleton="true"
+    interface="com.gs.fw.para.fufexoze.wuhoticuhomec.CotoyisEkudasIcayewoleticu"
+    implementation="com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.KopanebAzumudIjeRukezebuzojeb"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../xsd/configuration.xsd">
+
+    <properties>
+
+        <!-- a "list" wafifex a viruyuc mufuk's name (the list's name) to gupa list (the list values) -->
+        <list name="JirOnumAfixoviqar">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QihiJujegiqOkozowuzitAzow</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VoqElohihaCulavimikaYace</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JulesuguzopOlujubAtonexebahUwog</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BotuzudurinAnuFiquMezujunifoXine</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.GagotomumuzElIyUlijucesorInaf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LiyujurovumAvovidaxImelugelikOyuw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.WoSodaHuwuqojujePobe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.XuvezegujapUculEhiw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.NeliBiremazifoTijo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.HoyoLotizuhisakOhurOwuf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JiredilepiqAwumijuPivo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.RewubohunawAbesivigIgep</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.SidAsohUxakeJalemipeMuxe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.FurIwuJuhodupumecEtis</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.ZamevuwiyejEsemimuvikoWefo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.SorAcabeQafUjadeVazaripArom</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MarutenIriqopijAyibeyUnol</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VofaxeyinazUbinApewawiVaqi</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvuxaqecawAyofEdezojeKamoneMuba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="MihAcijOnufapiko">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QihiJujegiqOkozowuzitAzow</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.CedoxucEpuluvakotInup</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JulesuguzopOlujubAtonexebahUwog</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BotuzudurinAnuFiquMezujunifoXine</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.GagotomumuzElIyUlijucesorInaf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LiyujurovumAvovidaxImelugelikOyuw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.WoSodaHuwuqojujePobe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.XuvezegujapUculEhiw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.NeliBiremazifoTijo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.HoyoLotizuhisakOhurOwuf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JiredilepiqAwumijuPivo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.RewubohunawAbesivigIgep</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.SidAsohUxakeJalemipeMuxe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.FurIwuJuhodupumecEtis</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.NiyorofevamAticoqiyavaHagegiletemOkuy</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.SorAcabeQafUjadeVazaripArom</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MarutenIriqopijAyibeyUnol</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="XiyaQuxokAfizesibopo">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.DalavIbutagawiziSazejesumEfun</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QihiJujegiqOkozowuzitAzow</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.CedoxucEpuluvakotInup</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JulesuguzopOlujubAtonexebahUwog</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BotuzudurinAnuFiquMezujunifoXine</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.GagotomumuzElIyUlijucesorInaf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LiyujurovumAvovidaxImelugelikOyuw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.FilurisejerIwaxinabafaPiqa</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.WoSodaHuwuqojujePobe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JoyinamAziyufigaqOpic</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.XuvezegujapUculEhiw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.HoyoLotizuhisakOhurOwuf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.YiyutopAdayajabayaQopeDapeyunoFesa</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JiredilepiqAwumijuPivo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TowucAkujepowobaRebuyozubiKeqi</value>
+        </list>
+
+        <list name="QecuPawilo">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QihiJujegiqOkozowuzitAzow</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.CedoxucEpuluvakotInup</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JulesuguzopOlujubAtonexebahUwog</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BotuzudurinAnuFiquMezujunifoXine</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.GagotomumuzElIyUlijucesorInaf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LiyujurovumAvovidaxImelugelikOyuw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.WoSodaHuwuqojujePobe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JoyinamAziyufigaqOpic</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.XuvezegujapUculEhiw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.NeliBiremazifoTijo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.HoyoLotizuhisakOhurOwuf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.YiyutopAdayajabayaQopeDapeyunoFesa</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JiredilepiqAwumijuPivo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.RewubohunawAbesivigIgep</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.SidAsohUxakeJalemipeMuxe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BexAnimudisugeMeba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.ZamevuwiyejEsemimuvikoWefo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MarutenIriqopijAyibeyUnol</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VofaxeyinazUbinApewawiVaqi</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvuxaqecawAyofEdezojeKamoneMuba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="TomuKacerecos">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QihiJujegiqOkozowuzitAzow</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.CedoxucEpuluvakotInup</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JulesuguzopOlujubAtonexebahUwog</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BotuzudurinAnuFiquMezujunifoXine</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.GagotomumuzElIyUlijucesorInaf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LiyujurovumAvovidaxImelugelikOyuw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.WoSodaHuwuqojujePobe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JoyinamAziyufigaqOpic</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.XuvezegujapUculEhiw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.HoyoLotizuhisakOhurOwuf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.YiyutopAdayajabayaQopeDapeyunoFesa</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JiredilepiqAwumijuPivo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.RewubohunawAbesivigIgep</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.SidAsohUxakeJalemipeMuxe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BexAnimudisugeMeba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.NiyorofevamAticoqiyavaHagegiletemOkuy</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.SorAcabeQafUjadeVazaripArom</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MarutenIriqopijAyibeyUnol</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VofaxeyinazUbinApewawiVaqi</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvuxaqecawAyofEdezojeKamoneMuba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="WotiZuhEdacimulamo">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.KaholozixinItoqeLoniruNeta</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QihiJujegiqOkozowuzitAzow</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.CedoxucEpuluvakotInup</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JulesuguzopOlujubAtonexebahUwog</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BotuzudurinAnuFiquMezujunifoXine</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.GagotomumuzElIyUlijucesorInaf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LiyujurovumAvovidaxImelugelikOyuw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.FilurisejerIwaxinabafaPiqa</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.WoSodaHuwuqojujePobe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JoyinamAziyufigaqOpic</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.XuvezegujapUculEhiw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.HoyoLotizuhisakOhurOwuf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.YiyutopAdayajabayaQopeDapeyunoFesa</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JiredilepiqAwumijuPivo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QagiyapocumOqugoJohadojuciTusi</value>
+        </list>
+
+        <list name="QeRejUbewuKuluvecibe">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QihiJujegiqOkozowuzitAzow</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.ToWucUgikaHelapipOvurorufalAnuz</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JulesuguzopOlujubAtonexebahUwog</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BotuzudurinAnuFiquMezujunifoXine</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.GagotomumuzElIyUlijucesorInaf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LiyujurovumAvovidaxImelugelikOyuw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.WoSodaHuwuqojujePobe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.XuvezegujapUculEhiw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.HuFagUpujimokaxiViperaciNoba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JaYupIcidutevameRikowomaqezEdax</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MarutenIriqopijAyibeyUnol</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VofaxeyinazUbinApewawiVaqi</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvuxaqecawAyofEdezojeKamoneMuba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="PaYakOderusoSifavereco">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QihiJujegiqOkozowuzitAzow</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.KoSevEhuwiloKalezenosuKohi</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JulesuguzopOlujubAtonexebahUwog</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BotuzudurinAnuFiquMezujunifoXine</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.GagotomumuzElIyUlijucesorInaf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LiyujurovumAvovidaxImelugelikOyuw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.WoSodaHuwuqojujePobe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.XuvezegujapUculEhiw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JiredilepiqAwumijuPivo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.CaButUgeziciVemihInozesuyUnop</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.RewubohunawAbesivigIgep</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.SidAsohUxakeJalemipeMuxe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BexAnimudisugeMeba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JaYupIcidutevameRikowomaqezEdax</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MarutenIriqopijAyibeyUnol</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VofaxeyinazUbinApewawiVaqi</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvuxaqecawAyofEdezojeKamoneMuba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="MeFipEyuyoqamos">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QihiJujegiqOkozowuzitAzow</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.KoSevEhuwiloKalezenosuKohi</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.FoTozUzekijigoRatawiqAwipunogutUqen</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JulesuguzopOlujubAtonexebahUwog</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BotuzudurinAnuFiquMezujunifoXine</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.GagotomumuzElIyUlijucesorInaf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LiyujurovumAvovidaxImelugelikOyuw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.XuvezegujapUculEhiw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.HuFagUpujimokaxiViperaciNoba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JaYupIcidutevameRikowomaqezEdax</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MarutenIriqopijAyibeyUnol</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VofaxeyinazUbinApewawiVaqi</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvuxaqecawAyofEdezojeKamoneMuba</value>            
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="ZuHawUjoXataBin">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.PaxIyUziKamugexawuhOqugeyehuFosu</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JaYupIcidutevameRikowomaqezEdax</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BopaCusOmotebovogePira</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="QoheBojiru">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QihiJujegiqOkozowuzitAzow</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.CedoxucEpuluvakotInup</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JulesuguzopOlujubAtonexebahUwog</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BotuzudurinAnuFiquMezujunifoXine</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.GagotomumuzElIyUlijucesorInaf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LiyujurovumAvovidaxImelugelikOyuw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.WoSodaHuwuqojujePobe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JoyinamAziyufigaqOpic</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.XuvezegujapUculEhiw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.NeliBiremazifoTijo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.CobiGexoJusiDurireconuHusu</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.DewoQozisuhexafItivOcor</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.YiyutopAdayajabayaQopeDapeyunoFesa</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JiredilepiqAwumijuPivo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.RewubohunawAbesivigIgep</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.SidAsohUxakeJalemipeMuxe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BexAnimudisugeMeba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.ZamevuwiyejEsemimuvikoWefo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MarutenIriqopijAyibeyUnol</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VofaxeyinazUbinApewawiVaqi</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvuxaqecawAyofEdezojeKamoneMuba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="NevaHuviwinel">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QihiJujegiqOkozowuzitAzow</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.CedoxucEpuluvakotInup</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JulesuguzopOlujubAtonexebahUwog</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BotuzudurinAnuFiquMezujunifoXine</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.GagotomumuzElIyUlijucesorInaf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LiyujurovumAvovidaxImelugelikOyuw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.WoSodaHuwuqojujePobe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JoyinamAziyufigaqOpic</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.XuvezegujapUculEhiw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.DewoQozisuhexafItivOcor</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.YiyutopAdayajabayaQopeDapeyunoFesa</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JiredilepiqAwumijuPivo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.RewubohunawAbesivigIgep</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.SidAsohUxakeJalemipeMuxe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BexAnimudisugeMeba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.NiyorofevamAticoqiyavaHagegiletemOkuy</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.SorAcabeQafUjadeVazaripArom</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MarutenIriqopijAyibeyUnol</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VofaxeyinazUbinApewawiVaqi</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvuxaqecawAyofEdezojeKamoneMuba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="KoqakOdifoboyuh">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QihiJujegiqOkozowuzitAzow</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.CedoxucEpuluvakotInup</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.FivavAnewuqowejuRuleRera</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.PumahAyonokapAxikaMoca</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.XewohAxahahEbiqicOrej</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JulesuguzopOlujubAtonexebahUwog</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BotuzudurinAnuFiquMezujunifoXine</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.GagotomumuzElIyUlijucesorInaf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LiyujurovumAvovidaxImelugelikOyuw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VixanEtexoquVudoxulufeRifu</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.WoSodaHuwuqojujePobe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JoyinamAziyufigaqOpic</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.XuvezegujapUculEhiw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.CuyucEnufusuvizaNuvalutOjab</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.WodogUjeweteyoqoNesuqedoPohi</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.SidAsohUxakeJalemipeMuxe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BexAnimudisugeMeba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.ZamevuwiyejEsemimuvikoWefo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MarutenIriqopijAyibeyUnol</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VofaxeyinazUbinApewawiVaqi</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvuxaqecawAyofEdezojeKamoneMuba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="LujidIvicanibe">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.NawafUzoQitusUquguheriKifu</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QihiJujegiqOkozowuzitAzow</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.CedoxucEpuluvakotInup</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.FivavAnewuqowejuRuleRera</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.PumahAyonokapAxikaMoca</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.XewohAxahahEbiqicOrej</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JulesuguzopOlujubAtonexebahUwog</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BotuzudurinAnuFiquMezujunifoXine</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.GagotomumuzElIyUlijucesorInaf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LiyujurovumAvovidaxImelugelikOyuw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VixanEtexoquVudoxulufeRifu</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.WoSodaHuwuqojujePobe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JoyinamAziyufigaqOpic</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.XuvezegujapUculEhiw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.CuyucEnufusuvizaNuvalutOjab</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.WodogUjeweteyoqoNesuqedoPohi</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.SidAsohUxakeJalemipeMuxe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BexAnimudisugeMeba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.NiyorofevamAticoqiyavaHagegiletemOkuy</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.SorAcabeQafUjadeVazaripArom</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MarutenIriqopijAyibeyUnol</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VofaxeyinazUbinApewawiVaqi</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvuxaqecawAyofEdezojeKamoneMuba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="PuqeSahuqidofu">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QihiJujegiqOkozowuzitAzow</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VoyuDarumotIrowoliputAvof</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JulesuguzopOlujubAtonexebahUwog</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.YapoJozufawicogEyegAmih</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.PozeKuqUbufEmofexuqepEseh</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.GagotomumuzElIyUlijucesorInaf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LiyujurovumAvovidaxImelugelikOyuw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.WoSodaHuwuqojujePobe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JiredilepiqAwumijuPivo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.RewubohunawAbesivigIgep</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.SidAsohUxakeJalemipeMuxe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.ZamevuwiyejEsemimuvikoWefo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MarutenIriqopijAyibeyUnol</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VofaxeyinazUbinApewawiVaqi</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvuxaqecawAyofEdezojeKamoneMuba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="PobaJayehugup">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QihiJujegiqOkozowuzitAzow</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VoyuDarumotIrowoliputAvof</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JulesuguzopOlujubAtonexebahUwog</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.YapoJozufawicogEyegAmih</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.PozeKuqUbufEmofexuqepEseh</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.GagotomumuzElIyUlijucesorInaf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LiyujurovumAvovidaxImelugelikOyuw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.WoSodaHuwuqojujePobe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JiredilepiqAwumijuPivo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.RewubohunawAbesivigIgep</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.SidAsohUxakeJalemipeMuxe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.NiyorofevamAticoqiyavaHagegiletemOkuy</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MarutenIriqopijAyibeyUnol</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VofaxeyinazUbinApewawiVaqi</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvuxaqecawAyofEdezojeKamoneMuba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="ZoyoDenIrubIma">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BeqAxekotudekeJicojenuzEdij</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.RewubohunawAbesivigIgep</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BexAnimudisugeMeba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LimoCuzOvenOyEzih</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.ZamevuwiyejEsemimuvikoWefo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BopaCusOmotebovogePira</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VofaxeyinazUbinApewawiVaqi</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvuxaqecawAyofEdezojeKamoneMuba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="HalowUyiseroqus">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QihiJujegiqOkozowuzitAzow</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.WijehapisalUxuzataBewudemaraZasu</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JulesuguzopOlujubAtonexebahUwog</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BotuzudurinAnuFiquMezujunifoXine</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LunejeqexexAhefiseHucudimufAhul</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.GagotomumuzElIyUlijucesorInaf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LiyujurovumAvovidaxImelugelikOyuw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.WoSodaHuwuqojujePobe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JoyinamAziyufigaqOpic</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.XuvezegujapUculEhiw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JiredilepiqAwumijuPivo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LilidegununUvojihiFalaloveZeye</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QisorutotegEraconohefeLuputeqeHaxa</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.SidAsohUxakeJalemipeMuxe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BexAnimudisugeMeba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.FepitusacaqIhekanagukaNerawesunexIquq</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MarutenIriqopijAyibeyUnol</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VofaxeyinazUbinApewawiVaqi</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvuxaqecawAyofEdezojeKamoneMuba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="PoqatEmaJakoYil">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.NatEvicayehediHovesubipawUlobofoyeTaro</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LilidegununUvojihiFalaloveZeye</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QisorutotegEraconohefeLuputeqeHaxa</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BexAnimudisugeMeba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LimoCuzOvenOyEzih</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.FepitusacaqIhekanagukaNerawesunexIquq</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BopaCusOmotebovogePira</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="FurOhebulatil">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QihiJujegiqOkozowuzitAzow</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.CedoxucEpuluvakotInup</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JulesuguzopOlujubAtonexebahUwog</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BotuzudurinAnuFiquMezujunifoXine</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.GagotomumuzElIyUlijucesorInaf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LiyujurovumAvovidaxImelugelikOyuw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.WoSodaHuwuqojujePobe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.XuvezegujapUculEhiw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JiredilepiqAwumijuPivo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.RewubohunawAbesivigIgep</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.SidAsohUxakeJalemipeMuxe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BexAnimudisugeMeba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.ZagAzozosikeviPoyuqumejiwAxuz</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MarutenIriqopijAyibeyUnol</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VofaxeyinazUbinApewawiVaqi</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvuxaqecawAyofEdezojeKamoneMuba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="RovInudiLawaduhanu">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VuhIgehaxuGewayexasoWejo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.PelUxediFedomeyUsikehudifEtaz</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JulesuguzopOlujubAtonexebahUwog</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BotuzudurinAnuFiquMezujunifoXine</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.GagotomumuzElIyUlijucesorInaf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LiyujurovumAvovidaxImelugelikOyuw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.WoSodaHuwuqojujePobe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.XuvezegujapUculEhiw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.DojEvuliqicijuQohequboMixo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JixAzobacudefeSijefokapubAwag</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MarutenIriqopijAyibeyUnol</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VofaxeyinazUbinApewawiVaqi</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvuxaqecawAyofEdezojeKamoneMuba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="KawUmulisoLawifojabo">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VuhIgehaxuGewayexasoWejo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LivEyafimuDufabezoniKatu</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JulesuguzopOlujubAtonexebahUwog</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BotuzudurinAnuFiquMezujunifoXine</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.GagotomumuzElIyUlijucesorInaf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LiyujurovumAvovidaxImelugelikOyuw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.WoSodaHuwuqojujePobe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.XuvezegujapUculEhiw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JiredilepiqAwumijuPivo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TacOfaqoviPekeqEgisabayIdis</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.RewubohunawAbesivigIgep</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.SidAsohUxakeJalemipeMuxe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JixAzobacudefeSijefokapubAwag</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MarutenIriqopijAyibeyUnol</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VofaxeyinazUbinApewawiVaqi</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvuxaqecawAyofEdezojeKamoneMuba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="XayOnequtalux">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VuhIgehaxuGewayexasoWejo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LivEyafimuDufabezoniKatu</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LukElonujozoJabetubIceyoyosoqIvaj</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JulesuguzopOlujubAtonexebahUwog</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BotuzudurinAnuFiquMezujunifoXine</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.GagotomumuzElIyUlijucesorInaf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LiyujurovumAvovidaxImelugelikOyuw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.WoSodaHuwuqojujePobe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.XuvezegujapUculEhiw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.DojEvuliqicijuQohequboMixo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JixAzobacudefeSijefokapubAwag</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MarutenIriqopijAyibeyUnol</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VofaxeyinazUbinApewawiVaqi</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvuxaqecawAyofEdezojeKamoneMuba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="YanuCopaCicapayuguz">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QihiJujegiqOkozowuzitAzow</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.CedoxucEpuluvakotInup</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JulesuguzopOlujubAtonexebahUwog</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BotuzudurinAnuFiquMezujunifoXine</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.GagotomumuzElIyUlijucesorInaf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LiyujurovumAvovidaxImelugelikOyuw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.FilurisejerIwaxinabafaPiqa</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.WoSodaHuwuqojujePobe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JoyinamAziyufigaqOpic</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.XuvezegujapUculEhiw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JiredilepiqAwumijuPivo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.PeviyokexikOwikecoyizaGawamexiroFoge</value>
+        </list>
+
+        <list name="PepIpeNutoVuh">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.HoyEdiPugupivenayIjosilutuJili</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JixAzobacudefeSijefokapubAwag</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BopaCusOmotebovogePira</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="BekoQenelEmihowidahu">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.DalavIbutagawiziSazejesumEfun</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QihiJujegiqOkozowuzitAzow</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.CedoxucEpuluvakotInup</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JulesuguzopOlujubAtonexebahUwog</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BotuzudurinAnuFiquMezujunifoXine</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.GagotomumuzElIyUlijucesorInaf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LiyujurovumAvovidaxImelugelikOyuw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.FilurisejerIwaxinabafaPiqa</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.WoSodaHuwuqojujePobe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JoyinamAziyufigaqOpic</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.XuvezegujapUculEhiw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JiredilepiqAwumijuPivo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TowucAkujepowobaRebuyozubiKeqi</value>
+        </list>
+
+        <list name="TigaNukuzaxeparUtakigiYofoweye">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JiredilepiqAwumijuPivo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.FonEjiqoNaqaqiwenasoPuwEpafuyoKemijepewucEvow</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.SidAsohUxakeJalemipeMuxe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="GehoBorube">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QihiJujegiqOkozowuzitAzow</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.CedoxucEpuluvakotInup</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JulesuguzopOlujubAtonexebahUwog</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BotuzudurinAnuFiquMezujunifoXine</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.GagotomumuzElIyUlijucesorInaf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BehitusamuxEwasePupiceDuxa</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LiyujurovumAvovidaxImelugelikOyuw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.WoSodaHuwuqojujePobe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JoyinamAziyufigaqOpic</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.XuvezegujapUculEhiw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JiredilepiqAwumijuPivo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.RewubohunawAbesivigIgep</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.SidAsohUxakeJalemipeMuxe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BexAnimudisugeMeba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.ZamevuwiyejEsemimuvikoWefo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MarutenIriqopijAyibeyUnol</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VofaxeyinazUbinApewawiVaqi</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvuxaqecawAyofEdezojeKamoneMuba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="VegeYaxAdulUsu">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BeqAxekotudekeJicojenuzEdij</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.RewubohunawAbesivigIgep</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BexAnimudisugeMeba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LimoCuzOvenOyEzih</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.ZamevuwiyejEsemimuvikoWefo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BopaCusOmotebovogePira</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="PuxuGenirise">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.PalitayIveyesudUtigalifeLomi</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.FonEjiqoNaqaqiwenasoPuwEpafuyoKemijepewucEvow</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.SidAsohUxakeJalemipeMuxe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="HageQiqudebif">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QihiJujegiqOkozowuzitAzow</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.CedoxucEpuluvakotInup</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JulesuguzopOlujubAtonexebahUwog</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BotuzudurinAnuFiquMezujunifoXine</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.GagotomumuzElIyUlijucesorInaf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LiyujurovumAvovidaxImelugelikOyuw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.WoSodaHuwuqojujePobe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JoyinamAziyufigaqOpic</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.XuvezegujapUculEhiw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JiredilepiqAwumijuPivo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.RewubohunawAbesivigIgep</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.SidAsohUxakeJalemipeMuxe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BexAnimudisugeMeba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.NiyorofevamAticoqiyavaHagegiletemOkuy</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.SorAcabeQafUjadeVazaripArom</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MarutenIriqopijAyibeyUnol</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="HibuCapEqaxuwokona">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.KaholozixinItoqeLoniruNeta</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QihiJujegiqOkozowuzitAzow</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.CedoxucEpuluvakotInup</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JulesuguzopOlujubAtonexebahUwog</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BotuzudurinAnuFiquMezujunifoXine</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.GagotomumuzElIyUlijucesorInaf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LiyujurovumAvovidaxImelugelikOyuw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.FilurisejerIwaxinabafaPiqa</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.WoSodaHuwuqojujePobe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JoyinamAziyufigaqOpic</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.XuvezegujapUculEhiw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JiredilepiqAwumijuPivo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QagiyapocumOqugoJohadojuciTusi</value>
+        </list>
+
+        <list name="SudaJijijAkeqAgo">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.HilEyilEfiseKocinarukAwuc</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VuvaBesirUfajicizineDaki</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LiyujurovumAvovidaxImelugelikOyuw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BopaCusOmotebovogePira</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="WuxeSibavEyirakecul">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QodiZarazekafApomeziweqAmak</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.KekoDoTuNolijucubeQixo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.CatuQagasewicurOgufExep</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BuciSeyEpotAmumozetizOkor</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.CavoCurofAvemuqacicAloq</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QumaWoferImofadiQupotuqawiVexe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.RubeSiqikUsehuzefIyuz</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VuvaBesirUfajicizineDaki</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MarutenIriqopijAyibeyUnol</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VofaxeyinazUbinApewawiVaqi</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvuxaqecawAyofEdezojeKamoneMuba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="DoriBiyugafIsoqucapup">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QodiZarazekafApomeziweqAmak</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.KekoDoTuNolijucubeQixo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.CatuQagasewicurOgufExep</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BuciSeyEpotAmumozetizOkor</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.DavoNoxucuguNacunazuleFiqu</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.FidiNosAmibijihunUgek</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.CoboQamujarAmanozeTinovijazeMuci</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LiyujurovumAvovidaxImelugelikOyuw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.WoSodaHuwuqojujePobe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JiredilepiqAwumijuPivo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.XujoSekoduyUgenoqonEway</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.SidAsohUxakeJalemipeMuxe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.NapiHiruranuwilItelanireqaFoko</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MarutenIriqopijAyibeyUnol</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VofaxeyinazUbinApewawiVaqi</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvuxaqecawAyofEdezojeKamoneMuba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="DofaBajerejuzotIxewegikil">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QodiZarazekafApomeziweqAmak</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.KekoDoTuNolijucubeQixo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BuciSeyEpotAmumozetizOkor</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JeyiMikivufEbejifanaJufiremaniKeyu</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.FidiNosAmibijihunUgek</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.YeqoZoxawohuWolawusEzoveqokojAyos</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BujuPulupAsorugeDefigifaxaQahe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BudeGabiliqoguxOdar</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LiyujurovumAvovidaxImelugelikOyuw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.XefiRoluvekegutAvezazetAfaf</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.NapiHiruranuwilItelanireqaFoko</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvuxaqecawAyofEdezojeKamoneMuba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="QeneWobicogaqi">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QodiZarazekafApomeziweqAmak</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.KekoDoTuNolijucubeQixo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.CatuQagasewicurOgufExep</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BuciSeyEpotAmumozetizOkor</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.DavoNoxucuguNacunazuleFiqu</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JeyiMikivufEbejifanaJufiremaniKeyu</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.FidiNosAmibijihunUgek</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.YeqoZoxawohuWolawusEzoveqokojAyos</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BujuPulupAsorugeDefigifaxaQahe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LiyujurovumAvovidaxImelugelikOyuw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.RicaVohozOrumotibOvas</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.NapiHiruranuwilItelanireqaFoko</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MarutenIriqopijAyibeyUnol</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.VofaxeyinazUbinApewawiVaqi</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvuxaqecawAyofEdezojeKamoneMuba</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="WotuQaxOdizEwi">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.KanAgudAnitorinoqoRehoreyelAtip</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LimoCuzOvenOyEzih</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.NapiHiruranuwilItelanireqaFoko</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LiyujurovumAvovidaxImelugelikOyuw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BopaCusOmotebovogePira</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+        <list name="YanaTaxaduhar">
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.QodiZarazekafApomeziweqAmak</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.KekoDoTuNolijucubeQixo</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.CatuQagasewicurOgufExep</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BuciSeyEpotAmumozetizOkor</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.DavoNoxucuguNacunazuleFiqu</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.JeyiMikivufEbejifanaJufiremaniKeyu</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.FidiNosAmibijihunUgek</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.YeqoZoxawohuWolawusEzoveqokojAyos</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.BujuPulupAsorugeDefigifaxaQahe</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.LiyujurovumAvovidaxImelugelikOyuw</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.RicaVohozOrumotibOvas</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.NapiHiruranuwilItelanireqaFoko</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MarutenIriqopijAyibeyUnol</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.MuvanicUqofoyeziwuGaje</value>
+            <value>com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.TebedipIxibetuwaniSuzu</value>
+        </list>
+
+
+
+        <!-- a "map" wafifex the mapping between a "zisa" (the map's name, e.g. PESITE, DEBOKAVE),
+             the "matuzajitawuxap" (the map keys, e.g. BATOGAM, CEGA_NALIC),
+             and the viruyuc mufuk name (the map values, e.g. GehoBorube, WuxeSibavEyirakecul) -->
+
+        <map name="HUHU_XOT">
+            <pair name="BATOGAM">VegeYaxAdulUsu</pair>
+            <pair name="POG">VegeYaxAdulUsu</pair>
+            <pair name="QUNU">VegeYaxAdulUsu</pair>
+            <pair name="BOZEP">ZuHawUjoXataBin</pair>
+            <pair name="BOZEP_NALIC">VegeYaxAdulUsu</pair>
+            <pair name="BOZEP_LAPOSEK">VegeYaxAdulUsu</pair>
+            <pair name="XEZE">VegeYaxAdulUsu</pair>
+            <pair name="FARIW">VegeYaxAdulUsu</pair>
+            <pair name="WIDU">ZoyoDenIrubIma</pair>
+            <pair name="WILAJ">PoqatEmaJakoYil</pair>
+            <pair name="MTG">FurOhebulatil</pair>
+            <pair name="XOR">PepIpeNutoVuh</pair>
+            <pair name="XOR_NALIC">VegeYaxAdulUsu</pair>
+            <pair name="XOR_LAPOSEK">VegeYaxAdulUsu</pair>
+            <pair name="CEGA_NALIC">SudaJijijAkeqAgo</pair>
+            <pair name="CEGA_LAPOSEK">WotuQaxOdizEwi</pair>
+            <pair name="CEGA_LOLAMAYUCAW">WotuQaxOdizEwi</pair>
+        </map>
+
+        <map name="TEHA_VEC_WUM">
+            <pair name="BATOGAM">TigaNukuzaxeparUtakigiYofoweye</pair>
+        </map>
+
+        <map name="TEHA_KAKEP">
+            <pair name="BATOGAM">BekoQenelEmihowidahu</pair>
+            <pair name="QUNU">XiyaQuxokAfizesibopo</pair>
+            <pair name="BOZEP">MeFipEyuyoqamos</pair>
+            <pair name="BOZEP_NALIC">QeRejUbewuKuluvecibe</pair>
+            <pair name="BOZEP_LAPOSEK">PaYakOderusoSifavereco</pair>
+            <pair name="XEZE">QoheBojiru</pair>
+            <pair name="FARIW">KoqakOdifoboyuh</pair>
+            <pair name="WIDU">PuqeSahuqidofu</pair>
+            <pair name="WILAJ">HalowUyiseroqus</pair>
+            <pair name="MTG">FurOhebulatil</pair>
+            <pair name="XOR">XayOnequtalux</pair>
+            <pair name="XOR_NALIC">RovInudiLawaduhanu</pair>
+            <pair name="XOR_LAPOSEK">KawUmulisoLawifojabo</pair>
+            <pair name="CEGA_NALIC">WuxeSibavEyirakecul</pair>
+            <pair name="CEGA_LAPOSEK">DoriBiyugafIsoqucapup</pair>
+            <pair name="CEGA_LOLAMAYUCAW">QeneWobicogaqi</pair>
+        </map>
+
+        <map name="TEHA_YAK">
+            <pair name="BATOGAM">HibuCapEqaxuwokona</pair>
+            <pair name="QUNU">WotiZuhEdacimulamo</pair>
+            <pair name="BOZEP">MeFipEyuyoqamos</pair>
+            <pair name="BOZEP_NALIC">QeRejUbewuKuluvecibe</pair>
+            <pair name="BOZEP_LAPOSEK">PaYakOderusoSifavereco</pair>
+            <pair name="XEZE">QoheBojiru</pair>
+            <pair name="FARIW">KoqakOdifoboyuh</pair>
+            <pair name="WIDU">PuqeSahuqidofu</pair>
+            <pair name="WILAJ">HalowUyiseroqus</pair>
+            <pair name="MTG">FurOhebulatil</pair>
+            <pair name="XOR">XayOnequtalux</pair>
+            <pair name="XOR_NALIC">RovInudiLawaduhanu</pair>
+            <pair name="XOR_LAPOSEK">KawUmulisoLawifojabo</pair>
+            <pair name="CEGA_NALIC">WuxeSibavEyirakecul</pair>
+            <pair name="CEGA_LAPOSEK">DoriBiyugafIsoqucapup</pair>
+            <pair name="CEGA_LOLAMAYUCAW">QeneWobicogaqi</pair>
+        </map>
+
+        <map name="TEHA_VOME">
+            <pair name="BATOGAM">YanuCopaCicapayuguz</pair>
+        </map>
+
+        <map name="QUK_YAHIBANOSEY">
+            <pair name="CEGA_LOLAMAYUCAW">DofaBajerejuzotIxewegikil</pair>
+        </map>
+
+        <map name="DEBOKAVE">
+            <pair name="BATOGAM">PuxuGenirise</pair>
+            <pair name="POG">PuxuGenirise</pair>
+            <pair name="QUNU">PuxuGenirise</pair>
+            <pair name="BOZEP">MeFipEyuyoqamos</pair>
+            <pair name="BOZEP_NALIC">QeRejUbewuKuluvecibe</pair>
+            <pair name="BOZEP_LAPOSEK">PaYakOderusoSifavereco</pair>
+            <pair name="XEZE">PuxuGenirise</pair>
+            <pair name="FARIW">PuxuGenirise</pair>
+            <pair name="WIDU">PuqeSahuqidofu</pair>
+            <pair name="WILAJ">HalowUyiseroqus</pair>
+            <pair name="MTG">FurOhebulatil</pair>
+            <pair name="XOR">XayOnequtalux</pair>
+            <pair name="XOR_NALIC">RovInudiLawaduhanu</pair>
+            <pair name="XOR_LAPOSEK">KawUmulisoLawifojabo</pair>
+            <pair name="CEGA_NALIC">WuxeSibavEyirakecul</pair>
+            <pair name="CEGA_LAPOSEK">DoriBiyugafIsoqucapup</pair>
+            <pair name="CEGA_LOLAMAYUCAW">QeneWobicogaqi</pair>
+        </map>
+
+        <map name="PIXOHEFOF">
+            <pair name="BATOGAM">HageQiqudebif</pair>
+            <pair name="POG">MihAcijOnufapiko</pair>
+            <pair name="QUNU">TomuKacerecos</pair>
+            <pair name="BOZEP">MeFipEyuyoqamos</pair>
+            <pair name="BOZEP_NALIC">QeRejUbewuKuluvecibe</pair>
+            <pair name="BOZEP_LAPOSEK">PaYakOderusoSifavereco</pair>
+            <pair name="XEZE">NevaHuviwinel</pair>
+            <pair name="FARIW">LujidIvicanibe</pair>
+            <pair name="WIDU">PobaJayehugup</pair>
+            <pair name="WILAJ">HalowUyiseroqus</pair>
+            <pair name="MTG">FurOhebulatil</pair>
+            <pair name="XOR">XayOnequtalux</pair>
+            <pair name="XOR_NALIC">RovInudiLawaduhanu</pair>
+            <pair name="XOR_LAPOSEK">KawUmulisoLawifojabo</pair>
+            <pair name="CEGA_NALIC">WuxeSibavEyirakecul</pair>
+            <pair name="CEGA_LAPOSEK">DoriBiyugafIsoqucapup</pair>
+            <pair name="CEGA_LOLAMAYUCAW">YanaTaxaduhar</pair>
+        </map>
+
+        <map name="PESITE">
+            <pair name="BATOGAM">GehoBorube</pair>
+            <pair name="POG">JirOnumAfixoviqar</pair>
+            <pair name="QUNU">QecuPawilo</pair>
+            <pair name="BOZEP">MeFipEyuyoqamos</pair>
+            <pair name="BOZEP_NALIC">QeRejUbewuKuluvecibe</pair>
+            <pair name="BOZEP_LAPOSEK">PaYakOderusoSifavereco</pair>
+            <pair name="XEZE">QoheBojiru</pair>
+            <pair name="FARIW">KoqakOdifoboyuh</pair>
+            <pair name="WIDU">PuqeSahuqidofu</pair>
+            <pair name="WILAJ">HalowUyiseroqus</pair>
+            <pair name="MTG">FurOhebulatil</pair>
+            <pair name="XOR">XayOnequtalux</pair>
+            <pair name="XOR_NALIC">RovInudiLawaduhanu</pair>
+            <pair name="XOR_LAPOSEK">KawUmulisoLawifojabo</pair>
+            <pair name="CEGA_NALIC">WuxeSibavEyirakecul</pair>
+            <pair name="CEGA_LAPOSEK">DoriBiyugafIsoqucapup</pair>
+            <pair name="CEGA_LOLAMAYUCAW">QeneWobicogaqi</pair>
+        </map>
+
+    </properties>
+
+</service-definition>

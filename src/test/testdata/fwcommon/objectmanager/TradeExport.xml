@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Templates>interface,noki,nuzikuzu,key,wululu</Templates>
+    <PackageName>com.gs.fw.lilu.yad.domain.transaction</PackageName>
+    <ClassName>JesafOgovej</ClassName>
+    <CacheType>ZikoXiqoh</CacheType>
+    <DefaultTable>YAD_JOVOY_BONIBU</DefaultTable>
+    <SchemaName>mut</SchemaName>
+    <DatabaseName>tiqo</DatabaseName>
+    <PrimaryKeyAttribute keyClass="RemubIxumobIyo">
+        <Attribute columnName="MAYUCAWINOC_PO" javaType="long" name="zisivukumiqAg" sqlType="Nula"/>
+        <Attribute columnName="MAYUCAWINOC_YAK" javaType="String" name="zejehosojoxIyatiwifu" sqlType="XefeTewesa"/>
+    </PrimaryKeyAttribute>
+    <Attribute columnName="TEGEQOMI_JOVOY_GABOCUBOW" javaType="String" name="kapazeraLipopAculodaje" sqlType="XefeTewesa"/>
+    <Attribute columnName="TAPE_ROZUSEBAHEZI_PO" javaType="int" name="wuhiLohayojAguhiXa" sqlType="Ciyisag"/>
+    <Attribute columnName="TAPE_ROZUSEBAHEZI_QEXO" javaType="String" name="yizuKoyexobAfuvuLikifunemah" sqlType="XefeTewesa"/>
+    <Attribute columnName="MAYUCAWINOC_TADE" javaType="String" name="sibeCaji" sqlType="XefeTewesa"/>
+    <Attribute columnName="MAYUCAWINOC_HIF_TADE" javaType="String" name="pasiKigUmux" sqlType="XefeTewesa"/>
+    <Attribute columnName="JOP_VUCI" javaType="String" name="fixOtiz" sqlType="XefeTewesa"/>
+    <Attribute columnName="YEJACUMO_JOP_VUCI" javaType="String" name="ragifucoDezUxoy" sqlType="XefeTewesa"/>
+    <Attribute columnName="JUDAVAMOTE_CICAVIDO" javaType="double" name="gaWapeyeqeSumasebuCiliy" sqlType="Luhisa"/>
+    <Attribute columnName="CICAVIDO" javaType="double" name="hovarimiBepib" sqlType="Luhisa"/>
+    <Attribute columnName="CICAVIDO_WEB_DAPOS" javaType="double" name="janubemiFimEpava" sqlType="Luhisa"/>
+    <Attribute columnName="CICAVIDO_SIS_WEB_DAPOS" javaType="double" name="vowerinuGaxOcuGobut" sqlType="Luhisa"/>
+    <Attribute columnName="HOS_CICAVIDO" javaType="double" name="kutOqugabuq" sqlType="Luhisa"/>
+    <Attribute columnName="BUGAZIX_CICAVIDO" javaType="double" name="rikadogEkoyizec" sqlType="Luhisa"/>
+    <Attribute columnName="JOVOY_DILEWERI" javaType="String" name="qoleyIcejewuz" sqlType="XefeTewesa"/>
+    <Attribute columnName="CICAVIDO_DILEWERI" javaType="String" name="lowarubeJabelaxa" sqlType="XefeTewesa"/>
+    <Attribute columnName="HOS_DILEWERI" javaType="String" name="vixAcamadol" sqlType="XefeTewesa"/>
+    <Attribute columnName="BUGAZIX_DILEWERI" javaType="String" name="hozorerAlicofij" sqlType="XefeTewesa"/>
+    <Attribute columnName="JOSONICA" javaType="double" name="josonica" sqlType="Luhisa"/>
+    <Attribute columnName="XEJOFIHA_SIBA" javaType="Timestamp" name="yelacopoVeda" sqlType="Timestamp"/>
+    <Attribute columnName="XEJOFIHA_GEXA" javaType="String" name="guwuneluJefe" sqlType="XefeTewesa"/>
+    <Attribute columnName="PAXICE" javaType="int" name="hequdeDo" sqlType="Ciyisag"/>
+    <Attribute columnName="PAXICE_FEZI" javaType="String" name="siqupiXife" sqlType="XefeTewesa"/>
+    <Attribute columnName="PAXICE_QEXO" javaType="String" name="fotugiBakajikodap" sqlType="XefeTewesa"/>
+    <Attribute columnName="VUQ_JEHECU_TADAP" javaType="double" name="jihIvitodOwebi" sqlType="Luhisa"/>
+    <Attribute columnName="NEFE_TADAP" javaType="double" name="biqoSezix" sqlType="Luhisa"/>
+    <Attribute columnName="JOFEQA_PO" javaType="int" name="zakugoFo" sqlType="Ciyisag"/>
+    <Attribute columnName="DOMU" javaType="String" name="jewivuy" sqlType="XefeTewesa"/>
+    <Attribute columnName="HUXIMEH_NOWACEM" javaType="String" name="nulomogAranure" sqlType="XefeTewesa"/>
+    <Attribute columnName="HUXIMEH_HARO" javaType="String" name="dowiqumOjeq" sqlType="XefeTewesa"/>
+    <Attribute columnName="HUXIMEH_NOZO_YECA" javaType="String" name="tisaqepUnodEhot" sqlType="XefeTewesa"/>
+    <Attribute columnName="HUXIMEH_NOZO_JAKIT" javaType="String" name="soticenUfugInuge" sqlType="XefeTewesa"/>
+    <Attribute columnName="CICAVIDO_LEM_VU" javaType="double" name="hiqecijeXelol" sqlType="Luhisa"/>
+    <Attribute columnName="MAYUCAWINOC_MIGISI" javaType="double" name="bifoluboporAjafar" sqlType="Luhisa"/>
+    <Attribute columnName="YAD_SIWILUWUM" javaType="String" name="bodErunigibeQupu" sqlType="XefeTewesa"/>
+    <Attribute columnName="YAD_MOFIHATUC" javaType="String" name="xesIrodiluveRexo" sqlType="XefeTewesa"/>
+    <Attribute columnName="NARI2_GIMASIWEGELULU" javaType="String" name="nari2Gimasiwegelulu" sqlType="XefeTewesa"/>
+    <Attribute columnName="NARI2_HAWIK_TOFOWI" javaType="boolean" sqlType="Boolean" name="nari2BuwefIpipic"/>
+    <Attribute columnName="CAVUKODONA" javaType="String" name="cavukodona" sqlType="XefeTewesa"/>
+</ManagedObject>
+

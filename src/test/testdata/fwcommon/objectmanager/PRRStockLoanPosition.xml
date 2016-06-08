@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>interface,noki,wululu,wunopi,tetahij,riyoxadipojoxuj,nuzikuzu</Templates>
+    <PackageName>com.gs.fw.lilu.hos.domain</PackageName>
+
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.yoru.QetoliSayetaZurObeb</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.product.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.PajaVopakey</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.Paxice</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.WuqaloHel</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.yoru.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.biqosezix.TiberIsebEvuwUyihi</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.hos.domain.position.CAWIneneTeniNifarucaLoce</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.cowisox.Qaje</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.yoru.Currency</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.yoru.GifufekeZeb</ImportPackageName>
+
+    <ClassName>MUJEtozaQineNekocaba</ClassName>
+
+    <DefaultTable></DefaultTable>
+    <SchemaName></SchemaName>
+    <DatabaseName>tiqo</DatabaseName>
+    <ConnectionManagerName>tiqo</ConnectionManagerName>
+    <ReadOnly>true</ReadOnly>
+    <ReadStoredProcedure>Qerat_Hiq_MazoyOruy</ReadStoredProcedure>
+
+    <PrimaryKeyAttribute>
+        <Attribute columnName="LONUW_CIBIVO" javaType="String" name="nefedObofAf" sqlType="String"/>
+        <Attribute columnName="businessDate" javaType="Timestamp" name="businessDate"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="TEQUMUJIJ_XIMO" javaType="String" name="lafegiradObuc" sqlType="XefeTewesa"/>
+    <Attribute columnName="HUXIMEH_NOWACEM" javaType="String" name="nulomogAranure" sqlType="XefeTewesa"/>
+    <Attribute columnName="DAFUZ_CIQ_N" javaType="String" name="mabunekAxekaxubAvip" sqlType="XefeTewesa"/>
+    <Attribute columnName="suvufObub" javaType="Timestamp" name="suvufObub" sqlType="XIZofuxafasElegexaLimanigaw"/>
+    <Attribute columnName="KOHEX_SIBA_Z" javaType="Timestamp" name="yelacopoVeda" sqlType="Timestamp"/>
+    <Attribute columnName="KOVITEHE_TADE_N" javaType="String" name="xaqupaFiti" sqlType="XefeTewesa"/>
+    <Attribute columnName="FEVEGOGA_CIBIVO_W" javaType="String" name="xelofiruQunaru" sqlType="String"/>
+    <Attribute columnName="PROD_RUM_YAK_P" javaType="int" name="suyojejeso" sqlType="Ciyisag"/>
+    <Attribute columnName="DOFUD_WOTEP_P" javaType="int" name="vicobexEjoraXobo" sqlType="Ciyisag"/>
+    <Attribute javaType="QetoliSayetaZurObeb" name="qetoliSayetaZurObeb" value="BuhadoVesogePowUsofEray.POFOCIF"/>
+    <Attribute javaType="JekuvuyUlocuda" name="jekuvuyUlocuda" value="null"/>
+    <Attribute javaType="QukewEyajOrabimigAcizox" name="winutaluBozawe" value="null"/>
+    <Attribute javaType="ZutalayOcaqiQayewaj" name="dewadoyiTomAremoxi" value="null"/>
+    <Attribute javaType="String" name="buPuju" value="null"/>
+    <Attribute javaType="String" name="yesuQajexa" value="null"/>
+    <Attribute javaType="String" name="fuvasuquJivImequziWiwuci" value="null"/>
+    <Attribute javaType="String" name="femeyosIgitekoGijabu" value="null"/>
+    <Attribute javaType="String" name="yijifUgor" value="null"/>
+    <Attribute javaType="String" name="gimudinoxaKadopiGolu" value="null"/>
+    <Attribute javaType="String" name="woqotapOjoy" value="null"/>
+    <Attribute javaType="String" name="xebIgayufaLuxesugaj" value="null"/>
+    <Attribute javaType="String" name="canoni" value="null"/>
+    <Attribute javaType="boolean" name="yohiGivem" value="true"/>
+    <Attribute javaType="boolean" name="mazoyOruy" value="true"/>
+    <Attribute javaType="ZesabEjewUzocAjabojovAwumox" name="cilewezuNigado" value="null"/>
+    <Attribute javaType="JukisApeyUsevIjulexakAxez" name="kiqanivaDehe" value="null"/>
+    <Attribute javaType="Qaje" name="qaje" value="Qaje.dijIvonaxoJofe()"/>
+    <Attribute javaType="DoyidiSolowoDagIsabEqi" name="doyidiSolowoDagIsabEqi" value="null"/>
+    <Attribute javaType="JijurIxepAxuwIhibas" name="dicipoQipisi" value="null"/>
+    <Attribute javaType="Timestamp" name="sizehAwaq" value="null"/>
+    <Attribute javaType="boolean" name="pirad" value="false"/>
+    <Attribute javaType="boolean" name="mutujawaqapi" value="false"/>
+    <Attribute javaType="boolean" name="boLezotihEnehi" value="false"/>
+    <Attribute javaType="String" name="cejasawUwesij" value=""/>
+    <Attribute javaType="Currency" name="dusaNobilaju" value="null"/>
+    <Attribute javaType="String" name="jereruqOmowumohuna" value=""/>
+    <Attribute javaType="boolean" name="xigeluco" value="true"/>
+
+    <ForeignKeyAttribute name="wuqaloHel" keyClass="WuqaloHel">
+        <Attribute columnName="MELE_TA_P" javaType="int" name="hequdeDo" sqlType="Ciyisag"/>
+    </ForeignKeyAttribute>
+
+    <ForeignKeyAttribute name="jexosulUficuLukekatEse" keyClass="JexosulUficuLukekatEse">
+        <Attribute columnName="DOFUD_JEWIVUY_W" javaType="String" name="cejasawUwesij"
+                   sqlType="XefeTewesa"/>
+        <Attribute columnName="businessDate" javaType="Timestamp" name="businessDate"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </ForeignKeyAttribute>
+
+    <ClassBasedAttribute name="tiberIsebEvuwUyihi" attributeClass="TiberIsebEvuwUyihi">
+        <Attribute columnName="NEH_NAV" name="niniwaLawuq" javaType="double" sqlType="Luhisa"/>
+        <Attribute columnName="HIC_KOL_W" name="josonica" javaType="double" sqlType="Luhisa"/>
+        <Attribute columnName="LUM_LAJUS" name="jipIKaqo" javaType="double" sqlType="Luhisa"/>
+    </ClassBasedAttribute>
+
+    <TypeSafeEnumAttribute name="sozaqedUpugutuPuke" javaType="SozaqedUpugutuPuke" lookupMethod="get" value="BIG"/>
+    <TypeSafeEnumAttribute name="zowitipokeBato" javaType="BidopAzobEmofucubewEquc" lookupMethod="miyEquf"
+                           columnName="WACENETIFO_TADE_N" sqlType="XefeTewesa"/>
+    <TypeSafeEnumAttribute name="rozuxogiDeje" javaType="CetubAfelAjuvedebIjup" lookupMethod="miyEquf"
+                           columnName="KEQASE_TADE_N" sqlType="XefeTewesa"/>
+
+    <Relationship cardinality="many-to-one" dependentClass="Paxice" foreignKey="wuqaloHel" name="entity"/>
+    <Relationship cardinality="many-to-one" dependentClass="ZutalayOcaqiQayewaj" foreignKey="jexosulUficuLukekatEse"
+                  name="zutalayOcaqiQayewaj"/>
+    <Relationship cardinality="many-to-one" dependentClass="MaduWamuPace" foreignKey="sajiGovoWifefEji"
+                  name="wakaWuwiMomay"/>
+    <Relationship cardinality="many-to-one" dependentClass="DupaVenuw" foreignKey="vuveRafisUfo" name="goguWehay"/>
+
+    <AbstractMethod returnType="YowufarutaGib" methodName="nukApidUterEmoruPoz" parameters=""/>
+    <AbstractMethod returnType="YowufarutaGib" methodName="wifUvowAwusiQeg" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="hirAxihidiGew" parameters="YowufarutaGib mefunakOle"/>
+    <AbstractMethod returnType="yuso" methodName="satAluwozo" parameters="PajaVopakey jewivuy"/>
+
+    <Index name="businessDate">businessDate</Index>
+
+</ManagedObject>

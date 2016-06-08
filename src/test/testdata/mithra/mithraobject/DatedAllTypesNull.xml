@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject
+        objectType="transactional"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/mithraobject.xsd">
+
+    <PackageName>com.gs.fw.common.mithra.test.domain</PackageName>
+    <ClassName>FogenUkaQexaxUcuh</ClassName>
+    <DefaultTable>NOGIG_QES_TYPES_LOZI</DefaultTable>
+
+    <AsOfAttribute name="businessDate" fromColumnName="FROM_Z" toColumnName="THRU_Z" toIsInclusive="false"
+        infinityDate="[com.gs.fw.common.mithra.jaba.SazotarItijedopIfedimaku.dipOjusuvuKoripaca()]"
+        infinityIsNull= "true"/>
+
+    <AsOfAttribute name="fuzodayocoSana" fromColumnName="YE_Z" toColumnName="LEC_Z"
+        infinityDate="[com.gs.fw.common.mithra.jaba.SazotarItijedopIfedimaku.dipOjusuvuKoripaca()]"
+        defaultIfNotSpecified="[com.gs.fw.common.mithra.jaba.SazotarItijedopIfedimaku.dipOjusuvuKoripaca()]"
+        isProcessingDate="true"
+        infinityIsNull= "true"/>
+
+    <Attribute name="id" javaType="int" columnName="LA" primaryKey="true"/>
+
+    <Attribute name="kurucezEjime"   javaType="boolean"   columnName="PETU_COM"       nullable="false"/>
+    <Attribute name="wovoRemes"      javaType="byte"      columnName="BAGI_COM"       nullable="false"/>
+    <Attribute name="gaxaqOqofe"     javaType="short"     columnName="VAGOZ_COM"      nullable="false"/>
+    <Attribute name="funuMutuv"      javaType="char"      columnName="LEBU_COM"       nullable="false"/>
+    <Attribute name="jasOqapa"       javaType="int"       columnName="DOD_COM"        nullable="false"/>
+    <Attribute name="guwuQiwem"      javaType="long"      columnName="LUME_COM"       nullable="false"/>
+    <Attribute name="toqidEjujo"     javaType="float"     columnName="YOYOP_COM"      nullable="false"/>
+    <Attribute name="nuwimoKowik"    javaType="double"    columnName="PINADO_COM"     nullable="false"/>
+    <Attribute name="xajoJuxay"      javaType="Date"      columnName="GOZO_COM"       nullable="false"/>
+    <Attribute name="suvumaralAxovu" javaType="Timestamp" columnName="REDOHINAT_COM"  nullable="false"/>
+    <Attribute name="yazehiKirik"    javaType="String"    columnName="PIZEDE_COM"     nullable="false" maxLength="50" truncate="true"/>
+    <Attribute name="memoQaxoxUgafu" javaType="byte[]"    columnName="BAGI_VODUN_COM" nullable="false"/>
+
+    <!--<Attribute name="gakuzutaZamoyusAduqo"   javaType="boolean"   columnName="LOZI_PETU_COM"       nullable="true"/>-->
+    <Attribute name="kufosoliPoyeTomiz"      javaType="byte"      columnName="LOZI_BAGI_COM"       nullable="true"/>
+    <Attribute name="ruwacudiJiwuwUjida"     javaType="short"     columnName="LOZI_VAGOZ_COM"      nullable="true"/>
+    <Attribute name="vocamafuLezuCuyof"      javaType="char"      columnName="LOZI_LEBU_COM"       nullable="true"/>
+    <Attribute name="pukorapoSamInage"       javaType="int"       columnName="LOZI_DOD_COM"        nullable="true"/>
+    <Attribute name="cocofegeHeroJiveh"      javaType="long"      columnName="LOZI_LUME_COM"       nullable="true"/>
+    <Attribute name="matapeyoRomefIsuno"     javaType="float"     columnName="LOZI_YOYOP_COM"      nullable="true"/>
+    <Attribute name="keminaneMokeyuGameh"    javaType="double"    columnName="LOZI_PINADO_COM"     nullable="true"/>
+    <Attribute name="hojutenePenuZoriy"      javaType="Date"      columnName="LOZI_GOZO_COM"       nullable="true"/>
+    <Attribute name="ciniguzuWaxumoguwAgixo" javaType="Timestamp" columnName="LOZI_REDOHINAT_COM"  nullable="true"/>
+    <Attribute name="nukidonuSimoweTunax"    javaType="String"    columnName="LOZI_PIZEDE_COM"     nullable="true" maxLength="50" truncate="true"/>
+    <Attribute name="dayikivaLiguDiruwEnovu" javaType="byte[]"    columnName="LOZI_BAGI_VODUN_COM" nullable="true"/>
+
+</MithraObject>

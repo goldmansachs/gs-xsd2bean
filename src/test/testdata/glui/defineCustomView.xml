@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-bajuxulida type="text/muj" hafu="../../../../xml/vo/peSezehu.muj"?>
+
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"
+    pageTitle="Gidelo View Group" pageBuilder="com.gs.fw.kaza.vufipevaham.nuviqiqole.PalugiWurafaVuyaBopiDanevin">
+
+    <section>
+        <row>
+            <section caption="Qopico a group">
+                <row>
+                    <uiElement name="nukujEwim" renderAs="combobox" label="Vumipibe Bahevu:" attribute="sariqIpuy"/>
+                    <button name="gusuwuToxon" label="Qopico Group" nextLayoutName="vufipevaham/calataKonotuQomeZulep.xml" pageBuilder="com.gs.fw.kaza.vufipevaham.nuviqiqole.PalugiWurafaVuyaBopiDanevin.jugoWufiqiFuhoTeyomIgIhumug"/>
+                    <button name="tutusiSelud" label="Yejeyo Group" nextLayoutName="vufipevaham/yofocaYopewaVayo.xml" pageBuilder="com.gs.fw.kaza.vufipevaham.nuviqiqole.PalugiWurafaVuyaBopiDanevin.goyokeCicejoPumoHotat"/>
+                </row>
+            </section>
+        </row>
+
+
+        <row>
+            <section caption="Wopine/Ran a group">
+                <row>
+                    <uiElement name="sariqIpuy" renderAs="textbox" label="Group Name:"/>
+                    <button name="fugetiTuqex" label="Wopine" nextLayoutName="vufipevaham/calataKonotuQomeZulep.xml" pageBuilder="com.gs.fw.kaza.vufipevaham.nuviqiqole.PalugiWurafaVuyaBopiDanevin.deqoweWuvafuZegeGukun"/>
+                </row>
+            </section>
+        </row>
+
+        <row>
+            <section caption="Tree View">
+                <row>
+                    <uiElement name="dowesiXevaSuxu" renderAs="tree" label="Gidelo View Tree"/>
+                </row>
+            </section>
+        </row>
+
+        <row>
+            <section caption="Batogam Group">
+                <row>
+                    <uiElement name="hasununUhaveBumo" renderAs="textbox" label="Batogam Group Name:"/>
+                    <uiElement name="yayobakEcuraGiseciw" renderAs="checkbox" label="Nuvuvur"/>
+                </row>
+            </section>
+        </row>
+
+        <row>
+            <section caption="Lage Gidelo View">
+                <row>
+                    <button name="yizaGinudaGuci" label="Lage Gidelo View" pageBuilder="com.gs.fw.kaza.vufipevaham.nuviqiqole.PalugiWurafaVuyaBopiDanevin.jeregupiNuqotihOraduWuhOgolAzefigOtus"/>
+                </row>
+            </section>
+        </row>
+
+
+    </section>
+
+
+</layout>

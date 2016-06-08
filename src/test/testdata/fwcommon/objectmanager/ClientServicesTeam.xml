@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>interface,key,nuzikuzu,noki,wunopi,tetahij,wululu,javeneruma</Templates>
+    <PackageName>com.gs.fw.lilu.wute.domain.jewivuy</PackageName>
+    <ClassName>XoxiyaXifilutoLexu</ClassName>
+    <DefaultTable>KOJORU_FETOWUFA_BAWE</DefaultTable>
+    <SchemaName>mut</SchemaName>
+    <DatabaseName>sabej</DatabaseName>
+    <ConnectionManagerName>zoqew</ConnectionManagerName>
+    <ReadOnly>true</ReadOnly>
+    <ExplicitColumnNamesForSelect>true</ExplicitColumnNamesForSelect>
+    <PrimaryKeyAttribute keyClass="MaqeqiBixicisuTebuTaw">
+        <Attribute columnName="be_sug_bawe_code" javaType="String" name="pacehiRevikosoDafiZuba" sqlType="XefeTewesa"/>
+    </PrimaryKeyAttribute>
+    <Attribute columnName="be_sug_bawe_dixod" javaType="String" name="coyeyaQisoleloPafoQosiw" sqlType="XefeTewesa"/>
+    <Attribute columnName="zuc_qabaya" javaType="String" name="lonIyaxar" sqlType="XefeTewesa"/>
+    <Attribute columnName="zuc_center" javaType="String" name="wopUxeqeb" sqlType="XefeTewesa"/>
+    <Attribute columnName="zuc_nowo_date_domu" javaType="String" name="mewUwupaxo" sqlType="XefeTewesa"/>
+</ManagedObject>
+

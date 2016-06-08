@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd"
+        layoutId="BAK Xuya" pageTitle="Lufosabofika Bode Kukele"
+        pageBuilder="com.gs.fw.kaza.takupujeri.vo.QowazOlawijaJozuQotukaRiluvIzesoTagegel" showSelection="false"
+        windowState="maximized">
+    <section caption="Cuyokujo Date and Qahodoqo">
+        <row>
+            <uiElement name="businessDate1" label="Cuyokujo Date 1" renderAs="combobox" attribute="display"/>
+            <uiElement name="qahodoqo1" label="Qahodoqo 1" renderAs="combobox" attribute="display" sortBy="none"/>
+        </row>
+        <row>
+            <uiElement name="businessDate2" label="Cuyokujo Date 2" renderAs="combobox" attribute="display"
+                       noSelectOption=""/>
+            <uiElement name="qahodoqo2" label="Qahodoqo 2" renderAs="combobox" attribute="display" sortBy="none"/>
+        </row>
+        <row>
+            <uiElement name="wecimAmid" label="Bode Kukele Bisof Ve Piroxo "
+                       renderAs="combobox" attribute="display"/>
+        </row>
+        <row>
+            <uiElement name="luvoboqanEpey" label="Type of Zedakotah"
+                       renderAs="combobox" attribute="display" defaultSelection="CAY Value Zedakotah"/>
+            <uiElement name="zedakotah" label="Zedakotah" renderAs="textbox" attribute="display"
+                       defaultSelection="1000000"/>
+        </row>
+    </section>
+    <section caption="Lozohig">
+        <row>
+            <section caption="Kobuce data you gabo to bese" expandable="true" expanded="true">
+                <row>
+                    <section>
+                        <row>
+                            <uiElement name="entity" label="Humopa" renderAs="listbox" attribute="display">
+                            </uiElement>
+                            <uiElement name="cujaqekufuki" label="Cujaqekufuki" renderAs="listbox" attribute="display">
+                            </uiElement>
+                        </row>
+                        <row>
+                            <uiElement name="yokoFexev" label="Bere Group" attribute="display"
+                                       renderAs="listbox" noSelectOption="&lt;No Mosuku&gt;">
+                                <childUiElement name="radiKasi" label="Bere Lagu"
+                                                attribute="display" renderAs="listbox"
+                                                noSelectOption="&lt;No Mosuku&gt;"/>
+                            </uiElement>
+                        </row>
+                    </section>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section caption="Conoqara" expandable="true" expanded="true">
+                <row>
+                    <section>
+                        <row>
+                            <uiElement name="hepafIq" label="Group By"
+                                       renderAs="duallistbox" attribute="display" validation="mandatory"/>
+                        </row>
+                    </section>
+                </row>
+            </section>
+        </row>
+    </section>
+    <section>
+        <row>
+            <button name="mimeci" label="Lesihocu" renderAs="button"
+                    pageBuilder="com.gs.fw.kaza.takupujeri.vo.SitisUlidoduNileJasiciKecucanEhuzivo"
+                    nextLayoutName="desa/takupujeri/MawodAjorenaFoxoHalujaDuguwoSezig.xml" crumbTrail="true"
+                    validate="hepafiq"/>
+        </row>
+    </section>
+</layout>

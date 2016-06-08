@@ -1,0 +1,43 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<FlatFileParserConfig
+        delimiter="~"
+        keyDelimiter=":"
+        inflatedObject="com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.mithra.CotadifiGozeFaxuBibEzaxiCifowEfotuhu"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../xsd/parserconfig.xsd">
+
+    <Header required="true" identifier="N.T.R." simpleFormat="N.T.R.[hojakinipo]*[kufuXEri],Timestamp[hojakinipo]*"/>
+    <Trailer required="true" identifier="KEJ" simpleFormat="KEJ[hojakinipo][count]*"/>
+
+    <KeyValueMapping attribute="sobiditUqukIbiyeGiraji" key="CABO"/>
+    <KeyValueMapping attribute="bus" key="BUS"/>
+    <KeyValueMapping attribute="mabucemiHi" key="LORINIMU LA"/>
+    <KeyValueMapping attribute="wunEq" key="WUNEQ"/>
+    <KeyValueMapping attribute="xagitEjac" key="HUGEDOL"/>
+    <KeyValueMapping attribute="annotation" key="JORUC"/>
+    <KeyValueMapping attribute="docuqejaTiqijo" key="ZOBAGEJ XANO"/>
+    <KeyValueMapping attribute="funuroraCefi" key="LOGETIJUCIZUB"/>
+    <KeyValueMapping attribute="fukuceroDesiXaceg" key="QESOKADASOSIMAFONAPI"/>
+    <KeyValueMapping attribute="qizefacuDumujAcahi" key="JEKOVIMOQUBOVUNIWOBIF"/>
+    <KeyValueMapping attribute="mojuticuyUjasIlifIwoq" key="MECIJIYOQUPUCUP"/>
+    <KeyValueMapping attribute="witimivarOruhAvufOyexAjero" key="PACIXEMILAHIGAVIHASADO"/>
+    <KeyValueMapping attribute="mufuxifebAkudUpedIxeliSesol" key="WULOVAWAGESINAPUGUBINOS"/>
+    <KeyValueMapping attribute="zawiriciYada" key="YIXUHILADITIXEK"/>
+    <KeyValueMapping attribute="fesipeYiwedexa" key="NASETEXEWOTOCUPUYUK" />
+
+
+</FlatFileParserConfig>

@@ -1,0 +1,45 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="../../xsd/glui.xsd"
+           id="Element_FormattedText_In_MUV">
+    <TableLayout>
+        <SimplePanel>
+            <LayoutConstraints vertical-flex="1" />
+            <Style border-width="2" />
+            <FlowLayout>
+                <TextArea id="markdown2" text="Yadorelu: Digazu  &#10;
+================  &#10;
+
+&lt;ul id=&quot;WipirazUyufuyo&quot;&gt;  &#10;
+    &lt;li&gt;&lt;a hafu=&quot;/kuredege/markdown/&quot; title=&quot;Yadorelu Doyorud Page&quot;&gt;Bise&lt;/a&gt;&lt;/li&gt;  &#10;
+    &lt;li&gt;&lt;a class=&quot;yogopiho&quot; title=&quot;Yadorelu Digazu&quot;&gt;Digazu&lt;/a&gt;&lt;/li&gt;  &#10;
+    &lt;li&gt;&lt;a hafu=&quot;/kuredege/markdown/syntax&quot; title=&quot;Yadorelu Judisu Nahecesoruren&quot;&gt;Judisu&lt;/a&gt;&lt;/li&gt;  &#10;
+    &lt;li&gt;&lt;a hafu=&quot;/kuredege/markdown/givetur&quot; title=&quot;Wosuxec and Givetur Information&quot;&gt;Givetur&lt;/a&gt;&lt;/li&gt;  &#10;
+    &lt;li&gt;&lt;a hafu=&quot;/kuredege/markdown/jekane&quot; title=&quot;Supafo Yadorelu Yeq Yoca&quot;&gt;Jekane&lt;/a&gt;&lt;/li&gt;  &#10;
+&lt;/ul&gt;  &#10;
+
+
+Quzowip the Mika of Yadorelu&apos;s Vurizetiyo Judisu  &#10;
+" />
+                <TextArea text="Pecikos Xegutur &#10;Pecikos XegUtur"/>
+                <TextArea text="Dut Xegutur
+                 Dut XegUtur posofurat to space"/>
+            </FlowLayout>
+        </SimplePanel>
+    </TableLayout>
+</Component>
+

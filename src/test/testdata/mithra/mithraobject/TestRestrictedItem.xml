@@ -1,0 +1,38 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject objectType="transactional">
+  <PackageName>com.gs.fw.common.mithra.test.domain</PackageName>
+  <ClassName>WukaMibaxejutuRoli</ClassName>
+  <DefaultTable>TEST_ZUZOLOTEKI_PUPE</DefaultTable>
+
+  <AsOfAttribute name="fuzodayocoSana" timezoneConversion="convert-to-utc" fromColumnName="YE_HI" toColumnName="LEC_HI"
+                 toIsInclusive="false" infinityDate="[com.gs.fw.common.mithra.jaba.SazotarItijedopIfedimaku.dipOjusuvuKoripaca()]"
+                 isProcessingDate="true" defaultIfNotSpecified="[com.gs.fw.common.mithra.jaba.SazotarItijedopIfedimaku.dipOjusuvuKoripaca()]" />
+
+  <AsOfAttribute name="businessDate" timezoneConversion="convert-to-utc" fromColumnName="FROM_HI" toColumnName="THRU_HI"
+                 toIsInclusive="false" infinityDate="[com.gs.fw.common.mithra.jaba.SazotarItijedopIfedimaku.dipOjusuvuKoripaca()]"
+                 isProcessingDate="false" />
+
+  <Attribute name="zexobobebuDusiYi" javaType="long" primaryKey="true" columnName="ZUZOLOTEKI_PUPE_LA" />
+  <Attribute name="xuwaPewu" javaType="String" maxLength="20" columnName="PUPE_XANO" />
+  <Attribute name="sikiyoSe" javaType="String" maxLength="30" columnName="XELAFI_XE" />
+
+    <Relationship name="rigolesa" relatedObject="CexuNiyicuvodoGubeMihinep" relatedIsDependent="true"
+                  cardinality="one-to-many">
+        CexuNiyicuvodoGubeMihinep.zexobobebuDusiYi=this.zexobobebuDusiYi
+    </Relationship>
+
+  </MithraObject>

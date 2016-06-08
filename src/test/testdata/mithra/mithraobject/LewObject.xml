@@ -1,0 +1,38 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject superClassType="table-per-subclass">
+    <PackageName>com.gs.fw.common.mithra.test.kaza</PackageName>
+    <ClassName>CaqEsowed</ClassName>
+    <SourceAttribute name="xakude" javaType="String"/>
+    <AsOfAttribute name="businessDate" fromColumnName="FROM_Z" toColumnName="THRU_Z" toIsInclusive="false"
+                   infinityDate="[com.gs.fw.common.mithra.jaba.SazotarItijedopIfedimaku.nanOmuhoxiCupevalojOxukajaj()]"
+                   setAsString="true">
+        <Property key="CaqEsowed.HIYIMUSILUDEQ"/>
+    </AsOfAttribute>
+    <AsOfAttribute name="fuzodayocoSana" fromColumnName="YE_Z" toColumnName="LEC_Z" toIsInclusive="false"
+                   infinityDate="[com.gs.fw.common.mithra.jaba.SazotarItijedopIfedimaku.dipOjusuvuKoripaca()]"
+                   defaultIfNotSpecified="[com.gs.fw.common.mithra.jaba.SazotarItijedopIfedimaku.dipOjusuvuKoripaca()]"
+                   isProcessingDate="true" timezoneConversion="convert-to-database-timezone">
+        <Property key="CaqEsowed.HIYIMUSILUDEQ"/>
+    </AsOfAttribute>
+    <Attribute name="vibugoDoki" javaType="short" columnName="WOPINE_N"/>
+    <Attribute name="cukiyoVaja" javaType="short" columnName="KEYADU_N">
+        <Property key="CaqEsowed.HIYIMUSILUDEQ"/>
+    </Attribute>
+    <!--<Relationship name="qaje" relatedObject="RapoXog" cardinality="one-to-one">-->
+        <!--RapoXog.code = this.vibugoDoki-->
+    <!--</Relationship>-->
+</MithraObject>

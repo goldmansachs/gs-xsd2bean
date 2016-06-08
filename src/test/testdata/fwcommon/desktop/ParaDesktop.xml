@@ -1,0 +1,107 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<desktop
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/desktop.xsd">
+
+    <applicationName>NAXI</applicationName>
+    <title>Naxi Sisiwaf</title>
+    <iconFile>welikica.toz</iconFile>
+    <width>1000</width>
+    <height>750</height>
+    <showMilestone>true</showMilestone>
+    <systemPrincipalName>XojiPileqe</systemPrincipalName>
+    <systemPrincipalPassword>FEXIGUW</systemPrincipalPassword>
+    <menubar>
+        <menu id="musuq" label="Musuq">
+            <!--todo poyaro - this is a keninanu zoyiqexa of the boqewiw; to be removed once it's enabled in hojabejo-->
+            <menuItem id="fewuRofeyar" label="Koxo Boqewiw" separator="true"/>
+            <menuItem id="fulAhipe" label="Jam Cumut Bibog"/>
+            <menuItem id="GumovoTewexojUfocuxedola" label="Seloju Pocusox Tudilezajaq"/>
+            <menuItem id="TusakuSeyaberufeNepihalo" label="Seloju Yenazimuxu Rigolesa"/>
+            <menuItem id="HipijebUhoyeTalObIwoximu" label="Famidex Casah For BI josowot" separator="true"/>
+            <menuItem id="SutabiJadovoBuzIxome" label="TezofeVoC DE Jec Date Mupozov" separator="true"/>
+            <menuItem id="notazoxoni" label="Copi Rutapa"/>
+            <menuItem id="xuwoqIhesib" label="Somic Noyuge"/>
+            <menuItem id="xukuPadewi" label="Seri Noyuge"/>
+            <menuItem id="cuvecOvipo" label="Lotod Sikek"/>
+            <menuItem id="zaDicelefoyug" label="Jewivuy Mo-Zucolefahod"/>
+            <menuItem id="WiyeneLuboxIleqaziruv" label="Seloju Casah Qorunuyino" separator="true"/>
+            <menuItem id="BatufeVukIkuLugaWavomuwano" label="Seloju CAT KisUzuz Qorunuyino"/>
+            <menuItem id="VobevaLifOzoLukoWanecezukEmecusoqan" label="Seloju CAT KisUzuz KanAX Security Curux"
+                      separator="true"/>
+            <menuItem id="HinesuRemewivOpiriRozOkut" label="Seloju Pocusox Pezug MaqEcuj"/>
+            <menuItem id="ZisiyeWakAyehobUpupu" label="Seloju Xip Yuropenoso"/>
+            <menuItem id="LiwateXumoceHoluWucujitez" label="Seloju Hamiti Jofi Zedakotah" separator="true"/>
+            <menuItem id="YopuwoWIBOTafebexIsiqa" label="Seloju DETO Pocusox Pezug Zucatute" separator="true"/>
+            <menuItem id="DebepeXareTuniDirudujOyure" label="Seloju Bode TIGA Hasukay"/>
+            <menuItem id="QuvitiBanaKuxeHamawabexiPulit" label="Seloju Bode TIGA Fudohewuli" separator="true"/>
+            <menuItem id="ZeposaLuhoxugaz" label="Seloju Geyigegev" separator="true"/>
+            <menuItem id="DuFupepOzok" label="Seloju VU JEJ Josowot Jelez" separator="true"/>
+            <menuItem id="YasaneNoxAriKajazuweTif" label="Seloju POG/KOP Sidikinu (Voq)"/>
+            <menuItem id="TedehoWucIniCakimuqi" label="Seloju POG/KOP Sidikinu"/>
+            <menuItem id="naxUmiMowiFit" label="POG/KOP Pike Vet"/>
+            <menuItem id="kukifeHefAtaxegeyid" label="Seloju VOB Qorunuyino"/>
+            <menuItem id="homofeZuzaRokijeceqIzegevuyay" label="Seloju Wile Henehilut Qorunuyino"/>
+            <menuItem id="XedizEnadusIzuw" label="Seloju So Maba/Cuyokujo Tree"/>
+            <menuItem id="HemecewonAzuha" label="Guquzuzuh Musuq"/>
+        </menu>
+
+        <menu id="help" label="Kiti">
+            <menuItem id="YesajibuwijIrarAsu" label="Qiyuxahuboz Kiti"/>
+            <menuItem id="SuqeqisufoRifoqayOtiw" label="Derofos badotovoj Kiti" separator="true" keystroke="Z1"/>
+            <menuItem id="QogeyUcoyAVU" label="Mohic Naxi SEG"/>
+            <menuItem id="RiHiZavi" label="Wu Fu Copi"/>
+            <menuItem id="HeGeBoqeDoCapek" label="Wu Fu Neco Fu Yatuy"/>
+            <menuItem id="DoWaLOP" label="Wu Fu JEJ Naverofibey"/>
+        </menu>
+
+    </menubar>
+
+    <navigationPanel>
+        <tab id="piduc" label="Piduc"/>
+        <tab id="qeyuBaxi.Voq" label="Qiwo View (Voq)"/>
+        <tab id="qeyuBaxi.Kut" label="Qiwo View (Kut)"/>
+        <tab id="rusitakawaxeri" label="Window"/>
+        <selectedTab>xosoxuva</selectedTab>
+    </navigationPanel>
+
+    <systemAboutPanel>
+        <tab id="vuw" label="VUW">
+            <controllerClassName>com.gs.fw.para.vo.desktop.LetEsawagazibAlovuvexuFenifigiji</controllerClassName>
+        </tab>
+    </systemAboutPanel>
+
+    <groupPanel>
+        <tab id="yeroli" label="Yeroli">
+            <controllerClassName>com.gs.fw.para.vo.gawemuqay.RuneyUfuxohikec</controllerClassName>
+        </tab>
+        <tab id="hiqey" label="Hiqey">
+            <controllerClassName>com.gs.fw.para.vo.gawemuqay.RukonUyubEtoqoriloz</controllerClassName>
+        </tab>
+
+    </groupPanel>
+
+    <loginPanel>
+        <label>Naxi Xemos</label>
+        <iconFileName>welikica.toz</iconFileName>
+        <bannerFileName>qupifanaway.toz</bannerFileName>
+    </loginPanel>
+    <properties>
+        <property name="vepeheweceRaqeged" value="com.gs.fw.para.vo.gixafagefic.JokiNijeDomidEpeboyacelOzepiga"/>
+        <property name="qunepovoWafimo" value="FEXIGUW"/>
+    </properties>
+</desktop>

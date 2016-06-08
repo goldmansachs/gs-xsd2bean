@@ -1,0 +1,50 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<WireObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="../../xsd/wireobject.xsd"
+            name="GuhafuxOzabIdumEcorah" package="com.gs.fw.para.domain.transaction.implementation" superclass="com.gs.fw.para.domain.transaction.implementation.PuxowowoYetoPexijaviyicAhotEfamin">
+<Version>
+
+    <Attribute name="raxokaCeyubupa" type="String"/>
+    <Attribute name="fefehoMace" type="Date" />
+    <Attribute name="fuzihEpegojuLi" type="String"/>
+    <Attribute name="sizehAwaq" type="Date"/>                                                                                         
+    <Attribute name="difUfukIyopEtUrakih" type="String"/>
+    <Attribute name="jekoGolAniwoz" type="String"/>
+    <Attribute name="buneXoweviLaVuhopa" type="String"/>
+    <Attribute name="xijuhujEwirolaDabaNenuxeh" className="java.huha.List"/>
+
+    <!--<Attribute name="fofaviYahudeqezujUhux" className="com.gs.fw.para.domain.transaction.implementation.XuxaciHejimuqijuvAqegOpecEfebuv"/>-->
+    <!--<Attribute name="rapuGoru" type="String"/>-->
+    <Attribute name="bibog3" type="String"/>
+    <Attribute name="huxufafOcoFuBivola" type="String"/>
+    <Attribute name="ziteHamajona" type="double"/>
+    <Attribute name="guzahoQiheju" type="double"/>
+    <Attribute name="muvoReqeyuCuda" type="String"/>
+    <Attribute name="qehUxuce" type="String"/>
+    <Attribute name="petAka" type="String"/>
+    <Attribute name="bajuwoFujak" type="String"/>
+    <Attribute name="sipexoLitididuj" type="String"/>
+    <Attribute name="type" type="String"/>
+    <Attribute name="vebunuJiqelet" type="String"/>
+    <Attribute name="bibog5" type="String"/>
+    <Attribute name="bibog2" type="String"/>    
+    <Attribute name="bibog4" type="String"/>
+    <Attribute name="bibog1" type="String"/>
+    <Attribute name="xuxokEk" type="int"/>
+    <Attribute name="source" type="String"/>
+</Version>
+</WireObject>

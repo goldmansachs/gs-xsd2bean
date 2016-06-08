@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>interface,noki,qahabiwe,wunopi,tetahij,key,nuzikuzu</Templates>
+    <PackageName>com.gs.fw.lilu.tekihif.domain.bisojiwocu</PackageName>
+    <ClassName>ZurEmozigoCokufa</ClassName>
+    <DefaultTable>ZUREMOZIGOCOKUFA</DefaultTable>
+    <SchemaName></SchemaName>
+    <ConnectionManagerName>mivuva</ConnectionManagerName>
+    <ExplicitColumnNamesForSelect>true</ExplicitColumnNamesForSelect>
+    <ReadStoredProcedure>Kum_Hiq_ZurEmozigoCokufa</ReadStoredProcedure>
+
+    <PrimaryKeyAttribute keyClass="DewOzusureSeveceKaw">
+        <Attribute columnName="MIRUJ" javaType="String" name="miruj" sqlType="XefeTewesa"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="PEKU_PER_VUQ" javaType="double" name="cudoJamUpa" sqlType="Luhisa"/>
+    <Attribute columnName="VUQ_WUP_XIDO_WE" javaType="double" name="cukOfuMobeJu" sqlType="Luhisa"/>
+    <Attribute columnName="VUQ_PAZAV_HUXOJ" javaType="double" name="xobErubuGaj" sqlType="Luhisa"/>
+    <Attribute columnName="YEDAS" javaType="double" name="yedas" sqlType="Luhisa"/>
+    <Attribute columnName="JIP_SEFUVOWUPI" javaType="double" name="kegAhaviqifod" sqlType="Luhisa"/>
+    <Attribute columnName="VUQ_XIDO_WE" javaType="double" name="waxEhawEw" sqlType="Luhisa"/>
+    <Attribute columnName="VUQ_KOVAWI_WE" javaType="double" name="nisUcuhecUf" sqlType="Luhisa"/>
+
+    <Relationship cardinality="one-to-one" dependentClass="VokodewUcujaGoderi" foreignKey="hahehIqifidAmi"
+                  name="neveyEjeriy"/>
+
+    <AbstractMethod returnType="YowufarutaGib" methodName="rehEpudaVipukoHaj" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="nalEkifeCodadaMuj" parameters="YowufarutaGib HahehIqifidAmi"/>
+
+</ManagedObject>

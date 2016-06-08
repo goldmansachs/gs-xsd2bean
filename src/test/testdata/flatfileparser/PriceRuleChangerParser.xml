@@ -1,0 +1,32 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<FlatFileParserConfig
+        delimiter="~"
+        inflatedObject="com.gs.fw.para.application.nuromosetudacikufip.PinudOragAvuvovuTaciDiru"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        columns="8"
+        xsi:noNamespaceSchemaLocation="../../xsd/parserconfig.xsd">
+
+    <Mapping attribute="Jibal" position="1"/>
+    <Mapping attribute="JizabUd" position="2"/>
+    <Mapping attribute="Jewivuy" position="3"/>
+    <Mapping attribute="GedocaSa" position="4"/>
+    <Mapping attribute="JolexafiJ" position="5"/>
+    <Mapping attribute="Gufiwaqulel" position="6"/>
+    <Mapping attribute="DipulUkey" position="7"/>
+    <Mapping attribute="DitelohAjil" position="8"/>
+
+</FlatFileParserConfig>

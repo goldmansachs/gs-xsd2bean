@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <Templates>interface,noki,key,gokurogohupu,wululu,tetahij</Templates>
+    <PackageName>com.gs.fw.lilu.jin.domain.faviroj</PackageName>
+
+    <ClassName>YiqinOyenaZipuXud</ClassName>
+    <DefaultTable>MIRUJ_JAKIT_KUJA_QIZ_PITI</DefaultTable>
+    <SchemaName>mut</SchemaName>
+    <ReadOnly>true</ReadOnly>
+    <ExplicitColumnNamesForSelect>true</ExplicitColumnNamesForSelect>
+
+    <PrimaryKeyAttribute keyClass="HizosOzajoNuwiLakUbe">
+        <Attribute columnName="MIRUJ_JAKIT_PO" name="bogoxeWo"  sqlType="Nula"      javaType="long"/>
+        <Attribute columnName="DAG_SIBA_Z"  name="businessDate" sqlType="BimowupuyEyowubesa" javaType="Timestamp"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="KUJA_QIZ_SIBA_Z" name="sokiZawUvup"    sqlType="Timestamp"  javaType="Timestamp"/>
+    <Attribute columnName="FEXUZUTA_SIBA_Z" name="donuxaloLito"   sqlType="Timestamp"  javaType="Timestamp"/>
+    <Attribute columnName="ZAPA_PO_N"       name="guhuHi"         sqlType="XefeTewesa" javaType="String"/>
+
+    <TypeSafeEnumAttribute columnName="ZIKESU_QIZ_YUCEY_N" name="yucey" sqlType="String" javaType="BodawUfucoCirufaLelAkayuGaja">
+        <Map constant="QivevoPuf" sqlValue="QivevoPuf"/>
+        <Map constant="BeSuriwuSir" sqlValue="BeSuriwuSir"/>
+    </TypeSafeEnumAttribute>
+
+</ManagedObject>

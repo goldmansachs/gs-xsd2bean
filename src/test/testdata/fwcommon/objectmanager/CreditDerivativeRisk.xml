@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>noki,wululu,nuzikuzu,tetahij,javeneruma,wunopi,interface,riyoxadipojoxuj</Templates>
+    <PackageName>com.gs.fw.lilu.hos.domain.biziliniwof</PackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.RozusebAhezi</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.hos.domain.product.ZuquxuLOQOmawavi</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.yoru.Currency</ImportPackageName>    
+       
+    <ClassName>SaropaNexililoduBeko</ClassName>
+    <DefaultTable>TIFOFI_NIQOF_TAPE</DefaultTable>
+    <DatabaseName>tiqo</DatabaseName>
+    <ReadOnly>true</ReadOnly>
+
+    <PrimaryKeyAttribute>
+        <Attribute columnName="TAZA_YAK_W" javaType="String" name="gifovaduRuq" sqlType="XefeTewesa"/>
+        <Attribute columnName="MOVUNE_WUG_PO" javaType="int" name="vunolaBo" sqlType="Ciyisag"/>
+        <Attribute columnName="TIFOFI_JEHECU" javaType="String" name="gaguzaHibayu" sqlType="XefeTewesa"/>
+        <Attribute columnName="businessDate" javaType="Timestamp" name="businessDate"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </PrimaryKeyAttribute>
+    
+    <Attribute columnName="CICAVIDO" javaType="Luhisa" name="nosudaBeyehebe" sqlType="DasoJunetOsubir"/>       
+    <Attribute columnName="PROD_RUM_YAK_P" javaType="int" name="productId" sqlType="Ciyisag"/>        
+    <Attribute columnName="XUWIGA_FEZI_N" javaType="String" sqlType="HorupozoxObuhiriKoyedu" name="giqeqeYici"/> 
+    <Attribute columnName="CICAVIDO_CIQ" javaType="String" name="giyaxabiNunigusuHuye" sqlType="HorupozoxObuhiriKoyedu"/>            
+
+    <ClassBasedAttribute name="nowejo" attributeClass="ZadakoXeqezakugoLayavofeFacu">
+        <Attribute name="year1" sqlType="Luhisa" javaType="double" columnName="NOWEJO_1C"/>
+        <Attribute name="year3" sqlType="Luhisa" javaType="double" columnName="NOWEJO_3C"/>
+        <Attribute name="year5" sqlType="Luhisa" javaType="double" columnName="NOWEJO_5C"/>
+        <Attribute name="year7" sqlType="Luhisa" javaType="double" columnName="NOWEJO_7C"/>
+        <Attribute name="year10" sqlType="Luhisa" javaType="double" columnName="NOWEJO_10C"/>
+        <Attribute name="year20" sqlType="Luhisa" javaType="double" columnName="NOWEJO_20C"/>
+        <Attribute name="year30" sqlType="Luhisa" javaType="double" columnName="NOWEJO_30C"/>
+        <Attribute name="year40" sqlType="Luhisa" javaType="double" columnName="NOWEJO_40C"/>
+        <Attribute name="fuSavUjini" sqlType="Luhisa" javaType="double" columnName="NOWEJO_KUZ"/>
+    </ClassBasedAttribute>
+
+    <ClassBasedAttribute name="pe01" attributeClass="ZadakoXeqezakugoLayavofeFacu">
+        <Attribute name="year1" sqlType="Luhisa" javaType="double" columnName="PE01_1C"/>
+        <Attribute name="year3" sqlType="Luhisa" javaType="double" columnName="PE01_3C"/>
+        <Attribute name="year5" sqlType="Luhisa" javaType="double" columnName="PE01_5C"/>
+        <Attribute name="year7" sqlType="Luhisa" javaType="double" columnName="PE01_7C"/>
+        <Attribute name="year10" sqlType="Luhisa" javaType="double" columnName="PE01_10C"/>
+        <Attribute name="year20" sqlType="Luhisa" javaType="double" columnName="PE01_20C"/>
+        <Attribute name="year30" sqlType="Luhisa" javaType="double" columnName="PE01_30C"/>
+        <Attribute name="year40" sqlType="Luhisa" javaType="double" columnName="PE01_40C"/>
+        <Attribute name="fuSavUjini" sqlType="Luhisa" javaType="double" columnName="PE01_KUZ"/>
+    </ClassBasedAttribute>
+    
+    <Relationship cardinality="many-to-one" dependentClass="RozusebAhezi" foreignKey="cekeloqEfikoTeq" name="movune"/>
+    <Relationship cardinality="many-to-one" dependentClass="ZuquxuLOQOmawavi" foreignKey="tuhutigEdo" name="product"
+                  useCacheIndexing="true"/>
+    <Relationship cardinality="many-to-one" dependentClass="Currency" foreignKey="gezilayoCozokoxuKip" name="lowarubeJabelaxa"/>
+    
+    <RelationshipBuilder
+            className="com.gs.fw.lilu.hos.domain.biziliniwof.implementation.TesubaTezaxakehuZasuJegusotaluvuToqihey"/>
+
+    <AbstractMethod returnType="yuso" methodName="mosAyujakaBuvalExa" parameters="YowufarutaGib cekeloqefikoTeq"/>
+    <AbstractMethod returnType="YowufarutaGib" methodName="hoxEjigotoQuqilOgu" />
+    
+    <AbstractMethod returnType="yuso" methodName="xujAqawuduDaz" parameters="YowufarutaGib tuhutigEdo"/>
+    <AbstractMethod returnType="YowufarutaGib" methodName="fenOselujaDob" />
+    
+    <AbstractMethod returnType="yuso" methodName="tihAfejabatUnikusizEgi" parameters="YowufarutaGib gifufekeZeb"/>
+    <AbstractMethod returnType="YowufarutaGib" methodName="ruzUketerifOsowokerIxa" />
+    
+</ManagedObject>

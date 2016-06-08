@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd"
+        layoutId="Vojiy Pizer" pageTitle="ROH Xagexesi Puqivej"
+        pageBuilder="com.gs.fw.kaza.desa.faloxolaw.vo.JecEhinoqiteKunuhixalEkokEdupaxo" showSelection="false">
+
+    <section>
+        <row>
+            <section caption="Cuyokujo Date Dob Mosuku Puqivej">
+                <row>
+                    <section>
+                        <row>
+                            <uiElement name="businessDate" label="Cuyokujo Date" renderAs="combobox" sortBy="domain"/>
+                            <uiElement name="qahodoqo" label="Qahodoqo" renderAs="combobox" sortBy="none"/>
+                            <uiElement name="dileweri" label="Currency" renderAs="combobox" defaultSelection="QES"/>
+                            <uiElement name="entity" label="Humopa" renderAs="combobox" defaultSelection="FEFI"/>
+                        </row>
+                    </section>
+                </row>
+                <row>
+                    <uiElement name="mudumoGecIhigiso" label="Qes Lekojoy"
+                               renderAs="checkbox" defaultSelection="true" style="label.style"/>
+                </row>
+                <row>
+                    <uiElement name="koga" label="Koga"
+                               renderAs="checkbox"/>
+                </row>
+                <row>
+                    <uiElement name="su" label="Lufosabofika Widu"
+                               renderAs="checkbox"/>
+                </row>
+                <row>
+                    <uiElement name="zocasavoJarisa" label="Wunoqoya Hajuze"
+                               renderAs="checkbox"/>
+                </row>
+                <row>
+                    <uiElement name="wepeBidufuj" label="Piwe Nixasoz"
+                               renderAs="checkbox"/>
+                </row>
+                <row>
+                    <uiElement name="faroFozarirup" label="Piwe Labeputut"
+                               renderAs="checkbox"/>
+                </row>
+                <row>
+                    <uiElement name="jukoNuvuzigIlofaved" label="Piwe (Tigaran Wacutiha)"
+                               renderAs="checkbox"/>
+                </row>
+                <row>
+                    <uiElement name="guwEbinAhuwaduni" label="GEY Dazi Labeputut"
+                               renderAs="checkbox"/>
+                </row>
+                <row>
+                    <uiElement name="dubAjokiyezoqud" label="GEY Mefabofiwopa"
+                               renderAs="checkbox"/>
+                </row>
+                <row>
+                    <uiElement name="tawatomEmuXupejuhisuv" label="Rinuxuv For Degugahiyag"
+                               renderAs="checkbox"/>
+                </row>
+                <row>
+                    <uiElement name="zivukome" label="Zivukome"
+                               renderAs="checkbox"/>
+                </row>
+            </section>
+        </row>
+
+        <row>
+            <section caption="Xagexesi Cezuxom">
+
+                <row>
+                    <section>
+                        <row>
+                            <button label="Lesihocu" name="huxalesoZatutipovUfegetaSotag"
+                                    nextLayoutName="desa/faloxolaw/gifEsagolaziTojunemegEsuciheWiwox.xml"
+                                    pageBuilder="com.gs.fw.kaza.desa.faloxolaw.vo.KumUjozetinaFazubivibOfofuleKofelaw"
+                                    crumbTrail="true"/>
+                        </row>
+                    </section>
+                </row>
+            </section>
+        </row>
+
+        <row>
+            <section caption="XAZIRAP Qiwo Nunawes">
+                <row>
+                    <section>
+                        <row>
+                            <uiElement name="lulegosebIdagagEceraKoxuPuw" label="Guquzuzuh Gucesu Haqes"
+                                       transformerClass="com.gs.fw.common.petuhadi.vo.transformer.PorimubeDesaRemohiqujor"
+                                       renderAs="datepicker"/>
+                            <uiElement name="luqadebonEvevitIfenAyikIza" label="Guquzuzuh Sopa Date"
+                                       transformerClass="com.gs.fw.common.petuhadi.vo.transformer.PorimubeDesaRemohiqujor"
+                                       renderAs="datepicker"/>
+                            <uiElement name="moyedopeqaVixOvogIko" label="Cikocidaca Tan Date"
+                                       transformerClass="com.gs.fw.common.petuhadi.vo.transformer.PorimubeDesaRemohiqujor"
+                                       renderAs="datepicker"/>
+                        </row>
+                        <row>
+                            <uiElement name="zabuYeduyeSij" label="Peza Number" renderAs="textbox"
+                                       defaultSelection="1"/>
+                        </row>
+                    </section>
+                </row>
+                <row>
+                    <section>
+                        <row>
+                            <uiElement name="meqozipOgijupu" label="Use XAZIRAP wacutiha/cupena date xoqudib"
+                                       renderAs="checkbox"
+                                       style="label.style"
+                                       defaultSelection="true"/>
+                        </row>
+                        <row>
+                            <uiElement name="murulOlEram" label="Lalilih from base to guquzuzuh dileweri"
+                                       renderAs="checkbox"
+                                       style="label.style"
+                                       defaultSelection="true"/>
+                        </row>
+                    </section>
+                </row>
+                <row>
+                    <section>
+                        <row>
+                            <uiElement name="ticacuLote" label="Dubusi" renderAs="combobox" sortBy="domain"/>
+                        </row>
+                    </section>
+                </row>
+                <row>
+                    <section>
+                        <row>
+                            <button label="Lesihocu" name="nutusuvuMapega"
+                                    nextLayoutName="desa/faloxolaw/wedUlivulumiXobukiTipux.xml"
+                                    pageBuilder="com.gs.fw.kaza.desa.faloxolaw.vo.SitUsopedeyuFehesEdotunOxibori"
+                                    crumbTrail="true"/>
+                        </row>
+                    </section>
+                </row>
+            </section>
+        </row>
+    </section>
+
+</layout>

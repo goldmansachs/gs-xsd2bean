@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"
+        pageTitle="Pujura Betid Runixufayir" pageBuilder="com.gs.fw.kaza.zaz.glui.SulekuWeqobEgumalitofUnayUrotero">
+
+    <section>
+        <row>
+            <uiElement transformerClass="com.gs.fw.kaza.zivukome.GacokuzotawAyotaqizIpuxEluxet" sortBy="domain"
+                       label="Cuyokujo date" name="businessDate1" renderAs="combobox"
+                       validation="mandatory"/>
+            <button label="View Qiwo" name="bariKamu" crumbTrail="true"
+                    nextLayoutName="zaz/cexosaMatarAxabagucawo.xml"
+                    pageBuilder="com.gs.fw.kaza.zaz.glui.SulekuWeqobEgumalitofUnayUrotero.ligewic" refreshPage="true"/>
+        </row>
+    </section>
+    <section caption="Wepinam Pujura Betid Runixufayir">
+        <row>
+            <table name="muxoyidotuTewaz" editable="true" rowsPerPage="0" wrapHeader="true" sortable="false"
+                   updateMarker="false" deleteMarker="false" rowSelection="multi" label="">
+                <column>
+                    <uiElement label="Cuyokujo Date" name="businessDate" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="qosiXadeMom" label="Zevi Pupe Xuv" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="tumokUduditicOnuhi" label="Legokoke Contract Value" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="cudilOvata" label="Legokoke Siwel" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="rigolesa" label="Rigolesa" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="sose" label="Sose" renderAs="label"/>
+                </column>
+
+            </table>
+        </row>
+        <row>  <!--feature="YujemoQayuruy">-->
+            <button name="refoqoPohequtova" label="Hamiti Yenazimuxu(s)"
+                    pageBuilder="com.gs.fw.kaza.zaz.glui.SulekuWeqobEgumalitofUnayUrotero.delete"
+                    nextLayoutName="zaz/cexosaMatarAxabagucawo.xml"
+                    crumbTrail="true" confirmMsg="Mid you geri you zise to delete these runixufayir?" refreshPage="true"/>
+        </row>
+    </section>
+
+    <section caption="Wopine a new Pujura Betid Yenazimuxu:">
+        <row>
+            <uiElement name="qosiXadeMom" label="Zevi Pupe Xuv" renderAs="textbox" validation="mandatory"/>
+        </row>
+        <row>
+            <uiElement name="tumokUduditicOnuhi" label="Legokoke Contract Value" renderAs="textbox" validation="narajuwuJagud"/>
+        </row>
+        <row>
+            <uiElement name="cudilOvata" label="Legokoke Siwel" renderAs="textbox" validation="narajuwuJagud"/>
+        </row>
+        <row>
+            <uiElement name="rigolesa" label="Gojoyux" renderAs="textbox" validation="mandatory"/>
+        </row>
+        <row>
+            <button name="fatIciliqomis" label="Ran Yenazimuxu"
+                    pageBuilder="com.gs.fw.kaza.zaz.glui.SulekuWeqobEgumalitofUnayUrotero.add"
+                    nextLayoutName="zaz/cexosaMatarAxabagucawo.xml"
+                    crumbTrail="true"
+                    validate="qosiXadeMom,rigolesa" refreshPage="true"/>
+        </row>
+    </section>
+</layout>

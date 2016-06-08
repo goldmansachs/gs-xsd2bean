@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/layout.xsd"
+        layoutId="Pocusox Duzoqojimemelu Xuya" pageTitle="NAXI/YOD Duzoqojimemelu"
+        pageBuilder="com.gs.fw.kaza.desa.duzoqojimemelu.zupasem.vo.ViyaVegIsamoKikesUbogaku"
+        showSelection="false"
+        windowState="maximized">
+
+    <section>
+        <row>
+            <section caption="Cuyokujo Date and Qahodoqo">
+                <row>
+                    <uiElement name="businessDate1" label="Cuyokujo Date" renderAs="combobox" attribute="display"
+                               validation="mandatory" sortBy="none"/>
+                    <uiElement name="qahodoqo1" label="YOD Qahodoqo" attribute="display" renderAs="combobox"
+                               validation="mandatory" sortBy="none"/>
+                    <uiElement name="tihi" label="TIHI" attribute="display" renderAs="combobox" defaultSelection="NIPUKO"
+                               validation="mandatory" sortBy="none"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section caption="Mosuku Puqivej">
+                <row>
+                    <section caption="">
+                        <row>
+                            <uiElement name="entity" label="Humopa" renderAs="combobox" attribute="display"
+                                       noSelectOption="&lt;No Mosuku&gt;"
+                                       validation="VesaHirUfiqoxiSonacolerijebuDafibivac"/>
+                            <uiElement name="litupejiWifuRomav" label="Casah Group" renderAs="combobox"
+                                       attribute="display" noSelectOption="&lt;No Mosuku&gt;"
+                                       validation="VesaHirUfiqoxiSonacolerijebuDafibivac"/>
+                        </row>
+                        <row>
+                            <uiElement name="casah" label="Casah" renderAs="listbox" attribute="display"
+                                       noSelectOption="&lt;No Mosuku&gt;"
+                                       validation="VesaHirUfiqoxiSonacolerijebuDafibivac"/>
+                        </row>
+                    </section>
+
+                    <section caption="">
+                        <row>
+                            <uiElement name="setixizo" label="SetiXizo" renderAs="combobox" attribute="display"
+                                       noSelectOption="&lt;No Mosuku&gt;"
+                                       validation="VesaHirUfiqoxiSonacolerijebuDafibivac"/>
+                        </row>
+                        <row>
+                            <uiElement name="guyuliRoxebobi" label="Vuqusa Wutesomo" renderAs="listbox"
+                                       attribute="display"
+                                       noSelectOption="&lt;No Mosuku&gt;"
+                                       validation="VesaHirUfiqoxiSonacolerijebuDafibivac"/>
+                        </row>
+                    </section>
+                </row>
+            </section>
+        </row>
+
+        <row>
+            <section caption="Mowere Qeqerif Puqivej" expandable="true" expanded="true">
+                <row>
+                    <uiElement name="hepafiq" label="Group By" renderAs="combobox" sortBy="none" attribute="display"
+                               validation="mandatory"/>
+                </row>
+                <row>
+                    <uiElement name="xosoXuva" label="Xosoxuva" renderAs="combobox" attribute="display" sortBy="none"/>
+                </row>
+                <row>
+                    <uiElement name="wecimAmid" label="View" renderAs="combobox" attribute="display"
+                               defaultSelection="Qes"/>
+                </row>
+                <row>
+                    <uiElement name="cepusataqUjifa" label="Bibudizoq Duqum" renderAs="textbox" defaultSelection="1.0"
+                               attribute="display"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section caption="Ceyoros" expandable="true">
+                <row>
+                    <button name="kisigewAlibucuyan" label="Ceyoros Zosahoxami"
+                            confirmMsg="Mid you geri to ceyoros all zosahoxami lime ?"
+                            crumbTrail="true" refreshPage="true"
+                            nextLayoutName="desa/gizasegirumelajohobak/dozojiroxeraqequhigej/siceQiqAyiliHiveh.xml"
+                            pageBuilder="com.gs.fw.kaza.desa.duzoqojimemelu.zupasem.vo.WarohinIgejekowuMiqefecan.kisigewAlibucuyan"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section>
+                <row>
+                    <button name="Lesihocu"
+                            label="Lesihocu"
+                            crumbTrail="true"
+                            nextLayoutName="desa/gizasegirumelajohobak/dozojiroxeraqequhigej/lozigivOtaxeziKavex.xml"
+                            validate="cepusataqUjifa, qahodoqo1, businessDate1, hepafiq, entity, litupejiWifuRomav, setixizo, casah, guyuliRoxebobi"/>
+                </row>
+            </section>
+        </row>
+    </section>
+</layout>

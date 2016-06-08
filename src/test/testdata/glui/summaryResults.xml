@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd"
+        pageTitle="DoYuzIkucow">
+
+    <!--pageBuilder="com.gs.fw.kaza.tekihif.vo.SeXukEfaluGamegaYuderuv"-->
+    <section caption="Dulic Bega Vowikahi">
+        <row>
+            <uiElement label="Dulic Bega:" name="vebidIdib" attribute="taxobifuNeyo" renderAs="combobox"/>
+        </row>
+    </section>
+
+    <section caption="Vojiy Yokucaz">
+            <row>
+                <uiElement label="" name="cacuzOqujoxu" renderAs="label" style="textbox.style"
+                           transformerClass="com.gs.fw.kaza.tekihif.jaba.VuwEvUyovurIqilewumuji"/>
+            </row>
+    </section>
+
+    <section caption="Cezuxom">
+        <row>
+            <table label="Cezuxom" name="buLuwAtelo" rowsPerPage="0">
+                <drilldown>
+                    <button name="gerobifusOr" label="Dulic Bega" renderAs="button" crumbTrail="true"
+                            nextLayoutName="tekihif/kucok/batasuPaxeliz.xml"/>
+                </drilldown>
+
+            </table>
+        </row>
+    </section>
+
+</layout>

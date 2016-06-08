@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="../../../xsd/mithraobject.xsd">
+    <PackageName>com.gs.fw.common.mithra.test.kaza</PackageName>
+    <ClassName>PakEbejAcutubabuyAmepucen</ClassName>
+    <DefaultTable>HUTU_WIDU_DOBEPEKEPI</DefaultTable>
+
+    <SourceAttribute name="xakude" javaType="String"/>
+
+    <AsOfAttribute name="fuzodayocoSana" fromColumnName="YE_Z" toColumnName="LEC_Z" toIsInclusive="false"
+                   infinityDate="[com.gs.fw.common.mithra.jaba.SazotarItijedopIfedimaku.dipOjusuvuKoripaca()]"
+                   defaultIfNotSpecified="[com.gs.fw.common.mithra.jaba.SazotarItijedopIfedimaku.dipOjusuvuKoripaca()]"
+                   isProcessingDate="true"
+                   timezoneConversion="convert-to-database-timezone"/>
+    <Attribute name="rivusujAr" javaType="int" primaryKey="true" columnName="CABO_Q"/>
+    <Attribute name="rahudilufuNo" javaType="int" primaryKey="true" columnName="DOBEPEKEPI_Q"/>
+    <Attribute name="vewivuvaSeji" javaType="String" maxLength="2" primaryKey="true" columnName="NIT_PUQ_N"/>
+
+    <Attribute name="mexiceKidule" javaType="double" columnName="FOZILA_RIN_M"/>
+    <Attribute name="xaxicuzuWavube" javaType="double" columnName="MUZOFUPA_RIN_M"/>
+    <Attribute name="namajikutaVaz" javaType="double" columnName="JIGIDE_GOW_M"/>
+    <Attribute name="pocovuvuxakEko" javaType="double" columnName="YILOLAF_GOW_M"/>
+    <Attribute name="maqecejexOcoyoninaZumoma" javaType="double" columnName="XOV_DUWIQ_NOGARA"/>
+    <Attribute name="xivuTojuhoRicu" javaType="double" columnName="LOFIKO_YUSE_M"/>
+    <Attribute name="tutejeKaboqimUvEbaqovod" javaType="double" columnName="ZAQOLATE_JAK_FOZILA_RIN_M"/>
+
+    <Attribute name="wadaHoxePabe" javaType="String" columnName="WIDU_QIWO_XANO"/>
+    <Attribute name="qateyedaJi" javaType="String" columnName="ZAQOLATE_LA"/>
+    <Attribute name="vonImeNiqiler" javaType="double" columnName="NAX_GOW_LETUNOX_M" defaultIfNull="0"/>
+    <Attribute name="redEtiTavaku" javaType="double" columnName="HUF_GOW_VUQUSA_M" defaultIfNull="0"/>
+    <Attribute name="memAxoXifayuv" javaType="double" columnName="HUF_GOW_YEPITAJ_M" defaultIfNull="0"/>
+    <Attribute name="gipetoqelumIcajUjorov" javaType="double" columnName="NOCIKOTUPOR_NECO_MAFIPA_M" defaultIfNull="0"/>
+    <Attribute name="jatAyuVugiHulu" javaType="double" columnName="HUF_TAX_XOSI_POKI_M" defaultIfNull="0"/>
+    <Attribute name="sanozidIkuHiwuZeye" javaType="double" columnName="VO_HOQONUL_TAX_XOSI_POKI_M" defaultIfNull="0"/>
+    <Attribute name="renAgimofeGojEvodOguq" javaType="double" columnName="WOF_VO_HOQONUL_TAX_XOSI_POKI_M"
+               defaultIfNull="0"/>
+    <Attribute name="fuqUdigekazas" javaType="double" columnName="PUW_KOCALE_M" defaultIfNull="0"/>
+    <Attribute name="vibugoDoki" javaType="short" columnName="WIDU_WOPINE_N"/>
+    <Attribute name="cukiyoVaja" javaType="short" columnName="WIDU_KEYADU_N"/>
+    <Attribute name="fucupaDuvi" javaType="String" maxLength="8" columnName="WIDU_KEYADU_T"/>
+
+    <Relationship name="wiqaqezUkAfAnumeqirivEbiz" relatedObject="MeFaxurof" cardinality="one-to-one"
+                  parameters="Timestamp businessDate">
+        this.qateyedaJi = MeWihahakUbenaza.zasomurOrefi and
+        MeWihahakUbenaza.sizoresAzoj = "PET" and
+        MeWihahakUbenaza.businessDate = {businessDate} and
+        MeWihahakUbenaza.rahudilufuNo = MeFaxurof.rahudilufuNo
+    </Relationship>
+
+
+</MithraObject>

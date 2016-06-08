@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Templates>interface,noki,wululu,nuzikuzu,tetahij</Templates>
+    <PackageName>com.gs.fw.lilu.hos.domain.product</PackageName>
+    <ClassName>PUJOgekagoyo</ClassName>
+    <SchemaName>mut</SchemaName>
+    <ReadOnly>true</ReadOnly>
+    <ReadStoredProcedure>HOS_SajUkucugage</ReadStoredProcedure>
+
+    <PrimaryKeyAttribute keyClass="GOKAreyudizuGos">
+        <Attribute columnName="PROD_RUM_YAK_P" javaType="int" sqlType="Ciyisag"
+                   name="id"/>
+        <Attribute columnName="XUWIGA_FEZI_N" javaType="String"
+                   sqlType="HorupozoxObuhiriKoyedu" name="giqeqeYici"/>
+        <Attribute columnName="businessDate" javaType="Timestamp"
+                   sqlType="XIZofuxafasElegexaLimanigaw" name="businessDate"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="LER_XIMO_N" javaType="boolean"
+               sqlType="SogofedodIvuroje" name="tabAzusace"/>
+    <Attribute columnName="GUJIB_M" javaType="double" sqlType="Luhisa"
+               name="gujib"/>
+    <Attribute columnName="TOZAW_M" javaType="double" sqlType="Luhisa"
+               name="tozaw"/>
+    <Attribute columnName="XU_GISA_M" javaType="double" sqlType="Luhisa"
+               name="coJole"/>
+    <Attribute columnName="SESU_GISA_M" javaType="double" sqlType="Luhisa"
+               name="kareCina"/>
+    <Attribute columnName="GISA_M" javaType="double" sqlType="Luhisa"
+               name="gisa"/>
+    <Attribute columnName="ZUSUDUTICO_M" javaType="double" sqlType="Luhisa"
+               name="zusudutico"/>
+    <Attribute columnName="PAWIWOBESU_W" javaType="String" sqlType="XefeTewesa"
+               name="calculator"/>
+
+    <Relationship name="product" dependentClass="ZuquxuLOQOmawavi"
+                  cardinality="many-to-one" foreignKey="tuhutigEdo"
+                  useCacheIndexing="true"/>
+
+    <AbstractMethod returnType="yuso" methodName="xujAqawuduDaz"
+                    parameters="YowufarutaGib yowufarutaGib"/>
+    <AbstractMethod returnType="YowufarutaGib" methodName="fenOselujaDob"/>
+
+    <Index name="businessDate">businessDate</Index>
+</ManagedObject>
+

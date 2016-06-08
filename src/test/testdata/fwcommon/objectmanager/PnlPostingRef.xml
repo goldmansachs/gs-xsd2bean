@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>interface,noki,qahabiwe,wunopi,tetahij,key,nuzikuzu</Templates>
+    <PackageName>com.gs.fw.lilu.tekihif.domain.bisojiwocu</PackageName>
+    <ClassName>SidAsukiviBix</ClassName>
+    <DefaultTable>SIDASUKIVIBIX</DefaultTable>
+    <SchemaName></SchemaName>
+    <DatabaseName>vuq</DatabaseName>
+    <ConnectionManagerName>xaxah</ConnectionManagerName>
+    <ExplicitColumnNamesForSelect>true</ExplicitColumnNamesForSelect>
+    <ReadStoredProcedure>Kum_Hiq_SidAsukiviBix</ReadStoredProcedure>
+
+    <PrimaryKeyAttribute keyClass="GiqAbekadaZuyAqe">
+        <Attribute columnName="MIRUJ" javaType="String" name="miruj" sqlType="XefeTewesa"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="PAXICE" javaType="String" name="entity" sqlType="XefeTewesa"/>
+    <Attribute columnName="MIRUJ_MIBIKANE" javaType="String" name="gayuqUzu" sqlType="XefeTewesa"/>
+    <Attribute columnName="MIRUJ_VOVIXUXENUF" javaType="String" name="bezolOsaq" sqlType="XefeTewesa"/>
+    <Attribute columnName="QAJE_FEZI" javaType="String" name="zomoXase" sqlType="XefeTewesa"/>
+    <Attribute columnName="JILUHEZOFI" javaType="String" name="jiluhezofi" sqlType="XefeTewesa"/>
+    <Attribute columnName="TOPEDAX" javaType="String" name="manager" sqlType="XefeTewesa"/>
+    <Attribute columnName="MIRUJ_HAQ" javaType="String" name="buyefOriLewe" sqlType="XefeTewesa"/>
+    <Attribute columnName="MIRUJ_GESOWU_Bicafaf_Zulay" javaType="String" name="lofujEnalekuh" sqlType="XefeTewesa"/>
+    <Attribute columnName="MIRUJ_GESOWU_Fifec_Zulay" javaType="String" name="gotocAkesotop" sqlType="XefeTewesa"/>
+    <Attribute columnName="SAMU_ZAPA" javaType="String" name="reziPuqe" sqlType="String"/>
+    <Attribute columnName="HOVILUDE" javaType="String" name="hoVilude" sqlType="XefeTewesa"/>
+    <Attribute columnName="SAMU_LOPOPA_COPO" javaType="Timestamp" name="peciMotenaVoyi"
+               sqlType="PevaRiboBuxegEnucahocu"/>
+    <Attribute columnName="BUR_LUG_PIRAD_ZUC" javaType="double" name="fuqOnoRukiwEti" sqlType="Luhisa"/>
+    <Attribute columnName="PEKU_PER_ZUC" javaType="double" name="zeyuDemAke" sqlType="Luhisa"/>
+    <Attribute columnName="VUQ_MAKA" javaType="double" name="xabAsub" sqlType="Luhisa"/>
+    <Attribute columnName="VUQ_VELESEP" javaType="double" name="kajOrabani" sqlType="Luhisa"/>
+    <Attribute columnName="CU_NUZO_LOPOPA" javaType="double" name="laHudeHufenu" sqlType="Luhisa"/>
+    <Attribute columnName="MUM_LUY" javaType="String" name="dezAcu" sqlType="XefeTewesa"/>
+    <Attribute columnName="XIDO_LOPOPA" javaType="double" name="domeDarufu" sqlType="Luhisa"/>
+    <Attribute columnName="KOVAWI_LOPOPA" javaType="double" name="yuyiviCitehu" sqlType="Luhisa"/>
+    <Attribute columnName="RU_SERI_GESOWU" javaType="String" name="naDikeLuhezu" sqlType="XefeTewesa"/>
+    <Attribute columnName="RALO_MAKA_XIMO" javaType="String" name="naziVudiMiri" sqlType="XefeTewesa"/>
+    <Attribute columnName="VUQ_FIROVIZEB_XIMO" javaType="String" name="copUcizuhoza" sqlType="XefeTewesa"/>
+    <Attribute columnName="RALO_MIRUJ_GESOWU" javaType="String" name="hiruWovizEduged" sqlType="XefeTewesa"/>
+
+    <Relationship cardinality="one-to-one" dependentClass="VokodewUcujaGoderi" foreignKey="hahehIqifidAmi"
+                  name="neveyEjeriy"/>
+
+    <AbstractMethod returnType="YowufarutaGib" methodName="rehEpudaVipukoHaj" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="nalEkifeCodadaMuj" parameters="YowufarutaGib HahehIqifidAmi"/>
+
+</ManagedObject>

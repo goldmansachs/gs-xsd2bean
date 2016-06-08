@@ -1,0 +1,152 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:annotation>
+		<xs:documentation xml:lang="en">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+		</xs:documentation>
+	</xs:annotation>
+
+	<xs:element name="desktop" type="DesktopType"/>
+	<xs:complexType name="DesktopType">
+
+		<xs:all>
+			<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+			<xs:element name="applicationName" type="xs:string" minOccurs="1" maxOccurs="1"/>
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+			<xs:element name="title" type="xs:string" minOccurs="1" maxOccurs="1"/>
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+			<xs:element name="iconFile" type="xs:string" minOccurs="1" maxOccurs="1"/>
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+			<xs:element name="width" type="xs:int" minOccurs="1" maxOccurs="1"/>
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+			<xs:element name="height" type="xs:int" minOccurs="1" maxOccurs="1"/>
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+			<xs:element name="showMilestone" type="xs:boolean" minOccurs="1" maxOccurs="1"/>
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+			<xs:element name="menubar" type="Menubar" minOccurs="1" maxOccurs="1"/>
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+			<xs:element name="navigationPanel" type="NavigationPanel" minOccurs="1" maxOccurs="1"/>
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+			<xs:element name="loginPanel" type="LoginPanel" minOccurs="1" maxOccurs="1"/>
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+			<xs:element name="systemAboutPanel" type="SystemAboutPanel" minOccurs="0" maxOccurs="1"/>
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+			<xs:element name="groupPanel" type="GroupPanel" minOccurs="0" maxOccurs="1"/>
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+            <xs:element name="userPanel" type="UserPanel" minOccurs="0" maxOccurs="1"/>
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+			<xs:element name="properties" type="Properties" minOccurs="0" maxOccurs="1"/>
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+            <xs:element name="systemPrincipalName" type="xs:string" minOccurs="0" maxOccurs="1"/>
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+            <xs:element name="systemPrincipalPassword" type="xs:string" minOccurs="0" maxOccurs="1"/>
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+            <xs:element name="enableTooltips" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+
+		</xs:all>
+
+	</xs:complexType>
+
+
+	<xs:complexType name="Menubar">
+		<xs:sequence>
+			<xs:element name="menu" type="Menu" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="NavigationPanel">
+		<xs:sequence>
+			<xs:element name="tab" type="Tab" minOccurs="0" maxOccurs="unbounded"/>
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+			<xs:element name="selectedTab" type="xs:string" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="SystemAboutPanel">
+		<xs:sequence>
+			<xs:element name="tab" type="Tab" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="GroupPanel">
+		<xs:sequence>
+			<xs:element name="tab" type="Tab" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+
+    <xs:complexType name="UserPanel">
+        <xs:sequence>
+            <xs:element name="tab" type="Tab" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+	<xs:complexType name="Properties">
+		<xs:sequence>
+			<xs:element name="property" type="Property" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="LoginPanel">
+		<xs:sequence>
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+			<xs:element name="label" type="xs:string" minOccurs="1" maxOccurs="1"/>
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+			<xs:element name="iconFileName" type="xs:string" minOccurs="1" maxOccurs="1"/>
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+			<xs:element name="bannerFileName" type="xs:string" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="Menu">
+		<xs:sequence>
+			<xs:element name="menuItem" type="MenuItem" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string"/>
+		<xs:attribute name="label" type="xs:string"/>
+	</xs:complexType>
+
+	<xs:complexType name="Tab">
+		<xs:sequence>
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis no -->
+			<xs:element name="controllerClassName" type="xs:string" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+        <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+		<xs:attribute name="id" type="xs:string"/>
+        <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+		<xs:attribute name="label" type="xs:string"/>
+	</xs:complexType>
+
+	<xs:complexType name="MenuItem">
+        <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+		<xs:attribute name="id" type="xs:string"/>
+        <!-- Lorem  -->
+		<xs:attribute name="label" type="xs:string"/>
+        <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+		<xs:attribute name="separator" type="xs:boolean"/>
+        <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+		<xs:attribute name="keystroke" type="xs:string"/>
+    </xs:complexType>
+
+	<xs:complexType name="Property">
+        <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+		<xs:attribute name="name" type="xs:string"/>
+		<xs:attribute name="value" type="xs:string"/>
+	</xs:complexType>
+
+</xs:schema>

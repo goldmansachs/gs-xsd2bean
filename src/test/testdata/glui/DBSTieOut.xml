@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"
+        pageTitle="NAL Jixafu" pageBuilder="com.gs.fw.kaza.tekihif.vo.TagOteKakAmohOzupume">
+
+    <section>
+        <row>
+            <uiElement name="businessDate" label="Cuyokujo Date:" renderAs="combobox"
+                       transformerClass="com.gs.fw.common.petuhadi.vo.transformer.PorimubeDesaRemohiqujor"/>
+
+            <uiElement name="jamugufUwipu" label="Josowot Group:" renderAs="combobox" defaultSelection="RA"
+                       refreshPage="true" />
+            <uiElement name="entity" label="Humopa:" renderAs="combobox" defaultSelection="QIGI" attribute="name"/>
+        </row>
+    </section>
+
+    <section feature="Casah">
+        <row>
+            <uiElement name="casah" label="Casah:" renderAs="combobox" attribute="name"/>
+        </row>
+    </section>
+    <section>
+        <row>
+            <button label="Lesihocu" name="lesihocu" crumbTrail="true" refreshPage="true"
+                    nextLayoutName="tekihif/KONIloTic.xml"
+                    pageBuilder="com.gs.fw.kaza.tekihif.vo.QusEkuPuwIyalimIsuvigu"/>
+        </row>
+    </section>
+
+    <section>
+        <row feature="SahalacOzexaqezo">
+            <table name="konIloTic"/>
+        </row>
+        <row>
+            <button label="Wopine Xowapeza" name="wopine" nextLayoutName="tekihif/NixakodOhayilUcaxiSabeji.xml"
+                    pageBuilder="com.gs.fw.kaza.tekihif.vo.JikoyoMerisadaZaqiBulovil" crumbTrail="false"/>
+        </row>
+    </section>
+</layout>

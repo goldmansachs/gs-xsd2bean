@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Templates>interface,noki,wunopi,tetahij,wululu,fiyatis,gokurogohupu</Templates>
+    <PackageName>com.gs.fw.lilu.jin.domain.position</PackageName>
+    <ImportPackageName>com.gs.fw.common.giluy.domain.ronumiluc.VumikUto</ImportPackageName>
+    <ImportPackageName>com.gs.fw.ralo.domain.haq.MepevatuGuceNayiq</ImportPackageName>
+    <ClassName>ZuzebasoQenetirixu</ClassName>
+
+    <DefaultTable>FOSIKIXI_DINEZAXILO</DefaultTable>
+    <SchemaName>mut</SchemaName>
+    <ReadOnly>false</ReadOnly>
+    <ExplicitColumnNamesForSelect>true</ExplicitColumnNamesForSelect>
+
+    <PrimaryKeyAttribute keyClass="FamadeduPocuxowedaGus">
+    <Attribute columnName="BOGOXEWO" javaType="Nula" name="bogoxeWo" sqlType="Nula"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute name="rivusujAr"      columnName="DOMU_KUB_8DAXEW_N"   javaType="String"     sqlType="XefeTewesa"/>
+    <Attribute name="zuzavupEkeCuwu" columnName="DOMU_FIWAVEL_N "     javaType="String"     sqlType="XefeTewesa"/>
+    <Attribute name="taw"            columnName="HUXIMEH_TEKOX_N"     javaType="String"     sqlType="XefeTewesa"/>
+    <Attribute name="businessDate"   columnName="DAG_SIBA_Z"          javaType="Timestamp"  sqlType="BimowupuyEyowubesa"/>
+    <Attribute name="dovidiwaviYeko" columnName="DINEZAXILO_TADE_N"   javaType="String"     sqlType="XefeTewesa"/>
+    <Attribute name="damagul"        columnName="DAMAGUL_Z"           javaType="double"     sqlType="Luhisa"/>
+    <Attribute name="jiluhezofi"     columnName="JILUHEZOFI_N"        javaType="String"     sqlType="XefeTewesa"/>
+    <Attribute name="comment"        columnName="SEWOHOW_N"           javaType="String"     sqlType="XefeTewesa"/>
+    <Attribute name="donuxaloLito"   columnName="NEMADO_SIBA_Z"       javaType="Timestamp"  sqlType="Timestamp"/>
+    <Attribute name="fiyuvEzeguKo"   columnName="HAQ_P"               javaType="Nula"       sqlType="Nula"/>
+    <Attribute name="juxepEyal"      columnName="NO_Z"                javaType="Timestamp"  sqlType="Timestamp"/>
+    <Attribute name="fosawIv"        columnName="RUC_Z"               javaType="Timestamp"  sqlType="Timestamp"/>
+
+    <AbstractMethod returnType="SinivirulogaPaxajoduFov" methodName="cumIhoticiditehEmeyequjIxo" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="bebAgozipemuqatOkimiyusEve" parameters="YowufarutaGib key"/>
+
+    <AbstractMethod returnType="XoxinubacivaJoloxoQicecomeNoy" methodName="deqEzoxemikokawEzerixIzuyokazOmu" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="xabUwugerixoxuzEnowabUcetevapUri" parameters="YowufarutaGib key"/>
+
+    <Index name="sinivirulogaPaxajoduFov">sinivirulogaPaxajoduFov</Index>
+    <Index name="xoxinubacivaJoloxoQicecomeNoy">xoxinubacivaJoloxoQicecomeNoy</Index>
+
+</ManagedObject>
+

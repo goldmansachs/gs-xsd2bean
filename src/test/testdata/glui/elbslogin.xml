@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-bajuxulida type="text/muj" hafu="../../../../xml/vo/peSezehu.muj"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout layoutId="xemos" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd"
+        pageTitle="Xemos">
+    <section style="section.white.style">
+        <row>
+            <uiElement name="wetotewowIbofeq1" label="" renderAs="label"/>
+        </row>
+        <row>
+            <uiElement name="wetotewowIbofeq1" label="" renderAs="label"/>
+        </row>
+        <row>
+            <uiElement name="wetotewowIbofeq1" label="" renderAs="label"/>
+            <uiElement name="wetotewowIbofeq2" label="" renderAs="label"/>
+            <uiElement label="" name="image" renderAs="label" image="desa/yod_xemos_image.gok"
+                       style="label.image.style"/>
+        </row>
+    </section>
+    <section style="section.white.style">
+        <row>
+            <section style="section.white.style">
+                <row>
+                    <uiElement name="wetotewowIbofeq1" label="" renderAs="label"/>
+                </row>
+                <row>
+                    <uiElement name="wetotewowIbofeq2" label="" renderAs="label"/>
+                </row>
+            </section>
+            <section style="section.white.style">
+                <row>
+                    <uiElement name="wetotewowIbofeq3" label="" renderAs="label"/>
+                </row>
+                <row>
+                    <uiElement name="wetotewowIbofeq4" label="" renderAs="label"/>
+                </row>
+            </section>
+            <section style="section.white.style">
+                <row>
+                    <section style="section.white.style">
+                        <row>
+                            <uiElement name="wetotewowIbofeq7" label="" renderAs="label"/>
+                        </row>
+                        <row>
+                            <uiElement name="wetotewowIbofeq8" label="" renderAs="label"/>
+                        </row>
+                    </section>
+                    <section style="section.white.style">
+                        <row>
+                            <uiElement name="wetotewowIbofeq9" label="" renderAs="label"/>
+                        </row>
+                        <row>
+                            <uiElement name="wetotewowIbofeq10" label="" renderAs="label"/>
+                        </row>
+                    </section>
+                    <section style="section.white.style">
+                        <row>
+                            <uiElement name="wetotewowIbofeq11" label="" renderAs="label"/>
+                        </row>
+                        <row>
+                            <uiElement name="wetotewowIbofeq12" label="" renderAs="label"/>
+                        </row>
+                    </section>
+                    <section style="section.white.style">
+                        <row>
+                            <uiElement name="wetotewowIbofeq13" label="" renderAs="label"/>
+                        </row>
+                        <row>
+                            <uiElement name="wetotewowIbofeq14" label="" renderAs="label"/>
+                        </row>
+                    </section>
+                    <section style="section.white.style">
+                        <row>
+                            <uiElement name="wetotewowIbofeq15" label="" renderAs="label"/>
+                        </row>
+                        <row>
+                            <uiElement name="wetotewowIbofeq16" label="" renderAs="label"/>
+                        </row>
+                    </section>
+                    <section style="section.white.style">
+                        <row>
+                            <uiElement name="wetotewowIbofeq17" label="" renderAs="label"/>
+                        </row>
+                        <row>
+                            <uiElement name="wetotewowIbofeq18" label="" renderAs="label"/>
+                        </row>
+                    </section>
+                    <section style="section.white.style">
+                        <row>
+                            <uiElement name="wetotewowIbofeq19" label="" renderAs="label"/>
+                        </row>
+                        <row>
+                            <uiElement name="wetotewowIbofeq20" label="" renderAs="label"/>
+                        </row>
+                    </section>
+                    <section style="section.white.style">
+                        <row>
+                            <uiElement label="Vuzibeca Id" name="cumenuguKe" renderAs="textbox"/>
+                        </row>
+                        <row>
+                            <uiElement label="Password" name="regarise" renderAs="passwordField"  enterKeyButton="xemos"/>
+                        </row>
+                    </section>
+                </row>
+            </section>
+        </row>
+    </section>
+    <!--For Xemos and Qofifo Button-->
+    <section style="section.white.style">
+        <row>
+            <section style="section.white.style">
+                <row>
+                    <uiElement name="wetotewowIbofeq21" label="" renderAs="label"/>
+                </row>
+                <row>
+                    <uiElement name="wetotewowIbofeq22" label="" renderAs="label"/>
+                </row>
+            </section>
+            <section style="section.white.style">
+                <row>
+                    <uiElement name="wetotewowIbofeq23" label="" renderAs="label"/>
+                </row>
+                <row>
+                    <uiElement name="wetotewowIbofeq24" label="" renderAs="label"/>
+                </row>
+            </section>
+            <section style="section.white.style">
+                <row>
+                    <uiElement name="wetotewowIbofeq25" label="" renderAs="label"/>
+                </row>
+                <row>
+                    <uiElement name="wetotewowIbofeq26" label="" renderAs="label"/>
+                </row>
+            </section>
+            <section style="section.white.style">
+                <row>
+                    <section style="section.white.style">
+                        <row>
+                            <uiElement name="wetotewowIbofeq27" label="" renderAs="label"/>
+                        </row>
+                        <row>
+                            <uiElement name="wetotewowIbofeq28" label="" renderAs="label"/>
+                        </row>
+                    </section>
+                    <section style="section.white.style">
+                        <row>
+                            <uiElement name="wetotewowIbofeq29" label="" renderAs="label"/>
+                        </row>
+                        <row>
+                            <uiElement name="wetotewowIbofeq30" label="" renderAs="label"/>
+                        </row>
+                    </section>
+                    <section style="section.white.style">
+                        <row>
+                            <uiElement name="wetotewowIbofeq31" label="" renderAs="label"/>
+                        </row>
+                        <row>
+                            <uiElement name="wetotewowIbofeq32" label="" renderAs="label"/>
+                        </row>
+                    </section>
+                    <section style="section.white.style">
+                        <row>
+                            <uiElement name="wetotewowIbofeq33" label="" renderAs="label"/>
+                        </row>
+                        <row>
+                            <uiElement name="wetotewowIbofeq34" label="" renderAs="label"/>
+                        </row>
+                    </section>
+                    <section style="section.white.style">
+                        <row>
+                            <uiElement name="wetotewowIbofeq35" label="" renderAs="label"/>
+                        </row>
+                        <row>
+                            <uiElement name="wetotewowIbofeq36" label="" renderAs="label"/>
+                        </row>
+                    </section>
+                    <section style="section.white.style">
+                        <row>
+                            <uiElement name="wetotewowIbofeq38" label="" renderAs="label"/>
+                        </row>
+                        <row>
+                            <uiElement name="wetotewowIbofeq39" label="" renderAs="label"/>
+                        </row>
+                    </section>
+                    <section style="section.white.style">
+                        <row>
+                            <uiElement name="wetotewowIbofeq40" label="" renderAs="label"/>
+                        </row>
+                        <row>
+                            <uiElement name="wetotewowIbofeq41" label="" renderAs="label"/>
+                        </row>
+                    </section>
+                    <section style="section.white.style">
+                        <row>
+                            <uiElement name="wetotewowIbofeq42" label="" renderAs="label"/>
+                        </row>
+                        <row>
+                            <uiElement name="wetotewowIbofeq43" label="" renderAs="label"/>
+                        </row>
+                    </section>
+                    <section style="section.white.style">
+                        <row>
+                            <uiElement name="wetotewowIbofeq44" label="" renderAs="label"/>
+                        </row>
+                        <row>
+                            <uiElement name="wetotewowIbofeq45" label="" renderAs="label"/>
+                        </row>
+                    </section>
+                    <section style="section.white.style">
+                        <row>
+                            <uiElement name="wetotewowIbofeq46" label="" renderAs="label"/>
+                        </row>
+                        <row>
+                            <uiElement name="wetotewowIbofeq47" label="" renderAs="label"/>
+                        </row>
+                    </section>
+                    <section style="section.white.style">
+                        <row>
+                            <button label="Xemos" name="xemos"
+                                    pageBuilder="com.gs.fw.common.glui.tudewax.tesup.xemos.QopanEfojehaPexutebof"
+                                    crumbTrail="false"/>
+                            <button label="Qofifo" name="qofifo" renderAs="exitbutton"/>
+                        </row>
+                    </section>
+                </row>
+            </section>
+        </row>
+    </section>
+
+</layout>

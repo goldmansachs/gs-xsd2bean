@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../../xsd/objectmanager.xsd">
+    <Templates>javeneruma,noki,interface,wunopi,tetahij,riyoxadipojoxuj,nuzikuzu,wululu</Templates>
+    <PackageName>com.gs.fw.lilu.wute.domain.kexupol</PackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.CekeloqEfikoTeq</ImportPackageName>
+
+    <ClassName>XikizoGukonoZozeci</ClassName>
+    <ReadOnly>true</ReadOnly>
+    <ReadStoredProcedure>GLEW_RokupoDibipaTuroyiv</ReadStoredProcedure>
+
+    <!-- leYulumAguleXO is not unique hi napibo rujuvevifu attributes to reduce hocohihah keys -->
+    <PrimaryKeyAttribute keyClass="SegiziTuneyaBolidoFun">
+        <Attribute columnName="leYulumAguleXO" sqlType="Ciyisag" javaType="int" name="qizawaRI"/>
+        <Attribute columnName="businessDate" sqlType="XIZofuxafasElegexaLimanigaw" javaType="Timestamp" name="businessDate"/>
+        <Attribute columnName="tezuxIconuHI" sqlType="XefeTewesa" javaType="String" name="pevojoNifezEL"/>
+        <Attribute columnName="budasUJ" sqlType="Timestamp" javaType="Timestamp" name="lefotaRipo" />
+        <Attribute columnName="yobufUhukePA" sqlType="Ciyisag" javaType="int" name="tutanuSonepiQA" />
+        <Attribute columnName="kexanAyuqeZizePIV" sqlType="XefeTewesa" javaType="String" name="nuneyeYobuk"/>
+        <Attribute columnName="gomaqApikOnehIFO" sqlType="XefeTewesa" javaType="String" name="zimuceRuvo"/>
+        <Attribute columnName="kucicEwebUtafIquwIQE" sqlType="XefeTewesa" javaType="String" name="pamiYeno" />
+        <Attribute columnName="xisaqAsotiXiraFiniRUN" sqlType="XefeTewesa" javaType="String" name="qepisUcoh" />
+    </PrimaryKeyAttribute>
+
+    <!-- waqa PO is a Tifofi value which may not use the same qahumoq jovij required by de -->
+    <Attribute columnName="xohoBA" sqlType="Ciyisag" javaType="int" name="xohoBA"/>
+
+    <ForeignKeyAttribute name="cekeloqEfikoTeq" keyClass="CekeloqEfikoTeq" >
+        <Attribute columnName="jiBU" sqlType="Ciyisag" javaType="int" name="id" />
+        <Attribute columnName="businessDate" sqlType="XIZofuxafasElegexaLimanigaw" javaType="Timestamp" name="businessDate" />
+    </ForeignKeyAttribute>
+
+</ManagedObject>
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>interface,noki,wululu,wunopi,tetahij,riyoxadipojoxuj,nuzikuzu</Templates>
+    <PackageName>com.gs.fw.lilu.ruh.domain.sexogasu</PackageName>
+    <ImportPackageName>com.gs.fw.lilu.ruh.domain.biqosezix.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.buh.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.product.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.yoru.Currency</ImportPackageName>
+    <ClassName>SahIwimafohutEyivebusiz</ClassName>
+    <Faker>VicIzafulevadUqohomonojOpato</Faker>
+
+    <PrimaryKeyAttribute keyClass="MetOpapafenikIzetinutesOqa">
+        <Attribute columnName="VUPE_PO_P" javaType="int" name="hequdeDo" sqlType="Ciyisag"/>
+        <Attribute columnName="WUZO_PAXICE_P" javaType="int" name="yerarayuwikiQe" sqlType="Ciyisag"/>
+        <Attribute columnName="GLEW_HANUVA_N" javaType="String" name="vaheXepaki" sqlType="String"/>
+        <Attribute columnName="ZUC_DOMU_N" javaType="String" name="mewUwupaxo" sqlType="String"/>
+        <Attribute columnName="HOJI_CIQ_N" javaType="String" name="xewixudiYeze" sqlType="String"/>
+        <Attribute columnName="DEK_TADE_N" javaType="String" name="zajAmuhAmiv" sqlType="String"/>
+        <Attribute name="businessDate" columnName="businessDate" javaType="Timestamp"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="CAFONUVO_KOJORU_FEZI_N" javaType="String" name="fenosoyoMadeqeCude" sqlType="String"/>
+    <ClassBasedAttribute name="biqoSezix" attributeClass="XesEbunowuqokUzewOhoti"/>
+
+    <Relationship cardinality="many-to-one" dependentClass="RozusebAhezi" foreignKey="qipozuTutuculOqekoGux"
+                  name="humagoNuruhawajubu"/>
+    <Relationship cardinality="many-to-one" dependentClass="RozusebAhezi" foreignKey="cekeloqEfikoTeq"
+                  name="rozusebAhezi"/>
+    <Relationship cardinality="many-to-one" dependentClass="KapoximaqorosoGomuxot" foreignKey="xilikotifotugeGoqelajAwu"
+                  name="kapoximaqorosoGomuxot"/>
+    <Relationship cardinality="many-to-one" dependentClass="DupaVenuw" foreignKey="vuveRafisUfo" name="goguWehay"/>
+
+
+    <AbstractMethod returnType="LabIzecaqadiqeceg" methodName="qijAfeQacuvetapegicu" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="qiwEvuJazafojefexuru" parameters="LabIzecaqadiqeceg hAtarokolihefel"/>
+    <AbstractMethod returnType="YowufarutaGib" methodName="hoxEjigotoQuqilOgu" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="mosAyujakaBuvalExa" parameters="YowufarutaGib tAquXac"/>
+    <AbstractMethod returnType="YowufarutaGib" methodName="pewOmipefElejayoWavotEva" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="xiqOtakiqUcayowaZuwuyAqi" parameters="YowufarutaGib tAquXac"/>
+    <AbstractMethod returnType="YowufarutaGib" methodName="kuzOteciwobodotuvEbuwokiRul" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="codIvuxihorogizalAmehucuSap" parameters="YowufarutaGib tAquXac"/>
+    <AbstractMethod returnType="YowufarutaGib" methodName="wifUvowAwusiQeg" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="zirEdivIleviSaq" parameters="YowufarutaGib tAquXac"/>
+
+    <Index name="businessDate">businessDate</Index>
+    <Index name="vaheXepaki">vaheXepaki</Index>
+</ManagedObject>

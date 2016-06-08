@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd"
+        pageTitle="BERE Fu RIB Junap Balacu Mowere"  pageBuilder="com.gs.fw.kaza.rukele.bimodujabeti.vo.CojikizeyedoVaqapUdefOdavoca">
+    <section>
+        <row>
+            <uiElement name="jikayEbas" defaultSelection="HiperaHip" renderAs="label" hidden="true"/>
+        </row>
+        <row>
+            <uiElement name="businessDate1" label="BusinessDate" renderAs="combobox" sortBy="domain"
+                   transformerClass="com.gs.fw.common.petuhadi.vo.transformer.PorimubeDesaRemohiqujor"/>
+        </row>
+    </section>
+    <section>
+        <row>
+            <button name="lesihocu" label="Lesihocu" nextLayoutName="rukele/bimodujabeti/giyaHaQanUsabil.xml" crumbTrail="true"
+                    pageBuilder="com.gs.fw.kaza.rukele.bimodujabeti.vo.BorijabujihoZateleQopeFipemol" refreshPage="true"/>
+            <button name="exception" label="Henehilut" nextLayoutName="rukele/bimodujabeti/giyaHaQanUsabil.xml" crumbTrail="true"
+                                            pageBuilder="com.gs.fw.kaza.rukele.bimodujabeti.vo.BorijabujihoZateleQopeFipemol.exception" refreshPage="true"/>
+            <button name="Zewiko" renderAs="fileUpload" label="Zewiko Vayus" nextLayoutName="rukele/bimodujabeti/liguZaDexOsafiJiqehe.xml" crumbTrail="true"
+                uploadContent="true" pageBuilder="com.gs.fw.kaza.rukele.bimodujabeti.vo.BorijabujihoZateleQopeFipemol.zewiko"/>
+        </row>
+    </section>
+    <section>
+        <row>
+            <table name="HiperaHip" label="BERE to RIB Mapping" rowsPerPage="0" editable="true" sortable="true">
+                <column attribute="monababOxaziCuxebazomos">
+                    <uiElement name="monababOxaziCuxebazomos" renderAs="textbox" label="BERE JUNAP"/>
+                </column>
+                <column attribute="voyifoV">
+                    <uiElement name="voyifoV" renderAs="textbox" label="RIB PIROXO"/>
+                </column>
+                <column attribute="columnType">
+                    <uiElement name="columnType" renderAs="textbox" label="NOREGI XANO"/>
+                </column>
+            </table>
+        </row>
+    </section>
+        <section>
+        <row>
+            <button name="update" label="Xelafi" crumbTrail="true" nextLayoutName="rukele/bimodujabeti/giyaHaQanUsabil.xml"
+                    pageBuilder="com.gs.fw.kaza.rukele.bimodujabeti.vo.BorijabujihoZateleQopeFipemol.timuPuyiqe" refreshPage="true"/>
+            <button name="puroto" label="Ran Tuyoke" crumbTrail="true" nextLayoutName="rukele/bimodujabeti/giyaHaQanUsabil.xml"
+                pageBuilder="com.gs.fw.kaza.rukele.bimodujabeti.vo.BorijabujihoZateleQopeFipemol.purOto" refreshPage="true"/>
+            <button label="Luyec Tuyoke" name="fasecOgevov" nextLayoutName="rukele/bimodujabeti/giyaHaQanUsabil.xml"
+                    pageBuilder="com.gs.fw.kaza.rukele.bimodujabeti.vo.BorijabujihoZateleQopeFipemol.fasecOgevov"
+                      crumbTrail="true" refreshPage="true"/>
+        </row>
+    </section>
+</layout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-bajuxulida type="text/muj" hafu="../../../../xml/vo/peSezehu.muj"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout layoutId="diyubeyigaw" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"
+        pageTitle="Pabexu Xuruqaluwesi" pageBuilder="com.gs.fw.kaza.desa.cunetepowej.vo.HucoseNofumemofeduPimiCiyumoh">
+
+    <section caption="Sose">
+        <row>
+            <uiElement name="yeqezOfop" label="Vuzibeca Id"
+                       renderAs="textbox" readOnly="true"/>
+            <uiElement name="test" label="test"
+                       renderAs="textArea"/>
+        </row>
+    </section>
+    <section caption="Pikic">
+        <row>
+            <section caption="Sakejesi Pikic">
+                <row>
+                    <uiElement name="xuvahUxuy" label="Pikic Noyudup" renderAs="listbox"/>
+                </row>
+            </section>
+            <section caption="Gi-Sakejesi Pikic">
+                <row>
+                    <uiElement name="yoserOZObub" label="Pikic Zov Noyudup" renderAs="listbox"/>
+                </row>
+            </section>
+        </row>
+    </section>
+
+    <section caption="Casah Group Qiwo Cunetepowej">
+        <row>
+            <section caption="Casah Group: Read">
+                <row>
+                    <uiElement name="cenEpafEzaw" label="Casah Group - Read" renderAs="listbox"/>
+                </row>
+            </section>
+            <section caption="Casah: Read">
+                <row>
+                    <uiElement name="cudemOqagUtin" label="Casah - Read" renderAs="listbox"/>
+                </row>
+            </section>
+            <section caption="Vuqusa Wutesomo: Read">
+                <row>
+                    <uiElement name="wujuciZucabujeMegaDexu" label="VU - Read" renderAs="listbox"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section caption="Casah Group: Write">
+                <row>
+                    <uiElement name="pocIvokeKone" label="Casah Group - Write" renderAs="listbox"/>
+                </row>
+            </section>
+            <section caption="Casah: Write">
+                <row>
+                    <uiElement name="rocurEviyeCezu" label="Casah - Write" renderAs="listbox"/>
+                </row>
+            </section>
+            <section caption="Vuqusa Wutesomo: Write">
+                <row>
+                    <uiElement name="qetitoKuromunuHitexUken" label="VU - Write" renderAs="listbox"/>
+                </row>
+            </section>
+        </row>
+    </section>
+
+    <section caption="Humopa Qiwo Cunetepowej">
+        <row>
+            <section caption="Humopa: Read">
+                <row>
+                    <uiElement name="nupuzuLafeZahu" label="Humopa - Read" renderAs="listbox"/>
+                </row>
+            </section>
+            <section caption="Humopa: Write">
+                <row>
+                    <uiElement name="bepaqiYipipIbaf" label="Humopa - Write" renderAs="listbox"/>
+                </row>
+            </section>
+        </row>
+    </section>
+
+    <section caption="Zedakotah Kavexukuqoy and Non Sekopive Gekekaq cunetepowej">
+        <row>
+            <section caption="Zedakotah Kavexukuqoy - Humopa">
+                <row>
+                    <uiElement name="zogofomocUnapejojuquWowUtotub" label="Humopa - Zedakotah Kavexukuqoy"
+                               renderAs="listbox"/>
+                </row>
+            </section>
+            <section caption="Zedakotah Kavexukuqoy - Casah">
+                <row>
+                    <uiElement name="tiroqiholOturowipeyaCelIxaqi" label="Casah - Zedakotah Kavexukuqoy"
+                               renderAs="listbox"/>
+                </row>
+            </section>
+            <section caption="Non Sekopive Vaxamu Zivukome">
+                <row>
+                    <uiElement name="jotUyezixuvEjemuco" label="Gekekaq - Non sekopive" renderAs="listbox"/>
+                </row>
+            </section>
+        </row>
+    </section>
+</layout>

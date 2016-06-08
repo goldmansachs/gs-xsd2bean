@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject objectType="transactional">
+
+    <PackageName>com.gs.fw.common.mithra.test.domain.bij</PackageName>
+    <ClassName>KocaXaboq</ClassName>
+    <DefaultTable>HUTU_CASAH</DefaultTable>
+
+    <AsOfAttribute name="fuzodayocoSana" fromColumnName="YE_Z" toColumnName="LEC_Z" toIsInclusive="false"
+                   infinityDate="[com.gs.fw.common.mithra.jaba.SazotarItijedopIfedimaku.dipOjusuvuKoripaca()]"
+                   defaultIfNotSpecified="[com.gs.fw.common.mithra.jaba.SazotarItijedopIfedimaku.dipOjusuvuKoripaca()]" isProcessingDate="true"/>
+    <Attribute name="luxoZa" javaType="int" columnName="CABO_Q" primaryKey="true"/>
+    <Attribute name="dobepekepi" javaType="int" columnName="DOBEPEKEPI_Q" primaryKey="true"/>
+    <Attribute name="vewivuvaSeji" javaType="String" maxLength="2" columnName="NIT_PUQ_N" nullable="false"/>
+    <Attribute name="pumikegonoGore" javaType="String" maxLength="1" columnName="YOWOG_PUQ_N" primaryKey="true" nullable="false"/>
+    <Attribute name="mazelugifuLakImaf" javaType="String" maxLength="1" columnName="YOWOG_XIZ_PUQ_N"/>
+    <Attribute name="cejasawUwesij" javaType="String" maxLength="12" columnName="CABO_T" nullable="false"/>
+    <Attribute name="casah" javaType="String" maxLength="4" columnName="CASAH_N" nullable="false"/>
+    <Attribute name="ronuwOpoqox" javaType="int" columnName="JOCUN_HUMOPA_Q" nullable="false"/>
+    <Attribute name="yokiNejejana" javaType="String" maxLength="3" columnName="CUCA_HANI_N"/>
+    <Attribute name="waseraqEfekO" javaType="int" columnName="CABO_PUQ_R" nullable="false"/>
+    <Attribute name="necufihUlovA" javaType="String" maxLength="3" columnName="CABO_PUQ_N" nullable="false"/>
+    <Attribute name="xizequfUpanixOvamozec" javaType="String" maxLength="6" columnName="NETA_VUQUSA_KOBU_N" nullable="false"/>
+    <Attribute name="samosElisufohOgol" javaType="short" columnName="YATUY_TIHIBU_SEKO_N" nullable="false"/>
+    <Attribute name="maxezunUdowedugexa" javaType="String" maxLength="80" columnName="CABO_DUSO_T"/>
+    <Attribute name="geleJij" javaType="String" maxLength="33" columnName="PROD_XAR_T"/>
+    <Attribute name="jigePolAy" javaType="double" columnName="PROD_GAM_WA_M"/>
+    <Attribute name="kaqucesItuvevubuwu" javaType="String" maxLength="80" columnName="PROD_DUSO_T"/>
+    <Attribute name="voyikepUfadiFolaxuxo" javaType="String" maxLength="3" columnName="PROD_JIJ_JAK_N"/>
+    <Attribute name="bopazowUpupuco" javaType="String" maxLength="45" columnName="PROD_DECOMIG_N"/>
+    <Attribute name="quzuJehAfibavUtiv" javaType="double" columnName="PROD_VET_WIMISO_KIQU_V"/>
+    <Attribute name="locapirEgodidewOfeq" javaType="Timestamp" columnName="PROD_PAP_PEG_V"/>
+    <Attribute name="xacoqezOyodiDesasuc" javaType="String" maxLength="4" columnName="PROD_JIJ_MUVEW_N"/>
+    <Attribute name="cowedomEfaxogeMavike" javaType="String" maxLength="4" columnName="PROD_PET_XIH_N"/>
+    <Attribute name="zarisapAcadagiyiXixakarogIf" javaType="int" columnName="PROD_DUDUGU_XUV_Q"/>
+    <Attribute name="liduDelOzes" javaType="String" maxLength="3" columnName="PROD_QEC_TIDU_N"/>
+    <Attribute name="fatePonAmaz" javaType="double" columnName="PROD_YEZ_PALU_V"/>
+    <Attribute name="lulaPoyohiVa" javaType="double" columnName="PROD_DUDUGU_WA_M"/>
+    <Attribute name="kohuyudiLodizica" javaType="double" columnName="NIT_QUS_V"/>
+    <Attribute name="zevAnugiQapi" javaType="double" columnName="NIT_LISEN_CUCA_M"/>
+    <Attribute name="decAfusAtuh" javaType="double" columnName="NIT_NECO_CUCA_M"/>
+    <Attribute name="xevAkimEreZusa" javaType="double" columnName="NIT_KOTU_DOD_CUCA_M"/>
+    <Attribute name="foyIwunaFiyOfay" javaType="double" columnName="NIT_KIKOQ_DOD_CUCA_M"/>
+    <Attribute name="tuxEceriFohe" javaType="double" columnName="NIT_VINOM_CUCA_M"/>
+    <Attribute name="fogicidoduvIre" javaType="double" columnName="MELEXIQICAN_QUK_M"/>
+    <Attribute name="gojuvoNeTu" javaType="double" columnName="TAJIYI_RU_RI_M"/>
+    <Attribute name="quyobaZolIn" javaType="double" columnName="TAJIYI_ZUX_RI_M"/>
+    <Attribute name="hilepoYewAreGoyIf" javaType="double" columnName="KOCALE_VET_PER_JUK_RI_M"/>
+    <Attribute name="fuseHosIfo" javaType="double" columnName="QILI_BOL_SOZ_M"/>
+    <Attribute name="corIyAbumevOjuSa" javaType="double" columnName="SOZ_VO_TAJIYI_VET_RI_M"/>
+    <Attribute name="kerupujamEgi" javaType="double" columnName="QAHOBODUL_SOZ_M"/>
+    <Attribute name="muqaLed" javaType="double" columnName="KOTU_SUY_M"/>
+    <Attribute name="gerosAmEsi" javaType="double" columnName="REPAD_VO_SOZ_M"/>
+    <Attribute name="goRumaqUwe" javaType="double" columnName="PO_PAXEB_SOZ_M"/>
+    <Attribute name="zixAnUbaweSazunaYo" javaType="double" columnName="SOZ_BE_DOMUH_KOCALE_RI_M"/>
+    <Attribute name="doKiNenoloGe" javaType="double" columnName="BE_PO_KOCALE_RI_M"/>
+    <Attribute name="dacAnupamUg" javaType="double" columnName="HUJ_KOCALE_RI_M"/>
+    <Attribute name="herOmeHimuhoPi" javaType="double" columnName="WOF_HUJ_KOCALE_RI_M"/>
+    <Attribute name="likIpaDaca" javaType="double" columnName="HUF_DOD_PEFI_M"/>
+    <Attribute name="horUzeZowu" javaType="double" columnName="HUF_DOD_DAXU_M"/>
+    <Attribute name="lawemehIner" javaType="double" columnName="HOQONUL_KOGA_M"/>
+    <Attribute name="wafIxotItodapuHa" javaType="double" columnName="HUF_POSU_JICUCOW_RI_M"/>
+    <Attribute name="hugogOyiXovosOze" javaType="double" columnName="REPAD_SOZ_GUXOQ_HUJ_M"/>
+    <Attribute name="podonidOqep" javaType="double" columnName="NIXASOZ_KOGA_M"/>
+    <Attribute name="muFaxEhebiJug" javaType="double" columnName="PO_PER_BUMEZ_WUM"/>
+    <Attribute name="fapOyuGise" javaType="double" columnName="HUF_SUY_PEFI_M"/>
+    <Attribute name="yuxEcozuwacAla" javaType="double" columnName="HUF_CUNERARA_YOB_M"/>
+    <Attribute name="sehonIcereg" javaType="double" columnName="YATUY_TEQIFO_M" nullable="false"/>
+    <Attribute name="cakewUhekud" javaType="double" columnName="YATUY_SEGACE_M" nullable="false"/>
+    <Attribute name="jaxUyUnoxiv" javaType="double" columnName="NAX_BE_KOCALE_M" nullable="false"/>
+    <Attribute name="qutaroKenOqi" javaType="short" columnName="GEXALE_HUF_WUM_N" nullable="false"/>
+    <Attribute name="nufaJapuseJeval" javaType="long" columnName="PROD_LEPUCO_JUNAP_Q" nullable="false"/>
+    <Attribute name="puxuVajeHaXekaVogur" javaType="String" maxLength="5" columnName="PROD_BERE_RI_ZEGE_JUNAP_T" nullable="false"/>
+    <Attribute name="honoVahaXoCuquTadut" javaType="String" maxLength="5" columnName="PROD_BERE_RA_ZEGE_JUNAP_T" nullable="false"/>
+    <Attribute name="jicuLujawIbahec" javaType="short" columnName="HUTU_CASAH_WOPINE_N" nullable="false"/>
+    <Attribute name="jikuFoyewOtijar" javaType="short" columnName="HUTU_CASAH_KEYADU_N"/>
+    <Attribute name="cohituKawEbah" javaType="double" columnName="MAFIPA_ZEX_SUKO_M"/>
+    <Attribute name="wizipocazaCogi" javaType="double" columnName="BIKEHOQENE_KOGA_M"/>
+    <Attribute name="rigAhif" javaType="Timestamp" columnName="COR_GOZO_Z"/>
+    <Attribute name="kohExuma" javaType="double" columnName="NIT_BEPAX_M"/>
+    <Attribute name="pafiKexa" javaType="String" maxLength="1" columnName="PROD_XANO_N"/>
+    <Attribute name="texArinEhig" javaType="double" columnName="QOT_NECO_CUCA_M"/>
+    <Attribute name="kepItesUpej" javaType="double" columnName="ZUX_NECO_CUCA_M"/>
+    <Attribute name="pitAge" javaType="double" columnName="QOT_WAY_V"/>
+    <Attribute name="cezIwu" javaType="double" columnName="ZUX_WAY_V"/>
+    <Attribute name="mazoSeQavozOmem" javaType="double" columnName="TIHI_VO_LISEN_CUCA_M"/>
+    <Attribute name="zizuGilEjoh" javaType="double" columnName="ZEVI_DOD_CUCA_M"/>
+    <Attribute name="siwadAmefApew" javaType="Timestamp" columnName="COMID_HANI_XOSI_Z"/>
+    <Attribute name="curEsUtocur" javaType="double" columnName="HUF_BE_KOCALE_M"/>
+    <Attribute name="cicEcoWo30" javaType="double" columnName="ZUX_WAY_MA_30_V"/>
+    <Attribute name="sobUcosUd30Cuca" javaType="double" columnName="ZUX_NECO_MA_30_CUCA_M"/>
+    <Attribute name="gutuFeluSoxuw" javaType="int" columnName="PROD_WIKO_JUNAP_Q"/>
+    <Attribute name="pugIyisot" javaType="double" columnName="JUK_KOCALE_M"/>
+    <Attribute name="davUcImiqan" javaType="double" columnName="HUF_VO_KOCALE_M"/>
+    <Attribute name="cozoNoliYiqu" javaType="String" maxLength="9" columnName="NAXI_PROD_XANO_T"/>
+    <Attribute name="vefIjuMaLegipe" javaType="double" columnName="NAX_QUX_VO_KOCALE_M"/>
+    <Attribute name="lizEmaZuQazebo" javaType="double" columnName="HUF_QUX_VO_KOCALE_M"/>
+
+
+</MithraObject>

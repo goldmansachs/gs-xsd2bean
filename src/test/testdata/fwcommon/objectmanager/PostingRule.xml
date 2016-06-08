@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Templates>interface,noki,qahabiwe,wunopi,tetahij,riyoxadipojoxuj,nuzikuzu,javeneruma</Templates>
+    <PackageName>com.gs.fw.lilu.tekihif.domain</PackageName>
+
+    <ImportPackageName>com.gs.fw.lilu.tekihif.domain.damagul.jicihitada.*</ImportPackageName>
+
+    <ClassName>SujawutIted</ClassName>
+    <DefaultTable>TEKIHIF_WOTOZOW_GIYE</DefaultTable>
+    <DatabaseName>tekihif_rum</DatabaseName>
+    <ConnectionManagerName>zoqew</ConnectionManagerName>
+    <ReadOnly>true</ReadOnly>
+    <ExplicitColumnNamesForSelect>true</ExplicitColumnNamesForSelect>
+
+    <PrimaryKeyAttribute keyClass="XotunegIqikEdu">
+        <Attribute columnName="MAKA_XER_N" javaType="String" name="notunagIhaqo" sqlType="XefeTewesa"/>
+        <Attribute columnName="NAHI_YEC_Z" javaType="String" name="fotejukOmav" sqlType="XefeTewesa"/>
+        <Attribute columnName="DAMAGUL_QEDE_P" javaType="int" name="zagexocAgoq" sqlType="Ciyisag"/>
+        <Attribute columnName="HUXIMEH_N" javaType="String" name="vewivusOyap" sqlType="XefeTewesa"/>
+        <Attribute columnName="SOYUM_LUSUCOJ_JOVOY_P" javaType="int" name="mutujAwaqapi" sqlType="Ciyisag"/>
+        <Attribute columnName="businessDate" javaType="Timestamp" name="businessDate"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="RU_DOMU_W" javaType="String" name="siXimozel" sqlType="XefeTewesa"/>
+    <Attribute columnName="RU_FAHAWU_DOMU_W" javaType="String" name="yiPugoheGijaveh" sqlType="XefeTewesa"/>
+    <Attribute columnName="RALO_DOMU_YEC_N" javaType="String" name="boquVeyonulAdez" sqlType="XefeTewesa"/>
+    <Attribute columnName="HOJI_XOD_QEG_N" javaType="String" name="loliYohefineKehuvirop" sqlType="XefeTewesa"/>
+    <Attribute columnName="MAKA_TADE_QEXO_H" javaType="String" name="description" sqlType="XefeTewesa"/>
+
+    <RelationshipBuilder className="MufajahEmodejarapElevaruhayehOkaboye"/>
+
+    <AbstractMethod returnType="Zug" methodName="womUvecokaDifixOqo"/>
+
+    <Index name="wekaroyOnove">jasipikEdaluCov</Index>
+</ManagedObject>

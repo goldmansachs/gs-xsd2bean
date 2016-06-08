@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-bajuxulida type="text/muj" hafu="../../../../xml/vo/peSezehu.muj"?>
+
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd">
+
+
+    <section type="topmenu">
+        <row>
+            <menubar name="menubar" halign="false">
+                <menu label="Wunoqoya Yohesesev Xosoxuva" name="qoyesi" renderAs="link">
+                    <menu label="NAL Tazamel Duzoqojimemelu" name="qapigulayakuv" renderAs="link"
+                          nextLayoutName="qoyesi/ROFUzaliyuTumEpotaMahulo.xml" crumbTrail="true"/>
+                    <menu label="Pujura Betid Yokucaz" name="poporepoxiz" renderAs="link"
+                          nextLayoutName="qoyesi/GivakoLufinEbeviyugiWinoqEwiten.xml" crumbTrail="true"/>
+                    <menu label="Pujura Betid Yemuqi" name="poporepoxiz" renderAs="link"
+                          nextLayoutName="qoyesi/ZixiLozopOyUloMisazIcolem.xml" crumbTrail="true"/>
+                    <menu label="Qe Cat Vojiy" name="poporepoxiz" renderAs="link" nextLayoutName="qoyesi/PaQifUyamoWovila.xml"
+                          crumbTrail="true"/>
+                    <menu label="NAL Wok Lec" name="jopEkeWebAG" renderAs="link" nextLayoutName="qoyesi/CUFEraYilIFEdehaNaqoqu.xml"
+                          crumbTrail="true"/>
+                    <menu label="Sobamor Yemuqi" name="sojacapotupic" renderAs="link"
+                          nextLayoutName="qoyesi/NixakodOhayilUcaxiSabeji.xml" crumbTrail="true"/>
+                    <menu label="Josowot Yoya Sidikinu" name="degunadAfarAbiwomuq" renderAs="link"
+                          nextLayoutName="qoyesi/WitesurInifUwopoqovEyetuHuvoma.xml" crumbTrail="true"/>
+                    <menu label="XISE - KEQ/NOL Duzoqojimemelu" name="luyacicoze" renderAs="link"
+                          nextLayoutName="qoyesi/duzoqojimemelu/GahapahAjaXusamEjiseb.xml" crumbTrail="true"/>
+                </menu>
+                <menu label="Kiti" name="help" renderAs="link">
+                    <menu label="QoyeSi Kiti" name="qabiHomAted" renderAs="webbutton"
+                          url="http://fuduhu.fw.gs.com/~qusifelu/QOYESI/QoyeSi_Supafo_Kiti.xet"/>
+                    <menu label="Mohic a new GLEW SEG" name="GEXAbid" renderAs="webbutton"
+                          url="http://seg-qo.yeq.gs.com/nih/jimewi/rob/fiyep/new_bese.pit?vedoja_type=7949"/>
+                </menu>
+            </menubar>
+        </row>
+    </section>
+
+    <section type="leftmenu">
+        <row>
+            <menubar name="menubar" halign="false">
+                <menu label="Wunoqoya Yohesesev Xosoxuva" name="qoyesi" renderAs="link">
+                    <menu label="NAL Tazamel Duzoqojimemelu" name="qapigulayakuv" renderAs="link"
+                          nextLayoutName="qoyesi/HUDOvoqayaWovequwoxekaro.xml" crumbTrail="true"/>
+                    <menu label="Pujura Betid Yokucaz" name="poporepoxiz" renderAs="link"
+                          nextLayoutName="qoyesi/YaqusiPulitOzenopare.xml" crumbTrail="true"/>
+                    <menu label="Pujura Betid Yemuqi" name="poporepoxiz" renderAs="link"
+                          nextLayoutName="qoyesi/GuvakoBazurAkeroJe.xml" crumbTrail="true"/>
+                    <menu label="Qe Cat Vojiy" name="poporepoxiz" renderAs="link" nextLayoutName="qoyesi/BuLuwAtelo.xml"
+                          crumbTrail="true"/>
+                    <menu label="NAL Wok Lec" name="jopEkeWebAG" renderAs="link" nextLayoutName="qoyesi/JOPEkeWebAG.xml"
+                          crumbTrail="true"/>
+                    <menu label="Sobamor Yemuqi" name="sojacapotupic" renderAs="link"
+                          nextLayoutName="qoyesi/SojacapOtupic.xml" crumbTrail="true"/>
+                    <menu label="Josowot Yoya Sidikinu" name="degunadAfarAbiwomuq" renderAs="link"
+                          nextLayoutName="qoyesi/KebukejOpiwOvogupasUmesuw.xml" crumbTrail="true"/>
+                    <menu label="XISE - KEQ/NOL Duzoqojimemelu" name="luyacicoze" renderAs="link"
+                          nextLayoutName="qoyesi/duzoqojimemelu/XoxibunUyodakamobelap.xml" crumbTrail="true"/>
+                    <menu label="Kiti" name="xoneXuhajo" renderAs="link"
+                          nextLayoutName="qoyesi/help.xml" crumbTrail="false"/>
+                </menu>
+            </menubar>
+        </row>
+    </section>
+</layout>

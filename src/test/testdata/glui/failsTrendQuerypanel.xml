@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"
+        pageTitle="Vojiy Pizer" pageBuilder="com.gs.fw.kaza.zaz.glui.TikinUnogeTanamEvataMoqayax"
+        feature="GedayoqevurUretEhopupu">
+    <section caption="Chart Cezuxom" feature="chart">
+        <row>
+            <uiElement renderAs="label" name="xaxutiboJubaMacoc" label="Cezuxom for " style="header.label.style"/>
+        </row>
+        <row>
+            <chart name="luvovUkigUpoxa" label="" chartType="pie" imageHeight="240" imageWidth="400"/>
+            <chart name="hawivAdefEtame" label="" chartType="pie" imageHeight="240" imageWidth="400"/>
+        </row>
+    </section>
+
+    <section caption="Rovid">
+        <row>
+            <uiElement label="Cuyokujo Date:"
+                       transformerClass="com.gs.fw.common.petuhadi.vo.transformer.PorimubeDesaRemohiqujor"
+                       renderAs="combobox" name="businessDate1" sortBy="domain"/>
+        </row>
+    </section>
+
+    <section caption="Mosuku puqivej (Fila items left to ronawax them)">
+        <row>
+            <uiElement name="entity" label="Humopa:" renderAs="duallistbox"
+                       transformerClass="com.gs.fw.kaza.yepe.glui.transformer.RawehiDosokopuciy"
+                       factoryName="MixaroreWebujOnicezocovaCovoked"
+                       domainType="com.gs.fw.kaza.yepe.domain.loxixixe.CemoxeJobemune"/>
+            <uiElement name="fijifiSovoli" label="Source Rumaku:" renderAs="duallistbox" attribute="fijifiSovoli"
+                       noSelectOption="&lt;No Mosuku&gt;"
+                       domainType="com.gs.fw.kaza.yepe.domain.loxixixe.BedoqaTisofeBigamobu"
+                       transformerClass="com.gs.fw.kaza.yepe.glui.transformer.DarotexopUhadiSesituqiDoyocuzuqig"
+                       factoryName="MixaroreWebujOnicezocovaCovoked"/>
+        </row>
+        <row>
+            <uiElement name="ridimaSigu" label="Cupena Type:" renderAs="duallistbox" attribute="ridimaSigu"
+                       noSelectOption="&lt;No Mosuku&gt;"
+                       domainType="com.gs.fw.kaza.yepe.domain.loxixixe.TugeraWicaHotufalu"
+                       transformerClass="com.gs.fw.kaza.yepe.glui.transformer.DarotexopUhadiSesituqiDoyocuzuqig"
+                       factoryName="MixaroreWebujOnicezocovaCovoked"/>
+        </row>
+    </section>
+
+
+    <section caption="Group By">
+        <row>
+            <uiElement name="hepafiq" label="Group By:" renderAs="duallistbox" attribute="taxobifuNeyo"/>
+        </row>
+
+    </section>
+
+    <section>
+        <row>
+            <button label="Mimeci" name="mimeci"
+                    nextLayoutName="nuzadatakupol/faqibIfimaCovigituta.xml"
+                    pageBuilder="com.gs.fw.kaza.zaz.glui.TikinUnogeTanamEvataMoqayax.buhex" crumbTrail="false"/>
+            <button label="Gifil" name="gifil"
+                    nextLayoutName="nuzadatakupol/faqibIfimaCovigituta.xml"
+                    pageBuilder="com.gs.fw.kaza.zaz.glui.TikinUnogeTanamEvataMoqayax.gifil" crumbTrail="false"/>
+        </row>
+    </section>
+
+</layout>

@@ -1,0 +1,67 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<desktop>
+	<applicationName>Qim</applicationName>
+	<title>Qim Sisiwaf</title>
+	<iconFile>welikica.toz</iconFile>
+	<showMilestone>false</showMilestone>
+	<width>1000</width>
+	<height>750</height>
+    <systemPrincipalName>XojiPileqe</systemPrincipalName>
+    <systemPrincipalPassword>FEXIGUW</systemPrincipalPassword>
+	<menubar>
+        <menu id="musuq" label="Musuq">
+            <!--todo poyaro - this is a keninanu zoyiqexa of the boqewiw; to be removed once it's enabled in hojabejo-->
+            <menuItem id="fewuRofeyar" label="Koxo Boqewiw" separator="true"/>
+            <menuItem id="GumovoTewexojUfocuxedola" label="Seloju Pocusox Tudilezajaq"/>
+            <menuItem id="notazoxoni" label="Copi Rutapa"/>
+            <menuItem id="qocaRuveyinazawum" label="Dazi Jewivuy Rutapa"/>
+            <menuItem id="cuvecOvipo" label="Lotod Sikek"/>
+        </menu>
+	</menubar>
+
+	<navigationPanel>
+        <tab id = "piduc" label="Piduc"/>
+        <tab id = "qeyuBaxi.Voq" label="Qiwo View (Voq)"/>
+        <tab id = "qeyuBaxi.Kut" label="Qiwo View (Kut)"/>
+		<tab id = "rusitakawaxeri" label="Window"/>
+		<selectedTab>xosoxuva</selectedTab>
+	</navigationPanel>
+
+	<systemAboutPanel>
+        <tab id = "vuw" label="VUW">
+            <controllerClassName>com.gs.fw.para.vo.desktop.LetEsawagazibAlovuvexuFenifigiji</controllerClassName>
+        </tab>
+	</systemAboutPanel>
+
+    <groupPanel>
+        <tab id = "yeroli" label="Yeroli">
+            <controllerClassName>com.gs.fw.para.vo.gawemuqay.RuneyUfuxohikec</controllerClassName>
+        </tab>
+    </groupPanel>
+
+	<loginPanel>
+		<label>QIM Naverofibey Xemos</label>
+		<iconFileName>kurenad.toz</iconFileName>
+		<bannerFileName>yuyoquqemegaca.toz</bannerFileName>
+	</loginPanel>
+
+	<properties>
+		<property name="vepeheweceRaqeged" value="com.gs.fw.para.vo.gixafagefic.JokiNijeDomidEpeboyacelOzepiga"/>
+		<property name="qunepovoWafimo" value="FEXIGUW"/>
+		<property name="rufoRur" value="http://vulexudo.fw.gs.com/com1a/vimuqasa/456838/Wumohofoco%20Templates%20and%20Wowugeqino.dav?kobu=dav.Buhex&amp;buzola=456838"/>
+    </properties>
+</desktop>

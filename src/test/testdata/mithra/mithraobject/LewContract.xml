@@ -1,0 +1,46 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject>
+
+    <PackageName>com.gs.fw.common.mithra.test.kaza</PackageName>
+    <ClassName>SedOqecoxup</ClassName>
+    <SuperClass name="CaqEsowed" generated="true"/>
+    <Import>com.gs.fw.common.mithra.test.kaza.CaqEsowed</Import>
+    <DefaultTable>SAV_LORINIMU</DefaultTable>
+
+    <Attribute name="rahudilufuNo" javaType="int" columnName="DOBEPEKEPI_Q" primaryKey="true"/>
+    <Attribute name="luxoZa" javaType="int" columnName="CABO_Q"/>
+    <Attribute name="zinotUtitEb" javaType="int" columnName="WOZAW_CABO_Q" defaultIfNull="0"/>
+
+    <Attribute name="fogawavAxusila" javaType="String" maxLength="32" columnName="PROD_XAR_T"/>
+    <Attribute name="roxaxepIxacifuNoco" javaType="String" maxLength="15" columnName="PROD_XAR_PUQ_N"/>
+    <Attribute name="pumikegonoGore" javaType="String" maxLength="30" columnName="YOWOG_XANO_N"/>
+    <Attribute name="mazelugifuLakimaf" javaType="String" maxLength="10" columnName="YOWOG_XESULIM_N"/>
+    <Attribute name="busoDerorEq" javaType="int" columnName="JUNAP_Q"/>
+    <Attribute name="jovoTezip" javaType="String" maxLength="9" columnName="BEKI_JUNAP_T"/>
+
+    <!-- Transaction Relationships -->
+    <Relationship name="duvAhugixojeqa" relatedObject="DuvAhugixojeqa" cardinality="one-to-one">
+        DuvAhugixojeqa.luxoZa = this.luxoZa and
+        DuvAhugixojeqa.rahudilufuNo = this.rahudilufuNo
+    </Relationship>
+
+    <Relationship name="bere" relatedObject="SafaJeri" cardinality="one-to-one">
+        SafaJeri.name = this.jovoTezip
+        and SafaJeri.kiwoSu = 1005
+    </Relationship>
+
+</MithraObject>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Templates>interface,noki,wululu,wunopi,tetahij,key,nuzikuzu,javeneruma</Templates>
+    <PackageName>com.gs.fw.lilu.tekihif.domain.ruvoqucenova</PackageName>
+
+    <ClassName>HuroKiyu</ClassName>
+    <DefaultTable>HECA_QAJE</DefaultTable>
+    <SchemaName></SchemaName>
+    <DatabaseName>zoqew</DatabaseName>
+    <ConnectionManagerName>zoqew</ConnectionManagerName>
+    <ReadOnly>true</ReadOnly>
+
+    <PrimaryKeyAttribute keyClass="JuboReliLeg">
+        <Attribute columnName="QAJE_N" javaType="String" name="xituHopoYiwi" sqlType="XefeTewesa"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="XUWIGA_N" javaType="String" name="giqeqeYici" sqlType="XefeTewesa"/>
+    <Attribute columnName="WITIJ_QEDE_N" javaType="String" name="pubabeniReki" sqlType="XefeTewesa"/>
+    <Attribute columnName="BERIKEW_MIBIKANE_N" javaType="String" name="ganijaloLafu" sqlType="XefeTewesa"/>
+    <Attribute columnName="QAJE_FEZI_N" javaType="String" name="zomoXase" sqlType="XefeTewesa"/>
+</ManagedObject>

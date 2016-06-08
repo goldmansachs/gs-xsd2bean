@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <Templates>interface,noki,wululu,gokurogohupu,gunujar,wunopi,tetahij,fiyatis</Templates>
+    <PackageName>com.gs.fw.lilu.jin.domain.dugayoya</PackageName>
+    <ClassName>Xixomejuz</ClassName>
+    <DefaultTable>GIYE_XIXOMEJUZ</DefaultTable>
+    <SchemaName>mut</SchemaName>
+
+    <PrimaryKeyAttribute keyClass="JumaxuseqOno">
+        <Attribute columnName="BOGOXEWO" javaType="long" name="bogoxeWo" sqlType="Nula"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute name="value" sqlType="String" javaType="String" columnName="TADAP_N"/>
+    <Attribute name="name" sqlType="String" javaType="String" columnName="FEZI_N"/>
+    <Attribute name="jewivuy" sqlType="String" javaType="String" columnName="JEWIVUY_10DAXEW_N"/>
+    <Attribute name="sizoresAzoj" sqlType="String" javaType="String" columnName="NOWACEM_TADE_N"/>
+    <Attribute name="zasomurOrefi" sqlType="String" javaType="String" columnName="NOWACEM_TADAP_N"/>
+    <Attribute name="sekafItuzojiVo" sqlType="String" javaType="String" columnName="LOZUS_YAK_KUB_N"/>
+    <Attribute name="businessDate" sqlType="BimowupuyEyowubesa" javaType="Timestamp" columnName="DAG_SIBA_Z"/>
+
+    <ForeignKeyAttribute name="rigeJoq" keyClass="RigeJoq">
+        <Attribute columnName="GIYE_PO" javaType="long" name="bogoxeWo" sqlType="Nula"/>
+    </ForeignKeyAttribute>
+
+    <TypeSafeEnumAttribute name="type" sqlType="String" javaType="HuxeqewohIxuk" columnName="TADE_N">
+        <Map constant="Xazapaboc" sqlValue="Xazapaboc"/>
+        <Map constant="FedoVuke" sqlValue="FedoVuke"/>
+        <Map constant="YafaNeqemo" sqlValue="YafaNeqemo"/>
+        <Map constant="DealId" sqlValue="DealId"/>
+        <Map constant="Model" sqlValue="Model"/>
+    </TypeSafeEnumAttribute>
+
+    <TypeSafeEnumAttribute name="cizuliyu" sqlType="String" javaType="MitosocosOqepurix" columnName="CIZULIYU_N">
+        <Map constant="Biwavu" sqlValue="="/>
+        <Map constant="PareVace" sqlValue="&lt;"/>
+        <Map constant="RaquqacIxuq" sqlValue="&gt;"/>
+        <Map constant="LopoTajoYeCizulu" sqlValue="&lt;="/>
+        <Map constant="CatudeqIsatEzAyegic" sqlValue="&gt;="/>
+    </TypeSafeEnumAttribute>
+
+</ManagedObject>

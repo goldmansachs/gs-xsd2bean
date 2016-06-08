@@ -1,0 +1,79 @@
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<WireObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="../../xsd/wireobject.xsd"
+            name="YedunohoCazeciZeviRikeja"
+            package="com.gs.fw.para.domain.transaction.implementation">
+
+    <Version>
+
+        <Attribute name="xel" type="String" maxLength="30"/>
+        <Attribute name="sekAfItuzojiVo" type="String" maxLength="40"/>
+        <Attribute name="bujipahaFemu" type="String" maxLength="32"/>
+        <Attribute name="ruloXajUpivuQojUg" type="String" maxLength="30"/>
+        <Attribute name="qurIbatOgihasazi" type="String" maxLength="1"/>
+        <Attribute name="dimubukEceJohaXeququhaz" type="String" maxLength="1"/>
+        <Attribute name="lutihaHuqug" type="String" maxLength="1"/>
+        <Attribute name="pociheteroLaviziyOzig" type="String" maxLength="1"/>
+        <Attribute name="gucucuDikiwelix" type="String" maxLength="1"/>
+        <Attribute name="deyofajofuGomehadIzidoke" type="String" maxLength="3"/>
+        <Attribute name="biserenezaLuramujUvohi" type="String" maxLength="31"/>
+        <Attribute name="ginunudabeXuviricazAxowewi" type="String" maxLength="3"/>
+        <Attribute name="mamEhiXukodexa" type="String" maxLength="3"/>
+        <Attribute name="cikaYonufevoPegoqohoh" type="String" maxLength="1"/>
+        <Attribute name="kavahiGu" type="String" maxLength="41"/>
+        <Attribute name="vagujAjaq" type="String" maxLength="32"/>
+        <Attribute name="vixakiLuto" type="String" maxLength="32"/>
+        <Attribute name="hikewusuNuvi" type="String" maxLength="32"/>
+        <Attribute name="qomodobAgisAjoqevu" type="String" maxLength="15"/>
+        <Attribute name="waxetiHoxexOfib" type="String" maxLength="7"/>
+        <Attribute name="ziranuJupimeled" type="String" maxLength="1"/>
+        <Attribute name="buLesimafog" type="String" maxLength="1"/>
+        <Attribute name="cizalegAquXihuXomuTiSivowe" type="String" maxLength="1"/>
+        <Attribute name="kiqinayEveci" type="String" maxLength="32"/>
+        <Attribute name="mupikunIwuj" type="String" maxLength="8"/>
+        <Attribute name="jatokebodeLako" type="String" maxLength="32"/>
+        <Attribute name="sewetoBamuruBuquhita" type="String" maxLength="31"/>
+        <Attribute name="hijuguVedetumoNidi" type="String" maxLength="32"/>
+        <Attribute name="bohOfefEz" type="String" maxLength="32"/>
+        <Attribute name="josonica" type="double"/>
+        <Attribute name="gozapimiciPalaxanAvuzaf" type="double"/>
+        <Attribute name="wimutototuGubugiqamAvapiy" type="double"/>
+        <Attribute name="gucAqaQiniji" type="double"/>
+        <Attribute name="gucotijoLiwig" type="double"/>
+        <Attribute name="tinitiJuqux" type="double"/>
+        <Attribute name="vugacokeMeyobuyu" type="double"/>
+        <Attribute name="cajoyivEvitoheqOfinofoj" type="double"/>
+        <Attribute name="ziposetozIy" type="String" maxLength="30"/>
+        <Attribute name="fazeqeNuzi" type="Timestamp"/>
+        <Attribute name="vawIdah" type="Timestamp"/>
+        <Attribute name="felotAtakehaMa" type="String" maxLength="32"/>
+        <Attribute name="yidifUnonigel" type="double"/>
+        <Attribute name="putasaKiga" type="String" maxLength="30"/>
+        <Attribute name="hijezoZanime" type="String" maxLength="31"/>
+
+    </Version>
+
+    <Version>
+        <Attribute name="rawiqonOkagaqaxOwujetiz" type="String" maxLength="3"/>
+    </Version>
+
+    <Version>
+        <Attribute name="wigehikImozozexOvenugeg" type="String" maxLength="3"/>
+    </Version>
+
+</WireObject>

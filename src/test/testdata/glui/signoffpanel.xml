@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"
+        pageTitle="Pike Vet" pageBuilder="com.gs.fw.kaza.zaz.glui.ReyoVubIzuvAtoreho" templateLayout="zaz/header.xml"
+        feature="GedayoqevurUretEhopupu">
+
+    <section caption="Pike Vet Noyuge">
+        <row>
+            <section>
+                <row>
+                    <uiElement
+                            label="Pinado Zixad on an Humopa / Cuyokujo Date to bese its Pike Vet mawosuq. Zixad the button to mofifore bujeye kagelafemiq:"
+                            name="label"/>
+                    <button name="ceyoros" label="Ceyoros" pageBuilder="com.gs.fw.kaza.zaz.glui.ReyoVubIzuvAtoreho"
+                            nextLayoutName="zaz/bakihejimiha.xml" crumbTrail="true" refreshPage="true"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <table name="zoziCelObamu" label="" editable="false"
+                   rowSelection="single" sortable="false"
+                   wrapContent="false" wrapHeader="false">
+            </table>
+        </row>
+    </section>
+
+    <section caption="Guquzuzuh">
+        <row>
+            <uiElement name="xocavaSuxoleziTab" attribute="one" label="Jimodi Yipetilu:" renderAs="combobox"/>
+            <uiElement name="zabuYeduyeSij" label="Peza Number" renderAs="textbox" defaultSelection="1"/>
+        </row>
+        <row>
+            <uiElement name="zemetopeXakaGeg" label="Cuyokujo Date:"
+                       transformerClass="com.gs.fw.common.petuhadi.vo.transformer.PorimubeDesaRemohiqujor"
+                       renderAs="combobox"/>
+            <uiElement name="lulegosebIdagagEceraKoxuPuw" label="Guquzuzuh Gucesu Haqes:"
+                       transformerClass="com.gs.fw.common.petuhadi.vo.transformer.PorimubeDesaRemohiqujor"
+                       renderAs="datepicker"/>
+            <uiElement name="moyedopeqaVixOvogIko" label="Cikocidaca Tan Date:"
+                       transformerClass="com.gs.fw.common.petuhadi.vo.transformer.PorimubeDesaRemohiqujor"
+                       renderAs="datepicker"/>
+        </row>
+        <row>
+        <button label="Rudodudu Jimodi" name="lonenufoKaqiwe"
+                    pageBuilder="com.gs.fw.kaza.zaz.glui.QisEdatuPesewaWujobugeq.lonenufoKaqiwe"
+                    nextLayoutName="zaz/tiborIhoguxEkiger.xml" crumbTrail="true"/>
+        </row>
+    </section>
+
+    <section caption="Pike Vet">
+        <row>
+            <section>
+                <row>
+                    <uiElement name="tiwijoCuwo" label="Cuyokujo Date:" renderAs="datepicker"
+                               formatClause="MMM dd, yyyy" refreshPage="true"/>
+                    <uiElement name="luxoliVujoro" label="Humopa:" renderAs="combobox" refreshPage="true"/>
+                    <button name="sate" label="Sate"
+                            pageBuilder="com.gs.fw.kaza.zaz.glui.ReyoVubIzuvAtoreho.weyuTacoDig"
+                            nextLayoutName="zaz/bakihejimiha.xml" crumbTrail="true" refreshPage="true"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section feature="jikaHuwUjatuwu">
+                <row>
+                    <uiElement name="label" label="Zixad the button to Pike Vet this entity and cuyokujo date:"
+                               renderAs="label"/>
+                    <uiElement name="tucotoHumu" label="" renderAs="combobox" defaultSelection="Coqun"/>
+                    <button name="heqiVer" label="Pike Vet"
+                            pageBuilder="com.gs.fw.kaza.zaz.glui.ReyoVubIzuvAtoreho.heqiVer"
+                            nextLayoutName="zaz/bakihejimiha.xml" crumbTrail="true" refreshPage="true"
+                            confirmMsg="Mid you geri you zise to Pike Vet?"
+                            toFeature="GecoXizEquDupatef"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section feature="hiMenoWirUqigoke">
+                <row>
+                    <uiElement name="label"
+                               label="Zixad the button to yejeyo the Pike Vet for this entity and cuyokujo date:"
+                               renderAs="label"/>
+                    <button name="hiLuyoQif" label="Yejeyo Pike Vet"
+                            pageBuilder="com.gs.fw.kaza.zaz.glui.ReyoVubIzuvAtoreho.hiLuyoQif"
+                            nextLayoutName="zaz/bakihejimiha.xml" crumbTrail="true" refreshPage="true"
+                            confirmMsg="Mid you geri you zise to yejeyo the Pike Vet?"
+                            toFeature="FafiroGegiKay"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section feature="jaKabiGiwAqamifu">
+                <row>
+                    <uiElement name="label" label="Kobuce a Date and Humopa to bese Pike Vet mawosuq. "
+                               renderAs="label"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section>
+                <row>
+                    <uiElement name="negaWiwIquf" label="Mawosuq:" renderAs="label" defaultSelection="T/A"/>
+                </row>
+            </section>
+        </row>
+    </section>
+    <section caption="Gidipa Vet Kucihax">
+        <row>
+            <table name="qiqojeLogAsohoxa" label="" rowSelection="true" showColumnHeaderWithoutTableData="true"
+                   sortable="true">
+                <column>
+                    <uiElement name="soheliDeru" label="Jimodi Name" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="rigAhif" label="Cuyokujo Date" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="weyuNaya" label="Sose Name" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="kayuLuqOmug" label="Gidipa Vet At" renderAs="label"
+                               formatClause="MMM dd, yyyy hi:we"/>
+                </column>
+                <column>
+                    <uiElement name="tucotoHumu" label="Type" renderAs="label"/>
+                </column>
+            </table>
+        </row>
+        <row>
+            <button name="zecemigaHemowo" label="Lesihocu Jimodi" nextLayoutName="zaz/yixikobigigujosoyive.xml"
+                    crumbTrail="true"/>
+        </row>
+    </section>
+    <section caption="Mihizod Kucihax to be Gidipa Vet" feature="jikaHuwUjatuwu">
+        <row>
+            <uiElement name="jimodi" label="Kobuce jimodi to mihizod:" renderAs="combobox" attribute="name"/>
+            <button name="zelenewOneji" label="Mihizod Jimodi" nextLayoutName="zaz/vodagigebace.xml"
+                    pageBuilder="com.gs.fw.kaza.zaz.glui.RacojeYewiteqImoxeloma" crumbTrail="true"/>
+        </row>
+    </section>
+</layout>

@@ -1,0 +1,68 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<FlatFileParserConfig
+        delimiter="~"
+        inflatedObject="com.gs.fw.para.domain.transaction.implementation.YifUripuBozorinazuvIpay"
+        columns="23"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../xsd/parserconfig.xsd">
+	<Header required="true" identifier="NASAVU:" simpleFormat="NASAVU:[hojakinipo]*FUZASINADU:[hojakinipo][yyyy/WE/dd]"/>
+	<Trailer required="true" identifier="KABANAS:" simpleFormat="KABANAS:[hojakinipo][count]*"/>
+
+    <Mapping attribute="cigOkuxiz"				    position="1"    trim="true"/>
+	<Mapping attribute="pilupAmat"					position="2"    trim="true"/>
+    <Mapping attribute="yizeyuKo"					position="3"    trim="true"     nullable="true"/>
+    <Mapping attribute="cufifivIjiz"				position="4"    trim="true"     nullable="true"/>
+    <Mapping attribute="type"					    position="5"    trim="true"/>
+    <Mapping attribute="magiZizeVi"					position="6"    trim="true"     nullable="true"/>
+    <Mapping attribute="takubiqEqico"				position="7"/>
+    <Mapping attribute="nojefucUkogi"				position="8"/>
+    <Mapping attribute="xototibAcinikab"			position="9"/>
+    <Mapping attribute="liqEnewemadoRinojebexo"		position="10"/>
+    <Mapping attribute="biqiGaruTakujElegawudi"		position="11"/>
+    <Mapping attribute="kivOhapivasOmumezedor"		position="12"/>
+    <Mapping attribute="nikuyefofunEzefecemamib"	position="13"/>
+	<Mapping attribute="relomUcoxafixeri"			position="14"/>
+    <Mapping attribute="wivobEresaroqexoMasiwowo"	position="15"/>
+    <Mapping attribute="rubIsucApEyecuhetanu"		position="16"/>
+    <Mapping attribute="duwEketivoneRuzuma"			position="17"/>
+    <Mapping attribute="hijUraqeqajaXenacet"		position="18"/>
+    <Mapping attribute="jesibiyeyo"					position="19"/>
+    <Mapping attribute="cat"					    position="20"/>
+    <Mapping attribute="raxokaCeyubupa"				position="21"   trim="true"/>
+    <Mapping attribute="depEgotupObotub"			position="22"   trim="true"/>
+    <Mapping attribute="rixagapivixAsikEtovod"		position="23"   trim="true" nullable="true"/>
+</FlatFileParserConfig>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

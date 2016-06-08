@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject objectType="transactional" superClassType="table-per-subclass">
+    <PackageName>com.gs.fw.common.mithra.test.domain.kat</PackageName>
+    <ClassName>GosUnen2LavOpemu</ClassName>
+    <Attribute name="yogizuqUsinogara" javaType="boolean" columnName="COPIBAZ_0"/>
+    <Attribute name="razoHiwazibef" javaType="byte" columnName="BAGI_0"/>
+    <Attribute name="gifoLobulisov" javaType="char" columnName="LEBU_0"/>
+    <Attribute name="sucaMagowedef" javaType="Date" columnName="GOZO_0"/>
+    <Attribute name="muneqoZaqecetim" javaType="double" columnName="PINADO_0"/>
+    <Attribute name="tubevOfozuqoho" javaType="float" columnName="YOYOP_0"/>
+    <Attribute name="kuyUdafowiga" javaType="int" columnName="DOD_0"/>
+    <Attribute name="jepeGohixekok" javaType="long" columnName="LUME_0"/>
+    <Attribute name="tumurAduyegade" javaType="short" columnName="VAGOZ_0"/>
+    <Attribute name="leqekeLuriyegoh" javaType="String" columnName="PIZEDE_0" maxLength="10"/>
+    <Attribute name="deyubucohOyupocosi" javaType="Timestamp" columnName="REDOHINAT_0"/>
+
+    <EmbeddedValue name="ga" type="TisAhureRuxa">
+        <Mapping attribute="yogizuqUsinogara" columnName="COPIBAZ_GA" primaryKey="true"/>
+        <Mapping attribute="razoHiwazibef" columnName="BAGI_GA" primaryKey="true"/>
+        <Mapping attribute="gifoLobulisov" columnName="LEBU_GA" primaryKey="true"/>
+        <Mapping attribute="sucaMagowedef" columnName="GOZO_GA" primaryKey="true"/>
+        <Mapping attribute="muneqoZaqecetim" columnName="PINADO_GA" primaryKey="true"/>
+        <Mapping attribute="tubevOfozuqoho" columnName="YOYOP_GA" primaryKey="true"/>
+        <Mapping attribute="kuyUdafowiga" columnName="DOD_GA" primaryKey="true"/>
+        <Mapping attribute="jepeGohixekok" columnName="LUME_GA" primaryKey="true"/>
+        <Mapping attribute="tumurAduyegade" columnName="VAGOZ_GA" primaryKey="true"/>
+        <Mapping attribute="leqekeLuriyegoh" columnName="PIZEDE_GA" maxLength="10" primaryKey="true"/>
+        <Mapping attribute="deyubucohOyupocosi" columnName="REDOHINAT_GA" primaryKey="true"/>
+        <Mapping attribute="kivAxixufeXovoqufop" columnName="POLIQARIQA_GA" precision="10" scale="2" primaryKey="true"/>
+    </EmbeddedValue>
+    <EmbeddedValue name="xunuGuj" type="DonEteqaDixu">
+        <Mapping attribute="yogizuqUsinogara" columnName="COPIBAZ_1"/>
+        <Mapping attribute="razoHiwazibef" columnName="BAGI_1"/>
+        <Mapping attribute="gifoLobulisov" columnName="LEBU_1"/>
+        <Mapping attribute="sucaMagowedef" columnName="GOZO_1"/>
+        <Mapping attribute="muneqoZaqecetim" columnName="PINADO_1"/>
+        <Mapping attribute="tubevOfozuqoho" columnName="YOYOP_1"/>
+        <Mapping attribute="kuyUdafowiga" columnName="DOD_1"/>
+        <Mapping attribute="jepeGohixekok" columnName="LUME_1"/>
+        <Mapping attribute="tumurAduyegade" columnName="VAGOZ_1"/>
+        <Mapping attribute="leqekeLuriyegoh" columnName="PIZEDE_1" maxLength="10"/>
+        <Mapping attribute="deyubucohOyupocosi" columnName="REDOHINAT_1"/>
+        <Mapping attribute="kivAxixufeXovoqufop" columnName="POLIQARIQA_1" precision="18" scale="3"/>
+        <EmbeddedValue name="lanujaTal">
+            <Mapping attribute="yogizuqUsinogara" columnName="COPIBAZ_2"/>
+            <Mapping attribute="razoHiwazibef" columnName="BAGI_2"/>
+            <Mapping attribute="gifoLobulisov" columnName="LEBU_2"/>
+            <Mapping attribute="sucaMagowedef" columnName="GOZO_2"/>
+            <Mapping attribute="muneqoZaqecetim" columnName="PINADO_2"/>
+            <Mapping attribute="tubevOfozuqoho" columnName="YOYOP_2"/>
+            <Mapping attribute="kuyUdafowiga" columnName="DOD_2"/>
+            <Mapping attribute="jepeGohixekok" columnName="LUME_2"/>
+            <Mapping attribute="tumurAduyegade" columnName="VAGOZ_2"/>
+            <Mapping attribute="leqekeLuriyegoh" columnName="PIZEDE_2" maxLength="10"/>
+            <Mapping attribute="deyubucohOyupocosi" columnName="REDOHINAT_2"/>
+            <Mapping attribute="kivAxixufeXovoqufop" columnName="POLIQARIQA_2" precision="18" scale="3"/>
+            <EmbeddedValue name="mulaNaw">
+                <Mapping attribute="yogizuqUsinogara" columnName="COPIBAZ_3"/>
+                <Mapping attribute="razoHiwazibef" columnName="BAGI_3"/>
+                <Mapping attribute="gifoLobulisov" columnName="LEBU_3"/>
+                <Mapping attribute="sucaMagowedef" columnName="GOZO_3"/>
+                <Mapping attribute="muneqoZaqecetim" columnName="PINADO_3"/>
+                <Mapping attribute="tubevOfozuqoho" columnName="YOYOP_3"/>
+                <Mapping attribute="kuyUdafowiga" columnName="DOD_3"/>
+                <Mapping attribute="jepeGohixekok" columnName="LUME_3"/>
+                <Mapping attribute="tumurAduyegade" columnName="VAGOZ_3"/>
+                <Mapping attribute="leqekeLuriyegoh" columnName="PIZEDE_3" maxLength="10"/>
+                <Mapping attribute="deyubucohOyupocosi" columnName="REDOHINAT_3"/>
+                <Mapping attribute="kivAxixufeXovoqufop" columnName="POLIQARIQA_3" precision="10" scale="2"/>
+            </EmbeddedValue>
+        </EmbeddedValue>
+    </EmbeddedValue>
+</MithraObject>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject objectType="transactional">
+    <PackageName>com.gs.fw.bov.raguti.juwinimuloya</PackageName>
+    <ClassName>YelOzerovo</ClassName>
+    <DefaultTable>J_BOV_SOBAMOR</DefaultTable>
+    <SourceAttribute name="soXenujesOwiw" javaType="String"/>
+    <Attribute name="zowUsafAj" javaType="long" columnName="BOV_TAWA_LA" primaryKey="true">
+    </Attribute>
+    <Attribute name="rizeZata" javaType="Timestamp" columnName="ZEGE_GOZO" nullable="false"/>
+    <Attribute name="vuzafefajAkezozEm" javaType="long" columnName="XIZ_JIVAKA_LA" nullable="false"/>
+    <Attribute name="xakude" javaType="String" maxLength="4" columnName="XAKUDE" nullable="false"/>
+    <Attribute name="yeyiduPun" javaType="String" maxLength="8" columnName="SIWOXO_DOM" nullable="false"/>
+    <Attribute name="sumuxeDud" javaType="String" maxLength="20" columnName="SIWOXO_GUS" nullable="false"/>
+    <Attribute name="tavibexakIxez" javaType="String" maxLength="10" columnName="RUBENUHIV_JEWIVUY"/>
+    <Attribute name="xuficAlitusu" javaType="String" maxLength="10" columnName="WOZAW_JEWIVUY"/>
+    <Attribute name="ruja" javaType="String" maxLength="5" columnName="RUJA"/>
+    <Attribute name="businessDate" javaType="Timestamp" columnName="CUYOKUJO_GOZO"/>
+    <Attribute name="suyewejexOcis" javaType="Timestamp" columnName="PIYIDOJOH_GOZO"/>
+    <Attribute name="nogara" javaType="double" columnName="NOGARA"/>
+    <Attribute name="dileweri" javaType="String" maxLength="3" columnName="DILEWERI"/>
+    <Attribute name="jonedirAmuhux" javaType="String" maxLength="3" columnName="SOBAMOR_KOSOMU"/>
+    <Attribute name="sabaMulucaVini" javaType="Timestamp" columnName="TAWA_WOPINE_XOSI"/>
+    <Attribute name="description" javaType="String" maxLength="150" columnName="CUYIFANAKIT"/>
+    <Attribute name="bajuRugIzeq" javaType="String" maxLength="2" columnName="CABO_VEC_XANO"/>
+    <Attribute name="koxiqoneTudomuJo" javaType="String" maxLength="20" columnName="BIDOMIYO_SIWOXO_LA"/>
+    <Attribute name="gejoNi" javaType="String" maxLength="32" columnName="GEJONI"/>
+    <Attribute name="famotIpuf" javaType="Timestamp" columnName="BETID_GOZO"/>
+    <Attribute name="qubahaGuto" javaType="Timestamp" columnName="CUPENA_GOZO"/>
+    <Attribute name="pefuhiqoRari" javaType="Timestamp" columnName="SIWOXO_PAHUQIKE_XOSI"/>
+    <Attribute name="productId" javaType="String" maxLength="15" columnName="TIGARAN_LA"/>
+    <Attribute name="noruxonAdAjih" javaType="String" maxLength="5" columnName="TIGARAN_LA_XANO"/>
+    <Attribute name="bawupokabigErubejevimi" javaType="String" maxLength="30" columnName="LOLAMAYUCAW_DUSO"/>
+    <Attribute name="hepihusEkaziYuqoy" javaType="String" maxLength="1" columnName="JEWIVUY_KUTOS_DUFIJ"/>
+    <Attribute name="zidanOtumUse" javaType="String" maxLength="1" columnName="XABAK_JUHO_VUZ"/>
+    <Attribute name="renidEzaqUcas" javaType="String" maxLength="1" columnName="XABAK_JUHO_ZISA"/>
+    <Attribute name="yovitUpuzAr" javaType="String" maxLength="2" columnName="XABAK_JUHO_LA"/>
+    <Attribute name="gamAQOTa" javaType="String" maxLength="20" columnName="YOB_WEL_LA"/>
+    <Attribute name="lixoqArItar" javaType="String" maxLength="10" columnName="XABAK_LA_RUQA"/>
+    <Attribute name="kakeceYuvi" javaType="String" maxLength="4" columnName="ROKUVO_JUHO"/>
+    <Attribute name="zolexagaHutupIciz" javaType="String" maxLength="3" columnName="JIXAVARU_NUPIT_JUHO"/>
+    <Attribute name="rapezewuHebejIbeTe" javaType="String" maxLength="10" columnName="JIXAVARU_NUPIT_LAKIT"/>
+    <Attribute name="fiseLufiba" javaType="String" maxLength="10" columnName="GOWA_TOYIYE"/>
+    <Attribute name="woluyubufa" javaType="double" columnName="WOLUYUBUFA" defaultIfNull="0"/>
+    <Attribute name="vebevoyuLej" javaType="double" columnName="PUMIHOTO_GOW" defaultIfNull="0"/>
+    <Attribute name="zUMom" javaType="String" maxLength="6" columnName="TA_FOD"/>
+    <Attribute name="josonica" javaType="double" columnName="JOSONICA" defaultIfNull="0"/>
+    <Attribute name="bihirovEtaq" javaType="String" maxLength="2" columnName="JEWIVUY_XANO"/>
+    <Attribute name="wejuYaraBatazusun" javaType="String" maxLength="1" columnName="ZEVI_PUPE_YUH"/>
+    <Attribute name="copizuwiZodohapoc" javaType="String" maxLength="1" columnName="DILEWERI_YUH"/>
+    <Attribute name="price" javaType="double" columnName="SIWEL" defaultIfNull="0"/>
+    <Attribute name="haRet" javaType="String" maxLength="2" columnName="WE_YUH"/>
+    <Attribute name="riwifInesUvo" javaType="String" maxLength="1" columnName="BETID_TAWA_YUH"/>
+    <Attribute name="hewoluqesoTice" javaType="String" maxLength="1" columnName="VECUDAROBA_SEKO"/>
+    <Attribute name="hohoHifarOweq" javaType="String" maxLength="60" columnName="PROD_VAGOZ_DUSO"/>
+    <Attribute name="zawiriciYada" javaType="String" maxLength="32" columnName="PUMIHOTO_XANO"/>
+    <Attribute name="hicUGAkavAz" javaType="String" maxLength="32" columnName="KANAX_PROD_LA"/>
+    <Attribute name="xixuDeyUl" javaType="String" maxLength="30" columnName="QAVA_XUV_LA"/>
+    <Attribute name="mabanAcilu" javaType="String" maxLength="32" columnName="XABAK_NALIC"/>
+    <Attribute name="xorupa" javaType="String" columnName="XORUPA" maxLength="3"/>
+    <Attribute name="center" javaType="String" columnName="TANEPA" maxLength="4"/>
+    <Attribute name="product" javaType="String" columnName="TIGARAN" maxLength="3"/>
+    <Attribute name="dutucecey" javaType="String" columnName="DUTUCECEY" maxLength="5"/>
+    <Attribute name="jewivuy" javaType="String" columnName="JEWIVUY" maxLength="8"/>
+    <Attribute name="pujoZede" javaType="String" columnName="HUHU_JUHO" maxLength="4"/>
+    <Attribute name="yijuwecuZuce" javaType="String" columnName="PAHUQIKE_XANO" maxLength="10"/>
+    <Attribute name="baKIHoqo" javaType="String" columnName="YE_HU_QEHU" maxLength="10" nullable="false"/>
+    <Attribute name="xeFegin" javaType="String" columnName="YE_XEPEQ" maxLength="3" nullable="false"/>
+    <Attribute name="lomoh" javaType="String" columnName="LOMOH" maxLength="9" nullable="false"/>
+    <Attribute name="big" javaType="String" columnName="BIG" maxLength="6" nullable="false"/>
+    <Attribute name="buliHacuXezusEmuxa" javaType="String" columnName="QUNU_CABO_KUTOS_DUFIJ" maxLength="1" />
+    
+</MithraObject>

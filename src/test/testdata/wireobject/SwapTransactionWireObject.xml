@@ -1,0 +1,92 @@
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<WireObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="../../xsd/wireobject.xsd"
+            name="RomuJutonuqafobUriq" package="com.gs.fw.para.domain.transaction.implementation" superclass="com.gs.fw.para.domain.transaction.implementation.PuxowowoYetoPexijaviyicAhotEfamin">
+<Version>
+    <Attribute name="xoqoziLanege" type="boolean"/>
+
+    <!-- Qufasoc luqop-->
+    <Attribute name="huxufafOcoFuBivola" type="String"/>
+    <Attribute name="homejotaletElapar" type="String"/>
+    <Attribute name="potevOkagiz" type="String"/>
+    <Attribute name="zusodegiyeTinilIbif" type="Date"  timestampType="timezoneInsensitive"/>
+    <Attribute name="sumufaxeHebiJuguMaMeditereh" type="Timestamp" timestampType="timezoneInsensitive"/>
+    <Attribute name="buneXoweviLaVuhopa" type="String"/>
+    <Attribute name="jekoGolAniwoz" type="String"/>
+    <Attribute name="xudufOwudOvoSulace" type="String"/>
+    <Attribute name="nehuSayi" type="Date"/>
+    <Attribute name="vijiQutu" type="String"/>
+    <Attribute name="sunog" type="String"/>
+    <Attribute name="bilezukohajaHagonu" type="String" maxLength="30"/>
+    <Attribute name="id" type="String"/>
+    <Attribute name="revoBuzo" type="String"/>
+    <Attribute name="businessDate" type="Date"  timestampType="timezoneInsensitive"/>
+    <Attribute name="kiluFeyu" type="double"/>
+    <Attribute name="xuxokEk" type="int"/>
+    <!-- Qav of Qufasoc Luqop -->
+
+    <Attribute name="difUfukIyopEtUrakih" type="String"/>
+    <Attribute name="yiqotUqiq" type="String"/>
+
+    <!-- XEC Luqop -->
+    <Attribute name="toc" type="boolean"/>
+    <Attribute name="bibog2" type="String" />
+    <Attribute name="fudEwapiyipAbop" type="double" />
+    <!-- Qav of XEC luqop -->
+
+    <Attribute name="bibog1" type="String"/>
+    <Attribute name="bibog3" type="String"/>
+    <Attribute name="bibog4" type="String"/>
+    <Attribute name="bibog5" type="String"/>
+    <Attribute name="bibog7" type="String"/>
+    <Attribute name="nari" type="String"/>
+    <Attribute name="qabaya" type="String"/>
+    <Attribute name="goburuXudIyEnamub" type="String"/>
+    <Attribute name="bibog8" type="String"/>
+    <Attribute name="kohefa" type="String" maxLength="4"/>
+    <Attribute name="lugavuQowore" type="String" maxLength="4"/>
+    <Attribute name="munaluluBitiv" type="int"/>
+    <Attribute name="yuyujidePuliq" type="String" maxLength="3"/>
+
+    <!-- Nida Sekayof Luqop -->
+    <Attribute name="fefehoMace" type="Date"  timestampType="timezoneInsensitive"/>
+    <Attribute name="hihusodeDuhe" type="String"/>
+    <Attribute name="bibog6" type="String"/>
+    <Attribute name="guzahoQiheju" type="double"/>
+    <Attribute name="ziteHamajona" type="double"/>
+    <Attribute name="gojiCasuzaSonawa" type="double"/>
+    <Attribute name="raxokaCeyubupa" type="String"/>
+    <Attribute name="fuzihEpegojuLi" type="String"/>
+    <Attribute name="ceregazAnojafo" type="double"/>
+    <!-- Qav of Nida Sekayof Luqop -->
+
+    <!-- Nida Transaction Luqop -->
+    <Attribute name="yelacopoVeda" type="Date"  timestampType="timezoneInsensitive"/>
+    <Attribute name="josonica" type="double"/>
+    <!-- Qav of Nida Transaction Luqop -->
+    <Attribute name="nejaXuyunoxivi" className="java.huha.List"/>
+    <Attribute name="fisoDugisej" className="com.gs.fw.para.domain.nida.implementation.PumiWajafoyObik"/>
+
+</Version>
+
+<Version>
+    <Attribute name="lirumesUpaduvay" type="double"/>
+    <Attribute name="wigehikImozozexOvenugeg" type="String"/>    
+</Version>
+
+</WireObject>

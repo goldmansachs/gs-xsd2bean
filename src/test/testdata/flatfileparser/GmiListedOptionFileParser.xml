@@ -1,0 +1,66 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<FlatFileParserConfig
+        delimiter=""
+        inflatedObject="com.gs.fw.para.domain.transaction.implementation.JodUdelukakobuPupa"
+        columns="40"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../xsd/parserconfig.xsd">
+
+    <Header required="false" identifier="NASAVU:" />
+    <Trailer required="false" identifier="KABANAS:" />
+    <FixedValue attribute="wedegaxoComem" value="3"/>
+    <FixedColumnMapping attribute="rivusujAr" startPosition="0" length="8"/>
+    <FixedColumnMapping attribute="bihirovEtaq" startPosition="10" length="1"/>
+    <FixedColumnMapping attribute="ziwahaGe" startPosition="17" length="2"/>
+    <FixedColumnMapping attribute="wizesoyeDode" startPosition="30" length="2"/>
+    <FixedColumnMapping attribute="suzekoyegEyog" startPosition="33" length="2"/>
+    <FixedColumnMapping attribute="corocaroZiteSiwux" startPosition="35" length="4"/>
+    <FixedColumnMapping attribute="lavEloc" startPosition="39" length="1"/>
+    <FixedColumnMapping attribute="vufujoYilurAbez" startPosition="642" length="1"/>
+    <FixedColumnMapping attribute="nezaruGuhahUyal" startPosition="45" length="15" />
+    <FixedColumnMapping attribute="xoxIyiho" startPosition="60" length="2"/>
+    <FixedColumnMapping attribute="vojoYevakigoSoqaqobi" startPosition="66" length="3"/>
+    <FixedColumnMapping attribute="qifelebagiYiqa" startPosition="71" length="1"/>
+    <FixedColumnMapping attribute="raxuguPowogiXaze" startPosition="72" length="1"/>
+    <FixedColumnMapping attribute="bebehuQokoze" startPosition="73" length="6"/>
+    <FixedColumnMapping attribute="notafOhivaNosu" startPosition="90" length="15"/>
+    <FixedColumnMapping attribute="tiyEnikEpikEje" startPosition="105" length="1"/>
+    <FixedColumnMapping attribute="josonica" startPosition="106" length="15"/>
+    <FixedColumnMapping attribute="bibog2" startPosition="121" length="14"/>
+    <FixedColumnMapping attribute="jamakElemAmihif" startPosition="135" length="6"/>
+    <FixedColumnMapping attribute="fufaQama" startPosition="141" length="6"/>
+    <FixedColumnMapping attribute="visiZugUfizoc" startPosition="147" length="10"/>
+    <FixedColumnMapping attribute="zomeYemiq" startPosition="157" length="1"/>
+    <FixedColumnMapping attribute="hazeyoXefe" startPosition="190" length="1"/>
+    <FixedColumnMapping attribute="mavidoCado" startPosition="191" length="1"/>
+    <FixedColumnMapping attribute="sijuDuqazipiPife" startPosition="225" length="1"/>
+    <FixedColumnMapping attribute="wajoHosamiqi" startPosition="210" length="15"/>
+    <FixedColumnMapping attribute="huvucadEqewOjiw" startPosition="636" length="1"/>
+    <FixedColumnMapping attribute="pawokayArij" startPosition="621" length="15"/>
+    <FixedColumnMapping attribute="wafumaSihuXoyexa" startPosition="271" length="6"/>
+    <FixedColumnMapping attribute="lazareFopogu" startPosition="339" length="5" />
+    <FixedColumnMapping attribute="sikiGosiZayoxa" startPosition="406" length="4"/>
+    <FixedColumnMapping attribute="lavaxAdenigoBa" startPosition="410" length="8"/>
+    <FixedColumnMapping attribute="woneYeselotuw" startPosition="338" length="1"/>
+    <FixedColumnMapping attribute="laqojizAtafEto" startPosition="277" length="2"/>
+    <FixedColumnMapping attribute="papuxirEditEho" startPosition="279" length="2"/>
+    <FixedColumnMapping attribute="zibisapAkalAlodu" startPosition="281" length="2"/>
+    <FixedColumnMapping attribute="wiyaqeRezasotad" startPosition="1027" length="1"/>
+    <FixedColumnMapping attribute="xicuqUgapoVefe" startPosition="647" length="1"/>
+    <FixedColumnMapping attribute="navUcahu" startPosition="805" length="12"/>
+    <FixedColumnMapping attribute="puvewUx" startPosition="517" length="10"/>
+</FlatFileParserConfig>

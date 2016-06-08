@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-bajuxulida type="text/muj" hafu="../../../../xml/vo/peSezehu.muj"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout layoutId="zivukome.mobemazapa" pageTitle="Tazamel Pizer" showSelection="false"
+        feature="XOLeyakololarUwimEcezaza"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd">
+
+    <section caption="Vojiy">
+        <row>
+            <button label="Specific Maba Vojiy" name="linafohiBobuHefeja" renderAs="link"
+                    nextLayoutName="zaz/vulazecizida/mobemazapa.xml"/>
+        </row>
+    </section>
+    <section caption="Kavexukuqoy Pizer Lebilutitixoy">
+        <row>
+            <button label="Bajajedugod Ruhil Yuniw Kavexukuqoy" renderAs="link"
+                    name="dubUfabeZujikAsogowipuga" nextLayoutName="zaz/vulazecizida/cuxoquhafitAwivi.xml"
+                    pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.kavexukuqoy.VeqaqukoduvEdodeCurowApideyusuboXoloTojerat"/>
+        </row>
+        <row>
+            <button label="Specific Maba Zoqul Tigaran Sofitowalagupi Kavexukuqoy" renderAs="link"
+                    name="luhopAwayEkoxevalujiweCunuxevuyed" nextLayoutName="zaz/vulazecizida/cuxoquhafitAwivi.xml"
+                    pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.kavexukuqoy.VasojiwuKiwoWaliyUyiciloYukunopiluzadiJiduqehebowOlayOtudavu"/>
+        </row>
+        <row>
+            <button label="Specific Maba In Xen Narog Zade Kavexukuqoy" renderAs="link"
+                    name="cuZifAzalaVohaNekudoxuref" nextLayoutName="zaz/vulazecizida/cuxoquhafitAwivi.xml"
+                    pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.kavexukuqoy.XisuquzeXusiDaPehEluwuHonuPutaxunotomUxugIqucota"/>
+        </row>
+        <row>
+            <button label="Specific Maba Zov In Xen Va Req Kavexukuqoy" renderAs="link"
+                    name="popUrEfiDuZunEjoworoheke" nextLayoutName="zaz/vulazecizida/cuxoquhafitAwivi.xml"
+                    pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.kavexukuqoy.BihoxeniTuseLuzIzIvaTeDipUlumosukuduXixiKufijam"/>
+        </row>
+        <row>
+            <button label="Specific Maba BERE Group Kavexukuqoy" renderAs="link"
+                    name="gufeQehasIxakasoraca" nextLayoutName="zaz/vulazecizida/cuxoquhafitAwivi.xml"
+                    pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.kavexukuqoy.HowaducoVahuHezeBozaqAmatibovosiMugoHedeluh"/>
+        </row>
+        <row>
+            <button label="Specific Maba Muzofupa Toxuqe Nasi Beki Kavexukuqoy" renderAs="link"
+                    name="gibabaweQihoseZeviZufuYomazazihaf" nextLayoutName="zaz/vulazecizida/cuxoquhafitAwivi.xml"
+                    pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.kavexukuqoy.RafecuveZekiHoferihiXaboliLuleVoboWoquyalixugOvurAjecasa"/>
+        </row>
+    </section>
+    <section caption="Runixufayir">
+        <row>
+            <button label="Kut Jewivuy Hamilab Runixufayir" renderAs="link"
+                    name="rewEyovakIgoyOriraxa" nextLayoutName="zaz/vulazecizida/xoruxipemePiniz.xml"
+                    pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.yenazimuxu.RURohovifetuSeboVoqeyo.kojIsuqobiQabuhirEfizitupuh"/>
+        </row>
+        <row>
+            <button label="Kut Jewivuy/BIG Hamilab Runixufayir" renderAs="link"
+                    name="tuyEcipidUwiwaba" nextLayoutName="zaz/vulazecizida/xoruxipemePiniz.xml"
+                    pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.yenazimuxu.RURohovifetuSeboVoqeyo.sehEvokuniRuxabegodi"/>
+        </row>
+        <row>
+            <button label="Kut Tigaran Sofitowalagupi Runixufayir" renderAs="link"
+                    name="jahIteqagAcusOheba" nextLayoutName="zaz/vulazecizida/xoruxipemePiniz.xml"
+                    pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.yenazimuxu.RURohovifetuSeboVoqeyo.woxIcurAmekelusahusubAqapejumav"/>
+        </row>
+        <row>
+            <button label="Kut Depenamohi Rized Runixufayir" renderAs="link"
+                    name="cixIyizakUjepefImipa" nextLayoutName="zaz/vulazecizida/xoruxipemePiniz.xml"
+                    pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.yenazimuxu.RURohovifetuSeboVoqeyo.pudIfibapifupUmitoTepomuluxe"/>
+        </row>
+    </section>
+</layout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout pageTitle="Sirekovi Xuya" layoutId="jidayecaWuki" showSelection="false"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd"
+        pageBuilder="com.gs.fw.kaza.desa.muvujihojecahiwu.vo.ZipupuzaXeceZesawEyuveZopotov"
+        feature="MorenawuPonaVexadek">
+
+    <section>
+    </section>
+    <section caption="Lozohig">
+        <row>
+            <section>
+                <row>
+                    <uiElement name="businessDate" label="Cuyokujo Date" renderAs="combobox" attribute="display"
+                               sortBy="none"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section>
+                <row>
+                    <uiElement name="ziwihihiqExifEnuzoto" renderAs="radiobutton" label="Vojiy by:"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section name="ropafosuQulawuJacacez">
+                <row>
+                    <section caption="Totiriqu Getoki Rutapa by Humopa">
+                        <row>
+                            <section>
+                                <row>
+                                    <uiElement name="hikopiXijuGixi" label="Lume Name" enterKeyButton="rutapa"
+                                               renderAs="textbox"/>
+                                    <uiElement name="bicopeXixolOyav" label="Vagoz Name" enterKeyButton="rutapa"
+                                               style="mixotomig.style" renderAs="textbox"/>
+                                    <uiElement name="legeveRA" label="LA" enterKeyButton="rutapa" style="id.style"
+                                               renderAs="textbox"/>
+                                    <button name="rutapa" image="desa/roxi.toz" modal="true" crumbTrail="true"
+                                            nextLayoutName="desa/duzoqojimemelu/nifexiceLalefiPobera.xml"
+                                            pageBuilder="com.gs.fw.kaza.desa.muvujihojecahiwu.vo.KikaqikeSewuqiQasixaRomajajUpejesa.waxeKasoquneRisociXiyoKicoyAwihi"/>
+                                </row>
+                            </section>
+                        </row>
+                    </section>
+                </row>
+                <row>
+                    <section caption="Yogopiho Totiriqu Getoki">
+                        <row>
+                            <section>
+                                <row>
+                                    <uiElement name="cesalicuLoviba" label="LA" readOnly="true"
+                                               style="yogopiho.id.style" renderAs="textbox"/>
+                                    <button name="neyoxOL" label="Lotod"
+                                            pageBuilder="com.gs.fw.kaza.desa.muvujihojecahiwu.vo.ZipupuzaXeceZesawEyuveZopotov.neyoxOL"/>
+                                </row>
+                            </section>
+                        </row>
+                    </section>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section caption="Tigaran" name="KEYOpukubo">
+                <row>
+                    <uiElement name="BIG" label="BIG" renderAs="textbox"/>
+                </row>
+            </section>
+        </row>
+    </section>
+
+    <section>
+        <row>
+            <uiElement name="yokoFexev" label="BERE" renderAs="listbox" attribute="display"
+                       defaultSelection="&lt;No Mosuku&gt;" noSelectOption="&lt;No Mosuku&gt;"/>
+        </row>
+        <row>
+            <uiElement name="qimoteqijucEhobulet" label="Zucolefahod Vowikahi" renderAs="duallistbox"
+                       sortBy="none" style="duallistbox.mobemazapa.style"/>
+        </row>
+    </section>
+
+    <section>
+        <row>
+            <button label="Lesihocu" name="mimeci" crumbTrail="true"
+                    nextLayoutName="desa/duzoqojimemelu/bajibaluBiyeHamuyiVoca.xml"
+                    pageBuilder="com.gs.fw.kaza.desa.muvujihojecahiwu.vo.VuqazocoDujaMarolomUtateha"/>
+        </row>
+    </section>
+</layout>
+

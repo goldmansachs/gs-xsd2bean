@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <PackageName>com.gs.fw.lilu.hos.domain</PackageName>
+    <ClassName>VidifuvEher</ClassName>
+    <SchemaName>mut</SchemaName>
+    <ConnectionManagerName>buqimoVaWulisozoziWorofos</ConnectionManagerName>
+    <ReadOnly>true</ReadOnly>
+    <ReadStoredProcedure>Qerat_QeqOhUzicihuGaxeq</ReadStoredProcedure>
+
+    <PrimaryKeyAttribute keyClass="NusedizAfixIyu">
+        <Attribute columnName="CIQ_FEZI" javaType="String" sqlType="HorupozoxObuhiriKoyedu" name="wutAyud"/>
+        <Attribute columnName="HOJI_CIQ_FEZI" javaType="String" sqlType="HorupozoxObuhiriKoyedu" name="coreYiyItos"/>
+        <Attribute columnName="NILI_SIBA" javaType="Timestamp" sqlType="BimowupuyEyowubesa" name="pinuFure"/>
+        <Attribute columnName="NILI_SAMEMISIF_SIBA" javaType="Timestamp" sqlType="BimowupuyEyowubesa"
+                   name="tomoRowenigiyExur"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="GEK_NILI" javaType="double" sqlType="Luhisa" name="jutOsow"/>
+    <Attribute columnName="RIQED_NILI" javaType="double" sqlType="Luhisa" name="fonobUwev"/>
+
+    <Index name="businessDate">businessDate</Index>
+</ManagedObject>

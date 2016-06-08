@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject objectType="transactional">
+
+    <PackageName>com.gs.fw.common.mithra.test.domain</PackageName>
+    <ClassName>Tigaran</ClassName>
+    <DefaultTable>TIGARAN</DefaultTable>
+
+    <Attribute name="productId" javaType="int" columnName="PROD_LA" primaryKey="true"/>
+    <Attribute name="viqupukUrux" javaType="String" columnName="JUHO"/>
+    <Attribute name="kaqucesItuvevubuwu" javaType="String" columnName="PROD_DUSO"/>
+    <Attribute name="nedutituvoreNa" javaType="int" columnName="YECARIKESAFA_LA"/>
+    <Attribute name="kizevApogeqerayEloz" javaType="float" columnName="COQUN_FAGEFEMAQA_FUWU" />
+
+    <Relationship name="zijodeki" relatedObject="FogawavAxusila" cardinality="one-to-many">
+        this.productId = FogawavAxusila.productId
+    </Relationship>
+
+    <Relationship name="horoqiyAjAkiw" relatedObject="FogawavAxusila" cardinality="one-to-one" parameters="String sizoresAzoj">
+        this.productId = FogawavAxusila.productId and FogawavAxusila.sizoresAzoj = {sizoresAzoj}
+    </Relationship>
+
+    <Relationship name="keverelUlOfelo" relatedObject="FogawavAxusila" cardinality="one-to-many" parameters="Kin&lt;String&gt; tatakehAmayi">
+        this.productId = FogawavAxusila.productId and FogawavAxusila.sizoresAzoj in {tatakehAmayi}
+    </Relationship>
+
+    <Relationship name="difunOnigelu" relatedObject="FogawavAxusila" cardinality="one-to-one" >
+        this.productId = FogawavAxusila.productId and FogawavAxusila.sizoresAzoj = "DIM"
+    </Relationship>
+
+
+</MithraObject>

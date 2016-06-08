@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <Templates>interface,noki,wululu,nuzikuzu,gunujar,wunopi,tetahij,fiyatis</Templates>
+    <PackageName>com.gs.fw.lilu.jin.domain.dugayoya</PackageName>
+    <ImportPackageName>java.huha.Date</ImportPackageName>
+    <ImportPackageName>com.gs.fw.common.giluy.domain.ronumiluc.VumikUto</ImportPackageName>
+    <ImportPackageName>com.gs.fw.ralo.domain.haq.MepevatuGuceNayiq</ImportPackageName>
+    <ClassName>Giye</ClassName>
+    <DefaultTable>DUGAYOYA_GIYE</DefaultTable>
+    <SchemaName>mut</SchemaName>
+
+    <PrimaryKeyAttribute keyClass="RigeJoq">
+        <Attribute columnName="BOGOXEWO" javaType="long" name="bogoxeWo" sqlType="Nula"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute name="jiluhezofi" sqlType="String" javaType="String" columnName="JILUHEZOFI_N"/>
+    <Attribute name="comment" sqlType="String" javaType="String" columnName="SEWOHOW_N"/>
+    <Attribute name="ruyugezihaBibak" sqlType="Ciyisag" javaType="int" columnName="YOHUQELUJE_CITUR_P"/>
+    <Attribute name="businessDate" sqlType="BimowupuyEyowubesa" javaType="Timestamp" columnName="DAG_SIBA_Z"/>
+    <Attribute name="donuxaloLito" sqlType="Timestamp" javaType="Timestamp" columnName="NEMADO_SIBA_Z"/>
+    <Attribute name="wisicu" sqlType="Boolean" javaType="boolean" columnName="WISICU"  />
+
+    <ForeignKeyAttribute name="xapokEmezobOpu" keyClass="QimeLafuroBeh">
+        <Attribute columnName="ZIYAB_KIFIPO_P" javaType="long" name="bogoxeWo" sqlType="Nula"/>
+    </ForeignKeyAttribute>
+
+    <ForeignKeyAttribute name="gumibuciFicoWubuwEde" keyClass="VumikUto">
+        <Attribute columnName="HAQ_P" javaType="long" name="bogoxeWo" sqlType="Nula"/>
+    </ForeignKeyAttribute>
+
+    <TypeSafeEnumAttribute name="type" sqlType="String" javaType="ZoquQequ" columnName="TADE_N">
+        <Map constant="Deal" sqlValue="Deal"/>
+        <Map constant="FedoVuke" sqlValue="FedoVuke"/>
+        <Map constant="Model" sqlValue="Model"/>
+        <Map constant="NalizUceka" sqlValue="NalizUceka"/>
+        <Map constant="Xehin" sqlValue="Xehin"/>
+        <Map constant="VogicUfoqah" sqlValue="VogicUfoqah"/>
+        <Map constant="KacebAxiyecebo" sqlValue="KacebAxiyecebo"/>
+        <Map constant="YojuvisuHisifizij" sqlValue="YojuvisuHisifizij"/>
+        <Map constant="COFIVobaMigici" sqlValue="COFIVobaMigici"/>
+        <Map constant="TudofayUdohAveson" sqlValue="TudofayUdohAveson"/>
+        <Map constant="VukixavUfobiWep" sqlValue="VukixavUfobiWep"/>
+        <Map constant="QumOkenuniw" sqlValue="QumOkenuniw"/>
+        <Map constant="XugaPutesIdedezis" sqlValue="XugaPutesIdedezis"/>
+        <Map constant="WUXUwojaku" sqlValue="WUXUwojaku"/>
+        <Map constant="FuhupurAzuwenugahe" sqlValue="FuhupurAzuwenugahe"/>        
+        <Map constant="HefoFayowelifep" sqlValue="HefoFayowelifep"/>        
+    </TypeSafeEnumAttribute>
+
+    <Relationship cardinality="one-to-many" name="jeyeJibepozaHacicOsuluf" dependentClass="RivoNetatujaFucazIluko" relationshipClass="RivoNetatujaFucazIluko" foreignKey="rigeJoq" aggregation="true" useCacheIndexing="true"/>
+    <Relationship cardinality="one-to-many" name="zetujuva" dependentClass="Xixomejuz" relationshipClass="Xixomejuz" foreignKey="rigeJoq" aggregation="true" useCacheIndexing="true"/>
+    <Relationship cardinality="one-to-many" name="lewuxepeJeqidib" dependentClass="QoraCuxesi" relationshipClass="QoraCuxesi" foreignKey="rigeJoq" aggregation="true" useCacheIndexing="true"/>
+    <Relationship cardinality="many-to-one" name="toyoxUqatox" dependentClass="QoraCuxesi" foreignKey="xapokEmezobOpu" aggregation="true" useCacheIndexing="true"/>
+    <Relationship cardinality="many-to-one" name="mepevatuGuceNayiq" dependentClass="MepevatuGuceNayiq" foreignKey="gumibuciFicoWubuwEde" useCacheIndexing="true"/>
+
+    <Index name="businessDate">businessDate</Index>
+    <Index name="mepevatuGuceNayiq">mepevatuGuceNayiq</Index> 
+
+</ManagedObject>

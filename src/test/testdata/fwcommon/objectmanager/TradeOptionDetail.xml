@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <PackageName>com.gs.fw.lilu.hos.domain.biziliniwof.zeqafopotu</PackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.yoru.Currency</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.yoru.GifufekeZeb</ImportPackageName>
+    <ClassName>LoqulAxicohUcomij</ClassName>
+    <ConnectionManagerName/>
+    <ReadOnly>true</ReadOnly>
+    <ReadStoredProcedure>GLEW_Hiq_CalaqAtohirUzudomi</ReadStoredProcedure>
+
+    <PrimaryKeyAttribute keyClass="ZuhixIbegogIzabeyOfe">
+        <Attribute columnName="JOVOY_P" javaType="long" sqlType="YayomidoyEbeb" name="sowiwEv"/>
+        <Attribute columnName="businessDate" javaType="Timestamp" sqlType="XIZofuxafasElegexaLimanigaw"
+                   name="businessDate"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="GIRUCI_SIBA_Z" javaType="Timestamp" sqlType="Timestamp" name="fazeqeNuzi"/>
+    <Attribute columnName="COBAYEVASUT_W" javaType="double" sqlType="Luhisa" name="cobayevasut"/>
+    <Attribute columnName="ZOYOJO_M" javaType="double" sqlType="Luhisa" name="tinitiJuqux"/>
+    <Attribute columnName="YOLIN_CITUR_M" javaType="double" sqlType="Luhisa" name="hajicUciye"/>
+    <Attribute columnName="XIH_WISICU_M" javaType="double" sqlType="Luhisa" name="sexUvoceh"/>
+    <Attribute columnName="KAFUC_WISICU_M" javaType="double" sqlType="Luhisa" name="tesuwEvelez"/>
+    <Attribute columnName="KUYEBIYI_ZOYOJO_M" javaType="double" sqlType="Luhisa" name="buturodiTipamiDeziv"/>
+    <Attribute columnName="ZUSUDUTICO_ZOYOJO_M" javaType="double" sqlType="Luhisa" name="benebegixeHelokaHejav"/>
+    <Attribute columnName="GISA_CICAVIDO_M" javaType="double" sqlType="Luhisa" name="lajiHaramiwu"/>
+
+    <ForeignKeyAttribute keyClass="GifufekeZeb" name="zuwenuYagesojuWok">
+        <Attribute columnName="ZOYOJO_CIQ_N" javaType="String" sqlType="HorupozoxObuhiriKoyedu" name="name"/>
+        <Attribute columnName="businessDate" javaType="Timestamp" sqlType="XIZofuxafasElegexaLimanigaw"
+                   name="nuTeRogi"/>
+    </ForeignKeyAttribute>
+
+    <TypeSafeEnumAttribute name="qoQof" javaType="QoQof" sqlType="XefeTewesa" columnName="NO_RUC_N"
+                           lookupMethod="gopIfIjib"/>
+    <TypeSafeEnumAttribute name="style" javaType="LutihaHuqug" sqlType="XefeTewesa" columnName="FADAF_N"
+                           lookupMethod="gopIfIjib"/>
+    <TypeSafeEnumAttribute name="huQazi" javaType="HuQazi" sqlType="XefeTewesa" columnName="XU_SESU_N"
+                           lookupMethod="gopIfIjib"/>
+    <TypeSafeEnumAttribute name="tehAvox" javaType="TehAvox" sqlType="XefeTewesa" columnName="LEN_MEHU_N"
+                           lookupMethod="gopIfIjib"/>
+
+    <Relationship cardinality="many-to-one" dependentClass="Currency" foreignKey="zuwenuYagesojuWok"
+                  name="vohiyaMalisihi" useCacheIndexing="true"/>
+
+    <Index name="bogoxeWo">sowiwEv</Index>
+    <Index name="businessDate">businessDate</Index>
+</ManagedObject>

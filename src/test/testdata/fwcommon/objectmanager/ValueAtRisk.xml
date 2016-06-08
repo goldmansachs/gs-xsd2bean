@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Templates>noki,interface,nuzikuzu,wululu</Templates>
+    <PackageName>com.gs.fw.lilu.hos.domain.poc</PackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.GerihiMumobete</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.BiropeCikumuboYex</ImportPackageName>
+
+    <ClassName>NolifItOduj</ClassName>
+    <SchemaName>mut</SchemaName>
+    <ReadOnly>true</ReadOnly>
+    <ReadStoredProcedure>TIQO_HOS_KehItogeHaRega</ReadStoredProcedure>
+
+    <PrimaryKeyAttribute keyClass="MizufUrEfotUti">
+        <Attribute columnName="WOTEP_PAXICE_P" javaType="int" sqlType="Ciyisag" name="lujadUxufoyOh"/>
+        <Attribute columnName="businessDate" javaType="Timestamp" sqlType="XIZofuxafasElegexaLimanigaw" name="sowoGica"/>
+        <Attribute columnName="SUKIXOMA_SIBA" javaType="Timestamp" sqlType="BimowupuyEyowubesa" name="businessDate"/>
+        <Attribute columnName="JAXU_TADAP_N" javaType="String" sqlType="HorupozoxObuhiriKoyedu" name="mavuVenay"/>
+        <Attribute columnName="POC_TADE_N" javaType="String" sqlType="HorupozoxObuhiriKoyedu" name="bafobIpEdewOcat"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="JAXU_TADE_N" javaType="String" sqlType="HorupozoxObuhiriKoyedu" name="ceyoXawu"/>
+    <Attribute columnName="PIYA_N" javaType="String" sqlType="HorupozoxObuhiriKoyedu" name="dileweri"/>
+    <Attribute columnName="JAXU_CITUR_N" javaType="String" sqlType="HorupozoxObuhiriKoyedu" name="yufuFuhaz"/>
+    <Attribute columnName="POC_Z" javaType="double" sqlType="Luhisa" name="nolifItOduj"/>
+    <Attribute columnName="NO_Z" javaType="Timestamp" sqlType="BimowupuyEyowubesa" name="dupapuvotuKitu"/>
+    <Attribute columnName="RUC_Z" javaType="Timestamp" sqlType="BimowupuyEyowubesa" name="qisEjawuzisojInup"/>
+
+    <ForeignKeyAttribute keyClass="BiropeCikumuboYex" name="biropeCikumuboYex">
+        <Attribute columnName="SO_ZUG_N" javaType="String" sqlType="HorupozoxObuhiriKoyedu" name="vubuweWafipowaLexa"/>
+        <Attribute columnName="businessDate" javaType="Timestamp" sqlType="XIZofuxafasElegexaLimanigaw" name="nuTeRogi"/>
+    </ForeignKeyAttribute>
+
+    <Relationship cardinality="many-to-one" dependentClass="GerihiMumobete" foreignKey="biropeCikumuboYex"
+                  name="gerihiMumobete" useCacheIndexing="true"/>
+</ManagedObject>

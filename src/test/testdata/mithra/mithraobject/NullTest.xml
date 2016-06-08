@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject objectType="transactional">
+
+    <PackageName>com.gs.fw.common.mithra.test.domain</PackageName>
+    <ClassName>YalaRehi</ClassName>
+    <DefaultTable>LOZI_TEST</DefaultTable>
+
+    <Attribute name="yagEvumEhahiz" nullable="false" javaType="String" columnName="ZOV_LOZI_PIZEDE" primaryKey="true" maxLength="30"/>
+    <Attribute name="rekOduwUvoxuru" nullable="false" javaType="boolean" columnName="ZOV_LOZI_COPIBAZ" />
+    <Attribute name="duhIfowEvapaz" nullable="false" javaType="double" columnName="ZOV_LOZI_PINADO" />
+    <Attribute name="pafOqimEgar" nullable="false" javaType="long" columnName="ZOV_LOZI_LUME" />
+    <Attribute name="wogIfifOse" nullable="false" javaType="int" columnName="ZOV_LOZI_DOD" />
+    <Attribute name="wesOribIres" nullable="false" javaType="char" columnName="ZOV_LOZI_LEBU" />
+    <Attribute name="vefEwaxEgovihubi" nullable="false" javaType="Timestamp" columnName="ZOV_LOZI_REDOHINAT" />
+    <Attribute name="xuxUmurEqip" nullable="false" javaType="byte" columnName="ZOV_LOZI_BAGI" />
+    <Attribute name="vewOlefUrol" nullable="false" javaType="Date" columnName="ZOV_LOZI_GOZO" />
+    <Attribute name="bojEpikUcudu" nullable="false" javaType="float" columnName="ZOV_LOZI_YOYOP" />
+    <Attribute name="livAqaxEvani" nullable="false" javaType="short" columnName="ZOV_LOZI_VAGOZ" />
+
+    <Attribute name="yuWovimuhUcuyAmihop" javaType="String" columnName="NO_BATOGAM_PIZEDE" maxLength="10"/>
+    <Attribute name="xuRogeqanIkelEtizepo" javaType="boolean" columnName="NO_BATOGAM_COPIBAZ"/>
+    <Attribute name="boBadivoxOzowIhihuy" javaType="double" columnName="NO_BATOGAM_PINADO"/>
+    <Attribute name="jiYunewimAfihExuv" javaType="long" columnName="NO_BATOGAM_LUME"/>
+    <Attribute name="caKukobipUdewIdu" javaType="int" columnName="NO_BATOGAM_DOD"/>
+    <Attribute name="yiTucamazUlusIsef" javaType="char" columnName="NO_BATOGAM_LEBU"/>
+    <Attribute name="tuYucoxorOlikUximumero" javaType="Timestamp" columnName="NO_BATOGAM_REDOHINAT"/>
+    <Attribute name="siQonilujIjuwEjut" javaType="byte" columnName="NO_BATOGAM_BAGI"/>
+    <Attribute name="qiDofeserUsuqUcax" javaType="Date" columnName="NO_BATOGAM_GOZO"/>
+    <Attribute name="gaGivakicOfohUqoje" javaType="float" columnName="NO_BATOGAM_YOYOP"/>
+    <Attribute name="zaCisaxejOqemUcubu" javaType="short" columnName="NO_BATOGAM_VAGOZ"/>
+
+    <Attribute name="yirapiqoNiyaco" javaType="String" columnName="NICEWIFU_PIZEDE" maxLength="10"/>
+    <Attribute name="jikovareTitipof" javaType="boolean" columnName="NICEWIFU_COPIBAZ" defaultIfNull="false"/>
+    <Attribute name="fufuzuwiRadacu" javaType="double" columnName="NICEWIFU_PINADO" defaultIfNull="0.0"/>
+    <Attribute name="zonenewoPala" javaType="long" columnName="NICEWIFU_LUME" defaultIfNull="0"/>
+    <Attribute name="vuxasuluMeb" javaType="int" columnName="NICEWIFU_DOD" defaultIfNull="0"/>
+    <Attribute name="sezidijeRuci" javaType="char" columnName="NICEWIFU_LEBU" defaultIfNull="' '"/>
+    <Attribute name="celocixeXinoriyon" javaType="Timestamp" columnName="NICEWIFU_REDOHINAT" />
+    <Attribute name="vavefoxoDiju" javaType="byte" columnName="NICEWIFU_BAGI" defaultIfNull="0"/>
+    <Attribute name="sujuyareHihi" javaType="Date" columnName="NICEWIFU_GOZO" />
+    <Attribute name="vowirixeQobul" javaType="float" columnName="NICEWIFU_YOYOP" defaultIfNull="0.0"/>
+    <Attribute name="koyadehiHoret" javaType="short" columnName="NICEWIFU_VAGOZ" defaultIfNull="0"/>
+
+
+</MithraObject>
+

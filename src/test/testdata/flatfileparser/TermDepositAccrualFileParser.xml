@@ -1,0 +1,45 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<FlatFileParserConfig
+        delimiter="|"
+        inflatedObject="com.gs.fw.para.domain.tekihif.WemaHakajulIgatefeWonuZav"
+        columns="17"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../xsd/parserconfig.xsd">
+
+    <Header required="true" identifier="NASAVU|" simpleFormat="NASAVU|[kufuXEri]*"/>
+	<Trailer required="true" identifier="KABANAS|" simpleFormat="KABANAS|[count]*"/>
+
+    <Mapping attribute="tobukupuPohAdi" position="1"/>
+    <Mapping attribute="rivusujAr" position="2"/>
+    <Mapping attribute="degunifaKazo" position="3"/>
+    <Mapping attribute="nosujabiTesi" position="4"/>
+    <Mapping attribute="larUcepaliGoru" position="5"/>
+    <Mapping attribute="dileweri" position="6"/>
+    <Mapping attribute="relosudIrepi" position="7"/>
+    <Mapping attribute="zipahakiyIkuv" position="8"/>
+    <Mapping attribute="haqilonAnuj" position="9"/>
+    <Mapping attribute="dokaCecuMuw" position="10"/>
+    <Mapping attribute="matUxakeHuxa" position="11"/>
+    <Mapping attribute="wotobenuxEzoyazaxUfimetey" position="12"/>
+    <Mapping attribute="kuzeyoquKugebozu" position="13"/>
+    <Mapping attribute="yinoqegEron" position="14"/>
+    <Mapping attribute="lesemavaNageragUriwezilo" position="15"/>
+    <Mapping attribute="buxeSelumujop" position="16"/>
+    <Mapping attribute="tacamihocuvOpikaf" position="17" nullable="true"/>
+
+</FlatFileParserConfig>
+

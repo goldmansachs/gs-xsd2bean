@@ -1,0 +1,67 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<FlatFileParserConfig
+        delimiter="~"
+        keyDelimiter=":"
+        inflatedObject="com.gs.fw.para.fufexoze.wuhoticuhomec.implementation.mithra.PeluGosoceqayek"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../xsd/parserconfig.xsd">
+
+    <Header required="true" identifier="N.T.R." simpleFormat="N.T.R.[hojakinipo]*[kufuXEri],Timestamp[hojakinipo]*"/>
+    <Trailer required="true" identifier="KEJ" simpleFormat="KEJ[hojakinipo][count]*" trailerCountOffset="-2"/>
+
+    <KeyValueMapping attribute="rivusujAr" key="CABO"/>
+    <KeyValueMapping attribute="bus" key="BUS"/>
+    <KeyValueMapping attribute="hewebu" key="LOMOH"/>
+    <KeyValueMapping attribute="nuqoxAxahaxuWu" key="WUNEQ"/>
+    <KeyValueMapping attribute="xagitEjac" key="HUGEDOL"/>
+    <KeyValueMapping attribute="cuweduWuhet" key="VU"/>
+    <KeyValueMapping attribute="cufoLemanaXaguy" key="YU"/>
+    <KeyValueMapping attribute="josonica" key="VE"/>
+    <KeyValueMapping attribute="xobawUjoy" key="VERIJAW" format="koSUTefac"/>
+    <KeyValueMapping attribute="dileweri" key="JAK"/>
+    <KeyValueMapping attribute="Type" key="XANO"/>
+    <KeyValueMapping attribute="qukIzikuyul" key="QUKIZIKUYUL"/>
+    <KeyValueMapping attribute="sedilIzapaxaBaLiduceso" key="LUMOMENOWUTAN"/>
+    <KeyValueMapping attribute="laveloc" key="LAVELOC"/>
+    <KeyValueMapping attribute="wizesoyeDode" key="LUWI"/>
+    <KeyValueMapping attribute="bibuhuLupeyuci" key="CA"/>
+    <KeyValueMapping attribute="suzekoyegEyog" key="MUXUN"/>
+    <KeyValueMapping attribute="qumuwiBiges" key="KEBAXO"/>
+    <KeyValueMapping attribute="hunogiqeQipasiwu" key="LORINIMU"/>
+    <KeyValueMapping attribute="hujuyaveGif" key="LORINIMU_QED"/>
+    <KeyValueMapping attribute="big" key="BIG"/>
+    <KeyValueMapping attribute="witogixeKaboWixUgoz" key="TAS"/>
+    <KeyValueMapping attribute="maxufalIhopefij1" key="TISEDU1"/>
+    <KeyValueMapping attribute="maxufalIhopefij2" key="TISEDU2"/>
+    <KeyValueMapping attribute="xobawUjoy1" key="VERIJAW1" format="koSUTefac"/>
+    <KeyValueMapping attribute="xobawUjoy2" key="VERIJAW2" format="koSUTefac"/>
+    <KeyValueMapping attribute="recuwesOquvezed1" key="CEZIWU1"/>
+    <KeyValueMapping attribute="recuwesOquvezed2" key="CEZIWU2"/>
+    <KeyValueMapping attribute="jecakozIwama1" key="LAXUBULU1"/>
+    <KeyValueMapping attribute="jecakozIwama2" key="LAXUBULU2"/>
+    <KeyValueMapping attribute="wucuduriHufaraKedew" key="WUX"/>
+    <KeyValueMapping attribute="tekayuHih" key="MIGEXINOQAV"/>
+    <KeyValueMapping attribute="sazoxIlus" key="SAZOXILUS"/>
+    <KeyValueMapping attribute="lavaxAdenigoBa" key="TOGANECAG"/>
+    <KeyValueMapping attribute="child" key="MIXUN"/>
+    <KeyValueMapping attribute="jotamorUsexaLakukimEt" key="CEMICADENOX"/>
+    <KeyValueMapping attribute="mabucemiHi" key="LORINIMU LA"/>
+    <KeyValueMapping attribute="nofEja" key="NOFEJA"/>
+    <KeyValueMapping attribute="XesAkilIqifuwup" key="HI"/>
+    <KeyValueMapping attribute="PotIqoqOxivAnetemIzime" key="SO"/>
+
+</FlatFileParserConfig>

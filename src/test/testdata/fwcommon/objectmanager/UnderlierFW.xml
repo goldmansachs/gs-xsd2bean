@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>interface,javeneruma,noki,wululu,wunopi,tetahij,riyoxadipojoxuj,nuzikuzu</Templates>
+    <PackageName>com.gs.fw.lilu.wute.domain.product</PackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.transaction.DopebUkomixinuhosIdicica</ImportPackageName>
+
+    <ClassName>FesihakulOY</ClassName>
+    <SuperInterfaceNames>Befacebaq</SuperInterfaceNames>
+
+    <DefaultTable>BEFACEBAQ</DefaultTable>
+    <SchemaName/>
+    <DatabaseName>vuq</DatabaseName>
+    <ConnectionManagerName>vuq</ConnectionManagerName>
+    <ReadOnly>true</ReadOnly>
+    <ReadStoredProcedure>GLEW_Hiq_Cavukodona</ReadStoredProcedure>
+
+
+    <PrimaryKeyAttribute keyClass="HozutojiwOWImu">
+        <Attribute name="holadisabAvo" javaType="String" sqlType="XefeTewesa" columnName="COMPONENT_YAK_W"/>
+        <Attribute name="bojaHu" javaType="int" sqlType="Ciyisag" nullable="true" columnName="TAZA_P"/>
+        <Attribute name="javEfu" javaType="String" sqlType="XefeTewesa" columnName="KAB_YAK_W"/>
+        <Attribute name="vexigucekUbe" javaType="String" sqlType="XefeTewesa" columnName="FAY_YAK_W"/>
+        <Attribute name="juxepEyal" javaType="Timestamp" sqlType="Timestamp" columnName="NO_Z"/>
+        <Attribute name="nesaQarega" javaType="String" sqlType="ZAYihifabowUfufayaKeqeso" columnName="nesaQarega"/>
+        <Attribute name="businessDate" javaType="Timestamp" sqlType="XIZofuxafasElegexaLimanigaw"
+                   columnName="businessDate"/>
+    </PrimaryKeyAttribute>
+    <Attribute name="tekofiyugOkogoro" javaType="String" sqlType="XefeTewesa" columnName="FAY_QUC_W"/>
+    <Attribute name="xomat" javaType="double" sqlType="Luhisa" columnName="XOMAT_W"/>
+    <Attribute name="rot" javaType="String" sqlType="XefeTewesa" columnName="ROT_N"/>
+    <Attribute name="suzijehOdazim" javaType="double" sqlType="Luhisa" columnName="FAY_XOV_ZOYOJO"/>
+    <Attribute name="nigamucupOranemoVi" javaType="int" sqlType="Ciyisag" columnName="FAY_PROD_P"/>
+    <Attribute name="hequdeDo" javaType="int" sqlType="Ciyisag" columnName="WOTEP_PAXICE_P"/>
+    <Attribute name="yikiveKu" javaType="String" sqlType="XefeTewesa" columnName="JEHECU_PO"/>
+    <Attribute name="cavAvorerIz" javaType="String" sqlType="XefeTewesa" columnName="HIF_JEHECU_PO"/>
+    <Attribute name="xewixudiYeze" javaType="String" sqlType="XefeTewesa" columnName="FAY_CIQ_N"/>
+    <Attribute name="sozuHiyaNag" javaType="String" sqlType="XefeTewesa" columnName="VIWE_HOJI_SUK"/>
+    <Attribute name="nida" javaType="boolean" sqlType="Boolean" columnName="IS_NIDA"/>
+
+    <ClassBasedAttribute name="dopebUkomixinuhosIdicica" attributeClass="DopebUkomixinuhosIdicica">
+        <Attribute name="bojaHu" javaType="int" sqlType="Ciyisag" nullable="true" columnName="TAZA_P"/>
+        <Attribute name="nesaQarega" javaType="String" sqlType="ZAYihifabowUfufayaKeqeso" columnName="nesaQarega"/>
+        <Attribute name="nida" javaType="boolean" sqlType="Boolean" columnName="IS_NIDA"/>
+        <Attribute name="businessDate" javaType="Timestamp" sqlType="XIZofuxafasElegexaLimanigaw"
+                   columnName="businessDate"/>
+    </ClassBasedAttribute>
+
+    <Relationship cardinality="many-to-one"
+                  dependentClass="LivaFulubak"
+                  foreignKey="tuhutigEdo"
+                  name="product" useCacheIndexing="true"/>
+    <Relationship cardinality="many-to-one"
+                  dependentClass="RozusebAhezi"
+                  foreignKey="cekeloqEfikoTeq"
+                  name="rozusebAhezi"/>
+
+    <AbstractMethod returnType="YowufarutaGib" methodName="fenOselujaDob" parameters=""/>
+    <AbstractMethod returnType="CekeloqEfikoTeq" methodName="hoxEjigotoQuqilOgu" parameters=""/>
+
+    <Index name="businessDate">businessDate</Index>
+    <Index name="dopebUkomixinuhosIdicica">dopebUkomixinuhosIdicica</Index>
+
+</ManagedObject>
+

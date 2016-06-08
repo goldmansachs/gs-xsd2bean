@@ -1,0 +1,43 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<RelationalOperation name="GugasaruLoxog-PEDawezanoDahugAxicewi" reverseName="PEDawezanoDahugAxicewi-GugasaruLoxog">
+    <Aliases>
+        <Alias name="betid" table="WavANIxez"/>
+        <Alias name="nuniqEbo" table="WavANIxez"/>
+    </Aliases>
+    <Operation>
+        xukub[nuniqEbo]
+        (
+			nuniqEbo.link_ref_id = betid.link_ref_id and
+			nuniqEbo.kanax_betid_id = betid.kanax_betid_id and
+			nuniqEbo.version = betid.version and
+			nuniqEbo.pahuqike_date = betid.pahuqike_date and
+        	nuniqEbo.betid_date = betid.betid_date and
+        	nuniqEbo.sorirudusa_date = betid.sorirudusa_date
+        )
+    </Operation>
+    <ReverseOperation>
+        xukub[betid]
+        (
+			betid.link_ref_id = nuniqEbo.link_ref_id and
+        	betid.kanax_betid_id = nuniqEbo.kanax_betid_id and
+        	betid.version = nuniqEbo.version and
+			betid.pahuqike_date = nuniqEbo.pahuqike_date and
+        	betid.betid_date = nuniqEbo.betid_date and
+        	betid.sorirudusa_date = nuniqEbo.sorirudusa_date
+        )
+   </ReverseOperation>
+</RelationalOperation>

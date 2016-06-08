@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout
+        layoutId="yic.query"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd"
+        pageTitle="Fiporowac Pabexu"
+        pageBuilder="com.gs.fw.kaza.desa.piqocuseyesehab.vo.GajiqifobAbajezAhakiFadajUkuwaha"
+        showSelection="false">
+    <section>
+        <row>
+            <section caption="View">
+                <row>
+                    <uiElement name="bese"
+                               label="View"
+                               renderAs="combobox"/>
+
+                    <uiElement name="businessDate1"
+                               label="Cuyokujo Date 1"
+                               renderAs="combobox"
+                               attribute="display"
+                               sortBy="none"/>
+
+                </row>
+                <row>
+                    <uiElement name="tihi"
+                               label="TIHI"
+                               renderAs="combobox"
+                               defaultSelection="NIPUKO"/>
+                    <uiElement name="qahodoqo1"
+                               label="Qahodoqo 1"
+                               renderAs="combobox"
+                               attribute="display"
+                               sortBy="none"/>
+                </row>
+                <row>
+                    <uiElement name="vupirikAjoceb"
+                               label="Zugajul Zivukome"
+                               renderAs="combobox"/>
+                    <uiElement name="businessDate2"
+                               label="Cuyokujo Date 2"
+                               renderAs="combobox"
+                               attribute="display"
+                               sortBy="none"
+                               noSelectOption=""/>
+                </row>
+                <row>
+                    <uiElement name="zejevEbEno"
+                               label="Yelel/Woz"
+                               renderAs="combobox"/>
+                    <uiElement name="qahodoqo2"
+                               label="Qahodoqo 2"
+                               renderAs="combobox"
+                               attribute="display"
+                               sortBy="none"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section caption="Mosuku Puqivej">
+                <row>
+                    <section>
+                        <row>
+                            <uiElement name="yemokinu"
+                                       label="Humopa"
+                                       renderAs="listbox"
+                                       defaultSelection="&lt;No Mosuku&gt;"
+                                       attribute="display"
+                                       noSelectOption="&lt;No Mosuku&gt;"/>
+                            <uiElement name="xiretUsovow"
+                                       label="Casah Group"
+                                       renderAs="listbox"
+                                       defaultSelection="&lt;No Mosuku&gt;"
+                                       attribute="display"
+                                       noSelectOption="&lt;No Mosuku&gt;"/>
+                        </row>
+
+                        <row>
+                            <uiElement name="yeroli"
+                                       label="Casah"
+                                       renderAs="listbox"
+                                       defaultSelection="&lt;No Mosuku&gt;"
+                                       attribute="display"
+                                       noSelectOption="&lt;No Mosuku&gt;"/>
+                            <uiElement name="zopumiWezepeyoq"
+                                       label="Vuqusa Wutesomo"
+                                       renderAs="listbox"
+                                       defaultSelection="&lt;No Mosuku&gt;"
+                                       attribute="display"
+                                       noSelectOption="&lt;No Mosuku&gt;"/>
+                        </row>
+                        <row>
+                            <uiElement name="yokoFexev"
+                                       label="Tigaran Juho"
+                                       renderAs="listbox"
+                                       defaultSelection="&lt;No Mosuku&gt;"
+                                       attribute="display"
+                                       noSelectOption="&lt;No Mosuku&gt;">
+                                <childUiElement name="radiKasi"
+                                                label="Bere Lagu"
+                                                renderAs="listbox"
+                                                defaultSelection="&lt;No Mosuku&gt;"
+                                                attribute="display"
+                                                noSelectOption="&lt;No Mosuku&gt;"/>
+                            </uiElement>
+                        </row>
+                        <row>
+                            <uiElement name="dedePalekihIlos"
+                                       label="COPI Jewivuy Type"
+                                       renderAs="combobox"
+                                       defaultSelection="&lt;No Mosuku&gt;"
+                                       attribute="display"
+                                       noSelectOption="&lt;No Mosuku&gt;"/>
+                        </row>
+                    </section>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section caption="Group By and Qeqerif Puqivej">
+                <row>
+                    <section>
+                        <row>
+                            <uiElement name="hepafiq"
+                                       label="Group By"
+                                       renderAs="duallistbox"
+                                       style="duallistbox.style.200"/>
+                        </row>
+                    </section>
+                    <section>
+                        <row>
+
+                            <uiElement name="sutacerOdarAzUnuz"
+                                       label="Qeqerif Yedara &amp; Hasofeyizah Mora-by-side?"
+                                       renderAs="checkbox"/>
+                        </row>
+                        <row>
+                            <uiElement
+                                    name="hokEtikag"
+                                    toolTipText="Kutos this fuf when you zise to change the bese of the values from Cuca Currency to the CAY.\n By Batogam it will koxo Cuca Currency when all yeroli kexazikehajil in query are from the same Humopa."
+                                    renderAs="checkbox"
+                                    label="Koxo Kahutuji In CAY"/>
+                        </row>
+                    </section>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section>
+                <row>
+                    <button label="Lesihocu" name="yiwisoxICedecumi"
+                            nextLayoutName="desa/josowot/jarIfixiteZecop.xml"
+                            crumbTrail="true"/>
+                </row>
+            </section>
+        </row>
+    </section>
+</layout>

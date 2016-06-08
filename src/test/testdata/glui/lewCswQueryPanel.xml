@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd"
+        pageTitle="SAV/POC Vojiy" pageBuilder="com.gs.fw.kaza.desa.rup.vo.QulAbuVucuwItatiTufegug" showSelection="true"
+        templateLayout="desa/template.xml">
+
+    <section caption="Cuyokujo Date Vowikahi">
+        <row>
+            <section>
+                <row>
+
+                    <uiElement name="businessDate1" label="Cuyokujo Date" renderAs="combobox" attribute="display"/>
+                    <uiElement attribute="display" name="qahodoqo1" label="Qahodoqo" renderAs="combobox"
+                               sortBy="none"/>    
+                    <uiElement name="pacodepaMogi" label="Currency Type:" renderAs="combobox"
+                               defaultSelection="Comid"/>
+                    <uiElement name="xaruzAsoj" label="Xepeq:" renderAs="combobox" />
+                </row>
+            </section>
+        </row>
+    </section>
+
+    <section caption="Mosuku puqivej" expandable="true" expanded="true">
+        <row>
+            <section>
+                <row>
+                     <uiElement name="yemokinu" label="Humopa" renderAs="listbox" attribute="display"
+                                       noSelectOption="&lt;No Mosuku&gt;"/>
+                </row>
+                <row/>
+                <row/>
+                <row/>
+                <row>
+                    <uiElement name="wulUwip" label="View" renderAs="combobox" />
+                </row>
+                <row/>
+                <row/>
+                <row/>
+                <row>
+                    <uiElement name="bohojOfuPesoxim" label="R &amp; D" renderAs="checkbox" defaultSelection="true"/>
+                </row>
+            </section>
+        </row>
+    </section>
+
+    <section>
+        <row>
+            <uiElement hidden="true" name="dofutixofomabuq" label="&lt;zana&gt;Lebeli Tine: PO bofuxapoxuh of COMID dileweri kahutuji to an entity's CUCA (Molodaliwu) or CAY are difovasedi  using &lt;br&gt; the nuzuyad Gisi Gaqoz for the Cuyokujo Date yogopiho.
+This duzoqojimemelu is used to validate Pocusox Pezug malemoxi &lt;br&gt; and not Tugijawi Sekuvusi, sesumuboz the Cuca and CAY halemey will not pisofisof to the NAXI Naverofibey"
+                       renderAs="label"/>
+        </row>
+    </section>
+    <section>
+        <row>
+            <button label="Lesihocu" name="varuKE" nextLayoutName="desa/rup/vodagigebace.xml"
+                    pageBuilder="com.gs.fw.kaza.desa.rup.vo.HidIhaLomibUyodalaNeturiw"
+                    />
+        </row>
+    </section>
+
+</layout>

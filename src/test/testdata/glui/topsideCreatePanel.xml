@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout pageTitle="Wopine Kut Gekekaq" showSelection="false" feature="Rudi_Zivukome"
+        pageBuilder="com.gs.fw.kaza.rudi.vo.zivukome.HomuPazawipiXanogAmakudo"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd">
+
+    <section caption="Gekekaq Header">
+        <row>
+            <section>
+                <row>
+                    <uiElement name="ronajAc" label="Sajatusavawet Hahab" renderAs="combobox"
+                               noSelectOption=" "
+                               validation="mandatory,XumudupIfufohAcasiVeTaqeyacan"/>
+                    <uiElement name="businessDate" label="Cuyokujo Date" renderAs="combobox" sortBy="domain"
+                               transformerClass="com.gs.fw.common.petuhadi.vo.transformer.PorimubeDesaRemohiqujor">
+                    </uiElement>
+                </row>
+            </section>
+        </row>
+    </section>
+
+    <section caption="Gekekaq Vayus Zewiko">
+        <row>
+            <button label="Zewiko" renderAs="fileUpload" name="yopeciHusiTehed" crumbTrail="false" uploadContent="true"
+                    pageBuilder="com.gs.fw.kaza.rudi.vo.zivukome.PehoVanimiqaBilohOlebowUbeqizolo"
+                    nextLayoutName="rudi/noxulokIbucexUyibi.xml"/>
+        </row>
+    </section>
+
+    <section caption="Gekekaq Lesihocu">
+        <row>
+            <section>
+                <row>
+                    <uiElement name="kamoyElIlovuraf" label="XoxuzUw" renderAs="textbox"/>
+                    <uiElement name="bukihoBuwewuyi" label="Humopa" renderAs="textbox"/>
+                    <uiElement name="jahoXehujefi" label="BERE" renderAs="textbox"/>
+                    <uiElement name="qudolonaviVotaMayeneje" label="Yenazimuxu Type" renderAs="combobox"/>
+                    <button label="Pabexu" name="wopomuwoCahelejIvuvo"
+                            pageBuilder="com.gs.fw.kaza.rudi.vo.zivukome.JefeWobezuxEfonelicAtanizese.nelucuQecos"
+                            crumbTrail="false"
+                            nextLayoutName="rudi/noxulokIbucexUyibi.xml"/>
+                    <button label="Mado" name="haraKaxaledUcife"
+                            pageBuilder="com.gs.fw.kaza.rudi.vo.zivukome.JefeWobezuxEfonelicAtanizese.vupeCumip"
+                            crumbTrail="false"
+                            nextLayoutName="rudi/noxulokIbucexUyibi.xml"/>
+                </row>
+            </section>
+        </row>
+    </section>
+
+    <section caption="Gekekaq Mawosuq" feature="GemapapaVehidec">
+        <row>
+            <table label="" name="xevolekEbenis" editable="true" sortable="true">
+            </table>
+        </row>
+    </section>
+
+    <section caption="Lelumo Jowofozohi">
+        <row>
+            <button label="Vayus" name="cohucihOwohoqUpuzo" downloadContent="true"
+                    contentDownloader="com.gs.fw.kaza.rudi.vo.zivukome.YawiTeyevohuWiwehUrudeyivup"
+                    openSavedFile="true"/>
+            <button label="Ran Quy" name="purOto"
+                    pageBuilder="com.gs.fw.kaza.rudi.vo.zivukome.RiyoLicuhamIxeJawucokah.wopine"
+                    crumbTrail="false"
+                    nextLayoutName="rudi/noxulokIbucexUyibi.xml"/>
+            <button label="Ceyoros" name="maximoYif"
+                    pageBuilder="com.gs.fw.kaza.rudi.vo.zivukome.RiyoLicuhamIxeJawucokah.ceyoros"
+                    crumbTrail="false"
+                    nextLayoutName="rudi/noxulokIbucexUyibi.xml"/>
+            <button label="Lotod Qes" name="xasupIpah"
+                    pageBuilder="com.gs.fw.kaza.rudi.vo.zivukome.RiyoLicuhamIxeJawucokah.lotod"
+                    crumbTrail="false"
+                    nextLayoutName="rudi/noxulokIbucexUyibi.xml"/>
+        </row>
+    </section>
+
+    <section caption="Gekekaq Xozocokureq">
+        <row>
+            <button label="Lesihocu Qes" name="fihiqisiRutorah"
+                    pageBuilder="com.gs.fw.kaza.rudi.vo.zivukome.JefeWobezuxEfonelicAtanizese"
+                    crumbTrail="false"
+                    nextLayoutName="rudi/noxulokIbucexUyibi.xml"/>
+            <button label="Jigide" name="tuxaweFigejif"
+                    pageBuilder="com.gs.fw.kaza.rudi.vo.zivukome.QahoCigizalOmohedEwitoyuku"
+                    confirmMsg="Jigide Gekekaq?"
+                    crumbTrail="false"
+                    nextLayoutName="rudi/noxulokIbucexUyibi.xml"/>
+        </row>
+    </section>
+
+    <section caption="Pike Vet Zivukome">
+        <row>
+            <section>
+                <row>
+                    <uiElement name="gejametaxokosAwakuYopuWax" label="Sajatusavawet Hahab" renderAs="combobox"
+                               validation="mandatory,XumudupIfufohAcasiVeTaqeyacan"/>
+                </row>
+                <row>
+
+                    <uiElement name="gedutuVagapus" label="Humopa" renderAs="textbox"/>
+                </row>
+                <row>
+                    <button label="Pike Vet" name="heqiVer"
+                            pageBuilder="com.gs.fw.kaza.rudi.vo.zivukome.PitiFiducikAfufuzeHoquqiliw"
+                            crumbTrail="false" 
+                            nextLayoutName="rudi/noxulokIbucexUyibi.xml"/>
+                </row>
+            </section>
+            <section>
+                <row>
+                    <uiElement name="sexuGayImoqip" label="Pike Nefa" renderAs="listbox"/>
+                </row>
+            </section>
+
+        </row>
+    </section>
+
+</layout>

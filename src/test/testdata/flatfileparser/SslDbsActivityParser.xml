@@ -1,0 +1,65 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<FlatFileParserConfig delimiter="" inflatedObject="com.gs.fw.para.domain.qaje.xegoqiloq.VezAkeMuyijeca"
+                      columns="40"
+                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:noNamespaceSchemaLocation="../../xsd/parserconfig.xsd">
+
+    <Header required="false" identifier="NASAVU:" />
+    <Trailer required="false" identifier="KABANAS:" />
+
+    <FixedColumnMapping attribute="instance" startPosition="0" length="6"/>
+    <FixedColumnMapping attribute="xorupa" startPosition="6" length="3"/>
+    <FixedColumnMapping attribute="tewijojolu" startPosition="10" length="4"/>
+    <FixedColumnMapping attribute="yuTucahul" startPosition="15" length="8"/>
+    <FixedColumnMapping attribute="rijUhuk" startPosition="24" length="3"/>
+    <FixedColumnMapping attribute="suxumayapOsex" startPosition="32" length="4"/>
+    <FixedColumnMapping attribute="dakisIfamuru" startPosition="38" length="6"/>
+    <FixedColumnMapping attribute="dileweri" startPosition="55" length="3"/>
+    <FixedColumnMapping attribute="date1" startPosition="60" length="10"/>
+    <FixedColumnMapping attribute="fijifiSovoli" startPosition="71" length="10"/>
+    <FixedColumnMapping attribute="gumomesEv" startPosition="82" length="15"/>
+    <FixedColumnMapping attribute="description" startPosition="96" length="57"/>
+    <FixedColumnMapping attribute="lecosUsusos" startPosition="153" length="19"/>
+    <FixedColumnMapping attribute="gajin1" startPosition="172" length="10"/>
+    <FixedColumnMapping attribute="lagadaXi" startPosition="183" length="16"/>
+    <FixedColumnMapping attribute="nageVijutu" startPosition="198" length="19"/>
+    <FixedColumnMapping attribute="xabaZeya" startPosition="217" length="19"/>
+    <FixedColumnMapping attribute="noyuge" startPosition="240" length="1"/>
+    <FixedColumnMapping attribute="gucesu" startPosition="242" length="2"/>
+    <FixedColumnMapping attribute="year" startPosition="245" length="4"/>
+    <FixedColumnMapping attribute="novufeXuki" startPosition="250" length="30"/>
+    <FixedColumnMapping attribute="date2" startPosition="281" length="10"/>
+    <FixedColumnMapping attribute="caGu" startPosition="292" length="2"/>
+    <FixedColumnMapping attribute="datoriXijoku" startPosition="295" length="15"/>
+    <FixedColumnMapping attribute="gajin2" startPosition="311" length="1"/>
+    <FixedColumnMapping attribute="gajin3" startPosition="312" length="2"/>
+    <FixedColumnMapping attribute="gajin4" startPosition="315" length="7"/>
+    <FixedColumnMapping attribute="gajin5" startPosition="323" length="4"/>
+    <FixedColumnMapping attribute="gajin6" startPosition="328" length="3"/>
+    <FixedColumnMapping attribute="gajin7" startPosition="336" length="3"/>
+    <FixedColumnMapping attribute="gajin8" startPosition="339" length="10"/>
+    <FixedColumnMapping attribute="gajin9" startPosition="353" length="6"/>
+    <FixedColumnMapping attribute="gajin10" startPosition="359" length="2"/>
+    <FixedColumnMapping attribute="gajin11" startPosition="363" length="3"/>
+    <FixedColumnMapping attribute="date3" startPosition="367" length="10"/>
+    <FixedColumnMapping attribute="gajin12" startPosition="378" length="29"/>
+    <FixedColumnMapping attribute="date4" startPosition="408" length="26" />
+    <FixedColumnMapping attribute="gajin13" startPosition="435" length="3"/>
+    <FixedColumnMapping attribute="gajin14" startPosition="439" length="5"/>
+    <FixedColumnMapping attribute="visiZugUfizoc" startPosition="477" length="8"/>
+</FlatFileParserConfig>
+

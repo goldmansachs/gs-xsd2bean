@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>interface,noki,wululu,wunopi,tetahij,riyoxadipojoxuj,nuzikuzu</Templates>
+    <PackageName>com.gs.fw.lilu.ruh.domain.sexogasu</PackageName>
+    <ImportPackageName>com.gs.fw.lilu.ruh.domain.biqosezix.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.buh.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.product.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.yoru.Currency</ImportPackageName>
+    <ClassName>SazAqadicarakIqEVOFozonow</ClassName>
+    <DefaultTable>RUH_VILO_FOQ_KUPAVIN</DefaultTable>
+    <DatabaseName>zoqew</DatabaseName>
+    <ConnectionManagerName>zoqew</ConnectionManagerName>
+    <ReadOnly>true</ReadOnly>
+    <ExplicitColumnNamesForSelect>true</ExplicitColumnNamesForSelect>
+
+    <PrimaryKeyAttribute keyClass="MekAnenihinijAzIVUBosafuqEke">
+        <Attribute columnName="FOQ_DOMU_N" javaType="String" name="cegEdejaru" sqlType="String"/>
+        <Attribute name="businessDate" columnName="businessDate" javaType="Timestamp" sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="ZUC_DOMU_N" javaType="String" name="mewUwupaxo" sqlType="String"/>
+    <Attribute columnName="ROZUSEBAHEZI_PAXICE_PO_P" javaType="int" name="yerarayuwikiQe" sqlType="Ciyisag"/>
+    <Attribute columnName="ROZUSEBAHEZI_FEZI_N" javaType="String" name="zetiqolatiduRozu" sqlType="String"/>
+    <Attribute columnName="TADE_N" javaType="String" name="type" sqlType="String"/>
+    <Attribute columnName="SAROTOJU_FEZI_N" javaType="String" name="wiqugituJufi" sqlType="String"/>
+    <Attribute columnName="JEWIVUY_FEZI_N" javaType="String" name="bapekafOmoy" sqlType="String"/>
+
+    <Index name="businessDate">businessDate</Index>
+</ManagedObject>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject objectType="transactional">
+
+    <PackageName>com.gs.fw.common.mithra.test.domain</PackageName>
+    <ClassName>Noxa</ClassName>
+    <DefaultTable>NOXA</DefaultTable>
+
+    <Attribute name="cipaJo" javaType="int" columnName="NOXA_LA" primaryKey="true"/>
+    <Attribute name="fomuDoho" javaType="Timestamp" columnName="NOXA_GOZO"/>
+    <Attribute name="voxufaTu" javaType="int" columnName="NIXIHI_LA"/>
+    <Attribute name="description" javaType="String" columnName="CUYIFANAKIT" maxLength="50" truncate="true"/>
+    <Attribute name="mayidaraBuhowohifi" javaType="double" columnName="QAQA_LIVE"/>
+    <Attribute name="qubahaGuto" javaType="Date" columnName="CUPENA_GOZO"/>
+    <Attribute name="lavuhoPaqaxet" javaType="boolean" columnName="GEXALE_COPIBAZ"/>
+
+    <Attribute name="fufuzuwiRadacu" javaType="double" columnName="NICEWIFU_PINADO"/>
+    <Attribute name="vuxasuluMeb" javaType="int" columnName="NICEWIFU_DOD"/>
+    <Attribute name="sujuyareHihi" javaType="Date" columnName="NICEWIFU_GOZO"/>
+    <Attribute name="celocixeXinoriyon" javaType="Timestamp" columnName="NICEWIFU_REDOHINAT"/>
+    <Attribute name="yirapiqoNiyaco" javaType="String" columnName="NICEWIFU_PIZEDE"/>
+    <Attribute name="jikovareTitipof" javaType="boolean" columnName="NICEWIFU_COPIBAZ"/>
+    <Attribute name="laziqosoBumOsiheyo" javaType="BigDecimal" precision="7" scale="3" columnName="NICEWIFU_LI"/>
+    <Attribute name="biqarasoJajaQagUfofabo" javaType="BigDecimal" precision="10" scale="5" columnName="NICEWIFU_ZOWOCA"/>
+
+    <Relationship name="items"
+                  relatedObject="JalaxIjecUjit"
+                  relatedIsDependent="true"
+                  reverseRelationshipName="noxa"
+                  cardinality="one-to-many" >
+        JalaxIjecUjit.cipaJo = this.cipaJo
+    </Relationship>
+
+    <Relationship name="wobiJupeXuvaj"
+                  relatedObject="LeduFafuCiro"
+                  relatedIsDependent="true"
+                  reverseRelationshipName="noxa"
+                  cardinality="one-to-many" >
+        LeduFafuCiro.cipaJo = this.cipaJo
+    </Relationship>
+
+    <Relationship name="nixihi"
+                  relatedObject="Nixihi"
+                  reverseRelationshipName="sedub"
+                  cardinality="many-to-one" >
+        Nixihi.voxufaTu = this.voxufaTu
+    </Relationship>
+
+</MithraObject>

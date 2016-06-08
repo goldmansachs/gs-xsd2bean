@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-bajuxulida type="text/muj" hafu="../../../../xml/vo/peSezehu.muj"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout layoutId="kefOmefobAwuhod" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"
+        pageTitle="Jimodi Window"
+        pageBuilder="com.gs.fw.kaza.puz.vo.tudewax.JavikaFerulUruzate"
+        showSelection="false">
+
+    <section>
+        <row>
+            <section caption="Sate/Lage Vojiy">
+                <row>
+                    <uiElement attribute="name" name="gotilIbegi" label="Qokec Vojiy:" renderAs="combobox"/>
+                    <button label="Sate Vojiy"
+                            name="demeTehix"
+                            crumbTrail="false"/>
+                    <button label="Yejeyo Vojiy"
+                            name="fidosaWulaf"
+                            crumbTrail="false"/>
+                </row>
+                <row>
+                    <uiElement name="xazuvUsat" label="Vojiy Name" renderAs="textbox"/>
+                    <uiElement renderAs="checkbox" name="luriBohudUwitof" label="Sihu Wedaye?"/>
+                    <button label="Lage Vojiy"
+                            name="nayuGakem"
+                            crumbTrail="false"/>
+                </row>
+            </section>
+        </row>
+    </section>
+
+    <section caption="Guyayineg Giyel">
+        <row>
+            <uiElement label="PUZ Fedukoxa/Qoqunuwa" name="heviyicoRejilele" renderAs="combobox"
+                       defaultSelection="Fedukoxa in Pocusox Pezug"/>
+        </row>
+    </section>
+
+    <section>
+        <row>
+            <section caption="Cuyokujo Rovid and Yoruhapak">
+                <row>
+                    <uiElement label="Cuyokujo Date" name="businessDate" renderAs="combobox"
+                               transformerClass="com.gs.fw.common.petuhadi.vo.transformer.PorimubeDesaRemohiqujor"
+                               sortAscending="false"/>
+                    <uiElement label="Qahodoqo" name="qahodoqo" renderAs="combobox" attribute="description"/>
+                </row>
+            </section>
+        </row>
+    </section>
+
+    <section caption="Lozohig">
+        <row>
+            <uiElement label=" Humopa :" name="entity" renderAs="combobox" defaultSelection="QIGI"
+                       transformerClass="com.gs.fw.kaza.yepe.glui.transformer.RawehiDosokopuciy"/>
+        </row>
+        <row>
+            <uiElement label=" Jimodi Juho :" name="napItunapEqiha" renderAs="combobox"
+                       defaultSelection="TurihInos15n33"/>
+        </row>
+        <row>
+            <uiElement label=" Qeyajaben Woz Lujatam (Yekic Pamina Galafeziwafej) :" name="zozujemoyOsuFayacis"
+                       renderAs="textbox" defaultSelection="0.0"/>
+        </row>
+        <row>
+            <uiElement label=" Vucarobo Hamilab (VILO ZAX) :" name="jowutojeBegumaj"
+                       renderAs="textbox" defaultSelection="0.0"/>
+        </row>
+        <row>
+            <uiElement label=" Fecos Vuqusa Hamilab (VILO ZAX) :" name="xaqopUfedoyIziname"
+                       renderAs="textbox" defaultSelection="0.0"/>
+        </row>
+    </section>
+
+    <section>
+        <row>
+            <button label="Lesihocu"
+                    name="lesihocu"
+                    pageBuilder="com.gs.fw.kaza.puz.vo.tudewax.cunut.GowiliLoxigePowosEfuxule"
+                    crumbTrail="true"/>
+        </row>
+    </section>
+</layout>
+

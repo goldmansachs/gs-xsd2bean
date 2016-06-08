@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<xsd:schema
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+        xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
+        jxb:extensionBindingPrefixes="xjc"
+        jxb:version="1.0">
+    <xsd:annotation>
+        <xsd:documentation xml:lang="en">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        </xsd:documentation>
+        <xsd:appinfo>
+            <jxb:globalBindings generateIsSetMethod="true">
+              <xjc:serializable uid="12343"/>
+             </jxb:globalBindings>
+        </xsd:appinfo>
+    </xsd:annotation>
+
+    <xsd:element name="template" type="TemplateType"/>
+
+    <xsd:complexType name="TemplateType">
+        <xsd:sequence>
+            <xsd:element name="borderStyle" type="BorderStyleType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="insetStyle" type="InsetStyleType" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element name="outsetStyle" type="OutsetStyleType" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element name="menuStyle" type="MenuStyleType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="titleStyle" type="TitleStyleType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="expandSectionTitleBarStyle" type="ExpandSectionTitleBarStyleType" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element name="expandableSectionStyle" type="ExpandableSectionStyleType" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element name="autoSuggestValue" type="AutoSuggestValuesType" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element name="autoSuggestStyle" type="AutoSuggestStyleType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="style" type="StyleType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="layoutStyle" type="LayoutStyleType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="tableStyle" type="TableStyleType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="tabStyle" type="TabStyleType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="chartStyle" type="ChartStyleType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="gridStyle" type="GridStyleType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="disabledButtonStyle" type="StyleType" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="LayoutStyleType">
+        <xsd:attribute name="name" type="xsd:string"/>
+        <xsd:attribute name="backgroundImage" type="xsd:string"/>
+        <xsd:attribute name="style" type="xsd:string" default="default.layout.style"/>
+        <xsd:attribute name="windowStyle" type="xsd:string"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="TableStyleType">
+        <xsd:attribute name="name" type="xsd:string"/>
+        <xsd:attribute name="styleResolver" type="xsd:string"/>
+        <xsd:attribute name="columnGroupStyle" type="xsd:string" default="column.group.style"/>
+        <xsd:attribute name="bgcolor" type="xsd:string"/>
+        <xsd:attribute name="borderColor" type="xsd:string" default="white"/>
+        <xsd:attribute name="borderColorLight" type="xsd:string" default="white"/>
+        <xsd:attribute name="borderColorDark" type="xsd:string" default="white"/>
+        <xsd:attribute name="borderWidth" type="xsd:int" default="0"/>
+        <xsd:attribute name="highlightBgColor" type="xsd:string" default="#97aed1"/>
+        <xsd:attribute name="focusCellBgColor" type="xsd:string"/>
+        <xsd:attribute name="columnHeadingStyle" type="xsd:string" default="column.heading.style"/>
+        <xsd:attribute name="rowTextStyle" type="xsd:string"/>
+        <xsd:attribute name="oddRowTextStyle" type="xsd:string" default="oddrow.style"/>
+        <xsd:attribute name="evenRowTextStyle" type="xsd:string" default="evenrow.style"/>
+        <xsd:attribute name="popupMenuTextStyle" type="xsd:string"/>
+        <xsd:attribute name="oddRowNumberStyle" type="xsd:string" default="oddrow.style"/>
+        <xsd:attribute name="evenRowNumberStyle" type="xsd:string" default="evenrow.style"/>
+        <xsd:attribute name="oddRowLinkStyle" type="xsd:string" default="oddrow.style"/>
+        <xsd:attribute name="evenRowLinkStyle" type="xsd:string" default="evenrow.style"/>
+        <xsd:attribute name="totalRowStyle" type="xsd:string" default="totalrow.style"/>
+        <xsd:attribute name="rolloverBgColor" type="xsd:string"/>
+        <xsd:attribute name="rolloverFgColor" type="xsd:string"/>
+        <xsd:attribute name="width" type="xsd:string" default="0">
+	        <xsd:annotation>
+		        <xsd:documentation>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+		        </xsd:documentation>
+		    </xsd:annotation>
+	    </xsd:attribute>
+        <xsd:attribute name="height" type="xsd:string" default="0">
+	        <xsd:annotation>
+		        <xsd:documentation>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+		        </xsd:documentation>
+		    </xsd:annotation>
+	    </xsd:attribute>
+        <xsd:attribute name="cellBorderStyle" type="xsd:string"/>
+        <xsd:attribute name="headingBorderStyle" type="xsd:string"/>
+        <xsd:attribute name="scrollbarStyle" type="xsd:string" default="none"/>
+        <xsd:attribute name="padding" type="xsd:int" default="5"/>
+        <xsd:attribute name="cellSelectionStyle" type="xsd:string"/>
+        <xsd:attribute name="rowSelectionStyle" type="xsd:string"/>
+        <xsd:attribute name="titleStyle" type="xsd:string"/>
+        <xsd:attribute name="selectableMouseCursor" default="pointer">
+            <xsd:annotation>
+		        <xsd:documentation>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+		        </xsd:documentation>
+		    </xsd:annotation>
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                   <xsd:enumeration value="auto"/>
+                    <xsd:enumeration value="default"/>
+                    <xsd:enumeration value="crosshair"/>
+                    <xsd:enumeration value="pointer"/>
+                    <xsd:enumeration value="move"/>
+                    <xsd:enumeration value="e_resize"/>
+                    <xsd:enumeration value="ne_resize"/>
+                    <xsd:enumeration value="nw_resize"/>
+                    <xsd:enumeration value="n_resize"/>
+                    <xsd:enumeration value="se_resize"/>
+                    <xsd:enumeration value="sw_resize"/>
+                    <xsd:enumeration value="s_resize"/>
+                    <xsd:enumeration value="w_resize"/>
+                    <xsd:enumeration value="text"/>
+                    <xsd:enumeration value="wait"/>
+                    <xsd:enumeration value="help"/>
+                    <xsd:enumeration value="custom_uri"/>
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+    </xsd:complexType>
+
+    <xsd:complexType name="GridStyleType">
+        <xsd:attribute name="name" type="xsd:string"/>
+        <xsd:attribute name="columnHeadingStyle" type="xsd:string" default="column.heading.style"/>
+        <xsd:attribute name="width" type="xsd:int" default="0"/>
+        <xsd:attribute name="height" type="xsd:int" default="0"/>
+        <xsd:attribute name="columnWidthStyle" type="xsd:string" default="fitToScreen"/>
+        <xsd:attribute name="gridCellStyle" type="xsd:string" default="grid.cell.style"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="TabStyleType">
+        <xsd:attribute name="name" type="xsd:string"/>
+        <xsd:attribute name="activeStyle" type="xsd:string" default="tabbedPane.active.style"/>
+        <xsd:attribute name="inactiveStyle" type="xsd:string" default="tabbedPane.inactive.style"/>
+        <xsd:attribute name="activeTabImage" type="xsd:string"/>
+        <xsd:attribute name="inactiveTabImage" type="xsd:string"/>
+        <xsd:attribute name="borderColor" type="xsd:string"/>
+        <xsd:attribute name="borderWidth" type="xsd:int"/>
+        <xsd:attribute name="insetStyle" type="xsd:string"/>
+        <xsd:attribute name="setTopBorder" type="xsd:boolean" default="false">
+        	<xsd:annotation>
+		        <xsd:documentation>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+		        </xsd:documentation>
+		    </xsd:annotation>
+        </xsd:attribute>
+    </xsd:complexType>
+
+	<xsd:complexType name="StyleType">
+        <xsd:attribute name="name" type="xsd:string"/>
+        <xsd:attribute name="halign" type="xsd:byte" default="0"/>
+        <xsd:attribute name="valign" type="xsd:byte" default="0"/>
+        <xsd:attribute name="bgcolor" type="xsd:string"/>
+        <xsd:attribute name="gradientStartColor" type="xsd:string"/>
+		<xsd:attribute name="gradientEndColor" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="backgroundImage" type="xsd:string"/>
+        <xsd:attribute name="fgcolor" type="xsd:string"/>
+        <xsd:attribute name="fontName" type="xsd:string"/>
+        <xsd:attribute name="fontStyle" type="xsd:int"/>
+        <xsd:attribute name="fontSize" type="xsd:int"/>
+		<xsd:attribute name="fontUnit" type="xsd:int">
+			 <xsd:annotation>
+		        <xsd:documentation>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+		        </xsd:documentation>
+		    </xsd:annotation>
+		 </xsd:attribute>
+        <xsd:attribute name="selectable" type="xsd:string"/>
+        <xsd:attribute name="selectableBackground" type="xsd:string"/>
+        <xsd:attribute name="selectableGradientStartColor" type="xsd:string"/>
+		<xsd:attribute name="selectableGradientEndColor" type="xsd:string"/>
+        <xsd:attribute name="selectableForeground" type="xsd:string"/>
+		<xsd:attribute name="selectableBorder" type="xsd:string"/>
+		<xsd:attribute name="selectableFontName" type="xsd:string"/>
+        <xsd:attribute name="selectableFontStyle" type="xsd:int"/>
+        <xsd:attribute name="selectableFontSize" type="xsd:int"/>
+        <xsd:attribute name="rolloverEffect" type="xsd:boolean"/>
+        <xsd:attribute name="width" type="xsd:int"/>
+        <xsd:attribute name="widthUnit" type="xsd:int">
+			 <xsd:annotation>
+		        <xsd:documentation>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+		        </xsd:documentation>
+		    </xsd:annotation>
+		 </xsd:attribute>
+        <xsd:attribute name="height" type="xsd:int"/>
+        <xsd:attribute name="size" type="xsd:int"/>
+        <xsd:attribute name="sizeUnit" type="xsd:int">
+			 <xsd:annotation>
+		        <xsd:documentation>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+		        </xsd:documentation>
+		    </xsd:annotation>
+		 </xsd:attribute>
+        <xsd:attribute name="rolloverBackground" type="xsd:string"/>
+        <xsd:attribute name="rolloverGradientStartColor" type="xsd:string"/>
+		<xsd:attribute name="rolloverGradientEndColor" type="xsd:string"/>
+        <xsd:attribute name="rolloverForeground" type="xsd:string"/>
+		<xsd:attribute name="rolloverBorder" type="xsd:string"/>
+		<xsd:attribute name="rolloverFontName" type="xsd:string"/>
+        <xsd:attribute name="rolloverFontStyle" type="xsd:int"/>
+        <xsd:attribute name="rolloverFontSize" type="xsd:int"/>
+		<xsd:attribute name="icon" type="xsd:string"/>
+		<xsd:attribute name="disabledIcon" type="xsd:string"/>
+		<xsd:attribute name="iconTextMargin" type="xsd:int"/>
+		<xsd:attribute name="outsetStyle" type="xsd:string"/>
+        <xsd:attribute name="border" type="xsd:boolean" default="false"/>
+        <xsd:attribute name="borderStyle" type="xsd:string"/>
+		<xsd:attribute name="menuStyle" type="xsd:string"/>
+		<xsd:attribute name="expandableSectionStyle" type="xsd:string"/>
+        <xsd:attribute name="insetStyle" type="xsd:string" default="inset.style"/>
+        <xsd:attribute name="sectionCellSpace" type="xsd:int" default="0"/>
+		<xsd:attribute name="writingMode" type="xsd:string" />
+        <xsd:attribute name="mandatory" type="xsd:boolean" />
+        <xsd:attribute name="mandatoryFgColor" type="xsd:string"/>
+		<xsd:attribute name="textPosition" default="trailing">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="trailing"/>
+                    <xsd:enumeration value="leading"/>
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+       <xsd:attribute name="blockDisplay" type="xsd:boolean" />
+	   <xsd:attribute name="mouseCursor" type="xsd:int" default="0">
+		    <xsd:annotation>
+		        <xsd:documentation>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+		        </xsd:documentation>
+		    </xsd:annotation>
+		</xsd:attribute>
+		<xsd:attribute name="autoSuggest" type="xsd:boolean" default="false"/>
+        <xsd:attribute name="autoSuggestStyle" type="xsd:string"/>
+        <xsd:attribute name="titleStyle" type="xsd:string" default="title.windowPane.style" />
+
+	</xsd:complexType>
+
+	<xsd:complexType name="ExpandableSectionStyleType">
+		<xsd:attribute name="name" type="xsd:string"/>
+		<xsd:attribute name="expandIcon" type="xsd:string"/>
+		<xsd:attribute name="collapseIcon" type="xsd:string"/>
+		<xsd:attribute name="direction" type="xsd:string">
+			<xsd:annotation>
+		        <xsd:documentation>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+		        </xsd:documentation>
+		    </xsd:annotation>
+		</xsd:attribute>
+		<xsd:attribute name="sectionBorderStyle" type="xsd:string">
+			<xsd:annotation>
+		        <xsd:documentation>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+		        </xsd:documentation>
+		    </xsd:annotation>
+		</xsd:attribute>
+		<xsd:attribute name="sectionBorder" type="xsd:boolean" default="false"/>
+        <xsd:attribute name="expandSectionTitleBarStyle" type="xsd:string" default="expandSectionTitleBar.style"/>
+
+	</xsd:complexType>
+
+        <xsd:complexType name="ExpandSectionTitleBarStyleType">
+            <xsd:complexContent>
+            <xsd:extension base="StyleType">
+            </xsd:extension>
+        </xsd:complexContent>
+        </xsd:complexType>
+
+
+	<xsd:complexType name="MenuStyleType">
+		<xsd:attribute name="name" type="xsd:string"/>
+        <xsd:attribute name="menuBorder" type="xsd:string"/>
+        <xsd:attribute name="menuForeground" type="xsd:string"/>
+        <xsd:attribute name="menuInsets" type="xsd:string"/>
+        <xsd:attribute name="menuOutsets" type="xsd:string"/>
+        <xsd:attribute name="menuBackground" type="xsd:string"/>
+		<xsd:attribute name="submenuImage" type="xsd:string"/>
+    </xsd:complexType>
+
+	<xsd:complexType name="AutoSuggestValuesType">
+		<xsd:attribute name="name" type="xsd:string">
+			 <xsd:annotation>
+		        <xsd:documentation>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+		        </xsd:documentation>
+		    </xsd:annotation>
+		 </xsd:attribute>
+        <xsd:attribute name="bgcolor" type="xsd:string"/>
+        <xsd:attribute name="fgcolor" type="xsd:string"/>
+        <xsd:attribute name="fontName" type="xsd:string"/>
+        <xsd:attribute name="fontStyle" type="xsd:int"/>
+        <xsd:attribute name="fontSize" type="xsd:int"/>
+        <xsd:attribute name="border" type="xsd:boolean" default="false"/>
+        <xsd:attribute name="borderStyle" type="xsd:string"/>
+        <xsd:attribute name="insetStyle" type="xsd:string" default="inset.style"/>
+        <xsd:attribute name="outsetStyle" type="xsd:string"/>
+        <xsd:attribute name="mouseCursor" type="xsd:int" default="0">
+		    <xsd:annotation>
+		        <xsd:documentation>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+		        </xsd:documentation>
+		    </xsd:annotation>
+		</xsd:attribute>
+    </xsd:complexType>
+
+    <xsd:complexType name="TitleStyleType">
+        <xsd:attribute name="name" type="xsd:string"/>
+        <xsd:attribute name="bgcolor" type="xsd:string"/>
+        <xsd:attribute name="fgcolor" type="xsd:string"/>
+        <xsd:attribute name="fontName" type="xsd:string"/>
+        <xsd:attribute name="fontStyle" type="xsd:int"/>
+        <xsd:attribute name="fontSize" type="xsd:int"/>
+		<xsd:attribute name="fontUnit" type="xsd:int">
+			 <xsd:annotation>
+		        <xsd:documentation>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+		        </xsd:documentation>
+		    </xsd:annotation>
+		 </xsd:attribute>
+	    <xsd:attribute name="insetStyle" type="xsd:string"/>
+    	<xsd:attribute name="titleBarInsetStyle" type="xsd:string"/>
+    </xsd:complexType>
+
+
+
+	<xsd:complexType name="AutoSuggestStyleType">
+		<xsd:attribute name="name" type="xsd:string">
+			 <xsd:annotation>
+		        <xsd:documentation>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+		        </xsd:documentation>
+		    </xsd:annotation>
+		 </xsd:attribute>
+        <xsd:attribute name="popupProperties" type="xsd:string"/>
+        <xsd:attribute name="entryProperties" type="xsd:string"/>
+        <xsd:attribute name="entryRolloverProperties" type="xsd:string"/>
+    </xsd:complexType>
+
+	<xsd:complexType name="InsetStyleType">
+        <xsd:attribute name="name" type="xsd:string"/>
+        <xsd:attribute name="leftInset" type="xsd:int"/>
+        <xsd:attribute name="topInset" type="xsd:int"/>
+        <xsd:attribute name="rightInset" type="xsd:int"/>
+        <xsd:attribute name="bottomInset" type="xsd:int"/>
+    </xsd:complexType>
+
+	<xsd:complexType name="OutsetStyleType">
+        <xsd:attribute name="name" type="xsd:string"/>
+        <xsd:attribute name="leftInset" type="xsd:int"/>
+        <xsd:attribute name="topInset" type="xsd:int"/>
+        <xsd:attribute name="rightInset" type="xsd:int"/>
+        <xsd:attribute name="bottomInset" type="xsd:int"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="BorderStyleType">
+
+        <xsd:attribute name="name" type="xsd:string"/>
+        <xsd:attribute name="leftBorder" type="xsd:string">
+        <xsd:annotation>
+		        <xsd:documentation>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+		        </xsd:documentation>
+		    </xsd:annotation>
+		 </xsd:attribute>
+        <xsd:attribute name="rightBorder" type="xsd:string"/>
+        <xsd:attribute name="topBorder" type="xsd:string"/>
+        <xsd:attribute name="bottomBorder" type="xsd:string"/>
+        <xsd:attribute name="style" type="xsd:string" default="none">
+       		 <xsd:annotation>
+		        <xsd:documentation>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+		        </xsd:documentation>
+		    </xsd:annotation>
+		</xsd:attribute>
+        <xsd:attribute name="color" type="xsd:string" default="none"/>
+        <xsd:attribute name="width" type="xsd:string" default="none"/>
+		<xsd:attribute name="leftSize" type="xsd:string" default="none">
+			<xsd:annotation>
+		        <xsd:documentation>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+		        </xsd:documentation>
+		    </xsd:annotation>
+		 </xsd:attribute>
+		<xsd:attribute name="rightSize" type="xsd:string" default="none"/>
+		<xsd:attribute name="topSize" type="xsd:string" default="none"/>
+		<xsd:attribute name="bottomSize" type="xsd:string" default="none"/>
+		<xsd:attribute name="leftColor" type="xsd:string" default="none">
+			<xsd:annotation>
+		        <xsd:documentation>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+		        </xsd:documentation>
+		    </xsd:annotation>
+		 </xsd:attribute>
+		<xsd:attribute name="rightColor" type="xsd:string" default="none"/>
+		<xsd:attribute name="topColor" type="xsd:string" default="none"/>
+		<xsd:attribute name="bottomColor" type="xsd:string" default="none"/>
+		<xsd:attribute name="leftStyle" type="xsd:string" default="none">
+			<xsd:annotation>
+		        <xsd:documentation>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+		        </xsd:documentation>
+		    </xsd:annotation>
+		 </xsd:attribute>
+		<xsd:attribute name="rightStyle" type="xsd:string" default="none"/>
+		<xsd:attribute name="topStyle" type="xsd:string" default="none"/>
+		<xsd:attribute name="bottomStyle" type="xsd:string" default="none"/>
+        <xsd:attribute name="thickness" type="xsd:string" default="none">
+    	    <xsd:annotation>
+		        <xsd:documentation>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+		        </xsd:documentation>
+		    </xsd:annotation>
+		</xsd:attribute>
+    </xsd:complexType>
+
+    <xsd:complexType name="ChartStyleType">
+        <xsd:attribute name="name" type="xsd:string"/>
+        <xsd:attribute name="leftInset" type="xsd:int" default="0"/>
+        <xsd:attribute name="rightInset" type="xsd:int" default="0"/>
+        <xsd:attribute name="topInset" type="xsd:int" default="0"/>
+        <xsd:attribute name="bottomInset" type="xsd:int" default="0"/>
+        <xsd:attribute name="borderStyleType" type="xsd:string"/>
+    </xsd:complexType>
+
+
+</xsd:schema>

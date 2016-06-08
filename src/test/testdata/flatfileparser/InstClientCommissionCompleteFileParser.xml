@@ -1,0 +1,95 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<FlatFileParserConfig
+        delimiter="|"
+        inflatedObject="com.gs.fw.para.domain.molodatawivegocat.TuboMuyozaKugukohemoDapoyuy"
+        columns="67"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../xsd/parserconfig.xsd">
+
+    <Header required="true" identifier="NASAVU:" simpleFormat="NASAVU:[hojakinipo]*[yyyy/WE/dd]"/>
+    <Trailer required="true" identifier="KABANAS:" simpleFormat="KABANAS:[hojakinipo][count]*"/>
+
+    <!--<Mapping attribute="lijebeSudume" position="1"/>-->
+
+    <Mapping attribute="yijuwecuZuce"  position="1"  nullable="true"/>
+    <Mapping attribute="xiremoVunoxin" position="2" nullable="true"/>
+    <Mapping attribute="ledataPigawipAhidIcovij" position="3" nullable="true"/>
+    <Mapping attribute="warIyirEvos" position="4"/>
+    <Mapping attribute="wokuJaso" position="6" nullable="true"/>
+    <Mapping attribute="jajaYabiGuq" position="7" nullable="true"/>
+    <Mapping attribute="huloKajajif" position="8" nullable="true"/>
+    <Mapping attribute="visuYasaRabi" position="9" nullable="true"/>
+    <Mapping attribute="woluyubufa" position="10" nullable="true"/>
+    <Mapping attribute="bumuHabigu" position="11" nullable="true"/>
+    <Mapping attribute="famowIdemIkoj" position="12" nullable="true"/>
+    <Mapping attribute="fidisUkazOxa" position="13" nullable="true"/>
+    <Mapping attribute="nosa" position="14" nullable="true"/>
+    <Mapping attribute="yaloTido" position="15" nullable="true"/>
+    <Mapping attribute="tekiJeli" position="16" nullable="true"/>
+    <Mapping attribute="sodoDoteNuco" position="17" nullable="true"/>
+    <Mapping attribute="zoJira" position="18"/>
+    <Mapping attribute="diceWoreHice" position="19" nullable="true"/>
+    <Mapping attribute="mewIdoq" position="20" nullable="true"/>
+    <Mapping attribute="cejUyayiha" position="21" nullable="true"/>
+    <Mapping attribute="yosIwonepuMace" position="22" nullable="true"/>
+    <Mapping attribute="loladAcicat" position="23" nullable="true"/>
+    <Mapping attribute="big" position="24" nullable="true"/>
+    <Mapping attribute="fetiTixequ" position="25" nullable="true"/>
+    <Mapping attribute="sepaYucotis" position="26" nullable="true"/>
+    <Mapping attribute="bisehEleqejaHivo" position="27" nullable="true"/>
+    <Mapping attribute="zikiheMazunulIsal" position="28" nullable="true"/>
+    <Mapping attribute="hupexUtiroboNalu" position="29" nullable="true"/>
+    <Mapping attribute="baqelEjatiqoVoce" position="30" nullable="true"/>
+    <Mapping attribute="xorupa" position="31" nullable="true"/>
+    <Mapping attribute="nalifiNefi" position="32" nullable="true"/>
+    <Mapping attribute="vulebiXujosAbejIxuz" position="33" nullable="true"/>
+    <Mapping attribute="yuyazoHofitOmolEqox" position="34" nullable="true"/>
+    <Mapping attribute="mujicuDenosoNuhoLulo" position="35" nullable="true"/>
+    <Mapping attribute="punuleWedeguFateNez" position="36" nullable="true"/>
+    <Mapping attribute="zisujukemOqotivi" position="37" nullable="true"/>
+    <Mapping attribute="ladaSuku" position="38" nullable="true" format="yyyy-WE-dd"/>
+    <Mapping attribute="riqaBiyo" position="40" nullable="true"/>
+    <Mapping attribute="biyiYusuyAxab" position="41" nullable="true"/>
+    <Mapping attribute="veriZucatObibApaw" position="42" nullable="true"/>
+    <Mapping attribute="mureSodimIfuy" position="43" nullable="true"/>
+    <Mapping attribute="womeQojudEcowUlok" position="44" nullable="true"/>
+    <Mapping attribute="ralaSinuTeha" position="45" nullable="true"/>
+    <Mapping attribute="bicEwuh" position="46" nullable="true"/>
+    <Mapping attribute="fofOye" position="47" nullable="true"/>
+    <Mapping attribute="golufItajol" position="48" nullable="true"/>
+    <Mapping attribute="wahuponiVotEjola" position="49" nullable="true"/>
+    <Mapping attribute="qubahaGuto" position="50" format="yyyy-WE-dd"/>
+    <Mapping attribute="wuzOdokAfok" position="51" nullable="true"/>
+    <Mapping attribute="baqObesUdi" position="52" nullable="true"/>
+    <Mapping attribute="tamaye" position="53" nullable="true"/>
+    <Mapping attribute="wijUreqUfel" position="54" nullable="true"/>
+    <Mapping attribute="kemAtogElu" position="55" nullable="true"/>
+    <Mapping attribute="famotIpuf" position="56" format="yyyy-WE-dd"/>
+    <Mapping attribute="gulokEtic" position="58" nullable="true"/>
+    <Mapping attribute="nawodUbo" position="59" nullable="true"/>
+    <Mapping attribute="mowegEzeFac" position="60" nullable="true"/>
+    <Mapping attribute="ridaxIsutIwenUbik" position="61" nullable="true"/>
+    <Mapping attribute="mibebIrenAluv" position="62" nullable="true"/>
+    <Mapping attribute="fahumAgalUdaw" position="63" nullable="true"/>
+    <Mapping attribute="kopogiVuquZide" position="64" nullable="true"/>
+    <Mapping attribute="mawutiFi" position="65" nullable="true"/>
+    <Mapping attribute="vijiwiBet" position="66"/>
+    <Mapping attribute="piyoXozUro" position="67" nullable="true"/>
+
+
+</FlatFileParserConfig>
+

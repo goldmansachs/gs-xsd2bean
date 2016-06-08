@@ -1,0 +1,90 @@
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<WireObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="../../xsd/wireobject.xsd"
+            name="GinEnIfiVadaDuqiye" package="com.gs.fw.para.fevocixib.tegeqomi.tape">
+    <Version>
+        <Attribute name="gerihiMumobete" type="String" maxLength="4" pooled="true"/>
+        <Attribute name="rivusujAr" type="String" maxLength="8"/>
+
+        <Attribute name="mitIbavo" type="double"/>
+        <Attribute name="naqAwegAc" type="double"/>
+        <Attribute name="sayIvocImiZaf" type="double"/>
+        <Attribute name="bipIgo" type="double"/>
+        <Attribute name="xohIxiHakaLi" type="double"/>
+        <Attribute name="yoqAraYoboNerOzo" type="double"/>
+        <Attribute name="beqEsehuzumuZavo" type="double"/>
+        <Attribute name="lujEmapabe" type="double"/>
+
+        <Attribute name="suzIxepeqofiZace" type="double"/>
+        <Attribute name="pekUkena" type="double"/>
+        <Attribute name="wecUnesOb" type="double"/>
+        <Attribute name="polEzidUnePim" type="double"/>
+        <Attribute name="vizUso" type="double"/>
+        <Attribute name="rejOhuBuqaVo" type="double"/>
+        <Attribute name="zevEwiXilaWoqOro" type="double"/>
+        <Attribute name="wuyUxojele" type="double"/>
+
+        <Attribute name="pahekecAwowesizeGeni" type="double"/>
+        <Attribute name="sovawuqUsife" type="double"/>
+        <Attribute name="peboziyOgisIb" type="double"/>
+        <Attribute name="wipisagOtobAvoBaw" type="double"/>
+        <Attribute name="tupefalIfe" type="double"/>
+        <Attribute name="pugafugOjaHeruQi" type="double"/>
+        <Attribute name="bijulirAraYukoXikUne" type="double"/>
+
+        <Attribute name="ceqefuMeruHap" type="int"/>
+        <Attribute name="wapetaWacAyoqOvi" type="int"/>
+        <Attribute name="hiqArApibIpa" type="int"/>
+
+        <Attribute name="quhisAsa" type="boolean"/>
+        <Attribute name="gipareSig" type="boolean"/>
+
+        <Attribute name="yufizomIbazosetem" type="float"/>
+        <Attribute name="fevivAqiwugebit" type="float"/>
+
+        <!--KOW yawimoq-->
+        <Attribute name="toqUme" type="double"/>
+        <Attribute name="losAha" type="double"/>
+        <Attribute name="mamUpe" type="double"/>
+        <Attribute name="munAmo" type="double"/>
+        <Attribute name="fifEvu" type="double"/>
+
+        <Attribute name="fitEyo" type="double"/>
+        <Attribute name="janikUwi" type="double"/>
+        <Attribute name="lawImu" type="double"/>
+        <Attribute name="fuzIpo" type="double"/>
+
+        <Attribute name="dalopexUqiw" type="double"/>
+        <Attribute name="cisaKab" type="double"/>
+        <Attribute name="coxeFac" type="double"/>
+        <Attribute name="jisaViq" type="double"/>
+        <Attribute name="qejoFak" type="double"/>
+
+        <Attribute name="xeziPom" type="double"/>
+        <Attribute name="nafeVaw" type="double"/>
+
+    </Version>
+
+    <Version>
+        <Attribute name="gumOquBudeXiz" type="double"/>
+        <Attribute name="cepApihetiZuq" type="double"/>
+
+        <Attribute name="curImeRejiRin" type="double"/>
+        <Attribute name="fusIgitexeCit" type="double"/>
+    </Version>
+</WireObject>

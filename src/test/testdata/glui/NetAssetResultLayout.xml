@@ -1,0 +1,56 @@
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout layoutId="tazamel.cezuxom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd" pageTitle="Woz Sesej Tazamel Cezuxom"
+        pageBuilder="com.gs.fw.kaza.desa.josowot.mabizuvu.vo.SulIlajaVekawilIxiqira">
+
+    <section feature="HapeqUvapebuq">
+        <row>
+            <button name="xeselOqoqIruq" label="Vayus Xinocepe" downloadContent="true"
+                    pageBuilder="com.gs.fw.kaza.desa.josowot.mabizuvu.vo.SulIlajaVekawilIxiqira.femitihOhadeBeki"
+                    openSavedFile="true"
+                    contentDownloader="com.gs.fw.kaza.desa.josowot.common.vo.NunabUkovibEviterejey"/>
+        </row>
+    </section>
+
+    <section caption="Vojiy Yokucaz" expandable="true" expanded="false">
+        <row>
+            <uiElement name="wavacAtometiJufuwe" renderAs="label" label=""/>
+        </row>
+    </section>
+
+    <section caption="Heramiw">
+        <row>
+            <uiElement name="hepozEnabAbumagele" label="Dulic Bega by" renderAs="combobox"/>
+            <button name="vebidIdib" label="Dulic Bega"
+                    pageBuilder="com.gs.fw.kaza.desa.josowot.mabizuvu.vo.SulIlajaVekawilIxiqira.gurasiyOqeYomojOgul"
+                    nextLayoutName="desa/josowot/QokAbufaJoqanUbizIjahusIroxuz.xml"/>
+        </row>
+    </section>
+
+    <section caption="Cezuxom">
+        <row>
+            <uiElement name="loqufibIwufuPacu" label="Tazamel Fexov Hobac = Naxi Nixasoz Koga - Sav Difovasedi Koga " renderAs="label"/>
+        </row>
+        <row>
+            <uiElement name="hohOgiliNobiwImod" label="Woz Sesej Hobac = RA Woz Sesej - K&amp;X Woz Sesej + K&amp;X Woz Sesej [Koga]" renderAs="label"/>
+        </row>
+        <row>
+            <table name="lizAficoRaher" wrapContent="false" wrapHeader="true" rowsPerPage="0"/>
+        </row>
+    </section>
+</layout>

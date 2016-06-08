@@ -1,0 +1,35 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<FlatFileParserConfig
+        delimiter="|"
+        inflatedObject="com.gs.fw.para.domain.qaje.position.implementation.GosonawOnoFijiqisuHezi"
+        columns="13"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../xsd/parserconfig.xsd">
+
+    <Header required="true" identifier="NASAVU:" simpleFormat="NASAVU:[hojakinipo]*FUZASINADU:*[qaBOcu]*"/>
+	<Trailer required="true" identifier="KABANAS:" simpleFormat="KABANAS:[hojakinipo][count]*" trailerCountOffset="-2"/>
+
+    <Mapping attribute="rivusujAr"              position="1"/>
+    <Mapping attribute="guxugEsUkImuw"          position="3"/>
+    <Mapping attribute="productId"              position="9"/>
+
+    <MapWithKey method="jiyApirumAguxebi" key="cagelufeCakirUfUsuku" position="7" keyFactory="com.gs.fw.para.domain.qeyubaxi.KaxigoceNuvolAxanaxunib"/>
+    <MapWithKey method="jiyApirumAguxebi" key="bekeluwaYozi"         position="8" keyFactory="com.gs.fw.para.rehepiyebag.qayamudoz.yatuy.SunipAlalApugaRiriyik"/>
+
+</FlatFileParserConfig>
+
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject objectType="transactional">
+
+    <PackageName>com.gs.fw.common.mithra.test.yob</PackageName>
+    <ClassName>Yoca</ClassName>
+    <DefaultTable>YOCA</DefaultTable>   
+
+    <AsOfAttribute name="businessDate" fromColumnName="FROM_Z" toColumnName="THRU_Z"  
+    	infinityDate="[com.gs.fw.common.mithra.jaba.SazotarItijedopIfedimaku.dipOjusuvuKoripaca()]"
+        isProcessingDate="false" toIsInclusive="false"/>   
+
+    <AsOfAttribute name="fuzodayocoSana" fromColumnName="YE_Z" toColumnName="LEC_Z"  
+    	infinityDate="[com.gs.fw.common.mithra.jaba.SazotarItijedopIfedimaku.dipOjusuvuKoripaca()]"
+        defaultIfNotSpecified="[com.gs.fw.common.mithra.jaba.SazotarItijedopIfedimaku.dipOjusuvuKoripaca()]"
+        isProcessingDate="true"/>   
+
+    <Attribute name="duqaVu" javaType="long" columnName="YOCA_LA" 
+    	primaryKey="true" />
+
+	<!-- attributes of related object -->
+	<Attribute name="kurEleruwafuhesosIw" javaType="long" columnName="YOB_JUNAP_LA"/>
+	<Attribute name="jocavahomugiWe" javaType="long" columnName="ZOGEPUZIQOSO_LA"/>
+	<Attribute name="cuvoCofaNe" javaType="long" columnName="YOCA_WUSE_LA"  nullable="false"/>
+	<Attribute name="fuyIpojEqaxEm" javaType="long" columnName="TAN_GOZO_YOYA_LA"/>
+	<Attribute name="culemehoqIwoy1QolaYe" javaType="long" columnName="GIT_GOZO1_YOYA_LA"/>
+	<Attribute name="culemehoqIwoy2QolaYe" javaType="long" columnName="GIT_GOZO2_YOYA_LA"/>
+	<Attribute name="culemehoqIwoy3QolaYe" javaType="long" columnName="GIT_GOZO3_YOYA_LA"/>
+	<Attribute name="lebisiSoteWu" javaType="long" columnName="GETOKI_YOCA_LA"/>
+	<Attribute name="hibucafAzemiqoVasadevix" javaType="String" columnName="HIWECOF_KAV_GIT"/>
+	<Attribute name="gehemutOguc" javaType="String" columnName="BATOGAM_YOCA"/>
+	<Attribute name="wumufukiQecIziy" javaType="String" columnName="JUHOVOVO_YOB_SEKO"/>
+	<Attribute name="pudeKahijo" javaType="String" columnName="YOCA_TOYIYE"/>
+	<Attribute name="soquPehu" javaType="String" columnName="YOCA_NIHU"/>
+	<Attribute name="dipeyuma" javaType="String" columnName="DIPEYUMA"/>
+    <Attribute name="qepowOyutikanuc" javaType="String" columnName="YEGOR_KOGETALEBA_SEKO"/>
+    <Attribute name="yijexuhUk" javaType="String" columnName="PUDEHAN_XE" nullable="false"/>
+    <Attribute name="foragaKibuQo" javaType="int" columnName="GETOKI_VUVO_LA"/>
+    <Attribute name="extension1PudeKahijo" javaType="String" columnName="GIT1_YOCA_TOYIYE"/>
+    <Attribute name="extension1SoquPehu" javaType="String" columnName="GIT1_YOCA_NIHU"/>
+    <Attribute name="extension2PudeKahijo" javaType="String" columnName="GIT2_YOCA_TOYIYE"/>
+    <Attribute name="extension2SoquPehu" javaType="String" columnName="GIT2_YOCA_NIHU"/>
+    <Attribute name="extension3PudeKahijo" javaType="String" columnName="GIT3_YOCA_TOYIYE"/>
+    <Attribute name="extension3SoquPehu" javaType="String" columnName="GIT3_YOCA_NIHU"/>
+    <Attribute name="kuguyapozUwevateLimiDobulu" javaType="String" columnName="XOV_TUY_YOCA_TOYIYE"/>
+    <Attribute name="zozavulidEwuxefeLipuXave" javaType="String" columnName="XOV_TUY_YOCA_NIHU"/>
+    <Attribute name="jamumugaMozaKomoYu" javaType="int" columnName="HESEZITO_BEXU_YOCA_LA"/>
+
+
+	<Relationship name="zogepuziqoso" relatedObject="Zogepuziqoso" cardinality="many-to-one">Zogepuziqoso.jocavahomugiWe = this.jocavahomugiWe</Relationship>
+	<Relationship name="kadeTozo" relatedObject="KadeTozo" cardinality="many-to-one">KadeTozo.cuvoCofaNe = this.cuvoCofaNe</Relationship>
+	<Relationship name="piqofiVera" relatedObject="Yoca" cardinality="many-to-one">Yoca.duqaVu = this.lebisiSoteWu</Relationship>
+    <Relationship name="mecicaqeDiro" relatedObject="Yoca" cardinality="many-to-one">Yoca.duqaVu = this.jamumugaMozaKomoYu</Relationship>
+    <Relationship name="cererehIkunaladIqOpinuyaqeVesu" relatedObject="Yoca" cardinality="one-to-one" parameters="long cuvoCofaNe">Yoca.lebisiSoteWu = this.duqaVu and Yoca.cuvoCofaNe={cuvoCofaNe}</Relationship>
+</MithraObject>

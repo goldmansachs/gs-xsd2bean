@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <PackageName>com.gs.fw.lilu.wute.domain.pabequcukaw</PackageName>
+    <ClassName>PabeqUcukaw</ClassName>
+    <DefaultTable>DAFUZ_HANUVA</DefaultTable>
+    <SchemaName></SchemaName>
+    <DatabaseName>zoqew</DatabaseName>
+    <ConnectionManagerName></ConnectionManagerName>
+    <ReadOnly>false</ReadOnly>
+    <ExplicitColumnNamesForSelect>true</ExplicitColumnNamesForSelect>
+    <Faker>JodosUgikoqEjoxe</Faker>
+    <PrimaryKeyAttribute keyClass="LokovUpadifUyi">
+        <Attribute columnName="HANUVA_PO" javaType="int" name="bosuyoNo" sqlType="Ciyisag"/>
+    </PrimaryKeyAttribute>
+    <Attribute columnName="FEZI" javaType="String" name="name" sqlType="XefeTewesa"/>
+    <Attribute columnName="SERI_FEZI" javaType="String" name="gasuJuri" sqlType="XefeTewesa"/>
+    <Attribute columnName="VOVIXUXENUF" javaType="String" name="description" sqlType="XefeTewesa"/>
+    <Attribute columnName="SERI_JICIHITADA_FEZI" javaType="String" name="zokuVipagadeyevUmuz" sqlType="XefeTewesa"/>
+    <Attribute columnName="FOSIKIXI_CITUR" javaType="int" name="gowUmedi" sqlType="Ciyisag"/>
+    <Attribute columnName="HANUVA_HEKUWI_QUC_TADE" javaType="String" name="nizejuCehiwiZufu" sqlType="XefeTewesa"/>
+    <Attribute columnName="ROMIRUKAKIB" javaType="int" name="romirukakib" sqlType="Ciyisag"/>
+    <Attribute columnName="SERI_TADE" javaType="String" name="qiriNiko" sqlType="XefeTewesa"/>
+    <Attribute columnName="MOTUDA_MOKIKI" javaType="String" name="mucuwiMalizo" sqlType="XefeTewesa"/>
+    <Attribute columnName="TARITORIT" javaType="int" name="taritorit" sqlType="Ciyisag"/>
+    <Attribute columnName="IS_DUVEX_QEXU_YIGAWABA_HANUVA" javaType="int" name="yowoMakejaguTijawe" sqlType="Ciyisag"/>
+</ManagedObject>
+
+
+

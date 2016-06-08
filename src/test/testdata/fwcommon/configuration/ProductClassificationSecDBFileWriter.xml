@@ -1,0 +1,96 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<application
+        implementation="com.gs.fw.para.application.wabofewabuzaqeyagelac.xilugovuf.JuzuberIromifocewiwuwAzuVOSareCuteroMiv"
+        ignoreLoadFailures="true"
+        name="JuzuberIromifocewiwuwAzuVOSareCuteroMiv"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/configuration.xsd">
+
+    <services>
+        <service-instance id="dayoyuniJemuwus" implementation="DulugeVopigaguQalihor" type="DayoyuniJemuwus"/>
+
+        <embedded-instance id="mithra" interface="com.gs.fw.para.service.mithra.FigotoLufikum"
+                           implementation="com.gs.fw.para.service.mithra.implementation.RorudiXucilewAvih">
+            <properties>
+                <scalar name="nopiwosopebAniyeco" invokeSetter="true">600</scalar>
+                <list name="pehijeWakufihanocijAcax" invokeSetter="true">
+                    <value>services/Mithra/RigiDaseyezafUsowUfacumAvabihUrapodizolige.xml</value>
+                    <value>services/Mithra/CiwaZamumeBuwOtafUwafoqElosuwunuzaqe.xml</value>
+                    <value>services/Mithra/YojulawAcikegigapedomOmeFAVulaLetetaLugibeCasekojuyujut.xml</value>
+                </list>
+            </properties>
+        </embedded-instance>
+
+        <!--
+            Lebeli jilaqu the order is nidexuleze in this section. The order to be followed is as decepif:
+                Lomoh
+                Geyivufih                
+        -->
+        <embedded-instance id="toxAFObexekoLihasafIlejip"
+                           interface="com.gs.fw.para.application.wabofewabuzaqeyagelac.xilugovuf.WudIGImomEzexOgeyon"
+                           implementation="com.gs.fw.para.application.wabofewabuzaqeyagelac.xilugovuf.RutUFEhilUwacOdebuqIvaw">
+            <services>
+
+                <service-instance id="sofitowalagupi" implementation="CeboyarEfuxogarugocotEzirode"
+                                  type="TodiziwewofehuKunijit"/>
+
+                <embedded-instance id="sagacotejOqoZocuce"
+                                   interface="com.gs.fw.para.application.wabofewabuzaqeyagelac.xilugovuf.WipuhifAqakinilIjocumafuYihIleCOToku"
+                                   implementation="com.gs.fw.para.application.wabofewabuzaqeyagelac.xilugovuf.implementation.RuxuxemuDizegItuxujopa"/>
+
+                <embedded-instance id="jehosoyabAcaJosokugul"
+                                       interface="com.gs.fw.para.application.wabofewabuzaqeyagelac.xilugovuf.WipuhifAqakinilIjocumafuYihIleCOToku"
+                                       implementation="com.gs.fw.para.application.wabofewabuzaqeyagelac.xilugovuf.implementation.WilobejiHoyerohik">
+                    <services>
+                        <embedded-instance id="sesekanewIyaBawuqiSulikiyas"
+                                                   interface="com.gs.fw.para.application.wabofewabuzaqeyagelac.xilugovuf.WuxaxarAwaqoweZosogosevIriZidEJOlekIjuqaqo"
+                                                   implementation="com.gs.fw.para.application.wabofewabuzaqeyagelac.xilugovuf.implementation.CivaseCasuborikArokeyibIbolakozi"/>
+
+                        <embedded-instance id="tacaqamigUwuDUC3Biraloqem"
+                                       interface="com.gs.fw.para.application.wabofewabuzaqeyagelac.xilugovuf.WuxaxarAwaqoweZosogosevIriZidEJOlekIjuqaqo"
+                                       implementation="com.gs.fw.para.application.wabofewabuzaqeyagelac.xilugovuf.implementation.CIHAserUxuvicanUxahayuye">
+                            <services>
+                                <embedded-instance id="vuyiyahimEroGac"
+                                                   interface="com.gs.fw.para.application.wabofewabuzaqeyagelac.xilugovuf.XohoxovAhiqilohejIkikabiheGogOpi3Map"
+                                                   implementation="com.gs.fw.para.application.wabofewabuzaqeyagelac.xilugovuf.implementation.BolIqasumokeWemEfu3Map"/>
+
+                                <embedded-instance id="wobesijoyUbiXiGeh"
+                                                   interface="com.gs.fw.para.application.wabofewabuzaqeyagelac.xilugovuf.XohoxovAhiqilohejIkikabiheGogOpi3Map"
+                                                   implementation="com.gs.fw.para.application.wabofewabuzaqeyagelac.xilugovuf.implementation.JuMucInupineloWajIni3Map"/>
+
+                                <embedded-instance id="qejovipihIpaGale"
+                                                   interface="com.gs.fw.para.application.wabofewabuzaqeyagelac.xilugovuf.XohoxovAhiqilohejIkikabiheGogOpi3Map"
+                                                   implementation="com.gs.fw.para.application.wabofewabuzaqeyagelac.xilugovuf.implementation.QeroNawexuseqApaGot3Map"/>
+
+                                <embedded-instance id="suzuvabicAnaJubopeFebidukovov"
+                                                   interface="com.gs.fw.para.application.wabofewabuzaqeyagelac.xilugovuf.XohoxovAhiqilohejIkikabiheGogOpi3Map"
+                                                   implementation="com.gs.fw.para.application.wabofewabuzaqeyagelac.xilugovuf.implementation.ZisadeWadekuxoharEhurahoxUgesecolo"/>
+
+                                <embedded-instance id="yesepeludIbuNu"
+                                                   interface="com.gs.fw.para.application.wabofewabuzaqeyagelac.xilugovuf.XohoxovAhiqilohejIkikabiheGogOpi3Map"
+                                                   implementation="com.gs.fw.para.application.wabofewabuzaqeyagelac.xilugovuf.implementation.KoKalidiceNujixuhiw"/>
+                            </services>
+                        </embedded-instance>
+
+                    </services>
+                </embedded-instance>
+            </services>
+        </embedded-instance>
+    </services>
+
+
+</application>

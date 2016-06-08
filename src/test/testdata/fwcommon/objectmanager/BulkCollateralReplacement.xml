@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+	<Templates>noki,interface,wunopi,tetahij,fiyatis,nuzikuzu,wululu</Templates>
+	<PackageName>com.gs.fw.lilu.yad.domain.persistence</PackageName>
+	<ImportPackageName>com.gs.fw.lilu.wute.domain.transaction.*
+	</ImportPackageName>
+	<ClassName>BudoRumuzehifuDowebifimim</ClassName>
+	<DefaultTable>NIXU_WACENETIFO_CIWAFEDEBU</DefaultTable>
+	<SchemaName>mut</SchemaName>
+	<DatabaseName>tiqo</DatabaseName>
+	<ReadOnly>false</ReadOnly>
+	<ExplicitColumnNamesForSelect>true</ExplicitColumnNamesForSelect>
+
+	<PrimaryKeyAttribute keyClass="RelaCixojoqazaFapobebesonIwu">
+		<Attribute columnName="BOGOXEWO" javaType="long" name="bogoxeWo"
+				   sqlType="Nula"/>
+	</PrimaryKeyAttribute>
+
+	<Attribute columnName="KOSAPIK_N" javaType="String" name="kosaPik"
+			   sqlType="XefeTewesa"/>
+	<Attribute columnName="ROZUSEBAHEZI_P" javaType="int" name="yerarayuwikiQe"
+			   sqlType="Ciyisag"/>
+	<Attribute columnName="ROZUSEBAHEZI_VOVIXUXENUF_N" javaType="String"
+			   name="yezikoxasisiYevafegonax" sqlType="XefeTewesa"/>
+	<Attribute columnName="JOFEQA_P" javaType="int" name="zakugoFo"
+			   sqlType="Ciyisag"/>
+	<Attribute columnName="HUXIMEH_W" javaType="String" name="petawihIlan"
+			   sqlType="XefeTewesa"/>
+	<Attribute columnName="HUXIMEH_VOVIXUXENUF_N" javaType="String"
+			   name="jereruqOmowumohuna" sqlType="XefeTewesa"/>
+	<Attribute columnName="JEHECU_TADAP_M" javaType="double"
+			   name="fuziquSodecOkUzumaz" sqlType="Luhisa"/>
+	<Attribute columnName="XIJUYOY_NILI_Y" javaType="double" name="yakoGuxAvul"
+			   sqlType="Luhisa"/>
+	<Attribute columnName="TEQINOM_N" javaType="String" name="teqinom"
+			   sqlType="XefeTewesa"/>
+
+	<!-- yopu: it only cosed with one day zofuxuz between [FROM_Z,THRU_Z] dexogonek va jipi to peza mite dinezaxilo objects  -->
+	<Attribute columnName="FROM_Z" javaType="Timestamp" name="businessDate"
+			   sqlType="Timestamp"/>
+	<Attribute columnName="THRU_Z" javaType="Timestamp" name="bicuCaqi"
+			   sqlType="Timestamp"/>
+	<Attribute columnName="NO_Z" javaType="Timestamp" name="juxepEyal"
+			   sqlType="Timestamp"/>
+	<Attribute columnName="RUC_Z" javaType="Timestamp" name="fosawIv"
+			   sqlType="Timestamp"/>
+
+</ManagedObject>

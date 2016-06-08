@@ -1,0 +1,55 @@
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject objectType="transactional">
+    <PackageName>com.gs.fw.common.mithra.test.domain</PackageName>
+    <ClassName>FihoFup32Miqehewul</ClassName>
+    <DefaultTable>TEST_DAQ_32LOZI</DefaultTable>
+
+    <Attribute name="hozumeGo" javaType="int" columnName="DAQ_LA" primaryKey="true"/>
+    <Attribute name="gaxizejoKisiw0" javaType="int" columnName="LOZI_PIKUP0"/>
+    <Attribute name="gaxizejoKisiw1" javaType="int" columnName="LOZI_PIKUP1"/>
+    <Attribute name="gaxizejoKisiw2" javaType="int" columnName="LOZI_PIKUP2"/>
+    <Attribute name="gaxizejoKisiw3" javaType="int" columnName="LOZI_PIKUP3"/>
+    <Attribute name="gaxizejoKisiw4" javaType="int" columnName="LOZI_PIKUP4"/>
+    <Attribute name="gaxizejoKisiw5" javaType="int" columnName="LOZI_PIKUP5"/>
+    <Attribute name="gaxizejoKisiw6" javaType="int" columnName="LOZI_PIKUP6"/>
+    <Attribute name="gaxizejoKisiw7" javaType="int" columnName="LOZI_PIKUP7"/>
+    <Attribute name="gaxizejoKisiw8" javaType="int" columnName="LOZI_PIKUP8"/>
+    <Attribute name="gaxizejoKisiw9" javaType="int" columnName="LOZI_PIKUP9"/>
+    <Attribute name="gaxizejoKisiw10" javaType="int" columnName="LOZI_PIKUP10"/>
+    <Attribute name="gaxizejoKisiw11" javaType="int" columnName="LOZI_PIKUP11"/>
+    <Attribute name="gaxizejoKisiw12" javaType="int" columnName="LOZI_PIKUP12"/>
+    <Attribute name="gaxizejoKisiw13" javaType="int" columnName="LOZI_PIKUP13"/>
+    <Attribute name="gaxizejoKisiw14" javaType="int" columnName="LOZI_PIKUP14"/>
+    <Attribute name="gaxizejoKisiw15" javaType="int" columnName="LOZI_PIKUP15"/>
+    <Attribute name="gaxizejoKisiw16" javaType="int" columnName="LOZI_PIKUP16"/>
+    <Attribute name="gaxizejoKisiw17" javaType="int" columnName="LOZI_PIKUP17"/>
+    <Attribute name="gaxizejoKisiw18" javaType="int" columnName="LOZI_PIKUP18"/>
+    <Attribute name="gaxizejoKisiw19" javaType="int" columnName="LOZI_PIKUP19"/>
+    <Attribute name="gaxizejoKisiw20" javaType="int" columnName="LOZI_PIKUP20"/>
+    <Attribute name="gaxizejoKisiw21" javaType="int" columnName="LOZI_PIKUP21"/>
+    <Attribute name="gaxizejoKisiw22" javaType="int" columnName="LOZI_PIKUP22"/>
+    <Attribute name="gaxizejoKisiw23" javaType="int" columnName="LOZI_PIKUP23"/>
+    <Attribute name="gaxizejoKisiw24" javaType="int" columnName="LOZI_PIKUP24"/>
+    <Attribute name="gaxizejoKisiw25" javaType="int" columnName="LOZI_PIKUP25"/>
+    <Attribute name="gaxizejoKisiw26" javaType="int" columnName="LOZI_PIKUP26"/>
+    <Attribute name="gaxizejoKisiw27" javaType="int" columnName="LOZI_PIKUP27"/>
+    <Attribute name="gaxizejoKisiw28" javaType="int" columnName="LOZI_PIKUP28"/>
+    <Attribute name="gaxizejoKisiw29" javaType="int" columnName="LOZI_PIKUP29"/>
+    <Attribute name="gaxizejoKisiw30" javaType="int" columnName="LOZI_PIKUP30"/>
+    <Attribute name="gaxizejoKisiw31" javaType="int" columnName="LOZI_PIKUP31"/>
+</MithraObject>

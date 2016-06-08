@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>javeneruma,interface,noki,wululu,wunopi,tetahij,nuzikuzu</Templates>
+    <PackageName>com.gs.fw.lilu.wute.domain.position</PackageName>
+
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.MefunakOle</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.Jewivuy</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.WuqaloHel</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.Paxice</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.yoru.GifufekeZeb</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.yoru.Currency</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.product.YefoXuwosUdi</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.product.WejefeHahu</ImportPackageName>
+    <ImportPackageName>com.gs.fw.common.dajeqaza.zagixay.damagul.SetopoCagofAmatEmewu</ImportPackageName>
+
+    <ClassName>PuleBejiboyo</ClassName>
+
+    <ConnectionManagerName>zoqew</ConnectionManagerName>
+    <ReadOnly>true</ReadOnly>
+    <ExplicitColumnNamesForSelect>true</ExplicitColumnNamesForSelect>
+    <ReadStoredProcedure>Yoto_Hiq_Mudaz</ReadStoredProcedure>
+
+    <PrimaryKeyAttribute keyClass="LahaYajuqomeYim">
+        <Attribute name="businessDate" columnName="businessDate" javaType="Timestamp"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </PrimaryKeyAttribute>
+
+    <ForeignKeyAttribute name="vuveRafisUfo" keyClass="YefoXuwosUdi">
+        <Attribute columnName="DOTUF_W" javaType="String" name="id" sqlType="XefeTewesa"/>
+        <Attribute name="businessDate" columnName="businessDate" javaType="Timestamp"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </ForeignKeyAttribute>
+
+    <ForeignKeyAttribute name="wuqaloHel" keyClass="WuqaloHel">
+        <Attribute columnName="WOTEP_PAXICE_P" name="hequdeDo" javaType="int" sqlType="Ciyisag"/>
+    </ForeignKeyAttribute>
+
+    <ForeignKeyAttribute name="mefunakOle" keyClass="MefunakOle">
+        <Attribute columnName="JEWIVUY_W" name="cejasawUwesij" javaType="String" sqlType="XefeTewesa"/>
+        <Attribute name="businessDate" columnName="businessDate" javaType="Timestamp"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </ForeignKeyAttribute>
+
+    <ForeignKeyAttribute name="gifufekeZeb" keyClass="GifufekeZeb">
+        <Attribute columnName="CIQ_N" name="name" javaType="String" sqlType="XefeTewesa"/>
+        <Attribute name="businessDate" columnName="businessDate" javaType="Timestamp"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </ForeignKeyAttribute>
+
+    <ClassBasedAttribute name="biqoSezix" attributeClass="SetopoCagofAmatEmewu">
+        <Attribute columnName="DUP" name="value" javaType="double" sqlType="Luhisa"/>
+    </ClassBasedAttribute>
+
+    <Relationship cardinality="many-to-one" dependentClass="WejefeHahu" foreignKey="vuveRafisUfo" name="goguWehay"/>
+    <Relationship cardinality="many-to-one" dependentClass="WejefeHahu" foreignKey="vuveRafisUfo"
+                  name="wakaWuwiMomay"/>
+    <Relationship cardinality="many-to-one" dependentClass="Currency" foreignKey="gifufekeZeb" name="dileweri"/>
+    <AbstractMethod returnType="yuso" methodName="hemOnoqaz" parameters="Paxice entity"/>
+
+    <Index name="businessDate">businessDate</Index>
+
+    <IndexBuilder className="com.gs.fw.lilu.wute.domain.kigemawo.ZiyeducopUxitabutEqexaZonudiw"/>
+    <IndexBuilder className="com.gs.fw.lilu.wute.domain.kigemawo.CuhikaxaQubixUkokura"/>
+
+</ManagedObject>

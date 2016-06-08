@@ -1,0 +1,86 @@
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<application implementation="com.gs.fw.para.application.FavekezoJopExaweh" ignoreLoadFailures="true" name="CikAnamadawuGekeliqopet">
+    <services>
+        <service-instance id="dayoyuniJemuwus" implementation="DulugeVopigaguQalihor" type="DayoyuniJemuwus"/>
+
+        <service-instance id="cemekabimePetereVecaho" implementation="ButedotExogiyUlavoyUwobupEdanecu" type="CemekabimePetereVecaho"/>
+
+        <service-instance id="dolakihEsutit" implementation="GataroXigoxeqEsoxar" type="DolakihEsutit"/>
+
+        <embedded-instance id="mithra" interface="com.gs.fw.para.service.mithra.FigotoLufikum" implementation="com.gs.fw.para.service.mithra.implementation.RorudiXucilewAvih" >
+            <properties>
+                <scalar name="nopiwosopebAniyeco" invokeSetter="true">600</scalar>
+                <list name="pehijeWakufihanocijAcax" invokeSetter="true">
+                    <value>services/Mithra/RigiDaseyezafUsowUfacumAvabihUrapodizolige.xml</value>
+                    <value> services/Mithra/YaseyawUxuqusEfifapEyapunutugalu.xml </value>
+                    <value> services/Mithra/HanafebiCexOfaxaxIjupelufokega.xml </value>
+                    <value> services/Mithra/CuqePeciwaZurinorulaqem.xml </value>
+                    <value> services/Mithra/XogonObonaxAvazatudihinu.xml </value>
+                    <value> services/Mithra/NenicexoZuzoyixokElalAxufiqApezujesipulu.xml</value>
+                </list>
+            </properties>
+        </embedded-instance>
+
+        <embedded-instance
+            id="NopakoreBeweHig" instantiateUsingFactory="true"
+            interface="com.gs.fw.para.rehepiyebag.fulex.YefiKametizuca"
+            implementation="com.gs.fw.para.rehepiyebag.sobunuwo.implementation.YehesolaYofIxuqEdigogaxaz" />
+
+        <embedded-instance id="yazuwAdepa"
+            interface="com.gs.fw.para.common.NuhezIwal"
+            implementation="com.gs.fw.para.rehepiyebag.wosuxec.YejimumOveweRigu" >
+            <services>
+                <service-instance instantiateUsingFactory="true" type="VasuDinat" id="kitizOwimebaku" implementation="KitizOwimEbaku"/>
+                <service-instance id="dayoyuniJemuwus" implementation="DulugeVopigaguQalihor" type="DayoyuniJemuwus"/>
+            </services>
+        </embedded-instance>
+
+        <embedded-instance id="vogiyuve"
+            interface="com.gs.fw.para.rehepiyebag.sobunuwo.implementation.GowaripoLijiqixecejIfigahes"
+            implementation="com.gs.fw.para.rehepiyebag.sobunuwo.implementation.HubitazoHewafeyowoyIdocifavOjed" >
+            <services>
+                <service-instance id="cemekabimePetereVecaho" implementation="ButedotExogiyUlavoyUwobupEdanecu" type="CemekabimePetereVecaho"/>
+            </services>
+            <properties>
+                <scalar name="soqofitUnetahUzuzuDibe" invokeSetter="true">com.gs.fw.para.fufexoze.wuhoticuhomec.HidesaDozayocakacEkivuvuZifibi</scalar>
+            </properties>
+        </embedded-instance>
+
+        <embedded-instance
+            id="ZunenesoRatoDut" instantiateUsingFactory="true"
+            interface="com.gs.fw.para.application.quk.KacEkoguyUqoyon"
+            implementation="com.gs.fw.para.application.quk.implementation.MaqaliroVuvUsixumOxahih" />
+
+    </services>
+    <properties>
+        <scalar name="gonukupisodUyesufoLekukac" invokeSetter="true" type="boolean"> false </scalar>
+
+        <list name="gaqiyacUsiMafil" invokeSetter="true">
+            <value>JigoRopubEnu-Qes-Quk</value>
+            <value>VudoBukikIda-Vinuwo-Quk</value>
+            <value>VudoBukikIda-ComUsaz-Quk</value>
+            <value>VudoBukikIda-Baxak-Quk</value>
+            <value>VudoBukikIda-ComUsaz-Quk-Dowajuvun</value>
+            <value>JigoRopubEnu-Qes-Quk-Dowajuvun</value>
+            <value>MisuPixetAxuXihe-Qes-Quk</value>
+            <value>MisuPixetAxuXihe-Qes-Quk-Dowajuvun</value>
+        </list>
+
+    </properties>
+
+</application>

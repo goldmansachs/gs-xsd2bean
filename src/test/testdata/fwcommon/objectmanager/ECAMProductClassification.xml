@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>noki,tetahij,wunopi,key,nuzikuzu</Templates>
+    <PackageName>com.gs.fw.lilu.yad.domain.product</PackageName>
+
+    <ImportPackageName>com.gs.fw.lilu.yad.degopitojilijuh.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.yad.domain.product.kajacagevi.sosof.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.yad.domain.product.kajacagevi.xotubinexa.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.yad.domain.product.kajacagevi.yelacopoveda.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.yad.domain.product.kajacagevi.rozuxogiDeje.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.yad.domain.product.kajacagevi.wuyemiy.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.yad.domain.product.kajacagevi.cicavido.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.degopitojilijuh.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.yad.product.*</ImportPackageName>
+
+    <ClassName>LIRIBafekuyOxotekabahuyun</ClassName>
+
+    <DefaultTable>YAD_HUXIMEH_HARO_LUQOP</DefaultTable>
+    <ReadOnly>true</ReadOnly>
+    <Faker>VOLIPozuxuzObaleqisutesawEsoju</Faker>
+
+    <PrimaryKeyAttribute keyClass="QUFEYitejahUradudujuvoredUgo">
+        <Attribute columnName="KOSAPIK_N" javaType="String" name="joseZedEfig" sqlType="XefeTewesa"/>
+        <Attribute columnName="HUXIMEH_HARO_N" javaType="String" name="name" sqlType="XefeTewesa"/>
+    </PrimaryKeyAttribute>
+
+    <TypeSafeEnumAttribute name="jorEdaduvoKatinoma" javaType="JorEdaduvoKatinoma"
+                           columnName="COF_WUYEMIY_WEGIPUXA_N" sqlType="XefeTewesa">
+        <Map constant="NO_COF_WUYEMIY" sqlValue="NO_COF_WUYEMIY"/>
+        <Map constant="ZABAFAW_WUYEMIY" sqlValue="ZABAFAW_WUYEMIY"/>
+        <Map constant="TOFOWI_WUYEMIY" sqlValue="TOFOWI_WUYEMIY"/>
+        <Map constant="TOC_WUYEMIY" sqlValue="TOC_WUYEMIY"/>
+    </TypeSafeEnumAttribute>
+    <TypeSafeEnumAttribute name="qekukorOtelefoz" javaType="QekukorOtelefoz"
+                           columnName="WUYEMIY_LOCOJARA_N" sqlType="XefeTewesa">
+        <Map constant="SUHUY_WUYEMIY" sqlValue="SUHUY_WUYEMIY"/>
+    </TypeSafeEnumAttribute>
+    <TypeSafeEnumAttribute name="socavikiNiyaYodixefi" javaType="SocavikiNiyaYodixefi"
+                           columnName="XEJOFIHA_SIBA_LOCOJARA_N" sqlType="XefeTewesa">
+        <Map constant="NIR_COKASU" sqlValue="NIR_COKASU"/>
+        <Map constant="NIR_KOHEX" sqlValue="NIR_KOHEX"/>
+        <Map constant="NIR_QAV" sqlValue="NIR_QAV"/>
+        <Map constant="NIR_GEZUBO" sqlValue="NIR_GEZUBO"/>
+        <Map constant="QIYIG_30_CUW" sqlValue="QIYIG_30_CUW"/>
+        <Map constant="KUNABUFET_SIBA" sqlValue="KUNABUFET_SIBA"/>
+        <Map constant="NIR_BUCIXEGUR" sqlValue="NIR_BUCIXEGUR"/>
+    </TypeSafeEnumAttribute>
+    <TypeSafeEnumAttribute name="vetIbUtufibuhumObolojim" javaType="VetIbUtufibuhumObolojim"
+                           columnName="CICAVIDO_SODEBEG_LOCOJARA_N" sqlType="XefeTewesa">
+        <Map constant="WOHOW_SODEBEG" sqlValue="WOHOW_SODEBEG"/>
+        <Map constant="GUVO_JUNEPICORA" sqlValue="GUVO_JUNEPICORA"/>
+        <Map constant="HAWIK_TOFOWI" sqlValue="HAWIK_TOFOWI"/>
+        <Map constant="KUNABUFET_HAWIK_TOFOWI" sqlValue="KUNABUFET_HAWIK_TOFOWI"/>
+        <Map constant="JA_HAWIK_TOFOWI" sqlValue="JA_HAWIK_TOFOWI"/>
+        <Map constant="ZUWUP_TU_ZUWUP" sqlValue="ZUWUP_TU_ZUWUP"/>
+    </TypeSafeEnumAttribute>
+    <TypeSafeEnumAttribute name="bohApAnobepecuhedePiruwotu" javaType="BohApAnobepecuhedePiruwotu"
+                           columnName="CICAVIDO_SOSOF_LOCOJARA_N" sqlType="XefeTewesa">
+        <Map constant="SIS_FIYIZULISA" sqlValue="SIS_FIYIZULISA"/>
+        <Map constant="FIYIZULISA_BEFACEBAQ_QEFAF" sqlValue="FIYIZULISA_BEFACEBAQ_QEFAF"/>
+        <Map constant="DA_XOV_NO_FULID" sqlValue="DA_XOV_NO_FULID"/>
+        <Map constant="DA_XOV_TOQE_FULID" sqlValue="DA_XOV_TOQE_FULID"/>
+        <Map constant="VUYELU_NOZO_PUZUYU" sqlValue="VUYELU_NOZO_PUZUYU"/>
+        <Map constant="DA_NOZO_PUZUYU" sqlValue="DA_NOZO_PUZUYU"/>
+        <Map constant="PROD_XER_PUZUYU" sqlValue="PROD_XER_PUZUYU"/>
+    </TypeSafeEnumAttribute>
+    <TypeSafeEnumAttribute name="xaxuceziXomuVuxecuqa" javaType="XaxuceziXomuVuxecuqa"
+                           columnName="FEVEGOGA_TADE_LOCOJARA_N" sqlType="XefeTewesa">
+        <Map constant="ME_FEVEGOGA" sqlValue="ME_FEVEGOGA"/>
+        <Map constant="JA_FEVEGOGA" sqlValue="JA_FEVEGOGA"/>
+        <Map constant="QUFASOC_FEVEGOGA" sqlValue="QUFASOC_FEVEGOGA"/>
+    </TypeSafeEnumAttribute>
+    <TypeSafeEnumAttribute name="havidicoKutopevo" javaType="HavidicoKutopevo"
+                           columnName="CICAVIDO_LOCOJARA_N" sqlType="XefeTewesa">
+        <Map constant="BUGAZIX_CICAVIDO" sqlValue="BUGAZIX_CICAVIDO"/>
+        <Map constant="DUQEQI_CICAVIDO" sqlValue="DUQEQI_CICAVIDO"/>
+        <Map constant="BUWICEY_CICAVIDO" sqlValue="BUWICEY_CICAVIDO"/>
+        <Map constant="LIVO_BUWICEY_CICAVIDO" sqlValue="LIVO_BUWICEY_CICAVIDO"/>
+        <Map constant="SUSU_WOSUMEQU_CICAVIDO" sqlValue="SUSU_WOSUMEQU_CICAVIDO"/>
+        <Map constant="NUVEXUF_CICAVIDO" sqlValue="NUVEXUF_CICAVIDO"/>
+    </TypeSafeEnumAttribute>
+    <TypeSafeEnumAttribute name="muhobedUsijiDaqebedo" javaType="MuhobedUsijiDaqebedo"
+                           columnName="HUXIMEH_JAKIT_WEGIPUXA_N" sqlType="XefeTewesa">
+        <Map constant="DILEWERI_NIDA" sqlValue="DILEWERI_NIDA"/>
+        <Map constant="JE_LESARAJ" sqlValue="JE_LESARAJ"/>
+        <Map constant="LUGA_LESARAJ" sqlValue="LUGA_LESARAJ"/>
+        <Map constant="JA_LESARAJ" sqlValue="JA_LESARAJ"/>
+        <Map constant="JA_TOFOWI" sqlValue="JA_TOFOWI"/>
+        <Map constant="TOB_NILI_NIDA" sqlValue="TOB_NILI_NIDA"/>
+        <Map constant="LUGA_TOFOWI" sqlValue="LUGA_TOFOWI"/>
+        <Map constant="XUW_JE_NIQOF" sqlValue="XUW_JE_NIQOF"/>
+        <Map constant="XUW_LUGA_NIQOF" sqlValue="XUW_LUGA_NIQOF"/>
+        <Map constant="XOPEMOYE_JITOK_KUNABUFET" sqlValue="XOPEMOYE_JITOK_KUNABUFET"/>
+        <Map constant="QUGO_KUNABUFET" sqlValue="QUGO_KUNABUFET"/>
+        <Map constant="HESUL_KUNABUFET" sqlValue="HESUL_KUNABUFET"/>
+        <Map constant="MAZOYORUY" sqlValue="MAZOYORUY"/>
+        <Map constant="KOCU" sqlValue="KOCU"/>
+        <Map constant="GIWUVAQ" sqlValue="GIWUVAQ"/>
+        <Map constant="QAJIHUXER_JOVOY" sqlValue="QAJIHUXER_JOVOY"/>
+        <Map constant="QAJIHUXER_KOCU" sqlValue="QAJIHUXER_KOCU"/>
+        <Map constant="POFOCIF_LUVU" sqlValue="POFOCIF_LUVU"/>
+    </TypeSafeEnumAttribute>
+
+</ManagedObject>

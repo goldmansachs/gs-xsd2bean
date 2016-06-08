@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"
+        showSelection="false"
+        layoutId="pufahuvIgoyImeruvoxOqoqag" pageTitle="Josowot Yoya Sidikinu Mowere"
+        pageBuilder="com.gs.fw.kaza.qoyesi.vo.TononocEhoxOlijulusOyuxIyaqihu">
+
+    <section caption="Mosuku Puqivej">
+        <row>
+            <section>
+                <row>
+                    <uiElement name="zoPunalesUbolejEpedin" label="SU Jewivuy:" renderAs="listbox"
+                               noSelectOption="&lt;No Mosuku&gt;"/>
+                    <uiElement name="wuvovoloQuyowokUfosopUrolip" label="Wunoqoya Jewivuy:" renderAs="listbox"
+                               noSelectOption="&lt;No Mosuku&gt;"/>
+                    <uiElement name="voRuQuyibo" label="Lusaw/Qakuya:" renderAs="combobox" sortAscending="false"
+                               noSelectOption="&lt;No Mosuku&gt;"/>
+                    <uiElement name="lihuyoqayImiyax" label="Lufosabofika:" renderAs="combobox" sortAscending="false"
+                               noSelectOption="&lt;No Mosuku&gt;"/>
+                </row>
+                <row>
+                    <uiElement name="fagahuteFewaBikeze" label="Cuyokujo Type:" renderAs="listbox"
+                               noSelectOption="&lt;No Mosuku&gt;"/>
+                    <uiElement name="tiduxigaQadikukobapEmocep" label="Paxovewu Gokohefoyan:" renderAs="listbox"
+                               noSelectOption="&lt;No Mosuku&gt;"/>
+                    <uiElement name="ducalepIvocOwufis" label="Pocusox Type:" renderAs="listbox"
+                               noSelectOption="&lt;No Mosuku&gt;"/>
+                    <uiElement name="rudAhaMefife" label="Qot Sar LA:" renderAs="listbox"
+                               noSelectOption="&lt;No Mosuku&gt;"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section>
+                <row>
+                    <button label="Mosuku" name="mosuku" nextLayoutName="qoyesi/DocepujAqovIpuvezosAwilidIxileq.xml"
+                            crumbTrail="true" refreshPage="true"
+                            pageBuilder="com.gs.fw.kaza.qoyesi.vo.TononocEhoxOlijulusOyuxIyaqihu.mosuku"/>
+                </row>
+            </section>
+        </row>
+    </section>
+    <section>
+        <row>
+            <table name="yaxafoyoQugob" label="Josowot Yoya Sidikinu Table" editable="false" rowsPerPage="0">
+                <column attribute="yaTuyebusIpaney">
+                    <uiElement label="SU Jewivuy Number" name="yaTuyebusIpaney"/>
+                </column>
+                <column attribute="reXaqofepIfix">
+                    <uiElement label="SU Jewivuy Cuyifanakit" name="reXaqofepIfix"/>
+                </column>
+                <column attribute="bijenijePopumohEzafay">
+                    <uiElement label="Wunoqoya Jewivuy Number" name="bijenijePopumohEzafay"/>
+                </column>
+                <column attribute="vesudabOlori">
+                    <uiElement label="Jewivuy Junap" name="vesudabOlori"/>
+                </column>
+                <column attribute="totOfa">
+                    <uiElement label="Qot Sar LA" name="totOfa"/>
+                </column>
+                <column attribute="vagijogaQusu">
+                    <uiElement label="Cuyokujo Type" name="vagijogaQusu"/>
+                </column>
+                <column attribute="cogihoxuYuzetebotod">
+                    <uiElement label="Paxovewu Gokohefoyan" name="cogihoxuYuzetebotod"/>
+                </column>
+                <column attribute="vosufecEzag">
+                    <uiElement label="Pocusox Type" name="vosufecEzag"/>
+                </column>
+                <column attribute="xiSu">
+                    <uiElement label="Lusaw/Qakuya" name="xiSu"/>
+                </column>
+                <column attribute="vuyofamovAkav">
+                    <uiElement label="Lufosabofika" name="dutucecey"/>
+                </column>
+            </table>
+        </row>
+    </section>
+
+</layout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+
+    <Templates>javeneruma,tetahij,wunopi,noki,nuzikuzu,wululu,interface,riyoxadipojoxuj</Templates>
+    <PackageName>com.gs.fw.lilu.now.domain</PackageName>
+    <ImportPackageName>com.gs.fw.lilu.now.domain.persistence.GilOgegeNupi</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.yoru.Currency</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.yoru.GifufekeZeb</ImportPackageName>
+
+    <ClassName>VacIqotu</ClassName>
+    <DefaultTable>NOW_DAFUZ</DefaultTable>
+    <SchemaName></SchemaName>
+    <DatabaseName>tekihif_rum</DatabaseName>
+    <ConnectionManagerName>BEHASAL</ConnectionManagerName>
+    <ExplicitColumnNamesForSelect>true</ExplicitColumnNamesForSelect>
+    <Faker>CibAwineYehoz</Faker>
+
+    <PrimaryKeyAttribute keyClass="ZumAbuxoDip">
+        <Attribute columnName="PROD_RUM_YAK_P" javaType="int" name="lotuHuhEjoSu" sqlType="Ciyisag"/>
+        <Attribute name="businessDate" columnName="businessDate" javaType="Timestamp"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute name="dupehu" sqlType="Luhisa" javaType="double" columnName="FACTOR_M"/>
+    <Attribute name="widazoXific" sqlType="Luhisa" javaType="double" columnName="JEHECU_DAFUZ_M"/>
+    <Attribute name="fobewiKezobIfAgut" sqlType="Luhisa" javaType="double" columnName="JEHECU_JA_NILI_M"/>
+    <Attribute name="qegovogOnekavEcizal" sqlType="Luhisa" javaType="double" columnName="GAQO_REN_HAZO_M"/>
+    <ForeignKeyAttribute name="vicoqaFanenOgemupavUmo" keyClass="GifufekeZeb">
+        <Attribute columnName="JEHECU_DAFUZ_CIQ_N" javaType="String" name="name" sqlType="XefeTewesa"/>
+        <Attribute name="businessDate" columnName="businessDate" javaType="Timestamp"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </ForeignKeyAttribute>
+
+    <Relationship cardinality="many-to-one" dependentClass="Currency" foreignKey="vicoqaFanenOgemupavUmo"
+                  name="xeciduJetepUjikijel"/>
+
+    <Index name="lotuHuhEjoSu">lotuHuhEjoSu</Index>
+    <Index name="businessDate">businessDate</Index>
+</ManagedObject>

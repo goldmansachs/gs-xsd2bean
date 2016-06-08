@@ -1,0 +1,45 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject objectType="transactional">
+  <PackageName>com.gs.fw.common.mithra.test.domain</PackageName>
+  <ClassName>PegoDogokoluxaCosoj</ClassName>
+  <DefaultTable>TEST_QESATIWASE_BONES</DefaultTable>
+  <AsOfAttribute name="fuzodayocoSana" timezoneConversion="convert-to-utc" fromColumnName="YE_HI" toColumnName="LEC_HI"
+                 toIsInclusive="false"
+                 infinityDate="[com.gs.fw.common.mithra.jaba.SazotarItijedopIfedimaku.dipOjusuvuKoripaca()]"
+                 isProcessingDate="true"
+                 defaultIfNotSpecified="[com.gs.fw.common.mithra.jaba.SazotarItijedopIfedimaku.dipOjusuvuKoripaca()]" />
+
+  <AsOfAttribute name="businessDate" timezoneConversion="convert-to-utc" fromColumnName="FROM_HI" toColumnName="THRU_HI"
+                 toIsInclusive="false" infinityDate="[com.gs.fw.common.mithra.jaba.SazotarItijedopIfedimaku.dipOjusuvuKoripaca()]"
+                 isProcessingDate="false" />
+
+ <Attribute name="yepokimoyuGehuxOg" javaType="long" primaryKey="true" columnName="QESATIWASE_BONES_LA" primaryKeyGeneratorStrategy="SimulatedSequence">
+  <SimulatedSequence sequenceName="QESATIWASE_BONES_HAY" sequenceObjectFactoryName="com.gs.fw.common.mithra.test.domain.ViceciDeweXesaxowoYabevoZilovul"
+                     hasSourceAttribute="false" batchSize="1" initialValue="1" incrementSize="1" />
+  </Attribute>
+  <Attribute name="bicaHupo" javaType="String" maxLength="10" columnName="DALO_XANO" />
+  <Attribute name="leticucEpinevavUxar" javaType="boolean" columnName="YACOBUD_COTOHABI_WAH" />
+  <Attribute name="susetAlayokEyotuw" javaType="int" columnName="DIMOB_GUCESU_HOMIBO" />
+  <Attribute name="nifozoNe" javaType="String" maxLength="30" columnName="WOPINE_XE" />
+  <Attribute name="sikiyoSe" javaType="String" maxLength="30" columnName="XELAFI_XE" />
+
+  <Relationship name="siratecidaDisomadu" relatedObject="GebeQonumedexaCociyi" cardinality="one-to-many"
+                relatedIsDependent="true" reverseRelationshipName="qelunalakeHifew">
+      GebeQonumedexaCociyi.yepokimoyuGehuxOg=this.yepokimoyuGehuxOg
+  </Relationship>
+
+</MithraObject>

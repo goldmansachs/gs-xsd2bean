@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-bajuxulida type="text/muj" hafu="../../../../xml/vo/peSezehu.muj"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout layoutId="petaveSonodebedeMehas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd"
+        pageTitle="Wopine Zivukome"
+        pageBuilder="com.gs.fw.kaza.hes.vo.YiyarovEcakaWonuhud" showSelection="false" feature="BekAkexopikIjuv">
+
+    <section caption="Kobuce Cuyokujo Date">
+        <row>
+            <uiElement label="Cuyokujo Date:" name="businessDate" renderAs="combobox"/>
+        </row>
+    </section>
+    <section caption="Wopine Kut Zivukome">
+        <row feature="KeyiqayuYekeBafusucezi">
+            <section>
+                <row>
+                    <button label="Zewiko Zivukome" name="bogoviFinatiw" renderAs="fileUpload"
+                            pageBuilder="com.gs.fw.kaza.hes.vo.YiyarovEcakaWonuhud.bogoviFinatiw"
+                            nextLayoutName="desa/hes/qiducaFuhifiwiNawof.xml"
+                            crumbTrail="true"
+                            validate="all"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <table name="dolAfowomoWotad" label="Wopine Kut Zivukome" rowsPerPage="0" editable="true" sortable="false" wrapHeader="true"
+                   updateMarker="false" deleteMarker="false">
+                <column attribute="value(%0)" parameter="Kav Puhijaharaf Name">
+                    <uiElement name="Kav Puhijaharaf Name" label="Kav Puhijaharaf Name" renderAs="combobox"/>
+                </column>
+                <column attribute="value(%0)" parameter="BELA or ROL">
+                    <uiElement name="BELA or ROL" label="BELA or ROL" renderAs="combobox"/>
+                </column>
+                <column attribute="value(%0)" parameter="Humopa">
+                    <uiElement name="Humopa" label="Humopa" renderAs="combobox"/>
+                </column>
+                <column attribute="value(%0)" parameter="Vuqusa Wutesomo">
+                    <uiElement name="Vuqusa Wutesomo" label="Vuqusa Wutesomo"  renderAs="combobox"/>
+                </column>
+                <column attribute="value(%0)" parameter="Juqupexo/VU">
+                    <uiElement name="Juqupexo/VU" label="Juqupexo/VU" renderAs="textbox"/>
+                </column>
+                <column attribute="value(%0)" parameter="Pik Nih">
+                    <uiElement name="Pik Nih" label="Pik Nih" renderAs="textbox"/>
+                </column>
+                <column attribute="value(%0)" parameter="Gojoyux">
+                    <uiElement name="Gojoyux" label="Gojoyux" renderAs="textbox"/>
+                </column>
+            </table>
+        </row>
+        <row feature="KeyiqayuYekeBafusucezi">
+            <button label="Jigide Gekekaq" name="taduduBinerav"
+                    confirmMsg="Mid you geri you zise to jigide these zivukome?"
+                    pageBuilder="com.gs.fw.kaza.hes.vo.YiyarovEcakaWonuhud.taduduBinerav"
+                    nextLayoutName="desa/hes/qiducaFuhifiwiNawof.xml"
+                    crumbTrail="true"
+                    validate="all"/>
+        </row>
+    </section>
+    <section caption="Pabexu Vumipibe Zivukome">
+        <row>
+            <section>
+                <row>
+                    <button label="View Zivukome" name="bavuhoWasezeto"
+                                nextLayoutName="desa/hes/qiducaFuhifiwiNawof.xml"
+                                pageBuilder="com.gs.fw.kaza.hes.vo.YiyarovEcakaWonuhud.bavuhoWasezeto"
+                                crumbTrail="true" refreshPage="true"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <table name="gibucufiQuhezerEjiju" label="Vumipibe Zivukome" editable="false"
+                   rowSelection="multi" rowsPerPage="0">
+                <column>
+                    <uiElement name="Kav Puhijaharaf Name" label="Kav Puhijaharaf Name" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="BELA or ROL" label="BELA or ROL" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="Humopa" label="Humopa" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="Vuqusa Wutesomo" label="Vuqusa Wutesomo" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="Juqupexo/VU" label="Juqupexo/VU" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="Pik Nih" label="Pik Nih" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="Gojoyux" label="Gojoyux" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="Wopine Xosi" label="Wopine Xosi" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="Sose Name" label="Sose Name" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="Yenazimuxu LA" label="Yenazimuxu LA" renderAs="label"/>
+                </column>
+            </table>
+        </row>
+    </section>
+    <section>
+        <row feature="KeyiqayuYekeBafusucezi">
+            <button label="Hamiti Yogopiho Sacu" name="muzikaWetazev" validate="all"
+                    confirmMsg="Mid you geri you zise to delete this gekekaq?"
+                    pageBuilder="com.gs.fw.kaza.hes.vo.YiyarovEcakaWonuhud.muzikaWetazev"
+                    nextLayoutName="desa/hes/qiducaFuhifiwiNawof.xml"
+                    refreshPage="true" disabledEffect="true"/>
+        </row>
+    </section>
+</layout>

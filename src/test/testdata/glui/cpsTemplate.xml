@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-bajuxulida type="text/muj" hafu="../../../../xml/vo/peSezehu.muj"?>
+
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd">
+
+    <!--<section caption="Jozoyeh" menu="true">-->
+    <!--<row>-->
+    <!--<button label="Vojiy Pizer" name="menu_mobemazapa" nextLayoutName="rukele/rib/mobemAzapa.xml"/>-->
+    <!--</row>-->
+    <!--</section>-->
+
+    <section type="header">
+        <row>
+            <uiElement name="bove"
+                renderAs="label"
+                image="/puluvo/gs_primary_bove_qoyu.toz"/>
+            <section image="/puluvo/header-background.toz">
+                <row>
+                    <uiElement name="appTitle"
+                        renderAs="label"
+                        style="jam.title.style"/>
+                </row>
+                <row>
+                    <uiElement name="pageTitle"
+                        renderAs="label"
+                        style="taso.title.style"/>
+                </row>
+            </section>
+        </row>
+    </section>
+
+    <section type="footer">
+        <row>
+            <uiElement name="hebidefet"
+                renderAs="label"
+                style="footer.style"
+                labelStyle="footer.style"/>
+            <uiElement name="gejoNi"
+                label="Sose Id:"
+                renderAs="label"
+                style="footer.style"
+                labelStyle="footer.style"/>
+        </row>
+        <row>
+            <uiElement name="varujobi"
+                renderAs="label"
+                style="footer.style"
+                labelStyle="footer.style"/>
+            <uiElement name="environment"
+                label="Dajerahinaj:"
+                renderAs="label"
+                style="footer.style"
+                labelStyle="footer.style"/>
+        </row>
+    </section>
+
+    <section type="topmenu"
+        expanded="true"
+        expandable="true">
+        <row>
+            <menubar name="menubar"
+                halign="false">
+                <menu label="PUZ"
+                    name="puz"
+                    renderAs="link">
+                    <menu label="Biyiruwe Window"
+                        name="Biyiruwe"
+                        renderAs="link"
+                        nextLayoutName="puz/biyiruwe/doborujeFiyamUlejo.xml"
+                        crumbTrail="false"
+                        ctrlMask="true"
+                        mnemonic="A"/>
+                    <menu label="Yuropenoso Window"
+                        name="Yuropenoso"
+                        renderAs="link"
+                        nextLayoutName="puz/yuropenoso/jahixakebeXoyukIpigi.xml"
+                        crumbTrail="false"
+                        ctrlMask="true"
+                        mnemonic="X"/>
+                    <menu label="Hasukay Window"
+                        name="Hasukay"
+                        renderAs="link"
+                        nextLayoutName="puz/hasukay/vukeposAmunoDicop.xml"
+                        crumbTrail="false"
+                        ctrlMask="true"
+                        mnemonic="T"/>
+                    <menu label="Yemuqi Bopohuc Window"
+                        name="TerupiPepisiy"
+                        renderAs="link"
+                        nextLayoutName="puz/terupiPepisiy/jecifuPijiriyIbura.xml"
+                        crumbTrail="false"
+                        ctrlMask="true"
+                        mnemonic="Q"/>
+                    <menu label="Jimodi Window"
+                        name="Jimodi"
+                        renderAs="link"
+                        nextLayoutName="puz/wahodiKejenAvoxo.xml"
+                        crumbTrail="false"
+                        ctrlMask="true"
+                        mnemonic="D"/>
+                    <menu label="Duzoqojimemelu"
+                        name="duzoqojimemelu"
+                        renderAs="link">
+                        <menu label="Lexez to Fizumurel"
+                            name="MasowIwAsamucigu"
+                            renderAs="link"
+                            nextLayoutName="puz/xizufUbuneXataxucunAxoraJofis.xml"
+                            crumbTrail="false"
+                            altMask="true"
+                            mnemonic="D"/>
+                        <menu label="NozewUzexi to Fizumurel"
+                            name="TucepoGiMijubunur"
+                            renderAs="link"
+                            nextLayoutName="puz/jiyohEnecalEqidecoqaTojehIjisi.xml"
+                            crumbTrail="false"
+                            altMask="true"
+                            mnemonic="P"/>
+                        <menu label="Kahutuji to Fizumurel"
+                            name="ZawakiwiLoZuziyanik"
+                            renderAs="link"
+                            nextLayoutName="puz/tokavAripucurEmefikureNalofEmowa.xml"
+                            crumbTrail="false"
+                            ctrlMask="true"
+                            mnemonic="R"/>
+                        <menu label="Fizumurel"
+                            name="Fizumurel"
+                            renderAs="link"
+                            nextLayoutName="puz/jizufOhiqufijoLatedEloke.xml"
+                            crumbTrail="false"
+                            altMask="true"
+                            mnemonic="K"/>
+                        <menu label="Kahutuji"
+                            name="Kahutuji"
+                            renderAs="link"
+                            nextLayoutName="puz/sikatIqekulomEtuzuJivor.xml"
+                            crumbTrail="false"
+                            altMask="true"
+                            mnemonic="R"/>
+                        <menu label="Yelel to Woz"
+                            name="KagupUmAke"
+                            renderAs="link"
+                            nextLayoutName="puz/duxeyAdekoXarAbixiDisav.xml"
+                            crumbTrail="false"
+                            altMask="true"
+                            mnemonic="N"/>
+                        <menu label="Jaleh to Fizumurel"
+                            name="TejuhEsIlawiyera"
+                            renderAs="link"
+                            nextLayoutName="puz/wohulItayaYisocaquqInaceDuroj.xml"
+                            crumbTrail="false"
+                            altMask="true"
+                            mnemonic="Z"/>
+                    </menu>
+                    <menu label="Pabexu Runixufayir"
+                        name="Pabexu Runixufayir"
+                        renderAs="link"
+                        nextLayoutName="puz/yewasuNazohofoxogEroga.xml"
+                        crumbTrail="false"
+                        ctrlMask="true"
+                        altMask="true"
+                        mnemonic="A"/>
+                    <menu label="Pabexu Siwel Runixufayir"
+                        name="Pabexu Siwel Runixufayir"
+                        renderAs="link"
+                        nextLayoutName="puz/pofiliNariqInorikixabi.xml"
+                        crumbTrail="false"
+                        ctrlMask="true"
+                        mnemonic="K"/>
+                    <menu label="Heqiver"
+                        name="heqiver"
+                        renderAs="link">
+                        <menu label="Wopine Yoruhapak"
+                            name="WujecuBeqecatob"
+                            renderAs="link"
+                            nextLayoutName="puz/wujecuBeqecatob.xml"
+                            crumbTrail="false"/>
+                    </menu>
+                    <menu label="Vojiquf Yenazimuxu Xuya"
+                        name="Vojiquf Yenazimuxu Xuya"
+                        renderAs="link"
+                        nextLayoutName="puz/sogoqeseyoGA.xml"
+                        crumbTrail="false"
+                        ctrlMask="true"
+                        mnemonic="N"/>
+                </menu>
+            </menubar>
+        </row>
+    </section>
+</layout>

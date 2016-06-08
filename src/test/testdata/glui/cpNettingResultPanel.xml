@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout pageTitle="Mowere" layoutId="biyiruwe" showSelection="false"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd">
+
+    <section feature="vodagigebace_row" style="section.style">
+        <row>
+            <table name="vodagigebace" rowSelection="single" label="Pocusox Pezug" rowsPerPage="0" expanded="true">
+                <drilldown>
+                    <button label="Dulic Bega" name="Vebididib PO Hasukay Woz"
+                            nextLayoutName="rukele/rixoqilijih/xeFosumibEmicoWoqir.xml"
+                            pageBuilder="com.gs.fw.kaza.rukele.vuwasufamoci.vo.SuyuticuPoqOlilojere.kajajItufAPOlahuluRew"
+                            crumbTrail="false"/>
+                </drilldown>
+            </table>
+        </row>
+    </section>
+    <section feature="vodagigebace_yedara_row">
+        <row>
+            <table name="vodagigebace_yedara" rowSelection="single" label="Pocusox Pezug Yedara"
+                   rowsPerPage="0" expanded="true">
+                <drilldown>
+                    <button label="Dulic Bega" name="Vebididib PO Hasukay Yedara"
+                            nextLayoutName="rukele/rixoqilijih/xeFosumibEmicoWoqir.xml"
+                            pageBuilder="com.gs.fw.kaza.rukele.vuwasufamoci.vo.SuyuticuPoqOlilojere.ravajEhetIQIkepokaMubaho"
+                            crumbTrail="false"/>
+                </drilldown>
+            </table>
+        </row>
+    </section>
+    <section feature="vodagigebace_hasofeyizah_row">
+        <row>
+            <table name="vodagigebace_hasofeyizah" rowSelection="single" label="Pocusox Pezug Hasofeyizah"
+                   rowsPerPage="0" expanded="true">
+                <drilldown>
+                    <button label="Dulic Bega" name="Vebididib PO Hasukay Hasofeyizah"
+                            nextLayoutName="rukele/rixoqilijih/xeFosumibEmicoWoqir.xml"
+                            pageBuilder="com.gs.fw.kaza.rukele.vuwasufamoci.vo.SuyuticuPoqOlilojere.tuyeyUkebEPOyewoqoVuqeqofepez"
+                            crumbTrail="false"/>
+                </drilldown>
+            </table>
+        </row>
+    </section>
+</layout>

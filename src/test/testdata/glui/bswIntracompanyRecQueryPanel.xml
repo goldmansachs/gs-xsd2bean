@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd"
+        layoutId="BAK Xuya" pageTitle="Witadey Qicih Duzoqojimemelu"
+        pageBuilder="com.gs.fw.kaza.takupujeri.vo.TopUpehorotohidUdoBabalEkosiGucenej" showSelection="false"
+        windowState="maximized">
+
+    <section caption="Cuyokujo Date and Qahodoqo">
+        <row>
+            <uiElement name="businessDate1" label="Cuyokujo Date" renderAs="combobox" attribute="display"
+                       sortBy="none"/>
+            <uiElement attribute="display" name="qahodoqo1" label="Qahodoqo" renderAs="combobox"
+                       sortBy="none"/>
+            <uiElement name="xosoxuva" label="Xosoxuva" renderAs="listbox" sortBy="none"
+                       attribute="display" refreshPage="true"/>
+        </row>
+    </section>
+
+    <section caption="Lozohig" expandable="true" expanded="true" feature="mosuku" name="mosuku" >
+        <row>
+            <section>
+                <row>
+                    <uiElement name="entity" label="Humopa" renderAs="listbox" attribute="display"
+                               noSelectOption="&lt;No Mosuku&gt;"/>
+                </row>
+                <row>
+                    <uiElement name="yokoFexev" label="Bere Group"
+                               renderAs="listbox" attribute="display"
+                               noSelectOption="&lt;No Mosuku&gt;"/>
+                    <uiElement name="radiKasi" label="Bere Lagu" attribute="display"
+                               renderAs="listbox"
+                               noSelectOption="&lt;No Mosuku&gt;"/>
+                </row>
+                <row>
+                    <uiElement name="jewivuy" label="Jewivuy Number"
+                               renderAs="multiItemTextbox"/>
+                    <section>
+                        <row>
+                            <button name="ziyuNodecam" image="desa/roxi.toz"
+                                    nextLayoutName="desa/lisEseqimoqaxoleqadaje.xml"
+                                    pageBuilder="com.gs.fw.kaza.desa.rutapa.vo.FigahofesAtumUnominUvuyexuTayahob.jejaFoxahahOmiQigona"/>
+                        </row>
+                    </section>
+                    <section>
+                        <row>
+                            <uiElement name="product" label="Tigaran"
+                                       renderAs="multiItemTextbox"/>
+                        </row>
+                    </section>
+                </row>
+                <row>
+                    <uiElement name="casah" label="Casah" renderAs="multiItemTextbox"/>
+                    <section>
+                        <row>
+                            <button name="soniYafif" image="desa/roxi.toz"
+                                    nextLayoutName="desa/lisEseqimoqaxoleqadaje.xml"
+                                    pageBuilder="com.gs.fw.kaza.desa.rutapa.vo.FigahofesAtumUnominUvuyexuTayahob.qopeTaketUfoWosazi"/>
+                        </row>
+                    </section>
+                </row>
+                <row>
+                    <uiElement name="kabigOdedIle" label="Yoya Kin" defaultSelection="XECEW"
+                               attribute="display" renderAs="combobox"/>
+                    <uiElement name="qeqapafIgowozu" label="Fedukoxa/Qoqunuwa" renderAs="combobox"
+                               attribute="display" defaultSelection="QES"/>
+                </row>
+                <row>
+                    <uiElement name="litupejiWifuRomav" label="Casah Group" renderAs="listbox"
+                               attribute="display" noSelectOption="&lt;No Mosuku&gt;"/>
+                </row>
+            </section>
+        </row>
+    </section>
+
+    <section caption="Group By and Qeqerif Puqivej" expandable="true" feature="ligavajUridowe" name="ligavajUridowe">
+        <row>
+            <section>
+                <row>
+                    <section>
+                        <row>
+                            <uiElement name="luvoboqanEpey" label="Type of Zedakotah"
+                                       renderAs="combobox" attribute="display"/>
+                            <uiElement name="zedakotah" label="Zedakotah" renderAs="textbox"
+                                       defaultSelection="1000000"/>
+                        </row>
+                    </section>
+                    <section>
+                        <row>
+                            <uiElement name="wecimAmid" label="View" renderAs="combobox"
+                                       attribute="display"/>
+                        </row>
+                    </section>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section>
+                <row>
+                    <uiElement attribute="display" name="hepafIq" label="Group By"
+                               renderAs="duallistbox"
+                               sortBy="none"/>
+                    <uiElement name="jicuzebi" label="Qeqerif Kocoguwen?" renderAs="checkbox"  defaultSelection="true"/>
+                </row>
+            </section>
+            <section feature="rupezodi">
+                        <row>
+                            <uiElement name="dejenIsonevub" label="Cotosifusivo Pocusox" renderAs="combobox"
+                                       attribute="display"/>
+                        </row>
+            </section>
+        </row>
+    </section>
+
+    <section feature="qojoqaTafogig" name="qojoqaTafogig">
+        <row>
+            <button name="mimeci" label="Lesihocu" renderAs="button"
+                    pageBuilder="com.gs.fw.kaza.takupujeri.vo.KipasewepasaDukAsaresaBabibol"
+                    nextLayoutName="desa/takupujeri/nuvArekuqemedekEweLariqiZiyum.xml"
+                    crumbTrail="true"/>
+        </row>
+    </section>
+
+</layout>

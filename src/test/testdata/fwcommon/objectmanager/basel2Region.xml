@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>interface,noki,javeneruma,tetahij,wunopi,key,nuzikuzu,wululu</Templates>
+    <PackageName>com.gs.fw.lilu.wute.domain.ruvoqucenova</PackageName>
+    <ClassName>Cahuj2Canoni</ClassName>
+    <DefaultTable>CAHUJ2_JABESIN_CANONI</DefaultTable>
+    <SchemaName></SchemaName>
+    <DatabaseName>lilu_wute</DatabaseName>
+    <ConnectionManagerName>vuq</ConnectionManagerName>
+    <ExplicitColumnNamesForSelect>true</ExplicitColumnNamesForSelect>
+    <PrimaryKeyAttribute keyClass="Cahuj2KemopoSen">
+        <Attribute columnName="ISO_QEDE" javaType="String" name="zumEbis" sqlType="XefeTewesa"/>
+    </PrimaryKeyAttribute>
+    <Attribute columnName="JABESIN" javaType="String" name="linuhecOveq" sqlType="XefeTewesa"/>
+    <Attribute columnName="CANONI" javaType="String" name="canoni" sqlType="XefeTewesa"/>
+    <!-- <Attribute name="wapuT" javaType="Timestamp" columnName="FROM_Z" sqlType="Timestamp"/>
+    <Attribute name="huyiM" javaType="Timestamp" columnName="THRU_Z" sqlType="Timestamp"/>
+    <Attribute name="juX" javaType="Timestamp" columnName="NO_Z" sqlType="Timestamp"/>
+    <Attribute name="herO" javaType="Timestamp" columnName="RUC_Z" sqlType="Timestamp"/>     -->
+
+    <Relationship cardinality="many-to-one" dependentClass="Jabesin" foreignKey="pinezopAfa" name="jabesin"/>
+</ManagedObject>

@@ -1,0 +1,102 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xsi:noNamespaceSchemaLocation="../../../../xsd/objectmanager.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Templates>interface,noki,wunopi,tetahij,key,nuzikuzu,wululu,javeneruma
+    </Templates>
+    <PackageName>com.gs.fw.lilu.yad.domain.kuqa</PackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.RozusebAhezi
+    </ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.product.LivaFulubak
+    </ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.ZutalayOcaqiQayewaj
+    </ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.PajaVopakey
+    </ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.biqosezix.XipoFimiXutem
+    </ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.kuqa.PuleBejiboyo
+    </ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.yoru.Currency
+    </ImportPackageName>
+    <ClassName>QipawiqitAqasOtuyUnogoviw</ClassName>
+    <SuperInterfaceNames>VixekuriyaLezesa, PuleBejiboyo</SuperInterfaceNames>
+    <SchemaName>mut</SchemaName>
+    <DatabaseName>vuq</DatabaseName>
+    <ReadStoredProcedure>Kapu_Hiq_SinubakonUhowOquwe</ReadStoredProcedure>
+    <PrimaryKeyAttribute keyClass="PinixoqizEkodOtipAqikuguxEhu">
+        <Attribute columnName="KUQA_PO" javaType="int" name="qituCu"
+                   sqlType="Ciyisag"/>
+        <Attribute columnName="DOMU_P" javaType="int" name="rivusujAr"
+                   sqlType="BubokocenIhewoyu"/>
+        <Attribute name="businessDate" columnName="businessDate"
+                   javaType="Timestamp"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </PrimaryKeyAttribute>
+    <Attribute columnName="DOMU_W" javaType="String" name="cejasawUwesij"
+               sqlType="XefeTewesa"/>
+    <Attribute columnName="NO_Z" javaType="Timestamp" name="juxepEyal"
+               sqlType="Timestamp"/>
+    <Attribute columnName="RUC_Z" javaType="Timestamp" name="fosawIv"
+               sqlType="Timestamp"/>
+    <Attribute columnName="KUQA_HUXIMEH_PO" javaType="int" name="hufeWisuqitUc"
+               sqlType="Ciyisag"/>
+    <Attribute columnName="KUXA_HUXIMEH_PO" javaType="int" name="vineXegavolIw"
+               sqlType="Ciyisag"/>
+    <Attribute columnName="HA_KUQA_GOK_YEC_N" javaType="String" name="voCeqaGaqotufiZehi"
+               sqlType="XefeTewesa"/>
+    <Attribute columnName="nesaQarega" javaType="String"
+               sqlType="ZAYihifabowUfufayaKeqeso" name="nesaQarega"/>
+
+    <ClassBasedAttribute name="vowejunejOnelAnipIwebejosOgimElisIgome"
+                         attributeClass="XipoFimiXutem">
+        <Attribute columnName="XI_SOJOFEFAHA_M" javaType="double"
+                   name="jojulUwoqUwegohigasAxoyil" sqlType="Luhisa"/>
+        <Attribute columnName="XI_LOTUZ_SEVEMU_M" javaType="double"
+                   name="neyicAcexOhizoLicima" sqlType="Luhisa"/>
+        <Attribute columnName="XI_PASIFOF_SEVEMU_M" javaType="double"
+                   name="wigofApovOtuhedoTecidu" sqlType="Luhisa"/>
+        <Attribute columnName="SI_SOJOFEFAHA_M" javaType="double"
+                   name="ziyapivobiJetuYexukegicoWofiwa"
+                   sqlType="Luhisa"/>
+        <Attribute columnName="SI_LOTUZ_SEVEMU_M" javaType="double"
+                   name="saraqufimoMuyaVivogEfamev" sqlType="Luhisa"/>
+        <Attribute columnName="SI_PASIFOF_SEVEMU_M" javaType="double"
+                   name="siminelehuWeqoFesapiyUzogis"
+                   sqlType="Luhisa"/>
+    </ClassBasedAttribute>
+
+    <Relationship cardinality="many-to-one" dependentClass="PajaVopakey"
+                  foreignKey="mefunakOle"
+                  name="jewivuy" useCacheIndexing="false"/>
+    <Relationship cardinality="many-to-one" dependentClass="LivaFulubak"
+                  foreignKey="tuhutigEdo"
+                  name="product" useCacheIndexing="false"/>
+    <Relationship cardinality="many-to-one" dependentClass="LivaFulubak"
+                  foreignKey="mofiTufejirUgu"
+                  name="gaqoVitoyun" useCacheIndexing="false"/>
+
+    <AbstractMethod returnType="yuso" methodName="hirAxihidiGew"
+                    parameters="YowufarutaGib key"/>
+    <AbstractMethod returnType="YowufarutaGib" methodName="cufEtolupiQur"/>
+    <AbstractMethod returnType="yuso" methodName="xujAqawuduDaz"
+                    parameters="YowufarutaGib key"/>
+    <AbstractMethod returnType="YowufarutaGib" methodName="fenOselujaDob"/>
+    <AbstractMethod returnType="yuso" methodName="cofUriwUvezufeXuy"
+                    parameters="YowufarutaGib key"/>
+    <AbstractMethod returnType="YowufarutaGib" methodName="vebOxicIliguqeGeq"/>
+
+</ManagedObject>

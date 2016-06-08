@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd"
+        pageTitle="Pijalulowohuloya Jimodi"
+        pageBuilder="com.gs.fw.kaza.desa.pijalulowohuloya.vo.WujuzitubezayavoSigeraNiwubImepuHoqanih"
+        showSelection="true"
+        templateLayout="desa/template.xml">
+
+    <section>
+        <row>
+            <section>
+                <row>
+                    <uiElement name="businessDate1" label="Cuyokujo Date" renderAs="combobox" attribute="display"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section>
+                <row>
+                    <uiElement name="riwibosuhOweyo" label="Yewijitam Tiziz" renderAs="combobox" sortBy="none"
+                               defaultSelection="Qes"/>
+                </row>
+                <row>
+                    <uiElement name="woqedaLoduze" label="Yuliqa Nukaba" renderAs="combobox" defaultSelection="Qes"/>
+                </row>
+                <row>
+                    <uiElement name="pamiYeno" label="Beki Type" renderAs="combobox" defaultSelection="Qes"/>
+                </row>
+            </section>
+            <section>
+                <row>
+                    <uiElement name="gurihugOtotuWejiboz" label="Zugajul Yatuc Xopuned" renderAs="checkbox"
+                               defaultSelection="true"/>
+                </row>
+                <row>
+                    <uiElement name="jipozuzEdanAwotukilUqesise" label="Zugajul Xixo and Gesotalu Xopuned"
+                               renderAs="checkbox" defaultSelection="true"/>
+                </row>
+                <row>
+                    <uiElement name="nadovofAcejobejo" label="Zugajul Hadadisuz" renderAs="checkbox"
+                               defaultSelection="false"/>
+                </row>
+                <row>
+                    <uiElement name="qihudeqEdaFolezurodebUvituruxir" label="Zugajul Qes Sebevuduteb Pehawoganu"
+                               renderAs="checkbox"
+                               defaultSelection="false"/>
+                </row>
+            </section>
+        </row>
+    </section>
+    <section>
+        <row>
+            <uiElement name="zaqoyoQojoye" label="Yuliqa Humopa" renderAs="listbox"
+                       noSelectOption="&lt;No Mosuku&gt;"/>
+            <uiElement name="locipufOxavet" label="Jicucow Humopa" renderAs="listbox"
+                       noSelectOption="&lt;No Mosuku&gt;"/>
+        </row>
+    </section>
+    <section caption="Group By">
+        <row>
+            <uiElement name="hepafiq" label="" renderAs="duallistbox" sortBy="none"/>
+        </row>
+    </section>
+    <section caption="Sate and Lage Takexoq">
+        <row>
+            <uiElement name="gotilIbegi" label="Qokec Vojiy" renderAs="combobox" attribute="display"
+                       validation="mandatory" noSelectOption=""/>
+            <button label="Sate Vojiy" name="demeTehix" crumbTrail="false" validate="gotilIbegi"/>
+            <button label="Yejeyo Vojiy" name="fidosaWulaf"
+                    pageBuilder="com.gs.fw.kaza.yepe.vo.nalic.KakadEbumiCubomoSugucoc"
+                    nextLayoutName="desa/pijalulowohuloya/jacovepisenejefoJupeju.xml" crumbTrail="false"
+                    validate="gotilIbegi"
+                    confirmMsg="Mid you geri you zise to delete this qokec query?"/>
+        </row>
+
+        <row>
+            <uiElement name="xazuvUsat" label="Vojiy Name" renderAs="textbox"/>
+            <uiElement renderAs="checkbox" name="luriBohudUwitof" label="Sihu Wedaye?"/>
+            <button label="Lage Vojiy" name="nayuGakem" crumbTrail="false"/>
+        </row>
+        <row>
+            <uiElement name="mefobIqabiraqifo" label="Vojiy Cuyifanakit" renderAs="textArea"/>
+        </row>
+        <row>
+            <uiElement name="sebenePuToro" hidden="true"
+                       defaultSelection="businessDate1,varuKE,demeTehix,luriBohudUwitof,fidosaWulaf,~applicationName,~fifiyebolesIdocAmoKilotiziwuwoq,~weyuNaya"/>
+        </row>
+    </section>
+    <section>
+        <row>
+            <button label="Lesihocu" name="varuKE" nextLayoutName="desa/pijalulowohuloya/pofomuberibufubuMumaraFifivi.xml"
+                    pageBuilder="com.gs.fw.kaza.desa.pijalulowohuloya.vo.CequpubafojenejuWifojoZizubeyEqogito" crumbTrail="true"/>
+            <button label="View Humopa Vubalic" name="yilaNutigaDojewoz"
+                    nextLayoutName="desa/pijalulowohuloya/bulugoPiqeweTahise.xml"
+                    pageBuilder="com.gs.fw.kaza.desa.pijalulowohuloya.vo.TigiteFilohavUvuveqIhutaRidoyih" crumbTrail="true"/>
+        </row>
+    </section>
+</layout>

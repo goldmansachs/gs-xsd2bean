@@ -1,0 +1,200 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:annotation>
+        <xsd:documentation xml:lang="en">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis no
+        </xsd:documentation>
+    </xsd:annotation>
+    <xsd:element name="application" type="ApplicationType"/>
+    <xsd:element name="service-definition" type="ServiceDefinitionType"/>
+    <xsd:element name="services" type="ServicesType"/>
+
+    <xsd:complexType name="ApplicationType">
+        <xsd:sequence>
+            <xsd:element ref="services" minOccurs="0"/>
+            <xsd:element name="properties" type="PropertiesType" minOccurs="0"/>
+        </xsd:sequence>
+        <xsd:attribute name="implementation" type="xsd:token"/>
+        <xsd:attribute name="name" type="xsd:token" use="required"/>
+        <xsd:attribute name="ignoreLoadFailures" type="xsd:token" default="false"/>
+        <xsd:attribute name="useTrove" type="xsd:boolean" default="false">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis no
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="ServicesType">
+        <xsd:sequence>
+            <xsd:element name="service-instance" type="ServiceInstanceType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="embedded-instance" type="EmbeddedInstanceType" minOccurs="0" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="ServiceInstanceType">
+        <xsd:sequence>
+            <xsd:element ref="service-definition" minOccurs="0"/>
+        </xsd:sequence>
+        <xsd:attribute name="id" type="xsd:token" use="required"/>
+        <xsd:attribute name="type" type="xsd:token" use="required"/>
+        <xsd:attribute name="implementation" type="xsd:token" use="required"/>
+        <xsd:attribute name="instantiateUsingFactory" type="xsd:boolean"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="ServiceDefinitionType">
+        <xsd:sequence>
+            <xsd:element ref="services" minOccurs="0"/>
+            <xsd:element name="properties" type="PropertiesType" minOccurs="0"/>
+        </xsd:sequence>
+        <xsd:attribute name="interface" type="xsd:token"/>
+        <xsd:attribute name="implementation" type="xsd:token" use="required"/>
+        <xsd:attribute name="singleton" type="xsd:boolean"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="EmbeddedInstanceType">
+        <xsd:sequence>
+            <xsd:element ref="services" minOccurs="0"/>
+            <xsd:element name="properties" type="PropertiesType" minOccurs="0"/>
+        </xsd:sequence>
+        <xsd:attribute name="id" type="xsd:token" use="required"/>
+        <xsd:attribute name="interface" type="xsd:token"/>
+        <xsd:attribute name="implementation" type="xsd:token" use="required"/>
+        <xsd:attribute name="instantiateUsingFactory" type="xsd:boolean"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="PropertiesType">
+        <xsd:sequence>
+            <xsd:element name="scalar" type="ScalarType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="list" type="ListType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="map" type="MapType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="location" minOccurs="0" maxOccurs="unbounded">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="environment" minOccurs="0" maxOccurs="unbounded">
+                            <xsd:complexType>
+                                <xsd:sequence>
+                                    <xsd:element name="scalar" type="ScalarType" minOccurs="0" maxOccurs="unbounded"/>
+                                    <xsd:element name="list" type="ListType" minOccurs="0" maxOccurs="unbounded"/>
+                                    <xsd:element name="map" type="MapType" minOccurs="0" maxOccurs="unbounded"/>
+                                </xsd:sequence>
+                                <xsd:attribute name="name" type="EnvironmentType" use="required"/>
+                            </xsd:complexType>
+                        </xsd:element>
+                    </xsd:sequence>
+                    <xsd:attribute name="name" type="LocationType" use="required"/>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="ScalarType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:token">
+                <xsd:attributeGroup ref="PropertyAttributes"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="ListType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                Lorem ipsum dolor sit amet, <code>consectetur</code> adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis no
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="value" type="xsd:token" minOccurs="0" maxOccurs="unbounded"/>
+        </xsd:sequence>
+        <xsd:attributeGroup ref="PropertyAttributes"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="MapType">
+        <xsd:sequence>
+            <xsd:element name="pair" type="PropertyPairType" minOccurs="0" maxOccurs="unbounded"/>
+        </xsd:sequence>
+        <xsd:attributeGroup ref="PropertyAttributes"/>
+    </xsd:complexType>
+
+    <xsd:attributeGroup name="PropertyAttributes">
+        <xsd:attribute name="name" type="xsd:token" use="required"/>
+        <xsd:attribute name="invokeSetter" type="xsd:boolean"/>
+        <xsd:attribute name="type" type="PropertyType" default="string"/>
+    </xsd:attributeGroup>
+
+    <xsd:complexType name="PropertyPairType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:token">
+                <xsd:attribute name="name" type="xsd:token"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+
+    <xsd:simpleType name="LocationType">
+        <xsd:restriction base="xsd:token">
+            <xsd:enumeration value="NYK"/>
+            <xsd:enumeration value="NYB"/>
+            <xsd:enumeration value="LDN"/>
+            <xsd:enumeration value="TKO"/>
+            <xsd:enumeration value="nyk"/>
+            <xsd:enumeration value="ldn"/>
+            <xsd:enumeration value="tko"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="EnvironmentType">
+        <xsd:restriction base="xsd:token">
+            <xsd:enumeration value="PROD"/>
+            <xsd:enumeration value="TEST"/>
+            <xsd:enumeration value="QA"/>
+            <xsd:enumeration value="QAC"/>
+            <xsd:enumeration value="UAT"/>
+            <xsd:enumeration value="UAT1"/>
+            <xsd:enumeration value="UAT2"/>
+            <xsd:enumeration value="UAT3"/>
+            <xsd:enumeration value="prod"/>
+            <xsd:enumeration value="test"/>
+            <xsd:enumeration value="qa"/>
+            <xsd:enumeration value="qac"/>
+            <xsd:enumeration value="PRODTEST"/>
+            <xsd:enumeration value="prodtest"/>
+            <xsd:enumeration value="CSQTEST"/>
+            <xsd:enumeration value="PRICINGENGINE_GLEW"/>
+            <xsd:enumeration value="PRICINGENGINE_GLEW_QTP"/>
+            <xsd:enumeration value="PRICINGENGINE_GLEW_QTP_M"/>
+            <xsd:enumeration value="AUTO_QA"/>
+            <xsd:enumeration value="AUTO_PROD"/>
+            <xsd:enumeration value="AUTO_DEV"/>
+            <xsd:enumeration value="AUTO_QTPPROD"/>
+            <xsd:enumeration value="TEST_QA"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="PropertyType">
+        <xsd:restriction base="xsd:token">
+            <xsd:enumeration value="string"/>
+            <xsd:enumeration value="boolean"/>
+            <xsd:enumeration value="integer"/>
+            <xsd:enumeration value="float"/>
+            <xsd:enumeration value="file"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+</xsd:schema>

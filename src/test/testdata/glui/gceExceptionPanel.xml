@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd"
+        pageTitle="HIQ Henehilut Pabexu" pageBuilder="com.gs.fw.kaza.desa.xivezede.vo.MukEzoxiWovamUsitati" showSelection="true"
+        templateLayout="desa/template.xml">
+
+    <section caption="Cuyokujo Date and Qahodoqo">
+        <row>
+            <section>
+                <row>
+                    <uiElement name="businessDate1" label="Cuyokujo Date" renderAs="combobox" attribute="display"
+                               sortBy="none"/>
+                    <uiElement attribute="display" name="qahodoqo1" label="Qahodoqo" renderAs="combobox"
+                               sortBy="none"/>
+                </row>
+            </section>
+        </row>
+    </section>
+
+    <section caption="Nixu Vayus Xinocepe">
+        <row>
+            <uiElement name="podohoKuRimurinu" label="Xakude" renderAs="combobox" attribute="display"
+                       />
+            <button label="Xinocepe Qes" name="varuKE" nextLayoutName="desa/coCegOpewuboFifuq.xml" crumbTrail="true" validate="businessDate2"
+                    pageBuilder="com.gs.fw.kaza.desa.xivezede.vo.YeXodAmoyiHirijogOkavavi"/>
+        </row>
+    </section>
+
+        <section caption="Gidelo Vojiy" expandable="false" expanded="true">
+        <row>
+            <section>
+                <row>
+                    <section>
+                        <row>
+                            <uiElement name="refUguwed" label="Humopa" renderAs="listbox" attribute="display"
+                                       noSelectOption="&lt;No Mosuku&gt;"/>
+                        </row>
+                    </section>
+                </row>
+            </section>
+        </row>
+        <row>
+            <section caption="Mosuku Overrides" expandable="true" expanded="false">
+                <row>
+                    <section>
+                        <row>
+                            <uiElement name="tatewixEbekAzifo" label="Tazamel Cabo Curux" renderAs="listbox" attribute="display"
+                                       noSelectOption="&lt;No Mosuku&gt;"/>
+                            <uiElement name="zujaropamovUvumu" label="Yizonolihoz Curux" renderAs="listbox"
+                                       attribute="display"
+                                       noSelectOption="&lt;No Mosuku&gt;"/>
+                            <uiElement name="minumaliyEsovaje" label="Faloxolaw Tanayaw" renderAs="listbox" attribute="display"
+                                       noSelectOption="&lt;No Mosuku&gt;"/>
+                        </row>
+                        <row>
+                            <uiElement name="qilukahawApume" label="Henehilut Curux" renderAs="listbox" attribute="display"
+                                       noSelectOption="&lt;No Mosuku&gt;"/>
+                        </row>
+                    </section>
+                </row>
+                <!--<row>-->
+                    <!--<section caption="Batogam lozohig">-->
+                        <!--<row>-->
+                            <!--<uiElement name="davowOmo" label="Mefabofiwopa fizumurel only" renderAs="checkbox" defaultSelection="true"/>-->
+                            <!--<uiElement name="fuFow" label="HIQ faloxolaw tanayaw only" renderAs="checkbox" defaultSelection="true"/>-->
+                        <!--</row>-->
+                    <!--</section>-->
+                <!--</row>-->
+            </section>
+        </row>
+        <row>
+            <section>
+                <row>
+                    <button label="Lesihocu" name="varuKE" nextLayoutName="desa/coCegOpewuboFifuq.xml" crumbTrail="true" validate="businessDate2"
+                            pageBuilder="com.gs.fw.kaza.desa.xivezede.vo.YeXodAmoyiHirijogOkavavi"/>
+                </row>
+            </section>
+        </row>
+    </section>
+
+</layout>

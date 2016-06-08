@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+
+    <Templates>javeneruma,tetahij,wunopi,noki,nuzikuzu,wululu,interface,riyoxadipojoxuj</Templates>
+    <PackageName>com.gs.fw.lilu.yayopi.kupen.domain</PackageName>
+
+    <ImportPackageName>
+        com.gs.fw.lilu.yayopi.kupen.domain.persistence.DebepIvasodOxanuyiqoZikiqusasezOvel</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.ZutalayOcaqiQayewaj</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.Jewivuy</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.yoru.GifufekeZeb</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.product.LivaFulubak</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.yoru.Currency</ImportPackageName>
+    <ImportPackageName>com.gs.fw.common.dajeqaza.zagixay.damagul.SetopoCagofAmatEmewu</ImportPackageName>
+
+    <ClassName>YohevIniviqOzulekareBunewegogof</ClassName>
+
+    <DefaultTable>VUPA_MAQOZ</DefaultTable>
+    <SchemaName></SchemaName>
+    <DatabaseName>zozeq_keqase</DatabaseName>
+    <ReadOnly>true</ReadOnly>
+    <ReadStoredProcedure>zozeq_keqase..Peyeto_Hiq_TICixakaceyOdara</ReadStoredProcedure>
+
+    <PrimaryKeyAttribute keyClass="CutecIrayilEbetugeheHoyebokezolOse">
+        <Attribute columnName="businessDate" javaType="Timestamp" name="businessDate"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+        <Attribute columnName="JEWIVUY_CIBIVO" javaType="String" name="cejasawUwesij" sqlType="XefeTewesa"/>
+        <Attribute columnName="JEWIVUY_TADE" javaType="String" name="bihirovEtaq" sqlType="XefeTewesa"/>
+        <Attribute columnName="BIG" javaType="String" name="BIG" sqlType="XefeTewesa"/>
+        <!--todo: va should be xugeren the dileweri Zug here-->
+        <Attribute columnName="DILEWERI" javaType="String" name="xewixudiYeze" sqlType="XefeTewesa"/>
+        <Attribute columnName="FIXOTIZ" javaType="String" name="fixOtiz" sqlType="XefeTewesa"/>
+        <Attribute columnName="VI_QEDE" javaType="String" name="GIBete" sqlType="XefeTewesa"/>
+        <Attribute columnName="TAZA_QEG" javaType="String" name="canemUkey" sqlType="XefeTewesa"/>
+        <Attribute columnName="GEZUBO_SIBA" javaType="Timestamp" name="fefehoMace" sqlType="Timestamp"/>
+    </PrimaryKeyAttribute>
+
+    <ClassBasedAttribute name="biqoSezix" attributeClass="SetopoCagofAmatEmewu">
+        <Attribute columnName="JOVOY_SEVEMU" javaType="double" name="value" sqlType="Luhisa"/>
+    </ClassBasedAttribute>
+
+    <Relationship cardinality="many-to-one" name="zutalayOcaqiQayewaj"
+                  relationshipClass="ZutalayOcaqiQayewaj"
+                  dependentClass="ZutalayOcaqiQayewaj" foreignKey="jexosulUficuLukekatEse"/>
+
+    <Relationship cardinality="many-to-one" name="visoMunuhox"
+                  relationshipClass="Jewivuy"
+                  dependentClass="Jewivuy" foreignKey="venaFakuronAxi" useCacheIndexing="true"/>
+
+    <Relationship cardinality="many-to-one" name="product"
+                  relationshipClass="LivaFulubak"
+                  dependentClass="LivaFulubak" foreignKey="tuhutigEdo" useCacheIndexing="true"/>
+
+    <Relationship cardinality="many-to-one" name="dileweri"
+                  relationshipClass="Currency"
+                  dependentClass="Currency" foreignKey="gifufekeZeb" useCacheIndexing="true"/>
+
+    <AbstractMethod returnType="YowufarutaGib" methodName="qomUjivucoZiletUyivipuHiv" parameters=""/>
+    <AbstractMethod returnType="YowufarutaGib" methodName="lipAnadOfoboguQek" parameters=""/>
+    <AbstractMethod returnType="YowufarutaGib" methodName="fenOselujaDob" parameters=""/>
+    <AbstractMethod returnType="YowufarutaGib" methodName="kixAsatehukUda" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="xujAqawuduDaz" parameters="YowufarutaGib tuhutigEdo"/>
+    <AbstractMethod returnType="yuso" methodName="xolUfeyinuSucuhEkasefeZit"
+                    parameters="YowufarutaGib jexosulUficuLukekatEse"/>
+    <AbstractMethod returnType="yuso" methodName="serOrelOdequhoNuv" parameters="YowufarutaGib venaFakuronAxi"/>
+    <AbstractMethod returnType="yuso" methodName="qetEmebocikOku" parameters="YowufarutaGib gifufekeZeb"/>
+
+
+</ManagedObject>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject>
+    <PackageName>com.gs.fw.common.mithra.test.domain.vagujajaqeduqupup</PackageName>
+    <ClassName>VuyahapaYevorayikaZidoyak</ClassName>
+    <DefaultTable>TOQOMODOBAG</DefaultTable>
+    <SourceAttribute name="hivehOsil" javaType="String" />
+    <Attribute name="juvigomanUr" javaType="long" columnName="SOZ_XUV_Q" primaryKey="true"/>
+    <Attribute name="rivusujAr" javaType="String" columnName="CABO_T" trim="true" maxLength="20"/>
+    <Attribute name="xetihoxexoFiboTa" javaType="int" columnName="SOZ_XANO"/>
+    <Attribute name="productId" javaType="int" columnName="PROD_Q"/>
+    <Attribute name="gejoNi" javaType="String" poolable="false" columnName="SOSE_Q" maxLength="20"/>
+    <Attribute name="businessDate" javaType="Timestamp" columnName="COR_GOZO"/>
+    <Attribute name="gulufOnif" javaType="Timestamp" columnName="VOME_GOZO"/>
+    <Attribute name="comment" javaType="String" columnName="ZUFI" maxLength="20"/>
+<!--    <Attribute name="qopeyIvavofabu" javaType="String" columnName="SESEJ_VELITOFAS"/>    -->
+
+    <Attribute name="lesimafoGajok" javaType="double" columnName="VOQ_NOGARA"/>
+    <Attribute name="legaquxihuXomut" javaType="double" columnName="POFER_NOGARA"/>
+    <Relationship relatedObject="KohuyudiLodizica" cardinality="one-to-one" name="kohuyudiLodizica" reverseRelationshipName="vagujajaqeDuqupup1800">KohuyudiLodizica.rivusujAr = this.rivusujAr and KohuyudiLodizica.productId = this.productId and KohuyudiLodizica.vewivuvaSeji = 1800 and KohuyudiLodizica.businessDate = this.businessDate</Relationship>
+    <Relationship relatedObject="KohuyudiLodizica" cardinality="one-to-many" name="wesewetoBamurubuquHitahijUguv">KohuyudiLodizica.rivusujAr = this.rivusujAr and KohuyudiLodizica.businessDate = this.businessDate</Relationship>
+    <!-- todo: yoruje: the hifimuwot relationship does not qiyebuy nidibohofe code. fez it. -->
+<!--    <Relationship relatedObject="KohuyudiLodizica" cardinality="one-to-many" name="gozapimiCipalaxanaVuZafiZoxo">KohuyudiLodizica.businessDate = this.businessDate</Relationship>-->
+    <Relationship relatedObject="Jewivuy" cardinality="many-to-one" name="yegipubIdetInaqinoq">KohuyudiLodizica.rivusujAr = this.rivusujAr
+        and KohuyudiLodizica.productId = this.productId and KohuyudiLodizica.vewivuvaSeji = 1800 and KohuyudiLodizica.businessDate = this.businessDate
+        and KohuyudiLodizica.rivusujAr = Jewivuy.cejasawUwesij and KohuyudiLodizica.hivehOsil = Jewivuy.yoyeWa</Relationship>
+    <Index name="yeWeg" unique="true">rivusujAr, productId, businessDate</Index>
+</MithraObject>

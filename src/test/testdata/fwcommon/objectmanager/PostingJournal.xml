@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>javeneruma,interface,noki,wunopi,tetahij,key,nuzikuzu</Templates>
+    <PackageName>com.gs.fw.lilu.cowow.domain.sefixaci</PackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.*</ImportPackageName>
+    <ClassName>GozavomOcodupa</ClassName>
+    <DefaultTable>ZAKE_WOTOZOW_SEFIXACI</DefaultTable>
+    <SchemaName>mut</SchemaName>
+    <DatabaseName>cowow</DatabaseName>
+    <ConnectionManagerName>zoqew</ConnectionManagerName>
+    <ReadOnly>true</ReadOnly>
+    <ExplicitColumnNamesForSelect>true</ExplicitColumnNamesForSelect>
+    <PrimaryKeyAttribute keyClass="QiweyatOguzatoHah">
+        <Attribute columnName="WOTEP_PAXICE_P" javaType="int" name="hequdeDo" sqlType="Ciyisag"/>
+        <Attribute columnName="JEXAKEWOB_N" javaType="String" name="xacarojutElow" sqlType="XefeTewesa"/>
+        <Attribute columnName="QABAYA_N" javaType="String" name="weyuxiVidu" sqlType="XefeTewesa"/>
+        <Attribute columnName="DOMU_W" javaType="String" name="cejasawUwesij" sqlType="XefeTewesa"/>
+        <Attribute columnName="VEWOC_CIQ_N" javaType="String" name="dileweri" sqlType="XefeTewesa"/>
+        <Attribute columnName="WOTOZOW_SIBA_Z" name="hukumedAnej" javaType="Timestamp" sqlType="Timestamp"/>
+        <Attribute columnName="SAMEMISIF_SIBA_Z" javaType="Timestamp" name="daralovawUwot" sqlType="Timestamp"/>
+        <Attribute columnName="ZOKAQAK_PO_N" javaType="String" name="wuqiQuNezi" sqlType="XefeTewesa"/>
+        <Attribute columnName="TUMO_CIBIVO_N" javaType="String" name="bonuTuza" sqlType="XefeTewesa"/>
+        <Attribute columnName="VEWOC_CIQ_DAMAGUL" javaType="double" name="vebubOseRojazog" sqlType="Luhisa"/>
+    </PrimaryKeyAttribute>
+    <Attribute columnName="HOJI_CIQ_DAMAGUL" javaType="double" name="hiviBuvEgozowa" sqlType="Luhisa"/>
+
+    <ForeignKeyAttribute name="mefunakOle" keyClass="YARAsawitaRar">
+        <Attribute columnName="DOMU_W" javaType="String" name="cejasawUwesij" sqlType="XefeTewesa"/>
+        <Attribute columnName="VUXA_N" javaType="String" name="hosaKupi" sqlType="XefeTewesa"/>
+        <Attribute columnName="JEXAKEWOB_N" javaType="String" name="xacarojutElow" sqlType="XefeTewesa"/>
+        <Attribute columnName="QABAYA_N" javaType="String" name="weyuxiVidu" sqlType="XefeTewesa"/>
+    </ForeignKeyAttribute>
+
+    <ForeignKeyAttribute name="wuqaloHel" keyClass="WuqaloHel">
+        <Attribute columnName="WOTEP_PAXICE_P" javaType="int" name="hequdeDo" sqlType="Ciyisag"/>
+    </ForeignKeyAttribute>
+
+    <Relationship cardinality="many-to-one" useCacheIndexing="true" dependentClass="MEWUwupaxo" foreignKey="mefunakOle" name="mewUwupaxo"/>
+    <Relationship cardinality="many-to-one" useCacheIndexing="true" dependentClass="Paxice" foreignKey="wuqaloHel" name="entity"/>
+
+</ManagedObject>
+

@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+
+<project name="xsd2bean" default="all">
+    <property environment="env"/>
+    <property name="xsd2bean.version" value="1.4.2"/>
+    <property name="jdk.home" value="${env.JDK_HOME}"/>
+    <property name="xsd2bean.home" value="${env.XSD2BEAN_HOME}"/>
+    <property name="build.dir" location="${xsd2bean.home}/build"/>
+    <property name="target.dir" location="${xsd2bean.home}/target"/>
+    <property name="xsd2bean.source.dir" location="${xsd2bean.home}/src/main/java"/>
+    <property name="xsd2bean.testsource.dir" location="${xsd2bean.home}/src/test/java"/>
+    <property name="xsd2bean.classes.dir" location="${xsd2bean.home}/target/classes"/>
+    <property name="xsd2bean.testclasses.dir" location="${xsd2bean.home}/target/test-classes"/>
+    <property name="build.lib.dir" location="${xsd2bean.home}/build/lib"/>
+    <property name="xsd2bean.templates.dir" location="${xsd2bean.home}/src/main/templates"/>
+    <property name="xsd2bean.log4j.config.file" location="${xsd2bean.home}/src/test/resources/log4jWarn.config"/>
+    <property name="generated.src.dir" location="${target.dir}/generated-src"/>
+    <property name="generated.testsrc.dir" location="${target.dir}/generated-test-src"/>
+    <property name="xsd2bean.generateConcreteClasses" value="${env.GENERATE_XSD2BEAN_CONCRETE_CLASSES}"/>
+
+
+    <path id="xsd2bean.classpath">
+    </path>
+
+    <path id="jasper.classpath">
+        <pathelement location="${build.lib.dir}/servlet-api-2.5.jar"/>
+        <pathelement location="${build.lib.dir}/jsp-api-2.1.jar"/>
+        <pathelement location="${build.lib.dir}/el-api-2.1.jar"/>
+        <pathelement location="${build.lib.dir}/jasper-6.0.16.jar"/>
+        <pathelement location="${build.lib.dir}/jasper-el-6.0.16.jar"/>
+        <pathelement location="${build.lib.dir}/juli-6.0.16.jar"/>
+    </path>
+
+    <path id="xsd2beangen.classpath">
+        <pathelement path="${xsd2bean.classes.dir}"/>
+    </path>
+
+    <path id="xsd2bean.test.classpath">
+        <path refid="xsd2bean.classpath"/>
+        <path refid="xsd2beangen.classpath"/>
+        <pathelement location="${build.lib.dir}/junit-4.12.jar"/>
+        <pathelement location="${build.lib.dir}/hamcrest-core-1.3.jar"/>
+        <pathelement location="${build.lib.dir}/log4j-1.2.17.jar"/>
+    </path>
+
+    <path id="xsd2bean.test.run.classpath">
+        <pathelement path="${xsd2bean.testclasses.dir}"/>
+        <path refid="xsd2bean.test.classpath"/>
+    </path>
+
+    <target name="gen-xsd2bean-version-class" depends="init-xsd2bean">
+
+        <dependset>
+            <srcfileset
+                dir="${build.dir}"
+                includes="build.xml"/>
+            <targetfileset
+                dir="${generated.src.dir}/com/gs/fw/common/freyaxml/generator"
+                includes="FreyaXmlVersion.java"/>
+        </dependset>
+
+        <copy file="${xsd2bean.templates.dir}/FreyaXmlVersion.tmpl"
+              toFile="${generated.src.dir}/com/gs/fw/common/freyaxml/generator/FreyaXmlVersion.java">
+        </copy>
+        <replace casesensitive="true" dir="${generated.src.dir}/com/gs/fw/common/freyaxml/generator" includes="FreyaXmlVersion.java">
+            <replacefilter token="%PACKAGE_NAME%" value="com.gs.fw.common.freyaxml.generator"/>
+        </replace>
+        <replace casesensitive="true" dir="${generated.src.dir}/com/gs/fw/common/freyaxml/generator" includes="FreyaXmlVersion.java">
+            <replacefilter token="%XSD2BEAN_VERSION_STRING%" value="${xsd2bean.version}"/>
+        </replace>
+        <replace casesensitive="true" dir="${generated.src.dir}/com/gs/fw/common/freyaxml/generator" includes="FreyaXmlVersion.java">
+            <replacefilter token="%FREYAXML_VERSION%" value="${xsd2bean.version}"/>
+        </replace>
+        <replaceregexp file="${generated.src.dir}/com/gs/fw/common/freyaxml/generator/FreyaXmlVersion.java"
+                         match="=[ ]*([0-9]+).([0-9]+).([0-9]+)"  replace="= \1 &lt;&lt; 16 | \2 &lt;&lt; 8 | \3"/>
+
+    </target>
+
+    <target name="all" depends="compile-xsd2bean-generator"/>
+
+    <target name="sanity-check-xsd2bean">
+        <available property="jdk.sanity.check" classname="java.sql.Connection" ignoresystemclasses="true">
+            <classpath>
+                <pathelement location="${jdk.home}/jre/lib/rt.jar"/>
+            </classpath>
+        </available>
+        <fail message="Could not find the JDK! Check ${jdk.home}." unless="jdk.sanity.check"/>
+        <available property="xsd2bean.sanity.check" file="${xsd2bean.home}/src/main/java/com/gs/fw/common/freyaxml/generator/FreyaXmlException.java"/>
+        <fail message="Could not find Xsd2bean sources. Check ${xsd2bean.home}." unless="xsd2bean.sanity.check"/>
+    </target>
+
+    <target name="determine-jdk">
+        <available property="jdk16" classname="java.util.ArrayDeque" ignoresystemclasses="true">
+            <classpath>
+                <pathelement location="${jdk.home}/jre/lib/rt.jar"/>
+            </classpath>
+        </available>
+    </target>
+
+    <target name="init-xsd2bean" depends="determine-jdk, sanity-check-xsd2bean">
+        <tstamp/>
+        <mkdir dir="${target.dir}"/>
+        <mkdir dir="${xsd2bean.classes.dir}"/>
+        <mkdir dir="${xsd2bean.testclasses.dir}"/>
+        <mkdir dir="${generated.src.dir}"/>
+        <mkdir dir="${generated.testsrc.dir}"/>
+        <condition property="is.windows">
+            <os family="windows"/>
+        </condition>
+    </target>
+
+    <target name="check-template-generation" depends="init-xsd2bean">
+        <uptodate property="template-generation.notRequired" targetfile="${generated.src.dir}/com/gs/fw/common/freyaxml/templates/simple/Abstract_jsp.java" >
+          <srcfiles dir= "${xsd2bean.templates.dir}" includes="**/*"/>
+        </uptodate>
+    </target>
+
+    <target name="generate-templates" depends="check-template-generation" unless="template-generation.notRequired">
+        <taskdef name="jasper2" classname="org.apache.jasper.JspC" loaderRef="jasper">
+            <classpath refid="jasper.classpath"/>
+        </taskdef>
+        <delete quiet="true">
+            <fileset dir="${generated.src.dir}/com/gs/fw/common/freyaxml/templates" includes="**/*.java" />
+        </delete>
+        <jasper2 outputDir="${generated.src.dir}"
+            uriRoot="${xsd2bean.templates.dir}"
+            package="com.gs.fw.common.freyaxml.templates"
+            listErrors="true"
+            verbose="0"
+            compile="false">
+        </jasper2>
+        <replaceregexp byline="true">
+            <regexp pattern="import javax.servlet\.\*;"/>
+            <substitution expression="import java.io.*;"/>
+            <fileset dir="${generated.src.dir}/com/gs/fw/common/freyaxml/templates" includes="**/*.java" />
+        </replaceregexp>
+        <replaceregexp byline="true"><!-- this removes all the unwanted lines -->
+            <regexp pattern=".* javax.servlet.*|.*_el_expressionfactory.*|.*_jsp_annotationprocessor.*|extends org\.apache\.jasper\.runtime\.HttpJspBase|HttpSession session = null;|ServletContext application = null;|ServletConfig config = null;|application = pageContext.getServletContext\(\);|config = pageContext.getServletConfig\(\);|session = pageContext.getSession\(\);|, ServletException"/>
+            <substitution expression=""/>
+            <fileset dir="${generated.src.dir}/com/gs/fw/common/freyaxml/templates" includes="**/*.java" />
+        </replaceregexp>
+        <replaceregexp byline="true">
+            <regexp pattern="return _jspx_dependants"/>
+            <substitution expression="return null"/>
+            <fileset dir="${generated.src.dir}/com/gs/fw/common/freyaxml/templates" includes="**/*.java" />
+        </replaceregexp>
+        <replaceregexp byline="true">
+            <regexp pattern=".*_jspx_dependants.*"/>
+            <substitution expression=""/>
+            <fileset dir="${generated.src.dir}/com/gs/fw/common/freyaxml/templates" includes="**/*.java" />
+        </replaceregexp>
+        <replaceregexp byline="true">
+            <regexp pattern="implements org\.apache\.jasper\.runtime\.JspSourceDependent"/>
+            <substitution expression="implements FreyaXmlTemplate"/>
+            <fileset dir="${generated.src.dir}/com/gs/fw/common/freyaxml/templates" includes="**/*.java" />
+        </replaceregexp>
+    </target>
+
+    <target name="compile-xsd2bean-generator" depends="init-xsd2bean, compile-xsd2bean-version-class, generate-templates">
+        <javac destdir="${xsd2bean.classes.dir}"
+            debug="true"
+            source="1.6"
+            target="1.6"
+            nowarn="true"
+            includeAntRuntime="true">
+            <src path="${xsd2bean.source.dir}"/>
+            <src path="${generated.src.dir}"/>
+            <include name="com/gs/fw/common/freyaxml/generator/**"/>
+            <include name="com/gs/fw/common/freyaxml/templates/**/*.java"/>
+            <classpath>
+                <path refid="xsd2beangen.classpath"/>
+            </classpath>
+        </javac>
+        <mkdir dir="${generated.src.dir}"/>
+        <delete quiet="true" file="${xsd2bean.classes.dir}/com/gs/fw/common/freyaxml/generator/freyaxmlgen.md5"/>
+        <concat binary="true" destfile="${target.dir}/freyaxmlgentemp.concat">
+            <fileset dir="${xsd2bean.classes.dir}">
+                <include name="com/gs/fw/common/freyaxml/generator/**/*.class"/>
+                <include name="com/gs/fw/common/freyaxml/generator/**/*.tmpl*"/>
+                <include name="com/gs/fw/common/freyaxml/templates/**/*.class"/>
+            </fileset>
+        </concat>
+        <checksum file="${target.dir}/freyaxmlgentemp.concat" property="freyaxmlgen.md5.property"/>
+        <delete quiet="true" file="${target.dir}/freyaxmlgentemp.concat"/>
+        <echo message="${freyaxmlgen.md5.property}" file="${xsd2bean.classes.dir}/com/gs/fw/common/freyaxml/generator/freyaxmlgen.md5"/>
+    </target>
+
+    <target name="generate-xsd2bean-test-classes" depends="compile-xsd2bean-generator">
+        <taskdef name="xsd2bean-gen" classname="com.gs.fw.common.freyaxml.generator.ant.FreyaAntTask" loaderRef="xsd2beanGenerator">
+            <classpath refid="xsd2beangen.classpath"/>
+        </taskdef>
+
+        <xsd2bean-gen parserName="MithraRuntime"
+            destinationPackage="com.gs.fw.common.freyaxml.test.mithraruntime"
+            xsd="${xsd2bean.home}/src/test/xsd/mithraruntime.xsd"
+            generatedDir="${generated.testsrc.dir}"
+            nonGeneratedDir="${xsd2bean.testsource.dir}"
+            >
+        </xsd2bean-gen>
+        <xsd2bean-gen parserName="MithraGenerator"
+            destinationPackage="com.gs.fw.common.freyaxml.test.mithragen"
+            xsd="${xsd2bean.home}/src/test/xsd/mithraobject.xsd"
+            generatedDir="${generated.testsrc.dir}"
+            nonGeneratedDir="${xsd2bean.testsource.dir}"
+            >
+        </xsd2bean-gen>
+        <xsd2bean-gen parserName="MithraCacheLoader"
+            destinationPackage="com.gs.fw.common.freyaxml.test.cacheloader"
+            xsd="${xsd2bean.home}/src/test/xsd/mithracacheloader.xsd"
+            generatedDir="${generated.testsrc.dir}"
+            nonGeneratedDir="${xsd2bean.testsource.dir}"
+            >
+        </xsd2bean-gen>
+        <xsd2bean-gen parserName="GluiLayout"
+            destinationPackage="com.gs.fw.common.freyaxml.test.glui.layout"
+            xsd="${xsd2bean.home}/src/test/xsd/layout.xsd"
+            generatedDir="${generated.testsrc.dir}"
+            nonGeneratedDir="${xsd2bean.testsource.dir}"
+            >
+        </xsd2bean-gen>
+        <xsd2bean-gen parserName="GluiNGLayout"
+            destinationPackage="com.gs.fw.common.freyaxml.test.gluing.layout"
+            xsd="${xsd2bean.home}/src/test/xsd/layout_ng.xsd"
+            generatedDir="${generated.testsrc.dir}"
+            nonGeneratedDir="${xsd2bean.testsource.dir}"
+            >
+        </xsd2bean-gen>
+        <xsd2bean-gen parserName="GsGluiLayout"
+            destinationPackage="com.gs.fw.common.freyaxml.test.gsglui.layout"
+            xsd="${xsd2bean.home}/src/test/xsd/glui.xsd"
+            generatedDir="${generated.testsrc.dir}"
+            nonGeneratedDir="${xsd2bean.testsource.dir}"
+            >
+        </xsd2bean-gen>
+        <xsd2bean-gen parserName="GsGluiInstanceLayout"
+            generatetoplevelsubstitutionelements="true"
+            destinationPackage="com.gs.fw.common.freyaxml.test.gsglui.instance"
+            xsd="${xsd2bean.home}/src/test/xsd/gluiinstance.xsd"
+            generatedDir="${generated.testsrc.dir}"
+            nonGeneratedDir="${xsd2bean.testsource.dir}"
+            >
+        </xsd2bean-gen>
+        <xsd2bean-gen parserName="FWCommonObjectManager"
+            destinationPackage="com.gs.fw.common.freyaxml.test.fwcommon.objectmanager"
+            xsd="${xsd2bean.home}/src/test/xsd/objectmanager.xsd"
+            generatedDir="${generated.testsrc.dir}"
+            nonGeneratedDir="${xsd2bean.testsource.dir}"
+            >
+        </xsd2bean-gen>
+        <xsd2bean-gen parserName="FWCommonConfiguration"
+            destinationPackage="com.gs.fw.common.freyaxml.test.fwcommon.configuration"
+            xsd="${xsd2bean.home}/src/test/xsd/configuration.xsd"
+            generatedDir="${generated.testsrc.dir}"
+            nonGeneratedDir="${xsd2bean.testsource.dir}"
+            >
+        </xsd2bean-gen>
+        <xsd2bean-gen parserName="FWCommonDesktop"
+            destinationPackage="com.gs.fw.common.freyaxml.test.fwcommon.desktop"
+            xsd="${xsd2bean.home}/src/test/xsd/desktop.xsd"
+            generatedDir="${generated.testsrc.dir}"
+            nonGeneratedDir="${xsd2bean.testsource.dir}"
+            >
+        </xsd2bean-gen>
+        <xsd2bean-gen parserName="FlatFileParser"
+            destinationPackage="com.gs.fw.common.freyaxml.test.flatfileparser"
+            xsd="${xsd2bean.home}/src/test/xsd/parserconfig.xsd"
+            generatedDir="${generated.testsrc.dir}"
+            nonGeneratedDir="${xsd2bean.testsource.dir}"
+            >
+        </xsd2bean-gen>
+        <xsd2bean-gen parserName="WireObjectGenerator"
+            destinationPackage="com.gs.fw.common.freyaxml.test.wireobject"
+            xsd="${xsd2bean.home}/src/test/xsd/wireobject.xsd"
+            generatedDir="${generated.testsrc.dir}"
+            nonGeneratedDir="${xsd2bean.testsource.dir}"
+            >
+        </xsd2bean-gen>
+        <xsd2bean-gen parserName="MojoRelationalSimpleRelationalOperation"
+            destinationPackage="com.gs.fw.mojo.store.implementation.relational.configuration.xml.simplerelationaloperation"
+            xsd="${xsd2bean.home}/src/test/xsd/relationalOperation.xsd"
+            generatedDir="${generated.testsrc.dir}"
+            nonGeneratedDir="${xsd2bean.testsource.dir}"
+            >
+        </xsd2bean-gen>
+        <xsd2bean-gen parserName="MojoDomainMetamodel"
+            destinationPackage="com.gs.fw.common.freyaxml.test.mojo.domain"
+            xsd="${xsd2bean.home}/src/test/xsd/metamodel.xsd"
+            generatedDir="${generated.testsrc.dir}"
+            nonGeneratedDir="${xsd2bean.testsource.dir}"
+            >
+        </xsd2bean-gen>
+        <xsd2bean-gen parserName="Tott"
+            destinationPackage="com.gs.fw.common.freyaxml.test.tott"
+            xsd="${xsd2bean.home}/src/test/xsd/ToTT.xsd"
+            generatedDir="${generated.testsrc.dir}"
+            nonGeneratedDir="${xsd2bean.testsource.dir}"
+            >
+        </xsd2bean-gen>
+    </target>
+
+    <target name="compile-xsd2bean-version-class" depends="gen-xsd2bean-version-class">
+        <javac destdir="${xsd2bean.classes.dir}"
+            debug="true"
+            source="1.6"
+            target="1.6"
+            includeAntRuntime="true">
+            <src path="${generated.src.dir}/com/gs/fw/common/freyaxml/generator"/>
+            <include name="FreyaXmlVersion.java"/>
+            <classpath>
+                <path refid="xsd2beangen.classpath"/>
+            </classpath>
+        </javac>
+    </target>
+
+    <target name="compile-xsd2bean-test" depends="generate-xsd2bean-test-classes">
+        <javac destdir="${xsd2bean.testclasses.dir}"
+            debug="true"
+            source="1.6"
+            target="1.6"
+            nowarn="true"
+            includeAntRuntime="true">
+            <src path="${xsd2bean.testsource.dir}"/>
+            <src path="${generated.testsrc.dir}"/>
+
+            <classpath>
+                <path refid="xsd2bean.test.classpath"/>
+            </classpath>
+        </javac>
+    </target>
+
+    <target name="xsd2bean-test-suite" depends="xsd2bean-junitreport" description="Run JUnit test cases for Xsd2bean code">
+        <fail if="failed.xsd2bean.unit.tests" message="Xsd2bean unit tests failed"/>
+    </target>
+
+    <target name="run-xsd2bean-test-suite" depends="compile-xsd2bean-test" description="Run JUnit test cases for Xsd2bean code">
+        <delete quiet="true" dir="${target.dir}/junit-report"/>
+        <mkdir dir="${target.dir}/junit-report"/>
+        <tstamp>
+            <format property="TIME_NOW" pattern="hh:mm:ss a z"/>
+        </tstamp>
+        <echo message="JUnit master suite for Xsd2bean starting at ${TIME_NOW} on ${TODAY} "/>
+        <echo message="${xsd2bean.log4j.config.file}"/>
+        <parallel threadsPerProcessor ="1" >
+            <exec-test-suite testclass="com.gs.fw.common.freyaxml.test.FreyaTestSuite"/>
+            <exec-test-suite testclass="com.gs.fw.common.freyaxml.test.FreyaXmlGeneratorTestSuite"/>
+        </parallel>
+    </target>
+
+    <target name="xsd2bean-junitreport" if="junitHtmlReport" depends="run-xsd2bean-test-suite">
+        <mkdir dir="${target.dir}/junit-report"/>
+        <junitreport>
+            <fileset dir="${target.dir}/junit-report">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="noframes" todir="${target.dir}/junit-report}"/>
+        </junitreport>
+    </target>
+
+    <macrodef name="exec-test-suite">
+        <attribute name="testclass"/>
+        <sequential>
+            <mkdir dir="${target.dir}/junit-report"/>
+            <junit printsummary="no" dir="${xsd2bean.home}" timeout="3600000" fork="yes" failureproperty="failed.xsd2bean.unit.tests"
+                   includeantruntime="true">
+                <formatter type="xml"/>
+                <formatter classname="com.gs.fw.common.freyaxml.test.JunitFormatter" extension=".txt"/>
+                <classpath>
+                    <path refid="xsd2bean.test.classpath"/>
+                    <pathelement location="${xsd2bean.classes.dir}"/>
+                    <pathelement location="${xsd2bean.testclasses.dir}"/>
+                </classpath>
+                <jvmarg value="-server"/>
+                <jvmarg value="-XX:MaxPermSize=256m"/>
+                <jvmarg value="-Dlog4j.configuration=file:${xsd2bean.log4j.config.file}"/>
+                <test name="@{testclass}" todir="${target.dir}/junit-report"/>
+            </junit>
+            <replaceregexp file="${target.dir}/junit-report/TEST-@{testclass}.xml"
+                           match="classname=&quot;(.*)\.([abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ$1234567890]*)&quot; name=&quot;(.*)&quot; time"
+                           replace="classname=&quot;\1.\2&quot; name=&quot;\2.\3&quot; time"
+                           byline="true"/>
+        </sequential>
+    </macrodef>
+
+    <target name="clean">
+        <delete quiet="true" dir="${target.dir}"/>
+    </target>
+
+    <target name="jar-xsd2beangen" depends="compile-xsd2bean-generator">
+        <jar jarfile="${target.dir}/xsd2beangen-${xsd2bean.version}.jar" index="true">
+            <fileset dir="${xsd2bean.classes.dir}">
+                <include name="com/gs/fw/common/freyaxml/generator/**/*.class"/>
+                <include name="com/gs/fw/common/freyaxml/templates/**/*.class"/>
+            </fileset>
+            <fileset dir="${xsd2bean.classes.dir}">
+                <include name="com/gs/fw/common/freyaxml/generator/**/*.properties"/>
+            </fileset>
+            <fileset dir="${xsd2bean.classes.dir}">
+                <include name="com/gs/fw/common/freyaxml/generator/**/*.tmpl.*"/>
+            </fileset>
+            <fileset dir="${xsd2bean.classes.dir}">
+                <include name="com/gs/fw/common/freyaxml/generator/*.md5"/>
+            </fileset>
+            <fileset dir="${xsd2bean.classes.dir}">
+                <include name="com/gs/fw/common/freyaxml/generator/**/*.ser"/>
+            </fileset>
+        </jar>
+    </target>
+
+    <target name="jar-xsd2bean-src" depends="init-xsd2bean">
+        <jar jarfile="${target.dir}/xsd2beangen-${xsd2bean.version}-sources.jar" index="true">
+            <fileset dir="${xsd2bean.source.dir}">
+                <include name="com/gs/fw/common/freyaxml/**/*.java"/>
+            </fileset>
+            <fileset dir="${generated.src.dir}">
+                <include name="com/gs/fw/common/freyaxml/**/*.java"/>
+            </fileset>
+        </jar>
+    </target>
+
+    <target name="jar-all-xsd2bean" depends="jar-xsd2beangen"/>
+    <target name="jar-all" depends="jar-all-xsd2bean"/> <!-- alias for master build -->
+
+
+</project>

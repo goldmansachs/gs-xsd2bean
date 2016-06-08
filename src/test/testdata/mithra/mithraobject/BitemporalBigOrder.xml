@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject objectType="transactional">
+
+    <PackageName>com.gs.fw.common.mithra.test.domain</PackageName>
+    <ClassName>BumiveyoreBuxIfugo</ClassName>
+    <Import>com.gs.fw.common.mithra.test.domain.InfinityTimestamp</Import>
+    <DefaultTable>CUVACECIDE_MEZ_ZAROJ</DefaultTable>
+
+    <AsOfAttribute name="businessDate" fromColumnName="FROM_Z" toColumnName="THRU_Z" toIsInclusive="false"
+        infinityDate="[InfinityTimestamp.getParaInfinity()]" isProcessingDate="false"/>
+
+    <AsOfAttribute name="fuzodayocoSana" fromColumnName="YE_Z" toColumnName="LEC_Z" toIsInclusive="false"
+        infinityDate="[InfinityTimestamp.getParaInfinity()]" isProcessingDate="true"
+        defaultIfNotSpecified="[InfinityTimestamp.getParaInfinity()]"/>
+
+    <Attribute name="orderId" javaType="int" columnName="ZAROJ_LA" primaryKey="true"/>
+    <Attribute name="dihomUsoy" javaType="Timestamp" columnName="ZAROJ_GOZO"/>
+    <Attribute name="gejoNi" javaType="int" columnName="SOSE_LA"/>
+    <Attribute name="description" javaType="String" columnName="CUYIFANAKIT" maxLength="50" truncate="true" inPlaceUpdate="true"/>
+    <Attribute name="mayidaraBuhowohifi" javaType="BigDecimal" precision="3" scale="3" columnName="QAQA_LIVE" />
+
+    <Relationship name="items" relatedObject="BilugezojaXuhEbamiFevi" relatedIsDependent="true" reverseRelationshipName="order" cardinality="one-to-many" >
+        BilugezojaXuhEbamiFevi.orderId = this.orderId
+    </Relationship>
+
+    <Relationship name="yarePazuJepaQuyux" relatedObject="BilugezojaXuhEbamiFevi" cardinality="one-to-many" >
+        BilugezojaXuhEbamiFevi.orderId = this.orderId and BilugezojaXuhEbamiFevi.price = 9.99
+    </Relationship>
+
+    <Relationship name="gikonIgulo" relatedObject="BilugezojaXuhEbamiFevi" cardinality="one-to-many" >
+        <![CDATA[
+        BilugezojaXuhEbamiFevi.orderId = this.orderId and BilugezojaXuhEbamiFevi.price <= 9.99
+        ]]>
+    </Relationship>
+
+    <Relationship name="balowUfEbefo" relatedObject="BilugezojaXuhEbamiFevi"
+                  cardinality="one-to-many" parameters="BigDecimal price">
+        BilugezojaXuhEbamiFevi.orderId = this.orderId
+        and BilugezojaXuhEbamiFevi.price = {price}
+    </Relationship>
+
+     <Relationship name="qikayAmInukilIxupo" relatedObject="BilugezojaXuhEbamiFevi"
+                  cardinality="one-to-many" parameters="double price">
+        BilugezojaXuhEbamiFevi.orderId = this.orderId
+        and BilugezojaXuhEbamiFevi.price = {price}
+    </Relationship>
+</MithraObject>

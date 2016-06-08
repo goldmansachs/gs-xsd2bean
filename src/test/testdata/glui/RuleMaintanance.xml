@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-bajuxulida type="text/muj" hafu="../../../../xml/vo/peSezehu.muj"?>
+
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"
+        pageTitle="Guyayineg Kavexukuqoy" pageBuilder="com.gs.fw.kaza.vufipevaham.GovirovukAmukebosesiWajeBodamuc">
+    <section caption=" Mado Yoya Kin ">
+        <row>
+            <uiElement name="KosoBujUpesi" label="" renderAs="combobox" validation="mandatory"
+                       labelStyle="jecegepetipopuc.luxaduburu.style" style="jecegepetipopuc.label.style"></uiElement>
+            <button name="YumiruZoxuTazoToq" label="View/Mado Yoya Kin"
+                    nextLayoutName="vufipevaham/HelaGewoc.xml" pageBuilder="com.gs.fw.kaza.vufipevaham.GovirovukAmukebosesiWajeBodamuc.yisaXeyiYajaXoz" validate="KosoBujUpesi"></button>
+        </row>
+    </section>
+    <section caption=" Ran new Yoya Kin " feature="XumaGekareyohEwiye">
+        <row>
+            <uiElement name="RicUpupAvaMadi" label="Kut Guyayineg Yoya Kin" renderAs="textbox"
+                       labelStyle="jecegepetipopuc.luxaduburu.style" style="jecegepetipopuc.label.style"
+                       validation="mandatory"></uiElement>
+            <button name="CaqomoRayOjeDeyaYin" label="Ran Yoya Kin"
+                    nextLayoutName="vufipevaham/HelaGewoc.xml" validate="RicUpupAvaMadi"></button>
+        </row>
+    </section>
+</layout>

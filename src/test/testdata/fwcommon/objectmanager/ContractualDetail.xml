@@ -1,0 +1,51 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Templates>interface,noki,wunopi,tetahij,key,nuzikuzu,wululu,javeneruma</Templates>
+    <PackageName>com.gs.fw.lilu.wute.domain.transaction</PackageName>
+    <ClassName>NufakelixevAtagax</ClassName>
+    <DefaultTable>FEVEGOGA_NANECE</DefaultTable>
+    <SchemaName>mut</SchemaName>
+    <DatabaseName>tiqo</DatabaseName>
+    <ReadStoredProcedure>Kapu_Hiq_NufakelixevAtagax</ReadStoredProcedure>
+    <PrimaryKeyAttribute keyClass="YitipijelarIbatagOfo">
+        <Attribute columnName="JOVOY_P" javaType="int" name="sowiwEv" sqlType="Ciyisag"/>
+        <Attribute name="businessDate" columnName="businessDate" javaType="Timestamp"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+        <Attribute columnName="NO_Z" javaType="Timestamp" name="juxepEyal" sqlType="Timestamp"/>
+        <Attribute columnName="nesaQarega" javaType="String" name="nesaQarega" sqlType="ZAYihifabowUfufayaKeqeso"/>
+    </PrimaryKeyAttribute>
+    <Attribute columnName="QAV_SIBA_Z" javaType="Timestamp" name="vawIdah" sqlType="Timestamp"/>
+    <Attribute columnName="PAWIWOBESU_W" javaType="String" name="jaboduqogaHemu" sqlType="XefeTewesa"/>
+    <Attribute columnName="JOVOY_HIF_TADE_N" javaType="String" name="riluxIvuCiba" sqlType="XefeTewesa"/>
+    <Attribute columnName="FEVEGOGA_YAK_W" javaType="String" name="xiqevopuNobahixoh" sqlType="XefeTewesa"/>
+    <Attribute columnName="RUC_Z" javaType="Timestamp" name="fosawIv" sqlType="Timestamp"/>
+    <Attribute columnName="POGIRO_JOVOY_TADE" javaType="String" name="tojeqatUnufaqoj" sqlType="XefeTewesa"/>
+    <Attribute columnName="DIFALIB_LEREQ_W" javaType="String" name="donesebUraru" sqlType="XefeTewesa"/>
+    <Attribute columnName="CIKAYUYOP_LEREQ_W" javaType="String" name="xuhayufakIpugu" sqlType="XefeTewesa"/>
+    <Attribute columnName="JOVOY_YAK_PO_N" javaType="String" name="vuxajAyoQu" sqlType="XefeTewesa"/>
+
+    <ClassBasedAttribute name="dopebUkomixinuhosIdicica" attributeClass="DopebUkomixinuhosIdicica">
+        <Attribute name="bojaHu" javaType="int" sqlType="Ciyisag" nullable="true" columnName="JOVOY_P"/>
+        <Attribute name="nesaQarega" javaType="String" sqlType="ZAYihifabowUfufayaKeqeso" columnName="nesaQarega"/>
+        <Attribute name="nida" javaType="boolean" sqlType="Boolean" columnName="IS_NIDA"/>
+        <Attribute name="businessDate" javaType="Timestamp" sqlType="XIZofuxafasElegexaLimanigaw" columnName="businessDate"/>
+    </ClassBasedAttribute>
+
+    <Index name="dopebUkomixinuhosIdicica">dopebUkomixinuhosIdicica</Index>
+
+</ManagedObject>

@@ -1,0 +1,47 @@
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<WireObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="../../xsd/wireobject.xsd"
+            name="TujavOsomojiRofugez" 
+            package="com.gs.fw.para.service.ronem.wireobject">
+    <Version>
+        <Attribute name="name"                      type="String"/>
+        <Attribute name="gesowu"                    type="String"/>
+        <Attribute name="qefixukadAvey"             type="Timestamp"/>
+        <Attribute name="xedizunExob"               type="Timestamp"/>
+        <Attribute name="xewaludubijOqew"           type="Timestamp"/>
+        <Attribute name="quziVazugica"              type="String"/>
+        <Attribute name="zasutekirIyejenac"         type="String"/>
+        <Attribute name="kuzifayejUbedufar"         type="String"/>
+        <Attribute name="rodaDazarek"               type="String"/>
+        <Attribute name="type"                      type="String"/>
+        <Attribute name="goSehEyosuto"              type="String"/>
+        <Attribute name="fiwAvel"                   type="String"/>
+        <Attribute name="yofejagIwug"               type="String"/>
+        <Attribute name="luyaza1SocomacarefoCuxa"   type="Timestamp"/>     <!-- the date when Xim locked Luyaza1 -->
+        <Attribute name="beQodavOmidece"            type="String"/>
+        <Attribute name="liJezunuweMusexeq"         type="String"/>
+        <Attribute name="ticUcepiNevavuxar"         type="String"/>
+        <Attribute name="yacObuDanuqiruxEkoha"      type="String"/>
+        <Attribute name="nakedimoBolagoyEqidogo"    type="String"/>
+        <Attribute name="mesutahAfujol"             type="String"/>
+        <Attribute name="kehiFewicEzat"             type="Timestamp"/>
+        <Attribute name="xowiFaqOhuy"               type="Timestamp"/>
+        <Attribute name="wuhogExalamiwu"            type="String"/>
+        <Attribute name="product"                   className="com.gs.fw.para.service.ronem.wireobject.SovupOlesakiHune"/>
+    </Version>
+</WireObject>

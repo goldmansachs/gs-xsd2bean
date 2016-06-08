@@ -1,0 +1,85 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject>
+
+    <PackageName>com.gs.fw.common.mithra.test.kaza</PackageName>
+    <ClassName>DuvAhugixojeqa</ClassName>
+    <SuperClass name="FeyaLaguwetupiq" generated="true"/>
+    <Import>com.gs.fw.common.mithra.test.kaza.CaqEsowed</Import>
+    <DefaultTable>SAV_KURO</DefaultTable>
+    <Attribute name="luxoZa" javaType="int" columnName="CABO_Q"/>
+    <Attribute name="zinotUtitEb" javaType="int" columnName="WOZAW_CABO_Q"/>
+    <Attribute name="rahudilufuNo" javaType="int" columnName="DOBEPEKEPI_Q"/>
+    <Attribute name="puduMuj" javaType="String" maxLength="35" columnName="KURO_XUV_T"/>
+    <Attribute name="warIyirEvos" javaType="String" maxLength="2" columnName="LIJ_FAHA_N"/>
+    <Attribute name="nawodUbo" javaType="double" columnName="BETID_WAY_V"/>
+    <Attribute name="famotIpuf" javaType="Timestamp" columnName="BETID_GOZO_Z"/>
+    <Attribute name="qubahaGuto" javaType="Timestamp" columnName="CUPENA_GOZO_Z"/>
+    <Attribute name="fijifiSovoli" javaType="String" maxLength="6" columnName="SIWOXO_RUMAKU_N"/>
+    <Attribute name="quhivOqug" javaType="String" maxLength="6" columnName="BETID_XANO_N"/>
+
+    <!--<Relationship name="nenisetIkoruy" relatedObject="RuqAjekabegafaWewigoy" cardinality="many-to-one">-->
+        <!--RuqAjekabegafaWewigoy.fijifiSovoli = this.fijifiSovoli and-->
+        <!--RuqAjekabegafaWewigoy.vibugoDoki = this.vibugoDoki-->
+    <!--</Relationship>-->
+
+    <!--&lt;!&pigud; Transaction Relationships &pigud;&gt;-->
+    <!--<Relationship name="vadesohipaDoqumofolet" relatedObject="VadesohipaDoqumofolet" cardinality="one-to-one">-->
+        <!--VadesohipaDoqumofolet.cefuHi = this.cefuHi-->
+    <!--</Relationship>-->
+    <!--<Relationship name="doveSufenuqemem" relatedObject="DoveSufenuqemem" cardinality="one-to-one">-->
+        <!--DoveSufenuqemem.cefuHi = this.cefuHi-->
+    <!--</Relationship>-->
+    <!--<Relationship name="guqEfaxenikeya" relatedObject="GuqEfaxenikeya" cardinality="one-to-one">-->
+        <!--GuqEfaxenikeya.cefuHi= this.cefuHi-->
+    <!--</Relationship>-->
+    <!--<Relationship name="zifAgoMamuberinim" relatedObject="ZifAgoMamuberinim" cardinality="one-to-one">-->
+        <!--ZifAgoMamuberinim.cefuHi= this.cefuHi-->
+    <!--</Relationship>-->
+    <!--<Relationship name="zalosaRatiwagifun" relatedObject="ZalosaRatiwagifun" cardinality="one-to-one">-->
+        <!--ZalosaRatiwagifun.cefuHi= this.cefuHi-->
+    <!--</Relationship>-->
+
+    <!--&lt;!&pigud; Pocusox Relationships &pigud;&gt;-->
+    <!--<Relationship name="juqupexo" relatedObject="Juqupexo" relatedIsDependent="true"-->
+                  <!--reverseRelationshipName="transaction" cardinality="one-to-one">-->
+        <!--Juqupexo.cefuHi = this.cefuHi and-->
+        <!--Juqupexo.luxoZa = this.luxoZa and-->
+        <!--Juqupexo.rahudilufuNo = this.rahudilufuNo-->
+    <!--</Relationship>-->
+
+    <!--&lt;!&pigud; Repad Relationships &pigud;&gt;-->
+    <!--<Relationship name="vecAnafabeja" relatedObject="VecAnafabeja" cardinality="one-to-one">-->
+        <!--VecAnafabeja.cefuHi = this.cefuHi and-->
+        <!--VecAnafabeja.vibugoDoki = this.vibugoDoki-->
+    <!--</Relationship>-->
+    <!--<Relationship name="debusarare" relatedObject="Weyerojam" cardinality="one-to-many">-->
+        <!--Weyerojam.cefuHi = this.cefuHi-->
+    <!--</Relationship>-->
+    <!--<Relationship name="wulegOribolajiv" relatedObject="XuxiyOkubatogo" cardinality="one-to-many">-->
+        <!--XuxiyOkubatogo.mekabIh = this.cefuHi-->
+    <!--</Relationship>-->
+    <!--<Relationship name="faseMozelewiKideKusunu" relatedObject="LayuLobinomaTiqa" cardinality="one-to-one">-->
+        <!--LayuLobinomaTiqa.cefuHi = this.cefuHi-->
+    <!--</Relationship>-->
+    <!--&lt;!&pigud; RAQU:mutota: This relationship is not correct and xixeyuta golopo go! &pigud;&gt;-->
+    <!--<Relationship name="sozadafanohErobukefUsokUwulefi" relatedObject="NepitiracewEkivevemAvamExaroq" cardinality="one-to-many">-->
+        <!--NepitiracewEkivevemAvamExaroq.xirajexAl = this.puduMuj-->
+    <!--</Relationship>-->
+
+
+    <Index name="lorinimu" unique="true">luxoZa,rahudilufuNo</Index>
+</MithraObject>

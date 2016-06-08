@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject objectType="transactional">
+
+    <PackageName>com.gs.fw.common.mithra.test.domain</PackageName>
+
+    <ClassName>HiqEwitEmopePoBe</ClassName>
+    <DefaultTable>QES_HEWA_TYPES</DefaultTable>
+
+    <Attribute name="gazohacAq" javaType="boolean" columnName="COPIBAZ_GA" primaryKey="true"/>
+    <!--<Attribute name="vekeQuvinEp" javaType="byte[]" columnName="BAGI_VODUN_GA" primaryKey="true"/>-->
+    <Attribute name="moxaVi" javaType="byte" columnName="BAGI_GA" primaryKey="true"/>
+    <Attribute name="gamiPe" javaType="char" columnName="LEBU_GA" primaryKey="true"/>
+    <Attribute name="sadaYo" javaType="Date" columnName="GOZO_GA" primaryKey="true"/>
+    <Attribute name="fajoneLi" javaType="double" columnName="PINADO_GA" primaryKey="true"/>
+    <Attribute name="mitimOt" javaType="float" columnName="YOYOP_GA" primaryKey="true"/>
+    <Attribute name="xarOf" javaType="int" columnName="DOD_GA" primaryKey="true"/>
+    <Attribute name="dovoGu" javaType="long" columnName="LUME_GA" primaryKey="true"/>
+    <Attribute name="pukomAw" javaType="short" columnName="VAGOZ_GA" primaryKey="true"/>
+    <Attribute name="topufiQi" javaType="String" columnName="PIZEDE_GA" primaryKey="true"/>
+    <Attribute name="guwomejijOh" javaType="Timestamp" columnName="REDOHINAT_GA" primaryKey="true"/>
+
+    <Attribute name="yijuzaLodEj" javaType="double" columnName="PINADO_RUT_GA"/>
+</MithraObject>

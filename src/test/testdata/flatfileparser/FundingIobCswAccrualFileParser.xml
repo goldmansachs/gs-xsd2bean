@@ -1,0 +1,52 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<FlatFileParserConfig
+        delimiter="|"
+        inflatedObject="com.gs.fw.para.domain.qaje.position.implementation.GosonawOnoFijiqisuHezi"
+        columns="21"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../xsd/parserconfig.xsd">
+
+    <Header required="true" identifier="NASAVU" simpleFormat="NASAVU[hojakinipo][kufuXEri]*"/>
+    <Trailer required="true" identifier="KABANAS" simpleFormat="KABANAS[hojakinipo][count]*"/>
+
+    <Mapping attribute="rivusujAr" position="1"/>
+    <Mapping attribute="cayuteraRujowog" position="2"/>
+    <Mapping attribute="cufifivIjiz" position="3"/>
+    <Mapping attribute="vosufecEzag" position="4"/>
+
+    <Mapping attribute="fosemitaRogasovIyayoga" position="5"/>
+    <Mapping attribute="kiwoCecikek" position="6"/>
+
+    <Mapping attribute="waqucupAgo" position="7"/>
+    <Mapping attribute="puzacimOha" position="8"/>
+
+    <Mapping attribute="relosudIrepi" position="9"/>
+    <Mapping attribute="zipahakiyIkuv" position="10"/>
+    <Mapping attribute="haqilonAnuj" position="11"/>
+    <Mapping attribute="dokaCecuMuw" position="12"/>
+    <Mapping attribute="matUxakeHuxa" position="13"/>
+    <Mapping attribute="wotobenuxEzoyazaxUfimetey" position="14"/>
+    <Mapping attribute="kuzeyoquKugebozu" position="15"/>
+    <Mapping attribute="tacamihocuvOpikaf" position="16" nullable="true"/>
+    <Mapping attribute="jutokawUhelo" position="17" nullable="true"/>
+    <Mapping attribute="moreyivafUjoh" position="18"/>
+    <Mapping attribute="holiBez" position="19" nullable="true"/>
+    <Mapping attribute="dizuZesaki" position="20" nullable="true"/>
+    <Mapping attribute="yatupUbedepaseSadogomec" position="21" nullable="true"/>
+
+</FlatFileParserConfig>
+

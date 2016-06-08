@@ -1,0 +1,59 @@
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<application implementation="com.gs.fw.para.application.wabofewabuzaqeyagelac.ZarobUzupeJehusiSofutopujag" ignoreLoadFailures="true"
+             name="HUBECalacIdovedimEzajig">
+    <services>
+        <service-instance id="dayoyuniJemuwus" implementation="DulugeVopigaguQalihor" type="DayoyuniJemuwus"/>
+
+        <embedded-instance id="mithra" interface="com.gs.fw.para.service.mithra.FigotoLufikum"
+                           implementation="com.gs.fw.para.service.mithra.implementation.RorudiXucilewAvih">
+            <properties>
+                <scalar name="nopiwosopebAniyeco" invokeSetter="true">600</scalar>
+                <list name="pehijeWakufihanocijAcax" invokeSetter="true">
+                    <value>services/Mithra/RigiDaseyezafUsowUfacumAvabihUrapodizolige.xml</value>
+                    <value>services/Mithra/CiwaZamumeBuwOtafUwafoqElosuwunuzaqe.xml</value>
+                    <value>services/Mithra/LelikikElupUjevuhuxabecegAqufuvOfusetehivuqi.xml</value>
+                    <value>services/Mithra/XogonObonaxAvazatudihinu.xml</value>
+                </list>
+            </properties>
+        </embedded-instance>
+    </services>
+    <properties>
+        <scalar name="bezoJofawakeyun" invokeSetter="true">LEJU/BAXAK/BAF</scalar>
+        <scalar name="mogiRenoKiqo" invokeSetter="true">para_qa_2743</scalar>
+        <scalar name="keruGacoziq" invokeSetter="true">DUD_V</scalar>
+        <scalar name="CenicOyAkir" invokeSetter="true">20</scalar>
+        <list name="LidexeVefijiz">
+            <value>.NIY300</value>
+            <value>.ZEH180</value>
+            <value>.HOP100</value>
+        </list>
+        <location name="TKO">
+            <environment name="PROD">
+                <scalar name="bezoJofawakeyun" invokeSetter="true">LEJU/BAXAK</scalar>
+                <!--<scalar name="bezoJofawakeyun" invokeSetter="true">LEJU/NALAWOWI</scalar>-->
+                <scalar name="mogiRenoKiqo" invokeSetter="true">para_qa_2743</scalar>
+            </environment>
+        </location>
+        <location name="NYK">
+            <environment name="QA">
+                <scalar name="bezoJofawakeyun" invokeSetter="true">LEJU/QO/BAF</scalar>
+                <scalar name="mogiRenoKiqo" invokeSetter="true">rerali_qo_858</scalar>
+            </environment>
+        </location>
+    </properties>
+</application>

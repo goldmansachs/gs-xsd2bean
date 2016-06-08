@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<PricingData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/ToTT.xsd">
+    <BusinessUnit>PIS</BusinessUnit>
+    <ShortValue>400</ShortValue>
+    <Location>HUB</Location>
+    <BusinessDate>2012-06-21</BusinessDate>
+    <TradingBook>
+        <Id>73809491</Id>
+        <Name>73809491</Name>
+        <PricingDate>2004-10-28</PricingDate>
+        <ArchiveTime>2011-10-17T18:58:04</ArchiveTime>
+        <ReportablePriceTag>YOSAH</ReportablePriceTag>
+        <PricingMethodsEnabledForAPEX/>
+        <PricingNode Type="Deal">
+            <DealId>PAFI1769830907.2</DealId>
+            <Security>
+                <Name>Zux HUL 18Zud11</Name>
+                <Type>Disiles</Type>
+                <Quantity>25300.383333333335</Quantity>
+                <Currency>HUL</Currency>
+                <DollarValue>34771.418901070196</DollarValue>
+                <Model>Disiles!Disiles|Xixo Sacan Wapur|WE Disiles{Qakuya Recaca Bipi: Batogam - No CAB Qakuya Recaca
+                    Yuriv}
+                </Model>
+                <PricePerCurrency>
+                    <Currency Name="HUL" Value="25299.825549820409"/>
+                </PricePerCurrency>
+                <Components>
+                    <Component Name="LUW" Value="10"/>
+                </Components>
+                <Annotations>
+                    <Annotation Name="VerIjaw" Value="18Zud2011"/>
+                </Annotations>
+                <PricingDataByMethod>
+                    <PricingDate>2004-10-28</PricingDate>
+                    <LastUpdate>2011-10-17T18:58:04</LastUpdate>
+                    <PricingMethod>YOSAH</PricingMethod>
+                    <DollarValue>34771.418901070196</DollarValue>
+                    <Model>Disiles!Disiles|Xixo Sacan Wapur|WE Disiles{Qakuya Recaca Bipi: Batogam - No CAB Qakuya Recaca
+                        Yuriv}</Model>
+                    <PricePerCurrency>
+                        <Currency Name="HUL" Value="25299.825549820409"/>
+                    </PricePerCurrency>
+                    <Components>
+                        <Component Name="LUW" Value="10"/>
+                    </Components>
+                    <Annotations>
+                        <Annotation Name="VerIjaw" Value="18Zud2011"/>
+                    </Annotations>
+                </PricingDataByMethod>
+            </Security>
+            <Security>
+                <Name>Zux HUL 18Zud11</Name>
+                <Type>Disiles</Type>
+                <Quantity>25300.383333333335</Quantity>
+                <Currency>HUL</Currency>
+                <DollarValue>34771.418901070196</DollarValue>
+                <Model>Disiles!Disiles|Xixo Sacan Wapur|WE Disiles{Qakuya Recaca Bipi: Batogam - No CAB Qakuya Recaca
+                    Yuriv}
+                </Model>
+                <PricePerCurrency/>
+                <Components>
+                    <Component Name="LUW" Value="0"/>
+                </Components>
+                <Annotations>
+                    <Annotation Name="VerIjaw" Value="18Zud2011"/>
+                </Annotations>
+                <PricingDataByMethod>
+                    <PricingDate>2004-10-28</PricingDate>
+                    <LastUpdate>2011-10-17T18:58:04</LastUpdate>
+                    <PricingMethod>YOSAH</PricingMethod>
+                    <DollarValue>34771.418901070196</DollarValue>
+                    <Model>Disiles!Disiles|Xixo Sacan Wapur|WE Disiles{Qakuya Recaca Bipi: Batogam - No CAB Qakuya Recaca
+                        Yuriv}</Model>
+                    <PricePerCurrency/>
+                    <Components>
+                        <Component Name="LUW" Value="0"/>
+                    </Components>
+                    <Annotations>
+                        <Annotation Name="VerIjaw" Value="18Zud2011"/>
+                    </Annotations>
+                </PricingDataByMethod>
+            </Security>
+            <Security>
+                <Name>Zux CAY 18Zud11</Name>
+                <Type>Disiles</Type>
+                <Quantity>-260686.898875000043</Quantity>
+                <Currency>CAY</Currency>
+                <DollarValue>-260684.364443679049</DollarValue>
+                <Model>Disiles!Disiles|Xixo Sacan Wapur|WE Disiles{Qakuya Recaca Bipi: Batogam - No CAB Qakuya Recaca
+                    Yuriv}
+                </Model>
+                <PricePerCurrency>
+                    <Currency Name="CAY" Value="-260684.364443679049"/>
+                </PricePerCurrency>
+                <Components>
+                    <Component Name="LUW" Value="20"/>
+                </Components>
+                <Annotations>
+                    <Annotation Name="VerIjaw" Value="18Zud2011"/>
+                </Annotations>
+                <PricingDataByMethod>
+                    <PricingDate>2004-10-28</PricingDate>
+                    <LastUpdate>2011-10-17T18:58:04</LastUpdate>
+                    <PricingMethod>YOSAH</PricingMethod>
+                    <DollarValue>-260684.364443679049</DollarValue>
+                    <Model>Disiles!Disiles|Xixo Sacan Wapur|WE Disiles{Qakuya Recaca Bipi: Batogam - No CAB Qakuya Recaca
+                        Yuriv}</Model>
+                    <PricePerCurrency>
+                        <Currency Name="CAY" Value="-260684.364443679049"/>
+                    </PricePerCurrency>
+                    <Components>
+                        <Component Name="LUW" Value="20"/>
+                    </Components>
+                    <Annotations>
+                        <Annotation Name="VerIjaw" Value="18Zud2011"/>
+                    </Annotations>
+                </PricingDataByMethod>
+            </Security>
+            <Security>
+                <Name>GIM HUL 18Zud30 BACIDE 0</Name>
+                <Type>TU Cega Juqupexo CAT</Type>
+                <Quantity>1</Quantity>
+                <Currency>HUL</Currency>
+                <DollarValue>-27236.252047017526</DollarValue>
+                <Model>TU Cega Juqupexo CAT!TU Cega Juqupexo CAT|Xixo Sacan Wapur|WE Cega Xixo Sacan;TU Hey Yoyop PO
+                    Zov|Xixo Sacan Wapur|WE Hey Yoyop PO Zov PU;TU X
+                    fa Yoyop PO Zov|Xixo Sacan|WE Hey Yoyop PO Zov PU;TU Hey Yoyop|Xixo Sacan|WE Hey Yoyop Xixo
+                    Sacan{Qakuya
+                    Recaca Bipi: Batogam - No CAB Qakuya Recaca Yuriv}
+                </Model>
+                <PricePerCurrency>
+                    <Currency Name="HUL" Value="6505905.47948627919"/>
+                    <Currency Name="CAY" Value="-8968782.679413240403"/>
+                </PricePerCurrency>
+                <Components>
+                    <Component Name="LUW" Value="998.000712254347"/>
+                </Components>
+                <Annotations/>
+                <PricingDataByMethod>
+                    <PricingDate>2004-10-28</PricingDate>
+                    <LastUpdate>2011-10-17T18:58:04</LastUpdate>
+                    <PricingMethod>YOSAH</PricingMethod>
+                    <DollarValue>-27236.252047017526</DollarValue>
+                    <Model>TU Cega Juqupexo CAT!TU Cega Juqupexo CAT|Xixo Sacan Wapur|WE Cega Xixo Sacan;TU Hey Yoyop PO
+                        Zov|Xixo Sacan Wapur|WE Hey Yoyop PO Zov PU;TU X
+                        fa Yoyop PO Zov|Xixo Sacan|WE Hey Yoyop PO Zov PU;TU Hey Yoyop|Xixo Sacan|WE Hey Yoyop Xixo
+                        Sacan{Qakuya
+                        Recaca Bipi: Batogam - No CAB Qakuya Recaca Yuriv}</Model>
+                    <PricePerCurrency>
+                        <Currency Name="HUL" Value="6505905.47948627919"/>
+                        <Currency Name="CAY" Value="-8968782.679413240403"/>
+                    </PricePerCurrency>
+                    <Components>
+                        <Component Name="LUW" Value="998.000712254347"/>
+                    </Components>
+                    <Annotations/>
+                </PricingDataByMethod>
+            </Security>
+             <Security>
+                <Name>GIM HUL 18Zud30 BACIDE 0</Name>
+                <Type>TU Cega Juqupexo CAT</Type>
+                <Quantity>1</Quantity>
+                <Currency>HUL</Currency>
+                <DollarValue>-27236.252047017526</DollarValue>
+                <Model>TU Cega Juqupexo CAT!TU Cega Juqupexo CAT|Xixo Sacan Wapur|WE Cega Xixo Sacan;TU Hey Yoyop PO
+                    Zov|Xixo Sacan Wapur|WE Hey Yoyop PO Zov PU;TU X
+                    fa Yoyop PO Zov|Xixo Sacan|WE Hey Yoyop PO Zov PU;TU Hey Yoyop|Xixo Sacan|WE Hey Yoyop Xixo
+                    Sacan{Qakuya
+                    Recaca Bipi: Batogam - No CAB Qakuya Recaca Yuriv}
+                </Model>
+                <PricePerCurrency>
+                    <Currency Name="JIT" Value="6505905.47948627919"/>
+                </PricePerCurrency>
+                <Components>
+                    <Component Name="LUW" Value="998.000712254347"/>
+                </Components>
+                <Annotations/>
+                 <PricingDataByMethod>
+                     <PricingDate>2004-10-28</PricingDate>
+                     <LastUpdate>2011-10-17T18:58:04</LastUpdate>
+                     <PricingMethod>YOSAH</PricingMethod>
+                     <DollarValue>-27236.252047017526</DollarValue>
+                     <Model>TU Cega Juqupexo CAT!TU Cega Juqupexo CAT|Xixo Sacan Wapur|WE Cega Xixo Sacan;TU Hey Yoyop PO
+                         Zov|Xixo Sacan Wapur|WE Hey Yoyop PO Zov PU;TU X
+                         fa Yoyop PO Zov|Xixo Sacan|WE Hey Yoyop PO Zov PU;TU Hey Yoyop|Xixo Sacan|WE Hey Yoyop Xixo
+                         Sacan{Qakuya
+                         Recaca Bipi: Batogam - No CAB Qakuya Recaca Yuriv}</Model>
+                     <PricePerCurrency>
+                         <Currency Name="JIT" Value="6505905.47948627919"/>
+                     </PricePerCurrency>
+                     <Components>
+                         <Component Name="LUW" Value="998.000712254347"/>
+                     </Components>
+                     <Annotations/>
+                 </PricingDataByMethod>
+            </Security>
+        </PricingNode>
+    </TradingBook>
+</PricingData>

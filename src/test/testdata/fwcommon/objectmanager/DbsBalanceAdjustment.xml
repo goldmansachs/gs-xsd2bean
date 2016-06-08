@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>javeneruma,noki,interface,wunopi,tetahij,fiyatis,nuzikuzu,wululu</Templates>
+    <PackageName>com.gs.fw.lilu.cowow.domain.dinezaxilo</PackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.damagul.*</ImportPackageName>
+    <ClassName>MurIwezekeMobabufena</ClassName>
+    <DefaultTable>ZUC_DAMAGUL_DINEZAXILO</DefaultTable>
+    <SchemaName>mut</SchemaName>
+    <DatabaseName>cowow</DatabaseName>
+    <ConnectionManagerName>zoqew</ConnectionManagerName>
+    <ReadOnly>false</ReadOnly>
+    <ExplicitColumnNamesForSelect>true</ExplicitColumnNamesForSelect>
+
+    <PrimaryKeyAttribute keyClass="GinOtuqujePukokuzakaWil">
+        <Attribute columnName="BOGOXEWO" javaType="long" name="bogoxeWo" sqlType="Nula"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="LUY_GUJIB_VEWOC_CIQ_DAMAGUL" javaType="double" name="datinOfikuCikIfekada" sqlType="Luhisa"/>
+    <Attribute columnName="LUY_CIQ" javaType="String" name="jetixajaVom" sqlType="XefeTewesa"/>
+    <Attribute columnName="XEJOFIHA_SIBA" javaType="Timestamp" name="yelacopoVeda" sqlType="Timestamp"/>
+    <Attribute columnName="ROZUSEBAHEZI_PO" javaType="int" name="yerarayUwikiQe" sqlType="Ciyisag"/>
+    <Attribute columnName="GUHUHI" javaType="String" name="zapa" sqlType="XefeTewesa"/>
+    <Attribute columnName="BEKAT" javaType="String" name="bekat" sqlType="XefeTewesa"/>
+    <Attribute columnName="THRU_Z" javaType="Timestamp" name="bicuCaqi" sqlType="Timestamp"/>
+    <Attribute columnName="IS_KOCI_DAMAGUL" javaType="boolean" name="tomiGajibel" sqlType="Boolean"/>
+    <Attribute columnName="NO_Z" javaType="Timestamp" name="juxepEyal" sqlType="Timestamp"/>
+    <Attribute columnName="RUC_Z" javaType="Timestamp" name="fosawIv" sqlType="Timestamp"/>
+
+    <ForeignKeyAttribute name="meqadeqaMobayoJux" keyClass="WESOcukaraTuy">
+        <Attribute columnName="YEJACUMO_WOTEP_PAXICE_P" javaType="int" name="hequdeDo" sqlType="Ciyisag"/>
+        <Attribute columnName="YEJACUMO_JEXAKEWOB_N" javaType="String" name="xacarojutElow" sqlType="XefeTewesa"/>
+        <Attribute columnName="YEJACUMO_QABAYA_N" javaType="String" name="weyuxiVidu" sqlType="XefeTewesa"/>
+        <Attribute columnName="YEJACUMO_NOWICI_N" javaType="String" name="husajakekiWigu" sqlType="XefeTewesa" defaultIfNull=""/>
+        <Attribute columnName="YEJACUMO_DOMU_W" javaType="String" name="cejasawUwesij" sqlType="XefeTewesa"/>
+        <Attribute columnName="YEJACUMO_DAMAGUL_TADE" javaType="String" name="ruzodaqIjok" sqlType="XefeTewesa"/>
+        <Attribute columnName="YEJACUMO_VEWOC_CIQ_N" javaType="String" name="dileweri" sqlType="XefeTewesa"/>
+        <Attribute columnName="FROM_Z" javaType="Timestamp" name="businessDate" sqlType="Timestamp"/>
+    </ForeignKeyAttribute>
+
+    <ForeignKeyAttribute name="tumabobuduCenufUro" keyClass="TumabobuduCenufUro">
+        <Attribute columnName="JAKIT_BOGOXEWO" javaType="long" name="xuxokEk" sqlType="Nula"/>
+    </ForeignKeyAttribute>
+
+    <Relationship name="saxoqodoBivIbakegu" dependentClass="CODAhiyaju" cardinality="many-to-one"
+                  foreignKey="meqadeqaMobayoJux" useCacheIndexing="true"/>
+    <Relationship name="yobotuvuwiFogon" dependentClass="YobotuvuwiFogon" cardinality="many-to-one"
+                  foreignKey="tumabobuduCenufUro"/>
+    <Relationship name="rozusebAhezi" dependentClass="com.gs.fw.lilu.wute.domain.jewivuy.RozusebAhezi"
+                  foreignKey="cekeloqefikoTeq" cardinality="many-to-one"/>
+
+    <Index name="businessDate">businessDate</Index>
+
+</ManagedObject>
+

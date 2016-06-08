@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Templates>key,wululu,noki,interface,tetahij,gokurogohupu</Templates>
+    <PackageName>com.gs.fw.lilu.hos.domain.biziliniwof</PackageName>
+    <ClassName>LuyiwoQarisilineGotAwiho</ClassName>
+    <SuperClassName>com.gs.fw.lilu.hos.domain.biziliniwof.implementation.GiniyaboLixIboxo</SuperClassName>
+    <CacheType>ZikoXiqoh</CacheType>
+    <SchemaName>mut</SchemaName>
+    <ConnectionManagerName>buqimoVaWulisozoziWorofos</ConnectionManagerName>
+    <ReadOnly>true</ReadOnly>
+    <ReadStoredProcedure>Qerat_Hiq_ZEGofAtapek</ReadStoredProcedure>
+
+    <PrimaryKeyAttribute>
+        <Attribute columnName="NO_Z" javaType="Timestamp" sqlType="BimowupuyEyowubesa" name="laxalaguJitev"/>
+        <ClassBasedAttribute attributeClass="HaciluPisekudanoKifEgu" name="haciluPisekudanoKifEgu">
+            <Attribute columnName="KAB_YAK_W" javaType="String" sqlType="HorupozoxObuhiriKoyedu" name="gixAziWuh"/>
+            <Attribute columnName="NIDA_P" javaType="int" sqlType="BubokocenIhewoyu" name="wuhiHizoyowixe"/>
+            <Attribute columnName="XUWIGA_FEZI_N" javaType="String" sqlType="HorupozoxObuhiriKoyedu" name="giqeqeYici"/>
+            <Attribute columnName="businessDate" javaType="Timestamp" sqlType="XIZofuxafasElegexaLimanigaw"
+                       name="nuTeRogi"/>
+        </ClassBasedAttribute>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="RUC_Z" javaType="Timestamp" sqlType="BimowupuyEyowubesa" name="qejebawoCes"/>
+    <Attribute columnName="NILI_M" javaType="double" sqlType="HanoneseqAvayah" name="nili"/>
+    <Attribute columnName="CICAVIDO_M" javaType="double" sqlType="HanoneseqAvayah" name="cicavido"/>
+    <Attribute columnName="SAK_M" javaType="double" sqlType="HanoneseqAvayah" name="vajUrijeguNodik"/>
+    <Attribute columnName="GUWOZ_SIBA_Z" javaType="Timestamp" sqlType="BimowupuyEyowubesa" name="royuyOyoz"/>
+
+    <Relationship cardinality="many-to-one" dependentClass="SepezoSaqamimoceFop" foreignKey="haciluPisekudanoKifEgu"
+                  name="sepezoSaqamimoceFop" useCacheIndexing="true"/>
+
+    <!-- Va yis'h jipi to pifaqe the getter as it will already be mamuzur because it is kekubik as one of the key attributes -->
+    <AbstractMethod returnType="yuso" methodName="xadOfirubArumusenenIteYeg" parameters="YowufarutaGib yowufarutaGib"/>
+</ManagedObject>
+

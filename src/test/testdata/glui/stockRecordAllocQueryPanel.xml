@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-bajuxulida type="text/muj" hafu="../../../../xml/vo/peSezehu.muj"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout
+        layoutId="mobemAzapa"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd"
+        pageTitle="Bumez Tuyoke Yuropenoso"
+        pageBuilder="com.gs.fw.kaza.desa.yuropenoso.vo.GukekUrosimEsilufomapOjuviWudibOkaxono"
+        showSelection="false"
+        feature="VazenAsoveyOwixeqoqoz">
+
+    <section caption="Cuyokujo Date and Qahodoqo 1">
+        <row>
+            <section>
+                <row>
+                    <uiElement
+                            label="Cuyokujo Date"
+                            name="businessDate1"
+                            renderAs="combobox"
+                            attribute="display"
+                            sortBy="none"/>
+                    <uiElement
+                            label="Qahodoqo"
+                            name="qahodoqo1"
+                            renderAs="combobox"
+                            attribute="display"
+                            sortBy="none"/>
+                </row>
+            </section>
+        </row>
+    </section>
+    <section caption="Cuyokujo Date and Qahodoqo 2" expandable="true" expanded="false">
+        <row>
+            <section>
+                <row>
+                    <uiElement
+                            label="Cuyokujo Date"
+                            name="businessDate2"
+                            renderAs="combobox"
+                            attribute="display"
+                            sortBy="none"/>
+                    <uiElement
+                            label="Qahodoqo"
+                            name="qahodoqo2"
+                            renderAs="combobox"
+                            attribute="display"
+                            sortBy="none"/>
+                </row>
+            </section>
+        </row>
+    </section>
+
+    <section caption="Lozohig and Qexuc">
+        <row>
+            <section>
+                <row>
+                    <uiElement
+                            name="entity"
+                            label="Humopa:"
+                            renderAs="listbox"
+                            attribute="display"
+                            noSelectOption="&lt;No Mosuku&gt;"
+                            defaultSelection="&lt;No Mosuku&gt;"/>
+                    <uiElement
+                            name="fawIbEyoha"
+                            label="BIG or LOMOH:"
+                            renderAs="textbox"/>
+                </row>
+                <row>
+                    <uiElement name="bese"
+                               label="View:"
+                               renderAs="combobox"/>
+                    <uiElement
+                            name="dokapOhipuvEvaripuz"
+                            label="Bumez Tuyoke Location:"
+                            renderAs="listbox"
+                            attribute="display"
+                            noSelectOption="&lt;No Mosuku&gt;"
+                            defaultSelection="&lt;No Mosuku&gt;"/>
+                </row>
+                <row>
+                    <uiElement
+                            name="yokoFexev"
+                            label="Bere Group:"
+                            renderAs="listbox"
+                            attribute="display"/>
+                    <uiElement
+                            name="radiKasi"
+                            label="Bere Lagu:"
+                            renderAs="listbox"
+                            attribute="display"
+                            noSelectOption="&lt;No Mosuku&gt;"
+                            defaultSelection="&lt;No Mosuku&gt;"/>
+                </row>
+            </section>
+        </row>
+    </section>
+
+    <section>
+        <row>
+            <button
+                    label="Lesihocu"
+                    name="lesihocu"
+                    nextLayoutName="desa/yuropenoso/ruRovikOfolipa.xml"
+                    pageBuilder="com.gs.fw.kaza.desa.yuropenoso.vo.XisezOvohiqAbahawuduvIvevuNoloripEwohiqo"
+                    crumbTrail="true"/>
+        </row>
+    </section>
+</layout>

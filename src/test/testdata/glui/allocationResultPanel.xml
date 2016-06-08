@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout pageTitle="Yuropenoso Mowere"
+    layoutId="Yuropenoso"
+    showSelection="false"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd">
+    <section>
+        <row>
+            <table name="vodagigebace"
+                label="Yuropenoso"
+                rowsPerPage="20000">
+                <drilldown>
+                    <button label="Dulic Bega"
+                        name="filigIwabOdedak"
+                        nextLayoutName="puz/yuropenoso/jahixakebeXoyukIpigi.xml"
+                        pageBuilder="com.gs.fw.kaza.puz.vo.tudewax.KimiluheyiKonefEzayIhixEdakuzi"
+                        crumbTrail="true"/>
+                </drilldown>
+            </table>
+        </row>
+        <row>
+            <button label="Lage Jecir Ji..."
+                name="qakuWesum"
+                downloadContent="true"
+                contentDownloader="com.gs.fw.kaza.puz.vo.xinocepe.XUQImoqUkofanigap"
+                pageBuilder="com.gs.fw.kaza.puz.vo.tudewax.QasoqEpajUbilebe"
+                crumbTrail="false"/>
+            <button label="Qeqerif Jecir"
+                name="tiwoxisIvexa"
+                crumbTrail="false"
+                pageBuilder="com.gs.fw.kaza.puz.vo.tudewax.PovazasIyakaFuluCujosik"/>
+            <button label="Dulic Bega by Biyiruwe Window"
+                name="mocezimAdipoMitaXuSiruqileLequse"
+                nextLayoutName="puz/biyiruwe/doborujeFiyamUlejo.xml"
+                pageBuilder="com.gs.fw.kaza.puz.vo.tudewax.BumajaxajiKiCuxehuvoSepewOyabUvapEnoyote"/>
+            <button label="Dulic Bega by Yemuqi Bopohuc Window"
+                name="zobawenOgukiKitaXeWitadoHocadehIjasad"
+                nextLayoutName="puz/terupiPepisiy/jecifuPijiriyIbura.xml"
+                pageBuilder="com.gs.fw.kaza.puz.vo.tudewax.PayeyuzecaNaVequfaVarotUmabUfesOzutomi"/>
+            <button toFeature="PufiVolozoquvaw"
+                label="Wopine Siwel Yenazimuxu"
+                name="paceciFupeqAjukilidul"
+                nextLayoutName="puz/vewicIgumejarin.xml"
+                pageBuilder="com.gs.fw.kaza.puz.vo.tudewax.LuzehAwoceqazomOberoTawuwub.yolitexaXayecaqur"
+                crumbTrail="true"/>
+        </row>
+        <row>
+            <button label="Baken"
+                name="simegInibet"
+                pageBuilder="com.gs.fw.kaza.puz.vo.tudewax.MewihElicopUvumUkogapi"/>
+        </row>
+    </section>
+</layout>

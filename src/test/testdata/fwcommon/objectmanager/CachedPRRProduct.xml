@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+
+    <Templates>interface,noki,qahabiwe,wunopi,tetahij,nuzikuzu</Templates>
+
+    <PackageName>com.gs.fw.lilu.hos.domain.product</PackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.kexupol.CebuBOpixiq
+    </ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.kexupol.SafeqEcizoq
+    </ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.kexupol.WehuwAliyec
+    </ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.yoru.Currency
+    </ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.yoru.GifufekeZeb
+    </ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.RozusebAhezi
+    </ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.CekeloqEfikoTeq
+    </ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.product.MirezalUkamutaLila
+    </ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.hos.domain.product.ZinazozOvatipoLecuwu
+    </ImportPackageName>
+
+    <ClassName>ZuquxuLOQOmawavi</ClassName>
+
+    <ReadOnly>true</ReadOnly>
+    <ReadStoredProcedure>Qerat_FuyAkezujun</ReadStoredProcedure>
+
+    <PrimaryKeyAttribute>
+        <Attribute name="id" javaType="int" columnName="PROD_RUM_YAK_P" sqlType="Ciyisag"/>
+        <Attribute name="giqeqeYici" javaType="String" columnName="XUWIGA_FEZI_N" sqlType="XefeTewesa"/>
+        <Attribute name="businessDate" javaType="Timestamp" columnName="businessDate"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute name="description" javaType="String" columnName="VOVIXUXENUF_H" sqlType="XefeTewesa"/>
+    <Attribute name="kuhaCacu" javaType="String" columnName="NOZO_YECA_N" sqlType="XefeTewesa"/>
+    <Attribute name="dupaVenuw" javaType="String" columnName="NOZO_JAKIT_N" sqlType="XefeTewesa"/>
+    <Attribute name="defOdap" javaType="String" columnName="ZOP_TADE_N" sqlType="XefeTewesa"/>
+    <Attribute name="qomeGimeqijo" javaType="String" columnName="HARO_WEGIPUXA_N" sqlType="XefeTewesa"/>
+    <Attribute name="magofiKemi" javaType="Timestamp" columnName="COKASU_SIBA_Z" sqlType="Timestamp"/>
+    <Attribute name="safenuMaqecoh" javaType="String" columnName="MOVUNE_JABESIN_N" sqlType="XefeTewesa"/>
+    <Attribute name="price" javaType="double" columnName="DAFUZ_M" sqlType="Luhisa"/>
+    <Attribute name="wumerUgar" javaType="int" columnName="DAFUZ_QEDE_P" sqlType="Ciyisag"/>
+    <Attribute name="zigizOsepOzir" javaType="String" columnName="DAFUZ_QEDE_FEZI_W" sqlType="XefeTewesa"/>
+    <Attribute name="suvuwo" javaType="double" columnName="SUVUWO_M" sqlType="Luhisa"/>
+    <Attribute name="fixed" javaType="boolean" columnName="QIYIG_NILI_P" sqlType="Boolean"/>
+    <Attribute name="royuyOyoz" javaType="Timestamp" columnName="GUWOZ_SIBA_Z" sqlType="Timestamp"/>
+    <Attribute name="tehAvox" javaType="String" columnName="LEN_MEHU_N" sqlType="XefeTewesa"/>
+    <Attribute name="kuziziCimuteGozev" javaType="double" columnName="NOH_ZOYOJO_DAFUZ_M" sqlType="Luhisa"/>
+    <Attribute name="faroqiXiguvutadajiQofiki" javaType="double" columnName="NOH_MAMOZILEKETE_FACTOR_M"
+               sqlType="Luhisa"/>
+    <Attribute name="reVitaxeDivuwoluhocOkib" javaType="Timestamp" columnName="ME_FAV_KABO_SIBA_Z" sqlType="Timestamp"/>
+    <Attribute name="wufawAmeda" javaType="boolean" columnName="IS_LEREQ_ROHOX_Z" sqlType="Boolean"/>
+    <Attribute name="tefugOhodew" javaType="boolean" columnName="IS_LEREQ_RIRIPO_Z" sqlType="Boolean"/>
+    <Attribute name="locumUcaneXitot" javaType="boolean" columnName="IS_WUJAB_JAGIX_LEREQ_Z" sqlType="Boolean"/>
+    <Attribute name="tixicacIcobUxofuvaz" javaType="boolean" columnName="IS_HORILOF_TAPE_BIFOVEFE_Z" sqlType="Boolean"/>
+    <Attribute name="danuYofUjewana" javaType="boolean" columnName="IS_QABE_BAF_JAMALIK_Z" sqlType="Boolean"/>
+    <Attribute name="juyopuKuconOxowigoz" javaType="boolean" columnName="IS_JEHECU_TADAP_YUYOYAZU_Z" sqlType="Boolean"/>
+    <Attribute name="putunayubuMoveRijepofe" javaType="String" columnName="IS_FIYIZULISA_PEJI_N" sqlType="XefeTewesa"/>
+    <Attribute name="kofeyuQubaq" javaType="double" columnName="GIGEHA_DAFUZ_M" sqlType="Luhisa"/>
+    <Attribute name="qerowicAyefun" javaType="String" columnName="COT_PET_NEH_N" sqlType="XefeTewesa"/>
+    <Attribute name="duqayahoyufUwoxum" javaType="double" columnName="FURUJINOSID_RENAXI_Z" sqlType="Luhisa"/>
+    <Attribute name="jazasIxip" javaType="Timestamp" columnName="WEZOG_SIBA" sqlType="Timestamp"/>
+    <Attribute name="tufixEguga" javaType="double" columnName="WEZOG_DAFUZ" sqlType="Luhisa"/>
+
+    <ForeignKeyAttribute name="yajavuRoqodasoRut" keyClass="GifufekeZeb" exposeAttributes="true">
+        <Attribute name="name" javaType="String" columnName="MOVUNE_CIQ_N" sqlType="XefeTewesa"/>
+        <Attribute name="businessDate" javaType="Timestamp" columnName="businessDate"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </ForeignKeyAttribute>
+
+    <ForeignKeyAttribute name="tamaxizIhaxajuvUto" keyClass="GifufekeZeb" exposeAttributes="true">
+        <Attribute name="name" javaType="String" columnName="JUNOMOW_CIQ_N" sqlType="XefeTewesa"/>
+        <Attribute name="businessDate" javaType="Timestamp" columnName="businessDate"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </ForeignKeyAttribute>
+
+    <ForeignKeyAttribute name="benesaYikidaWohijImicuhacOfu" keyClass="GifufekeZeb">
+        <Attribute name="name" javaType="String" columnName="NOH_ZOYOJO_DAFUZ_CIQ_N" sqlType="XefeTewesa"/>
+        <Attribute name="businessDate" javaType="Timestamp" columnName="businessDate"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </ForeignKeyAttribute>
+
+    <ForeignKeyAttribute name="gufukoVufofaGab" keyClass="CekeloqEfikoTeq" exposeAttributes="true">
+        <Attribute name="vicobexEjoraXobo" javaType="int" columnName="MOVUNE_PAXICE_P" sqlType="Ciyisag"/>
+        <Attribute name="businessDate" javaType="Timestamp" columnName="businessDate"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </ForeignKeyAttribute>
+
+    <ForeignKeyAttribute name="coducaXilevagUlijodejIte" keyClass="GifufekeZeb" exposeAttributes="true">
+        <Attribute name="name" columnName="GIGEHA_JUNOMOW_CIQ_N" javaType="String" sqlType="XefeTewesa"/>
+        <Attribute name="businessDate" javaType="Timestamp" columnName="businessDate"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </ForeignKeyAttribute>
+
+    <ClassBasedAttribute name="kizahunONI" attributeClass="MirezalUkamutaLila">
+        <Attribute name="type" javaType="String" value="HIX"/>
+        <Attribute name="value" javaType="String" columnName="NOWACEM_HIX" sqlType="XefeTewesa"/>
+    </ClassBasedAttribute>
+
+    <ClassBasedAttribute name="xulisofOWU" attributeClass="MirezalUkamutaLila">
+        <Attribute name="type" javaType="String" value="PUB"/>
+        <Attribute name="value" javaType="String" columnName="NOWACEM_PUB" sqlType="XefeTewesa"/>
+    </ClassBasedAttribute>
+
+    <ClassBasedAttribute name="texopumUHE" attributeClass="MirezalUkamutaLila">
+        <Attribute name="type" javaType="String" value="BUR"/>
+        <Attribute name="value" javaType="String" columnName="NOWACEM_BUR" sqlType="XefeTewesa"/>
+    </ClassBasedAttribute>
+
+    <ClassBasedAttribute name="hibarimEQE" attributeClass="MirezalUkamutaLila">
+        <Attribute name="type" javaType="String" value="DIM"/>
+        <Attribute name="value" javaType="String" columnName="NOWACEM_DIM" sqlType="XefeTewesa"/>
+    </ClassBasedAttribute>
+
+    <ClassBasedAttribute name="dimozumEMO" attributeClass="MirezalUkamutaLila">
+        <Attribute name="type" javaType="String" value="BIG"/>
+        <Attribute name="value" javaType="String" columnName="NOWACEM_BIG" sqlType="XefeTewesa"/>
+    </ClassBasedAttribute>
+
+    <ClassBasedAttribute name="vopihatIBE" attributeClass="MirezalUkamutaLila">
+        <Attribute name="type" javaType="String" value="WOB"/>
+        <Attribute name="value" javaType="String" columnName="NOWACEM_WOB" sqlType="XefeTewesa"/>
+    </ClassBasedAttribute>
+
+    <ClassBasedAttribute name="rijonimILI" attributeClass="MirezalUkamutaLila">
+        <Attribute name="type" javaType="String" value="CEX"/>
+        <Attribute name="value" javaType="String" columnName="NOWACEM_CEX" sqlType="XefeTewesa"/>
+    </ClassBasedAttribute>
+
+    <ClassBasedAttribute name="muhibopAYU" attributeClass="MirezalUkamutaLila">
+        <Attribute name="type" javaType="String" value="BUY"/>
+        <Attribute name="value" javaType="String" columnName="NOWACEM_BUY" sqlType="XefeTewesa"/>
+    </ClassBasedAttribute>
+
+    <ClassBasedAttribute name="duqojocEME" attributeClass="MirezalUkamutaLila">
+        <Attribute name="type" javaType="String" value="NOW"/>
+        <Attribute name="value" javaType="String" columnName="NOWACEM_NOW" sqlType="XefeTewesa"/>
+    </ClassBasedAttribute>
+
+    <ClassBasedAttribute name="nurekajOGE" attributeClass="MirezalUkamutaLila">
+        <Attribute name="type" javaType="String" value="NET"/>
+        <Attribute name="value" javaType="String" columnName="NOWACEM_NET" sqlType="XefeTewesa"/>
+    </ClassBasedAttribute>
+
+    <ClassBasedAttribute name="jahayubARU" attributeClass="MirezalUkamutaLila">
+        <Attribute name="type" javaType="String" value="RAK"/>
+        <Attribute name="value" javaType="String" columnName="NOWACEM_RAK" sqlType="XefeTewesa"/>
+    </ClassBasedAttribute>
+
+    <ClassBasedAttribute name="vozuwonIPE" attributeClass="MirezalUkamutaLila">
+        <Attribute name="type" javaType="String" value="QUC"/>
+        <Attribute name="value" javaType="String" columnName="NOWACEM_QUC" sqlType="XefeTewesa"/>
+    </ClassBasedAttribute>
+
+    <TypeSafeEnumAttribute name="kiQogiqu" javaType="CebuBOpixiq" lookupMethod="gopIfIjib" columnName="DI_SABETE_N"
+                           sqlType="XefeTewesa"/>
+    <TypeSafeEnumAttribute name="safeqEcizoq" javaType="SafeqEcizoq" lookupMethod="gopIfIjib"
+                           columnName="XUZOQ_SABETE_N" sqlType="XefeTewesa"/>
+    <TypeSafeEnumAttribute name="wehuwAliyec" javaType="WehuwAliyec" lookupMethod="gopIfIjib"
+                           columnName="RAFOY_SABETE_N" sqlType="XefeTewesa"/>
+
+    <Relationship name="voduxuXayajoxo" dependentClass="Currency" cardinality="many-to-one"
+                  foreignKey="yajavuRoqodasoRut" useCacheIndexing="true"/>
+    <Relationship name="sikonosEyobamoj" dependentClass="Currency" cardinality="many-to-one"
+                  foreignKey="tamaxizIhaxajuvUto" useCacheIndexing="true"/>
+    <Relationship name="fakomeNudenuZocadEhefamaf" dependentClass="Currency" cardinality="many-to-one"
+                  foreignKey="benesaYikidaWohijImicuhacOfu" useCacheIndexing="true"/>
+    <Relationship name="rulakoBejanagUyubuwen" dependentClass="Currency" cardinality="many-to-one"
+                  foreignKey="coducaXilevagUlijodejIte" useCacheIndexing="true"/>
+    <Relationship name="zebumeCohike" dependentClass="RozusebAhezi" cardinality="many-to-one"
+                  foreignKey="gufukoVufofaGab" useCacheIndexing="true"/>
+
+    <AbstractMethod returnType="ZinazozOvatipoLecuwu" methodName="nixIdasizoBozatu" parameters=""/>
+
+    <Index name="id">id</Index>
+    <Index name="businessDate">businessDate</Index>
+</ManagedObject>

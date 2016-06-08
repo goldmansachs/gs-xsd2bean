@@ -1,0 +1,185 @@
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<application implementation="com.gs.fw.para.application.NobekezuhUciYucacoyal" ignoreLoadFailures="true" name="CikAnamadawuGekeliqopet">
+    <services>
+        <service-instance id="dayoyuniJemuwus" implementation="DulugeVopigaguQalihor" type="DayoyuniJemuwus"/>
+
+        <service-instance id="dolakihEsutit" implementation="GataroXigoxeqEsoxar" type="DolakihEsutit"/>
+
+        <embedded-instance id="mithra" interface="com.gs.fw.para.service.mithra.FigotoLufikum" implementation="com.gs.fw.para.service.mithra.implementation.RorudiXucilewAvih" >
+            <properties>
+                <scalar name="nopiwosopebAniyeco" invokeSetter="true">600</scalar>
+                <list name="pehijeWakufihanocijAcax" invokeSetter="true">
+                    <value>services/Mithra/RigiDaseyezafUsowUfacumAvabihUrapodizolige.xml</value>
+                    <value> services/Mithra/YaseyawUxuqusEfifapEyapunutugalu.xml </value>
+                    <value> services/Mithra/HanafebiCexOfaxaxIjupelufokega.xml </value>
+                    <value> services/Mithra/CiwaZamumeBuwOtafUwafoqElosuwunuzaqe.xml </value>
+                    <value> services/Mithra/NenicexoZuzoyixokElalAxufiqApezujesipulu.xml</value>
+                </list>
+            </properties>
+        </embedded-instance>
+
+        <embedded-instance
+            id="LagaYis" instantiateUsingFactory="true"
+            interface="com.gs.fw.para.rehepiyebag.fulex.YefiKametizuca"
+            implementation="com.gs.fw.para.rehepiyebag.bemojup.implementation.KageJopIroqExayocudos" />
+
+        <embedded-instance
+            id="GugeXoqObine" instantiateUsingFactory="true"
+            interface="com.gs.fw.para.rehepiyebag.fulex.YefiKametizuca"
+            implementation="com.gs.fw.para.rehepiyebag.bemojup.implementation.WoqaSosEyowoCinaQohucoxobu" />
+
+        <embedded-instance
+            id="NataFawEbe" instantiateUsingFactory="true"
+            interface="com.gs.fw.para.rehepiyebag.fulex.YefiKametizuca"
+            implementation="com.gs.fw.para.rehepiyebag.bemojup.implementation.KeruQagEjeDunaZexizanote" />
+
+        <embedded-instance
+            id="CoviKepOsaCaciy" instantiateUsingFactory="true"
+            interface="com.gs.fw.para.rehepiyebag.fulex.YefiKametizuca"
+            implementation="com.gs.fw.para.rehepiyebag.bemojup.implementation.CuleCebEsiCopivIfihEmezedukak" />
+
+        <embedded-instance
+            id="LihaVaj" instantiateUsingFactory="true"
+            interface="com.gs.fw.para.rehepiyebag.fulex.YefiKametizuca"
+            implementation="com.gs.fw.para.rehepiyebag.bemojup.implementation.XawiWabUsewAvoyajomis" />
+
+        <embedded-instance
+            id="CiguWiwUcapu" instantiateUsingFactory="true"
+            interface="com.gs.fw.para.rehepiyebag.fulex.YefiKametizuca"
+            implementation="com.gs.fw.para.rehepiyebag.bemojup.implementation.JitaQudOdayuXicaZagizaduba" />
+
+        <embedded-instance
+            id="DiSon" instantiateUsingFactory="true"
+            interface="com.gs.fw.para.rehepiyebag.fulex.YefiKametizuca"
+            implementation="com.gs.fw.para.rehepiyebag.bemojup.implementation.KoQuyokUjeFufeZogisikuva" />
+
+        <embedded-instance
+            id="WaYuWaf" instantiateUsingFactory="true"
+            interface="com.gs.fw.para.rehepiyebag.fulex.YefiKametizuca"
+            implementation="com.gs.fw.para.rehepiyebag.bemojup.implementation.XaLocefArUjoXojuGipucivebu" />
+
+        <embedded-instance
+            id="RaxoWux" instantiateUsingFactory="true"
+            interface="com.gs.fw.para.rehepiyebag.fulex.YefiKametizuca"
+            implementation="com.gs.fw.para.rehepiyebag.bemojup.implementation.QovaFegIbotOjiquceqor" />
+
+        <embedded-instance
+            id="XubOle" instantiateUsingFactory="true"
+            interface="com.gs.fw.para.rehepiyebag.fulex.YefiKametizuca"
+            implementation="com.gs.fw.para.rehepiyebag.bemojup.implementation.LapOjoVupoGociramuma" />
+
+        <embedded-instance
+            id="XukAsosUdu" instantiateUsingFactory="true"
+            interface="com.gs.fw.para.rehepiyebag.fulex.YefiKametizuca"
+            implementation="com.gs.fw.para.rehepiyebag.bemojup.implementation.KofUxizOvoFoqiNuwokorada" />
+
+        <embedded-instance
+            id="TonoHogiyeqeXuv" instantiateUsingFactory="true"
+            interface="com.gs.fw.para.rehepiyebag.fulex.YefiKametizuca"
+            implementation="com.gs.fw.para.rehepiyebag.bemojup.implementation.CileXazejikuYugoFurElemIhoqizolax" />
+
+        <embedded-instance
+            id="VeneLatofazo" instantiateUsingFactory="true"
+            interface="com.gs.fw.para.rehepiyebag.fulex.YefiKametizuca"
+            implementation="com.gs.fw.para.rehepiyebag.cat.CineJicIhexafajIgovUnovilojop" />
+
+        <embedded-instance
+            id="SuxavuYakoRarukupo" instantiateUsingFactory="true"
+            interface="com.gs.fw.para.rehepiyebag.fulex.YefiKametizuca"
+            implementation="com.gs.fw.para.rehepiyebag.cat.WuhejaMizoZohExucasazUtenOkorohitut" />
+
+        <embedded-instance
+            id="FoloDilInitUvivined" instantiateUsingFactory="true"
+            interface="com.gs.fw.para.rehepiyebag.fulex.YefiKametizuca"
+            implementation="com.gs.fw.para.rehepiyebag.cat.PerazeWopIjajEdeDafoconoDaciRefutimike" />
+        <embedded-instance
+            id="VeJOTozujejaPona" instantiateUsingFactory="true"
+            interface="com.gs.fw.para.rehepiyebag.fulex.BedOkixApesekahet"
+            implementation="com.gs.fw.para.application.zawazacecihe.JiLEDejuxabiSozeHukEzanAsezezefes" />
+
+        <embedded-instance id="vogiyuve"
+            interface="com.gs.fw.para.rehepiyebag.bemojup.DusoCebuninuhorOderehew"
+            implementation="com.gs.fw.para.rehepiyebag.bemojup.QusiCasezahaxezAzebeqilAxeb" >
+            <properties>
+                <scalar name="soqofitUnetahUzuzuDibe" invokeSetter="true">com.gs.fw.para.fufexoze.wuhoticuhomec.HidesaDozayocakacEkivuvuZifibi</scalar>
+            </properties>
+        </embedded-instance>
+
+        <embedded-instance id="yazuwAdepa"
+            interface="com.gs.fw.para.common.NuhezIwal"
+            implementation="com.gs.fw.para.rehepiyebag.wosuxec.YejimumOveweRigu" >
+            <services>
+                <service-instance instantiateUsingFactory="true" type="VasuDinat" id="kitizOwimebaku" implementation="KitizOwimEbaku"/>
+                <service-instance id="dayoyuniJemuwus" implementation="DulugeVopigaguQalihor" type="DayoyuniJemuwus"/>
+            </services>
+        </embedded-instance>
+
+        <embedded-instance
+            id="Tog" instantiateUsingFactory="true"
+            interface="com.gs.fw.para.application.quk.KacEkoguyUqoyon"
+            implementation="com.gs.fw.para.application.quk.implementation.CirEcaJolojuHadipi" />
+
+        <embedded-instance
+             id="TigEsad" instantiateUsingFactory="true"
+             interface="com.gs.fw.para.application.quk.KacEkoguyUqoyon"
+             implementation="com.gs.fw.para.application.quk.implementation.RosUcayUquJidetuVuqalu" />
+
+        <embedded-instance
+            id="Cega" instantiateUsingFactory="true"
+            interface="com.gs.fw.para.application.quk.KacEkoguyUqoyon"
+            implementation="com.gs.fw.para.application.quk.implementation.RuciQusAzajolUfarih" />
+
+        <embedded-instance
+            id="PawoCobimaqo" instantiateUsingFactory="true"
+            interface="com.gs.fw.para.application.quk.KacEkoguyUqoyon"
+            implementation="com.gs.fw.para.application.quk.implementation.BawoRiwupaceDuvIwurelEvojuw" />
+
+        <embedded-instance
+            id="JojOwiGutela" instantiateUsingFactory="true"
+            interface="com.gs.fw.para.application.quk.KacEkoguyUqoyon"
+            implementation="com.gs.fw.para.application.quk.implementation.TunuXasesekiTusanoWomugu" />
+
+        <embedded-instance
+            id="RefanumUrukeGon" instantiateUsingFactory="true"
+            interface="com.gs.fw.para.application.quk.KacEkoguyUqoyon"
+            implementation="com.gs.fw.para.application.quk.implementation.HuxePuxocaxAqodoLoxAtoxefUhavey" />
+
+    </services>
+    <properties>
+        <scalar name="gonukupisodUyesufoLekukac" invokeSetter="true" type="boolean"> true </scalar>
+
+<!--        <list name="xodaveLilinEsimo" invokeSetter="true">-->
+<!--            <value>XUQAJ</value>-->
+<!--            <value>ZISOS</value>-->
+<!--            <value>CUHUV</value>-->
+<!--        </list>-->
+
+        <list name="gaqiyacUsiMafil" invokeSetter="true">
+            <value>JigoRopubEnu-Qes-Quk</value>
+            <value>VudoBukikIda-Vinuwo-Quk</value>
+            <value>VudoBukikIda-ComUsaz-Quk</value>
+            <value>VudoBukikIda-Baxak-Quk</value>
+            <value>VudoBukikIda-ComUsaz-Quk-Dowajuvun</value>
+            <value>JigoRopubEnu-Qes-Quk-Dowajuvun</value>
+            <value>MisuPixetAxuXihe-Qes-Quk</value>
+            <value>MisuPixetAxuXihe-Qes-Quk-Dowajuvun</value>
+        </list>
+
+    </properties>
+
+</application>

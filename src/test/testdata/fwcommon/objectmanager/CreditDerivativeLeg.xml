@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Templates>noki,wululu,nuzikuzu,riyoxadipojoxuj,tetahij,javeneruma</Templates>
+    <PackageName>com.gs.fw.lilu.hos.domain.biziliniwof</PackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.yoru.Currency</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.yoru.GifufekeZeb</ImportPackageName>
+    <ClassName>SepezoSaqamimoceFop</ClassName>
+    <SuperClassName>com.gs.fw.lilu.hos.domain.biziliniwof.implementation.BixulozuJis</SuperClassName>
+    <SchemaName>mut</SchemaName>
+    <ConnectionManagerName>buqimoVaWulisozoziWorofos</ConnectionManagerName>
+    <ReadOnly>true</ReadOnly>
+    <ReadStoredProcedure>Qerat_MeqAgibesOroraLibo</ReadStoredProcedure>
+
+    <PrimaryKeyAttribute keyClass="HaciluPisekudanoKifEgu">
+        <Attribute columnName="KAB_YAK_W" javaType="String" sqlType="HorupozoxObuhiriKoyedu" name="gixAziWuh"/>
+        <Attribute columnName="NIDA_P" javaType="int" sqlType="BubokocenIhewoyu" name="wuhiHizoyowixe"/>
+        <Attribute columnName="XUWIGA_FEZI_N" javaType="String" sqlType="HorupozoxObuhiriKoyedu" name="giqeqeYici"/>
+        <Attribute columnName="businessDate" javaType="Timestamp" sqlType="XIZofuxafasElegexaLimanigaw"
+                   name="businessDate"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="DILEWERI_N" javaType="String" sqlType="HorupozoxObuhiriKoyedu" name="xayisadaMuye"/>
+    <Attribute columnName="LEREQ_TADE_N" javaType="String" sqlType="HorupozoxObuhiriKoyedu" name="tezexUxiw"/>
+    <Attribute columnName="LEREQ_W" javaType="String" sqlType="HorupozoxObuhiriKoyedu" name="index"/>
+    <Attribute columnName="PROD_RUM_YAK_P" javaType="int" sqlType="Ciyisag" name="mabucemiHi"/>
+
+    <ForeignKeyAttribute keyClass="GifufekeZeb" name="mamEcahekuPevuyEhehoqerAwu">
+        <Attribute columnName="SAK_CIQ_N" javaType="String" sqlType="HorupozoxObuhiriKoyedu" name="name"/>
+        <Attribute columnName="businessDate" javaType="Timestamp" sqlType="XIZofuxafasElegexaLimanigaw"
+                   name="nuTeRogi"/>
+    </ForeignKeyAttribute>
+
+    <TypeSafeEnumAttribute name="yarItag" javaType="YarItag" columnName="KAB_TADE_N" sqlType="XefeTewesa"
+                           lookupMethod="gopIfIjib"/>
+
+    <Relationship cardinality="many-to-one" dependentClass="Currency" foreignKey="mamEcahekuPevuyEhehoqerAwu"
+                  name="kulEletuvoGupicAtixejuc" useCacheIndexing="true"/>
+    <Relationship cardinality="many-to-one" dependentClass="Currency" foreignKey="gifufekeZeb"
+                  name="dileweri" useCacheIndexing="true"/>
+    <Relationship cardinality="many-to-one" dependentClass="WemifoRowiselukuSonefale" foreignKey="civimuMugadukokoRonuqiluXap"
+                  name="wemifoRowiselukuSonefale" useCacheIndexing="true"/>
+
+    <AbstractMethod returnType="YowufarutaGib" methodName="voqEsosoyUvidobevubIyovucidAdi"/>
+    <AbstractMethod returnType="yuso" methodName="sekAjemeqEqovunetacAkiguribInu" parameters="YowufarutaGib yowufarutaGib"/>
+
+    <Index name="businessDate">businessDate</Index>
+</ManagedObject>
+

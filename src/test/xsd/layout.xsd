@@ -1,0 +1,831 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<xsd:schema
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+    xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
+    jxb:extensionBindingPrefixes="xjc"
+    jxb:version="1.0">
+    <xsd:annotation>
+        <xsd:documentation xml:lang="en">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        </xsd:documentation>
+        <xsd:appinfo>
+            <jxb:globalBindings generateIsSetMethod="true">
+                <xjc:serializable uid="12343" />
+            </jxb:globalBindings>
+        </xsd:appinfo>
+    </xsd:annotation>
+
+    <xsd:element name="layout" type="LayoutType" />
+
+    <xsd:complexType name="LayoutType">
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="asynctasks" type="AsyncTasksType" minOccurs="0" maxOccurs="unbounded">
+                <xsd:annotation>
+                    <xsd:documentation xml:lang="en">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    </xsd:documentation>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="backgroundtask" type="BackgroundTaskType" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="section" type="SectionType" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="validator" type="ValidatorType" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="initialFocus" type="InitialFocusComponent" minOccurs="0" maxOccurs="1" />
+        </xsd:sequence>
+
+        <xsd:attribute name="pollingInterval" type="xsd:int" default="500">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    @Deprecated - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="layoutId" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="appTitle" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="pageTitle" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="pageBuilder" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="feature" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="showSelection" type="xsd:boolean">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur tempor &lt;=&gt; adipiscing elit, sed do eiusmod .
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="templateLayout" type="xsd:string" default="screens/defaultTemplate.xml">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="resultLayout" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    @Deprecated Lorem ipsum dolor sit amet
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="style" type="xsd:string" default="layout.style">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="windowState" default="normal">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="maximized" />
+                    <xsd:enumeration value="fixed" />
+                    <xsd:enumeration value="normal" />
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+        <xsd:attribute name="escapeKeyButton" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation xml:lang="en">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+    </xsd:complexType>
+
+    <xsd:complexType name="AsyncTasksType">
+        <xsd:attribute name="name" type="xsd:string" />
+        <xsd:attribute name="AsyncTaskClass" type="xsd:string" default="" />
+        <xsd:attribute name="oneTime" type="xsd:boolean" default="false" />
+        <xsd:attribute name="restoreScrollBar" type="xsd:boolean" default="false" />
+    </xsd:complexType>
+
+    <xsd:complexType name="BackgroundTaskType">
+        <xsd:attribute name="name" type="xsd:string" />
+        <xsd:attribute name="backgroundTaskClass" type="xsd:string" default="" />
+    </xsd:complexType>
+
+    <xsd:complexType name="SectionType">
+        <xsd:sequence>
+            <xsd:element name="row" type="RowType" minOccurs="0" maxOccurs="unbounded" />
+        </xsd:sequence>
+        <xsd:attribute name="name" type="xsd:string" />
+        <xsd:attribute name="caption" type="xsd:string" default="" />
+        <xsd:attribute name="feature" type="xsd:string" />
+        <xsd:attribute name="expandable" type="xsd:boolean" default="false" />
+        <xsd:attribute name="expanded" type="xsd:boolean" default="true" />
+        <xsd:attribute name="style" type="xsd:string" default="section.style" />
+        <xsd:attribute name="groupBoxStyle" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="labelStyle" type="xsd:string" default="section.label.style" />
+        <xsd:attribute name="image" type="xsd:string" />
+        <xsd:attribute name="icon" type="xsd:string" />
+        <xsd:attribute name="type">
+            <xsd:annotation>
+                <xsd:documentation>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+
+                </xsd:documentation>
+            </xsd:annotation>
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="header" />
+                    <xsd:enumeration value="footer" />
+                    <xsd:enumeration value="topmenu" />
+                    <xsd:enumeration value="leftmenu" />
+                    <xsd:enumeration value="groupbox" />
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+        <xsd:attribute name="headerFooterSeparator" type="xsd:boolean" default="true">
+            <xsd:annotation>
+                <xsd:documentation>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+    </xsd:complexType>
+
+    <xsd:complexType name="wizardStepType">
+        <xsd:attribute name="name" type="xsd:string" />
+        <xsd:attribute name="layoutName" type="xsd:string" />
+        <xsd:attribute name="pageBuilder" type="xsd:string" />
+        <xsd:attribute name="label" type="xsd:string" />
+        <xsd:attribute name="previousStepStyle" type="xsd:string" default="link.style" />
+        <xsd:attribute name="nextStepStyle" type="xsd:string" default="label.style" />
+        <xsd:attribute name="currentStepStyle" type="xsd:string" default="label.style" />
+    </xsd:complexType>
+
+    <!--
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+    -->
+    <xsd:complexType name="cellType">
+        <xsd:choice>
+            <xsd:element name="uiElement" type="uiElementType" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="chart" type="chartType" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="balloonHelpLabel" type="balloonHelpLabelType" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="dynamicSection" type="dynamicSectionType" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="wizardStep" type="wizardStepType" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="button" type="buttonType" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="table" type="tableType" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="multitable" type="multiTableType" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="menubar" type="menubarType" minOccurs="0" maxOccurs="1" />
+        </xsd:choice>
+    </xsd:complexType>
+
+    <xsd:complexType name="RowType">
+        <xsd:sequence>
+            <xsd:element name="cell" type="cellType" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="uiElement" type="uiElementType" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="chart" type="chartType" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="balloonHelpLabel" type="balloonHelpLabelType" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="dynamicSection" type="dynamicSectionType" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="wizardStep" type="wizardStepType" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="button" type="buttonType" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="table" type="tableType" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="multitable" type="multiTableType" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="grid" type="gridType" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="multiGrid" type="multiGridType" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="gluiGrid" type="gluiGridType" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="tabbedPane" type="tabbedPaneType" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="menubar" type="menubarType" minOccurs="0" maxOccurs="1" />
+            <xsd:element name="section" type="SectionType" minOccurs="0" maxOccurs="unbounded" />
+        </xsd:sequence>
+        <xsd:attribute name="name" type="xsd:string" />
+        <xsd:attribute name="feature" type="xsd:string" />
+    </xsd:complexType>
+
+    <xsd:complexType name="uiElementType">
+        <xsd:sequence>
+            <xsd:element name="childUiElement" type="uiElementType" minOccurs="0" maxOccurs="1" />
+        </xsd:sequence>
+        <xsd:attribute name="transformerClass" type="xsd:string"
+            default="com.gs.fw.common.glui.transformer.AttributeTransformer" />
+        <xsd:attribute name="name" type="xsd:string" />
+        <xsd:attribute name="label" type="xsd:string" />
+        <xsd:attribute name="image" type="xsd:string" />
+        <xsd:attribute name="renderAs" default="label">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="multiItemTextbox" />
+                    <xsd:enumeration value="combobox" />
+                    <xsd:enumeration value="listbox" />
+                    <xsd:enumeration value="passwordField" />
+                    <xsd:enumeration value="optimizedButton" />
+                    <xsd:enumeration value="closeDialogButton" />
+                    <xsd:enumeration value="tab" />
+                    <xsd:enumeration value="dynamicSection" />
+                    <xsd:enumeration value="checkboxlist" />
+                    <xsd:enumeration value="jsbutton" />
+                    <xsd:enumeration value="anchor" />
+                    <xsd:enumeration value="okDialogButton" />
+                    <xsd:enumeration value="tree" />
+                    <xsd:enumeration value="button" />
+                    <xsd:enumeration value="browserProxy" />
+                    <xsd:enumeration value="swingTable" />
+                    <xsd:enumeration value="gluiGrid" />
+                    <xsd:enumeration value="treeTable" />
+                    <xsd:enumeration value="closeDialogLink" />
+                    <xsd:enumeration value="hiddenField" />
+                    <xsd:enumeration value="multilabel" />
+                    <xsd:enumeration value="labeltextbox" />
+                    <xsd:enumeration value="crumbtrail" />
+                    <xsd:enumeration value="calculator" />
+                    <xsd:enumeration value="checkboxinput" />
+                    <xsd:enumeration value="verticalcheckboxlinklist" />
+                    <xsd:enumeration value="optimizedCheckBox" />
+                    <xsd:enumeration value="spacer" />
+                    <xsd:enumeration value="timepicker" />
+                    <xsd:enumeration value="menuItem" />
+                    <xsd:enumeration value="anchorButton" />
+                    <xsd:enumeration value="radiobutton" />
+                    <xsd:enumeration value="fileUpload" />
+                    <xsd:enumeration value="balloonhelplabel" />
+                    <xsd:enumeration value="jsMenuItem" />
+                    <xsd:enumeration value="image" />
+                    <xsd:enumeration value="label" />
+                    <xsd:enumeration value="htmlContainer" />
+                    <xsd:enumeration value="table" />
+                    <xsd:enumeration value="filtercombobox" />
+                    <xsd:enumeration value="duallistbox" />
+                    <xsd:enumeration value="row" />
+                    <xsd:enumeration value="multipleFileUpload" />
+                    <xsd:enumeration value="window" />
+                    <xsd:enumeration value="treetable_checkbox" />
+                    <xsd:enumeration value="anchorLink" />
+                    <xsd:enumeration value="webbutton" />
+                    <xsd:enumeration value="tcontrol" />
+                    <xsd:enumeration value="sectionContainer" />
+                    <xsd:enumeration value="datepicker" />
+                    <xsd:enumeration value="browserBackButton" />
+                    <xsd:enumeration value="errorContainer" />
+                    <xsd:enumeration value="link" />
+                    <xsd:enumeration value="optimizedCheckBoxInput" />
+                    <xsd:enumeration value="glui_dispose" />
+                    <xsd:enumeration value="confirmMsgDialogBox" />
+                    <xsd:enumeration value="autosuggesttextbox" />
+                    <xsd:enumeration value="exitbutton" />
+                    <xsd:enumeration value="okDialogLink" />
+                    <xsd:enumeration value="textArea" />
+                    <xsd:enumeration value="timer" />
+                    <xsd:enumeration value="hpanel" />
+                    <xsd:enumeration value="horizontalRule" />
+                    <xsd:enumeration value="grid" />
+                    <xsd:enumeration value="wizardStep" />
+                    <xsd:enumeration value="checkboxlink" />
+                    <xsd:enumeration value="errorLabel" />
+                    <xsd:enumeration value="redirectbutton" />
+                    <xsd:enumeration value="multiTable" />
+                    <xsd:enumeration value="exludelistbox" />
+                    <xsd:enumeration value="verticalRadiobutton" />
+                    <xsd:enumeration value="menuBar" />
+                    <xsd:enumeration value="verticalcheckboxlist" />
+                    <xsd:enumeration value="vpanel" />
+                    <xsd:enumeration value="section" />
+                    <xsd:enumeration value="textbox" />
+                    <xsd:enumeration value="checkbox" />
+                    <xsd:enumeration value="optimizedLink" />
+                    <xsd:enumeration value="ssdatepicker" />
+                    <xsd:enumeration value="chart" />
+                    <xsd:enumeration value="tabbedPane" />
+                    <xsd:enumeration value="buttonlist" />
+                    <xsd:enumeration value="labelLink" />
+                    <xsd:enumeration value="pagination" />
+                    <xsd:enumeration value="weblink" />
+
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+        <xsd:attribute name="rightAlign" type="xsd:boolean" />
+        <xsd:attribute name="defaultSelection" type="xsd:string" />
+        <xsd:attribute name="noSelectOption" type="xsd:string" />
+        <xsd:attribute name="refreshPage" type="xsd:boolean" default="false" />
+        <xsd:attribute name="scrollable" type="xsd:boolean" default="false" />
+        <xsd:attribute name="quickFilter" type="xsd:boolean" default="false" />
+        <xsd:attribute name="attribute" type="xsd:string" />
+        <xsd:attribute name="sortBy" type="xsd:string" default="display" />
+        <xsd:attribute name="sortAscending" type="xsd:boolean" default="true" />
+        <xsd:attribute name="expandable" type="xsd:boolean" default="false" />
+        <xsd:attribute name="expanded" type="xsd:boolean" default="true" />
+        <xsd:attribute name="readOnly" type="xsd:boolean" default="false" />
+        <xsd:attribute name="factoryName" type="xsd:string" default="GluiTransformerFactory" />
+        <xsd:attribute name="domainType" type="xsd:string" />
+        <xsd:attribute name="formatClause" type="xsd:string" />
+        <xsd:attribute name="style" type="xsd:string" />
+        <xsd:attribute name="labelStyle" type="xsd:string" default="label.style" />
+        <xsd:attribute name="validation" type="xsd:string" default="none" />
+        <xsd:attribute name="validationErrorStyle" type="xsd:string" />
+        <xsd:attribute name="validationErrorLabelStyle" type="xsd:string" default="label.error.style" />
+        <xsd:attribute name="toolTipText" type="xsd:string" />
+        <xsd:attribute name="enterKeyButton" type="xsd:string" />
+        <xsd:attribute name="hidden" type="xsd:boolean" default="false" />
+        <xsd:attribute name="confirmMsg" type="xsd:string" />
+        <xsd:attribute name="tabIndex" type="xsd:int" default="0" />
+        <xsd:attribute name="caseSensitive" type="xsd:boolean" default="true" />
+        <!--Lorem ipsum dolor sit amet-->
+        <!--adipiscing elit, sed do eiusmod -->
+        <xsd:attribute name="disabledEffect" type="xsd:boolean" default="true" />
+        <xsd:attribute name="regExPattern" type="xsd:string" default="none" />
+        <xsd:attribute name="errorLabelText" type="xsd:string" default="" />
+        <xsd:attribute name="orientation" default="default">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="default" />
+                    <xsd:enumeration value="vertical" />
+                    <xsd:enumeration value="horizontal" />
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+        <xsd:attribute name="leafNodeType" default="checkbox">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="checkbox" />
+                    <xsd:enumeration value="link" />
+                    <xsd:enumeration value="jsbutton" />
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+
+    </xsd:complexType>
+
+    <xsd:complexType name="chartType">
+        <xsd:attribute name="name" type="xsd:string" />
+        <xsd:attribute name="label" type="xsd:string" />
+        <xsd:attribute name="chartType" default="pie">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="pie" />
+                    <xsd:enumeration value="pie3d" />
+                    <xsd:enumeration value="bar" />
+                    <xsd:enumeration value="bar3d" />
+                    <xsd:enumeration value="area" />
+                    <xsd:enumeration value="ring" />
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+        <xsd:attribute name="imageHeight" type="xsd:int" default="180" />
+        <xsd:attribute name="imageWidth" type="xsd:int" default="300" />
+        <xsd:attribute name="onHoverLayout" type="xsd:string" />
+        <xsd:attribute name="pageBuilder" type="xsd:string" />
+        <xsd:attribute name="chartStyle" type="xsd:string" />
+    </xsd:complexType>
+
+    <xsd:complexType name="balloonHelpLabelType">
+        <xsd:attribute name="name" type="xsd:string" />
+        <xsd:attribute name="label" type="xsd:string" />
+        <xsd:attribute name="image" type="xsd:string" />
+        <xsd:attribute name="onHoverPageBuilder" type="xsd:string" />
+        <xsd:attribute name="onHoverLayout" type="xsd:string" />
+        <xsd:attribute name="allignment" type="xsd:string" />
+        <xsd:attribute name="renderAs" type="xsd:string" />
+        <xsd:attribute name="nextLayoutUrl" type="xsd:string" />
+        <xsd:attribute name="popupRenderMode" type="popupRenderModeType" />
+    </xsd:complexType>
+
+    <xsd:simpleType name="popupRenderModeType">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="eager" />
+            <xsd:enumeration value="lazy" />
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:complexType name="dynamicSectionType">
+        <xsd:attribute name="name" type="xsd:string" />
+    </xsd:complexType>
+
+    <xsd:complexType name="buttonType">
+        <xsd:sequence>
+            <xsd:element name="menu" type="buttonType" minOccurs="0" maxOccurs="unbounded" />
+        </xsd:sequence>
+        <xsd:attribute name="name" type="xsd:string" />
+        <xsd:attribute name="label" type="xsd:string" />
+        <xsd:attribute name="pageBuilder" type="xsd:string" />
+        <xsd:attribute name="nextLayoutName" type="xsd:string" />
+        <xsd:attribute name="downloadContent" type="xsd:boolean" />
+        <xsd:attribute name="contentDownloader" type="xsd:string" />
+        <xsd:attribute name="downloadFileName" type="xsd:string" />
+        <xsd:attribute name="openSavedFile" type="xsd:boolean" />
+        <xsd:attribute name="uploadContent" type="xsd:boolean" default="false" />
+        <xsd:attribute name="crumbTrail" type="xsd:boolean" default="true" />
+        <xsd:attribute name="refreshPage" type="xsd:boolean" default="false" />
+        <!-- Lorem ipsum dolor sit amet-->
+        <xsd:attribute name="modal" type="xsd:boolean" default="false" />
+        <!-- adipiscing elit, sed do eiusmod  -->
+        <xsd:attribute name="dialog" type="xsd:boolean" default="true" />
+        <xsd:attribute name="toFeature" type="xsd:string" />
+        <xsd:attribute name="feature" type="xsd:string" />
+        <xsd:attribute name="uri" type="xsd:string" />
+        <xsd:attribute name="url" type="xsd:string" />
+        <xsd:attribute name="image" type="xsd:string" />
+        <xsd:attribute name="disabledImage" type="xsd:string" />
+        <xsd:attribute name="confirmMsg" type="xsd:string" />
+        <xsd:attribute name="renderAs" type="xsd:string" default="button">
+
+        </xsd:attribute>
+        <xsd:attribute name="style" type="xsd:string" default="button.style" />
+        <xsd:attribute name="labelStyle" type="xsd:string" default="label.style" />
+        <xsd:attribute name="validate" type="xsd:string" default="none" />
+        <xsd:attribute name="validator" type="xsd:string" default="none" />
+        <xsd:attribute name="hidden" type="xsd:boolean" default="false" />
+        <xsd:attribute name="useRegExValidator" type="xsd:boolean" default="true" />
+        <xsd:attribute name="toolTipText" type="xsd:string" />
+        <xsd:attribute name="tabIndex" type="xsd:int" default="0" />
+        <!--Lorem ipsum dolor sit amet-->
+        <!--adipiscing elit, sed do eiusmod -->
+        <xsd:attribute name="disabledEffect" type="xsd:boolean" default="true" />
+        <xsd:attribute name="disabledButtonStyle" type="xsd:string" />
+        <xsd:attribute name="count" type="xsd:int" default="1" />
+        <xsd:attribute name="mnemonic" type="xsd:string" />
+        <xsd:attribute name="defaultSubmit" type="xsd:boolean" default="false" />
+        <xsd:attribute name="altMask" type="xsd:boolean" default="false" />
+        <xsd:attribute name="ctrlMask" type="xsd:boolean" default="false" />
+        <xsd:attribute name="orientation" default="default">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="default" />
+                    <xsd:enumeration value="vertical" />
+                    <xsd:enumeration value="horizontal" />
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+        <xsd:attribute name="separatorText" type="xsd:string" />
+        <xsd:attribute name="defaultMenu" type="xsd:boolean" default="false" />
+    </xsd:complexType>
+
+    <xsd:complexType name="drilldownType">
+        <xsd:sequence>
+            <xsd:element name="uiElement" type="uiElementType" minOccurs="0" maxOccurs="1" />
+            <xsd:element name="button" type="buttonType" minOccurs="0" maxOccurs="1" />
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="columnType">
+        <xsd:choice>
+            <xsd:element name="uiElement" type="uiElementType" minOccurs="0" maxOccurs="1" />
+            <xsd:element name="button" type="buttonType" minOccurs="0" maxOccurs="1" />
+            <xsd:element name="table" type="tableType" minOccurs="0" maxOccurs="1" />
+            <xsd:element name="tableSection" type="tableSectionType" minOccurs="0" maxOccurs="1" />
+            <xsd:element name="balloonHelpLabel" type="balloonHelpLabelType" minOccurs="0" maxOccurs="1" />
+        </xsd:choice>
+        <xsd:attribute name="wrapHeader" type="xsd:boolean" default="true" />
+        <xsd:attribute name="wrapContent" type="xsd:boolean" default="false" />
+        <xsd:attribute name="sortable" type="xsd:boolean" default="false" />
+        <xsd:attribute name="columnGroup" type="xsd:string" />
+        <xsd:attribute name="width" type="xsd:int" default="-1" />
+        <xsd:attribute name="attribute" type="xsd:string" />
+        <xsd:attribute name="parameter" type="xsd:string" />
+        <xsd:attribute name="fixedLeftColumn" type="xsd:boolean" default="false" />
+        <xsd:attribute name="pageBuilder" type="xsd:string" />
+        <xsd:attribute name="nextLayoutName" type="xsd:string" />
+        <xsd:attribute name="modal" type="xsd:boolean" default="false" />
+        <xsd:attribute name="mandatory" type="xsd:boolean" default="false" />
+        <xsd:attribute name="filterable" type="xsd:boolean" default="true">
+            <xsd:annotation>
+                <xsd:documentation>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="renderHeaderVertical" type="xsd:boolean">
+            <xsd:annotation>
+                <xsd:documentation>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="numeric" type="xsd:boolean" default="false">
+            <xsd:annotation>
+                <xsd:documentation>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+        <xsd:attribute name="headerStyle" type="xsd:string">
+            <xsd:annotation>
+                <xsd:documentation>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+    </xsd:complexType>
+
+    <xsd:complexType name="tableSectionType">
+        <xsd:sequence>
+            <xsd:element name="row" type="RowType" minOccurs="0" maxOccurs="unbounded" />
+        </xsd:sequence>
+        <xsd:attribute name="name" type="xsd:string" />
+        <xsd:attribute name="label" type="xsd:string" />
+    </xsd:complexType>
+
+    <!--                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor-->
+    <!--
+    <xsd:complexType name="simpleTableType">
+        <xsd:sequence>
+            <xsd:element name="column" type="columnType" minOccurs="0" maxOccurs="unbounded"/>
+        </xsd:sequence>
+        <xsd:attribute name="label" type="xsd:string"/>
+        <xsd:attribute name="name" type="xsd:string"/>
+        <xsd:attribute name="rowSelection" type="xsd:string" default="none"/>
+        <xsd:attribute name="rowsPerPage" type="xsd:int" default="10"/>
+        <xsd:attribute name="excel" type="xsd:boolean" default="false"/>
+        <xsd:attribute name="excelDownloader" type="xsd:string"/>
+        <xsd:attribute name="header" type="xsd:boolean" default="true"/>
+        <xsd:attribute name="showColumnHeaderWithoutTableData" type="xsd:boolean" default="true"/>
+        <xsd:attribute name="showTotalRecordCount" type="xsd:boolean" default="false"/>
+        <xsd:attribute name="wrapHeader" type="xsd:boolean" default="true"/>
+        <xsd:attribute name="style" type="xsd:string" default="table.style"/>
+        <xsd:attribute name="width" type="xsd:int" default="0"/>
+        <xsd:attribute name="pdf" type="xsd:boolean" default="false"/>
+        <xsd:attribute name="pdfDownloader" type="xsd:string"/>
+    </xsd:complexType>
+    -->
+    <xsd:complexType name="tableType">
+        <xsd:sequence>
+            <xsd:element name="drilldown" type="drilldownType" minOccurs="0" maxOccurs="1" />
+            <xsd:element name="uiElement" type="uiElementType" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="button" type="buttonType" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="column" type="columnType" minOccurs="0" maxOccurs="unbounded" />
+        </xsd:sequence>
+        <xsd:attribute name="label" type="xsd:string" />
+        <xsd:attribute name="name" type="xsd:string" />
+        <xsd:attribute name="editable" type="xsd:boolean" />
+        <xsd:attribute name="expandable" type="xsd:boolean" default="false" />
+        <xsd:attribute name="expanded" type="xsd:boolean" default="false" />
+        <xsd:attribute name="rowSelection" type="xsd:string" default="none" />
+        <xsd:attribute name="rowsPerPage" type="xsd:int" default="500" />
+        <xsd:attribute name="rowsPerPageEnabled" type="xsd:boolean" default="true" />
+        <xsd:attribute name="excel" type="xsd:boolean" default="false" />
+        <xsd:attribute name="excelDownloader" type="xsd:string" />
+        <xsd:attribute name="excelDownloadFileName" type="xsd:string" />
+        <xsd:attribute name="header" type="xsd:boolean" default="true" />
+        <xsd:attribute name="showInMillions" type="xsd:boolean" default="true" />
+        <xsd:attribute name="showColumnHeaderWithoutTableData" type="xsd:boolean" default="true" />
+        <xsd:attribute name="showTotalRecordCount" type="xsd:boolean" default="false" />
+        <xsd:attribute name="showSortImage" type="xsd:boolean" default="false" />
+        <xsd:attribute name="wrapHeader" type="xsd:boolean" default="true" />
+        <xsd:attribute name="wrapContent" type="xsd:boolean" default="false" />
+        <xsd:attribute name="style" type="xsd:string" default="table.style" />
+        <xsd:attribute name="labelStyle" type="xsd:string" default="table.label.style" />
+        <xsd:attribute name="sortable" type="xsd:boolean" default="false" />
+        <xsd:attribute name="width" type="xsd:int" default="0" />
+        <xsd:attribute name="updateMarker" type="xsd:boolean" default="true" />
+        <xsd:attribute name="swingSaveMarker" type="xsd:boolean" default="false" />
+        <xsd:attribute name="autoFilterEnabled" type="xsd:boolean" default="true" />
+
+        <xsd:attribute name="deleteMarker" type="xsd:boolean" default="true" />
+        <xsd:attribute name="scroll" default="none">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="none" />
+                    <xsd:enumeration value="auto" />
+                    <xsd:enumeration value="always" />
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+
+        <xsd:attribute name="displayPageTotal" type="xsd:boolean" default="true" />
+        <xsd:attribute name="pdf" type="xsd:boolean" default="false" />
+        <xsd:attribute name="pdfDownloader" type="xsd:string" />
+        <xsd:attribute name="pdfDownloadFileName" type="xsd:string" />
+        <xsd:attribute name="treeTable" type="xsd:boolean" default="false" />
+        <xsd:attribute name="showSelectAllCheckbox" type="xsd:boolean" default="false" />
+        <xsd:attribute name="previousButtonStyle" type="xsd:string" default="pagination.button.style" />
+        <xsd:attribute name="nextButtonStyle" type="xsd:string" default="pagination.button.style" />
+        <xsd:attribute name="showInMillionsStyle" type="xsd:string" default="pagination.checkbox.style" />
+        <xsd:attribute name="currentPageStyle" type="xsd:string" default="pagination.textbox.style" />
+        <xsd:attribute name="rowsPerPageStyle" type="xsd:string" default="pagination.textbox.style" />
+        <xsd:attribute name="paginationLabelStyle" type="xsd:string" default="pagination.label.style" />
+        <xsd:attribute name="paginationPanelStyle" type="xsd:string" default="pagination.panel.style" />
+        <xsd:attribute name="saveMarkerLabel" type="xsd:string" />
+        <xsd:attribute name="deleteMarkerLabel" type="xsd:string" />
+        <xsd:attribute name="updateMarkerLabel" type="xsd:string" />
+        <xsd:attribute name="minRowsReqdForScrolling" type="xsd:int" default="0" />
+        <xsd:attribute name="hidden" type="xsd:boolean" default="false" />
+        <xsd:attribute name="validation" type="xsd:string" default="none" />
+        <xsd:attribute name="optimized" type="xsd:boolean" default="false" />
+        <xsd:attribute name="explodeRootNode" type="xsd:boolean" default="false" />
+        <xsd:attribute name="rootNodeVisible" type="xsd:boolean" default="true" />
+        <xsd:attribute name="tabIndex" type="xsd:int" default="0" />
+        <xsd:attribute name="sortOrder" default="asc">
+            <xsd:annotation>
+                <xsd:documentation>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </xsd:documentation>
+            </xsd:annotation>
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="asc" />
+                    <xsd:enumeration value="desc" />
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+    </xsd:complexType>
+
+    <xsd:complexType name="gluiGridType">
+        <xsd:sequence>
+            <xsd:element name="drilldown" type="drilldownType" minOccurs="0" maxOccurs="1" />
+            <xsd:element name="uiElement" type="uiElementType" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="button" type="buttonType" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="column" type="columnType" minOccurs="0" maxOccurs="unbounded" />
+        </xsd:sequence>
+        <xsd:attribute name="label" type="xsd:string" />
+        <xsd:attribute name="name" type="xsd:string" />
+        <xsd:attribute name="editable" type="xsd:boolean" />
+        <xsd:attribute name="style" type="xsd:string" default="table.style" />
+        <xsd:attribute name="labelStyle" type="xsd:string" default="table.label.style" />
+        <xsd:attribute name="filterable" type="xsd:boolean" />
+        <xsd:attribute name="sortable" type="xsd:boolean" default="true" />
+        <xsd:attribute name="draggable" type="xsd:boolean" />
+        <xsd:attribute name="rowsPerPage" type="xsd:int" default="500" />
+        <xsd:attribute name="width" type="xsd:int" default="0" />
+        <xsd:attribute name="updateMarker" type="xsd:boolean" default="true" />
+        <xsd:attribute name="deleteMarker" type="xsd:boolean" default="true" />
+        <xsd:attribute name="addMarker" type="xsd:boolean" default="false" />
+        <xsd:attribute name="saveMarkerLabel" type="xsd:string" />
+        <xsd:attribute name="deleteMarkerLabel" type="xsd:string" />
+        <xsd:attribute name="updateMarkerLabel" type="xsd:string" />
+        <xsd:attribute name="rowsPerPageEnabled" type="xsd:boolean" default="true" />
+        <xsd:attribute name="serverPaging" type="xsd:boolean" default="false" />
+        <xsd:attribute name="excel" type="xsd:boolean" default="false" />
+        <xsd:attribute name="excelDownloader" type="xsd:string" />
+        <xsd:attribute name="excelDownloadFileName" type="xsd:string" />
+        <xsd:attribute name="pdf" type="xsd:boolean" default="false" />
+        <xsd:attribute name="pdfDownloader" type="xsd:string" />
+        <xsd:attribute name="pdfDownloadFileName" type="xsd:string" />
+        <xsd:attribute name="rowSelection" type="xsd:string" default="none" />
+        <xsd:attribute name="showColumnHeaderWithoutTableData" type="xsd:boolean" default="true" />
+        <xsd:attribute name="defaultExcelUploadButton" type="xsd:boolean" default="false" />
+    </xsd:complexType>
+
+    <xsd:complexType name="multiTableType">
+        <xsd:sequence>
+            <xsd:element name="table" type="tableType" minOccurs="0" maxOccurs="unbounded" />
+        </xsd:sequence>
+        <xsd:attribute name="label" type="xsd:string" />
+        <xsd:attribute name="name" type="xsd:string" />
+        <xsd:attribute name="expandable" type="xsd:boolean" default="false" />
+    </xsd:complexType>
+
+    <!-- todo bansat : determine if row/column/cell definition is neccessary?
+    -->
+    <xsd:complexType name="gridType">
+        <xsd:attribute name="label" type="xsd:string" />
+        <xsd:attribute name="name" type="xsd:string" />
+        <xsd:attribute name="style" type="xsd:string" default="grid.style" />
+        <xsd:attribute name="defaultColumnWidthStyle" type="xsd:string" default="fitToContent" />
+    </xsd:complexType>
+
+    <xsd:complexType name="multiGridType">
+        <xsd:attribute name="label" type="xsd:string" />
+        <xsd:attribute name="name" type="xsd:string" />
+        <xsd:attribute name="style" type="xsd:string" default="grid.style" />
+        <xsd:attribute name="defaultColumnWidthStyle" type="xsd:string" default="fitToContent" />
+    </xsd:complexType>
+
+
+    <xsd:complexType name="tabType">
+        <xsd:sequence>
+            <xsd:element name="section" type="SectionType" minOccurs="0" maxOccurs="unbounded" />
+        </xsd:sequence>
+        <xsd:attribute name="name" type="xsd:string" />
+        <xsd:attribute name="label" type="xsd:string" />
+        <xsd:attribute name="image" type="xsd:string" />
+        <xsd:attribute name="layoutName" type="xsd:string" />
+        <xsd:attribute name="feature" type="xsd:string" />
+        <xsd:attribute name="primaryTab" type="xsd:boolean" default="false" />
+        <xsd:attribute name="descriptorType" type="xsd:string" />
+    </xsd:complexType>
+
+    <xsd:complexType name="tabbedPaneType">
+        <xsd:sequence>
+            <xsd:element name="tab" type="tabType" minOccurs="0" maxOccurs="unbounded" />
+        </xsd:sequence>
+        <xsd:attribute name="feature" type="xsd:string" />
+        <xsd:attribute name="name" type="xsd:string" />
+        <xsd:attribute name="applicationTabs" type="xsd:boolean" default="false" />
+        <xsd:attribute name="style" type="xsd:string" default="tabbedPane.style" />
+        <xsd:attribute name="confirmMsg" type="xsd:string" />
+        <xsd:attribute name="tabIndex" type="xsd:int" default="0" />
+        <xsd:attribute name="renderLazy" type="xsd:boolean" default="false" />
+    </xsd:complexType>
+
+    <xsd:complexType name="menubarType">
+        <xsd:sequence>
+            <xsd:element name="menu" type="buttonType" minOccurs="0" maxOccurs="unbounded" />
+        </xsd:sequence>
+        <xsd:attribute name="name" type="xsd:string" />
+        <xsd:attribute name="style" type="xsd:string" />
+        <xsd:attribute name="halign" type="xsd:boolean" default="true" />
+        <xsd:attribute name="expanded" type="xsd:boolean" default="true" />
+    </xsd:complexType>
+    <xsd:complexType name="ValidatorType">
+        <xsd:attribute name="type" type="xsd:string" />
+        <xsd:attribute name="validate" type="xsd:string" default="none" />
+    </xsd:complexType>
+    <xsd:complexType name="InitialFocusComponent">
+        <xsd:attribute name="componentName" type="xsd:string" />
+    </xsd:complexType>
+</xsd:schema>

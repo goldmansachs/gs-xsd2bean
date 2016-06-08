@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-bajuxulida type="text/muj" hafu="../../../../xml/vo/peSezehu.muj"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout layoutId="mivozIgitopEwazan" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd"
+        pageTitle="Cunut Jimodi Vojiy" pageBuilder="com.gs.fw.kaza.desa.vo.cunut.JifagUgamuxEgoxeTemikuq"
+        showSelection="false">
+
+
+    <section caption="Jimodi Fesibimox">
+        <row>
+            <uiElement name="businessDate1" label="Cuyokujo Date 1" renderAs="combobox"
+                       attribute="display"/>
+            <uiElement attribute="display" name="qahodoqo1" label="Qahodoqo 1"
+                       renderAs="combobox"
+                       sortBy="none"/>
+        </row>
+        <row feature="xisixiCigewic">
+            <uiElement name="businessDate2" label="Cuyokujo Date 2" renderAs="combobox" noSelectOption=""
+                       attribute="display"/>
+            <uiElement attribute="display" name="qahodoqo2" label="Qahodoqo 2" renderAs="combobox"
+                       sortBy="none"/>
+        </row>
+        <row>
+            <uiElement label=" Jimodi Juho " name="nohumoYoraq" renderAs="combobox" refreshPage="true"
+                       attribute="display"/>
+            <uiElement label=" Humopa " name="qagujaBonak" renderAs="combobox" noSelectOption="" attribute="display"/>
+        </row>
+        <row feature="yokiNejejana">
+            <uiElement name="cemubuzonOrovicajEziwovol2" label="Guquzuzuh Currency" renderAs="checkbox"
+                       noSelectOption="Kepu" validation="DeniCorekewoBuzucihiq"/>
+        </row>
+        <row>
+            <uiElement renderAs="checkbox" name="bezobePisAqEka" label="Qed By Qed Bimenadina" refreshPage="true"/>
+        </row>
+    </section>
+
+    <section caption="Sipow Boqewiw Cuyokujo Rovid" feature="banogAcecosa">
+        <row>
+            <uiElement label="Buva Cuyokujo Date"
+                       renderAs="datepicker" name="xuzoGarohopaSopi" attribute="display"/>
+
+            <uiElement label="Fu Cuyokujo Date"
+                       renderAs="datepicker" name="totuGuyutakuPiji" attribute="display"/>
+        </row>
+    </section>
+
+    <section caption="Qed Fu Qed Bimenadina" feature="xisixiCigewic">
+        <row>
+            <uiElement name="vihOdataTatodivevo" label="Seko Xedemirefuf Baxewev Vemu" renderAs="textbox"
+                       defaultSelection="10" validation="mandatory,numeric"/>
+            <uiElement name="percent" label="%" renderAs="label" hidden="true"/>
+        </row>
+        <row>
+            <uiElement name="kosizoyUyif" label="" renderAs="checkboxlist"/>
+        </row>
+    </section>
+    <section caption="Wilefixotira">
+        <row>
+            <uiElement renderAs="checkbox" name="xoqereGonabu" label="Mayina in dozobi format"/>
+        </row>
+    </section>
+
+    <section>
+        <row>
+            <button label="Lesihocu" name="lesihocu" nextLayoutName="desa/cunut/bavodAjobogEnebucOtohe.xml"
+                    pageBuilder="com.gs.fw.kaza.desa.cunut.vo.HugadAciruzaMefupec" crumbTrail="true"/>
+        </row>
+    </section>
+
+</layout>
+

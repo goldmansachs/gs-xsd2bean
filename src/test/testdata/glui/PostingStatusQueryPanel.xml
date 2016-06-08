@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout layoutId="noyuge.query" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd" pageTitle="Josowot Noyuge"
+        pageBuilder="com.gs.fw.kaza.desa.josowot.noyuge.CukegeqEkaloqAcomoGifaxAwutucu" showSelection="false">
+    <section>
+        <row>
+            <section>
+                <row>
+                    <section>
+                        <row>
+                            <uiElement name="businessDate" label="Cuyokujo Date    " renderAs="combobox"
+                                    attribute="display" sortBy="none"/>
+                        </row>
+                        <row>
+                            <uiElement name="xosoXuva" label="Xosoxuva" renderAs="combobox"/>
+                        </row>
+                        <row>
+                            <uiElement name="tihi" label="TIHI" renderAs="combobox" defaultSelection="NIPUKO"/>
+                        </row>
+                        <row>
+                            <section></section>
+                        </row>
+                    </section>
+                    <section></section>
+                </row>
+                <row>
+                    <section caption="Lozohig">
+                        <row>
+                            <section>
+                                <row>
+                                    <uiElement name="dataType" label="Vojiy Yokucaz   " renderAs="combobox"
+                                            defaultSelection=" &lt;No Mosuku&gt;   " attribute="display"
+                                            noSelectOption=" &lt;No Mosuku&gt;   "/>
+                                </row>
+                            </section>
+                            <section>
+                                <row>
+                                    <uiElement name="keruWifo" label="Mosuku Value" renderAs="listbox"
+                                            defaultSelection=" &lt;No Mosuku&gt;                                  "
+                                            attribute="display"
+                                            noSelectOption=" &lt;No Mosuku&gt;                                  "/>
+                                </row>
+                            </section>
+                        </row>
+                        <row>
+                            <section></section>
+                        </row>
+                        <row>
+                            <section></section>
+                        </row>
+                        <row>
+                            <section>
+                                <row>
+                                    <uiElement name="yeroli" label="Casah" renderAs="listbox"
+                                            defaultSelection=" &lt;No Mosuku&gt;   " attribute="display"
+                                            noSelectOption=" &lt;No Mosuku&gt;   "/>
+                                </row>
+                                <row>
+                                    <section></section>
+                                </row>
+                                <row>
+                                    <section></section>
+                                </row>
+                                <row>
+                                    <uiElement name="powojafOpaniv" label="Josowot Noyuge" renderAs="combobox"
+                                            defaultSelection=" &lt;No Mosuku&gt;   " attribute="display"
+                                            noSelectOption=" &lt;No Mosuku&gt;   "/>
+                                </row>
+                                <row>
+                                    <section></section>
+                                </row>
+                                <row>
+                                    <section></section>
+                                </row>
+                            </section>
+                        </row>
+                    </section>
+                    <section></section>
+                </row>
+                <row>
+                    <section>
+                        <row>
+                            <uiElement name="lurudoSimide" renderAs="listbox" hidden="true"
+                                    label="Fedukoxa Yeroli Sitime" defaultSelection=" &lt;No Mosuku&gt;   "
+                                    noSelectOption=" &lt;No Mosuku&gt;   "/>
+                        </row>
+                    </section>
+                    <section>
+                        <row>
+                            <button label="Lesihocu" nextLayoutName="desa/josowot/QigogowOcafavOcuwaqOxoru.xml"
+                                    name="lesihocu" crumbTrail="true"/>
+                        </row>
+                    </section>
+                </row>
+            </section>
+        </row>
+
+    </section>
+
+</layout>

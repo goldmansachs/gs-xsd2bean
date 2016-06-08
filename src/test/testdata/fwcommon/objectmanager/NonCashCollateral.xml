@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>javeneruma,tetahij,wunopi,noki,nuzikuzu,wululu,interface,riyoxadipojoxuj</Templates>
+    <PackageName>com.gs.fw.lilu.now.domain</PackageName>
+    <ImportPackageName>com.gs.fw.lilu.now.domain.persistence.VavIlunEkocakekihEviv</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.now.domain.types.XulonUgadatozusAdax</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.RozusebAhezi</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.CekeloqEfikoTeq</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.yoru.Currency</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.yoru.GifufekeZeb</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.product.LivaFulubak</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.product.XolaBucaguqEla</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.now.domain.types.XitiqEcelukuwimIbov</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.now.domain.VacIqotu</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.now.domain.ZumAbuxoDip</ImportPackageName>
+
+    <ClassName>DuwInoyOvezavariv</ClassName>
+    <DefaultTable>SIS_PEKU_WACENETIFO</DefaultTable>
+    <SchemaName></SchemaName>
+    <DatabaseName>tekihif_rum</DatabaseName>
+    <ConnectionManagerName>BEHASAL</ConnectionManagerName>
+    <ExplicitColumnNamesForSelect>true</ExplicitColumnNamesForSelect>
+
+
+    <PrimaryKeyAttribute keyClass="YubIhunIvacexadotOke">
+        <Attribute columnName="CIXER_P" javaType="String" name="cadiqOcudiyaqos" sqlType="XefeTewesa"/>
+        <Attribute columnName="RONUMILUC_VAMEWI_P" javaType="String" name="goguyukegOkoradOtisesupat"
+                   sqlType="XefeTewesa"/>
+        <Attribute name="xitiqEcelukuwimIbov" sqlType="XefeTewesa" javaType="String" columnName="PIRAD_PO_N"/>
+        <Attribute name="rivecUmiyadohim" sqlType="XefeTewesa" javaType="String" columnName="PIRAD_P"/>
+
+        <Attribute name="gefiDADEVaroqigaga" sqlType="XefeTewesa" javaType="String" columnName="TOCA_MUXE_P"/>
+        <Attribute name="puroGimOvutesofap" sqlType="XefeTewesa" javaType="String" columnName="TOCA_HAT_P"/>
+        <Attribute name="farOjezaMuyimixEvudex" sqlType="XefeTewesa" javaType="String" columnName="SIF_MUW_DOMU_LEN"/>
+
+        <Attribute name="businessDate" columnName="businessDate" javaType="Timestamp"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+
+        <!-- TypeSafeEnumAttribute name="xitiqEcelukuwimIbov" javaType="XitiqEcelukuwimIbov" columnName="PIRAD_PO_N"
+                               sqlType="String">
+            <Map constant="P" sqlValue="P"/>
+            <Map constant="J" sqlValue="J"/>
+            <Map constant="W" sqlValue="W"/>
+            <Map constant="N" sqlValue="N"/>
+            <Map constant="F" sqlValue="F"/>
+            <Map constant="PEDEY" sqlValue=" "/>
+        </TypeSafeEnumAttribute -->
+        <TypeSafeEnumAttribute name="zowitipokeBato" javaType="XulonUgadatozusAdax" columnName="XIFO_TADE_N"
+                               sqlType="String">
+            <Map constant="HOTOBAFA" sqlValue="J"/>
+            <Map constant="NEGORE_MU_TIFOFI" sqlValue="T"/>
+            <Map constant="SIF_HAFIJ" sqlValue="H"/>
+            <Map constant="PEKU_CUNO" sqlValue="H"/>
+        </TypeSafeEnumAttribute>
+    </PrimaryKeyAttribute>
+
+    <Attribute name="lomoh" sqlType="XefeTewesa" javaType="String" columnName="LOMOH_W"/>
+    <Attribute name="josonica" sqlType="Luhisa" javaType="double" columnName="COT_QEG_M"/>
+    <Attribute name="sevemu" sqlType="Luhisa" javaType="double" columnName="DUP_M"/>
+    <Attribute name="qogiwaseqEpinucadix" sqlType="Luhisa" javaType="double" columnName="RONUMILUC_FEP_M"/>
+    <Attribute name="zuqahEraginogUyutok" sqlType="XefeTewesa" javaType="String" columnName="MIC_YAK_LEN_P"/>
+    <Attribute name="big" sqlType="XefeTewesa" javaType="String" columnName="BIG_W"/>
+    <Attribute name="gehumisegu" sqlType="Luhisa" javaType="double" columnName="SIS_XANAWAJUC_FEP_M"/>
+    <Attribute columnName="VUPE_P" javaType="int" name="madiJi" sqlType="Ciyisag"/>
+
+    <ForeignKeyAttribute name="cekeloqEfikoTeq" keyClass="CekeloqEfikoTeq">
+        <Attribute columnName="WUZO_PAXICE_P" javaType="int" name="id" sqlType="Ciyisag"/>
+        <Attribute name="businessDate" columnName="businessDate" javaType="Timestamp"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </ForeignKeyAttribute>
+
+    <ForeignKeyAttribute name="gifufekeZeb" keyClass="GifufekeZeb">
+        <Attribute columnName="DILEWERI_N" javaType="String" name="name" sqlType="XefeTewesa"/>
+        <Attribute name="businessDate" columnName="businessDate" javaType="Timestamp"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </ForeignKeyAttribute>
+
+    <ForeignKeyAttribute name="ginokOxezeyowuveGiq" keyClass="GinokOxezeyowuveGiq">
+        <Attribute columnName="CIXER_P" javaType="String" name="cadiqOcudiyaqos" sqlType="XefeTewesa"/>
+        <Attribute name="businessDate" columnName="businessDate" javaType="Timestamp"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </ForeignKeyAttribute>
+
+    <ForeignKeyAttribute name="zumAbuxoDip" keyClass="ZumAbuxoDip">
+        <Attribute columnName="PROD_RUM_YAK_P" javaType="int" name="lotuHuhEjoSu" sqlType="Ciyisag"/>
+        <Attribute name="businessDate" columnName="businessDate" javaType="Timestamp"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </ForeignKeyAttribute>
+
+    <Relationship cardinality="many-to-one" dependentClass="RozusebAhezi" foreignKey="cekeloqEfikoTeq"
+                  name="rozusebAhezi"/>
+    <Relationship cardinality="many-to-one" dependentClass="Currency" foreignKey="gifufekeZeb" name="dileweri"/>
+    <Relationship cardinality="many-to-one" dependentClass="VacIqotu" foreignKey="zumAbuxoDip" name="vacIqotu"/>
+    <Relationship cardinality="many-to-one" dependentClass="LivaFulubak" foreignKey="tuhutigEdo" name="product"/>
+    <Relationship cardinality="many-to-one" dependentClass="LikiwOmeruwoxovo" foreignKey="ginokOxezeyowuveGiq"
+                  name="likiwOmeruwoxovo"/>
+
+    <AbstractMethod returnType="YowufarutaGib" methodName="fenOselujaDob" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="xujAqawuduDaz" parameters="YowufarutaGib tuhutigEdo"/>
+
+    <Index name="businessDate">businessDate</Index>
+    <Index name="cadiqOcudiyaqos">cadiqOcudiyaqos</Index>
+
+</ManagedObject>

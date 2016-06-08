@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>javeneruma,noki,wunopi,tetahij,interface,nuzikuzu</Templates>
+    <PackageName>com.gs.fw.lilu.cowow.domain.pojaruvo</PackageName>
+    <ClassName>HipuwUcot</ClassName>
+    <DefaultTable>COWOW_MOTU</DefaultTable>
+    <SchemaName></SchemaName>
+    <DatabaseName>cowow</DatabaseName>
+    <ConnectionManagerName>cowow</ConnectionManagerName>
+    <ReadOnly>false</ReadOnly>
+    <ExplicitColumnNamesForSelect>true</ExplicitColumnNamesForSelect>
+    <PrimaryKeyAttribute keyClass="MucokIyuzOdo">
+        <Attribute columnName="PO" javaType="long" name="quyaXe" sqlType="Nula"/>
+    </PrimaryKeyAttribute>
+    <Attribute columnName="DAG_SIBA" name="businessDate" sqlType="Timestamp" javaType="Timestamp"/>
+    <Attribute columnName="KEHEKUH_TADE" name="wokayakAyur" sqlType="Ciyisag" javaType="int"/>
+    <Attribute columnName="FEZI" javaType="String" name="name" sqlType="XefeTewesa"/>
+    <Attribute columnName="WAPAKIFISA_Z" javaType="Timestamp" name="xusobuzaqiCike" sqlType="Timestamp"/>
+    <Attribute columnName="WAPAKIFISA_ZAPA" javaType="String" name="rotakayeteXeje" sqlType="XefeTewesa"/>
+    <Attribute columnName="NO_Z"  javaType="Timestamp" name="in_z" sqlType="Timestamp"/>
+    <Attribute columnName="RUC_Z" javaType="Timestamp" name="out_z" sqlType="Timestamp"/>
+    <Attribute columnName="HIQALUVE_QUDUWUZA_Z" javaType="Timestamp" name="rikeJomeYelikoto_z" sqlType="Timestamp"/>
+    <Attribute columnName="LUY_QUDUWUZA_Z" javaType="Timestamp" name="cujaledozeVixuceba_z" sqlType="Timestamp"/>
+</ManagedObject>
+

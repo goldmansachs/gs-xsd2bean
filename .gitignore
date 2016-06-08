@@ -1,0 +1,3 @@
+target/**
+libboot/target/**
+build/lib/**

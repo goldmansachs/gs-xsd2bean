@@ -1,0 +1,256 @@
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<service-definition
+    singleton="true"
+    interface="com.gs.fw.common.objectmanager.persistence.YepuguJovetes"
+    implementation="com.gs.fw.common.objectmanager.persistence.implementation.TicokiTiposixEyug"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../xsd/configuration.xsd">
+
+    <services>
+        <service-instance id="dayoyuniJemuwus" implementation="DulugeVopigaguQalihor" type="DayoyuniJemuwus"/>
+        <service-instance id="tecibuGeKivajezamiWatahux" implementation="TecibuGeKivajezamiWatahux" type="SasopuziWixobezobaGuqanam"/>
+        <service-instance id="soyosanEniQepenixameQokihav" implementation="SoyosanEniQepenixameQokihav" type="SasopuziWixobezobaGuqanam"/>
+        <service-instance id="hafuButaYiwukupakeZokiziz" implementation="HafuButaYiwukupakeZokiziz" type="SasopuziWixobezobaGuqanam"/>
+        <service-instance id="WatumAyoxu" implementation="LiKavetAbara" type="WatumAyoxu"/>
+        <service-instance id="piwezoKiYobanur" implementation="RovagaYuxuLuxEnecayu" type="PiwezoKiYobanur"/>
+    </services>
+    <properties>
+        <list name="qaGewocofEqIzakemuz">
+            <value>com.gs.fw.common.gahel.domain.yecoqikoze.persistence.SehuXatufedeyuJE</value>
+            <value>com.gs.fw.common.gahel.domain.yecoqikoze.persistence.GogemodUtijawoxecUZ</value>
+            <value>com.gs.fw.common.gahel.domain.yecoqikoze.persistence.WubuqilEmanareneqAheTU</value>
+            <value>com.gs.fw.common.gahel.domain.yecoqikoze.persistence.SaniRofipifeteRoqEP</value>
+            <value>com.gs.fw.para.domain.position.persistence.KehezObudasIS</value>
+            <value>com.gs.fw.para.domain.product.persistence.KudomakeDubeqanUjesujulivIP</value>
+            <value>com.gs.fw.para.domain.product.persistence.PexugureWopehuwEtehAF</value>
+            <value>com.gs.fw.para.domain.gawemuqay.persistence.RaviYabedAV</value>
+            <value>com.gs.fw.para.domain.gawemuqay.persistence.TujiXukuLI</value>
+            <value>com.gs.fw.common.gahel.domain.gawemuqay.persistence.KipoBohegEC</value>
+            <value>com.gs.fw.common.gahel.domain.gawemuqay.persistence.KamiMI</value>
+            <value>com.gs.fw.common.gahel.domain.gawemuqay.persistence.GotaqavUJ</value>
+            <value>com.gs.fw.common.gahel.domain.gawemuqay.persistence.LafuFufesuyEL</value>
+            <value>com.gs.fw.common.gahel.domain.gawemuqay.persistence.VugekihejeZU</value>
+            <value>com.gs.fw.para.domain.gawemuqay.persistence.MowaJaxelogIP</value>
+            <value>com.gs.fw.common.gahel.domain.gawemuqay.persistence.WonaNuhoVU</value>
+            <value>com.gs.fw.common.gahel.domain.gawemuqay.persistence.KikoSereJE</value>
+            <value>com.gs.fw.common.gahel.domain.gawemuqay.persistence.VenicisOyapewecuYU</value>
+            <value>com.gs.fw.common.gahel.domain.gawemuqay.persistence.PitudibAxezigUbeveQA</value>
+            <value>com.gs.fw.common.gahel.domain.gawemuqay.persistence.JutepuQO</value>
+            <value>com.gs.fw.para.service.position.persistence.RucafEkacerugOketaVabeJI</value>
+            <value>com.gs.fw.para.service.position.persistence.PuyiKicizaveDemotUxarAR</value>
+            <value>com.gs.fw.para.service.position.persistence.GimuceFizocuguDitifOgibOP</value>
+
+            <!--todo: duqixe : yejeyo once va convert all biyucug to use new godofuvix/pocusox tudilezajaq -->
+            <value>com.gs.fw.para.common.jaba.qeyubaxi.persistence.FuxudaxuBofuSojaFO</value>
+            <value>com.gs.fw.para.domain.yenazimuxu.persistence.YacanipovoYihiPutaWI</value>
+            <value>com.gs.fw.para.common.jaba.qeyubaxi.persistence.GuwimifExaBU</value>
+            <value>com.gs.fw.para.common.jaba.qeyubaxi.persistence.RafoBizubAQ</value>
+            <value>com.gs.fw.para.common.jaba.qeyubaxi.persistence.TopicumoBomaPakeNowuWI</value>
+            <value>com.gs.fw.para.domain.yenazimuxu.persistence.GemuzeviraVevePebiPojuQE</value>
+            <value>com.gs.fw.para.domain.pocusox.persistence.DepaluTilaregIsoTukitoloxiVA</value>
+            <value>com.gs.fw.para.domain.pocusox.persistence.BiwuwivOzexepihaPeyariquwiGE</value>
+            <value>com.gs.fw.para.domain.pocusox.persistence.HuruceGekovehOfigiwahavEM</value>
+            <value>com.gs.fw.para.domain.pocusox.persistence.FegofucUnoduraHeneseyaviMA</value>
+            <value>com.gs.fw.para.common.jaba.qeyubaxi.persistence.ReloKexaDazuguNipatoWO</value>
+            <value>com.gs.fw.para.common.jaba.qeyubaxi.persistence.XanuyaboYicoDeruTogaXE</value>
+            <value>com.gs.fw.para.common.jaba.qeyubaxi.persistence.SiramUmawoJA</value>
+            <value>com.gs.fw.para.domain.pocusox.persistence.DiwobedIfudoviSequniwoxuHebaTI</value>
+            <value>com.gs.fw.para.domain.attribute.persistence.BezuvurOcebaweriWunatuhoyeGU</value>
+            <value>com.gs.fw.para.domain.attribute.persistence.YaqupitoHemesimimUkovazejedEH</value>
+            <value>com.gs.fw.para.service.safitazaqaqeqas.persistence.CeqiCawiTekiWE</value>
+            <value>com.gs.fw.para.common.jaba.qeyubaxi.persistence.MuqeMibovIX</value>
+            <value>com.gs.fw.para.domain.scope.persistence.KucelurOdifUY</value>
+            <value>com.gs.fw.para.domain.scope.persistence.JuyinixuFotiFU</value>
+            <value>com.gs.fw.para.common.jaba.qeyubaxi.persistence.CadoYahidAzekIZ</value>
+            <!--end to-do-->
+
+            <value>com.gs.fw.common.gahel.domain.xosoxuva.persistence.LabohuvuVaquFI</value>
+            <value>com.gs.fw.common.gahel.domain.xosoxuva.persistence.XitivihoGojurofeBA</value>
+            <value>com.gs.fw.para.domain.nifaqejeh.persistence.YimawAcorOB</value>
+            <value>com.gs.fw.para.domain.gawemuqay.persistence.GazoBokuMinaRokoniviNU</value>
+            <value>com.gs.fw.para.domain.product.persistence.QeraZacalujaSU</value>
+            <value>com.gs.fw.para.domain.position.persistence.WicitohuCuxugeYunoRI</value>
+            <value>com.gs.fw.para.domain.product.persistence.RoqexinEkevedEmojUT</value>
+            <value>com.gs.fw.para.domain.wunoqoya.persistence.BikevajiDozilipES</value>
+            <value>com.gs.fw.para.domain.woputolufabes.persistence.TifuQituqihuqIvenEK</value>
+            <value>com.gs.fw.para.domain.woputolufabes.persistence.FibuFihibijozAwodoTI</value>
+            <value>com.gs.fw.para.domain.woputolufabes.persistence.TuveliboneMogumoqakEV</value>
+            <value>com.gs.fw.para.domain.yenazimuxu.persistence.FahuNejosuzAL</value>
+            <value>com.gs.fw.para.service.regunidosiyalud.persistence.LequfirEtuwoBagoXA</value>
+            <value>com.gs.fw.para.service.regunidosiyalud.persistence.YelemijuqImafiwapucObiHE</value>
+            <value>com.gs.fw.para.domain.gawemuqay.persistence.JelokEgulemubeYE</value>
+            <value>com.gs.fw.para.domain.scope.persistence.BicageQA</value>
+            <value>com.gs.fw.para.domain.scope.persistence.VusopurIlasosoGutoMO</value>
+            <value>com.gs.fw.para.domain.scope.persistence.CeranolaRebeHU</value>
+            <value>com.gs.fw.para.domain.database.persistence.QoleJadopokiRU</value>
+            <value>com.gs.fw.common.gahel.domain.bumitom.persistence.GetehigEV</value>
+            <value>com.gs.fw.common.gahel.domain.bumitom.persistence.XijugitOQ</value>
+            <value>com.gs.fw.para.domain.noxujubuleraka.persistence.LapemipeGoyudijuwuPedudizeyiYO</value>
+            <value>com.gs.fw.para.domain.noxujubuleraka.persistence.KocOzoxidAmijiQE</value>
+            <value>com.gs.fw.para.domain.product.persistence.LusoyOhorAP</value>
+            <value>com.gs.fw.para.domain.product.persistence.QucupOzanisizIJ</value>
+            <value>com.gs.fw.para.domain.transaction.persistence.LitexixeBohubIfuhiroPO</value>
+            <value>com.gs.fw.common.gahel.service.minavujobajajiga.persistence.CaxapakukuvEdoseXohezeFI</value>
+            <value>com.gs.fw.common.gahel.service.minavujobajajiga.persistence.PageyoqucuzIjeliCocusUN</value>
+            <value>com.gs.fw.para.domain.product.persistence.WetukevEyufaciSA</value>
+            <value>com.gs.fw.para.domain.product.persistence.MuqoYetajayEC</value>
+            <value>com.gs.fw.para.domain.product.persistence.PolejotOmimimahitifOH</value>
+            <value>com.gs.fw.para.domain.heqiver.persistence.JadoHotUR</value>
+            <value>com.gs.fw.para.domain.heqiver.persistence.SenoHusAzigetuqukiCO</value>
+            <value>com.gs.fw.para.domain.heqiver.persistence.ZuseJesAkaTU</value>
+            <value>com.gs.fw.para.domain.heqiver.persistence.NefiVilIqoyOB</value>
+            <value>com.gs.fw.para.domain.heqiver.persistence.YuhuWakOtuXivicEH</value>
+            <value>com.gs.fw.para.domain.heqiver.persistence.DayaNotAfigaqucatAhiRI</value>
+            <value>com.gs.fw.para.domain.yenazimuxu.persistence.TopoNuripizamuBihiYixekazoqeGU</value>
+            <value>com.gs.fw.para.domain.attribute.persistence.MaxegekUvutecigiKitowegedeKayeDataSO</value>
+            <value>com.gs.fw.para.domain.attribute.persistence.YurodawUrudunaraTuxilubasoWeziWA</value>
+            <value>com.gs.fw.para.vohohinezaroq.persistence.FaqojoPunaweWU</value>
+            <value>com.gs.fw.para.vohohinezaroq.persistence.ZonojowEmadIK</value>
+            <value>com.gs.fw.para.domain.yenazimuxu.persistence.CufaDurecehavoBuxiWU</value>
+
+            <value>com.gs.fw.para.vohohinezaroq.persistence.MiwoHiqafikAfedurOF</value>
+            <value>com.gs.fw.para.vohohinezaroq.persistence.QizuGexexinIV</value>
+
+            <value>com.gs.fw.para.domain.cuhoxoxaradir.yenazimuxu.implementation.DikIfizeliQoronugikuTomoHE</value>
+            <value>com.gs.fw.para.domain.cuhoxoxaradir.zedakotah.persistence.JikAgaqimojoDediluqEyacoburiqEB</value>
+            <value>com.gs.fw.para.domain.cuhoxoxaradir.zedakotah.persistence.CukIlecateceQejatufexiJA</value>
+            <value>com.gs.fw.para.domain.cuhoxoxaradir.zedakotah.persistence.QuqIsofakujoGopamomAJ</value>
+            <value>com.gs.fw.para.domain.cuhoxoxaradir.zedakotah.persistence.HodUfepoyomaYuyetoloFI</value>
+            <value>com.gs.fw.para.domain.cuhoxoxaradir.zedakotah.persistence.TekUlivubipaFutenAD</value>
+
+            <value>com.gs.fw.para.domain.qaje.strategy.persistence.DozoripuRI</value>
+            <value>com.gs.fw.para.domain.qaje.strategy.persistence.BuruwituSuxawaxiPO</value>
+            <value>com.gs.fw.para.domain.niyizezepogubumetosu.implementation.HeyiheKizixaxEB</value>
+            <value>com.gs.fw.para.domain.beqepudumoquy.persistence.NazaxuMivelazOY</value>
+            <value>com.gs.fw.para.domain.yenazimuxu.persistence.WureBadazucOhorejeniwAR</value>            
+        </list>
+
+        <list name="simatokAyIwohu">
+            <value>com.gs.fw.common.gahel.domain.yecoqikoze.SifeGova</value>
+            <value>com.gs.fw.common.gahel.domain.yecoqikoze.KeyawiqEdebatasaz</value>
+            <value>com.gs.fw.common.gahel.domain.yecoqikoze.ZabiPemalamixaGis</value>
+            <value>com.gs.fw.common.gahel.domain.yecoqikoze.TefatorEkusogusuvUtu</value>
+            <value>com.gs.fw.common.gahel.domain.gawemuqay.implementation.UserGroup</value>
+            <value>com.gs.fw.common.gahel.domain.gawemuqay.Sareke</value>
+            <value>com.gs.fw.common.gahel.domain.gawemuqay.implementation.CoweYemi</value>
+            <value>com.gs.fw.common.gahel.domain.gawemuqay.implementation.LuzaLepi</value>
+            <value>com.gs.fw.common.gahel.domain.gawemuqay.implementation.SomuMiwajum</value>
+
+            <!--todo: duqixe : yejeyo once va convert all biyucug to use new godofuvix/pocusox tudilezajaq -->
+            <value>com.gs.fw.para.common.jaba.qeyubaxi.implementation.NuyufiweTadiQeveGofi</value>
+            <value>com.gs.fw.para.domain.yenazimuxu.implementation.DuliteloquPuxiQodeYiki</value>
+            <value>com.gs.fw.para.domain.pocusox.implementation.GijamokAlozOroqOzujAwix</value>
+            <value>com.gs.fw.para.domain.attribute.implementation.MovavasOlademabiYulutonajoJosiHuli</value>
+            <value>com.gs.fw.para.common.jaba.qeyubaxi.implementation.JacaMuxoHijikiRocuvi</value>
+            <!--end to-do -->
+
+            <value>com.gs.fw.para.domain.gawemuqay.implementation.YobefEfahuxice</value>
+            <value>com.gs.fw.para.domain.gawemuqay.implementation.GibuQaroFisiSacigayi</value>
+            <value>com.gs.fw.common.gahel.domain.polocalad.implementation.Gucesu</value>
+
+            <!--todo: duqixe : yejeyo once va convert all biyucug to use new godofuvix/pocusox tudilezajaq -->
+            <value>com.gs.fw.para.domain.scope.implementation.VosufecEzag</value>
+            <value>com.gs.fw.para.domain.scope.implementation.VewivuvaSeji</value>
+            <!--end to-do -->
+
+            <value>com.gs.fw.para.domain.scope.implementation.RoxaxepIxacifuNoco</value>
+            <value>com.gs.fw.para.domain.scope.implementation.CurrencyType</value>
+            <value>com.gs.fw.para.domain.product.XawaveyImoxeqOjas</value>
+            <value>com.gs.fw.para.domain.position.DumiluqeZejotaQigi</value>
+
+            <!--todo: duqixe : yejeyo once va convert all biyucug to use new godofuvix/pocusox tudilezajaq -->
+            <value>com.gs.fw.para.common.jaba.qeyubaxi.implementation.ZoxeBimaf</value>
+            <value>com.gs.fw.para.domain.qeyubaxi.NizeRewoYeva</value>
+            <!--end to-do -->
+
+            <value>com.gs.fw.para.domain.product.LavadanoRabebawEfomocolir</value>
+            <value>com.gs.fw.para.domain.product.DipulUkey</value>
+            <value>com.gs.fw.para.domain.product.MudefEyevavat</value>
+            <value>com.gs.fw.para.domain.product.FevacibiPaziduxOcor</value>
+
+            <!--todo: duqixe : yejeyo once va convert all biyucug to use new godofuvix/pocusox tudilezajaq -->
+            <value>com.gs.fw.para.domain.pocusox.PiwurizUkamiforiTebivoveyu</value>
+            <value>com.gs.fw.para.domain.pocusox.GaragoFesoqabIbukotabuv</value>
+            <value>com.gs.fw.para.domain.pocusox.NixezarIbeFijexuhula</value>
+            <value>com.gs.fw.para.domain.pocusox.PukobiwObodesoLaqovijacu</value>
+            <value>com.gs.fw.para.common.jaba.qeyubaxi.YutedUtawe</value>
+            <value>com.gs.fw.para.common.jaba.qeyubaxi.YocapopoJeqoSazoPopu</value>
+            <value>com.gs.fw.para.domain.attribute.FekilarIquwuvimeWokaruneva</value>
+            <value>com.gs.fw.para.domain.attribute.WakikufoKulugehoxAbugiqetef</value>
+            <value>com.gs.fw.para.domain.attribute.TatojejOfuzumidiXatetabazo</value>
+            <value>com.gs.fw.para.domain.yenazimuxu.XuhomiqotoViboTiza</value>
+            <value>com.gs.fw.para.common.jaba.qeyubaxi.ZahuSipim</value>
+            <value>com.gs.fw.para.common.jaba.qeyubaxi.HodakurAru</value>
+            <!--end to-do -->
+
+            <value>com.gs.fw.para.domain.noxujubuleraka.NoxUjubulEraka</value>
+            <value>com.gs.fw.para.domain.noxujubuleraka.QepowotiHequdeyexiKevenecuba</value>
+            <value>com.gs.fw.common.gahel.domain.bumitom.Rifufug</value>
+            <value>com.gs.fw.common.gahel.domain.bumitom.Bumitom</value>
+            <value>com.gs.fw.common.gahel.domain.xosoxuva.BuxadimuLobu</value>
+            <value>com.gs.fw.common.gahel.domain.xosoxuva.MitiruxiWatowuva</value>
+            <value>com.gs.fw.para.domain.cuhoxoxaradir.zedakotah.KekUloxaziluSayanisAyoninihus</value>
+            <value>com.gs.fw.para.domain.cuhoxoxaradir.zedakotah.GarEfutezoseXakehefami</value>
+            <value>com.gs.fw.para.domain.cuhoxoxaradir.zedakotah.ZodEkayotiteTiyamat</value>
+            <value>com.gs.fw.para.domain.cuhoxoxaradir.zedakotah.LapInolugaqaPayowaxa</value>
+            <value>com.gs.fw.para.domain.cuhoxoxaradir.zedakotah.FagIpolokofaMexiq</value>
+            <value>com.gs.fw.para.domain.cuhoxoxaradir.yenazimuxu.SepIgoxiliQuwosodoniXesa</value>
+            <value>com.gs.fw.para.domain.nifaqejeh.NifaqEjeh</value>
+
+            <!--todo: duqixe : yejeyo once va convert all biyucug to use new godofuvix/pocusox tudilezajaq -->
+            <value>com.gs.fw.para.common.jaba.qeyubaxi.DoveniwaHuhaVelo</value>
+            <!--end to-do -->
+
+            <value>com.gs.fw.para.vohohinezaroq.implementation.GemejeTafece</value>
+            <value>com.gs.fw.para.vohohinezaroq.Cifuqey</value>
+
+            <value>com.gs.fw.para.vohohinezaroq.YukeGasululAvaqes</value>
+            <value>com.gs.fw.para.vohohinezaroq.YetuDisoqom</value>
+
+            <value>com.gs.fw.common.gahel.domain.gawemuqay.SusihifOxudoqUxiyi</value>
+            <value>com.gs.fw.para.domain.woputolufabes.KaqoDujavazubOjiw</value>
+            <value>com.gs.fw.para.domain.woputolufabes.SetoRotoyetumOgeha</value>
+            <value>com.gs.fw.para.domain.transaction.ZukenekoSoyozUwakuzu</value>
+            <value>com.gs.fw.common.gahel.domain.gawemuqay.Decomig</value>
+            <value>com.gs.fw.common.gahel.domain.gawemuqay.Xedusux</value>
+            <value>com.gs.fw.common.gahel.domain.gawemuqay.Wuse</value>
+            <value>com.gs.fw.common.gahel.domain.gawemuqay.Group</value>
+            <value>com.gs.fw.common.gahel.domain.gawemuqay.FuyosofUdowohoke</value>
+            <value>com.gs.fw.common.gahel.domain.gawemuqay.Sose</value>
+            <value>com.gs.fw.para.domain.woputolufabes.KaqoDujavazubOjiw</value>
+            <value>com.gs.fw.para.domain.yenazimuxu.VagiRiniwov</value>
+            <value>com.gs.fw.para.domain.database.TeguBimenelu</value>
+            <value>com.gs.fw.para.domain.product.KeguKenequle</value>
+            <value>com.gs.fw.para.domain.woputolufabes.MexurifijoVaxucixuy</value>
+            <value>com.gs.fw.para.service.regunidosiyalud.ZisajotegOrupomakijAqu</value>
+            <value>com.gs.fw.para.service.regunidosiyalud.XumamixEgifaTife</value>
+            <value>com.gs.fw.para.domain.heqiver.HeqiVer</value>
+            <value>com.gs.fw.para.domain.heqiver.HafoKavOhelivawivi</value>
+            <value>com.gs.fw.para.domain.heqiver.WafuVerIpu</value>
+            <value>com.gs.fw.para.domain.heqiver.XuyaJibIriy</value>
+            <value>com.gs.fw.para.domain.heqiver.BebiNopAkuZiyez</value>
+            <value>com.gs.fw.para.domain.heqiver.KikeGonOnarabuhumEsa</value>
+            <value>com.gs.fw.para.domain.yenazimuxu.CeciTijajebadeDewoZeyeqicero</value>
+            <value>com.gs.fw.para.domain.yenazimuxu.PuwaGunadudociGane</value>
+            <value>com.gs.fw.para.domain.qaje.strategy.NokajidiGipotoba</value>
+            <value>com.gs.fw.para.domain.qaje.strategy.Xejigude</value>
+            <value>com.gs.fw.para.domain.niyizezepogubumetosu.implementation.JekuqoFulabow</value>
+            <value>com.gs.fw.para.domain.beqepudumoquy.BeqepuDumoquy</value>
+        </list>
+    </properties>
+</service-definition>

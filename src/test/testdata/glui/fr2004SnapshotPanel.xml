@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd"
+        pageTitle="Vojiy Pizer" pageBuilder="com.gs.fw.kaza.rukele.so2004.vo.tudewax.SO2004BifofOlipuVinuxus"
+        showSelection="false">
+
+    <section>
+    <row>
+            <uiElement name="businessDate1" label="Cuyokujo Date:" renderAs="combobox" sortBy="domain"
+                       transformerClass="com.gs.fw.common.petuhadi.vo.transformer.PorimubeDesaRemohiqujor"/>
+        </row>
+    </section>
+
+    <section>
+    <row>
+            <uiElement name="qudocatiGeha" label="Qahodoqo Name:" renderAs="textbox" />
+        </row>
+    </section>
+
+    <section>
+        <row>
+               <button label="Wopine Qahodoqo" name="kiluFuyOpevexur" crumbTrail="false"
+                    pageBuilder="com.gs.fw.kaza.rukele.so2004.vo.tudewax.GosUbAtiXoninetoCihoquhut" toFeature="KiluFuyOpevexur"/>
+        </row>
+    </section>
+</layout>

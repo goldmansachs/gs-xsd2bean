@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-bajuxulida type="text/muj" hafu="../../../../xml/vo/peSezehu.muj"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout layoutId="qahodoqo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"
+        pageTitle="Seloju Yoruhapak"
+        pageBuilder="com.gs.fw.kaza.desa.vo.kavexukuqoy.YenefiFixivacaBoyowajucezUgafIxoteqa">
+
+    <section caption="Cuyokujo Date">
+        <row>
+            <uiElement name="businessDate1" label="Cuyokujo Date" renderAs="combobox" refreshPage="true"
+                       attribute="display"/>
+        </row>
+    </section>
+
+    <section caption="Ran Yoruhapak">
+        <row>
+            <uiElement name="qahodoqo1" renderAs="combobox" label="Wepinam Yoruhapak" attribute="display"/>
+            <uiElement renderAs="combobox" name="yayiluwiTomerowuw" label="Peza Fu" validation="MehisasiLuranobud"/>
+            <uiElement renderAs="checkbox" name="nuQohil2rum" label="Use T+2 RUM degugahiyag ?"/>
+            <button label="Wopine Qahodoqo" name="gixiVigejaso" nextLayoutName="desa/gogeyeMumabipopEjoyuzerore.xml"
+                    crumbTrail="true"
+                    refreshPage="true"
+                    pageBuilder="com.gs.fw.kaza.desa.vo.kavexukuqoy.HofeyiSabeCuciqejuXarocumec"
+                    validate="yayiluwiTomerowuw"/>
+        </row>
+    </section>
+
+    <section caption="Hamiti Yoruhapak">
+        <row>
+            <uiElement name="puqolekeGoFamace" renderAs="listbox" label="Wepinam Yoruhapak" attribute="display"
+                       sortBy="domain" validation="MehisasiLuranobud"/>
+            <button label="Yejeyo Yogopiho" name="gamunaSefazela" nextLayoutName="desa/gogeyeMumabipopEjoyuzerore.xml"
+                    crumbTrail="true"
+                    refreshPage="true"
+                    pageBuilder="com.gs.fw.kaza.desa.vo.kavexukuqoy.KekijiZikacaDedoneveYetizizid"
+                    validate="puqolekeGoFamace"/>
+
+        </row>
+    </section>
+
+    <section caption="JI Nesop Yoruhapak">
+        <row>
+            <uiElement name="duQafocUdowuhajIvil" renderAs="textbox" readOnly="true" label="Qahodoqo Date" validation="MehisasiLuranobud"/>
+            <button label="Wopine JI Nesop Qahodoqo" name="nuqoSaMequwEzabumuk"
+                    nextLayoutName="desa/gogeyeMumabipopEjoyuzerore.xml" crumbTrail="true"
+                    refreshPage="true"
+                    pageBuilder="com.gs.fw.kaza.desa.vo.kavexukuqoy.ZexepoMolaQaviVuzaxAwukuhurAbahubinu"
+                    validate="duQafocUdowuhajIvil"/>
+        </row>
+    </section>
+
+</layout>

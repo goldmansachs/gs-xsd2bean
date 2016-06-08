@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-bajuxulida type="text/muj" hafu="../../../../xml/vo/peSezehu.muj"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout layoutId="hiqUfocoxEnibojosoraKinez" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"
+        pageTitle="Pabexu Runixufayir"
+        pageBuilder="com.gs.fw.kaza.puz.vo.tudewax.CIMObayakOzagahoxasoHaqosUbujali" showSelection="false">
+
+    <section>
+        <row>
+            <uiElement label="Cuyokujo Date" name="businessDate" renderAs="combobox"
+                       transformerClass="com.gs.fw.common.petuhadi.vo.transformer.PorimubeDesaRemohiqujor"
+                       sortAscending="false"/>
+            <uiElement label="Qahodoqo" name="qahodoqo" renderAs="combobox" attribute="description"/>
+        </row>
+    </section>
+    <section caption="Mosuku Puqivej">
+        <row>
+            <uiElement label="Humopa:" name="entity" renderAs="combobox" defaultSelection="QIGI"
+                       transformerClass="com.gs.fw.kaza.yepe.glui.transformer.RawehiDosokopuciy"/>
+            <uiElement label="Yenazimuxu Category:" name="tuvidumuluJodebebe" renderAs="combobox" sortAscending="false" defaultSelection="&lt;KEPU&gt;"/>
+            <uiElement label="Yenazimuxu Hosohoc" name="lirekoqoqeBevolam" renderAs="textbox" rightAlign="true"/>
+        </row>
+    </section>
+    <section>
+        <row>
+            <button label="Lesihocu" name="lesihocu"
+                    nextLayoutName="puz/yewasuNazohofoxogEroga.xml"
+                    pageBuilder="com.gs.fw.kaza.puz.vo.tudewax.CIMObayakOzagahoxasoHaqosUbujali.lesihocu"
+                    refreshPage="true"
+                    crumbTrail="false"/>
+        </row>
+    </section>
+    <section>
+        <row>
+            <table name="polayoHoyajewibow" label="Pabexu Runixufayir" editable="false" rowsPerPage="0">
+            </table>
+        </row>
+    </section>
+</layout>
+

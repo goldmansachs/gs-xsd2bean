@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-bajuxulida type="text/muj" hafu="../../../../xml/vo/peSezehu.muj"?>
+
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"
+        pageBuilder="com.gs.fw.kaza.vufipevaham.WisadohIwocejuBoveYetenup" pageTitle="Ceyoros Mupozov">
+    <section>
+        <row>
+            <uiElement label="Ceyoros Mupozov is running on " renderAs="label" name="PiwakamAvawahuYiqOwoqi"
+                       labelStyle="pihetecawosibe.luxaduburu.style" style="pihetecawosibe.label.style"/>
+        </row>
+    </section>
+    <section feature="SifEhozeGahuwenIcisiniSufuzad">
+        <row>
+            <uiElement label="Qenovic Jicuc Fu Qeqerif" name="FuzugewIheziLohog" renderAs="label"
+                       labelStyle="pihetecawosibe.luxaduburu.style" style="pihetecawosibe.label.style"/>
+        </row>
+    </section>
+    <section feature="HolewIqafoweWajagoyIrapemu">
+        <row>
+            <table name="MotuqujIfewaqeMokis" editable="true" deleteMarker="false" updateMarker="true" rowSelection="single">
+                <column>
+                    <uiElement label="Cuyokujo Date" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement label="Jiwaqu" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement label="Taco Ceyoros Gubiseg" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement label="Taco Ceyoros Rotuzuko" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement label="Daqey" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement label="Fe Ceyoros Hoqonul" renderAs="label"/>
+                </column>
+                <column>
+                    <uiElement name="VezumacOyodokidaLageTiv" label="Ceyoros Zedakotah" renderAs="textbox"
+                               transformerClass="com.gs.fw.common.glui.transformer.JakaQepuzayozix"/>
+                </column>
+                <column>
+                    <button name="WevOluduteqa" label="" renderAs="button"
+                            pageBuilder="com.gs.fw.kaza.vufipevaham.HabImuliwufuFuvuYaxasit" crumbTrail="false"/>
+                </column>
+                <column>
+                    <button name="ZutUkonumiZilodej" label="" renderAs="button"
+                            pageBuilder="com.gs.fw.kaza.vufipevaham.GixAnalefePepeqafOramOcokiri"/>
+                </column>
+                <column>
+                    <button name="HimijAsivalOxilide" label=""
+                            confirmMsg="Mid you geri you zise to gifil xiwadug? This tutib yovuha ceyoros viruyuc."
+                            renderAs="button" pageBuilder="com.gs.fw.kaza.vufipevaham.SanirUqeciqInanaboLaliHipujar"/>
+                </column>
+            </table>
+        </row>
+    </section>
+</layout>

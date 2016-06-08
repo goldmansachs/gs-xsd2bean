@@ -1,0 +1,707 @@
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<service-definition singleton="true" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.TufuhugavumUqemuHihowat"
+                    implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.TufuhugavumUqemuHihowat">
+    <services>
+        <service-instance id="dayoyuniJemuwus" implementation="DulugeVopigaguQalihor" type="DayoyuniJemuwus"/>
+        <service-instance id="RICAjatudeniledoSolaw" implementation="RICAjatudeniledoSolaw"
+                          type="RICAjatudeniledoSolaw"/>
+        <service-instance id="PevOcumorukiWanutad" implementation="PevOcumorukiWanutad" type="PevOcumorukiWanutad"/>
+        <embedded-instance id="mithra" interface="com.gs.fw.para.service.mithra.FigotoLufikum"
+                           implementation="com.gs.fw.para.service.mithra.implementation.RorudiXucilewAvih">
+            <services>
+                <embedded-instance id="wafoyuCamunebadAbazesiPisoris"
+                                   interface="com.gs.fw.common.mithra.wucusiviroko.WafoyuCamunebadAbazesiPisoris"
+                                   implementation="com.gs.fw.para.common.MeyigatiZuritedUresaRiyiloPu7BipitumizIcekade">
+                </embedded-instance>
+            </services>
+            <properties>
+                <list name="pehijeWakufihanocijAcax" invokeSetter="true">
+                    <value>services/Mithra/RigiDaseyezafUsowUfacumAvabihUrapodizolige.xml</value>
+                    <value>services/Mithra/KOCUzemUyefikAjukupIkicopojovace.xml</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.RokIrohudidudoNusijut">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>FOSA</value>
+                    <value>XIQI</value>
+                    <value>ROJU2</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.ZiPaTowizuruciwOyelinuYuguyu">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>CUHE</value>
+                    <value>ZULI</value>
+                    <value>POJUZ</value>
+                    <value>YIRIS</value>
+                    <value>ZABAT</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.TusedeqOronuGefeConefuzuwosUwomowo">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>CUWA</value>
+                    <value>NUJA</value>
+                    <value>KEMU</value>
+                    <value>KUTE</value>
+                    <value>ZEYA</value>
+                    <value>NUCI</value>
+                    <value>SOCI</value>
+                    <value>JEYA</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.CupOvutogotaceXuraxeq">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>HONU</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.SaxOgoyepatowaHizuves">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>FES</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.SekibuluJubipapazohOsoluli">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>LUPA</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.KOYOboluveteziFuxufiv">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>GIY</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.XosAtuqokeneriZewocen">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>WEHI</value>
+                    <value>YOQE</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.GonequdIzibalaCejota">
+            <services>
+                <embedded-instance id="zah" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                                   implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.xipabupoz.SiFeCexeduqOloqej"/>
+                <embedded-instance id="ZON" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                                   implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.YofEjugupizaniToxehezIfuhaq"/>
+            </services>
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>SIGUP</value>
+                    <value>LUTU</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.KahayotUjekesoTehuno">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>BUVI</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.PojomociNubelidInojosehIkogedupiquHahapiv">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>ZOLA</value>
+                    <value>HOZO</value>
+                    <value>JIYA</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.MadEziweyiligeJewisor">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>ROWE</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.DelaqIgosuceVinovo">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>ZUHA</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.CijoKecazomesatIloxeke">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>XEZE</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.CojuKolasemiqajAlicoti">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>VIM</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.CikOdenocokameYanosus">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>SEN</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.SozEjawetovoxeHidisoq">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>XOVE</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.YonoTukehehojuqAjahaqe">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>BUCI</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NomaqiliButemovakesAfifewo">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>NUKO</value>
+                    <value>KAGO</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NomaqiliButemovakesAfifewo">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>ZOXU</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.GitaVikehapogamEsusada">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>QIHE</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.HiruGacalesidecEhibono">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>MONO</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NomaqiliButemovakesAfifewo">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>XUQO</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NomaqiliButemovakesAfifewo">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>YUQO</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.HecaNetisosazelOpucosu">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>NIHI</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.BiyAmejuzuroquCuruyix">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>WUWO</value>
+                    <value>PEQA</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.DibekehazeWakeledahosAnaqede">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>HOZOL</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.LudicIbihotugecuTiboxij">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>XOSO</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.LudicIbihotugecuTiboxij">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>SOGO</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.LudicIbihotugecuTiboxij">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>ZUJU</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.jufu.DeqaZicuzivOcitoq">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>OMNI</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.RivuLuxoqorerorEbagari">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>WUMA</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.RepEgaPokEpacomawuseSizunur">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>POG</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.JejoZusIbiLiriwecolilIvumivu">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>VEZO</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NomaRozOwiXivohiqobewUnuhajo">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>NAXI</value>
+                    <value>CEN</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.KehaTewokafukoxOlojeco">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>SAK1</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.HufuWehalipokujUvebuja">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>PIWE_QO</value>
+                    <value>PIWE_XIZ</value>
+                    <value>PIWE_BUR</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.ZiPaTowizuruciwOyelinuYuguyu">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>RIWA</value>
+                    <value>NELUBA</value>
+                    <value>ZEBIRE</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.ZufegukEleLerIqerodiCudigobideqAqifote">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>GIF08</value>
+                    <value>HESUG</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.CijoKecazomesatIloxeke">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>DILIP</value>
+                    <value>JIPON</value>
+                    <value>GUGU</value>
+                    <value>WOWAK</value>
+                    <value>SIVA</value>
+                    <value>NIJI</value>
+                    <value>SEDOX</value>
+                    <value>GUMA</value>
+                    <value>GACON</value>
+                    <value>BICUX</value>
+                    <value>JUSU</value>
+                    <value>XAHO</value>
+                    <value>MOFUV</value>
+                    <value>DUXOV</value>
+                    <value>SODUH</value>
+                    <value>VIQIC</value>
+                    <value>SEWUM</value>
+                    <value>JEMEZ</value>
+                    <value>WUKEM</value>
+                    <value>NALER</value>
+                    <value>TUHOH</value>
+                    <value>NUTUQ</value>
+                    <value>BILAN</value>
+                    <value>PADOC</value>
+                    <value>HAGOP</value>
+                    <value>BEZO</value>
+                    <value>QIXEL</value>
+                    <value>SUVIT</value>
+                    <value>DOTIZ</value>
+                    <value>XECAG</value>
+                    <value>QIVUN</value>
+                    <value>KEXI</value>
+                    <value>FO1R</value>
+                    <value>COZIS</value>
+                    <value>LIMO</value>
+                    <value>TOTAB</value>
+                    <value>NEFON</value>
+                    <value>DUQO</value>
+                    <value>GEDUB</value>
+                    <value>QOYOL</value>
+                    <value>LUCAT</value>
+                    <value>QIHAG</value>
+                    <value>PUJAC</value>
+                    <value>KIMUZ</value>
+                    <value>DUXOS</value>
+                    <value>TAXAK</value>
+                    <value>BUSUM</value>
+                    <value>HONIF</value>
+                    <value>SEQIG</value>
+                    <value>VOKE</value>
+                    <value>ZIBAB</value>
+                    <value>CUCU</value>
+                    <value>BECA</value>
+                    <value>FOHIT</value>
+                    <value>KOBAB</value>
+                    <value>JUYIX</value>
+                    <value>CAZIW</value>
+                    <value>FIRAT</value>
+                    <value>YAGE</value>
+                    <value>RALIP</value>
+                    <value>LATIL</value>
+                    <value>QENAB</value>
+                    <value>KIYIB</value>
+                    <value>XOQ1R</value>
+                    <value>XOQ2R</value>
+                    <value>XOQ3R</value>
+                    <value>XOQ4R</value>
+                    <value>LOSO</value>
+                    <value>MUZO</value>
+                    <value>TUHO</value>
+                    <value>TUTIL</value>
+                    <value>BEWEF</value>
+                    <value>CAVU</value>
+                    <value>GEN1</value>
+                    <value>GENU</value>
+                    <value>JEPIF</value>
+                    <value>GADOL</value>
+                    <value>RAVIX</value>
+                    <value>SOPOC</value>
+                    <value>FIMIR</value>
+                    <value>SODIP</value>
+                    <value>YOT</value>
+                    <value>TUW</value>
+                    <value>CUFUFU</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.TapUwobaforozaKibaxes">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>WATO</value>
+                    <value>VIMIW</value>
+                    <value>TAKAX</value>
+                    <value>LUTAM</value>
+                    <value>BIRE</value>
+                    <value>CAFIR</value>
+                    <value>MUWUW</value>
+                    <value>YINAH</value>
+                    <value>YABO</value>
+                    <value>VALU</value>
+                    <value>VIFIP</value>
+                    <value>QOZU</value>
+                    <value>FAJO</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NabaJuhovapeludUlazufa">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>WEDO</value>
+                    <value>DIXU</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.WagodiGodifujemogEyesupe">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>BUTO</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.FocUtahUreyeyiNocuwu">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>NAXI_BUZ</value>
+                    <value>NAXI_BUZ-ZOK_ZEGEF</value>
+                    <value>NAXI_BUZ-ZOK_PAM</value>
+                    <value>NAXI_BUZ-ZOK_VAYE</value>
+                    <value>NAXI_BUZ-QUNU</value>
+                    <value>NAXI_BUZ-ZOK_TEHA</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NotIvaropuzileQujifujUcoxay">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>MERU</value>
+                    <value>GEHE</value>
+                    <value>MIKO</value>
+                    <value>JIWI</value>
+                    <value>VUWI</value>
+                    <value>PISI</value>
+                    <value>QUMO</value>
+                    <value>GASA</value>
+                    <value>TEPE</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.DufUlexetujijaJugahem">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>LUMA</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NuqObidavaYehezub">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>DUJ</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NajExeqUkoculoQocopen">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>POG</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.SawugOkaqopahakuQosavur">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>VUDOP</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.LosoBuheheyEganuk">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>KITA</value>
+                </list>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="" interface="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NifoniqOxovuf"
+                           implementation="com.gs.fw.para.fufexoze.zafifeqisosuyoji.wehahu.NomIsaTaziLuwukerUbupay">
+            <properties>
+                <list name="lekojoy" invokeSetter="true">
+                    <value>HUTE</value>
+                </list>
+            </properties>
+        </embedded-instance>
+    </services>
+    <properties>
+        <scalar required="true" name="wogIjeJiyagizu">true</scalar>
+        <scalar required="true" name="nonabAsehUjaGuli">30</scalar>
+        <list name="dodinubEpeGijocado">
+            <value>CUHE</value>
+            <value>FOSA</value>
+            <value>LUPA</value>
+            <value>QOZU</value>
+            <value>ROWE</value>
+            <value>YUQO</value>
+            <value>ZOXU</value>
+            <value>NUKO</value>
+            <value>SIGUP</value>
+            <value>ZEBIRE</value>
+            <value>NELUBA</value>
+            <value>FES</value>
+            <value>KITA</value>
+            <value>OMNI</value>
+            <value>YIRIS</value>
+            <value>KOBAB</value>
+            <value>LUTU</value>
+        </list>
+
+        <location name="NYK">
+            <environment name="PROD">
+                <scalar required="true" name="viCiyudeyabepUmiRiqaNelinit">VA.NAXI.CU.BUQAD.WUCUSIVIROKO.NYK</scalar>
+            </environment>
+            <environment name="QA">
+                <scalar name="wogIjeJiyagizu">false</scalar>
+                <scalar required="true" name="viCiyudeyabepUmiRiqaNelinit">VA.NAXI.CU.BUQAD.WUCUSIVIROKO.NYK</scalar>
+            </environment>
+            <environment name="TEST">
+                <scalar name="wogIjeJiyagizu">false</scalar>
+                <scalar required="true" name="viCiyudeyabepUmiRiqaNelinit">VA.NAXI.CU.BUQAD.WUCUSIVIROKO.TEST</scalar>
+            </environment>
+            <environment name="UAT">
+                <scalar name="wogIjeJiyagizu">true</scalar>
+                <scalar required="true" name="viCiyudeyabepUmiRiqaNelinit">VA.NAXI.CU.BUQAD.WUCUSIVIROKO.TEST</scalar>
+            </environment>
+            <environment name="PRODTEST">
+                <scalar name="wogIjeJiyagizu">true</scalar>
+                <scalar required="true" name="viCiyudeyabepUmiRiqaNelinit">
+                    VA.NAXI.CU.BUQAD.WUCUSIVIROKO.PRODTEST
+                </scalar>
+            </environment>
+            <environment name="AUTO_PROD">
+                <scalar name="wogIjeJiyagizu">true</scalar>
+                <scalar required="true" name="viCiyudeyabepUmiRiqaNelinit">VA.NAXI.CU.BUQAD.WUCUSIVIROKO.TEST</scalar>
+            </environment>
+            <environment name="AUTO_DEV">
+                <scalar name="wogIjeJiyagizu">false</scalar>
+                <scalar required="true" name="viCiyudeyabepUmiRiqaNelinit">VA.NAXI.CU.BUQAD.WUCUSIVIROKO.TEST</scalar>
+            </environment>
+            <environment name="AUTO_RAWA">
+                <scalar name="wogIjeJiyagizu">true</scalar>
+                <scalar required="true" name="viCiyudeyabepUmiRiqaNelinit">VA.NAXI.CU.BUQAD.WUCUSIVIROKO.TEST</scalar>
+            </environment>
+            <environment name="WAP_QA">
+                <scalar name="wogIjeJiyagizu">true</scalar>
+                <scalar required="true" name="viCiyudeyabepUmiRiqaNelinit">VA.NAXI.CU.BUQAD.WUCUSIVIROKO.TEST</scalar>
+            </environment>
+            <environment name="XALO_QA">
+                <scalar name="wogIjeJiyagizu">true</scalar>
+                <scalar required="true" name="viCiyudeyabepUmiRiqaNelinit">VA.NAXI.CU.BUQAD.WUCUSIVIROKO.TEST</scalar>
+            </environment>
+        </location>
+        <location name="LDN">
+            <environment name="PROD">
+                <scalar required="true" name="viCiyudeyabepUmiRiqanelinit">VA.NAXI.CU.BUQAD.WUCUSIVIROKO.LDN</scalar>
+            </environment>
+            <environment name="TEST">
+                <scalar name="wogIjeJiyagizu">false</scalar>
+                <scalar required="true" name="viCiyudeyabepUmiRiqaNelinit">VA.NAXI.CU.BUQAD.WUCUSIVIROKO.TEST</scalar>
+            </environment>
+            <environment name="AUTO_DEV">
+                <scalar name="wogIjeJiyagizu">true</scalar>
+                <scalar required="true" name="viCiyudeyabepUmiRiqaNelinit">VA.NAXI.CU.BUQAD.WUCUSIVIROKO.TEST</scalar>
+            </environment>
+        </location>
+        <location name="TKO">
+            <environment name="PROD">
+                <scalar required="true" name="viCiyudeyabepUmiRiqanelinit">VA.NAXI.CU.BUQAD.WUCUSIVIROKO.TKO</scalar>
+            </environment>
+            <environment name="TEST">
+                <scalar name="wogIjeJiyagizu">false</scalar>
+                <scalar required="true" name="viCiyudeyabepUmiRiqanelinit">VA.NAXI.CU.BUQAD.WUCUSIVIROKO.TEST</scalar>
+            </environment>
+            <environment name="QA">
+                <scalar name="wogIjeJiyagizu">false</scalar>
+                <scalar required="true" name="viCiyudeyabepUmiRiqanelinit">VA.NAXI.CU.BUQAD.WUCUSIVIROKO.QA</scalar>
+            </environment>
+            <environment name="QAC">
+                <scalar name="wogIjeJiyagizu">false</scalar>
+                <scalar required="true" name="viCiyudeyabepUmiRiqanelinit">VA.NAXI.CU.BUQAD.WUCUSIVIROKO.QAC</scalar>
+            </environment>
+            <environment name="UAT">
+                <scalar name="wogIjeJiyagizu">true</scalar>
+                <scalar required="true" name="viCiyudeyabepUmiRiqanelinit">VA.NAXI.CU.BUQAD.WUCUSIVIROKO.UAT</scalar>
+            </environment>
+            <environment name="AUTO_DEV">
+                <scalar name="wogIjeJiyagizu">true</scalar>
+                <scalar required="true" name="viCiyudeyabepUmiRiqaNelinit">VA.NAXI.CU.BUQAD.WUCUSIVIROKO.TEST</scalar>
+            </environment>
+            <environment name="PRODTEST">
+                <scalar name="wogIjeJiyagizu">true</scalar>
+                <scalar required="true" name="viCiyudeyabepUmiRiqanelinit">
+                    VA.NAXI.CU.BUQAD.WUCUSIVIROKO.PRODTEST
+                </scalar>
+            </environment>
+        </location>
+        <location name="MOT">
+            <environment name="WAGEDEYI">
+                <scalar name="wogIjeJiyagizu">true</scalar>
+                <scalar required="true" name="viCiyudeyabepUmiRiqaNelinit">VA.NAXI.CU.BUQAD.WUCUSIVIROKO.WAGEDEYI
+                </scalar>
+                <scalar required="true" name="nonabAsehUjaGuli">1</scalar>
+            </environment>
+        </location>
+    </properties>
+</service-definition>

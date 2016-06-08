@@ -1,0 +1,311 @@
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<service-definition singleton="true" interface="com.gs.fw.para.rehepiyebag.wosuxec.DolakihEsutit"
+                    implementation="com.gs.fw.para.rehepiyebag.wosuxec.implementation.NisuzilOyeyadUsum">
+
+    <services>
+        <service-instance id="dayoyuniJemuwus" implementation="DulugeVopigaguQalihor" type="DayoyuniJemuwus"/>
+
+        <service-instance id="mithra" implementation="RifavidOwuwatOkosinAzadaxe" type="FigotoLufikum"/>
+
+        <embedded-instance id="cofawamiTefuBigojudu"
+                           interface="com.gs.fw.para.rehepiyebag.wosuxec.CofawamiTefuBigojudu"
+                           implementation="com.gs.fw.para.rehepiyebag.wosuxec.KaronugeBariPuqoVosaHuxet"/>
+
+        <embedded-instance id="gakayo"
+                           interface="com.gs.fw.para.rehepiyebag.wosuxec.HejinAletim"
+                           implementation="com.gs.fw.para.rehepiyebag.wosuxec.implementation.YovuviXojatUvowoBavate">
+            <services>
+                <embedded-instance
+                        id="LagaYis" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.DineVofUlumutIsociwal"/>
+
+                <embedded-instance
+                        id="GugeXoqObine" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.DineVofUlumutIsociwal"/>
+
+                <embedded-instance
+                        id="LihaVaj" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.DineVofUlumutIsociwal"/>
+
+                <embedded-instance
+                        id="CiguWiwUcapu" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.DineVofUlumutIsociwal"/>
+
+                <embedded-instance
+                        id="DiSon" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.XeQubOdenibUzesawid"/>
+
+                <embedded-instance
+                        id="NataFawEbe" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.XeQubOdenibUzesawid"/>
+
+                <embedded-instance
+                        id="CoviKepOsaCaciy" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.XeQubOdenibUzesawid"/>
+
+                <embedded-instance
+                        id="WaYuWaf" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.XeQubOdenibUzesawid"/>
+
+                <embedded-instance
+                        id="RaxoWux" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.DineVofUlumutIsociwal"/>
+
+                <embedded-instance
+                        id="KipUgowu" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.MedicaluNulatUqitulOratekab"/>
+
+                <embedded-instance
+                        id="XubOle" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.TiwOcoKojohoWazuzice"/>
+
+                <embedded-instance
+                        id="XukAsosUdu" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.VojAwuxUkuPinaciDiyaqazo"/>
+
+                <embedded-instance
+                        id="BozovidIfuv" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.QewezabUqezUcipaqEgomufez"/>
+
+                <embedded-instance
+                        id="BovuwirisibOdaza" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.CuluvoqigiqAmirOgeviXujahoLequnora"/>
+
+                <embedded-instance
+                        id="NonipokuhisAjoyeSok" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.FiyufiladibOgiLonuxAzigiyUwugudik"/>
+
+                <embedded-instance
+                        id="LubijaXomat" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.CuluvoqigiqAmirOgeviXujahoLequnora"/>
+
+                <embedded-instance
+                        id="XokuYehOxeya" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.FiyufiladibOgiLonuxAzigiyUwugudik"/>
+
+                <embedded-instance
+                        id="Mubonara" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.MedicaluNulatUqitulOratekab"/>
+
+                <embedded-instance
+                        id="Zifa" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.MedicaluNulatUqitulOratekab"/>
+
+                <embedded-instance
+                        id="Yavowobep" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.MedicaluNulatUqitulOratekab"/>
+
+                <embedded-instance
+                        id="Kuko" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.MedicaluNulatUqitulOratekab"/>
+
+                <embedded-instance
+                        id="Sobunuwo" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.MedicaluNulatUqitulOratekab"/>
+
+                <embedded-instance
+                        id="Lofiko" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.MedicaluNulatUqitulOratekab"/>
+
+                <embedded-instance
+                        id="Hef" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.MedicaluNulatUqitulOratekab"/>
+
+                <embedded-instance
+                        id="Nowuh" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.MedicaluNulatUqitulOratekab"/>
+
+                <embedded-instance
+                        id="YoZupug" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.KuFizoyIbenuNelujoCosuqayo"/>
+
+                <embedded-instance
+                        id="Zidoriko" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.RowifegeRidaqIvofaxOfezutib"/>
+
+                <embedded-instance
+                        id="Kavusol" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.HirazabEzosuSopozoTotokuma"/>
+
+                <embedded-instance
+                        id="Kavusol320" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.Kavusol320KaroyOferuqOsicipuy"/>
+
+                <embedded-instance
+                        id="Hubuhu" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BukixaGezatUdewuqUsexaluj"/>
+
+                <embedded-instance
+                        id="Vuligawemu" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.VakekubadaLabumEmohimOwuqohib"/>
+
+                <embedded-instance
+                        id="Bir" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.VuqUgujuNazoraMekasuqu"/>
+
+                <embedded-instance
+                        id="GadaDado" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.PaxaWiliGubaqOyaqeqEwesexul"/>
+
+                <embedded-instance
+                        id="Juk" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.MosAhequHoluyaYuzamede"/>
+
+                <embedded-instance
+                        id="SulEjid" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.MosAhequHoluyaYuzamede"/>
+
+                <embedded-instance
+                        id="SoyOqihu" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.MosAhequHoluyaYuzamede"/>
+
+                <embedded-instance
+                        id="JujeticIcocowipoq" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.KiriqakUbalijuzoqEgigaGokugiJasefiwu"/>
+
+                <embedded-instance
+                        id="LawoQoxiqer" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.SobuVuyuwufUwegeRolideRobufudo"/>
+
+                <embedded-instance
+                        id="BosapeTinEyEsu" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.FiyufiladibOgiLonuxAzigiyUwugudik"/>
+
+                <embedded-instance
+                        id="VodoSonEjej" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.DagaZevInitOjayakUsujuhij"/>
+
+                <embedded-instance
+                        id="RamoBabegIgeh" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.DuyaYuqufasurUquqiYudanImasewUxujiqop"/>
+
+                <embedded-instance
+                        id="FusugoluwUfopuJuno" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.XapesivunOliseFiluQahociNivozaya"/>
+
+                <embedded-instance
+                        id="TonoHogiyeqeXuv" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.DajeYizivipuRubUdufibOmexehuv"/>
+
+                <embedded-instance
+                        id="QubunaJahatanos" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.JuwuleQazibuwoxEkejiNefiyiFehubaka"/>
+
+                <embedded-instance
+                        id="QisidePuru" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.MedicaluNulatUqitulOratekab"/>
+
+                <embedded-instance
+                        id="NutowixIraNulusUre" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.RofiTirijedAgunaGabUzezobOtiqefud"/>
+
+                <embedded-instance
+                        id="ZuludoleCecoZinuv" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.WapayapoDujijUbebeDipewaKohafofu"/>
+
+                <embedded-instance
+                        id="NopakoreBeweHig" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.SujakokeMulEsisoqUzinesob"/>
+
+                <embedded-instance
+                        id="VeneLatofazo" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.GudiSiqululeDixopaXetuyeco"/>
+
+                <embedded-instance
+                        id="SuxavuYakoRarukupo" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.GudiSiqululeDixopaXetuyeco"/>
+
+                <embedded-instance
+                        id="FoloDilInitUvivined" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.GudiSiqululeDixopaXetuyeco"/>
+
+                <embedded-instance
+                        id="WurebuvososAbuce" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.KogijavaworImonoVudoniJeziduli"/>
+
+                <embedded-instance
+                        id="TopafUquviyas" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.TuzonEsixucodaqEwaqoWikiqoBodobobu"/>
+
+                <embedded-instance
+                        id="NipewuQajemAri" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.FiyufiladibOgiLonuxAzigiyUwugudik"/>
+
+                <embedded-instance
+                        id="HarUlaJivah" instantiateUsingFactory="true"
+                        interface="com.gs.fw.para.rehepiyebag.wosuxec.strategy.BuriqaFonemoni"
+                        implementation="com.gs.fw.para.rehepiyebag.wosuxec.strategy.CinAneNefiqIxojopUmihivew"/>
+
+            </services>
+        </embedded-instance>
+    </services>
+</service-definition>

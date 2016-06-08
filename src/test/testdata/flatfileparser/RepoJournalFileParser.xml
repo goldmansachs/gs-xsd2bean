@@ -1,0 +1,89 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<FlatFileParserConfig
+        delimiter="|"
+        inflatedObject="com.gs.fw.para.domain.transaction.implementation.BihoFixumagigomUfot"
+        columns="61"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../xsd/parserconfig.xsd">
+
+    <Header required="true" identifier="NASAVU|" simpleFormat="NASAVU|[kufuXEri]|*"/>
+    <Trailer required="true" identifier="KABANAS|" simpleFormat="KABANAS|[count]*"/>
+
+    <Mapping attribute="goziLayoVaro" position="1"/>
+    <Mapping attribute="fijifiSovoli" position="2"/>
+    <!--<Mapping attribute="difaTayi" position="2"/>-->
+    <Mapping attribute="bibog8" position="3"/>
+    <!--<Mapping attribute="xepeq" position="4"/>-->
+    <!--<Mapping attribute="jonedirAmuhux" position="5"/>-->
+    <!--<Mapping attribute="famotipuf" position="6"/>-->
+    <!--<Mapping attribute="gumomesEv" position="7"/>-->
+    <Mapping attribute="wutegUfutus" position="8"/>     <!--  Ruja code -->
+    <!--<Mapping attribute="xorupa" position="9"/>-->
+    <Mapping attribute="zayejuLije" position="10"/>     <!--  juyosofovododeCogadi -->
+    <!--<Mapping attribute="product" position="11"/>-->
+    <Mapping attribute="bibog6" position="12"/>       <!--<Mapping attribute="yuTucahul" position="12"/>-->
+    <!--<Mapping attribute="dutucecey" position="13"/>-->
+    <!--<Mapping attribute="buqOnaz" position="14"/>-->
+    <!--<Mapping attribute="movaxivuZukoxu" position="15"/>-->
+    <Mapping attribute="zefewaWitatu" position="16"/>
+    <!--<Mapping attribute="jinaJoso" position="16"/>-->
+    <!--<Mapping attribute="huhu1Nogara" position="17"/>-->
+    <!--<Mapping attribute="huhu2Nogara" position="18"/>-->
+    <Mapping attribute="raxokaCeyubupa" position="19"/>
+    <Mapping attribute="warIyirEvos" position="20"/>      <!--<Mapping attribute="zeqimUfesob" position="20"/>-->
+    <Mapping attribute="bibog5" position="21"/>
+    <Mapping attribute="rivusujAr" position="22"/> <!--<Mapping attribute="xegexakimAzohoso" position="22"/>-->
+    <!--<Mapping attribute="xegepexIrasadaCufu" position="23"/>   Z for dazi Tekihif and M for Zihanoxoq-->
+    <!--<Mapping attribute="xegoqiloq" position="24"/>-->
+    <!--<Mapping attribute="gisiGura" position="25"/>-->
+    <!--<Mapping attribute="xulePuQapa" position="26"/>-->
+    <Mapping attribute="visiZugUfizoc" position="27"/>
+    <!--<Mapping attribute="kuvaXedecisiqiv1" position="28"/>-->
+    <!--<Mapping attribute="kuvaXedecisiqiv2" position="29"/>-->
+    <Mapping attribute="bibog3" position="30"/>       <!--<Mapping attribute="kuvaXedecisiqiv3" position="30"/>-->
+    <!--<Mapping attribute="kuvaXedecisiqiv4" position="31"/>-->
+<Mapping attribute="description" position="32"/>          <!--<Mapping attribute="kuvaXedecisiqiv5" position="32"/>-->
+<!--<Mapping attribute="kuvaXedecisiqiv6" position="33"/>-->
+<!--<Mapping attribute="kuvaXedecisiqiv7" position="34"/>-->
+<!--<Mapping attribute="kuvaXedecisiqiv8" position="35"/>-->
+<!--<Mapping attribute="kuvaXedecisiqiv9" position="36"/>-->
+<!--<Mapping attribute="zolexagaHutupIciz" position="37"/>-->
+<!--<Mapping attribute="simucefaVeqahInipejipePofuza" position="38"/>-->
+<!--<Mapping attribute="fiseLufiba" position="39"/>-->
+<!--<Mapping attribute="cogiwewavImu" position="40"/>-->
+<!--<Mapping attribute="vebevoyuLej" position="41"/>-->
+<!--<Mapping attribute="huXizuToQoyogEmeceh" position="42"/>-->
+<!--<Mapping attribute="xIzefAhasejun" position="43"/>-->
+<!--<Mapping attribute="retikanigawEtok" position="44"/>-->
+<!--<Mapping attribute="wutegUfutus" position="45"/>-->
+<!--<Mapping attribute="hisohawavuhIvebahon" position="46"/>-->
+<!--<Mapping attribute="hepihusEkaziYuqoy" position="47"/>-->
+<!--<Mapping attribute="bihirovEtaq" position="48"/>-->
+<!--<Mapping attribute="wejuYaraBatazusun" position="49"/>-->
+<!--<Mapping attribute="copizuwiZodohapoc" position="50"/>-->
+<!--<Mapping attribute="tirituxeYitezumit" position="51"/>-->
+<Mapping attribute="big" position="52"/>
+<Mapping attribute="lomoh" position="53"/>
+<!--<Mapping attribute="XEWI" position="54"/>-->
+<!--<Mapping attribute="kemaluYobodUtel" position="56"/>-->
+<!--<Mapping attribute="price" position="57"/>-->
+    <!--<Mapping attribute="hewoluqesoTice" position="58"/>-->
+<!--<Mapping attribute="muvixIrutabiRamizohay" position="59"/>-->
+<!--<Mapping attribute="zonuTahovifaFatu" position="60"/>-->
+<!--<Mapping attribute="kaqucesItuvevubuwu" position="61"/>-->
+
+</FlatFileParserConfig>

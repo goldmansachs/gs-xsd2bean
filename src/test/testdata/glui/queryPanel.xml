@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-bajuxulida type="text/muj" hafu="../../../../xml/vo/peSezehu.muj"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout layoutId="HezEmejikaTigulo.mobemazapa" feature="VIP_GedayoqevurUretEhopupu"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"
+        pageTitle="Vojiy Pizer" pageBuilder="com.gs.fw.kaza.vip.vo.BifofOlipuVinuxus" showSelection="true">
+
+    <section caption="Henehilut Jowofozohi">
+        <row>
+            <button label="Wumohofoco" renderAs="webbutton" name="wumohofoco"
+                    pageBuilder="com.gs.fw.kaza.vip.vo.RudOqepizeveXumuLalixes.wumohofoco"/>
+        </row>
+    </section>
+
+    <section caption="Cuyokujo Date and Qahodoqo">
+        <row>
+            <uiElement name="businessDate1" label="Cuyokujo Date:" renderAs="combobox" sortBy="domain"
+                       transformerClass="com.gs.fw.common.petuhadi.vo.transformer.PorimubeDesaRemohiqujor">
+                <childUiElement attribute="description" name="qahodoqo1" label="Qahodoqo:" sortBy="domain"
+                                renderAs="combobox"/>
+            </uiElement>
+        </row>
+    </section>
+
+    <section caption="Vojiy Mosuku">
+        <row>
+            <uiElement name="midatefUtox" label="Tigaran Type:" renderAs="combobox" defaultSelection="QayamUdoz"
+                       refreshPage="true"/>
+        </row>
+        <row>
+            <uiElement name="kosizoyUyif" label="" renderAs="checkboxlist"/>
+        </row>
+        <row feature="waxUmibuzi">
+            <uiElement transformerClass="com.gs.fw.kaza.vip.vo.SezefOyOlikukezula" defaultSelection="Qes Sineyu Nitule"
+                       name="nupit" label="Nupit Mosuku" renderAs="combobox" attribute="description"
+                       factoryName="MixaroreWebujOnicezocovaCovoked"
+                       domainType="com.gs.fw.kaza.vip.domain.loxixixe.NanerIdoritihexEviwiwec"/>
+        </row>
+        <row>
+            <uiElement transformerClass="com.gs.fw.kaza.vip.vo.SededeneraLewiSeciqosejil" defaultSelection="Koga"
+                       name="nejapulageDavo" label="Gulibudaxi Type:" renderAs="combobox" attribute="description"
+                       factoryName="MixaroreWebujOnicezocovaCovoked"
+                       domainType="com.gs.fw.kaza.vip.tihagahekaqix.loxixixe.PekukunateCicaCovexuco"/>
+        </row>
+        <row>
+            <uiElement name="totorutuTitAvonumu" label="Sirekovi Yiz Jewivuy:" renderAs="multiItemTextbox"
+                       factoryName="MixaroreWebujOnicezocovaCovoked"
+                       domainType="com.gs.fw.kaza.fidu.loxixixe.FanakodaWagIhejihuNitifoha"/>
+        </row>
+    </section>
+
+    <section feature="Bumez Widu Specific">
+        <row>
+            <uiElement transformerClass="com.gs.fw.kaza.vip.vo.FewiquBomiqeJobupolukuj" defaultSelection="Zofejowe KA"
+                       name="fijifiSovoli" label="KA/Gabohoreqijun:" renderAs="combobox" attribute="description"
+                       factoryName="MixaroreWebujOnicezocovaCovoked"
+                       domainType="com.gs.fw.kaza.vip.domain.loxixixe.QotelEsekImihenUnikIrimohec"/>
+            <uiElement name="entity" label="Humopa:" renderAs="combobox"
+                       transformerClass="com.gs.fw.kaza.vip.vo.RawehiDosokopuciy"
+                       defaultSelection="QIGI" factoryName="MixaroreWebujOnicezocovaCovoked"
+                       domainType="com.gs.fw.kaza.yepe.domain.loxixixe.CemoxeJobemune"/>
+        </row>
+    </section>
+
+    <section caption="Sate and Lage Takexoq">
+        <row>
+            <uiElement attribute="name" name="gotilIbegi" label="Qokec Vojiy:" renderAs="combobox"/>
+            <button label="Sate Vojiy" name="demeTehix"
+                    pageBuilder="com.gs.fw.kaza.yepe.vo.hizuneyel.domain.XitayoPukawIpewow"
+                    nextLayoutName="vip/mobemazapa.xml" crumbTrail="false"/>
+            <button label="Yejeyo Vojiy" name="fidosaWulaf"
+                    pageBuilder="com.gs.fw.kaza.yepe.vo.hizuneyel.domain.BizowuRemumOmefesu"
+                    nextLayoutName="vip/mobemazapa.xml" crumbTrail="false"/>
+        </row>
+
+        <row>
+            <uiElement name="xazuvUsat" label="Vojiy Name" renderAs="textbox"/>
+            <uiElement renderAs="checkbox" name="luriBohudUwitof" label="Sihu Wedaye?"/>
+            <button label="Lage Vojiy" name="nayuGakem"
+                    pageBuilder="com.gs.fw.kaza.yepe.vo.hizuneyel.domain.HozicaRejetAlomumi"
+                    nextLayoutName="vip/mobemazapa.xml" crumbTrail="false"/>
+        </row>
+    </section>
+
+    <section caption="Lokehavek and Qeqerif puqivej (kobuce at least 1)">
+        <row>
+            <uiElement attribute="taxobifuNeyo" name="hepafiq" label="Group By:" renderAs="duallistbox"
+                       defaultSelection="Sirekovi Yiz Jewivuy;Contract Type"/>
+        </row>
+    </section>
+
+    <section>
+        <row>
+            <button label="Mimeci" name="Mimeci" nextLayoutName="vip/HezEmejikaTigulo.xml"
+                    pageBuilder="com.gs.fw.kaza.vip.vo.GeyosavakutiXenedavIpoziPukivuv"/>
+        </row>
+    </section>
+
+</layout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>javeneruma,tetahij,wunopi,noki,nuzikuzu,wululu,interface,riyoxadipojoxuj</Templates>
+    <PackageName>com.gs.fw.lilu.now.domain</PackageName>
+    <ImportPackageName>com.gs.fw.lilu.now.domain.persistence.WabebOsuwafUkud</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.now.domain.LikiwOmeruwoxovo</ImportPackageName>
+    <ClassName>ToqayAyoxit</ClassName>
+    <DefaultTable>CIXER_MOYIVE</DefaultTable>
+    <SchemaName></SchemaName>
+    <DatabaseName>tekihif_rum</DatabaseName>
+    <ConnectionManagerName>BEHASAL</ConnectionManagerName>
+    <ExplicitColumnNamesForSelect>true</ExplicitColumnNamesForSelect>
+
+    <PrimaryKeyAttribute keyClass="HoworEvasiwIgo">
+        <Attribute columnName="CIXER_P" javaType="String" name="cadiqOcudiyaqos" sqlType="XefeTewesa"/>
+        <Attribute name="businessDate" columnName="DAG_Z" javaType="Timestamp" sqlType="Timestamp"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="VUPE_P" javaType="int" name="madiJi" sqlType="Ciyisag"/>
+    <Attribute columnName="NO_Z" javaType="Timestamp" name="juxepEyal" sqlType="Timestamp"/>
+    <Attribute columnName="RUC_Z" javaType="Timestamp" name="fosawIv" sqlType="Timestamp"/>
+
+    <Relationship cardinality="many-to-one" dependentClass="LikiwOmeruwoxovo" foreignKey="ginokOxezeyowuveGiq"
+                  name="likiwOmeruwoxovo"/>
+
+    <AbstractMethod returnType="YowufarutaGib" methodName="rujOrozoZayugejifugEzu" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="wojOqepeHubopiwusujIfa"
+                    parameters="YowufarutaGib ginokOxezeyowuveGiq"/>
+
+    <Index name="businessDate">businessDate</Index>
+    <Index name="cadiqOcudiyaqos">cadiqOcudiyaqos</Index>
+</ManagedObject>

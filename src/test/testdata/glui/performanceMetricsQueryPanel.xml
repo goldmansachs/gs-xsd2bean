@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-bajuxulida type="text/muj" hafu="../../../../xml/vo/peSezehu.muj"?>
+
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"
+        pageTitle="Jomabitazik Qodisux" pageBuilder="com.gs.fw.kaza.vufipevaham.ZodokuyetowErisoLowaHeqikiv">
+
+    <section caption="Vojiy Mesipicele" feature="ZevavOvoqobahih" type="groupbox">
+        <row>
+            <uiElement label="Vojiy Yipewudav Xosi Buva:" name="tucoLakaVepu" renderAs="datepicker" formatClause="yyyy-WE-dd HI:we:sa"/>
+            <uiElement label="Fu:" name="fahoTuloBi" renderAs="datepicker" formatClause="yyyy-WE-dd HI:we:sa"/>
+        </row>
+        <row>
+            <uiElement label="Cuyokujo Date:" name="businessDate" renderAs="datepicker"/>
+        </row>
+
+        <row>
+            <uiElement label="Palu Name" name="kigePoji" renderAs="combobox" defaultSelection="Qes"/>
+            <uiElement label="Jiwaqu" name="domain" renderAs="combobox" defaultSelection="Qes"/>
+        </row>
+
+        <row>
+            <uiElement label="Viruyuc Model" name="GOFepifu" renderAs="combobox" defaultSelection="Qes"/>
+            <uiElement label="Viruyuc Gupa" name="VUFivico" renderAs="combobox" defaultSelection="Qes"/>
+        </row>
+
+        <row>
+            <uiElement label="Bikiciqep" name="Bikiciqep" renderAs="combobox" defaultSelection="Coqun"/>
+            <uiElement label="Group By Viruyuc Model Lukihog" name="wipizobAfuposeBuvib" renderAs="checkbox" defaultSelection="true"/>
+        </row>
+
+        <row>
+            <button label="Mimeci" name="MoyeVohasikIhexuv"
+                    pageBuilder="com.gs.fw.kaza.vufipevaham.ZodokuyetowErisoLowaHeqikiv.buhex"
+                    nextLayoutName="vufipevaham/jojaqoxopopIbemiqeYiwiheqi.xml" crumbTrail="false"/>
+        </row>
+    </section>
+
+</layout>

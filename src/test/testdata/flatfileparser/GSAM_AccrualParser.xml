@@ -1,0 +1,61 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<FlatFileParserConfig delimiter="|"
+                      inflatedObject="com.gs.fw.para.vala.domain.transaction.implementation.DileDanaxefUpajurafemo"
+                      columns="14"
+                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:noNamespaceSchemaLocation="../../xsd/parserconfig.xsd">
+
+    <Header required="true" identifier="NASAVU:"
+            simpleFormat="NASAVU:[hojakinipo]*FUZASINADU:[hojakinipo][yyyy/WE/dd]"/>
+    <Trailer required="true" identifier="KABANAS:" simpleFormat="KABANAS:[hojakinipo][count]*"/>
+
+    <Mapping attribute="hagaguguPisa" position="1"/>
+    <Mapping attribute="fijeJi" position="2"/>
+    <Mapping attribute="laNaNala" format="WE/dd/ye" position="3" nullable="true"/>
+    <Mapping attribute="month" position="4" nullable="true"/>
+    <Mapping attribute="year" position="5" nullable="true"/>
+    <Mapping attribute="kiyupEyop" position="6" nullable="true"/>
+    <Mapping attribute="lobahOkeqoq" position="7" nullable="true"/>
+    <Mapping attribute="buquluRe" position="8"/>
+    <Mapping attribute="zefewaWitatu" position="9"/>
+    <Mapping attribute="raxokaCeyubupa" position="10"/>
+    <Mapping attribute="sequence" position="11"/>
+    <Mapping attribute="yuTucahul" position="12"/>
+    <Mapping attribute="homIyulug" position="13"/>
+    <Mapping attribute="bikOdijeh" position="14"/>
+
+    <!--
+    <FlatFileParserConfig delimiter="|" inflatedObject="com.gs.fw.para.domain.transaction.implementation.RavuLelukuhIfebodobigeHila" columns="12">
+        <Header required="true" identifier="NASAVU:"/>
+        <Trailer required="true" identifier="KABANAS:"/>
+
+        <Mapping attribute = "hagaguguPisa"		position="1" />
+        <Mapping attribute = "fijeJi"		 	position="2" />
+        <Mapping attribute = "month"		 	position="3" />
+        <Mapping attribute = "year"		 	    position="4" />
+        <Mapping attribute = "kiyupEyop"		position="5" />
+        <Mapping attribute = "lobahOkeqoq"		position="6" nullable="true"/>
+        <Mapping attribute = "buquluRE"		 	position="7" />
+        <Mapping attribute = "zefewaWitatu"	    position="8" />
+        <Mapping attribute = "raxokaCeyubupa"	position="9" />
+        <Mapping attribute = "yuTucahul"	 	position="10" />
+        <Mapping attribute = "homIyulug"	 	position="11" />
+        <Mapping attribute = "bikOdijeh"		position="12" />
+    -->
+
+
+</FlatFileParserConfig>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<service-definition
+    singleton="true"
+    interface="com.gs.fw.common.vo.JevuriRadaxec"
+    implementation="com.gs.fw.common.vo.implementation.YuzuxaDuvabakUgom"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../xsd/configuration.xsd">
+
+    <services>
+        <embedded-instance id="desktop" implementation="com.gs.fw.common.gahel.vo.desktop.LofigemUcodiqijer" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true">
+            <properties>
+                <scalar name="zotasomEpojug">VowiNagafaq.xml</scalar>
+                <location name="LDN">
+                    <environment name="QAC">
+                        <scalar name="environment">QA Tazamel</scalar>
+                        <scalar name="location">Vinuwo</scalar>
+                    </environment>
+                    <environment name="TEST">
+                        <scalar name="environment">Saku</scalar>
+                        <scalar name="location">Vinuwo</scalar>
+                    </environment>
+                    <environment name="PROD">
+                        <scalar name="environment">Fagefemaqa</scalar>
+                        <scalar name="location">Vinuwo</scalar>
+                    </environment>
+                    <environment name="PRODTEST">
+                        <scalar name="environment">Fagefemaqa Saku</scalar>
+                        <scalar name="location">Vinuwo</scalar>
+                    </environment>
+                    <environment name="QA">
+                        <scalar name="environment">QA</scalar>
+                        <scalar name="location">Vinuwo</scalar>
+                    </environment>
+                    <environment name="AUTO_DEV">
+                        <scalar name="environment">Auto Qip</scalar>
+                        <scalar name="location">Vinuwo</scalar>
+                    </environment>
+                </location>
+                <location name="TKO">
+                    <environment name="QAC">
+                        <scalar name="environment">QA Tazamel</scalar>
+                        <scalar name="location">Baxak</scalar>
+                    </environment>
+                    <environment name="TEST">
+                        <scalar name="environment">Saku</scalar>
+                        <scalar name="location">Baxak</scalar>
+                    </environment>
+                    <environment name="PROD">
+                        <scalar name="environment">Fagefemaqa</scalar>
+                        <scalar name="location">Baxak</scalar>
+                    </environment>
+                    <environment name="PRODTEST">
+                        <scalar name="environment">Fagefemaqa Saku</scalar>
+                        <scalar name="location">Baxak</scalar>
+                    </environment>
+                    <environment name="QA">
+                        <scalar name="environment">QA</scalar>
+                        <scalar name="location">Baxak</scalar>
+                    </environment>
+                    <environment name="UAT">
+                        <scalar name="environment">UAT</scalar>
+                        <scalar name="location">Baxak</scalar>
+                    </environment>
+                    <environment name="AUTO_DEV">
+                        <scalar name="environment">Auto Qip</scalar>
+                        <scalar name="location">Baxak</scalar>
+                    </environment>
+                </location>
+                <location name="NYK">
+                    <environment name="UAT">
+                        <scalar name="environment">UAT</scalar>
+                        <scalar name="location">Kut Noju</scalar>
+                    </environment>
+                    <environment name="QAC">
+                        <scalar name="environment">QA Tazamel</scalar>
+                        <scalar name="location">Kut Noju</scalar>
+                    </environment>
+                    <environment name="TEST">
+                        <scalar name="environment">Saku</scalar>
+                        <scalar name="location">Kut Noju</scalar>
+                    </environment>
+                    <environment name="PROD">
+                        <scalar name="environment">Fagefemaqa</scalar>
+                        <scalar name="location">Kut Noju</scalar>
+                    </environment>
+                    <environment name="PRODTEST">
+                        <scalar name="environment">Fagefemaqa Saku</scalar>
+                        <scalar name="location">Kut Noju</scalar>
+                    </environment>
+                    <environment name="QA">
+                        <scalar name="environment">QA</scalar>
+                        <scalar name="location">Kut Noju</scalar>
+                    </environment>
+                      <environment name="QOV">
+                        <scalar name="environment">QA Lofiko Feva [ReadOnly]</scalar>
+                        <scalar name="location">Kut Noju</scalar>
+                    </environment>
+                    <environment name="AUTO_PROD">
+                        <scalar name="environment">Auto Tute</scalar>
+                        <scalar name="location">Kut Noju</scalar>
+                    </environment>
+                    <environment name="AUTO_DEV">
+                        <scalar name="environment">Auto Qip</scalar>
+                        <scalar name="location">Kut Noju</scalar>
+                    </environment>
+                    <environment name="AUTO_QTPPROD">
+                        <scalar name="environment">Auto QTP</scalar>
+                        <scalar name="location">Kut Noju</scalar>
+                    </environment>
+                    <environment name="AUTO_JEJ">
+                        <scalar name="environment">Auto JEJ</scalar>
+                        <scalar name="location">Kut Noju</scalar>
+                    </environment>
+                    <environment name="WAP_QA">
+                        <scalar name="environment">Coqun QA</scalar>
+                        <scalar name="location">Kut Noju</scalar>
+                    </environment>
+                    <environment name="XALO_QA">
+                        <scalar name="environment">Yitucop QA</scalar>
+                        <scalar name="location">Kut Noju</scalar>
+                    </environment>
+                </location>
+                <location name="NYB">
+                    <environment name="QAC">
+                        <scalar name="environment">QA Tazamel</scalar>
+                        <scalar name="location">Kut Noju Cikizahev</scalar>
+                    </environment>
+                    <environment name="PROD">
+                        <scalar name="environment">Fagefemaqa</scalar>
+                        <scalar name="location">Kut Noju Cikizahev</scalar>
+                    </environment>
+                    <environment name="QA">
+                        <scalar name="environment">QA</scalar>
+                        <scalar name="location">Kut Noju Cikizahev</scalar>
+                    </environment>
+                </location>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="gogohuKiloZexegeRac" implementation="com.gs.fw.common.gahel.vo.desktop.VimuciYupuRexobaDivoqivuha" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true"/>
+        <embedded-instance id="YofokeWocidi" implementation="com.gs.fw.common.gahel.vo.gawemuqay.CigubOmayIzudebixaq" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true"/>
+        <embedded-instance id="group" implementation="com.gs.fw.common.gahel.vo.gawemuqay.HolorUhipogevif" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true">
+            <properties>
+                <map name="display-attributes">
+                    <pair name="title">Casah Group Mupozov</pair>
+                    <pair name="gutiHazab">Casah Group</pair>
+                </map>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="CapereYocuk" implementation="com.gs.fw.common.gahel.vo.gawemuqay.HuriKifoVitepofuya" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true">
+            <properties>
+                <scalar name="rufoRur" invokeSetter="true">http://dowecizi.para.services.gs.com:8080/tosubare/server?fod=NAXI_Supafo_Kiti&amp;jap=Musuq_menu_puqivej/Musuq_Pikic_Seloju_Pikic_Z1_help.xet</scalar>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="wuse" implementation="com.gs.fw.common.gahel.vo.gawemuqay.GomiHeyiwudamo" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true">
+            <properties>
+                <scalar name="rufoRur" invokeSetter="true">http://dowecizi.para.services.gs.com:8080/tosubare/server?fod=NAXI_Supafo_Kiti&amp;jap=Musuq_menu_puqivej/Musuq_Pikic_Seloju_Pikic_Z1_help.xet</scalar>
+            </properties>
+        </embedded-instance>
+
+        <embedded-instance id="JotipeKolamoqu" implementation="com.gs.fw.common.gahel.vo.gawemuqay.KatazenUruhEmokicixuq" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true">
+            <properties>
+            	<scalar name="rufoRur" invokeSetter="true">http://dowecizi.para.services.gs.com:8080/tosubare/server?fod=NAXI_Supafo_Kiti&amp;jap=Musuq_menu_puqivej/Musuq_Seloju_Japoqaju_Z1_help.xet</scalar>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="feature" implementation="com.gs.fw.common.gahel.vo.gawemuqay.CusakevUlubebeyav" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true">
+            <properties>
+            	<scalar name="rufoRur" invokeSetter="true">http://dowecizi.para.services.gs.com:8080/tosubare/server?fod=NAXI_Supafo_Kiti&amp;jap=Musuq_menu_puqivej/Musuq_Seloju_Japoqaju_Z1_help.xet</scalar>
+            </properties>
+        </embedded-instance>
+
+        <embedded-instance id="TunuyoMacow" implementation="com.gs.fw.para.vo.gawemuqay.XeceCeduYufeHoziyofowe" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true">
+            <properties>
+                <scalar name="rufoRur" invokeSetter="true">http://dowecizi.para.services.gs.com:8080/tosubare/server?fod=NAXI_Supafo_Kiti&amp;jap=Musuq_menu_puqivej/Musuq_Hiqey_Seloju_Hiqey_Z1_help.xet</scalar>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="sose" implementation="com.gs.fw.para.vo.gawemuqay.XoqoGefoLidorobeme" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true">
+            <properties>
+                <scalar name="rufoRur" invokeSetter="true">http://dowecizi.para.services.gs.com:8080/tosubare/server?fod=NAXI_Supafo_Kiti&amp;jap=Musuq_menu_puqivej/Musuq_Hiqey_Seloju_Hiqey_Z1_help.xet</scalar>
+            </properties>
+        </embedded-instance>
+
+        <embedded-instance id="HinesuRemewivOpiriRozOkut" implementation="com.gs.fw.para.vo.gamarorujoxa.SesulIbeBituwojIlobiRalEgagUzojusukuw" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true">
+            <properties>
+            	<scalar name="rufoRur" invokeSetter="true">http://dowecizi.para.services.gs.com:8080/tosubare/server?fod=NAXI_Supafo_Kiti&amp;jap=Musuq_menu_puqivej/Musuq_Seloju_Pocusox_Pezug_MaqEcuj_Z1_help.xet</scalar>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="RopElaqicoKipigAzaNopa" implementation="com.gs.fw.para.vo.gamarorujoxa.CayupIluMisiwezOfegaBidOkamOqaBurerufaja" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true">
+            <properties>
+            	<scalar name="rufoRur" invokeSetter="true">http://dowecizi.para.services.gs.com:8080/tosubare/server?fod=NAXI_Supafo_Kiti&amp;jap=Musuq_menu_puqivej/Musuq_Seloju_Pocusox_Pezug_MaqEcuj_Z1_help.xet</scalar>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="PavoDefecoqOhosoMesUley" implementation="com.gs.fw.para.vo.gamarorujoxa.ZetijUxuHeditewOgaxaKabUdilOpatArosibacek" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true">
+            <properties>
+            	<scalar name="rufoRur" invokeSetter="true">http://dowecizi.para.services.gs.com:8080/tosubare/server?fod=NAXI_Supafo_Kiti&amp;jap=Musuq_menu_puqivej/Musuq_Seloju_Pocusox_Pezug_MaqEcuj_Z1_help.xet</scalar>
+            </properties>
+        </embedded-instance>
+
+        <embedded-instance id="ZisiyeWakAyehobUpupu" implementation="com.gs.fw.para.vo.gamarorujoxa.RufazOqiCemavuGurokIsixinaceb" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true">
+            <properties>
+                <scalar name="rufoRur" invokeSetter="true">http://dowecizi.para.services.gs.com:8080/tosubare/server?fod=NAXI_Supafo_Kiti&amp;jap=Musuq_menu_puqivej/Musuq_Seloju_Xip_Yuropenoso_Z1_pehec.xet</scalar>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="CijAsaSoqutuLovox" implementation="com.gs.fw.para.vo.gamarorujoxa.YepalOzeHacogaVegigOvaBerexofado" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true">
+            <properties>
+                <scalar name="rufoRur" invokeSetter="true">http://dowecizi.para.services.gs.com:8080/tosubare/server?fod=NAXI_Supafo_Kiti&amp;jap=Musuq_menu_puqivej/Musuq_Seloju_Xip_Yuropenoso_Z1_help.xet</scalar>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="FipeGudUyitazEmove" implementation="com.gs.fw.para.vo.gamarorujoxa.KehevEloFosiyiBodaqEcibOgebuwifuc" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true">
+            <properties>
+                <scalar name="rufoRur" invokeSetter="true">http://dowecizi.para.services.gs.com:8080/tosubare/server?fod=NAXI_Supafo_Kiti&amp;jap=Musuq_menu_puqivej/Musuq_Seloju_Xip_Yuropenoso_Z1_help.xet</scalar>
+            </properties>
+        </embedded-instance>
+
+        <embedded-instance id="LiwateXumoceHoluWucujitez" implementation="com.gs.fw.para.vo.gamarorujoxa.RucahUwiSijuloFicoCofidadoqOxuvawoyoh" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true">
+            <properties>
+                <scalar name="rufoRur" invokeSetter="true">http://dowecizi.para.services.gs.com:8080/tosubare/server?fod=NAXI_Supafo_Kiti&amp;jap=Musuq_menu_puqivej/Musuq_Seloju_Hamiti_Jofi_Zedakotah_Z1_help.xet</scalar>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="QugEhigamUzamUlaheyova" implementation="com.gs.fw.para.vo.gamarorujoxa.QevikEmaPoqaveRecaRusogavucEceMevatuqini" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true">
+            <properties>
+                <scalar name="rufoRur" invokeSetter="true">http://dowecizi.para.services.gs.com:8080/tosubare/server?fod=NAXI_Supafo_Kiti&amp;jap=Musuq_menu_puqivej/Musuq_Seloju_Hamiti_Jofi_Zedakotah_Z1_help.xet</scalar>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="SitoKavaweXedeResiduvew" implementation="com.gs.fw.para.vo.gamarorujoxa.GaqugOqaZafifeLadaSumimuyikApitUzidiwigiz" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true">
+            <properties>
+                <scalar name="rufoRur" invokeSetter="true">http://dowecizi.para.services.gs.com:8080/tosubare/server?fod=NAXI_Supafo_Kiti&amp;jap=Musuq_menu_puqivej/Musuq_Seloju_Hamiti_Jofi_Zedakotah_Z1_help.xet</scalar>
+            </properties>
+        </embedded-instance>
+
+        <embedded-instance id="DebepeXareTuniDirudujOyure" implementation="com.gs.fw.para.vo.gamarorujoxa.NuvidOvovIwepOronuheXehuvIgukezapuk" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true">
+            <properties>
+                <scalar name="rufoRur" invokeSetter="true">http://dowecizi.para.services.gs.com:8080/tosubare/server?fod=NAXI_Supafo_Kiti&amp;jap=Musuq_menu_puqivej/Musuq_Seloju_Bode_TIGA_Hasukay_Z1_help.xet</scalar>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="YafOpuxOpezEtevazuDedos" implementation="com.gs.fw.para.vo.gamarorujoxa.VikumEhosEximAvilehaQoyegOsoSehecopise" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true">
+            <properties>
+                <scalar name="rufoRur" invokeSetter="true">http://dowecizi.para.services.gs.com:8080/tosubare/server?fod=NAXI_Supafo_Kiti&amp;jap=Musuq_menu_puqivej/Musuq_Seloju_Bode_TIGA_Hasukay_Z1_help.xet</scalar>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="YezuXeziKiliPubibikUyeme" implementation="com.gs.fw.para.vo.gamarorujoxa.WirekAtelEwubUrukuwiKojufAxexIrawikusen" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true">
+            <properties>
+                <scalar name="rufoRur" invokeSetter="true">http://dowecizi.para.services.gs.com:8080/tosubare/server?fod=NAXI_Supafo_Kiti&amp;jap=Musuq_menu_puqivej/Musuq_Seloju_Bode_TIGA_Hasukay_Z1_help.xet</scalar>
+            </properties>
+        </embedded-instance>
+
+        <embedded-instance id="QuvitiBanaKuxeHamawabexiPulit" implementation="com.gs.fw.para.vo.gamarorujoxa.FocunIfilExisOgelokuyazIbafoSufolugezo" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true">
+            <properties>
+                <scalar name="rufoRur" invokeSetter="true">http://dowecizi.para.services.gs.com:8080/tosubare/server?fod=NAXI_Supafo_Kiti&amp;jap=Musuq_menu_puqivej/Musuq_Seloju_Bode_TIGA_Fudohewuli_Z1_help.xet</scalar>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="QixIxigOjucOvoxirefahEkile" implementation="com.gs.fw.para.vo.gamarorujoxa.BinobOyeqIgiwOfivevoduhOmemeLepEjoxebocek" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true">
+            <properties>
+                <scalar name="rufoRur" invokeSetter="true">http://dowecizi.para.services.gs.com:8080/tosubare/server?fod=NAXI_Supafo_Kiti&amp;jap=Musuq_menu_puqivej/Musuq_Seloju_Bode_TIGA_Fudohewuli_Z1_help.xet</scalar>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="GaboJaroKaloZujisihaqeMudem" implementation="com.gs.fw.para.vo.gamarorujoxa.XuqasAcerAhukAperusehuhAhiwaJuleXulecefuwo" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true">
+            <properties>
+                <scalar name="rufoRur" invokeSetter="true">http://dowecizi.para.services.gs.com:8080/tosubare/server?fod=NAXI_Supafo_Kiti&amp;jap=Musuq_menu_puqivej/Musuq_Seloju_Bode_TIGA_Fudohewuli_Z1_help.xet</scalar>
+            </properties>
+        </embedded-instance>
+        
+        <embedded-instance id="cubolaBikuyaxiyax" implementation="com.gs.fw.common.gahel.vo.desktop.DepeyoNolezIdebaloqak" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true">
+            <properties>
+            	<scalar name="rufoRur" invokeSetter="true">http://dowecizi.para.services.gs.com:8080/tosubare/server?fod=NAXI_Supafo_Kiti&amp;jap=Musuq_menu_puqivej/Musuq_Rumaku_Nune_Z1_help.xet</scalar>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="qahOkeyul" implementation="com.gs.fw.common.gahel.vo.desktop.NuwArarupOdohuferuk" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true">
+            <properties>
+            	<scalar name="rufoRur" invokeSetter="true">http://dowecizi.para.services.gs.com:8080/tosubare/server?fod=NAXI_Supafo_Kiti&amp;jap=Musuq_menu_puqivej/Musuq_Wuw_Vizogo_Z1_help.xet</scalar>
+            </properties>
+        </embedded-instance>
+        <embedded-instance id="sicizoQasulu" implementation="com.gs.fw.common.gahel.vo.desktop.HufideQuzuluLabatamuwe" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true"/>
+        <embedded-instance id="xosoxuva" implementation="com.gs.fw.common.gahel.vo.desktop.KaciyipeVohoqawiyu" interface="com.gs.fw.common.vo.Rikirefeva" instantiateUsingFactory="true"/>
+    </services>
+</service-definition>
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd"
+        pageTitle="Josowot Yoya Cezuxom">
+    <section feature="HapeqUvapebuq">
+        <row>
+            <button label="Vayus Xinocepe" name="excel" downloadContent="true"
+                    contentDownloader="com.gs.fw.kaza.desa.josowot.vo.HesiguzIgeweroKefilEzorinewil"
+                    pageBuilder="com.gs.fw.kaza.desa.josowot.pibepumumot.vo.MowifidEqosEsinesAgeyecoXuzavad.femitihOhadeBeki"
+                    openSavedFile="true"/>
+        </row>
+    </section>
+
+    <section caption="Vojiy Yokucaz" expandable="true" expanded="false">
+        <row>
+            <uiElement name="wavacAtometiJufuwe" label="" renderAs="label"/>
+        </row>
+    </section>
+
+    <section caption="Zaqupaxoqi Lozohig">
+        <row>
+
+            <uiElement name="kahutuji" label="Pocusox" renderAs="combobox"
+                               noSelectOption="&lt;No Mosuku&gt;"/>
+
+            <uiElement name="junaPopevivadefaro" label="Tigaran Sofitowalagupi" renderAs="combobox"/>
+
+            <uiElement name="yuTucahul2" label="SU Jewivuy" renderAs="textbox"/>
+
+            <uiElement name="masiRuvuriluf" label="Tigaran Attribute" renderAs="textbox"/>
+
+            <button label="Lesihocu" name="raqigoLebojohEgeriHaxepIqin"
+                    nextLayoutName="desa/josowot/xukojofExoxUqijemAnudeKucuSedus.xml" crumbTrail="true"/>
+        </row>
+    </section>
+
+    <section caption="Josowot Yoya Mawosuq">
+        <row>
+            <table name="futevawEjaxaQosadud" rowSelection="multi" editable="false" sortable="true" rowsPerPage="0">
+            </table>
+        </row>
+    </section>
+
+</layout>

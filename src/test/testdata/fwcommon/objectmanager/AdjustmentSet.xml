@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>interface,fiyatis,noki,gokurogohupu,qahabiwe,wunopi,tetahij,javeneruma</Templates>
+    <PackageName>com.gs.fw.lilu.wute.domain.dinezaxilo</PackageName>
+    <ClassName>RazawiqicoWur</ClassName>
+    <DefaultTable>DINEZAXILO_SET</DefaultTable>
+    <SchemaName>mut</SchemaName>
+    <ConnectionManagerName>BEHASAL</ConnectionManagerName>
+
+    <PrimaryKeyAttribute keyClass="GuyotefijaQojIfe">
+        <Attribute name="bogoxeWo" javaType="long" columnName="BOGOXEWO" sqlType="Nula"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute name="businessDate" javaType="Timestamp" columnName="DAG_Z" sqlType="Timestamp"/>
+    <Attribute name="name" javaType="String" columnName="FEZI" sqlType="String"/>
+    <Attribute name="juX" javaType="Timestamp" columnName="NO_Z" sqlType="Timestamp"/>
+    <Attribute name="herO" javaType="Timestamp" columnName="RUC_Z" sqlType="Timestamp"/>
+    <Attribute name="hequdeDo" javaType="int" columnName="PAXICE_P" sqlType="Ciyisag"/>
+
+    <Index name="businessDate">businessDate</Index>
+    <Index name="name">name</Index>
+    <Index name="hequdeDo">hequdeDo</Index>
+</ManagedObject>

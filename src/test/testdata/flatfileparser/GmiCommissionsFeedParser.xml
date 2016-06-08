@@ -1,0 +1,39 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<FlatFileParserConfig
+        delimiter=""
+        inflatedObject="com.gs.fw.para.domain.juk.panixopuyor.JapIcivonikimiWipoBuwoJata"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../xsd/parserconfig.xsd">
+
+    <!-- RAQU: runifu - Ran Header / Trailer definition -->
+    <FixedColumnMapping attribute="RiquXadonaz" startPosition="0" length="9" trim="true"/>
+    <FixedColumnMapping attribute="MihihunApiv" startPosition="27" length="2" trim="true"/>
+    <FixedColumnMapping attribute="BunirodAlidev" startPosition="30" length="6" trim="true"/>
+    <FixedColumnMapping attribute="LavEloc" startPosition="37" length="1" trim="true" />
+    <FixedColumnMapping attribute="XajezanIcayev" startPosition="55" length="15" trim="true"/>
+    <FixedColumnMapping attribute="YoqakiDamo" startPosition="71" length="6" trim="true"/>
+    <FixedColumnMapping attribute="CefugaroVuze" startPosition="78" length="3" trim="true"/>
+    <FixedColumnMapping attribute="WizesoyeDode" startPosition="82" length="2" trim="true"/>
+    <FixedColumnMapping attribute="MijEdulazejuheMe" startPosition="97" length="12" trim="true"/>
+    <FixedColumnMapping attribute="GeqUjoneqIn" startPosition="110" length="10" trim="true"/>
+    <FixedColumnMapping attribute="JamakElemAmihif" startPosition="121" length="8" trim="true" />
+    <FixedColumnMapping attribute="WafumaSihuXoyexa" startPosition="130" length="8" trim="true" />
+    <FixedColumnMapping attribute="WobuvEyawAkajew" startPosition="139" length="8" trim="true" />
+    <FixedColumnMapping attribute="NavUcahu" startPosition="148" length="12" trim="true" />
+    <FixedColumnMapping attribute="FurInasesu" startPosition="161" length="8" trim="true"/>
+    <FixedColumnMapping attribute="ZeqimUfesob" startPosition="170" length="1" trim="true" />
+</FlatFileParserConfig>

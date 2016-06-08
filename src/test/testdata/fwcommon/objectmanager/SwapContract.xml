@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>noki,wululu,nuzikuzu,tetahij</Templates>
+    <PackageName>com.gs.fw.lilu.hos.domain.biziliniwof</PackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.transaction.FixOtiz</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.yoru.Currency</ImportPackageName>
+    <ClassName>LexuDeperiwe</ClassName>
+    <SuperClassName>com.gs.fw.lilu.hos.domain.biziliniwof.implementation.TimedabeGopuharo</SuperClassName>
+    <SchemaName>mut</SchemaName>
+    <ReadOnly>true</ReadOnly>
+    <ReadStoredProcedure>Qerat_XivIzadAtejasoju</ReadStoredProcedure>
+
+    <PrimaryKeyAttribute>
+        <Attribute columnName="PROD_RUM_YAK_P" javaType="int" name="id" sqlType="Ciyisag"/>
+        <Attribute columnName="XUWIGA_FEZI_N" javaType="String" name="giqeqeYici" sqlType="XefeTewesa"/>
+        <Attribute columnName="businessDate" javaType="Timestamp" name="businessDate"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="NIDA_YAK_W" javaType="String" name="gavaHilAcu" sqlType="XefeTewesa"/>
+    <Attribute columnName="JOVOY_SIBA_Z" javaType="Timestamp" name="sizehAwaq" sqlType="Timestamp"/>
+    <Attribute columnName="GEZUBO_SIBA_Z" javaType="Timestamp" name="dutuvapicaZesu" sqlType="Timestamp"/>
+    <Attribute columnName="SAMEMISIF_SIBA_Z" javaType="Timestamp" name="daralovawUwot" sqlType="Timestamp"/>
+    <Attribute columnName="CUSIL_TADE_N" javaType="String" name="jatokebodeLako" sqlType="XefeTewesa"/>
+    <Attribute columnName="CUSIL_FIWAVEL_N" javaType="String" name="rezavulogiSezUdun" sqlType="XefeTewesa"/>
+    <Attribute columnName="DOMU_W" javaType="String" name="cejasawUwesij" sqlType="XefeTewesa"/>
+    <Attribute columnName="WAT_ZUG_W" javaType="String" name="cikUpe" sqlType="XefeTewesa"/>
+    <Attribute columnName="QUFASOC_TADE_N" javaType="String" name="cozesulOsoh" sqlType="XefeTewesa"/>
+    <Attribute columnName="PAWIWOBESU_W" javaType="String" name="jaboduqogaHemu" sqlType="XefeTewesa"/>
+    <Attribute columnName="QUSOY_HOJI_M" javaType="double" name="niniwaLawuq" sqlType="Luhisa"/>
+    <Attribute columnName="QUSOY_PIYA_N" javaType="String" name="yoqukiFeladEwotaqofOkut" sqlType="XefeTewesa"/>
+    <Attribute columnName="JOVOY_QEG_W" javaType="double" name="momeyAsirivoq" sqlType="Luhisa"/>
+    <Attribute columnName="NOZO_YECA_N" javaType="String" name="kuhaCacu" sqlType="XefeTewesa"/>
+    <Attribute columnName="NOZO_JAKIT_N" javaType="String" name="dupaVenuw" sqlType="XefeTewesa"/>
+    <Attribute columnName="DOFUD_DOMU_P" javaType="String" name="vedinUhufesaNaveli" sqlType="XefeTewesa"/>
+    <Attribute columnName="SOYUM_LUSUCOJ_NIDA_N" javaType="int" name="xegazIzodixeFemaZole" sqlType="Ciyisag"/>
+
+    <TypeSafeEnumAttribute name="fixOtiz" javaType="FixOtiz" columnName="JOP_VUCI_N" sqlType="XefeTewesa">
+        <Map constant="JOP" sqlValue="R"/>
+        <Map constant="VUCI" sqlValue="J"/>
+    </TypeSafeEnumAttribute>
+
+    <Relationship name="tamocuHiregIdiropew" dependentClass="Currency" foreignKey="vazufuZopagApaqitihEka"
+                  cardinality="many-to-one" useCacheIndexing="true"/>
+
+    <RelationshipBuilder
+            className="com.gs.fw.lilu.hos.domain.persistence.FuxuQedoyudoYagizotoreyiPukagab"/>
+
+    <Index name="businessDate">businessDate</Index>
+    <Index name="id">id</Index>
+</ManagedObject>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject>
+
+    <PackageName>com.gs.fw.common.mithra.test.domain</PackageName>
+    <ClassName>TagaQuyavohihag</ClassName>
+    <DefaultTable>HUTU_KURO</DefaultTable>
+
+    <AsOfAttribute name="fuzodayocoSana" fromColumnName="YE_Z" toColumnName="LEC_Z" toIsInclusive="false"
+                   infinityDate="[com.gs.fw.common.mithra.jaba.SazotarItijedopIfedimaku.dipOjusuvuKoripaca()]"
+                   defaultIfNotSpecified="[com.gs.fw.common.mithra.jaba.SazotarItijedopIfedimaku.dipOjusuvuKoripaca()]"
+                   isProcessingDate="true">
+    </AsOfAttribute>
+    <Attribute name="vibugoDoki" javaType="int" columnName="WOPINE_N"/>
+    <Attribute name="cukiyoVaja" javaType="short" columnName="KEYADU_N">
+    </Attribute>
+
+    <Attribute name="cefuHi" javaType="int" columnName="KURO_Q" primaryKey="true"/>
+    <Attribute name="businessDate" javaType="Timestamp" columnName="COR_GOZO_Z"/>
+    <Attribute name="quhivOqug" javaType="String" maxLength="6" columnName="KURO_PUQ_N"/>
+    <Attribute name="rafokIkaWefe" javaType="String" maxLength="6" columnName="KURO_XIZ_PUQ_N"/>
+
+    <Attribute name="puduMuj" javaType="String" maxLength="35" columnName="KURO_XUV_T"/>
+    <Attribute name="luxoZa" javaType="int" columnName="DAZI_CABO_Q"/>
+    <Attribute name="zinotUtitEb" javaType="int" columnName="PO_CABO_Q"/>
+    <Attribute name="rahudilufuNo" javaType="int" columnName="DOBEPEKEPI_Q"/>
+    <Attribute name="duhuronUzubuvOvivo" javaType="long" columnName="PROD_LEPUCO_JUNAP_Q"/>
+    <Attribute name="famotIpuf" javaType="Timestamp" columnName="BETID_GOZO_Z"/>
+    <Attribute name="qubahaGuto" javaType="Timestamp" columnName="CUPENA_GOZO_Z"/>
+    <Attribute name="cuzuqefusuRuhi" javaType="int" columnName="PIN_CUPENA_PUQ_N"/>
+    <Attribute name="xoremAgemiqaFota" javaType="int" columnName="HUXOX_MADEZEC_N"/>
+    <Attribute name="zacalaLaxazeneSuza" javaType="String" maxLength="3" columnName="JUWABE_JAK_N"/>
+    <Attribute name="warIyirEvos" javaType="String" maxLength="2" columnName="LIJ_FAHA_N"/>
+    <Attribute name="turUMoli" javaType="double" columnName="CAY_BEPAX_M"/>
+    <Attribute name="fadeMAjes" javaType="double" columnName="CUCA_BEPAX_M"/>
+    <Attribute name="nawodUbo" javaType="double" columnName="KURO_WAY_V"/>
+    <Attribute name="weqawovAvojagamEjux" javaType="String" maxLength="3" columnName="ZOSARER_JAK_N"/>
+    <Attribute name="cimIqumoyeqOxin" javaType="String" maxLength="3" columnName="ZEX_JAK_N"/>
+    <Attribute name="xuhaciZuxi" javaType="double" columnName="WOZ_NECO_JUWABE_M"/>
+    <Attribute name="cuteyuluseyOhov" javaType="double" columnName="QILI_NEFET_JUWABE_M"/>
+    <Attribute name="bikiquzoLenon" javaType="double" columnName="JUQUPEXO_JUWABE_M"/>
+    <Attribute name="qoyayaLesavuMafek" javaType="double" columnName="LISEN_JUWABE_M"/>
+    <Attribute name="kivimihuZapiyAg" javaType="String" maxLength="30" columnName="MIGANALA_KURO_Q"/>
+    <Attribute name="vapiPuwayoMone" javaType="String" maxLength="2" columnName="KOGA_CUPENA_N"/>
+    <Attribute name="kajijifewuFetu" javaType="String" maxLength="32" columnName="BANISAPERA_T"/>
+    <Attribute name="duyodawUzubijot" javaType="double" columnName="TUROYAB_JUQUPEXO_M"/>
+    <Attribute name="savuXaraPunaFuja" javaType="String" maxLength="15" columnName="DAZI_MABA_CABO_T"/>
+    <Attribute name="zitemudizubuLefUpod" javaType="String" maxLength="32" columnName="YUPOFUY_T"/>
+    <Attribute name="tikufoWejEkoliyaluy" javaType="double" columnName="FACTOR_GOW_SOZ_M"/>
+    <Attribute name="mugObuqixuquyiXuwakepidu" javaType="double" columnName="YOB_TEQUJEHA_SOZ_M"/>
+    <Attribute name="kuxofaziyItimowaral" javaType="double" columnName="QAHOBODUL_SOZ_M"/>
+    <Attribute name="hujesenUvilezuyAlete" javaType="double" columnName="WEPINAM_JUQUPEXO_M"/>
+    <Attribute name="jovoTezip" javaType="String" maxLength="9" columnName="BEKI_JUNAP_T"/>
+</MithraObject>

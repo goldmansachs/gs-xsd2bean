@@ -1,0 +1,43 @@
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<application implementation="com.gs.fw.para.service.regunidosiyalud.implementation.CezonafonUyucoxacavoGayazidokik" ignoreLoadFailures="true" name="YesakIhuqamemaCodigohitolOjutoxetewo"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/configuration.xsd">
+    <services>
+        <service-instance id="dayoyuniJemuwus" implementation="DulugeVopigaguQalihor" type="DayoyuniJemuwus"/>
+        <embedded-instance id="mithra" interface="com.gs.fw.para.service.mithra.FigotoLufikum" implementation="com.gs.fw.para.service.mithra.implementation.RorudiXucilewAvih" >
+            <properties>
+                <scalar name="nopiwosopebAniyeco" invokeSetter="true">600</scalar>
+                <list name="pehijeWakufihanocijAcax" invokeSetter="true">
+                    <value> services/Mithra/RigiDaseyezafUsowUfacumAvabihUrapodizolige.xml </value>
+                    <value> services/Mithra/CiwaZamumeBuwOtafUwafoqElosuwunuzaqe.xml </value>
+                    <value> services/Mithra/HanafebiCexOfaxaxIjupelufokega.xml </value>
+                </list>
+            </properties>
+        </embedded-instance>
+   </services>
+
+    <properties>
+        <list name="rezodomosoPovar" invokeSetter="true">
+            <value>com.gs.fw.para.service.regunidosiyalud.implementation.RucuhUzezahuJosAyuracivoCehavehixu</value>
+            <value>com.gs.fw.para.service.regunidosiyalud.implementation.VelubEriyahenUbicutigiCaxukivago</value>
+            <value>com.gs.fw.para.service.regunidosiyalud.implementation.RuletOyuyabEwafoVorumovonOrejudasew</value>
+        </list>
+    </properties>
+
+</application>
+

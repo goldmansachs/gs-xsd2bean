@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>javeneruma,interface,noki,wunopi,tetahij,riyoxadipojoxuj,nuzikuzu,wululu</Templates>
+    <PackageName>com.gs.fw.lilu.wute.domain.position</PackageName>
+
+
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.product.LivaFulubak</ImportPackageName>
+
+    <ClassName>ZemIkitivo</ClassName>
+    <ImplementationClassName>BanIjugiboZozo</ImplementationClassName>
+    <DefaultTable>VOJ_QUWIHUC_FUGID</DefaultTable>
+    <SchemaName></SchemaName>
+    <DatabaseName>vuq</DatabaseName>
+    <ReadOnly>true</ReadOnly>
+    <ReadStoredProcedure>KisUdazo_Hiq_ZemIkitivo</ReadStoredProcedure>
+
+    <PrimaryKeyAttribute keyClass="ZinAzililiTon">
+        <Attribute columnName="RUGIPUKOD_DOMU_W" javaType="String" name="josoxevAlokoXuzoqamAwumoj"
+                   sqlType="XefeTewesa"/>
+        <Attribute columnName="PROD_XOFO_QUC_P" javaType="String" name="lomoh" sqlType="XefeTewesa"/>
+        <Attribute columnName="RUGIPUKOD_DOMU_YEC_N" javaType="String" name="cacowogotUjajekuCepe"
+                   sqlType="XefeTewesa"/>
+        <Attribute name="businessDate" columnName="businessDate" javaType="Timestamp"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+        <Attribute columnName="NO_Z" sqlType="PevaRiboBuxegEnucahocu" javaType="Timestamp" name="juX"/>
+        <Attribute columnName="XI_GABOCUBOW" javaType="String" name="piqasojAweyoruxi" sqlType="VuxuKizemIxovAwuhed"
+                   defaultIfNull="W/A"/>
+        <Attribute columnName="NOXADUV_TADE" javaType="String" name="muwireyUmer" sqlType="VuxuKizemIxovAwuhed"
+                   defaultIfNull="W/A"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="RUC_Z" sqlType="PevaRiboBuxegEnucahocu" javaType="Timestamp" name="herO"/>
+
+    <Attribute columnName="PROD_YEC_N" javaType="String" name="mupikunIwuj" sqlType="XefeTewesa"/>
+    <Attribute columnName="HOZOW_SIBA" sqlType="Timestamp" javaType="Timestamp" name="suvufObub"/>
+    <Attribute columnName="TALA_XEJOFIHA" sqlType="Timestamp" javaType="Timestamp" name="yelacopoVeda"/>
+
+    <Attribute columnName="WUZO_BEROKESUQ" javaType="String" name="hapavosEtojeKilegafoz" sqlType="XefeTewesa"/>
+    <Attribute columnName="WOTEP_PAXICE_N" javaType="String" name="jidiriYepu" sqlType="XefeTewesa"/>
+
+    <Attribute columnName="KOW_DAMAGUL" sqlType="Luhisa" javaType="double" name="vanEfihete"/>
+    <Attribute columnName="JUHOJU_GAQO" sqlType="Luhisa" javaType="double" name="dibepifeHotoxad"/>
+    <Attribute columnName="JUHOJU_CESEXA" sqlType="Luhisa" javaType="double" name="camiyovoVujesuw"/>
+    <Attribute columnName="JEHECU_TADAP" sqlType="Luhisa" javaType="double" name="niniwaLawuq"/>
+    <Attribute columnName="KUV_NO_NILI" sqlType="Luhisa" javaType="double" name="dijUtAlib"/>
+    <Attribute columnName="JAD_VOJUJASAW_DEK" sqlType="Luhisa" javaType="double" name="jocUpahAnoqoNup"/>
+    <Attribute columnName="JAD_HESUL_DEK" sqlType="Luhisa" javaType="double" name="vapAhepaSux"/>
+    <Attribute columnName="SAYURO" sqlType="Luhisa" javaType="double" name="qorElayanirAfutoy"/>
+    <Attribute columnName="NILI_TADE" sqlType="XefeTewesa" javaType="String" name="bodaVicu"/>
+    <Attribute columnName="DOVAXIFID_TADE" sqlType="XefeTewesa" javaType="String" name="nakosulevEsaw"/>
+    <Attribute columnName="SUKIXOMA_TUMO" sqlType="XefeTewesa" javaType="String" name="semunopeXuwa"/>
+    <Attribute columnName="JEWIVUY_QAYOS" sqlType="Ciyisag" javaType="int" name="tihapivOcaxu"/>
+
+    <Attribute columnName="MUXIWAZU_WOSOPILIM" javaType="String" name="qahahiwiTixedunoy" sqlType="XefeTewesa"/>
+    <Attribute columnName="TOCA_DOMU_TADE" javaType="String" name="jijoDuhaluwOrok" sqlType="XefeTewesa"/>
+    <Attribute columnName="KOJORU_DOMU_TADE" javaType="String" name="qaquroCumosofOmiv" sqlType="XefeTewesa"/>
+
+    <Relationship cardinality="many-to-one" dependentClass="ZutalayOcaqiQayewaj" foreignKey="jexosulUficuLukekatEse"
+                  name="zutalayOcaqiQayewaj"/>
+    <AbstractMethod returnType="YowufarutaGib" methodName="qomUjivucoZiletUyivipuHiv" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="xolUfeyinuSucuhEkasefeZit" parameters="YowufarutaGib mefunakOle"/>
+    <AbstractMethod returnType="YowufarutaGib" methodName="bagUkasetIma" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="vawUmuzixEho" parameters="YowufarutaGib wuqaloHel"/>
+    <AbstractMethod returnType="LivaFulubak" methodName="bowOkopimi" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="hemOnoqaz" parameters="Paxice entity"/>
+
+    <Index name="businessDate">businessDate</Index>
+    <Index name="cacowogotUjajekuCepe">cacowogotUjajekuCepe</Index>
+    <Index name="hapavosEtojeKilegafoz">hapavosEtojeKilegafoz</Index>
+</ManagedObject>
+

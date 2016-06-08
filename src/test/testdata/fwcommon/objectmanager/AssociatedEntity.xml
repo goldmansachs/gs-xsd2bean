@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>tetahij,wunopi,noki,nuzikuzu,wululu,interface,riyoxadipojoxuj</Templates>
+    <PackageName>com.gs.fw.lilu.wute.domain.ruvoqucenova</PackageName>
+
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.ruvoqucenova.persistence.PuwasapejoQuzileZaxo</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.CekeloqEfikoTeq</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.RozusebAhezi</ImportPackageName>
+
+    <ClassName>PacoditiyaYicega</ClassName>
+    <DefaultTable>PacoditiyaYicega</DefaultTable>
+    <SchemaName></SchemaName>
+    <DatabaseName>entity_nefaka</DatabaseName>
+    <ConnectionManagerName>BEHASAL</ConnectionManagerName>
+    <ExplicitColumnNamesForSelect>true</ExplicitColumnNamesForSelect>
+
+    <PrimaryKeyAttribute keyClass="XizuqazefaFimociTuq">
+        <Attribute columnName="wutevOcehenUH" javaType="int" name="belopewIhihuwUr" sqlType="Ciyisag"/>
+        <Attribute columnName="futuzEqebitUG" javaType="int" name="tigofufepuNitiweGu" sqlType="Ciyisag"/>
+        <Attribute columnName="diyowUmovAB" javaType="int" name="subafiziquDopi" sqlType="Ciyisag"/>
+        <Attribute name="businessDate" columnName="businessDate" javaType="Timestamp"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </PrimaryKeyAttribute>
+
+    <Relationship cardinality="many-to-one" dependentClass="RozusebAhezi" foreignKey="howiritOnazixuZativAye" name="yasudutUdurezoZukem"/>
+    <Relationship cardinality="many-to-one" dependentClass="RozusebAhezi" foreignKey="huvanugiyaWehebigAwuduLel" name="fugowiwekiSofubokEdata"/>
+
+    <AbstractMethod returnType="CekeloqEfikoTeq" methodName="xovEtobujiRitawupAkapoKim" parameters=""/>
+    <AbstractMethod returnType="CekeloqEfikoTeq" methodName="takUweyadelobInanatiGowigObo" parameters=""/>
+
+    <Index name="businessDate">businessDate</Index>
+</ManagedObject>

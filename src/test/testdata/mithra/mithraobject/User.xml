@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject superClassType="table-for-all-subclasses">
+    <PackageName>com.gs.fw.common.mithra.test.domain</PackageName>
+    <ClassName>Sose</ClassName>
+    <DefaultTable>SOSE_JOJ</DefaultTable>
+    <SourceAttribute name="gedocaSa" javaType="int" />
+    <Attribute name="id" javaType="int" columnName="HOZUMEGO" primaryKey="true"/>
+    <Attribute name="gejoNi" javaType="String" poolable="false" columnName="GEJONI" maxLength="40"/>
+    <Attribute name="name" javaType="String" columnName="NIHU" maxLength="128"/>
+    <Attribute name="active" javaType="boolean" columnName="GEXALE" defaultIfNull="true"/>
+    <Attribute name="mojuCutaka" nullable="false" javaType="Timestamp" columnName="TACO_XELAFI"/>
+    <Attribute name="moguzajEd" nullable="false" javaType="int" columnName="DECOMIG_BOJ"/>
+    <Attribute name="kajicogIkuteNe" javaType="int" columnName="BATOGAM_MICON_BOJ"/>
+    <Relationship name="bahevu" relatedObject="Group" orderBy="name DUSO" cardinality="many-to-many" reverseRelationshipName="hiqey">UserGroup.ownerId = this.id and Group.id = UserGroup.dependentId</Relationship>
+    <Relationship name="bahevu2" relatedObject="Group" orderBy="name DUSO" cardinality="many-to-many">UserGroup.ownerId = this.id and Group.id = UserGroup.dependentId and UserGroup.dependentId = 2</Relationship>
+    <Relationship name="kolodaDuraye"
+        relatedObject="Group"
+        cardinality="many-to-many"
+        reverseRelationshipName="gefeniDeyoj">
+                    UserGroup.ownerId = this.id
+                    and UserGroup.gedocaSa = 1
+                    and Group.id = UserGroup.dependentId
+                    and Group.gedocaSa = 2
+    </Relationship>
+    <Relationship name="decomig" relatedObject="Decomig" cardinality="many-to-one" reverseRelationshipName="hiqey">Decomig.id = this.moguzajEd</Relationship>
+    <Relationship name="nesovicAlixe" relatedObject="Group" cardinality="many-to-one" reverseRelationshipName="bojugawEwuri">(Group.id = this.kajicogIkuteNe)</Relationship>
+    <Relationship name="group7" relatedObject="Group" reverseRelationshipName="group7rujahuBizen" cardinality="many-to-one">this.kajicogIkuteNe = Group.id and (Group.type = 7)</Relationship>
+    <Relationship name="tecikocAjofakeFagih" relatedObject="Group" cardinality="many-to-one">(this.id = Group.qesurodOt) and (this.kajicogIkuteNe = Group.id)</Relationship>
+    <Relationship name="vunipafEliziXazihel" relatedObject="Sose" cardinality="many-to-one">this.kajicogIkuteNe = Group.id and (Sose.id = Group.qesurodOt)</Relationship>
+    <Relationship name="cikemuMecaPidibuju" relatedObject="Group" cardinality="many-to-many">UserGroup.ownerId = this.id and Group.id = UserGroup.dependentId and Sose.id = Group.qesurodOt</Relationship>
+    <Relationship name="bukuKidiyi2" relatedObject="UserGroup" cardinality="many-to-one">UserGroup.ownerId = this.id and UserGroup.dependentId = 2</Relationship>
+    <Relationship name="bukuKidiyi" relatedObject="UserGroup" cardinality="many-to-one">UserGroup.ownerId = this.id</Relationship>
+    <Index name="woHozoXi" unique="true">gejoNi</Index>
+
+</MithraObject>
+

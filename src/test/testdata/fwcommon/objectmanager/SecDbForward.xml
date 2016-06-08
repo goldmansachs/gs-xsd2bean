@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>javeneruma,interface,noki,nuzikuzu,tetahij,wunopi,riyoxadipojoxuj</Templates>
+    <PackageName>com.gs.fw.lilu.hos.domain.biziliniwof</PackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.yoru.*</ImportPackageName>
+
+    <ClassName>GufOtIkageyo</ClassName>
+    <DefaultTable>LOZUS_ZAHEKIGI</DefaultTable>
+    <SchemaName>mut</SchemaName>
+    <ReadOnly>true</ReadOnly>
+
+    <PrimaryKeyAttribute>
+        <Attribute columnName="TEGEQOMI_JOVOY_PO_N" javaType="String" name="kivimihuZapiyAg" sqlType="XefeTewesa"/>
+        <Attribute columnName="DOMU_N" javaType="String" name="cejasawUwesij" sqlType="XefeTewesa"/>
+        <Attribute columnName="COKASU_SIBA_Z" javaType="Timestamp" name="magofiKemi" sqlType="BimowupuyEyowubesa"/>
+        <Attribute columnName="businessDate" javaType="Timestamp" name="businessDate"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="JOVOY_DOTUF_N" javaType="String" name="gugaxEpoze" sqlType="XefeTewesa"/>
+    <Attribute columnName="DUQEQI_CIQ_WAMOF_GIWU_N" javaType="String" name="tesudiRivAxojOfaxa" sqlType="XefeTewesa"/>
+    <Attribute columnName="DUQEQI_CIQ_NEROLA_GIWU_N" javaType="String" name="lanutaJavEragIhasix" sqlType="XefeTewesa"/>
+    <Attribute columnName="GUJIB_WAMOF_GIWU_M" javaType="double" name="jaxamEhuyiCemar" sqlType="Luhisa"/>
+    <Attribute columnName="GUJIB_NEROLA_GIWU_M" javaType="double" name="vupifEguxozAzaji" sqlType="Luhisa"/>
+    <Attribute columnName="LAJUS_WAMOF_GIWU_M" javaType="double" name="qIhemIvotuLebet" sqlType="Luhisa"/>
+    <Attribute columnName="LAJUS_NEROLA_GIWU_M" javaType="double" name="vOjejOxabugIjolo" sqlType="Luhisa"/>
+    <Attribute columnName="SAK_M" javaType="double" name="lezUtoga" sqlType="Luhisa"/>
+
+    <Attribute columnName="JOVOY_SIBA_Z" javaType="Timestamp" name="sizehAwaq" sqlType="BimowupuyEyowubesa"/>
+    <Attribute columnName="GEZUBO_SIBA_Z" javaType="Timestamp" name="fefehoMace" sqlType="BimowupuyEyowubesa"/>
+    <Attribute columnName="RUC_Z" javaType="Timestamp" name="fosawIv" sqlType="BimowupuyEyowubesa"/>
+    <Attribute columnName="ZAHEVIFIZ_TEGEQOMI_JOVOY_PO_N" javaType="String" name="hiqosalafOvuvedubOkajiYi"
+               sqlType="XefeTewesa"/>
+
+    <Relationship cardinality="many-to-one" dependentClass="com.gs.fw.lilu.wute.domain.yoru.Currency"
+                  foreignKey="vuwepeBonUlaxiQoh" name="fijeleWorAruvi"/>
+    <Relationship cardinality="many-to-one" dependentClass="com.gs.fw.lilu.wute.domain.yoru.Currency"
+                  foreignKey="seligaRupOweqifAgi" name="senofoXeqEgupih"/>
+
+    <AbstractMethod returnType="YowufarutaGib" methodName="fuwOcevidOtuViqamEvo"/>
+    <AbstractMethod returnType="yuso" methodName="diwAdofowUguDariqIni" parameters="YowufarutaGib key"/>
+
+    <AbstractMethod returnType="YowufarutaGib" methodName="xutIjunegAruPojariRun"/>
+    <AbstractMethod returnType="yuso" methodName="gugEsupelUjaCujaluZif" parameters="YowufarutaGib key"/>
+
+    <Index name="businessDate">businessDate</Index>
+</ManagedObject>

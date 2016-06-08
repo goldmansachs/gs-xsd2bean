@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject objectType="transactional">
+    <PackageName>com.gs.fw.common.mithra.test.domain</PackageName>
+    <ClassName>BigaTeneCokif</ClassName>
+    <DefaultTable>CEGA_HOVUWE</DefaultTable>
+    <Attribute name="gedocaSa" javaType="long" columnName="SIWOXO_Q" primaryKey="true"/>
+    <Attribute name="hivehOsil" javaType="String" columnName="JIBAL_N" maxLength="5" trim="true"/>
+    <Attribute name="rivusujAr" javaType="String" columnName="CABO_YUR_N" maxLength="10" primaryKey="true" trim="true"/>
+    <Attribute name="keqoxebIsUhofak" javaType="String" columnName="TIGARAN_BIG_N" maxLength="20" primaryKey="true" trim="true"/>
+    <Attribute name="buniYo" javaType="String" columnName="NIGI_LA_N" maxLength="35" trim="true"/>
+    <Attribute name="pinobimuhUpopig" javaType="String" columnName="CEGA_XUV_YUR_N" maxLength="35" primaryKey="true" trim="true"/>
+    <Attribute name="puwAn" javaType="String" columnName="HEY_LA_N" primaryKey="true" maxLength="35" trim="true"/>
+    <Attribute name="businessDate" javaType="Timestamp" columnName="THRU_Z" primaryKey="true"/>
+    <Attribute name="pekonoLetune" javaType="int" columnName="YEMUQI_YUR_Q" primaryKey="true"/>
+    <Attribute name="dileweri" javaType="String" columnName="DILEWERI_N" maxLength="3" trim="true"/>
+    <Attribute name="zawiriciYada" javaType="String" columnName="PUMIHOTO_XANO_N" trim="true"/>
+    <Attribute name="xevOcibiZope" javaType="String" columnName="QUK_MUFUK_NIHU_N" trim="true"/>
+    <Attribute name="laroCifurAmos" javaType="String" columnName="SUFI_MUFUK_NIHU_N" trim="true"/>
+    <Attribute name="xuqUzeti" javaType="double" columnName="QUK_SIWEL_Z"/>
+    <Attribute name="dakeLenit" javaType="double" columnName="SUFI_SIWEL_Z"/>
+    <Attribute name="lojaPehoga" javaType="int" columnName="SERI_TOYIYE"/>
+</MithraObject>

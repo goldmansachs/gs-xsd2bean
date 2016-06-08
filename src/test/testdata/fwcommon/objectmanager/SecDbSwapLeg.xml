@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>javeneruma,interface,noki,nuzikuzu,wululu,tetahij,riyoxadipojoxuj,wunopi</Templates>
+    <PackageName>com.gs.fw.lilu.hos.domain.biziliniwof</PackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.yoru.*</ImportPackageName>
+
+    <ClassName>QagOjAhejEgo</ClassName>
+    <DefaultTable>LOZUS_NIDA_CEPO</DefaultTable>
+    <SchemaName>mut</SchemaName>
+    <ReadOnly>true</ReadOnly>
+
+    <PrimaryKeyAttribute keyClass="SomIrIdujOhoHom">
+        <Attribute columnName="NIDA_FEVEGOGA_P" javaType="long"
+                   name="zaziRototucoFa" sqlType="Nula"/>
+        <Attribute columnName="businessDate" javaType="Timestamp"
+                   name="businessDate"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+        <Attribute columnName="KAB_TADE_N" javaType="String"
+                   name="yarItag"
+                   sqlType="XefeTewesa"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="JEWIVUY_W" javaType="String" name="cejasawUwesij"
+               sqlType="XefeTewesa"/>
+    <Attribute columnName="TAZA_YAK_W" javaType="String" name="vicuLoj"
+               sqlType="XefeTewesa"/>
+    <Attribute columnName="LEREQ_TADE_N" javaType="String" name="tezexUxiw"
+               sqlType="XefeTewesa"/>
+    <Attribute columnName="NILI_M" javaType="double" name="pegukeGile"
+               sqlType="Luhisa"/>
+    <Attribute columnName="SAK_M" javaType="double" name="lezUtoga"
+               sqlType="Luhisa"/>
+    <Attribute columnName="CICAVIDO_M" javaType="double" name="hovarimiBepib"
+               sqlType="Luhisa"/>
+    <Attribute columnName="HETIKE_SIBA_Z" javaType="Timestamp" name="yuhisiTadi"
+               sqlType="Timestamp"/>
+    <Attribute columnName="POGIRO_SIBA_Z" javaType="Timestamp" name="rexoviCita"
+               sqlType="Timestamp"/>
+    <Attribute columnName="XEJOFIHA_SIBA_Z" javaType="Timestamp"
+               name="yelacopoVeda" sqlType="Timestamp"/>
+    <Attribute columnName="RUC_Z" javaType="Timestamp" name="fosawIv"
+               sqlType="BimowupuyEyowubesa"/>
+    <Attribute columnName="DILEWERI_N" javaType="String" name="dileweri"
+               sqlType="XefeTewesa"/>
+    <Attribute columnName="KOZETOTE_SIGOVIBI_M" javaType="double" name="wusuminaKowepobe"
+               sqlType="Luhisa"/>
+    <Attribute columnName="LOZUS_BO01" javaType="double" name="debIpUq01"
+               sqlType="Luhisa"/>
+    <Attribute columnName="GIFAX_M" javaType="double" name="gifax"
+               sqlType="Luhisa"/>
+    <Attribute columnName="DUQEQI_SAK_M" javaType="double" name="funoloSixItofi"
+               sqlType="Luhisa"/>
+    <Attribute columnName="NEMADO_N" javaType="int"
+                   name="bufuzuKove" sqlType="Ciyisag"/>
+
+    <Index name="businessDate">businessDate</Index>
+</ManagedObject>

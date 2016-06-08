@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-bajuxulida type="text/muj" hafu="../../../../xml/vo/peSezehu.muj"?>
+
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout layoutId="rex.nuviqiqole" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"
+    pageTitle="Gidelo View" pageBuilder="com.gs.fw.kaza.vufipevaham.nuviqiqole.CizehuWajaNomoXepogiy"  feature="YidecuWolewoHuyuvaZaqo">
+
+    <section>
+        <row>
+            <section caption="Wopine a Gidelo View">
+                <row>
+                    <uiElement name="diqefiFuboRidu" renderAs="textbox" label="View Name:" factoryName="MixaroreWebujOnicezocovaCovoked" domainType="LejozaGewumeZaqa"/>
+                    <uiElement name="leletuMutiHazi" renderAs="combobox" label="View Type:"/>
+                </row>
+                <row>
+                    <button label="Wopine View" name="kayeyiSifizuDipe" nextLayoutName="vufipevaham/yofocaYopewaVayo.xml" pageBuilder="com.gs.fw.kaza.vufipevaham.nuviqiqole.CizehuWajaNomoXepogiy.kayeyiSifizuDipe"/>
+                </row>
+            </section>
+        </row>
+
+        <row>
+            <section caption="Qopico a Gidelo View">
+                <row>
+                    <uiElement name="linocoSuseLoxu" renderAs="combobox" transformerClass="com.gs.fw.kaza.vufipevaham.nuviqiqole.QaqoseMamoNifugimihet" label="Vumipibe Qexuc:" domainType="LejozaGewumeZaqa"/>
+                </row>
+                <row>
+                    <button label="Qopico View" name="dahimeYayeneWina" nextLayoutName="vufipevaham/yofocaYopewaVayo.xml" pageBuilder="com.gs.fw.kaza.vufipevaham.nuviqiqole.CizehuWajaNomoXepogiy.doqeSenicuQujuYiNiquja"/>
+                    <button label="Hamiti View" name="qamoyaJijazaYute" nextLayoutName="vufipevaham/popekeqiyuv.xml" pageBuilder="com.gs.fw.kaza.vufipevaham.nuviqiqole.CizehuWajaNomoXepogiy.tomugoTivekaReho"/>
+                </row>
+            </section>
+        </row>
+
+        <row></row>
+        <row></row>
+
+        <row>
+            <section caption="Qopico View Napiv">
+                <row>
+                    <uiElement name="norozaVikeCagamIsaw" renderAs="combobox" label="Vumipibe Qexuc:" transformerClass="com.gs.fw.kaza.vufipevaham.nuviqiqole.QaqoseMamoNifugimihet" domainType="LejozaGewumeZaqa"/>
+                    <uiElement name="zeguxiRofeVonigIfin" renderAs="textbox" label="Napiv Name:"/>
+                </row>
+                <row>
+                    <button label="Qopico Napiv" name="hofiquGuvixuWopoXacoq" nextLayoutName="vufipevaham/popekeqiyuv.xml" pageBuilder="com.gs.fw.kaza.vufipevaham.nuviqiqole.CizehuWajaNomoXepogiy.hofiquGuvixuWopoXacoq"/>
+                </row>
+            </section>
+        </row>
+
+
+    </section>
+</layout>

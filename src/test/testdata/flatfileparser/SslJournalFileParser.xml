@@ -1,0 +1,47 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<FlatFileParserConfig delimiter="" inflatedObject="com.gs.fw.para.domain.transaction.JasIrojenuKoxuzotijum"
+                      columns="69"
+                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:noNamespaceSchemaLocation="../../xsd/parserconfig.xsd">
+
+    <Header required="false" identifier="NASAVU:" />
+    <Trailer required="false" identifier="KABANAS:" />
+    <FixedColumnMapping attribute="tuguqekuLe" startPosition="0" length="3"/>
+    <FixedColumnMapping attribute="ruja" startPosition="3" length="4"/>
+    <FixedColumnMapping attribute="gefagabUdafuwirani" startPosition="8" length="10"/>
+    <FixedColumnMapping attribute="dalukewafEnuj" startPosition="19" length="5"/>
+    <FixedColumnMapping attribute="sobamor" startPosition="25" length="5"/>
+    <!-- sobamor value is same as corIviKu -->
+    <!--<FixedColumnMapping attribute="corIviKu" startPosition="25" length="5" />-->
+    <FixedColumnMapping attribute="xorupa" startPosition="88" length="3"/>
+    <FixedColumnMapping attribute="center" startPosition="91" length="4"/>
+    <FixedColumnMapping attribute="yuTucahul" startPosition="95" length="8"/>
+    <!--<FixedColumnMapping attribute="vosufecEzag" startPosition="103" length="3" /> this will be used for 3 kebem-->
+    <FixedColumnMapping attribute="rijUhuk" startPosition="104" length="2" />
+    <FixedColumnMapping attribute="suxumayapOsex" startPosition="109" length="5"/>
+    <FixedColumnMapping attribute="dakisIfamuru" startPosition="114" length="7"/>
+    <FixedColumnMapping attribute="rivusujAr" startPosition="114" length="7"/> <!-- This will be used in FebuxuNupuzajuyikEdabacevu  -->
+    <FixedColumnMapping attribute="dileweri" startPosition="132" length="3"/>
+    <FixedColumnMapping attribute="gejoNi" startPosition="153" length="10"/>
+    <!--<FixedColumnMapping attribute="pacodepaMogi" startPosition="135" length="1" />-->
+    <!--<FixedColumnMapping attribute="botOnevasAv" startPosition="136" length="1" />-->
+    <FixedColumnMapping attribute="description" startPosition="163" length="75"/>
+    <FixedColumnMapping attribute="xiSu" startPosition="297" length="1"/>
+    <FixedColumnMapping attribute="dikeYuqupa" startPosition="332" length="15"/>
+
+</FlatFileParserConfig>
+

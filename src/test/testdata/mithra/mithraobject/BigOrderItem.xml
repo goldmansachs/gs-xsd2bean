@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject objectType="transactional">
+
+    <PackageName>com.gs.fw.common.mithra.test.domain</PackageName>
+    <ClassName>LakEqanuRuha</ClassName>
+    <DefaultTable>MEZ_ZAROJ_PUPE</DefaultTable>
+
+    <Attribute name="id" javaType="BigDecimal" precision="10" scale="0" columnName="LA" primaryKey="true"/>
+    <Attribute name="orderId" javaType="int" columnName="ZAROJ_LA"/>
+    <Attribute name="productId" javaType="int" columnName="TIGARAN_LA"      readonly="true"/>
+    <Attribute name="josonica" javaType="BigDecimal" precision="10" scale="3" columnName="JOSONICA"/>
+    <Attribute name="price" javaType="BigDecimal" precision="7" scale="2" columnName="BIDOMIYO_SIWEL"/>
+    <Attribute name="qobEbasa" javaType="BigDecimal" precision="38" scale="20" columnName="MEZ_SIWEL"/>
+    <Attribute name="daqey" javaType="String" columnName="DAQEY" maxLength="20"/>
+    <Relationship name="qiciyohUful" relatedObject="Tigaran" cardinality="many-to-one" >this.productId = Tigaran.productId</Relationship>   
+</MithraObject>

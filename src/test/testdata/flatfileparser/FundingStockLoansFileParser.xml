@@ -1,0 +1,69 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<FlatFileParserConfig
+        delimiter="|"
+        inflatedObject="com.gs.fw.para.domain.transaction.implementation.RonezuwAfidiKucosOxubutuxuqoYoqa"
+        columns="43"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../xsd/parserconfig.xsd">
+	<Header required="true" identifier="NASAVU:" simpleFormat="NASAVU:[hojakinipo]*FUZASINADU:[hojakinipo][yyyy/WE/dd]"/>
+	<Trailer required="true" identifier="KABANAS" simpleFormat="KABANAS[hojakinipo][count]*"/>
+
+    <Mapping attribute="hehiDeti" position="1"  />
+    <Mapping attribute="yizeyuKo" position="2" nullable="true" />
+    <Mapping attribute="mohobaniPow" position="3"  />
+    <Mapping attribute="degunifaKazo" position="4" nullable="true" />
+    <Mapping attribute="lomoh" position="5" nullable="true" />
+    <Mapping attribute="big" position="6" nullable="true" />
+    <Mapping attribute="nosujabiTesi" position="7" nullable="true" />
+    <Mapping attribute="qazebaguPegi" position="8" nullable="true" />
+    <Mapping attribute="vawIdah" position="9" nullable="true" />
+    <Mapping attribute="moCeze" position="10" nullable="true" />
+    <Mapping attribute="nejapulageDavo" position="11" nullable="true" />
+    <Mapping attribute="purpose" position="12" nullable="true" />
+    <Mapping attribute="fujawuQoyoto" position="13" nullable="true" />
+    <Mapping attribute="kiwIzam" position="14" nullable="true" />
+    <Mapping attribute="tujoXuk" position="15" nullable="true" />
+    <Mapping attribute="pajUrog" position="16" nullable="true" />
+    <Mapping attribute="vojitomuXodimu" position="17" nullable="true" />
+    <Mapping attribute="wutuhagiDelataJale" position="18" nullable="true" />
+    <Mapping attribute="qonaximoFudomo" position="19" nullable="true" />
+    <Mapping attribute="vazubosaYuz" position="20" nullable="true" />
+    <Mapping attribute="qulamupedIrifadaz" position="21" nullable="true" />
+    <Mapping attribute="pebajefoLocop" position="22" nullable="true" />
+    <Mapping attribute="pamina" position="23" nullable="true" />
+    <Mapping attribute="keriqeWadov" position="24" nullable="true" />
+    <Mapping attribute="tofuveLedevUju" position="25" nullable="true" />
+    <Mapping attribute="coputiguZiMihi" position="26" nullable="true" />
+    <Mapping attribute="konasoHuNibi" position="27" nullable="true" />
+    <Mapping attribute="dinimeyOziz" position="28" nullable="true" />
+    <Mapping attribute="hewiyinoNizu" position="29" nullable="true" />
+    <Mapping attribute="gisiGura" position="30" nullable="true" />
+    <Mapping attribute="lavaxAdenigoBa" position="31" nullable="true" />
+    <Mapping attribute="wukereleRegi" position="32" nullable="true" />
+    <Mapping attribute="xakude" position="33" nullable="true" />
+    <Mapping attribute="gulufOnif" position="34" nullable="true" />
+    <Mapping attribute="kegofusucEcivaciJog" position="35" nullable="true" />
+    <Mapping attribute="qorawe" position="36" nullable="true" />
+    <Mapping attribute="wahaluweJosey" position="37" nullable="true" />
+    <Mapping attribute="cuzuqefusuRuhi" position="38" nullable="true" />
+    <Mapping attribute="dogujAbus" position="39" nullable="true" />
+    <Mapping attribute="rewAlexobugecOxuz" position="40" nullable="true" />
+    <Mapping attribute="matUxakeHuxa" position="41" nullable="true" />
+    <Mapping attribute="bihirovEtaq" position="42" nullable="true" />
+    <Mapping attribute="vesudabOlori" position="43" nullable="true" />
+
+</FlatFileParserConfig>

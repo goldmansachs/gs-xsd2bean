@@ -1,0 +1,32 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<FlatFileParserConfig
+        delimiter="&#x9;"
+        inflatedObject="com.gs.fw.para.domain.guyocedep.implementation.WotujozuZiwefofasopiMemEtafiPawa"
+        columns="15"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../xsd/parserconfig.xsd">
+	<Header required="false"/>
+	<Trailer required="false"/>
+
+    <Mapping attribute="fufIraVaz"                      position="2"    trim="true" nullable="true"/>
+    <Mapping attribute="rotiboNa"                       position="3"    trim="true" nullable="true"/>
+    <Mapping attribute="sequence"                       position="4"    trim="true" nullable="true"/>
+    <Mapping attribute="havinIdam"                      position="5"    trim="true"/>
+    <Mapping attribute="xepeq"                          position="7"    trim="true"/>
+    <Mapping attribute="cufifivIjiz"                    position="8"    trim="true" nullable="true"/>
+    <Mapping attribute="joruboruriduQamEcu"             position="9"    trim="true" nullable="true"/>
+</FlatFileParserConfig>

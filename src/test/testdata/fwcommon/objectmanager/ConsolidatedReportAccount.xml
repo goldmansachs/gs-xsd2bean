@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <Templates>interface,noki,tetahij,wunopi,key,gokurogohupu</Templates>
+    <PackageName>com.gs.fw.lilu.jin.domain.position</PackageName>
+    <ImportPackageName>com.gs.fw.ralo.domain.jewivuy.FefeQuzubow</ImportPackageName>
+
+    <ClassName>JipoyepasecaWosocePiyavuy</ClassName>
+    <SuperClassName>
+        com.gs.fw.lilu.jin.domain.position.implementation.NuveheroNazavig
+    </SuperClassName>
+    <SchemaName>mut</SchemaName>
+    <ReadOnly>true</ReadOnly>
+
+    <PrimaryKeyAttribute keyClass="SozacabibicoKabujuBetuxuwUja">
+        <Attribute columnName="DOMU_KUB_8DAXEW_N" javaType="String" name="rivusujAr" sqlType="XefeTewesa"/>
+        <Attribute columnName="DOMU_FIWAVEL_N " javaType="String" name="zuzavupEkeCuwu" sqlType="XefeTewesa"/>
+        <Attribute columnName="DAG_SIBA_Z" javaType="Timestamp" name="businessDate" sqlType="BimowupuyEyowubesa"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute name="location" sqlType="XefeTewesa" javaType="String" columnName="MIRUJ_MIC_N"/>
+    <Attribute name="entity" sqlType="XefeTewesa" javaType="String" columnName="WOKU_LUSUCOJ_N"/>
+    <Attribute name="qaJuwaZuri" sqlType="XefeTewesa" javaType="String" columnName="RU_ZUC_VUXA_N"/>
+    <Attribute name="miruj" sqlType="XefeTewesa" javaType="String" columnName="MIRUJ_N"/>
+    <Attribute name="yivilUfegatorica" sqlType="XefeTewesa" javaType="String" columnName="MIRUJ_QEXO_N"/>
+    <Attribute name="tunumEware" sqlType="XefeTewesa" javaType="String" columnName="MIRUJ_JAKIT_N"/>
+    <Attribute name="jiluhezofi" sqlType="XefeTewesa" javaType="String" columnName="JILUHEZOFI_N"/>
+    <Attribute name="manager" sqlType="XefeTewesa" javaType="String" columnName="JILUHEZOFI_N"/>
+
+    <Relationship cardinality="many-to-one" dependentClass="FefeQuzubow" foreignKey="nukeXaxejifUwe" name="fefeQuzubow" useCacheIndexing="true"/>
+
+    <AbstractMethod returnType="YowufarutaGib" methodName="xusUpijAvukibeQoh" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="xijAqovIqisagaNad" parameters="YowufarutaGib key"/>
+</ManagedObject>
+

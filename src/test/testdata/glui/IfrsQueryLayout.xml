@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" feature="Rudi_MobemAzapa"
+        xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"
+        pageBuilder="com.gs.fw.kaza.rudi.vo.CesaQotajEqoxeToyevur">
+
+    <section caption="Sate/Lage Vojiy">
+        <row>
+            <uiElement label="Qokec Vojiy" name="gotilIbegi" attribute="name" renderAs="combobox"/>
+            <button label="Sate Vojiy" name="demeTehix" nextLayoutName="rudi/JaroVilah.xml"
+                    crumbTrail="false" pageBuilder="com.gs.fw.kaza.yepe.vo.hizuneyel.domain.XitayoPukawIpewow"/>
+
+            <button label="Yejeyo Vojiy" name="fidosaWulaf"
+                    pageBuilder="com.gs.fw.kaza.yepe.vo.hizuneyel.domain.BizowuRemumOmefesu"
+                    nextLayoutName="rudi/JaroVilah.xml" crumbTrail="false"/>
+        </row>
+        <row>
+            <uiElement label="Vojiy Name" name="xazuvUsat" renderAs="textbox"/>
+            <uiElement label="Sihu Wedaye?" name="luriBohudUwitof" renderAs="checkbox"/>
+            <button label="Lage Vojiy" name="nayuGakem"
+                    pageBuilder="com.gs.fw.kaza.yepe.vo.hizuneyel.domain.HozicaRejetAlomumi"
+                    nextLayoutName="rudi/JaroVilah.xml" crumbTrail="false"/>
+        </row>
+    </section>
+
+    <section caption="Rovid">
+        <row>
+            <uiElement label="Cuyokujo Date" name="date" renderAs="combobox" sortBy="domain"
+                       transformerClass="com.gs.fw.common.petuhadi.vo.transformer.PorimubeDesaRemohiqujor">
+            </uiElement>
+        </row>
+    </section>
+
+    <section caption="Rod 140 Favovojobib Puqivej">
+        <row>
+            <uiElement label="" name="luBoyuneputec" renderAs="radiobutton" defaultSelection="Lesihocu dut data"/>
+        </row>
+    </section>
+    <section caption="Gurekigara Sajatusavawet Hahab">
+        <row>
+            <uiElement label="" name="dacoXanog" renderAs="radiobutton" defaultSelection="Xefufaqego"/>
+        </row>
+    </section>
+
+    <section caption="Rumaku Source Yemuqi">
+        <row>
+            <uiElement label="DAZI" name="doviHajifitek" renderAs="verticalcheckboxlist"/>
+            <uiElement label="FUF" name="nayEfuzulivu" renderAs="verticalcheckboxlist"/>
+            <uiElement label="REQUZIYE" name="puripivaliRupeBepuhaloh" renderAs="verticalcheckboxlist"/>
+            <uiElement label="POXEGUD" name="daguputepaSidujalOsabovecu" renderAs="verticalcheckboxlist"/>
+        </row>
+    </section>
+
+    <section caption="Rumaku Source: Rudi Zivukome">
+        <row>
+            <uiElement name="yejiVaqavepuzuRunazub" label="" renderAs="checkboxlist"/>
+        </row>
+    </section>
+
+    <section caption="Mayina Puqivej">
+        <row>
+            <uiElement label="HepafIq" name="Loxixixe" renderAs="duallistbox" rightAlign="false"/>
+            <uiElement label="Kahutuji" name="Kahutuji" renderAs="duallistbox" rightAlign="true"/>
+        </row>
+        <row>
+            <uiElement label="Yacalew By" name="denisesOl" renderAs="duallistbox" rightAlign="false"/>
+        </row>
+    </section>
+
+
+    <section caption="Vov-Hasukay Lozohig">
+        <row>
+            <uiElement label="Jewivuy" name="jewivuy" renderAs="textbox" rightAlign="true"/>
+            <uiElement label="Ronawax" name="vajihijOjenaki" renderAs="checkbox" rightAlign="true"/>
+            <uiElement label="BIG" name="big" renderAs="textbox" rightAlign="true"/>
+            <uiElement label="Ronawax" name="yifijenOda" renderAs="checkbox"/>
+        </row>
+        <row>
+            <uiElement label="Hecidakofu Napiv" name="tofiveqimoLapit" renderAs="textbox" rightAlign="false"/>
+            <uiElement label="Ronawax" name="dahudejAwopalugohOruse" renderAs="checkbox" rightAlign="true"/>
+            <uiElement label="LOMOH" name="lomoh" renderAs="textbox" rightAlign="true"/>
+            <uiElement label="Ronawax" name="cunuxadEhixe" renderAs="checkbox"/>
+        </row>
+        <row>
+            <uiElement label="Humopa" name="entity" renderAs="listbox" noSelectOption="&lt;No Zobex&gt;"/>
+            <uiElement label="Ronawax" name="sujayezUnureg" renderAs="checkbox"/>
+        </row>
+
+        <row>
+            <uiElement label="BERE Mosuku Dazow"
+                       name="guvaYihubiSojew" renderAs="radiobutton" defaultSelection="Tigaran Bisof"/>
+        </row>
+
+        <row>
+            <uiElement label="Bere Group:" name="yokoFexev" renderAs="listbox" noSelectOption="&lt;No Mosuku&gt;">
+                <childUiElement name="radiKasi" label="Bere Lagu:" renderAs="listbox"
+                                noSelectOption="&lt;No Mosuku&gt;"/>
+            </uiElement>
+        </row>
+        <row>
+            <uiElement label="Ronawax Group" name="zajatiwObuvIkawu" renderAs="checkbox"/>
+            <uiElement label="Ronawax Lagu" name="reguxapUvacImin" renderAs="checkbox"/>
+            <uiElement label="Ronawax Non-Koga BERE" name="bucijevEcaPomeNaya" renderAs="checkbox"/>
+        </row>
+
+        <row>
+            <uiElement name="camorEdoca" label="Sesej Junap:" renderAs="listbox" noSelectOption="&lt;No Mosuku&gt;"/>
+        </row>
+    </section>
+
+    <section caption="Zege-Hasukay Mosuku: Pocusox">
+        <row>
+            <uiElement name="supUqacoboxuXegevebe" label="Quantity" renderAs="combobox"/>
+            <uiElement name="gehIwitumufuZefok" label="Value" renderAs="textbox"/>
+            <uiElement name="sabegapeyubOcuqosok" label="" renderAs="combobox"/>
+            <uiElement name="vuTuromagovUgihevut" label="CuweduWuhet" renderAs="combobox"/>
+            <uiElement name="taHaniqalutIquvu" label="Value" renderAs="textbox"/>
+        </row>
+    </section>
+
+    <section caption="Wosuxec Puqivej">
+        <row>
+            <uiElement label="" name="kevewirAdelazo" renderAs="radiobutton" defaultSelection="1 Kacotomivise"
+                       toolTipText="Fumotosi VU cijij zatagama from seri"/>
+            <uiElement label="Ronawax Pavufop Kilibefo[ REX ]" name="laregazImikaliFoxozopu" renderAs="checkbox"
+                       rightAlign="true" style="WOBU" defaultSelection="false"
+                    />
+        </row>
+    </section>
+
+    <section caption="Duzoqojimemelu Puqivej">
+        <row>
+            <uiElement label="Medoweb Mukikofew Mosuku" name="yekavibIrokowogaZilinocam" renderAs="checkbox" defaultSelection="false"/>
+            <uiElement label="Medoweb WubeputUkosoh (Bidomiyo Way)" name="bufarixERO" renderAs="checkbox" defaultSelection="false"/>
+            <uiElement label="Medoweb Sitime Source-Bisof Lozohig (on YOD, Piwe vak)" name="buyupinIvoduvEdeteceha" renderAs="checkbox" defaultSelection="false"/>
+            <uiElement label="Ronawax RUM Pebozo Fiqizawokuq" name="zodocohEwosabAxax" renderAs="checkbox" defaultSelection="false"/>
+        </row>
+    </section>
+
+    <section>
+        <row>
+            <button label="Mimeci" name="mimeci" nextLayoutName="rudi/JaroVilah.xml"
+                    pageBuilder="com.gs.fw.kaza.rudi.vo.BixaValeyUroyafAdituwo" crumbTrail="true"/>
+            <button label="Vayus" name="excel" nextLayoutName="rudi/JaroVilah.xml"
+                    pageBuilder="com.gs.fw.kaza.rudi.vo.BixaValeyUroyafAdituwo" crumbTrail="false"/>
+            <button label="Qofifo" name="qofifo" nextLayoutName="rudi/JaroVilah.xml"
+                    pageBuilder="com.gs.fw.kaza.rudi.vo.BixaValeyUroyafAdituwo" crumbTrail="false"/>
+            <button label="Gifil" name="gifil" nextLayoutName="rudi/JaroVilah.xml"
+                    pageBuilder="com.gs.fw.kaza.rudi.vo.BixaValeyUroyafAdituwo" crumbTrail="false"/>
+        </row>
+    </section>
+
+
+</layout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>javeneruma,interface,noki,wululu,wunopi,tetahij,riyoxadipojoxuj,nuzikuzu</Templates>
+    <PackageName>com.gs.fw.lilu.now.valapodoyucom.domain</PackageName>
+
+    <ImportPackageName>com.gs.fw.lilu.now.valapodoyucom.domain.persistence.JonezAluqUneqogeqEvax</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.position.ZadaCujovIsibOtuhadil</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.position.QakiPuqokAwejIguqeniwIrexesekIyo</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.JexosulUficuLukekatEse</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.ZutalayOcaqiQayewaj</ImportPackageName>
+
+    <ClassName>TevesIdibAvoyepuc</ClassName>
+
+    <DefaultTable>MAZOYORUY_GUREDOLU</DefaultTable>
+    <SchemaName/>
+    <DatabaseName>tekihif_rum</DatabaseName>
+    <ConnectionManagerName>zoqew</ConnectionManagerName>
+    <ReadOnly>true</ReadOnly>
+
+    <PrimaryKeyAttribute keyClass="QubepEdabOnahohukElu">
+        <Attribute columnName="GUREDOLU_P" javaType="String" name="gupolenuPa" sqlType="XefeTewesa"/>
+        <Attribute columnName="businessDate" javaType="Timestamp" name="businessDate"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="GUREDOLU_TADE_N" javaType="String" name="xowuqenuRuvaKotu" sqlType="XefeTewesa"/>
+    <Attribute columnName="NERIFA_NOWICI_N" javaType="String" name="tomuleSiwageDado" sqlType="XefeTewesa"/>
+    <Attribute columnName="FEVEGOGA_HANUVA_N" javaType="String" name="tolukojaVojuvo" sqlType="XefeTewesa"/>
+    <Attribute columnName="XIFO_TADE_N" javaType="String" name="noqojenupiWafuJehi" sqlType="XefeTewesa"/>
+    <Attribute columnName="FEVEGOGA_TADE_N" javaType="String" name="miqudobuWuxiMore" sqlType="XefeTewesa"/>
+    <Attribute columnName="TOXAG_TIFOFI_N" javaType="String" name="rahuRureWova" sqlType="XefeTewesa"/>
+    <Attribute columnName="PEKU_GETAL_M" name="marks" javaType="double" sqlType="Luhisa"/>
+    <Attribute columnName="PEKU_HOLIPE_JEHECU_NAV_M" name="qojopiBosehOxEjijuwi" javaType="double" sqlType="Luhisa"/>
+    <Attribute columnName="PEKU_HOLIPE_M" name="returns" javaType="double" sqlType="Luhisa"/>
+    <Attribute columnName="DINEZAXILO_M" name="dinezaxilo" javaType="double" sqlType="Luhisa"/>
+
+    <ForeignKeyAttribute name="xarebariZikInitejeGaz" keyClass="JexosulUficuLukekatEse">
+        <Attribute columnName="DOT_DOMU_W" javaType="String" name="id" sqlType="XefeTewesa"/>
+        <Attribute columnName="businessDate" javaType="Timestamp" name="businessDate"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </ForeignKeyAttribute>
+
+    <ForeignKeyAttribute name="jidaRomujOyirIdumetogAme" keyClass="QakiPuqokAwejIguqeniwIrexesekIyo">
+        <Attribute columnName="FEVEGOGA_YAK_W" javaType="String" name="gohusukePatujenorEdelur" sqlType="XefeTewesa"/>
+        <Attribute columnName="NERIFA_NOWICI_N" javaType="String" name="tomuleSiwageDado" sqlType="XefeTewesa"/>
+        <Attribute columnName="businessDate" javaType="Timestamp" name="businessDate" sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </ForeignKeyAttribute>
+
+    <Relationship cardinality="many-to-one" dependentClass="ZutalayOcaqiQayewaj" foreignKey="xarebariZikInitejeGaz"
+                  name="dewadoyiTomAremoxi"/>
+    <RelationshipBuilder className="BubixEkekEdedazosEqEdukogezUwanesokiro"/>
+
+    <Index name="businessDate">businessDate</Index>
+    <IndexBuilder className="com.gs.fw.lilu.wute.domain.kigemawo.ZiyeducopUxitabutEqexaZonudiw"/>
+    <IndexBuilder className="com.gs.fw.lilu.wute.domain.kigemawo.CuhikaxaQubixUkokura"/>
+</ManagedObject>

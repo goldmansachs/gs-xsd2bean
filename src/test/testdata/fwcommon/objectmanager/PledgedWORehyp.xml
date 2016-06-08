@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>interface,noki,wunopi,wululu,tetahij,riyoxadipojoxuj,nuzikuzu,javeneruma</Templates>
+    <PackageName>com.gs.fw.lilu.niza.domain</PackageName>
+
+    <ImportPackageName>com.gs.fw.common.dajeqaza.domain.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.product.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.Paxice</ImportPackageName>
+    <ImportPackageName>com.gs.fw.common.dajeqaza.zagixay.damagul.BiqoSezix</ImportPackageName>
+
+    <ClassName>JimawusEDEquha</ClassName>
+    <AddCargo>true</AddCargo>
+
+    <DefaultTable>MAPOSEC_NANECE</DefaultTable>
+    <SchemaName></SchemaName>
+    <DatabaseName>zoqew</DatabaseName>
+    <ConnectionManagerName>zoqew</ConnectionManagerName>
+    <ReadOnly>true</ReadOnly>
+    <ReadStoredProcedure>Jayeq_Hiq_JimawusEDEquha</ReadStoredProcedure>
+
+
+    <PrimaryKeyAttribute keyClass="FicinuqOWEsokoSov">
+        <Attribute columnName="PROD_QUC_W" javaType="String" name="nulomogAranure" sqlType="XefeTewesa"/>
+        <Attribute columnName="WOTEP_PAXICE_P" javaType="int" name="hequdeDo" sqlType="Ciyisag"/>
+        <Attribute columnName="SIJIBIR" javaType="String" name="vixeropupulAxino" sqlType="XefeTewesa"/>
+        <Attribute columnName="HANUVA" javaType="String" name="source" sqlType="XefeTewesa"/>
+        <Attribute name="businessDate" columnName="businessDate" javaType="Timestamp"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="PROD_QEXO" javaType="String" name="jereruqOmowumohuna" sqlType="XefeTewesa"/>
+    <Attribute columnName="PROD_NOZO_ZU_MAKA_DOTUF_W" javaType="String" name="qoweJumivAqIjexeb" sqlType="XefeTewesa"/>
+    <Attribute columnName="NOZO_YECA" javaType="String" name="fotaPireBitudIzAvojeb" sqlType="XefeTewesa"/>
+    <Attribute columnName="DILEWERI_W" javaType="String" name="mabunekAxekaxubAvip" sqlType="XefeTewesa"/>
+    <BooleanAttribute columnName="IS_NOYUQUPE" name="noyuqupe" sqlType="XefeTewesa" trueValue="true"
+                      falseValue="false"/>
+
+    <ClassBasedAttribute name="biqoSezix" attributeClass="XolubutOJUtowoRosePerat">
+        <Attribute name="niniwaLawuq" sqlType="Luhisa" javaType="double" columnName="NEH_NAV"/>
+        <Attribute name="josonica" sqlType="Luhisa" javaType="double" columnName="JOSONICA"/>
+    </ClassBasedAttribute>
+
+    <Relationship cardinality="many-to-one" dependentClass="DupaVenuw" foreignKey="vuveRafisUfo" name="goguWehay"/>
+    <Relationship cardinality="many-to-one" dependentClass="MaduWamuPace" foreignKey="sajiGovoWifefEji"
+                  name="wakaWuwiMomay"/>
+    <Relationship cardinality="many-to-one" dependentClass="Paxice" foreignKey="wuqaloHel" name="entity"/>
+
+    <AbstractMethod returnType="NexaliQimujuzAde" methodName="sikAkoyasoCey" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="mifEyigecaWad" parameters="NexaliQimujuzAde moxanoyIdu"/>
+    <AbstractMethod returnType="YowufarutaGib" methodName="bagUkasetIma" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="vawUmuzixEho" parameters="YowufarutaGib wuqaloHel"/>
+    <AbstractMethod returnType="YowufarutaGib" methodName="wifUvowAwusiQeg" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="zirEdivIleviSaq" parameters="YowufarutaGib nasaTeb"/>
+    <AbstractMethod returnType="YowufarutaGib" methodName="nukApidUterEmoruPoz" parameters=""/>
+    <AbstractMethod returnType="yuso" methodName="capIjebOsuxImiyuHok" parameters="YowufarutaGib rabiXaweQac"/>
+    <AbstractMethod returnType="boolean" methodName="niWukifizi" parameters=""/>
+    <AbstractMethod returnType="boolean" methodName="xeSojaxuruto" parameters=""/>
+
+    <Index name="businessDate">businessDate</Index>
+
+</ManagedObject>

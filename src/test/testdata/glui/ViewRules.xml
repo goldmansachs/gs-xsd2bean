@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-bajuxulida type="text/muj" hafu="../../../../xml/vo/peSezehu.muj"?>
+
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"
+        pageTitle="Guyayineg Kavexukuqoy" pageBuilder="com.gs.fw.kaza.vufipevaham.TofeRafumOkexAzuxewu">
+    <section caption=" Yoya Kin ">
+        <row>
+            <uiElement name="KosoBujUpesi" label="Name : " renderAs="textbox" readOnly="true" validation="mandatory"
+                       labelStyle="helagewoc.luxaduburu.style" style="helagewoc.label.style"></uiElement>
+        </row>
+        <row>
+            <uiElement name="Losanaqanabi" renderAs="duallistbox" label="Losanaqanabi :" validation="mandatory"
+                       labelStyle="jecegepetipopuc.luxaduburu.style"/>
+        </row>
+        <row feature="JekuwuSacUjucIcigebo">
+            <button name="LacineDujuWik" label="Xelafi Yoya Kin"
+                    pageBuilder="com.gs.fw.kaza.vufipevaham.TofeRafumOkexAzuxewu.pifeXaqefuhiqixa"
+                    nextLayoutName="vufipevaham/HelaGewoc.xml" crumbTrail="false" validate="KosoBujUpesi, GurumejeyajoVeno"></button>
+        </row>
+    </section>
+
+    <section caption=" View giyel ">
+        <row>
+            <uiElement name="MijokIfimUhozOter" label="Ji Mu Date : " renderAs="label"
+                       labelStyle="helagewoc.luxaduburu.style" style="helagewoc.label.style"
+                       defaultSelection=""></uiElement>
+            <uiElement name="VatozAyehAhorAzizOcokAsisef" label="" renderAs="datepicker" noSelectOption=""
+                       formatClause="MMM dd,yyyy" labelStyle="helagewoc.luxaduburu.style"
+                       style="helagewoc.label.style" validation="mandatory"></uiElement>
+            <button name="XuhuxiLogoveJikiZager" label="Xelafi"
+                    pageBuilder="com.gs.fw.kaza.vufipevaham.LuporiHowiPupowig"
+                    nextLayoutName="vufipevaham/HelaGewoc.xml" crumbTrail="false" validate="VatozAyehAhorAzizOcokAsisef"></button>
+        </row>
+    </section>
+
+    <section>
+        <row feature="JekuwuSacUjucIcigebo">
+            <button name="TepojuNepuheLobiMumuf" label="Wopine Yoya"
+                    pageBuilder="com.gs.fw.kaza.vufipevaham.TavaceRuzEwavAguzOjanunu"
+                    nextLayoutName="vufipevaham/KacikacicArorEdaziw.xml"></button>
+        </row>
+    </section>
+
+    <section feature="CiGiruXedapOqugoGuvifiv" caption="">
+        <row>
+            <uiElement label="No Giyel Jicuc Fu Qeqerif" renderAs="label" name="SaPorujIfeti"
+                       labelStyle="helagewoc.luxaduburu.style"/>
+        </row>
+    </section>
+
+    <section feature="QejuYosetAxeqImidepIgogazAmoroxAzaxehi">
+        <row>
+            <table name="VubiKifufOgaciQuliMobusoYimabo" rowSelection="single" editable="false" showInMillions="false"
+                   style="helagewoc.kehulukafi.table.style">
+                <column width="4" wrapContent="true">
+                    <uiElement label="Yoya Id" renderAs="label"/>
+                </column>
+                <column width="8" wrapContent="true">
+                    <uiElement label="Rifihux By" renderAs="label"></uiElement>
+                </column>
+                <column width="18" wrapContent="true">
+                    <uiElement label="Rigolesa" renderAs="label"></uiElement>
+                </column>
+                <column width="7" wrapContent="true">
+                    <uiElement label="Haqes Date" renderAs="label"></uiElement>
+                </column>
+                <column width="7" wrapContent="true">
+                    <uiElement label="Juqupubumi Date" renderAs="label"></uiElement>
+                </column>
+                <column width="52" wrapContent="true">
+                    <table label="Yoya Mawosuq" rowsPerPage="0" rowSelection="none"
+                           style="helagewoc.yoyovijiku.table.style">
+                        <column width="18" wrapContent="true">
+                            <uiElement name="SoluBufoSohiWofat" renderAs="label" label="Yoya Type"/>
+                        </column>
+                        <column width="77" wrapContent="true">
+                            <uiElement name="DepeDavanulocaKezoYuvun" renderAs="label" label="Yoya Attribute(s)"/>
+                        </column>
+                        <column width="5" wrapContent="true">
+                            <uiElement name="HaBehigefUwayUnado" renderAs="label" label="Fe Ziwanek"/>
+                        </column>
+                    </table>
+                </column>
+                <column width="2" wrapContent="true">
+                    <button name="PidekiMovaQuzowIxuhiq" label="Qopico" renderAs="buttonlist"
+                            pageBuilder="com.gs.fw.kaza.vufipevaham.MutoziYawoPefoBuyoVefanuj"
+                            nextLayoutName="vufipevaham/KacikacicArorEdaziw.xml"/>
+                </column>
+                <column width="2" wrapContent="true">
+                    <button name="PiyupeJeloNuwarEvafux" label="Papexu" renderAs="buttonlist"
+                            pageBuilder="com.gs.fw.kaza.vufipevaham.QudaweGivoDesiKumuQepojaf"
+                            nextLayoutName="vufipevaham/HelaGewoc.xml"/>
+                </column>
+            </table>
+        </row>
+    </section>
+
+    <section feature="BedaZuqanItuvOzatufEzuhuxUjenosOhenope">
+        <row>
+            <table name="LuzeWicemEfujeRupehumEralajOcabev" rowSelection="single" editable="false"
+                   showInMillions="false" style="helagewoc.kehulukafi.table.style">
+                <column width="4" wrapContent="true">
+                    <uiElement label="Yoya Id" renderAs="label"/>
+                </column>
+
+                <column width="8" wrapContent="true">
+                    <uiElement label="Rifihux By" renderAs="label"></uiElement>
+                </column>
+
+                <column width="24" wrapContent="true">
+                    <uiElement label="Rigolesa" renderAs="label"></uiElement>
+                </column>
+
+                <column width="7" wrapContent="true">
+                    <uiElement label="Haqes Date" renderAs="label"></uiElement>
+                </column>
+
+                <column width="7" wrapContent="true">
+                    <uiElement label="Juqupubumi Date" renderAs="label"></uiElement>
+                </column>
+
+                <column width="50" wrapContent="true">
+                    <table label="Yoya Mawosuq" rowsPerPage="0" rowSelection="none"
+                           style="helagewoc.yoyovijiku.table.style">
+                        <column width="20" wrapContent="true">
+                            <uiElement name="SoluBufoSohiWofat" renderAs="label" label="Yoya Type"/>
+                        </column>
+                        <column width="60" wrapContent="true">
+                            <uiElement name="DepeDavanulocaKezoYuvun" renderAs="label" label="Yoya Attribute(s)"/>
+                        </column>
+                        <column width="20" wrapContent="true">
+                            <uiElement name="HaBehigefUwayUnado" renderAs="label" label="Fe Ziwanek"/>
+                        </column>
+                    </table>
+                </column>
+            </table>
+        </row>
+    </section>
+
+
+</layout>

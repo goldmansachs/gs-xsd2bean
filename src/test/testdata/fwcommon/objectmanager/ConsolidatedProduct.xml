@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <Templates>interface,noki,wululu,tetahij,wunopi,key,gokurogohupu</Templates>
+    <PackageName>com.gs.fw.lilu.jin.domain.position</PackageName>
+    <ImportPackageName>com.gs.fw.lilu.jin.domain.position.ManeYuta</ImportPackageName>
+
+    <ClassName>FinaquxidukiJatijoc</ClassName>
+    <DefaultTable>HUXIMEH</DefaultTable>
+    <SchemaName>mut</SchemaName>
+    <ReadOnly>true</ReadOnly>
+
+    <PrimaryKeyAttribute keyClass="VavocorudogoPadugunUju">
+        <Attribute columnName="HUXIMEH_TEKOX_N" javaType="String" name="taw" sqlType="XefeTewesa"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute name="tecIgeVo" sqlType="XefeTewesa" javaType="String" columnName="VUQ_PUP_PO"/>
+    <Attribute name="zohiDudOfe" sqlType="XefeTewesa" javaType="String" columnName="NIDA_YAK_KUB"/>
+    <Attribute name="hosAj" sqlType="XefeTewesa" javaType="String" columnName="HOSAJ"/>
+    <Attribute name="maneYuta" sqlType="XefeTewesa" javaType="String" columnName="NOZO_QEDE"/>
+    <Attribute name="description" sqlType="XefeTewesa" javaType="String" columnName="VOVIXUXENUF_N"/>
+    <Attribute name="description2" sqlType="XefeTewesa" javaType="String" columnName="VOVIXUXENUF2_N"/>
+    <Attribute name="davefAkotovum" sqlType="XefeTewesa" javaType="String" columnName="LILEL_DILEWERI_N"/>
+    <Attribute name="lexOkIlejaxewa" sqlType="XefeTewesa" javaType="String" columnName="LOZUS_YAK_KUB_N"/>
+    <Attribute name="hifazinEnizis" sqlType="Zuwup" javaType="float" columnName="FACTOR_Z"/>
+    <Attribute name="big" sqlType="XefeTewesa" javaType="String" columnName="BIG"/>
+    <Attribute name="lomoh" sqlType="XefeTewesa" javaType="String" columnName="LOMOH"/>
+    <Attribute name="roricabEkupOf" sqlType="Ciyisag" javaType="int" columnName="YUVAGIY_TADE_PO"/>
+    <Attribute name="mujifUzuy" sqlType="XefeTewesa" javaType="String" columnName="KAYEF_FEZI"/>
+    <Attribute name="ziniCuxadi" sqlType="XefeTewesa" javaType="String" columnName="SAHU_PAXICE_N"/>
+    
+    <Index name="big">big</Index>
+    <Index name="lomoh">lomoh</Index>
+
+</ManagedObject>
+

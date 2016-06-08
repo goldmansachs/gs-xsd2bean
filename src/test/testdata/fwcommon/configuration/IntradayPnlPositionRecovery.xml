@@ -1,0 +1,132 @@
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<application implementation="com.gs.fw.para.rehepiyebag.JimowevuGezEvepevivOgipozeh" ignoreLoadFailures="true" name="JimowevuGezEvepevivOgipozeh">
+    <services>
+        <service-instance id="dayoyuniJemuwus" implementation="DulugeVopigaguQalihor" type="DayoyuniJemuwus"/>
+
+        <service-instance id="lizikus" implementation="NaniFonemOvalegu" type="Lizikus"/>
+
+        <service-instance id="hoVewaFudikiko" implementation="KupaNaNoviVewimuya" type="HoVewaFudikiko"/>
+
+        <service-instance id="mithra" implementation="DokoqiveGewuweDulaxet" type="FigotoLufikum"/>
+
+        <service-instance id="witapanUmaradOliwobocerubaPewuzip" implementation="WitapanUmaradOliwobocerubaPewuzip" type="CotoyisEkudasIcayewoleticu"/>
+
+        <embedded-instance id="zonayogeGaqifijoWerizic" interface="com.gs.fw.para.rehepiyebag.ZonayogeGaqifijoWerizic" implementation="com.gs.fw.para.rehepiyebag.implementation.KonidedaCivOhAnopufeTepaxaseFurapar" />
+
+        <embedded-instance id="jajayEboQiwipibami" interface="com.gs.fw.para.rehepiyebag.JajayEboQiwipibami" implementation="com.gs.fw.para.rehepiyebag.implementation.GuyocUmiBoqumujupiHeqoxaDiza" >
+            <properties>
+                <!--The value wafifex corresponding SIWEL_SIWOXO id that uses the yeyexode,
+                    e.g. both source id 1 and 2 are Kavusol, and uses XiyozadImitotuFixuneMixukedi  -->
+                <list name="XiyozadImitotuFixuneMixukedi">
+                    <value>1</value>
+                    <value>2</value>
+                </list>
+                <list name="WehahoneRaqelehAhepiyAlapeyer">
+                    <value>77</value>
+                    <value>78</value>
+                    <value>79</value>
+                </list>
+                <list name="HojitaLazarucIvifudAtigarug">
+                    <value>26</value>
+                    <value>27</value>
+                    <value>28</value>
+                </list>
+                <list name="DiyeloTotonafutUlaviwApalicep">
+                    <value>134</value>
+                    <value>206</value>
+                </list>
+            </properties>
+        </embedded-instance>
+
+        <embedded-instance id="begatOluSipoxebipi" interface="com.gs.fw.para.rehepiyebag.BegatOluSipoxebipi" implementation="com.gs.fw.para.rehepiyebag.implementation.QiyomAbaMakiduhiwuXabe" />
+
+        <embedded-instance id="buzesaxeYexAtagixufoy" interface="com.gs.fw.para.rehepiyebag.BuzesaxeYexAtagixufoy" implementation="com.gs.fw.para.rehepiyebag.implementation.YulutiziSuwAjepetapofOrip" />
+
+        <embedded-instance id="nohototExores" interface="com.gs.fw.para.rehepiyebag.NohototExores" implementation="com.gs.fw.para.rehepiyebag.implementation.MugisusImapufAcosisAgur" />
+
+        <embedded-instance id="kehayOjoluje" interface="com.gs.fw.para.rehepiyebag.implementation.katemositohacalud.KehayOjoluje" implementation="com.gs.fw.para.rehepiyebag.implementation.katemositohacalud.KehayOjoluje" />
+        
+        <embedded-instance id="qoqApiKupuvafife" interface="com.gs.fw.para.rehepiyebag.QoqApiKupuvafife" implementation="com.gs.fw.para.rehepiyebag.implementation.YonIbiBofuxiceyiWefi" />
+
+        <embedded-instance id="lubebunuCivucelihivUcewunu" interface="com.gs.fw.para.rehepiyebag.LubebunuCivucelihivUcewunu" implementation="com.gs.fw.para.rehepiyebag.implementation.ButafuquGefoqedeXaconiwelexOfifemiVipi" />
+
+        <embedded-instance id="nulelupoCudomEqeqihu" interface="com.gs.fw.para.rehepiyebag.NulelupoCudomEqeqihu" implementation="com.gs.fw.para.rehepiyebag.implementation.QesogecoXajosaRevatAjakuqiCawi" />
+
+        <embedded-instance id="daviromiHuwicomum" interface="com.gs.fw.para.rehepiyebag.DaviromiHuwicomum" implementation="com.gs.fw.para.rehepiyebag.implementation.NiyegemuJejowemopOloqaqiyAsel" />
+
+        <embedded-instance id="yoqefukIluvara" interface="com.gs.fw.para.rehepiyebag.wosuxec.YoqefukIluvara" implementation="com.gs.fw.para.rehepiyebag.wosuxec.implementation.NuzudikEmuliniWodo" >
+            <services>
+                <!-- <service-instance id="dolakihEsutit" implementation="YewaJerewelOkoqey" type="DolakihEsutit"/> -->
+                <!-- Use this version of the service for votuza server -->
+                <service-instance id="dolakihEsutit" implementation="GataroXigoxeqEsoxar" type="DolakihEsutit"/>
+            </services>
+            <properties>
+                <!-- Medoweb zarohuz.  Seco qodagocedave instead. -->
+                <scalar name="wejeFecehuqe" invokeSetter="true">0</scalar>
+            </properties>
+        </embedded-instance>
+
+        <embedded-instance id="zaseBipuFatequnod" interface="com.gs.fw.para.rehepiyebag.ZaseBipuFatequnod" implementation="com.gs.fw.para.rehepiyebag.implementation.ZezuYajaRepaxovopOxuq" />
+    </services>
+    <properties>
+        <scalar name="support_location">RIY</scalar>
+	    <location name="LDN">
+	        <environment name="QAC">
+	            <scalar name="support_location">QAC</scalar>
+	        </environment>
+	        <environment name="TEST">
+	            <scalar name="support_location">RIY</scalar>
+	        </environment>
+	        <environment name="PROD">
+	            <scalar name="support_location">LDN</scalar>
+	        </environment>
+	        <environment name="QA">
+	            <scalar name="support_location">QA</scalar>
+	        </environment>
+	    </location>
+	    <location name="TKO">
+	        <environment name="QAC">
+	            <scalar name="support_location">QAC</scalar>
+	        </environment>
+	        <environment name="TEST">
+	            <scalar name="support_location">RIY</scalar>
+	        </environment>
+	        <environment name="PROD">
+	            <scalar name="support_location">TKO</scalar>
+	        </environment>
+	        <environment name="QA">
+	            <scalar name="support_location">QA</scalar>
+	        </environment>
+	    </location>
+	    <location name="NYK">
+	        <environment name="QAC">
+	            <scalar name="support_location">QAC</scalar>
+	        </environment>
+	        <environment name="TEST">
+	            <scalar name="support_location">RIY</scalar>
+	        </environment>
+	        <environment name="PROD">
+	            <scalar name="support_location">NYK</scalar>
+	        </environment>
+	        <environment name="QA">
+	            <scalar name="support_location">QA</scalar>
+	        </environment>
+	    </location>
+    </properties>
+</application>
+

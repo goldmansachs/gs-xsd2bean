@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd"
+        pageTitle="GiJ Vojiy Cezuxom">
+
+    <section>
+        <row>
+            <uiElement label="Taco Ceyoros Xosi: " name="qahodoqo" renderAs="label"/>
+        </row>
+        <row>
+            <uiElement name="cacuzOqujoxu" renderAs="label" readOnly="true" expandable="true"/>
+        </row>
+    </section>
+    <section>
+        <row>
+            <section caption="Noyuge Lozohig">
+                <row>
+                    <uiElement label="Wepinam Yonad Pet Noyuge" name="jomokErucodud" renderAs="listbox"
+                               noSelectOption="&lt;No Mosuku&gt;"/>
+                    <uiElement label="Tuyaz Yonad Pet Noyuge" name="gicugOvogeyer" renderAs="listbox"
+                               noSelectOption="&lt;No Mosuku&gt;"/>
+                    <uiElement label="Copi Casah Noyuge" name="lajoQibovAfepas" renderAs="listbox"
+                               noSelectOption="&lt;No Mosuku&gt;"/>
+                </row>
+                <row>
+                    <button label="Lesihocu" name="jaziwihoYasopaBesisas" renderAs="button"
+                            nextLayoutName="tekihif/gij/wivimifapovo.xml"
+                            pageBuilder="com.gs.fw.kaza.tekihif.vo.YoPIbagibIfucave"
+                            crumbTrail="true" refreshPage="false"/>
+                </row>
+            </section>
+        </row>
+    </section>
+    <section caption="Cezuxom">
+        <row>
+            <table name="MaMIquteNenowux" expandable="true" rowsPerPage="0" sortable="true">
+                <column attribute="casah">
+                    <uiElement name="casah" label="Casah"/>
+                </column>
+                <column attribute="entity">
+                    <uiElement name="entity" label="Humopa"/>
+                </column>
+                <column attribute="mijanIzo">
+                    <uiElement name="xavesEniziqaf" label="Casah Location"/>
+                </column>
+                <column attribute="haxigOwub">
+                    <uiElement name="nusezUburijumacu" label="Casah Cuyifanakit"/>
+                </column>
+                <column attribute="lajiSipo">
+                    <uiElement name="lajiSipo" label="Qaje Name"/>
+                </column>
+                <column attribute="rikirefeva">
+                    <uiElement name="rikirefeva" label="Rikirefeva in COPI"/>
+                </column>
+                <column attribute="manager">
+                    <uiElement name="manager" label="Mupozov in COPI"/>
+                </column>
+                <column attribute="cazabOweTexo">
+                    <uiElement name="cazabOweTexo" label="Casah Conoqara"/>
+                </column>
+                <column attribute="jomokErucodud">
+                    <uiElement name="jomokErucodud" label="Casah Noyuge - Wepinam Yonad"/>
+                </column>
+                <column attribute="gicugOvogeyer">
+                    <uiElement name="goxuciFUF" label="Casah Noyuge - Tuyaz Yonad"/>
+                </column>
+                <column attribute="vowuTaju">
+                    <uiElement name="vowuTaju" label="Taco Sose to Zege"/>
+                </column>
+                <column attribute="riYuhoxu">
+                    <uiElement name="riYuhoxu" label="Mo-Yigixu?"/>
+                </column>
+                <column attribute="hekimiyebucOluwAjujifAdiq">
+                    <uiElement name="yiciDulawaQesu" label="Timestamp of Taco Yigixu"/>
+                </column>
+                <column attribute="yezObo">
+                    <uiElement name="yezObo" label="Runixufayir Hoqonul Jaqiw Taco Yigixu"/>
+                </column>
+                <column attribute="lajoQibovAfepas">
+                    <uiElement name="lajoQibovAfepas" label="COPI Josowot Noyuge"/>
+                </column>
+                <column attribute="bifUvogopapu">
+                    <uiElement name="bifUvogopapu" label="SAV Rebedugef"/>
+                </column>
+                <column attribute="pehAnujOmacat">
+                    <uiElement name="pehAnujOmacat" label="HUF Vegatulu Yigixu"/>
+                </column>
+                <column attribute="cegOculUkodoc">
+                    <uiElement name="cegOculUkodoc" label="HUF Vegatulu Vaxamu In SAV"/>
+                </column>
+                <column attribute="lanAhesOcabewafid">
+                    <uiElement name="lanAhesOcabewafid" label="HUF Vegatulu Vicewohaxe"/>
+                </column>
+                <column attribute="yatuy">
+                    <uiElement name="yatuy" label="Yatuy"/>
+                </column>
+                <column attribute="xiqOkonaVodIdi">
+                    <uiElement name="xiqOkonaVodIdi" label="Woz Sesej Vuz SAV"/>
+                </column>
+                <column attribute="tegEheviPoyIzo">
+                    <uiElement name="tegEheviPoyIzo" label="Woz Sesej Vuz SU"/>
+                </column>
+                <column attribute="vicewohaxe">
+                    <uiElement name="vicewohaxe" label="Woz Sesej Vicewohaxe"/>
+                </column>
+                <column attribute="suPetiVavoze">
+                    <uiElement name="suPetiVavoze" label="SU Seri Noyuge"/>
+                </column>
+                <column attribute="damizemAde">
+                    <uiElement name="damizemAde" label="Hoqonul SAV"/>
+                </column>
+                <column attribute="qawojiyoXiwiceqotu">
+                    <uiElement name="qawojiyoXiwiceqotu" label="Legokoke Vicewohaxe"/>
+                </column>
+                <column attribute="juxiBuzuw">
+                    <uiElement name="juxiBuzuw" label="SU Koga Hobac"/>
+                </column>
+                <column attribute="delubisufIfoga">
+                    <uiElement name="delubisufIfoga" label="Mo-Josowot Hobac"/>
+                </column>
+                <column attribute="xanitofIyuzi">
+                    <uiElement name="xanitofIyuzi" label="Tazamel Hobac"/>
+                </column>
+                <column attribute="sivinEjotu">
+                    <uiElement name="sivinEjotu" label="Repad Hobac"/>
+                </column>
+                <column attribute="bicageriJupij">
+                    <uiElement name="bicageriJupij" label="Degakake Hobac"/>
+                </column>
+                <column attribute="yaMepudunoDotuv">
+                    <uiElement name="yaMepudunoDotuv" label="Bigumowuno Hobac"/>
+                </column>
+            </table>
+        </row>
+    </section>
+    <section>
+        <row>
+            <!--<button label="Somi" name="somi" renderAs="button" nextLayoutName="tekihif/gij/mobemazapa.xml"-->
+                    <!--crumbTrail="false"/>-->
+            <button label="Column Name ZIN" name="ZIN" renderAs="webbutton"
+                    url="http://cuneze.fw.gs.com/YuhAkibowAFO.xet"/>
+        </row>
+    </section>
+</layout>

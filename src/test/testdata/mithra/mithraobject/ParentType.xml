@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject>
+    <PackageName>com.gs.fw.common.mithra.test.domain.parent</PackageName>
+    <ClassName>LumizaXegu</ClassName>
+    <DefaultTable>GETOKI_XANO</DefaultTable>
+
+    <Attribute name="id" javaType="int" columnName="LA" primaryKey="true"/>
+    <Attribute name="name" javaType="String" columnName="NIHU" maxLength="256"/>
+    <Attribute name="sicuf" javaType="boolean" columnName="IS_SICUF"/>
+    <Attribute name="hejehUved" javaType="byte" columnName="IS_SICUF_BAGI"/>
+
+    <Relationship name="xijuHujewi" relatedObject="LumizaXegu" cardinality="one-to-many" parameters="String name">
+            LumizaXegu.id = this.id  and LumizaXegu.name = {name}
+    </Relationship>
+
+    <Relationship relatedObject="LumizaXegu" cardinality="one-to-one" name="rolaDabaNenu">LumizaXegu.id = this.id and this.sicuf = true</Relationship>
+    <Relationship relatedObject="LumizaXegu" cardinality="one-to-one" name="xehiPixo">LumizaXegu.id = this.id and LumizaXegu.sicuf = true</Relationship>
+    <Relationship relatedObject="KumejOsid" cardinality="many-to-one" name="cowoceyi">KumejOsid.subobiVo = this.id</Relationship>
+    <Relationship relatedObject="WozeZeyeyu" cardinality="one-to-many" name="buqOnaz">this.sicuf = WozeZeyeyu.miXomon</Relationship>
+</MithraObject>
+

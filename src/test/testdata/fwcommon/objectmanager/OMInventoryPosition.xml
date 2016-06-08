@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>qahabiwe</Templates>
+    <PackageName>com.gs.fw.lilu.wute.domain.position</PackageName>
+
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.product.*</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.biqosezix.RinudopedIcasehAnanAyoxIpeno</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.cowisox.Qaje</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.biqosezix.PuwuJumuwu</ImportPackageName>
+
+    <ClassName>PUBegulutobOtogofoy</ClassName>
+    
+    <AddCargo>true</AddCargo>
+
+    <DefaultTable>SIS_PIBETUZU_MAQOZ</DefaultTable>
+    <SchemaName></SchemaName>
+    <DatabaseName>zoqew</DatabaseName>
+    <ConnectionManagerName>zoqew</ConnectionManagerName>
+    <ReadOnly>true</ReadOnly>
+    <Faker>com.gs.fw.lilu.wute.domain.base.FadinigitulObewegelolOqiwoqElose</Faker>
+
+    <PrimaryKeyAttribute keyClass="VIHunaxanegAmuforobUxu">
+        <Attribute columnName="PROD_QUC_W" javaType="String" name="nulomogAranure" sqlType="XefeTewesa"/>
+        <Attribute columnName="DOMU_W" javaType="String" name="cejasawUwesij" sqlType="XefeTewesa"/>
+        <Attribute columnName="DOMU_P" javaType="int" name="rivusujAr" sqlType="Ciyisag"/>
+        <Attribute columnName="PROD_NOZO_ZU_MAKA_DOTUF_W" javaType="String" name="zibuSikofIsus" sqlType="XefeTewesa"/>
+        <Attribute columnName="HECA_PROD_TADE_W" javaType="String" name="bebonokIlepolizIcoqaPise"
+                   sqlType="XefeTewesa"/>
+        <Attribute columnName="PROD_TADE_N" javaType="boolean" name="huq" sqlType="Boolean"/>
+        <Attribute name="businessDate" columnName="businessDate" javaType="Timestamp"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </PrimaryKeyAttribute>
+
+    <Index name="businessDate">businessDate</Index>
+
+    <IndexBuilder className="com.gs.fw.lilu.wute.domain.kigemawo.ZiyeducopUxitabutEqexaZonudiw"/>
+    <IndexBuilder className="com.gs.fw.lilu.wute.domain.kigemawo.CuhikaxaQubixUkokura"/>
+
+</ManagedObject>

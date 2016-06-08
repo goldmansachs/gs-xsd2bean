@@ -1,0 +1,70 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:annotation>
+        <xsd:documentation xml:lang="en">
+        </xsd:documentation>
+    </xsd:annotation>
+
+    <xsd:element name="Styles" type="StylesType"/>
+
+
+    <xsd:complexType name="StyleType">
+        <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+        <xsd:sequence>
+            <xsd:attribute name="styleName" type="xsd:string"/>
+            <xsd:attribute name="font-family" type="xsd:string"/>
+            <xsd:attribute name="font-weight" type="xsd:string">
+                <xsd:simpleType>
+                    <xsd:restriction base="xsd:string">
+                        <xsd:enumeration value="normal"/>
+                        <xsd:enumeration value="bold"/>
+                    </xsd:restriction>
+                </xsd:simpleType>
+            </xsd:attribute>
+            <xsd:attribute name="font-style" type="xsd:string">
+                <xsd:simpleType>
+                    <xsd:restriction base="xsd:string">
+                        <xsd:enumeration value="normal"/>
+                        <xsd:enumeration value="italic"/>
+                    </xsd:restriction>
+                </xsd:simpleType>
+            </xsd:attribute>
+            <xsd:attribute name="font-decoration" type="xsd:string"><!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+                <xsd:simpleType>
+                    <xsd:restriction base="xsd:string">
+                        <xsd:enumeration value="normal"/>
+                        <xsd:enumeration value="underline"/>
+                        <xsd:enumeration value="strikethrough"/>
+                    </xsd:restriction>
+                </xsd:simpleType>
+            </xsd:attribute>
+            <xsd:attribute name="font-color" type="xsd:string"/>
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+            <xsd:attribute name="font-size" type="xsd:int"/>
+            <xsd:attribute name="border-width" type="xsd:int"/>
+            <xsd:attribute name="border-color" type="xsd:string"/>
+            <xsd:attribute name="background-color" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:element name="Style" type="StyleType"/>
+
+    <xsd:complexType name="StylesType">
+        <xsd:sequence>
+            <xsd:element ref="Style" minOccurs="1" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

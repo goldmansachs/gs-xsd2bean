@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-bajuxulida type="text/muj" hafu="../../../../xml/vo/peSezehu.muj"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout
+        layoutId="xiNopibeceMutehExevo"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd"
+        pageTitle="Fuqiwediyu Maba Vojiy"
+        pageBuilder="com.gs.fw.kaza.hes.vo.VuborulamoGudukAquveWapigar"
+        showSelection="false"
+        feature="BekAkexopikIjuv">
+
+    <section>
+        <row>
+            <section caption="Sate/Lage Vojiy">
+                <row>
+                    <uiElement
+                            attribute="name"
+                            name="gotilIbegi"
+                            label="Qokec Vojiy:"
+                            renderAs="combobox" noSelectOption=""/>
+                    <button
+                            label="Sate Vojiy"
+                            name="demeTehix"
+                            pageBuilder="com.gs.fw.kaza.yepe.vo.hizuneyel.domain.XitayoPukawIpewow"
+                            nextLayoutName="desa/hes/huperEkug.xml"
+                            crumbTrail="false"/>
+                    <button
+                            label="Yejeyo Vojiy"
+                            name="fidosaWulaf"
+                            pageBuilder="com.gs.fw.kaza.yepe.vo.hizuneyel.domain.BizowuRemumOmefesu"
+                            nextLayoutName="desa/hes/huperEkug.xml"
+                            crumbTrail="false"/>
+                </row>
+                <row>
+                    <uiElement
+                            name="xazuvUsat"
+                            label="Vojiy Name"
+                            renderAs="textbox"/>
+                    <uiElement
+                            renderAs="checkbox"
+                            name="luriBohudUwitof"
+                            label="Sihu Wedaye?"/>
+                    <button
+                            label="Lage Vojiy"
+                            name="nayuGakem"
+                            pageBuilder="com.gs.fw.kaza.yepe.vo.hizuneyel.domain.HozicaRejetAlomumi"
+                            nextLayoutName="desa/hes/huperEkug.xml"
+                            crumbTrail="false"/>
+                </row>
+                <row>
+                    <uiElement name="mefobIqabiraqifo" label="Vojiy Cuyifanakit" renderAs="textArea"/>
+                </row>
+            </section>
+        </row>
+    </section>
+
+    <section>
+        <row>
+            <section caption="Cuyokujo Rovid and Yoruhapak">
+                <row>
+                    <uiElement
+                            label="Cuyokujo Date"
+                            name="businessDate"
+                            renderAs="combobox"
+                            attribute="display"
+                            sortBy="none"/>
+                    <uiElement
+                            label="Qahodoqo"
+                            name="qahodoqo"
+                            renderAs="combobox"
+                            attribute="display"
+                              sortBy="none"/>
+              </row>
+            </section>
+        </row>
+
+        <row>
+            <section caption="Kobuce">
+                <row>
+                    <uiElement
+                            renderAs="checkbox"
+                            name="tofexuZabuzalol"
+                            label="Fizumurel"
+                            defaultSelection="true"/>
+                    <uiElement
+                            renderAs="checkbox"
+                            name="wowecaHarijarikete"
+                            label="Wudayujipode"
+                            defaultSelection="true"/>
+                </row>
+            </section>
+        </row>
+    </section>
+    <section>
+        <row>
+            <button
+                    label="Lesihocu"
+                    name="lesihocu"
+                    nextLayoutName="desa/hes/tesedawabuXavoboXohud.xml"
+                    pageBuilder="com.gs.fw.kaza.hes.vo.KemiqadodaXilazAnawaraHeqiqef"
+                    crumbTrail="true"/>
+        </row>
+    </section>
+</layout>

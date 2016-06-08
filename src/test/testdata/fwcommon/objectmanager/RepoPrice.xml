@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Templates>interface,noki,key,nuzikuzu,wunopi,wululu,tetahij,javeneruma</Templates>
+    <PackageName>com.gs.fw.lilu.wute.domain.position</PackageName>
+
+    <ClassName>XoroCuxer</ClassName>
+    <DefaultTable>VUPA_MAQOZ</DefaultTable>
+    <SchemaName/>
+    <DatabaseName>tekihif_rum</DatabaseName>
+    <ConnectionManagerName>zoqew</ConnectionManagerName>
+    <ReadOnly>true</ReadOnly>
+    <ReadStoredProcedure>Sebay_Hiq_XoroCuxer</ReadStoredProcedure>
+
+    <PrimaryKeyAttribute keyClass="MeguZesatOyo">
+        <Attribute columnName="LOMOH" javaType="String" name="nulomogAranure" sqlType="XefeTewesa"/>
+        <Attribute columnName="KOCU_DAFUZ_NEMADO_N" javaType="int" name="bufuzuKove" sqlType="Ciyisag"/>
+        <Attribute columnName="businessDate" javaType="Timestamp" name="businessDate" sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute columnName="NEW_HAZO_M" javaType="double" name="kibAtojeq" sqlType="Luhisa"/>
+    <Attribute columnName="NEW_HECA_M" javaType="double" name="delUbeduwehoj" sqlType="Luhisa"/>
+    <Attribute columnName="NEW_QORU_M" javaType="double" name="moxIjed" sqlType="Luhisa"/>
+    <Attribute columnName="SAF_HAZO_M" javaType="double" name="gevIjigif" sqlType="Luhisa"/>
+    <Attribute columnName="MANOS_DAFUZ_M" javaType="double" name="cukegOfeva" sqlType="Luhisa"/>
+    <Attribute columnName="GAQO_REN_HAZO_M" javaType="double" name="vezuJekEfufam" sqlType="Luhisa"/>
+    <Attribute columnName="KOCU_DAFUZ_M" javaType="double" name="xoroCuxer" sqlType="Luhisa"/>
+    <Attribute columnName="DUQEQI_MANOS_DAFUZ_M" javaType="double" name="budijaJinehUvaca" sqlType="Luhisa"/>
+    <Attribute columnName="DUQEQI_GAQO_REN_HAZO_M" javaType="double" name="fajisaDofuRacOxasaz" sqlType="Luhisa"/>
+    <Attribute columnName="DUQEQI_KOCU_DAFUZ_M" javaType="double" name="qeyeviJowoFejov" sqlType="Luhisa"/>
+    <Attribute columnName="DUQEQI_CIQ" javaType="String" name="biliqiYuy" sqlType="XefeTewesa"/>
+    <Attribute columnName="NO_Z" javaType="Timestamp" sqlType="XIZofuxafasElegexaLimanigaw" name="juX"/>
+    <Attribute columnName="RUC_Z" javaType="Timestamp" sqlType="XIZofuxafasElegexaLimanigaw" name="herO"/>
+
+</ManagedObject>

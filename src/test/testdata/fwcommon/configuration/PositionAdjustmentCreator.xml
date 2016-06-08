@@ -1,0 +1,78 @@
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<application implementation="com.gs.fw.para.application.yenazimuxu.PiyoxitePeduluziwuTaripag" ignoreLoadFailures="true" name="PiyoxitePeduluziwuTaripag">
+    <services>
+        <service-instance id="dayoyuniJemuwus" implementation="DulugeVopigaguQalihor" type="DayoyuniJemuwus"/>
+        <service-instance id="cemekabimePetereVecaho" implementation="RiduduMubedeKacegip" type="CemekabimePetereVecaho"/>
+        <embedded-instance id="mithra" interface="com.gs.fw.para.service.mithra.FigotoLufikum" implementation="com.gs.fw.para.service.mithra.implementation.RorudiXucilewAvih" >
+            <properties>
+                <scalar name="nopiwosopebAniyeco" invokeSetter="true">600</scalar>
+                <list name="pehijeWakufihanocijAcax" invokeSetter="true">
+                    <value> services/Mithra/HutasuzuFeyobusAmajeViheziZuvifofizofov.xml </value>
+                    <value> services/Mithra/VetaTisukeJowehovihuhet.xml </value>
+                </list>
+            </properties>
+        </embedded-instance>
+   </services>
+    <properties>
+        <scalar name="judUsitosuQuwulucoRoze">yenazimuxu_service</scalar>
+        <scalar name="SOZ_YEBIK_ZEDAKOTAH">3</scalar>
+        <location name="LDN">
+            <environment name="PROD">
+                <scalar name="support_location">LDN</scalar>
+            </environment>
+            <environment name="QAC">
+                <scalar name="support_location">QAC</scalar>
+            </environment>
+            <environment name="TEST">
+                <scalar name="support_location">RIY</scalar>
+            </environment>
+            <environment name="QA">
+                <scalar name="support_location">QAC</scalar>
+            </environment>
+        </location>
+        <location name="TKO">
+            <environment name="PROD">
+                <scalar name="support_location">TKO</scalar>
+            </environment>
+            <environment name="QAC">
+                <scalar name="support_location">QAC</scalar>
+            </environment>
+            <environment name="TEST">
+                <scalar name="support_location">RIY</scalar>
+            </environment>
+            <environment name="QA">
+                <scalar name="support_location">QAC</scalar>
+            </environment>
+        </location>
+        <location name="NYK">
+            <environment name="QAC">
+                <scalar name="support_location">QAC</scalar>
+            </environment>
+            <environment name="TEST">
+                <scalar name="support_location">RIY</scalar>
+            </environment>
+            <environment name="PROD">
+                <scalar name="support_location">NYK</scalar>
+            </environment>
+            <environment name="QA">
+                <scalar name="support_location">QA</scalar>
+            </environment>
+        </location>
+    </properties>
+</application>
+

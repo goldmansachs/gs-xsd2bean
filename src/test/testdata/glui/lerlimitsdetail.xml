@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"
+        pageTitle="CEB Duqum Nabojer Mawosuq"
+        pageBuilder="com.gs.fw.kaza.zaz.glui.QurOsineZagadegeFoliTopavoy"
+        templateLayout="zaz/header.xml" feature="GedayoqevurUretEhopupu">
+
+    <section>
+        <row>
+            <section>
+                <row>
+                    <button name="teqecOvoWowipik" label="Vayus"
+                            downloadContent="true"
+                            pageBuilder="com.gs.fw.kaza.zaz.glui.VoruqAlipAnarifi"
+                            contentDownloader="com.gs.fw.common.glui.xinocepe.XipizOnoxiguqus"
+                            openSavedFile="true"/>
+                </row>
+            </section>
+        </row>
+        <row feature="werAGERayiguNaborec">
+            <table name="wapAferojeFuno" rowSelection="single"
+                   wrapContent="false" wrapHeader="false"
+                   label="Non Jicucow Book (25% Yoya, Mobop T pik)"
+                   header="true">
+                <column attribute="cujaqekufuki">
+                    <uiElement label="Cujaqekufuki" name="Cujaqekufuki"
+                               expanded="true"/>
+                </column>
+                <column attribute="value">
+                    <uiElement label="Suyupediha" name="Suyupediha"/>
+                </column>
+            </table>
+        </row>
+        <row feature="werAGERayiguNaborec">
+            <table name="rokimafOpif" rowSelection="single" wrapContent="false"
+                   wrapHeader="false"
+                   label="Jicucow Book Komulu (600% Yoya, Mobop T Pik)"
+                   header="true" expandable="true">
+                <column attribute="cujaqekufuki">
+                    <uiElement label="Cujaqekufuki" name="CujaqekUfuki"/>
+                </column>
+                <column attribute="value">
+                    <uiElement label="Suyupediha" name="Suyupediha"
+                               sortAscending="true"/>
+                </column>
+            </table>
+        </row>
+        <row feature="werAGERayiguNaborec">
+            <table name="kapoliqoqUhuwugiq" rowSelection="single"
+                   wrapContent="false" wrapHeader="false"
+                   label="Lokehavek Non Jicucow Book (800% Yoya, Mobop T Pik)"
+                   header="true">
+                <column attribute="cujaqekufuki">
+                    <uiElement label="" name=""/>
+                </column>
+                <column attribute="value">
+                    <uiElement label="Suyupediha" name="Suyupediha"/>
+                </column>
+            </table>
+        </row>
+        <row feature="dijAPUTInimohIkuqeme">
+            <table name="kapoliqoqUhuwugiq" rowSelection="single"
+                   wrapContent="false" wrapHeader="false"
+                   label="Lokehavek sirekovi yoya" header="true">
+                <column attribute="cujaqekufuki">
+                    <uiElement label="" name=""/>
+                </column>
+                <column attribute="value">
+                    <uiElement label="Value" name="Value"/>
+                </column>
+            </table>
+        </row>
+        <row feature="herAYOFUkinopImerido">
+            <table name="yizIsacejuvuq" rowSelection="single"
+                   wrapContent="false" wrapHeader="false"
+                   label="VIF dowef 10% of Lujatam" header="true">
+                <column attribute="cujaqekufuki">
+                    <uiElement label="Cujaqekufuki" name="Cujaqekufuki"/>
+                </column>
+                <column attribute="value">
+                    <uiElement label="Suyupediha" name="Suyupediha"/>
+                </column>
+            </table>
+        </row>      
+        <row feature="herAYOFUkinopImerido">
+            <table name="cuv" rowSelection="single" wrapContent="false"
+                   wrapHeader="false"
+                   label="Zov set - kutos SumAregeTepijakaBIJOZijuRotutavi" header="true">
+                <column attribute="cujaqekufuki">
+                    <uiElement label="Cujaqekufuki" name="Cujaqekufuki"/>
+                </column>
+                <column attribute="kaqavoliBobi">
+                    <uiElement label="Caxanado Type" name="Caxanado Type"/>
+                </column>
+                <column attribute="value">
+                    <uiElement label="CUV (Wah Jak)" name="CUV (Wah Jak"/>
+                </column>
+                <column attribute="qizIzuTuRahebop">
+                    <uiElement label="CUV % Pik" name="CUV % Pik"/>
+                </column>
+            </table>
+        </row>
+    </section>
+</layout>

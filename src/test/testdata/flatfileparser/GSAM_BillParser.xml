@@ -1,0 +1,51 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<FlatFileParserConfig delimiter="|"
+                      inflatedObject="com.gs.fw.para.vala.domain.transaction.implementation.LepiPagokojIpeqizofomi"
+                      columns="26"
+                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:noNamespaceSchemaLocation="../../xsd/parserconfig.xsd">
+
+    <Header required="true" identifier="NASAVU:"
+            simpleFormat="NASAVU:[hojakinipo]*FUZASINADU:[hojakinipo][yyyy/WE/dd]"/>
+    <Trailer required="true" identifier="KABANAS:" simpleFormat="KABANAS:[hojakinipo][count]*"/>
+
+    <Mapping attribute="hagaguguPisa" position="2"/>
+    <Mapping attribute="fijeJi" position="3"/>
+    <Mapping attribute="item" position="4"/>
+    <Mapping attribute="tuluTudi" position="5" nullable="true"/>
+    <Mapping attribute="sequence" position="6" nullable="true"/>
+    <Mapping attribute="laNaNala" format="WE/dd/yyyy" position="7" nullable="false"/>
+    <Mapping attribute="raxokaCeyubupa" position="8"/>
+    <Mapping attribute="zefewaWitatu" position="9"/>
+    <Mapping attribute="kiyupEyop" position="10"/>
+    <Mapping attribute="lobahOkeqoq" position="11" nullable="true"/>
+    <Mapping attribute="lokeSife" position="12" nullable="true"/>
+    <Mapping attribute="lelezeLuro" format="WE/dd/yyyy" position="13" nullable="false"/>
+    <Mapping attribute="hosIxuq1" position="14" nullable="true"/>
+    <Mapping attribute="hosIxuq2" position="15" nullable="true"/>
+    <Mapping attribute="buquluRe" position="16" nullable="true"/>
+    <Mapping attribute="kijuduLupErex" format="WE/dd/yyyy" position="17" nullable="true"/>
+    <Mapping attribute="sixotiPufesOqej" format="WE/dd/yyyy" position="18" nullable="true"/>
+    <Mapping attribute="dayiqulAkim" position="19" nullable="true"/>
+    <Mapping attribute="socenoyIl" position="20" nullable="true"/>
+    <Mapping attribute="hamIm" position="21" nullable="true"/>
+    <Mapping attribute="xezaGage" position="22" nullable="true"/>
+    <Mapping attribute="type" position="23" nullable="true"/>
+    <Mapping attribute="nepaWopu" format="WE/dd/yyyy" position="24" nullable="true"/>
+    <Mapping attribute="gejoNi" position="25" nullable="true"/>
+
+</FlatFileParserConfig>

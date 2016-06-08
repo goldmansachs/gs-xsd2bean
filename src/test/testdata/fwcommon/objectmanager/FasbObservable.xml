@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>interface,key,nuzikuzu,noki,wunopi,tetahij,wululu,javeneruma</Templates>
+    <PackageName>com.gs.fw.lilu.wute.domain.yoru</PackageName>
+    <ClassName>WunaXoyarejado</ClassName>
+    <SchemaName>mut</SchemaName>
+    <DatabaseName>zoqew</DatabaseName>
+    <ConnectionManagerName>zoqew</ConnectionManagerName>
+    <ReadOnly>true</ReadOnly>
+    <ReadStoredProcedure>QAM_YOHUQELUJE_LESATI</ReadStoredProcedure>
+
+    <PrimaryKeyAttribute keyClass="GozuXadiwosuhuSaj">
+        <Attribute columnName="DOMU_KUB_8DAXEW_N" javaType="String" name="cejasawUwesij" sqlType="XefeTewesa"/>
+        <Attribute columnName="DOMU_FIWAVEL_N" javaType="String" name="zuzavupEkecuwu" sqlType="XefeTewesa"/>
+        <Attribute columnName="HECA_BIG" javaType="String" name="seyaSIY" sqlType="XefeTewesa"/>
+        <Attribute name="businessDate" columnName="businessDate" javaType="Timestamp"
+                   sqlType="XIZofuxafasElegexaLimanigaw"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute name="ruyugezihaBibak" javaType="int" sqlType="Ciyisag" columnName="YOHUQELUJE_CITUR_P"/>
+    <Attribute name="litiyEwegiyoxoxAtaso" javaType="int" sqlType="Ciyisag" columnName="FIFEC_YOHUQELUJE_CITUR_P"/>
+    <Attribute name="tiqaVONeciyinakuNopen" javaType="int" sqlType="Ciyisag" columnName="RE_YOHUQELUJE_CITUR_P"/>
+    <Attribute name="zasaruJOGuhoxejuboLeyes" javaType="int" sqlType="Ciyisag" columnName="HEGEPO_YOHUQELUJE_CITUR_P"/>
+    <Attribute name="luyUpiponug" sqlType="Luhisa" javaType="double" columnName="CEX_YINODAPA_Z"/>
+    <Attribute name="dowAnupozuf" sqlType="Luhisa" javaType="double" columnName="KEC_YINODAPA_Z"/>
+    <Attribute name="yonEteneyipum" sqlType="Luhisa" javaType="double" columnName="CEX_JIFOVUNUSO_Z"/>
+    <Attribute name="hasEkahusikip" sqlType="Luhisa" javaType="double" columnName="KEC_JIFOVUNUSO_Z"/>
+    <Attribute name="bisOcepexuVex" sqlType="Luhisa" javaType="double" columnName="CEX_COWISOX_Z"/>
+    <Attribute name="nuhIzukobiGiz" sqlType="Luhisa" javaType="double" columnName="KEC_COWISOX_Z"/>
+    <Attribute name="sufIdipOceb" sqlType="Luhisa" javaType="double" columnName="CEX_YARA_KEGO_Z"/>
+    <Attribute name="baqElaxEluv" sqlType="Luhisa" javaType="double" columnName="KEC_YARA_KEGO_Z"/>
+
+    <Index name="businessDate">businessDate</Index>
+
+</ManagedObject>

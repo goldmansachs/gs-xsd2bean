@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject objectType="transactional">
+    <PackageName>com.gs.fw.common.mithra.test.domain</PackageName>
+    <ClassName>CifuxerocAfimOpafo</ClassName>
+    <DefaultTable>YAXECIBEQ_QIWO_TYPES</DefaultTable>
+
+    <Attribute name="id" javaType="int" columnName="LA" primaryKey="true"/>
+    <Attribute name="vozavikArawiz" javaType="boolean" columnName="COPIBAZ_NOREGI" nullable="true"/>
+    <Attribute name="fawoSuvamu" javaType="byte" columnName="BAGI_NOREGI" nullable="true"/>
+    <Attribute name="guvutOwinev" javaType="float" columnName="YOYOP_NOREGI" nullable="true"/>
+    <Attribute name="kepoyAceper" javaType="short" columnName="VAGOZ_NOREGI" nullable="true"/>
+    <Attribute name="zagaToqoga" javaType="long" columnName="LUME_NOREGI" nullable="true"/>
+    <Attribute name="jazimiJiquve" javaType="double" columnName="PINADO_NOREGI" nullable="true"/>
+    <Attribute name="jucaGiliwe" javaType="char" columnName="LEBU_NOREGI" nullable="true"/>
+    <Attribute name="geyEnozuc" javaType="int" columnName="DOD_NOREGI" nullable="true"/>
+
+    <Index name="vaPi" unique="true">id</Index>
+    <Index name="suSesunosAlesik">vozavikArawiz</Index>
+    <Index name="cuJecoGoqagi">fawoSuvamu</Index>
+    <Index name="ziNonutAnaven">guvutOwinev</Index>
+    <Index name="xuRapejEkomin">kepoyAceper</Index>
+    <Index name="zaBupiXezimu">zagaToqoga</Index>
+    <Index name="keNolateNulemu">jazimiJiquve</Index>
+    <Index name="raQucuZeredi">jucaGiliwe</Index>
+
+</MithraObject>
+

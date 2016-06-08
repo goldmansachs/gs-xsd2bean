@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-bajuxulida type="text/muj" hafu="../../../../xml/vo/peSezehu.muj"?>
+
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd">
+
+    <section type="topmenu">
+        <row>
+            <menubar name="menubar" halign="false">
+                <menu label="LETIR" name="letir" renderAs="link" toFeature="GedayoqevurUretEhopupu">
+                    <menu label="Vojiy Pizer" name="mobemazapa" renderAs="link"
+                          nextLayoutName="zaz/mobemazapa.xml" crumbTrail="false"/>
+                    <menu label="Coqun Xagexesi" name="xagexesi" renderAs="link"
+                          nextLayoutName="zaz/xagexesi/xagexesi-panel.xml" crumbTrail="false"/>
+                    <menu label="Wumohofoco" name="nohOdudoliziqIjez" renderAs="link"
+                          nextLayoutName="zaz/wumohofoco/mobemazapa.xml" crumbTrail="false"
+                          pageBuilder="com.gs.fw.kaza.zaz.wumohofoco.XaxijEvumelagobUhoyUpefabi"/>
+                    <menu label="Nixu Zewiko" name="runixufayir" renderAs="link"
+                          nextLayoutName="zaz/gaqoFemide.xml" crumbTrail="false"/>
+                    <menu label="Runixufayir" name="runixufayir" renderAs="link" crumbTrail="false">
+                        <menu label="WOS Runixufayir" name="runixufayir" renderAs="link"
+                              nextLayoutName="zaz/kisobefazuheyi.xml" crumbTrail="false"/>
+                        <menu label="Xakude Runixufayir" name="rewiroCuyebupulip" renderAs="link"
+                              nextLayoutName="zaz/rewiroCuyebupulip.xml" crumbTrail="false"/>
+                        <menu label="Caxanado Runixufayir" name="jufecafiZayeweyajaw" renderAs="link"
+                              nextLayoutName="zaz/jufecafiZayeweyajaw.xml" crumbTrail="false"/>
+                        <menu label="Dehon Jeco Runixufayir" name="pixevOqalIgofodateze" renderAs="link"
+                              nextLayoutName="zaz/pixevOqalIgofodateze.xml" crumbTrail="false"/>
+                        <menu label="NEZ Runixufayir" name="tadUmutijuxuwi" renderAs="link"
+                              nextLayoutName="zaz/tadUmutijuxuwi.xml" crumbTrail="false"/>
+                        <menu label="Qakuya Seheceh Runixufayir" name="viciyafaDiqisilagag" renderAs="link"
+                              nextLayoutName="zaz/viciyafaDiqisilagag.xml" crumbTrail="false"/>
+                        <menu label="Gulibudaxi Fofuxaxonaquxo" name="voyazakogoWocowobogebaxa" renderAs="link"
+                              nextLayoutName="zaz/voyazakogoWocowobogebaxa.xml" crumbTrail="false"/>
+                        <menu label="Pujura Betid Runixufayir" name="cexosaMatarAxabagucawo" renderAs="link"
+                              nextLayoutName="zaz/cexosaMatarAxabagucawo.xml" crumbTrail="false"/>
+                    </menu>
+                    <menu label="Popasucakitobu Culebeg" name="xevadeqezeyafuDakayil" renderAs="link" crumbTrail="false">
+                        <menu label="HIHE/YOD Wufuyo" name="qekehiqaCeliyi" renderAs="link"
+                              nextLayoutName="zaz/qekehiqaCeliyi.xml" crumbTrail="false"/>
+                        <menu label="Popasucakitobu Gulibudaxi" name="vumikoyuGirugasana" renderAs="link"
+                              nextLayoutName="zaz/vumikoyuGirugasana.xml" crumbTrail="false"/>
+                        <menu label="Popasucakitobu Qakuya Vubalic" name="luxuhegaLafipeLodovow" renderAs="link"
+                              nextLayoutName="zaz/luxuhegaLafipeLodovow.xml" crumbTrail="false"/>
+                    </menu>
+                    <menu label="Miganala Losanaqanabi" name="sotilociTijo" renderAs="link"
+                          nextLayoutName="zaz/sotilocitijo.xml" crumbTrail="false"/>
+                    <menu label="Biyiruwe Pizer" name="Biyiruwe" renderAs="link"
+                          nextLayoutName="vuwasufamoci/DoborujeFiyamUlejo.xml" crumbTrail="false"/>
+                    <menu label="Pike Vet" name="heqiVer" renderAs="link"
+                          nextLayoutName="zaz/bakihejimiha.xml" crumbTrail="false"/>
+                </menu>
+                <menu label="Specific Maba" name="vulazeciZida" renderAs="link" toFeature="XOLeyakololarUwimEcezaza">
+                    <menu label="Specific Maba Vojiy" name="sigilihuQadaVuyeqe" renderAs="link"
+                          nextLayoutName="zaz/vulazecizida/mobemazapa.xml" crumbTrail="false"/>
+                    <menu label="Specific Maba Wumohofoco" name="leRacefaruhiZowi" renderAs="link"
+                          nextLayoutName="zaz/wumohofoco/mobemazapa.xml" crumbTrail="false"
+                          pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.wumohofoco.CaxuzalaBetuBobutanimaSumaYumader"/>
+                    <menu label="Runixufayir" name="runixufayir">
+                        <menu label="Jewivuy Hamilab Runixufayir" renderAs="link" crumbTrail="false"
+                              name="huqasaHedoJacoxud" nextLayoutName="zaz/vulazecizida/xoruxipemePiniz.xml"
+                              pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.yenazimuxu.RURohovifetuSeboVoqeyo.kojIsuqobiQabuhirEfizitupuh"/>
+                        <menu label="Jewivuy/BIG Hamilab Runixufayir" renderAs="link" crumbTrail="false"
+                              name="bulujuPuzutad" nextLayoutName="zaz/vulazecizida/xoruxipemePiniz.xml"
+                              pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.yenazimuxu.RURohovifetuSeboVoqeyo.sehEvokuniRuxabegodi"/>
+                        <menu label="Tigaran Sofitowalagupi Runixufayir" renderAs="link" crumbTrail="false"
+                              name="giratiHaleMubuc" nextLayoutName="zaz/vulazecizida/xoruxipemePiniz.xml"
+                              pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.yenazimuxu.RURohovifetuSeboVoqeyo.woxIcurAmekelusahusubAqapejumav"/>
+                        <menu label="Depenamohi Rized Runixufayir" renderAs="link" crumbTrail="false"
+                              name="xozexiVohebaZuwov" nextLayoutName="zaz/vulazecizida/xoruxipemePiniz.xml"
+                              pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.yenazimuxu.RURohovifetuSeboVoqeyo.pudIfibapifupUmitoTepomuluxe"/>
+                        <menu label="BaVerajiduh Runixufayir" renderAs="link" crumbTrail="false"
+                              name="lecemenaMisetotu" nextLayoutName="zaz/vulazecizida/xoruxipemePiniz.xml"
+                              pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.yenazimuxu.RURohovifetuSeboVoqeyo.wekIpOxavevufiJewitibiju"/>
+                    </menu>
+                    <menu label="Kavexukuqoy Nebetu" name="nuritidekitAhuyuf">
+                        <menu label="Zoqul Tigaran Sofitowalagupi Kavexukuqoy" renderAs="link" crumbTrail="false"
+                              name="folacAdokOjoyegAjasiyuzobe" nextLayoutName="zaz/vulazecizida/cuxoquhafitAwivi.xml"
+                              pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.nuritidekitahuyuf.HUTukaterutulIrutEjiked.tibEdutiWovenedEkociniyiqudiyAwobupamosiJezaf"/>
+                        <menu label="In Xen Narog Zade Kavexukuqoy" renderAs="link" crumbTrail="false"
+                              name="cuZifAzalaVohaNekudoxuref" nextLayoutName="zaz/vulazecizida/cuxoquhafitAwivi.xml"
+                              pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.nuritidekitahuyuf.HUTukaterutulIrutEjiked.yotUkIgaKewivEpozOfeqaqetiwaLefat"/>
+                        <menu label="Zov In Xen Va Req Kavexukuqoy" renderAs="link" crumbTrail="false"
+                              name="popUrEfiDuZunEjoworoheke" nextLayoutName="zaz/vulazecizida/cuxoquhafitAwivi.xml"
+                              pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.nuritidekitahuyuf.HUTukaterutulIrutEjiked.xudIjaJuCoqItIsaMexakuhuzigIbowe"/>
+                        <menu label="Bajajedugod Ruhil Yuniw Kavexukuqoy" renderAs="link" crumbTrail="false"
+                              name="dubUfabeZujikAsogowipuga" nextLayoutName="zaz/vulazecizida/cuxoquhafitAwivi.xml"
+                              pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.nuritidekitahuyuf.HUTukaterutulIrutEjiked.xisIyojalokukiViganOgarEbegolidowuWapod"/>
+                        <menu label="BERE Group Kavexukuqoy" renderAs="link" crumbTrail="false"
+                              name="gufeQehasIxakasoraca" nextLayoutName="zaz/vulazecizida/cuxoquhafitAwivi.xml"
+                              pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.nuritidekitahuyuf.HUTukaterutulIrutEjiked.sovEyisOzusoFixufibuquqElude"/>
+                        <menu label="Muzofupa Toxuqe Nasi Beki Kavexukuqoy" renderAs="link" crumbTrail="false"
+                              name="mulobososOYIKelobudoyod" nextLayoutName="zaz/vulazecizida/cuxoquhafitAwivi.xml"
+                              pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.nuritidekitahuyuf.HUTukaterutulIrutEjiked.ruzUmakayimEnumenUyawUvifIfivomimepuCibin"/>
+                    </menu>
+                </menu>
+            </menubar>
+        </row>
+    </section>
+
+    <section type="leftmenu">
+        <row>
+            <menubar name="menubar" halign="false">
+                <menu label="LETIR" name="letir" renderAs="link" toFeature="GedayoqevurUretEhopupu">
+                    <menu label="Vojiy Pizer" name="mobemazapa" renderAs="link"
+                          nextLayoutName="zaz/mobemazapa.xml" crumbTrail="true"/>
+                    <menu label="Coqun Xagexesi" name="xagexesi" renderAs="link"
+                          nextLayoutName="zaz/xagexesi/puqivej.xml" crumbTrail="true"/>
+                    <menu label="Wumohofoco" name="nohOdudoliziqIjez" renderAs="link"
+                          nextLayoutName="zaz/wumohofoco/wumohofoco.xml" crumbTrail="false"
+                          pageBuilder="com.gs.fw.kaza.zaz.wumohofoco.XaxijEvumelagobUhoyUpefabi"/>
+                    <menu label="WOS Runixufayir" name="runixufayir" renderAs="link"
+                          nextLayoutName="zaz/kisobefazuheyi.xml" crumbTrail="true"/>
+                    <menu label="Xakude Runixufayir" name="rewiroCuyebupulip" renderAs="link"
+                          nextLayoutName="zaz/rewiroCuyebupulip.xml" crumbTrail="true"/>
+                    <menu label="Caxanado Runixufayir" name="jufecafiZayeweyajaw" renderAs="link"
+                          nextLayoutName="zaz/jufecafiZayeweyajaw.xml" crumbTrail="true"/>
+                    <menu label="Dehon Jeco Runixufayir" name="pixevOqalIgofodateze" renderAs="link"
+                          nextLayoutName="zaz/pixevOqalIgofodateze.xml" crumbTrail="true"/>
+                    <menu label="Miganala Losanaqanabi" name="sotilociTijo" renderAs="link"
+                          nextLayoutName="zaz/sotilocitijo.xml" crumbTrail="true"/>
+                    <menu label="Biyiruwe Pizer" name="Biyiruwe" renderAs="link"
+                          nextLayoutName="vuwasufamoci/zonitiluXocajIgo.xml" crumbTrail="false"/>
+                    <menu label="Pike Vet" name="heqiVer" renderAs="link"
+                          nextLayoutName="zaz/bakihejimiha.xml" crumbTrail="true"/>
+               </menu>
+                <menu label="Specific Maba" name="vulazeciZida" renderAs="link" toFeature="XOLeyakololarUwimEcezaza">
+                    <menu label="Specific Maba Vojiy" name="sigilihuQadaVuyeqe" renderAs="link"
+                          nextLayoutName="zaz/vulazecizida/mobemazapa.xml" crumbTrail="false"/>
+                    <menu label="Specific Maba Wumohofoco" name="leRacefaruhiZowi" renderAs="link"
+                          nextLayoutName="zaz/wumohofoco/wumohofoco.xml" crumbTrail="false"
+                          pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.wumohofoco.CaxuzalaBetuBobutanimaSumaYumader"/>
+                    <menu label="Runixufayir" name="runixufayir">
+                        <menu label="Jewivuy Hamilab Runixufayir" renderAs="link" crumbTrail="false"
+                              name="huqasaHedoJacoxud" nextLayoutName="zaz/vulazecizida/xoruxipemePiniz.xml"
+                              pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.yenazimuxu.RURohovifetuSeboVoqeyo.kojIsuqobiQabuhirEfizitupuh"/>
+                        <menu label="Jewivuy/BIG Hamilab Runixufayir" renderAs="link" crumbTrail="false"
+                              name="bulujuPuzutad" nextLayoutName="zaz/vulazecizida/xoruxipemePiniz.xml"
+                              pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.yenazimuxu.RURohovifetuSeboVoqeyo.sehEvokuniRuxabegodi"/>
+                        <menu label="Tigaran Sofitowalagupi Runixufayir" renderAs="link" crumbTrail="false"
+                              name="giratiHaleMubuc" nextLayoutName="zaz/vulazecizida/xoruxipemePiniz.xml"
+                              pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.yenazimuxu.RURohovifetuSeboVoqeyo.woxIcurAmekelusahusubAqapejumav"/>
+                        <menu label="Depenamohi Rized Runixufayir" renderAs="link" crumbTrail="false"
+                              name="xozexiVohebaZuwov" nextLayoutName="zaz/vulazecizida/xoruxipemePiniz.xml"
+                              pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.yenazimuxu.RURohovifetuSeboVoqeyo.pudIfibapifupUmitoTepomuluxe"/>
+                        <menu label="BaVerajiduh Runixufayir" renderAs="link" crumbTrail="false"
+                              name="lecemenaMisetotu" nextLayoutName="zaz/vulazecizida/xoruxipemePiniz.xml"
+                              pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.yenazimuxu.RURohovifetuSeboVoqeyo.wekIpOxavevufiJewitibiju"/>
+                    </menu>
+                    <menu label="Kavexukuqoy Nebetu" name="nuritidekitAhuyuf">
+                        <menu label="Zoqul Tigaran Sofitowalagupi Kavexukuqoy" renderAs="link" crumbTrail="false"
+                              name="folacAdokOjoyegAjasiyuzobe" nextLayoutName="zaz/vulazecizida/cuxoquhafitAwivi.xml"
+                              pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.nuritidekitahuyuf.HUTukaterutulIrutEjiked.tibEdutiWovenedEkociniyiqudiyAwobupamosiJezaf"/>
+                        <menu label="In Xen Narog Zade Kavexukuqoy" renderAs="link" crumbTrail="false"
+                              name="cuZifAzalaVohaNekudoxuref" nextLayoutName="zaz/vulazecizida/cuxoquhafitAwivi.xml"
+                              pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.nuritidekitahuyuf.HUTukaterutulIrutEjiked.yotUkIgaKewivEpozOfeqaqetiwaLefat"/>
+                        <menu label="Zov In Xen Va Req Kavexukuqoy" renderAs="link" crumbTrail="false"
+                              name="popUrEfiDuZunEjoworoheke" nextLayoutName="zaz/vulazecizida/cuxoquhafitAwivi.xml"
+                              pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.nuritidekitahuyuf.HUTukaterutulIrutEjiked.xudIjaJuCoqItIsaMexakuhuzigIbowe"/>
+                        <menu label="Bajajedugod Ruhil Yuniw Kavexukuqoy" renderAs="link" crumbTrail="false"
+                              name="dubUfabeZujikAsogowipuga" nextLayoutName="zaz/vulazecizida/cuxoquhafitAwivi.xml"
+                              pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.nuritidekitahuyuf.HUTukaterutulIrutEjiked.xisIyojalokukiViganOgarEbegolidowuWapod"/>
+                        <menu label="BERE Group Kavexukuqoy" renderAs="link" crumbTrail="false"
+                              name="gufeQehasIxakasoraca" nextLayoutName="zaz/vulazecizida/cuxoquhafitAwivi.xml"
+                              pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.nuritidekitahuyuf.HUTukaterutulIrutEjiked.sovEyisOzusoFixufibuquqElude"/>
+                        <menu label="Muzofupa Toxuqe Nasi Beki Kavexukuqoy" renderAs="link" crumbTrail="false"
+                              name="mulobososOYIKelobudoyod" nextLayoutName="zaz/vulazecizida/cuxoquhafitAwivi.xml"
+                              pageBuilder="com.gs.fw.kaza.zaz.vulazecizida.vo.nuritidekitahuyuf.HUTukaterutulIrutEjiked.ruzUmakayimEnumenUyawUvifIfivomimepuCibin"/>
+                    </menu>
+                </menu>
+            </menubar>
+        </row>
+    </section>
+</layout>

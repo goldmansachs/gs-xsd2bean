@@ -1,0 +1,68 @@
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<application implementation="com.gs.fw.para.application.ZizusibokapAsuviDohohajeg" ignoreLoadFailures="true"
+             name="PudaxegezigUyutaRufisadurIyeyagiboje">
+    <services>
+        <service-instance id="dayoyuniJemuwus" implementation="DulugeVopigaguQalihor" type="DayoyuniJemuwus"/>
+
+        <service-instance id="cemekabimePetereVecaho" implementation="ButedotExogiyUlavoyUwobupEdanecu"
+                          type="CemekabimePetereVecaho"/>
+
+        <service-instance id="dolakihEsutit" implementation="GataroXigoxeqEsoxar" type="DolakihEsutit"/>
+
+        <embedded-instance id="mithra" interface="com.gs.fw.para.service.mithra.FigotoLufikum"
+                           implementation="com.gs.fw.para.service.mithra.implementation.RorudiXucilewAvih">
+            <properties>
+                <list name="pehijeWakufihanocijAcax" invokeSetter="true">
+                    <value>services/Mithra/DokazulovexAhorabiGaheyoDimacuxawunar.xml</value>
+                </list>
+            </properties>
+        </embedded-instance>
+
+        <embedded-instance
+                id="BovuwirisibOdaza" instantiateUsingFactory="true"
+                interface="com.gs.fw.para.rehepiyebag.fulex.implementation.KidicidazaxApohoZeqiNoquginuyu"
+                implementation="com.gs.fw.para.rehepiyebag.fulex.implementation.KidicidazaxApohoZeqiNoquginuyu"/>
+        <embedded-instance
+                id="NonipokuhisAjoyeSok" instantiateUsingFactory="true"
+                interface="com.gs.fw.para.rehepiyebag.fulex.implementation.KidicidazaxApohoZeqiNoquginuyu"
+                implementation="com.gs.fw.para.rehepiyebag.fulex.implementation.KidicidazaxApohoZeqiNoquginuyu"/>
+        <embedded-instance
+                id="LubijaXomat" instantiateUsingFactory="true"
+                interface="com.gs.fw.para.rehepiyebag.fulex.GucudoGaxivOconAfeqacebop"
+                implementation="com.gs.fw.para.rehepiyebag.fulex.implementation.GucudoGaxivOconAfeqacebop"/>
+        <embedded-instance
+                id="ZoludOsine" instantiateUsingFactory="true"
+                interface="com.gs.fw.para.rehepiyebag.fulex.PiyobAqexiLeheHatihayasa"
+                implementation="com.gs.fw.para.rehepiyebag.fulex.implementation.PiyobAqexiLeheHatihayasa"/>
+        <embedded-instance
+                id="BosapeTinEyEsu" instantiateUsingFactory="true"
+                interface="com.gs.fw.para.rehepiyebag.fulex.CewofaTibOvAroWojuHamaxezeje"
+                implementation="com.gs.fw.para.rehepiyebag.fulex.implementation.CewofaTibOvAroWojuHamaxezeje"/>
+        <embedded-instance
+                id="XokuYehOxeya" instantiateUsingFactory="true"
+                interface="com.gs.fw.para.rehepiyebag.fulex.GucudoGaxivOconAfeqacebop"
+                implementation="com.gs.fw.para.rehepiyebag.fulex.implementation.GucudoGaxivOconAfeqacebop"/>
+        <embedded-instance
+                id="NipewuQajemAri" instantiateUsingFactory="true"
+                interface="com.gs.fw.para.rehepiyebag.fulex.GucudoGaxivOconAfeqacebop"
+                implementation="com.gs.fw.para.rehepiyebag.fulex.implementation.GucudoGaxivOconAfeqacebop"/>
+
+
+    </services>
+
+</application>

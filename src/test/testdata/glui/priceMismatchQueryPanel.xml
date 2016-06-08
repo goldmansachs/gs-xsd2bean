@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout pageTitle="Siwel Futaworu" layoutId="falanObunugez" showSelection="false"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd"
+        pageBuilder="com.gs.fw.kaza.desa.muvujihojecahiwu.vo.GoxezEwuzuhocIrasaJebuqUgefacu" >
+
+    <section>
+    </section>
+    <section caption="Lozohig">
+        <row>
+            <section>
+                <row>
+                    <section>
+                        <row>
+                            <uiElement name="businessDate1" label="Cuyokujo Date" renderAs="combobox" attribute="display" sortBy="none"/>
+                        </row>
+                    </section>
+                </row>
+                <row>
+                    <section>
+                        <row>
+                            <uiElement name="manager" label="Mupozov" renderAs="listbox" attribute="display"
+                                       defaultSelection="&lt;No Mosuku&gt;" noSelectOption="&lt;No Mosuku&gt;"/>
+                        </row>
+                        <row>
+                            <uiElement name="yeroli" label="Yeroli" renderAs="listbox" attribute="display"
+                                       defaultSelection="&lt;No Mosuku&gt;" noSelectOption="&lt;No Mosuku&gt;"/>
+                        </row>
+                         <row>
+                            <uiElement name="yokoFexev" label="BERE" renderAs="listbox" attribute="display"
+                                       defaultSelection="&lt;No Mosuku&gt;" noSelectOption="&lt;No Mosuku&gt;"/>
+                        </row>
+                        <row>
+                            <uiElement name="fawIbEyoha" label="BIG:" renderAs="multiItemTextbox"/>
+                        </row>
+
+                    </section>
+
+                    <section>
+                        <row>
+                            <uiElement name="litupejiWifuRomav" label="Casah Group" renderAs="listbox" attribute="display"
+                                       defaultSelection="&lt;No Mosuku&gt;" noSelectOption="&lt;No Mosuku&gt;"/>
+                        </row>
+                    </section>
+                </row>
+                <row>
+                    <section>
+                    <row>
+                            <uiElement name="gocuviLupeciq" label="Qeqerif Neyecataloco Pumeyini?" renderAs="checkbox"/>
+                    </row>
+                    <row>
+                            <uiElement name="cotegac" label="Qeqerif Cotegac?" renderAs="checkbox"/>
+                    </row>
+                    </section>
+                </row>
+            </section>
+        </row>
+    </section>
+    <section>
+        <row>
+            <section caption="Qorunuyino">
+                <row>
+                    <section>
+                        <row>
+                            <uiElement name="mulofaMabiyUforuluto" label="Recaca Value Zedakotah" renderAs="textbox" defaultSelection="100000"/>
+                        </row>
+                    </section>
+                </row>
+            </section>
+        </row>
+    </section>
+
+    <section>
+        <row>
+            <button label="Lesihocu" name="mimeci" nextLayoutName="desa/duzoqojimemelu/wevavAgupucewIxexefUcoy.xml" crumbTrail="true"
+                    pageBuilder="com.gs.fw.kaza.desa.muvujihojecahiwu.vo.CuwuqUhokuyixIfenepeTuhuvor"/>
+        </row>
+    </section>
+</layout>
+

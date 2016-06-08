@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>interface,riyoxadipojoxuj,noki,gokurogohupu,qahabiwe,wunopi,tetahij,javeneruma</Templates>
+    <PackageName>com.gs.fw.lilu.wute.domain.buh</PackageName>
+    <ClassName>RubuwequqikukeVokupiLosalomuku</ClassName>
+    <DefaultTable>RUH_GIMASIWEGELULU_PAXICE</DefaultTable>
+    <SchemaName>mut</SchemaName>
+    <DatabaseName>zoqew</DatabaseName>
+    <ConnectionManagerName>zoqew</ConnectionManagerName>
+    <ReadOnly>true</ReadOnly>
+    <ExplicitColumnNamesForSelect>true</ExplicitColumnNamesForSelect>
+
+    <PrimaryKeyAttribute keyClass="CuheletojularuKebelaPuvedizokoRih">
+        <Attribute columnName="PAXICE_QEDE" javaType="String" name="jidiriYepu" sqlType="XefeTewesa"/>
+        <Attribute columnName="RUH_GIMASIWEGELULU_PO" javaType="int" name="tomOcocufuwiqexigEc" sqlType="Ciyisag"/>
+        <Attribute name="businessDate" sqlType="XIZofuxafasElegexaLimanigaw" javaType="Timestamp"
+            columnName="businessDate"/>
+    </PrimaryKeyAttribute>
+
+    <Attribute name="cajOfimidoQilo" javaType="boolean" columnName="IS_PUR" sqlType="Boolean"/>
+    <Attribute name="bexIhoqexoNomafi" javaType="double" columnName="HUD_QUWIDEM_FACTOR" sqlType="Luhisa"/>
+    <Attribute name="zebaKocuvan" javaType="String" columnName="ZAPA_SEWOHOW_N" sqlType="XefeTewesa"/>
+    <Attribute name="kigeJacinijAzen" javaType="String" columnName="ZAPA_W" sqlType="XefeTewesa"/>
+
+    <ForeignKeyAttribute name="kizUzomutacibotonEje" keyClass="KizUzomutacibotonEje">
+        <Attribute name="id" javaType="int" columnName="RUH_GIMASIWEGELULU_PO" sqlType="Ciyisag"/>
+        <Attribute name="businessDate" sqlType="XIZofuxafasElegexaLimanigaw" javaType="Timestamp"
+        columnName="businessDate"/>
+    </ForeignKeyAttribute>
+
+
+</ManagedObject>
+

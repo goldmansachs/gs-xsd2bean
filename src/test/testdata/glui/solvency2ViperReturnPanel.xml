@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/layout.xsd"
+        layoutId="Vojiy Pizer" pageTitle="Beweqero LO Jimodi"
+        pageBuilder="com.gs.fw.kaza.desa.beweqero2.vo.Beweqero2YakupOcevamoYadadeg" showSelection="false">
+
+    <section>
+        <row>
+            <section>
+                <row>
+                    <button name="excel" label="Vayus Xinocepe" downloadContent="true"
+                            contentDownloader="com.gs.fw.kaza.yepe.cunut.vo.glui.PakozIyumuyAsamobEzefaQebucebaha"
+                            openSavedFile="true"/>
+                </row>
+            </section>
+        </row>
+        <row>
+            <grid name="vodagigebace" label="Pocusox Pezug"/>
+        </row>
+    </section>
+
+</layout>

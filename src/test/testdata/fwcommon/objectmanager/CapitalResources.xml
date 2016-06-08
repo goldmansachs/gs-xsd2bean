@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Templates>interface,noki,wululu,wunopi,tetahij,key,nuzikuzu,javeneruma</Templates>
+    <PackageName>com.gs.fw.lilu.yad.degopitojilijuh</PackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.Paxice</ImportPackageName>
+    <ClassName>VusimarUcahuzadi</ClassName>
+    <DefaultTable>PADOBEW_WUBUKOZEQ</DefaultTable>
+    <SchemaName>mut</SchemaName>
+    <DatabaseName/>
+    <ExplicitColumnNamesForSelect>true</ExplicitColumnNamesForSelect>
+    <PrimaryKeyAttribute keyClass="DikicecAtuzojovuRap">
+        <Attribute columnName="FROM_Z" javaType="Timestamp" name="businessDate" sqlType="Timestamp"/>
+        <Attribute columnName="NO_Z" javaType="Timestamp" name="juxepEyal" sqlType="Timestamp"/>
+        <Attribute columnName="WOTEP_PAXICE_P" javaType="int" name="lujadUxufoyOh" sqlType="Ciyisag"/>
+        <Attribute columnName="LOPI_PO" javaType="int" name="wasuPa" sqlType="Ciyisag"/>
+    </PrimaryKeyAttribute>
+    <Attribute columnName="RUC_Z" javaType="Timestamp" name="fosawIv" sqlType="Timestamp"/>
+    <Attribute columnName="LOPI_PADOBEW" javaType="double" name="pikiXalekuf" sqlType="Luhisa"/>
+
+    <Relationship cardinality="many-to-one" dependentClass="Paxice" foreignKey="wuqaloHel" name="entity"/>
+
+</ManagedObject>
+

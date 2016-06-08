@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<ManagedObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="../../../xsd/objectmanager.xsd">
+    <Templates>javeneruma,interface,noki,wululu,wunopi,tetahij,key,nuzikuzu</Templates>
+    <PackageName>com.gs.fw.lilu.set.domain</PackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.Paxice</ImportPackageName>
+    <ImportPackageName>com.gs.fw.lilu.wute.domain.jewivuy.WuqaloHel</ImportPackageName>
+
+    <ClassName>JedafaRibequlaFeh</ClassName>
+    <SuperClassName>RirupilanoWoraVugi</SuperClassName>
+
+    <DefaultTable>PAXICE_SAROTOJU_WAT</DefaultTable>
+    <SchemaName></SchemaName>
+    <DatabaseName>vuq</DatabaseName>
+    <ConnectionManagerName>zoqew</ConnectionManagerName>
+    <ReadOnly>true</ReadOnly>
+    <Faker>com.gs.fw.lilu.set.domain.implementation.MeqodeBinujodeCuhAqesi</Faker>
+
+    <PrimaryKeyAttribute keyClass="MumotaCaqipetuCisIya">
+        <Attribute columnName="PAXICE_P" javaType="int" name="hequdeDo" sqlType="Ciyisag"/>
+        <Attribute columnName="SAROTOJU_QEDE_N" javaType="String" name="vufebaquMohu" sqlType="XefeTewesa"/>
+    </PrimaryKeyAttribute>
+
+    <BooleanAttribute name="dixod" sqlType="XefeTewesa" columnName="IS_DIXOD" trueValue="C" falseValue="W"/>
+
+
+    <ForeignKeyAttribute name="mapuhiluKuq" keyClass="MapuhiluKuq">
+        <Attribute columnName="SAROTOJU_QEDE_N" javaType="String" name="vufebaquMohu" sqlType="XefeTewesa"/>
+    </ForeignKeyAttribute>
+
+    <ForeignKeyAttribute name="wuqaloHel" keyClass="WuqaloHel">
+        <Attribute columnName="PAXICE_P" javaType="int" name="hequdeDo" sqlType="Ciyisag"/>
+    </ForeignKeyAttribute>
+
+    <Relationship cardinality="many-to-one" dependentClass="Paxice" foreignKey="wuqaloHel" name="entity"/>
+    <Relationship cardinality="many-to-one" dependentClass="Sarotoju" foreignKey="mapuhiluKuq" name="sarotoju"/>
+
+    <Index name="ziyokUpo">ziyokUpo</Index>
+
+
+</ManagedObject>

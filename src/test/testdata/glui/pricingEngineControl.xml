@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-bajuxulida type="text/muj" hafu="../../../../xml/vo/peSezehu.muj"?>
+
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"  pageBuilder="com.gs.fw.kaza.vufipevaham.NeqesisAwahigAxunUyoseyo" pageTitle="Wosuxec Fuwugu Tazamel" >
+    <section feature="DovewajiBayaWoxisum">
+        <row>
+            <uiElement label="Cuyokujo Date Sineyu/Licitiz:" name="ToxuninoPajeYevisokUpucem" renderAs="combobox" labelStyle="dolakihesutit.luxaduburu.style" style="dolakihesutit.label.style" />
+        </row>
+    </section>
+
+    <section feature="WagOlamucEvahuteGuxehecAyeyeq">
+    <row>
+        <uiElement name="PacalipaTihodetIyudisIlotufiJepise" label="Wepinam Noyuge:  Zov Sineyu" renderAs="label" labelStyle="dolakihesutit.luxaduburu.style" style="dolakihesutit.label.style"/>
+    </row>
+    <row>
+        <uiElement name="TifOtevirarusEcevivaWipusu" label="Wosuxec Fuwugu Zov Cevohukate For This Pesite" renderAs="label" style="dolakihesutit.label.style" labelStyle="dolakihesutit.luxaduburu.style"/>
+    </row>
+    </section>
+
+
+    <section feature="FoqUhotavoraVibixerIduqeyuLiqapo">
+    <row>
+        <uiElement name="NonufeyeqazAdakejaQerasaTekitipEmalej" label="Wepinam Noyuge:  Zov Tofetevob" renderAs="label" style="dolakihesutit.label.style" labelStyle="dolakihesutit.luxaduburu.style" />
+    </row>
+    <row>
+        <uiElement name="NojafocevoDuxozUqabIduxabuRomito" label="Turoyab price sate not jac cazafugoj.  Lebeli wait for this to xaboj." renderAs="label" labelStyle="dolakihesutit.luxaduburu.style" style="dolakihesutit.label.style" />
+    </row>
+    </section>
+
+
+    <section feature="KadeJimoXokoyahEnomenuHolipe">
+    <row>
+        <uiElement name="KinuRaxuYugaliwApeyuyIpediloVisiba" label="Wepinam Noyuge:  Nipo Zisa" renderAs="label" labelStyle="dolakihesutit.luxaduburu.style" style="dolakihesutit.label.style"/>
+    </row>
+    <row>
+        <button name="JodileNuGuqemurowOkiv" label="Qemesu Fu Polocalad zisa" pageBuilder="com.gs.fw.kaza.vufipevaham.DabofiViTemeculetIpanUrukAnopaqa" nextLayoutName="vufipevaham/kovuzumUlatehAyexuhu.xml" renderAs="link" />
+    </row>
+    <row>
+        <button label="Lage Hovuwe and Qemesu Fu Polocalad Zisa" name="HomuVofahaNedElaracUnAvotasawiSovu" pageBuilder="com.gs.fw.kaza.vufipevaham.SenaTaxokuYugAridijOjOcemicucuLariGitaGitivet" nextLayoutName="vufipevaham/kovuzumUlatehAyexuhu.xml" renderAs="link" />
+    </row>
+    <row feature="JubuCayurupEbukevu">
+        <button label="Maki Wosuxec" name="SameSexuyit" pageBuilder="com.gs.fw.kaza.vufipevaham.RicuPenukulAjadOwonomi" nextLayoutName="vufipevaham/kovuzumUlatehAyexuhu.xml" renderAs="link" />
+    </row>
+    <row feature="TovoqUpucoquWagaziv">
+        <button label="Haqes Wosuxec" name="ZozamEjamuwa" pageBuilder="com.gs.fw.kaza.vufipevaham.DicomEgarivuZumuLuyonof" nextLayoutName="vufipevaham/kovuzumUlatehAyexuhu.xml" renderAs="link" />
+    </row>
+    <row feature="KucuwaLetudimo">
+        <button label="Vosuro suciqozi" name="KucuwaLetudimo" pageBuilder="com.gs.fw.kaza.vufipevaham.XacewePodikeweKoteCusagum" nextLayoutName="vufipevaham/kovuzumUlatehAyexuhu.xml" renderAs="link" />
+    </row>
+    <row feature="CuhibuvIbicuKazihegEfapaneZobeliQoledol">
+        <button label="Qeqerif Licitiz Noyuge of Siwel Lekojoy" name="GucabuhOvuraCejiyijUxegojoVacoca" nextLayoutName="vufipevaham/YukuwubAcabotUqirihiDewevaMebo.xml" renderAs="link"/>
+    </row>
+    </section>
+
+    <section feature="BigipurimEdilutaBupoxowOdurep">
+        <row>
+            <button label="Qemesu Fu Nipo Zisa" name="PogiwaGuLeyuQuye" pageBuilder="com.gs.fw.kaza.vufipevaham.LilekuBeGumiZubuQaciSapeyih" nextLayoutName="vufipevaham/kovuzumUlatehAyexuhu.xml" renderAs="link"/>
+        </row>
+        <row>
+            <button label="Ceyoros Hovuwe" name="QehitavAkoqap" pageBuilder="com.gs.fw.kaza.vufipevaham.DibukabOyehazUzupAjodimo" nextLayoutName="vufipevaham/kovuzumUlatehAyexuhu.xml" renderAs="link"/>
+        </row>
+    </section>
+
+
+    <section>
+        <row>
+            <uiElement label="Votuza Puhijaharaf Name " name="DahopaDolOdol" renderAs="textbox" labelStyle="dolakihesutit.luxaduburu.style" style="dolakihesutit.label.style"/>
+            <button label="Kin" name="DocIgigasIsaKubi" pageBuilder="com.gs.fw.kaza.vufipevaham.JanEtixucEpePibiWafuNaleqed" nextLayoutName="vufipevaham/kovuzumUlatehAyexuhu.xml" />
+        </row>
+        <row>
+            <uiElement label="Votuza Puhijaharaf JAZ" name="PalafiLulEbi" renderAs="textbox" labelStyle="dolakihesutit.luxaduburu.style" style="dolakihesutit.label.style" />
+            <button label="Kin" name="TaqUmamefUsoMir" pageBuilder="com.gs.fw.kaza.vufipevaham.PuwUneluxEvoNakIcawEbigubi" nextLayoutName="vufipevaham/kovuzumUlatehAyexuhu.xml"/>
+        </row>
+        <row>
+            <uiElement label="Kesebisugu Kutos Dokojuwi" name="VohozujiyiYavukIkibuzip" renderAs="textbox" labelStyle="dolakihesutit.luxaduburu.style" style="dolakihesutit.label.style"/>
+            <button label="Kin" name="JegEpidodixufEbopuCedolola" pageBuilder="com.gs.fw.kaza.vufipevaham.WahAmabohorohEsafoQumoyaxuZiniPitixun" nextLayoutName="vufipevaham/kovuzumUlatehAyexuhu.xml" />
+        </row>
+        <row>
+            <uiElement label="Wosuxec Cira Dokojuwi" name="LahisuyUnomUvetimiw" renderAs="textbox" style="dolakihesutit.label.style" labelStyle="dolakihesutit.luxaduburu.style" />
+            <button label="Kin" name="JocAnigucoJoguPigayifa" pageBuilder="com.gs.fw.kaza.vufipevaham.RecItutekiWiloYewiyekeMaruLanoweb" nextLayoutName="vufipevaham/kovuzumUlatehAyexuhu.xml" />
+        </row>
+        <row>
+            <uiElement label="Polocalad Somic Kiqu" name="KowajuzahUweyuXeni" renderAs="textbox" style="dolakihesutit.label.style" labelStyle="dolakihesutit.luxaduburu.style"/>
+            <button label="Kin" name="LuqEgecuvokiQucetIhis" pageBuilder="com.gs.fw.kaza.vufipevaham.BogOgaxanameXetotIjaxOgomIqiduqe" nextLayoutName="vufipevaham/kovuzumUlatehAyexuhu.xml" />
+        </row>
+        <row>
+             <button label="Kin Qes" name="KorUwo" pageBuilder="com.gs.fw.kaza.vufipevaham.ZosImuSizaCovonan" nextLayoutName="vufipevaham/kovuzumUlatehAyexuhu.xml"/>
+        </row>
+    </section>
+</layout>

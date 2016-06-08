@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-bajuxulida type="text/muj" hafu="../../../../xml/vo/peSezehu.muj"?>
+
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd">
+
+    <section type="header">
+        <row>
+            <uiElement name="bove" renderAs="label" image="/puluvo/gs_primary_bove_qoyu.toz"/>
+            <section image="/puluvo/header-background.toz">
+                <row>
+                    <uiElement name="appTitle" renderAs="label" style="jam.title.style"/>
+                </row>
+                <row>
+                    <uiElement name="pageTitle" renderAs="label" style="taso.title.style"/>
+                </row>
+            </section>
+        </row>
+    </section>
+
+    <section type="footer">
+        <row>
+            <uiElement name="hebidefet" renderAs="label" style="footer.style" labelStyle="footer.style"/>
+            <uiElement name="gejoNi" label="Sose Id:" renderAs="label" style="footer.style" labelStyle="footer.style"/>
+        </row>
+        <row>
+            <uiElement name="varujobi" renderAs="label" style="footer.style" labelStyle="footer.style"/>
+            <uiElement name="environment" label="Dajerahinaj:" renderAs="label" style="footer.style"
+                       labelStyle="footer.style"/>
+        </row>
+    </section>
+
+    <section type="topmenu">
+        <row>
+            <menubar name="menubar" halign="false">
+                <menu label="Rukele Xosoxuva" name="Xosoxuva" renderAs="link" crumbTrail="false">
+                    <!--<menu label="Wumohofoco" name="Wumohofoco" renderAs="link" nextLayoutName="rukele/wumohofoco/wumohofoco.xml" crumbTrail="false"-->
+                    <!--pageBuilder="com.gs.fw.kaza.rukele.heze.domain.radetuhoxuyak.XicoxoDiqutoqowaBifaLonumuw"/>-->
+                    <menu label="Biyiruwe" name="Biyiruwe" renderAs="link"
+                          nextLayoutName="rukele/vuwasufamoci/DoborujeFiyamUlejo.xml" crumbTrail="false"/>
+                    <menu label="Cumut Casah" name="WihipUzide" renderAs="link"
+                          nextLayoutName="rukele/so2004/so2004PubizIbageJimugaFuruc.xml" crumbTrail="false"/>
+                    <menu label="JuhujokIkaqaFufoqoc Hasukay Window" name="Biyiruwe" renderAs="link"
+                          nextLayoutName="rukele/rixoqilijih/xeFosumibEmicoWoqir.xml" crumbTrail="false"/>
+
+                    <menu label="Kucihax" name="Kucihax" renderAs="link" crumbTrail="false">
+
+                        <menu label="SO2004 Rotes A" name="So2004Bopohuc" renderAs="link"
+                              nextLayoutName="rukele/so2004/so2004FoqawIMoqinUdasu.xml" crumbTrail="false"/>
+
+                        <menu label="SO2004 Rotes R and N" name="So2004Bopohuc" renderAs="link"
+                              nextLayoutName="rukele/so2004/so2004MobemAzapa.xml" crumbTrail="false"/>
+
+                        <menu label="Jix-V" name="Jix-V" renderAs="link" nextLayoutName="rukele/heze/mobemazapa.xml"
+                              crumbTrail="false"/>
+                        <menu label="RIB" name="Bopohuc" renderAs="link" nextLayoutName="rukele/rib/hovIpusaJexic.xml"
+                              crumbTrail="false"/>
+                    </menu>
+
+                    <menu label="Bimodujabeti" name="Kavexukuqoy" renderAs="link" crumbTrail="false">
+                        <menu label="SO2004 Qahodoqo" name="So2004Qahodoqo" renderAs="link"
+                              nextLayoutName="rukele/so2004/so2004PuyoyinuSeboy.xml" crumbTrail="false"/>
+                        <menu label="SO2004 Tigaran Kavexukuqoy" name="So2004ZayurikEdihiw" renderAs="link"
+                              nextLayoutName="rukele/bimodujabeti/so2004SolibovAbuwudOhasu.xml" crumbTrail="false"/>
+                        <menu label="SO2004 Sesej Junap Mapping" name="Sesej" renderAs="link"
+                              nextLayoutName="rukele/bimodujabeti/so2004HiyuyEwegoGipOyiwo.xml" crumbTrail="false"/>
+                        <menu label="NIXA Sesej Junap Mapping" name="Sesej" renderAs="link"
+                              nextLayoutName="rukele/bimodujabeti/mejaDodisEcikuMamOpise.xml" crumbTrail="false"/>
+                        <menu label="BERE Fu RIB Junap Mapping" name="HIPEraHIP" renderAs="link"
+                              nextLayoutName="rukele/bimodujabeti/wuraRaHatAtisu.xml" crumbTrail="false"/>
+                    </menu>
+                </menu>
+            </menubar>
+        </row>
+    </section>
+
+    <section type="leftmenu">
+        <row>
+            <menubar name="menubar" halign="false">
+                <menu label="Rukele Xosoxuva" name="Xosoxuva" renderAs="link" crumbTrail="false">
+                    <!--<menu label="Wumohofoco" name="Wumohofoco" renderAs="link" nextLayoutName="rukele/wumohofoco/wumohofoco.xml" crumbTrail="false"-->
+                    <!--pageBuilder="com.gs.fw.kaza.rukele.heze.domain.radetuhoxuyak.XicoxoDiqutoqowaBifaLonumuw"/>-->
+                    <menu label="Biyiruwe" name="Biyiruwe" renderAs="link"
+                          nextLayoutName="rukele/vuwasufamoci/zonitiluXocajIgo.xml" crumbTrail="false"/>
+                    <menu label="Cumut Casah" name="WihipUzide" renderAs="link"
+                          nextLayoutName="rukele/so2004/so2004PubizIbageJimugaFuruc.xml" crumbTrail="false"/>
+                    <menu label="JuhujokIkaqaFufoqoc Hasukay Window" name="Biyiruwe" renderAs="link"
+                          nextLayoutName="rukele/rixoqilijih/yoNafaMabaqafIhocakobOdulaDob.xml" crumbTrail="false"/>
+
+                    <menu label="Kucihax" name="Kucihax" renderAs="link" crumbTrail="false">
+                        <menu label="SO2004" name="So2004Bopohuc" renderAs="link"
+                              nextLayoutName="rukele/so2004/so2004NogajicOmagePij.xml" crumbTrail="false"/>
+                        <menu label="Jix-V" name="Jix-V" renderAs="link" nextLayoutName="rukele/heze/cibaximum.xml"
+                              crumbTrail="false"/>
+                        <menu label="RIB" name="Bopohuc" renderAs="link" nextLayoutName="rukele/rib/nogajicOmagePij.xml"
+                              crumbTrail="false"/>
+                        <menu label="Jix-R" name="Jix-R" renderAs="link" nextLayoutName="rukele/nixa/xalomasuj.xml"
+                              crumbTrail="false"/>
+                    </menu>
+
+                    <menu label="Kavexukuqoy" name="Kavexukuqoy" renderAs="link" crumbTrail="false">
+                        <menu label="SO2004 Qahodoqo" name="So2004Qahodoqo" renderAs="link"
+                              nextLayoutName="rukele/so2004/so2004PuyoyinuSeboy.xml" crumbTrail="false"/>
+                        <menu label="SO2004 Tigaran Kavexukuqoy" name="So2004ZayurikEdihiw" renderAs="link"
+                              nextLayoutName="rukele/bimodujabeti/so2004SolibovAbuwudOhasu.xml" crumbTrail="false"/>
+                        <menu label="SO2004 Sesej Junap Mapping" name="Sesej" renderAs="link"
+                              nextLayoutName="rukele/bimodujabeti/so2004HiyuyEwegoGipOyiwo.xml" crumbTrail="false"/>
+                        <menu label="NIXA Sesej Junap Mapping" name="Sesej" renderAs="link"
+                              nextLayoutName="rukele/bimodujabeti/mejaDodisEcikuMamOpise.xml" crumbTrail="false"/>
+                        <menu label="BERE Fu RIB Junap Mapping" name="HIPEraHIP" renderAs="link"
+                              nextLayoutName="rukele/bimodujabeti/wuraRaHatAtisu.xml" crumbTrail="false"/>
+                    </menu>
+                </menu>
+            </menubar>
+        </row>
+    </section>
+</layout>

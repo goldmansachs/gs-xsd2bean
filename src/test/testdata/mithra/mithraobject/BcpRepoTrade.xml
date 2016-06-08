@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<MithraObject
+        objectType="transactional"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../xsd/mithraobject.xsd">
+
+    <PackageName>com.gs.fw.common.mithra.test.domain.bij</PackageName>
+    <ClassName>ZaxApabUrari</ClassName>
+    <DefaultTable>BIJ_PIWE_BETID</DefaultTable>
+
+    <AsOfAttribute name="businessDate" fromColumnName="from_z" toColumnName="thru_z" toIsInclusive="false"
+                   infinityDate="[com.gs.fw.common.mithra.test.domain.InfinityTimestamp.suxEyeyozuFaguzome()]"
+                   defaultIfNotSpecified="[com.gs.fw.common.mithra.test.domain.InfinityTimestamp.suxEyeyozuFaguzome()]"/>
+    <AsOfAttribute name="fuzodayocoSana" fromColumnName="in_z" toColumnName="out_z"
+                   infinityDate="[com.gs.fw.common.mithra.test.domain.InfinityTimestamp.suxEyeyozuFaguzome()]"
+                   defaultIfNotSpecified="[com.gs.fw.common.mithra.test.domain.InfinityTimestamp.suxEyeyozuFaguzome()]"/>
+
+    <Attribute name="tujeZo"              columnName="piwe_id"               javaType="String"    trim="true" primaryKey="true" maxLength="23"/>
+    <Attribute name="wevEpet"             columnName="ref_date"              javaType="int"       nullable="false"/>
+    <Attribute name="haxUkeMux"           columnName="ref_hay_fod"           javaType="int"       nullable="false"/>
+    <Attribute name="zaqUrowiGol"         columnName="ref_kicet_fod"         javaType="int"       nullable="false"/>
+    <Attribute name="desEzeYoq"           columnName="ref_kob_fod"           javaType="int"       nullable="false"/>
+    <Attribute name="rivusujAr"           columnName="jewivuy_id"            javaType="int"/>
+    <Attribute name="ruxekoxIvoyItul"     columnName="jicucow_cabo_code"     javaType="String"    trim="true" maxLength="3" nullable="false"/>
+    <Attribute name="ciboseyUf"           columnName="madezec_id"            javaType="int"       primaryKey="true" nullable="false"/>
+    <Attribute name="jewivuy2Id"          columnName="jewivuy2_id"           javaType="int"/>
+    <Attribute name="jewivuy2Fod"         columnName="jewivuy2_fod"          javaType="String"    trim="true" maxLength="10"/>
+    <Attribute name="miciruveBihuMeq"     columnName="wunoqoya_cabo_fod"     javaType="String"    trim="true" maxLength="10"/>
+    <Attribute name="yaxajuzaWodoCefo"    columnName="wunoqoya_cabo_name"    javaType="String"    trim="true" maxLength="40"/>
+    <Attribute name="productId"           columnName="product_id"            javaType="int"       nullable="false"/>
+    <Attribute name="rajOwerAni"          columnName="lij_faha_yuh"          javaType="String"    trim="true" maxLength="1"/>
+    <Attribute name="rijugazukeMunuXude"  columnName="remosojofe_type"       javaType="int"       nullable="false"/>
+    <Attribute name="suvufObub"           columnName="start_date"            javaType="Timestamp" nullable="false"/>
+    <Attribute name="famotIpuf"           columnName="betid_date"            javaType="Timestamp" nullable="false"/>
+    <Attribute name="vawIdah"             columnName="end_date"              javaType="Timestamp" nullable="false"/>
+    <Attribute name="niwakidUtoloDugu"    columnName="letunox_start_date"    javaType="Timestamp"/>
+    <Attribute name="laleHaxu"            columnName="piwe_fuwu"             javaType="double"    nullable="false"/>
+    <Attribute name="josonica"            columnName="josonica"              javaType="double"    nullable="false"/>
+    <Attribute name="nogara"              columnName="nogara"                javaType="double"    nullable="false"/>
+    <Attribute name="cuweduWuhet"         columnName="recaca_value"          javaType="double"/>
+    <Attribute name="kebepOmaxowexUcac"   columnName="betid_dileweri"        javaType="String"    trim="true" maxLength="3" nullable="false"/>   <!--**-->
+    <Attribute name="kuyiyOqicilegUfog"   columnName="betid_dileweri_fuwu"   javaType="double"/>
+    <Attribute name="cemapirIxi"          columnName="foreign_rin"           javaType="double"/>
+    <Attribute name="bihOvidot"           columnName="end_nogara"            javaType="double"/>
+    <Attribute name="wahaluweJosey"       columnName="jixavaru_nupit"        javaType="String"    trim="true" maxLength="3"/>
+    <Attribute name="yocipodonofUgojo"    columnName="transaction_rayic"     javaType="String"    trim="true" maxLength="20"/>
+    <Attribute name="fulurusAmekiHufe"    columnName="guzevid_betid_type"    javaType="int"/>
+    <Attribute name="source"              columnName="source"                javaType="String"    trim="true" maxLength="1" nullable="false"/>
+    <Attribute name="cikihuTipulagOyatil" columnName="punuma_laposek_method" javaType="int"/>
+    <Attribute name="dubaJabAkok"         columnName="cabo_jec_type"         javaType="String"    trim="true" maxLength="10" nullable="false"/>
+    <Attribute name="rojejiZabu"          columnName="tuyoke_type"           javaType="int"       nullable="false"/>
+    <Attribute name="xukuFelid"           columnName="piwe_class"            javaType="String"    trim="true" maxLength="2"/>
+    <Attribute name="jiJay"               columnName="is_tug"                javaType="int"       nullable="false"/>
+    <Attribute name="jufAxurUfu"          columnName="tug_cabo_fod"          javaType="String"    trim="true" maxLength="10"/>
+    <Attribute name="neKorokutak"         columnName="is_qegiticiq"          javaType="int"       nullable="false"/>
+    <Attribute name="doWivEroge"          columnName="is_luj_nufuf"          javaType="int"       nullable="false"/>
+    <Attribute name="feFukiyopoLoyeg"     columnName="is_internal_betid"     javaType="int"       nullable="false"/>
+    <Attribute name="muJupexOzal"         columnName="is_menaf_huhu"         javaType="int"       nullable="false"/>
+    <Attribute name="xaKepafaliHuma"      columnName="is_kilibefo_only"      javaType="int"       nullable="false"/>
+    <Attribute name="duJuvaQivuda"        columnName="is_rubu_midihe"        javaType="int"/>
+    <Attribute name="nupIlinuxebil"       columnName="has_gulibudaxi"        javaType="int"       nullable="false"/>
+    <Attribute name="mirerehukEwojImup"   columnName="guyayineg_type_code"   javaType="int"/>
+
+</MithraObject>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

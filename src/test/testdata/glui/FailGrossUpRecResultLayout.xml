@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/layout.xsd"
+    pageTitle="Pujura Betid Yemuqi Mowere" layoutId="zogeWayUkowud" showSelection="false">
+    <section>
+        <row>
+            <table name="yakigaxugok" label="Covi Yelel Go Duzoqojimemelu" editable="false" rowsPerPage="0">
+                <uiElement label="Wunoqoya Jewivuy" name="Wunoqoya Jewivuy"/>
+                <uiElement label="Lusaw Su Jewivuy" name="Lusaw Su Jewivuy"/>
+                <uiElement label="Qakuya Su Jewivuy" name="Qakuya Su Jewivuy"/>
+                <uiElement label="Huxox\Buqad\Miganala" name="Huxox\Buqad\Miganala"/>
+                <uiElement label="Dutucecey Ruja Juho" name="Dutucecey Ruja Juho"/>
+                <uiElement label="Cuyokujo Type" name="Cuyokujo Type"/>
+                <uiElement label="Qot Sar Id" name="Qot Sar Id"/>
+                <!--<uiElement label="Tigaran Group Cuyifanakit" name="Tigaran Group Cuyifanakit"/>-->
+                <!--<uiElement label="Tigaran Group Juho" name="Tigaran Group Juho"/>-->
+                <uiElement label="Lomoh" name="Lomoh"/>
+                <uiElement label="Zevi Pupe Xuv" name="Zevi Pupe Xuv"/>
+                <uiElement label="Siwel" name="Siwel"/>
+                <uiElement label="Bumez Tuyoke Quantity" name="Bumez Tuyoke Quantity"/>
+                <uiElement label="Pujura Betid Quantity" name="Pujura Betid Quantity"/>
+                <uiElement label="Bumez Tuyoke Recaca Value" name="Bumez Tuyoke Recaca Value"/>
+                <uiElement label="Lusaw Recaca Value" name="Lusaw Recaca Value"/>
+                <uiElement label="Qakuya Recaca Value" name="Qakuya Recaca Value"/>
+                <uiElement label="Recaca Value Vicewohaxe" name="Recaca Value Vicewohaxe"/>
+                <uiElement label="Koga Pocusox" name="Koga Pocusox"/>
+                <uiElement label="Lusaw Melexiqican Value" name="Lusaw Melexiqican Value"/>
+                <uiElement label="Qakuya Melexiqican Value" name="Qakuya Melexiqican Value"/>
+                <uiElement label="Lusaw Mufupiqajud" name="Lusaw Mufupiqajud"/>
+                <uiElement label="Qakuya Mufupiqajud" name="Qakuya Mufupiqajud"/>
+                <uiElement label="Lusaw Setuzen Yelel Go" name="Lusaw Setuzen Yelel Go"/>
+                <uiElement label="Qakuya Setuzen Yelel Go" name="Qakuya Setuzen Yelel Go"/>
+                <uiElement label="Lusaw Yelel Go" name="Lusaw Yelel Go"/>
+                <uiElement label="Qakuya Yelel Go" name="Qakuya Yelel Go"/>
+            </table>
+        </row>
+    </section>
+</layout>

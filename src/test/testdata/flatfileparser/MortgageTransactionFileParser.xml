@@ -1,0 +1,56 @@
+<!--
+Copyright 2016 Goldman Sachs.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+        <FlatFileParserConfig
+                delimiter="~"
+                inflatedObject="com.gs.fw.para.domain.widu.implementation.KogihusaYodanazuxuyIdib"
+                columns="32"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:noNamespaceSchemaLocation="../../xsd/parserconfig.xsd">
+            <Header required="true" identifier="N.T.R. ==>" simpleFormat="N.T.R. ==>[hojakinipo]*[kufuXEri]"/>
+                    <!--dateRegex="^[^~]+~[^~]+~([0-9]{8})~[^~]+$" dateFormat="kufuXEri"/>-->
+
+            <Trailer required="true" identifier="KEJ" simpleFormat="KEJ[hojakinipo][count]*"/>
+
+            <Mapping attribute="rivusujAr"	                  position="1"    trim="true"/>
+            <Mapping attribute="vogazohesilAxuyol"		      position="2"    trim="true"/>
+            <Mapping attribute="visiZugUfizoc"	              position="3"    trim="true"/>
+            <Mapping attribute="jiximaQamuNelix"	          position="4"    trim="true"/>
+            <Mapping attribute="nalic"                        position="5"    trim="true"/>
+            <Mapping attribute="bibog1"                       position="6"    trim="true"     nullable="true"/>
+            <Mapping attribute="lavaxAdenigoBa"	              position="7"    trim="true"/>
+            <Mapping attribute="famotIpuf"                    position="9"   trim="true" format="kufuXEri"/>
+            <Mapping attribute="qubahaGuto"                   position="10"   trim="true" format="kufuXEri"/>
+            <Mapping attribute="xorupa"         	          position="11"   trim="true"/>
+            <Mapping attribute="mahaFolo"                     position="12"   format="kufuXEri HI:we:sa"/>
+            <Mapping attribute="bibog2"       	              position="13"   trim="true"/>  <!-- sose -->
+            <Mapping attribute="sizoresAzoj"	              position="14"   trim="true"/>
+            <Mapping attribute="zasomurOrefi"  	              position="15"   trim="true"/>
+            <Mapping attribute="josonica"              	      position="16"   trim="true"/>
+            <Mapping attribute="wajoHosamiqi"       	      position="17"   trim="true"/>
+            <Mapping attribute="jinaJoso"   	              position="18"   trim="true"/>
+            <Mapping attribute="raxokaCeyubupa"	              position="19"   trim="true"/>
+            <Mapping attribute="dahedudoPozoxola"             position="20"   trim="true"/>
+            <Mapping attribute="zefewaWitatu"                 position="21"   trim="true"/>
+            <Mapping attribute="zikelizeGetuj"  	          position="22"   trim="true"/>
+            <Mapping attribute="bibog4"      	              position="23"   trim="true"     nullable="true"/>
+            <Mapping attribute="hulilabanudIceq"         	  position="24"   trim="true"     nullable="true"/>
+            <Mapping attribute="wutirijIwom"                  position="26"   trim="true"     nullable="true"  format="kufuXEri"/>
+            <Mapping attribute="pepaSajojufOtuv"              position="27"   trim="true"     nullable="true"  format="kufuXEri"/>
+            <Mapping attribute="yukobokamesUmax"              position="29"   trim="true"     nullable="true" format="kufuXEri"/>
+            <Mapping attribute="warIyirEvos"                  position="30"   trim="true"/>
+        </FlatFileParserConfig>
+
+
