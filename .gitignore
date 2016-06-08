@@ -1,3 +1,5 @@
 target/**
 libboot/target/**
 build/lib/**
+build/setenv.bat
+build/setenv.ksh
