@@ -1,3 +1,4 @@
+@REM copy this file to setenv.bat and set JDK_HOME to your jdk install directory
 set JDK_HOME=c:\devel\jdk1.6.0_45
 set JUNIT_HTML_REPORT_DIR=%FREYAXML_HOME%\build\feryaxml\publish
 
