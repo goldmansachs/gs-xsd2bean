@@ -1,5 +1,7 @@
 #!/bin/ksh
 
+# instructions: copy this file to setenv.ksh and set JDK_HOME to your JDK install directory
+
 export CUR_DIR=`pwd`
 export XSD2BEAN_HOME=${XSD2BEAN_HOME:-"$CUR_DIR/.."}
 export JDK_HOME=${LUNT_JDK_HOME:-"/afs/gns-cdc.ny.fw.gs.com/depot_1/mw/java/64bit/oracle/hotspot/jdk-1.6.0_30-20141022_2/1"}
