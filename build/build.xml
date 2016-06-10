@@ -84,7 +84,7 @@ under the License.
             <replacefilter token="%XSD2BEAN_VERSION_STRING%" value="${xsd2bean.version}"/>
         </replace>
         <replace casesensitive="true" dir="${generated.src.dir}/com/gs/fw/common/freyaxml/generator" includes="FreyaXmlVersion.java">
-            <replacefilter token="%FREYAXML_VERSION%" value="${xsd2bean.version}"/>
+            <replacefilter token="%XSD2BEAN_VERSION%" value="${xsd2bean.version}"/>
         </replace>
         <replaceregexp file="${generated.src.dir}/com/gs/fw/common/freyaxml/generator/FreyaXmlVersion.java"
                          match="=[ ]*([0-9]+).([0-9]+).([0-9]+)"  replace="= \1 &lt;&lt; 16 | \2 &lt;&lt; 8 | \3"/>
