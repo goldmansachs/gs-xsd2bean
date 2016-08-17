@@ -52,7 +52,6 @@ under the License.
 
     <path id="xsd2bean.test.classpath">
         <path refid="xsd2bean.classpath"/>
-        <path refid="xsd2beangen.classpath"/>
         <pathelement location="${build.lib.dir}/junit-4.12.jar"/>
         <pathelement location="${build.lib.dir}/hamcrest-core-1.3.jar"/>
         <pathelement location="${build.lib.dir}/log4j-1.2.17.jar"/>
@@ -357,7 +356,6 @@ under the License.
         <echo message="${xsd2bean.log4j.config.file}"/>
         <parallel threadsPerProcessor ="1" >
             <exec-test-suite testclass="com.gs.fw.common.freyaxml.test.FreyaTestSuite"/>
-            <exec-test-suite testclass="com.gs.fw.common.freyaxml.test.FreyaXmlGeneratorTestSuite"/>
         </parallel>
     </target>
 
