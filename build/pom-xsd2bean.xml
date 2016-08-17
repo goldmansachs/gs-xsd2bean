@@ -19,10 +19,37 @@ under the License.
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.goldmansachs</groupId>
-    <artifactId>xsd2bean</artifactId>
+    <groupId>com.goldmansachs.xsd2bean</groupId>
+    <artifactId>xsd2beangen</artifactId>
     <version>@xsd2bean.version@</version>
-    <packaging>jar</packaging>
+    <packaging>bundle</packaging>
+
+    <name>Xsd2bean</name>
+    <description>Xsd2bean is a dependency free XML to object mapper. Given an xsd, it will generate
+        java code that represents the model described in the xsd with the ability to
+        read an xml and create the java objects and vice versa (unmarshall/marshall).</description>
+    <url>https://github.com/goldmansachs/gs-xsd2bean</url>
+
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Mohammad Rezaei</name>
+            <email>mohammad.rezaei@gs.com</email>
+            <organization>Goldman Sachs</organization>
+        </developer>
+    </developers>
+
+    <scm>
+        <url>https://github.com/goldmansachs/gs-xsd2bean</url>
+        <connection>scm:git:https://github.com/goldmansachs/gs-xsd2bean.git</connection>
+        <developerConnection>scm:git:https://github.com/goldmansachs/gs-xsd2bean.git</developerConnection>
+    </scm>
 
     <dependencies/>
 </project>

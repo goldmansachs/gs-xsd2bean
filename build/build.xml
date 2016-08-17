@@ -17,7 +17,7 @@ under the License.
 
 <project name="xsd2bean" default="all">
     <property environment="env"/>
-    <property name="xsd2bean.version" value="1.4.2"/>
+    <property name="xsd2bean.version" value="1.5.0"/>
     <property name="jdk.home" value="${env.JDK_HOME}"/>
     <property name="xsd2bean.home" value="${env.XSD2BEAN_HOME}"/>
     <property name="build.dir" location="${xsd2bean.home}/build"/>
@@ -114,6 +114,7 @@ under the License.
     <target name="init-xsd2bean" depends="determine-jdk, sanity-check-xsd2bean">
         <tstamp/>
         <mkdir dir="${target.dir}"/>
+        <mkdir dir="${target.dir}/javadoc"/>
         <mkdir dir="${xsd2bean.classes.dir}"/>
         <mkdir dir="${xsd2bean.testclasses.dir}"/>
         <mkdir dir="${generated.src.dir}"/>
@@ -398,24 +399,40 @@ under the License.
         <delete quiet="true" dir="${target.dir}"/>
     </target>
 
+    <target name="javadoc-xsd2bean" depends="init-xsd2bean">
+        <javadoc
+                destdir="${target.dir}/javadoc"
+                author="true"
+                version="true"
+                use="true"
+                windowtitle="Xsd2bean Generator">
+
+            <fileset dir="${xsd2bean.source.dir}" defaultexcludes="yes">
+                <include name="com/gs/fw/common/freyaxml/generator/FreyaXmlGenerator.java"/>
+            </fileset>
+
+            <doctitle><![CDATA[<h1>Xsd2bean Generator</h1>]]></doctitle>
+            <bottom><![CDATA[<i>Copyright &#169; 2016 Goldman Sachs. Licensed under Apache 2.0</i>]]></bottom>
+        </javadoc>
+    </target>
+
     <target name="jar-xsd2beangen" depends="compile-xsd2bean-generator">
         <jar jarfile="${target.dir}/xsd2beangen-${xsd2bean.version}.jar" index="true">
             <fileset dir="${xsd2bean.classes.dir}">
-                <include name="com/gs/fw/common/freyaxml/generator/**/*.class"/>
-                <include name="com/gs/fw/common/freyaxml/templates/**/*.class"/>
+                <include name="com/gs/fw/common/freyaxml/**/*"/>
             </fileset>
-            <fileset dir="${xsd2bean.classes.dir}">
-                <include name="com/gs/fw/common/freyaxml/generator/**/*.properties"/>
+            <zipfileset prefix="META-INF" file="${xsd2bean.home}/NOTICE"/>
+            <zipfileset prefix="META-INF" file="${xsd2bean.home}/LICENSE"/>
+        </jar>
+    </target>
+
+    <target name="jar-xsd2beangen-javadoc" depends="javadoc-xsd2bean">
+        <jar jarfile="${target.dir}/xsd2beangen-${xsd2bean.version}-javadoc.jar" index="true">
+            <fileset dir="${target.dir}/javadoc">
+                <include name="**/*"/>
             </fileset>
-            <fileset dir="${xsd2bean.classes.dir}">
-                <include name="com/gs/fw/common/freyaxml/generator/**/*.tmpl.*"/>
-            </fileset>
-            <fileset dir="${xsd2bean.classes.dir}">
-                <include name="com/gs/fw/common/freyaxml/generator/*.md5"/>
-            </fileset>
-            <fileset dir="${xsd2bean.classes.dir}">
-                <include name="com/gs/fw/common/freyaxml/generator/**/*.ser"/>
-            </fileset>
+            <zipfileset prefix="META-INF" file="${xsd2bean.home}/NOTICE"/>
+            <zipfileset prefix="META-INF" file="${xsd2bean.home}/LICENSE"/>
         </jar>
     </target>
 
@@ -427,11 +444,65 @@ under the License.
             <fileset dir="${generated.src.dir}">
                 <include name="com/gs/fw/common/freyaxml/**/*.java"/>
             </fileset>
+            <zipfileset prefix="META-INF" file="${xsd2bean.home}/NOTICE"/>
+            <zipfileset prefix="META-INF" file="${xsd2bean.home}/LICENSE"/>
         </jar>
     </target>
 
-    <target name="jar-all-xsd2bean" depends="jar-xsd2beangen"/>
-    <target name="jar-all" depends="jar-all-xsd2bean"/> <!-- alias for master build -->
+    <target name="jar-all-xsd2bean" depends="jar-xsd2beangen, jar-xsd2bean-src, jar-xsd2beangen-javadoc"/>
 
+    <target name="gen-pom" depends="init-xsd2bean">
 
+        <copy file="${build.dir}/pom-xsd2bean.xml"
+              toFile="${target.dir}/xsd2beangen-${xsd2bean.version}.pom">
+        </copy>
+        <replace casesensitive="true" dir="${target.dir}" includes="xsd2beangen-${xsd2bean.version}.pom">
+            <replacefilter token="@xsd2bean.version@" value="${xsd2bean.version}"/>
+        </replace>
+    </target>
+
+    <target name="prep-release" depends="jar-all-xsd2bean, gen-pom"/>
+
+    <target name="bundle-release" >
+        <delete quiet="true" file="${target.dir}/bundle.jar"/>
+        <dependset>
+            <srcfileset dir="${target.dir}">
+                <include name="xsd2beangen-${xsd2bean.version}.pom"/>
+                <include name="xsd2beangen-${xsd2bean.version}.jar"/>
+                <include name="xsd2beangen-${xsd2bean.version}-sources.jar"/>
+                <include name="xsd2beangen-${xsd2bean.version}-javadoc.jar"/>
+            </srcfileset>
+            <targetfileset dir="${target.dir}" includes="*.asc"/>
+        </dependset>
+        <fail message="Release files are missing.">
+            <condition>
+                <not>
+                    <resourcecount count="8">
+                        <fileset dir="${target.dir}">
+                            <include name="xsd2beangen-${xsd2bean.version}.pom"/>
+                            <include name="xsd2beangen-${xsd2bean.version}.jar"/>
+                            <include name="xsd2beangen-${xsd2bean.version}-sources.jar"/>
+                            <include name="xsd2beangen-${xsd2bean.version}-javadoc.jar"/>
+                            <include name="xsd2beangen-${xsd2bean.version}.pom.asc"/>
+                            <include name="xsd2beangen-${xsd2bean.version}.jar.asc"/>
+                            <include name="xsd2beangen-${xsd2bean.version}-sources.jar.asc"/>
+                            <include name="xsd2beangen-${xsd2bean.version}-javadoc.jar.asc"/>
+                        </fileset>
+                    </resourcecount>
+                </not>
+            </condition>
+        </fail>
+        <jar jarfile="${target.dir}/bundle.jar" index="false">
+            <fileset dir="${target.dir}">
+                <include name="xsd2beangen-${xsd2bean.version}.pom"/>
+                <include name="xsd2beangen-${xsd2bean.version}.jar"/>
+                <include name="xsd2beangen-${xsd2bean.version}-sources.jar"/>
+                <include name="xsd2beangen-${xsd2bean.version}-javadoc.jar"/>
+                <include name="xsd2beangen-${xsd2bean.version}.pom.asc"/>
+                <include name="xsd2beangen-${xsd2bean.version}.jar.asc"/>
+                <include name="xsd2beangen-${xsd2bean.version}-sources.jar.asc"/>
+                <include name="xsd2beangen-${xsd2bean.version}-javadoc.jar.asc"/>
+            </fileset>
+        </jar>
+    </target>
 </project>
