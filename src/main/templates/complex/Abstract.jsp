@@ -48,7 +48,6 @@ import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
 import java.io.IOException;
-import com.gs.fw.common.freyaxml.generator.xsd.XsdComplexType;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.HashMap;
