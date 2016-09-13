@@ -14,7 +14,7 @@ with the ability to read an xml and create the java objects and vice versa (unma
 * Concrete classes are owned by the team; their abstract parent is generated.
 * Zero runtime dependency
 * Broad compatibility
-  * Works on any veriosn of JDK 1.6+
+  * Works on any version of JDK 1.6+
   * If library A uses Xsd2bean version X and library B uses Xsd2bean version Y, there is never any dependency clash at runtime.
 * Parsing is strict. Only elements defined in the xsd are allowed.
   * Xsd2bean should not be used when the parsing needs to be lenient or best-effort.
